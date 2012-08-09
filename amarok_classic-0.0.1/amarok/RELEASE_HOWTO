@@ -1,0 +1,62 @@
+SECTION 1: Preparation
+
+ * Check the README file is still relevant
+ * Run the "fixuifiles" script from the source-root
+ * Run the "bump_plugin_version.rb" script from the folder amarok/
+ * Commit the source to SVN
+--------------------------------------------------------------------------------
+
+SECTION 2: Creating and Testing the Tarball
+
+ * Run the release_amarok.rb script; OR
+   Follow the guide lines in appendix A
+ * Test the following:
+
+     $ ./configure && make
+     $ ./configure --enable-final --disable-debug && make
+
+ * Check it works OK without any amarok files in ~/.kde
+--------------------------------------------------------------------------------
+
+SECTION 3: Once Happy with the Tarball
+
+ * Ftp the tarball to upload.sf.net/incoming
+ * Tag the sourcecode in SVN, using the "tag_amarok.rb" script
+ * Use the admin system at sourceforge to register the release
+ * Update the amarok.kde.org front-page before anything else!
+ * Update kde-apps.org and freshmeat.net
+ * Send a witty, intelligent and diligently crafted email to the following:
+
+     To:  kde-announce@kde.org
+     CC:  amarok-devel@lists.sf.net
+     BCC: kde-extra-gear@kde.org, libvisual-devel@lists.sourceforge.net,
+          kde-multimedia@kde.org, nmm-dev@graphics.cs.uni-sb.de,
+          gstreamer-devel@lists.sourceforge.net,
+--------------------------------------------------------------------------------
+
+SECTION 4: After the Release
+
+ If you must change anything about the tarball you need to email binner@kde.org
+ because otherwise he gets annoyed that the md5 has changed.
+ Generally it is not wise to change the tarball, it could annoy the entire
+ open-source world!
+--------------------------------------------------------------------------------
+
+APPENDIX A
+
+This is what the release_amarok script does:
+
+ 1. Checkout a fresh copy of amarok, its docs and po; cd into the root
+ 2. Update APP_VERSION in amarok/src/amarok.h
+ 3. Update the version in amarok/amarok.lsm
+ 4. $ `find -name .svn -exec rm {} \;`
+ 5. $ export WANT_AUTOMAKE=1.6
+ 6. $ make -f Makefile.cvs
+ 7. $ rm -rf autom4te.cache config.h config.log
+ 8. $ pushd amarok; mv README TODO INSTALL ChangeLog AUTHORS COPYING amarok.lsm ..; popd
+ 9. $ mv ../multimedia ../amarok-VERSION
+10. $ tar cjf ../amarok-VERSION.tar.bz2 ../amarok-VERSION
+
+APPENDIX B
+
+To create a changelog in html format for updating the various articles and websites, run generate_changelog.rb.  It will output a file called ChangeLog.html.

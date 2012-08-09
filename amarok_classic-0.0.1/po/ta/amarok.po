@@ -1,0 +1,7563 @@
+# translation of amarok.po to 
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# translation of amarok.po to
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Ambalam <tamilpc@ambalam.com>, 2004.
+# root <root@localhost.localdomain>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2004-11-16 03:48-0800\n"
+"Last-Translator: Tamil PC <tamilpc@ambalam.com>\n"
+"Language-Team:  <ta@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "தெரியாத"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr ""
+
+#: playlistbrowser.cpp:83
+#, fuzzy
+msgid "Playlist..."
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:84
+#, fuzzy
+msgid "Radio Stream..."
+msgstr "Pre-Amp"
+
+#: playlistbrowser.cpp:85
+#, fuzzy
+msgid "Smart Playlist..."
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlistbrowser.cpp:86
+#, fuzzy
+msgid "Podcast..."
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:93
+#, fuzzy
+msgid "Current Playlist..."
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlistbrowser.cpp:94
+#, fuzzy
+msgid "Dynamic Playlist..."
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlistbrowser.cpp:97
+#, fuzzy
+msgid "Rename"
+msgstr "அடைவுகளை நீக்கு"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "விவரமான காட்சி"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "பட்டியல் காட்சி"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "அடுக்காத"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "ஏறுமுகமாக அடுக்கு"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "இறங்குமுகமாக அடுக்கு"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+#, fuzzy
+msgid "Radio Streams"
+msgstr "தொடர்கள்"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr ""
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+#, fuzzy
+msgid "Smart Playlists"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "தொகுப்பு"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "எல்லா தொகுப்புகள்"
+
+#: playlistbrowser.cpp:563
+#, fuzzy
+msgid "Favorite Tracks"
+msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "%1 ஆல்"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "நிறைய இயக்கப்பட்டது"
+
+#: playlistbrowser.cpp:595
+#, fuzzy
+msgid "Newest Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "இதற்கு முன் இயக்கியதில்லை"
+
+#: playlistbrowser.cpp:629
+#, fuzzy
+msgid "Ever Played"
+msgstr "இதற்கு முன் இயக்கியதில்லை"
+
+#: playlistbrowser.cpp:632
+#, fuzzy
+msgid "Genres"
+msgstr "உருவாக்கு"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr ""
+
+#: playlistbrowser.cpp:648
+#, fuzzy
+msgid "50 Random Tracks"
+msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#: playlistbrowser.cpp:704
+#, fuzzy
+msgid "Save Dynamic Playlist"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlistbrowser.cpp:704
+#, fuzzy
+msgid "Enter playlist name:"
+msgstr "வாசிபட்டியல்"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+#, fuzzy
+msgid "Dynamic Playlists"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlistbrowser.cpp:752
+#, fuzzy
+msgid "Random Mix"
+msgstr "மற்றும்"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "பரிந்துரைக்கப்பட்ட பாடல்கள்"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr ""
+
+#: playlistbrowser.cpp:946
+#, fuzzy
+msgid "Add Podcast"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:946
+#, fuzzy
+msgid "Enter Podcast URL:"
+msgstr "வாசிபட்டியல்"
+
+#: playlistbrowser.cpp:980
+#, fuzzy
+msgid "Download Interval"
+msgstr "மீடியாவை இயக்கு..."
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr ""
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+#, fuzzy
+msgid "Playlists"
+msgstr "வாசிபட்டியல்"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr ""
+
+#: playlistbrowser.cpp:1267
+#, fuzzy
+msgid "Playlist Files"
+msgstr "வாசிபட்டியல்"
+
+#: playlistbrowser.cpp:1267
+#, fuzzy
+msgid "Add Playlists"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "கோப்பிற்கு மறுபெயரிடும்போது பிழை."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "&ஏற்று"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+#, fuzzy
+msgid "Remove From Dynamic Mode"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+#, fuzzy
+msgid "Add to Dynamic Mode"
+msgstr "தரவு வகை"
+
+#: playlistbrowser.cpp:2034
+#, fuzzy
+msgid "Res&tore"
+msgstr "திரும்ப ஆரம்பி"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "&மறுபெயரிடு"
+
+#: playlistbrowser.cpp:2092
+#, fuzzy
+msgid "E&dit..."
+msgstr "தொகு..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+#, fuzzy
+msgid "R&emove"
+msgstr "அடைவுகளை நீக்கு"
+
+#: playlistbrowser.cpp:2128
+#, fuzzy
+msgid "E&dit"
+msgstr "தொகு..."
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+#, fuzzy
+msgid "Show &Information"
+msgstr "மெடா தகவலை பார்"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr ""
+
+#: playlistbrowser.cpp:2179
+#, fuzzy
+msgid "&Configure..."
+msgstr "வடிவமை..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "&வாசி"
+
+#: playlistbrowser.cpp:2239
+#, fuzzy
+msgid "&Queue"
+msgstr "கலைப்பு"
+
+#: playlistbrowser.cpp:2242
+#, fuzzy
+msgid "&Download Media"
+msgstr "மீடியாவை இயக்கு..."
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr ""
+
+#: playlistbrowser.cpp:2297
+#, fuzzy
+msgid "Add Playlist..."
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:2300
+#, fuzzy
+msgid "Add Smart-Playlist..."
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlistbrowser.cpp:2303
+#, fuzzy
+msgid "Add Radio Stream..."
+msgstr "Pre-Amp"
+
+#: playlistbrowser.cpp:2306
+#, fuzzy
+msgid "Save Dynamic Configuration..."
+msgstr "அடைவுகளை உள்ளமை..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr ""
+
+#: playlistbrowser.cpp:2311
+#, fuzzy
+msgid "Add Podcast..."
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: playlistbrowser.cpp:2313
+#, fuzzy
+msgid "Scan Interval..."
+msgstr "மீடியாவை இயக்கு..."
+
+#: playlistbrowser.cpp:2317
+#, fuzzy
+msgid "Create Sub-Folder"
+msgstr "K3b திட்டத்தை உருவாக்கு"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+#, fuzzy
+msgid "Folder"
+msgstr "அடிப்படை அடைவு"
+
+#: playlistbrowser.cpp:2367
+#, fuzzy, c-format
+msgid "Folder %1"
+msgstr "அடிப்படை அடைவு"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+#, fuzzy
+msgid "&Queue Track"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "குறுந்தகடுக்கு தரவாக எழுது"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "குறுந்தகடுக்கு கேட்பொலியாக எழுது"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+#, fuzzy
+msgid "Edit Track &Information..."
+msgstr "தடம் தகவல்"
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr ""
+
+#: playlistbrowser.cpp:2429
+#, fuzzy, c-format
+msgid "This file does not exist: %1"
+msgstr "இந்த கோப்பு இல்லை"
+
+#: playlistbrowser.cpp:2669
+#, fuzzy
+msgid "&Restore"
+msgstr "திரும்ப ஆரம்பி"
+
+#: playlistbrowser.cpp:2857
+#, fuzzy
+msgid "Save Playlist"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlistbrowser.cpp:2858
+#, fuzzy
+msgid "Save to location..."
+msgstr "இடம்:"
+
+#: playlistbrowser.cpp:2862
+#, fuzzy
+msgid "&Enter a name for the playlist:"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: playlistbrowser.cpp:2886
+#, fuzzy
+msgid "Overwrite Playlist?"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlistbrowser.cpp:2886
+#, fuzzy
+msgid "Overwrite"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr ""
+
+#: enginecontroller.cpp:115
+#, fuzzy
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#: enginecontroller.cpp:186
+#, fuzzy
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>amaroK ஒலி எஞ்சின் சொருகுப்பொருள்களை கண்டுப்பிடிக்க முடியவில்லை; உங்கள் "
+"amaroK நிறுவல் உடைந்திருக்கலாம். மூலத்தில் இருந்து நிறுவி இருந்தால் amaroK "
+"கேடியி கீழ் நிறுவப்படவில்லை. ./configure --prefix=`kde-config --prefix` ஐ "
+"பயன்படுத்தி README கோப்பு விவரித்துள்ளது போல் amaroKஐ திரும்ப அமைக்கவும். "
+"மேலும் உதவிக்கு எங்களுடன் #amarok on irc.freenode.net என்ற முகவரியில் தொடர்பு "
+"கொள்ளவும்."
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr ""
+
+#: enginecontroller.cpp:333
+#, fuzzy
+msgid "Local file does not exist."
+msgstr "இந்த கோப்பு இல்லை"
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+#, fuzzy
+msgid "Script Manager"
+msgstr "உறை மேலாளர்"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+
+#: scriptmanager.cpp:320
+#, fuzzy
+msgid "Select Script Package"
+msgstr "குறுநிரல்கள்"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr ""
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr ""
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr ""
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:418
+#, fuzzy
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "இந்த உறையை மேலெழுத வேண்டுமா?"
+
+#: scriptmanager.cpp:418
+#, fuzzy
+msgid "Uninstall Script"
+msgstr "குறுநிரல்கள்"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr ""
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr ""
+
+#: scriptmanager.cpp:553
+#, fuzzy, c-format
+msgid "About %1"
+msgstr "விடுவித்தல்"
+
+#: scriptmanager.cpp:557
+#, fuzzy
+msgid "%1 amaroK Script"
+msgstr "குறுநிரல்கள்"
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr ""
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr ""
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr ""
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr ""
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr ""
+
+#: playlistloader.cpp:60
+#, fuzzy
+msgid "Populating playlist"
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr ""
+
+#: playlistloader.cpp:324
+#, fuzzy
+msgid "Some media could not be loaded (not playable)."
+msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#: playlistloader.cpp:325
+#, fuzzy
+msgid "These media could not be loaded into the playlist: "
+msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr ""
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr ""
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr ""
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr ""
+
+#: playlistloader.cpp:669
+#, fuzzy
+msgid "Retrieving Playlist"
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#: directorylist.cpp:37
+#, fuzzy
+msgid "These folders will be scanned for media to make up your collection."
+msgstr "இந்த அடைவுகள் கண்டிப்பாக புதிய கோப்புகளுக்காக வருடும்."
+
+#: directorylist.cpp:41
+#, fuzzy
+msgid "&Scan folders recursively"
+msgstr "தொடர்ச்சியாக வருடு"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr ""
+
+#: directorylist.cpp:43
+#, fuzzy
+msgid "&Import playlists"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: directorylist.cpp:45
+#, fuzzy
+msgid "If selected, amaroK will read all subfolders."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr ""
+
+#: party.cpp:78
+#, fuzzy
+msgid "Enable dynamic mode"
+msgstr "தரவு வகை"
+
+#: party.cpp:79
+#, fuzzy
+msgid "Show Options"
+msgstr "செயல்"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+
+#: party.cpp:241
+#, fuzzy
+msgid "Dynamic Mode Introduction"
+msgstr "[0] அறிமுகம்"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "உறை மேலாளர்"
+
+#: covermanager.cpp:84
+#, fuzzy
+msgid "Albums By"
+msgstr "திரட்டு வைப்பேடு"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+#, fuzzy
+msgid "All Albums"
+msgstr "திரட்டு வைபேடு"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "பலவித கலைஞர்கள்"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+#, fuzzy
+msgid "Filter here..."
+msgstr "உலாவியை தேடும்"
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "வடிகாட்டியை நீக்கு"
+
+#: covermanager.cpp:123
+#, fuzzy
+msgid "Enter space-separated terms to filter albums"
+msgstr "வடிகட்டிக்காண வாசிப்புபட்டியலுக்கு வெற்றிட-பிரிப்பி முறைகளை உள்ளிடு"
+
+#: covermanager.cpp:131
+#, fuzzy
+msgid "Albums With Cover"
+msgstr "உறையுடன் ஆல்பங்கள்"
+
+#: covermanager.cpp:132
+#, fuzzy
+msgid "Albums Without Cover"
+msgstr "உறையில்லாமல் ஆல்பங்கள்"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr ""
+
+#: covermanager.cpp:140
+#, fuzzy
+msgid "Canada"
+msgstr "மற்றும்"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr ""
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr ""
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr ""
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr ""
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr ""
+
+#: covermanager.cpp:172
+#, fuzzy
+msgid "Fetch Missing Covers"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "விடுவித்தல்"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr ""
+
+#: covermanager.cpp:370
+#, fuzzy
+msgid "Loading Thumbnails..."
+msgstr "எழுதும் ஒட்டு..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+#, fuzzy
+msgid "..."
+msgstr "சேர்..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+#, fuzzy
+msgid "Cover Image"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:472
+#, fuzzy
+msgid "&Fetch Selected Covers"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:474
+#, fuzzy
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#: covermanager.cpp:475
+#, fuzzy
+msgid "&Unset Selected Covers"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "&முழு அளவையும் காட்டு"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, fuzzy, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "&amazon.comல் இருந்து எடுத்து வா"
+
+#: covermanager.cpp:483
+#, fuzzy
+msgid "Set &Custom Image"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:485
+#, fuzzy
+msgid "Set &Cover Image"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:488
+#, fuzzy
+msgid "&Unset Cover Image"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+#, fuzzy
+msgid "Select Cover Image File"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:746
+#, fuzzy, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr ""
+"_n: Are you sure you want to delete this cover?\n"
+"இந்த %n உறைகளை உறுதியாக நீக்கவேண்டுமா?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "முடிந்தது."
+
+#: covermanager.cpp:789
+#, fuzzy, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr ""
+"_n:  Cover not found\n"
+" <b>%n</b>உறைகள் இல்லை"
+
+#: covermanager.cpp:801
+#, fuzzy
+msgid "Fetching cover for "
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: covermanager.cpp:807
+#, fuzzy, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr ""
+"_n: Fetching 1 cover: \n"
+"<b>%n</b>உறைகளை கொண்டு வருகிறது... : "
+
+#: covermanager.cpp:809
+#, fuzzy, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr ""
+"_n: 1 fetched\n"
+"%n கொண்டுவரப்பட்டது"
+
+#: covermanager.cpp:812
+#, fuzzy, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr ""
+"_n: 1 not found\n"
+"%n இல்லை"
+
+#: covermanager.cpp:815
+#, fuzzy
+msgid "Connecting..."
+msgstr "வடிவமை..."
+
+#: covermanager.cpp:835
+#, fuzzy
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr ""
+"_n: 1 result for \"%1\"\n"
+"\"%1\"க்கான %n முடிவுகள்"
+
+#: covermanager.cpp:837
+#, fuzzy, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr "ஆல்"
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> உறை இல்லாமல் )"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr ""
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "இந்த உறையை மேலெழுத வேண்டுமா?"
+
+#: covermanager.cpp:1025
+#, fuzzy
+msgid "Overwrite Confirmation"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: covermanager.cpp:1026
+#, fuzzy
+msgid "&Overwrite"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr "இந்த செய்தியை amarok-devel@lists.sf.net, க்கு சொல்லவும், நன்றி!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "அமார்க்கு வாருங்கள்"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "பகுப்பாய்வி"
+
+#: playerwindow.cpp:789
+#, fuzzy
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "மேலும் பகுப்பாய்விக்கு சொடுக்கவும் "
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr ""
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "காட்சி..."
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "உள்ளடக்க பட்டியலுக்கு உருப்படியில் வலது-சொடுக்கவும்"
+
+#: socketserver.cpp:261
+#, fuzzy
+msgid "Fullscreen"
+msgstr "திரை"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "வடிகட்டிக்கான தொகுதிக்கு வெற்றிட-பிரிப்பி முறைகளை உள்ளிடு"
+
+#: collectionbrowser.cpp:84
+#, fuzzy
+msgid "Update"
+msgstr "ஒட்டுகள்"
+
+#: collectionbrowser.cpp:90
+#, fuzzy
+msgid "Configure Folders"
+msgstr "நிறங்களை உள்ளாமை"
+
+#: collectionbrowser.cpp:91
+#, fuzzy
+msgid "Tree View"
+msgstr "விவரமான காட்சி"
+
+#: collectionbrowser.cpp:92
+#, fuzzy
+msgid "Flat View"
+msgstr "பட்டியல் காட்சி"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "கலைஞர்"
+
+#: collectionbrowser.cpp:120
+#, fuzzy
+msgid "Artist / Album"
+msgstr "படத்தில் இருக்கும் மற்ற தடங்கள்:"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "ஆண்டு"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "திரட்டு வைப்பேடு"
+
+#: collectionbrowser.cpp:123
+#, fuzzy
+msgid "Genre / Artist"
+msgstr "உருவாக்கு"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr ""
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "&முதல் நிலை"
+
+#: collectionbrowser.cpp:129
+#, fuzzy
+msgid "&Second Level"
+msgstr "இரண்டாம்"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "&மூன்றாம் நிலை"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+#, fuzzy
+msgid "&Album"
+msgstr "திரட்டு வைப்பேடு"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr ""
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+#, fuzzy
+msgid "A&rtist"
+msgstr "கலைஞர்"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+#, fuzzy
+msgid "&Genre"
+msgstr "உருவாக்கு"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+#, fuzzy
+msgid "&Year"
+msgstr "ஆண்டு"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+#, fuzzy
+msgid "&None"
+msgstr "எதுவுமில்லை"
+
+#: collectionbrowser.cpp:148
+#, fuzzy
+msgid "A&lbum"
+msgstr "திரட்டு வைப்பேடு"
+
+#: collectionbrowser.cpp:207
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"_n: 1 file\n"
+"<u>%n கோப்புகள்</u>"
+
+#: collectionbrowser.cpp:212
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: collectionbrowser.cpp:217
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"_n: 1 file\n"
+"<u>%n கோப்புகள்</u>"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+#, fuzzy
+msgid "Configure Collection"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#: collectionbrowser.cpp:1185
+#, fuzzy
+msgid "&Queue Tracks"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+#, fuzzy
+msgid "&Save as Playlist..."
+msgstr "வாசிப்பு பட்டியலை சேமி"
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+#, fuzzy
+msgid "Burn All Tracks by This Artist"
+msgstr "இந்த நடிகரின் விருப்ப தடம்:"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+#, fuzzy
+msgid "Burn This Album"
+msgstr "படத்தில் இருக்கும் மற்ற தடங்கள்:"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+#, fuzzy
+msgid "Burn to CD"
+msgstr "குறுந்தகடுக்கு தரவாக எழுது"
+
+#: collectionbrowser.cpp:1214
+#, fuzzy
+msgid "&Fetch Cover Image"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr ""
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr ""
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "தலைப்பு"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "உருவாக்கு"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "amaroK பட்டியல்"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "பட்டி"
+
+#: actionclasses.cpp:99
+#, fuzzy
+msgid "C&over Manager"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+#, fuzzy
+msgid "&Visualizations"
+msgstr "காட்சி..."
+
+#: actionclasses.cpp:102
+#, fuzzy
+msgid "E&qualizer"
+msgstr "வடிவமை..."
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "முதல்-ஓட்ட &பகுதி"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+#, fuzzy
+msgid "&Rescan Collection"
+msgstr "தொகுப்பு"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "வாசி/தற்காலிகமாக நிறுத்து"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "தற்காலிக நிறுத்தம்"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "வாசி"
+
+#: actionclasses.cpp:278
+#, fuzzy
+msgid "Click for more analyzers"
+msgstr "ஆய்வாளருக்கு சொடுக்கவும்"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "ஒலியளவு"
+
+#: actionclasses.cpp:338
+#, fuzzy
+msgid "Volume control"
+msgstr "ஒலியளவுக்"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "குறிப்பில்லா முறை"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: actionclasses.cpp:381
+#, fuzzy
+msgid "R&epeat Playlist"
+msgstr "வாசிபட்டியலை திரும்ப செய்"
+
+#: actionclasses.cpp:391
+#, fuzzy
+msgid "&Dynamic Mode"
+msgstr "தரவு வகை"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "எழுது"
+
+#: actionclasses.cpp:431
+#, fuzzy
+msgid "Current Playlist"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: actionclasses.cpp:432
+#, fuzzy
+msgid "Selected Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr ""
+
+#: actionclasses.cpp:505
+#, fuzzy
+msgid "After Current Track"
+msgstr "தற்போதைய தடத்திற்கு பிறகு வரிசை"
+
+#: actionclasses.cpp:506
+#, fuzzy
+msgid "After Queue"
+msgstr "கலைப்பு"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>KLibLoader சொருகுப்பொருளை ஏற்றாது:"
+"<br/><i>%1</i></p>"
+"<p>பிழை செய்தி:"
+"<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "பெயர்"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "நூலகம்"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "ஆசிரியர்கள்"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "மின்னஞ்சல்"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "பதிப்பு"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "ப்ரேம்வொர்க் பதிப்பு"
+
+#: pluginmanager.cpp:184
+#, fuzzy
+msgid "Plugin Information"
+msgstr "தடம் தகவல்"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, fuzzy, no-c-format
+msgid "Graph Equalizer"
+msgstr "வடிவமை..."
+
+#: equalizersetup.cpp:60
+#, fuzzy
+msgid "Equalizer"
+msgstr "வடிவமை..."
+
+#: equalizersetup.cpp:73
+#, fuzzy
+msgid "Presets:"
+msgstr "இயக்கம்"
+
+#: equalizersetup.cpp:80
+#, fuzzy
+msgid "Add new preset"
+msgstr "வடிவமை..."
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, fuzzy, no-c-format
+msgid "Enable Equalizer"
+msgstr "வடிவமை..."
+
+#: equalizersetup.cpp:113
+#, fuzzy
+msgid "Pre-amp"
+msgstr "Pre-Amp"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+#, fuzzy
+msgid "Manual"
+msgstr "பட்டி"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr ""
+
+#: equalizersetup.cpp:361
+#, fuzzy
+msgid "Add Equalizer Preset"
+msgstr "வடிவமை..."
+
+#: equalizersetup.cpp:362
+#, fuzzy
+msgid "Enter preset name:"
+msgstr "வாசிபட்டியல்"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "உங்கள் பெயர்கள்"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "உங்கள் மின் அஞ்சல்"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+
+#: mediabrowser.cpp:357
+#, fuzzy
+msgid "Delete File"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr ""
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, fuzzy, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: mediabrowser.cpp:414
+#, fuzzy
+msgid "Connect"
+msgstr "உள்ளடக்கம்"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr ""
+
+#: mediabrowser.cpp:419
+#, fuzzy
+msgid "Connect media device"
+msgstr "வடிவமை..."
+
+#: mediabrowser.cpp:420
+#, fuzzy
+msgid "Transfer tracks to media device"
+msgstr "வடிவமை..."
+
+#: mediabrowser.cpp:421
+#, fuzzy
+msgid "Configure mount commands"
+msgstr "எழுத்துருக்களை உள்ளமை "
+
+#: mediabrowser.cpp:445
+#, fuzzy
+msgid "&Remove From Queue"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: mediabrowser.cpp:446
+#, fuzzy
+msgid "&Clear Queue"
+msgstr "கலைப்பு"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr ""
+
+#: mediabrowser.cpp:663
+#, fuzzy
+msgid "Configure Media Device"
+msgstr "வடிவமை..."
+
+#: mediabrowser.cpp:668
+#, fuzzy
+msgid "&Mount command:"
+msgstr "குறிப்புரை"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:674
+#, fuzzy
+msgid "&Unmount command:"
+msgstr "குறிப்புரை"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr ""
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr ""
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+msgid "Media Device Browser"
+msgstr ""
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+
+#: mediabrowser.cpp:954
+msgid "&Transfer"
+msgstr ""
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr ""
+
+#: podcastsettings.cpp:20
+#, fuzzy
+msgid "Configure Podcast Stream"
+msgstr "வடிவமை..."
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr ""
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr ""
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+#, fuzzy
+msgid "Presets"
+msgstr "இயக்கம்"
+
+#: equalizerpresetmanager.cpp:100
+#, fuzzy
+msgid "Rename Equalizer Preset"
+msgstr "வடிவமை..."
+
+#: equalizerpresetmanager.cpp:101
+#, fuzzy
+msgid "Enter new preset name:"
+msgstr "வாசிபட்டியல்"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+#, fuzzy
+msgid "Queue Manager"
+msgstr "உறை மேலாளர்"
+
+#: queuemanager.cpp:276
+#, fuzzy
+msgid "Move up"
+msgstr "முன்னணி:"
+
+#: queuemanager.cpp:277
+#, fuzzy
+msgid "Move down"
+msgstr "முன்னணி:"
+
+#: queuemanager.cpp:279
+#, fuzzy
+msgid "Enqueue track"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: queuemanager.cpp:280
+#, fuzzy
+msgid "Clear queue"
+msgstr "கலைப்பு"
+
+#: tagdialog.cpp:59
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "ஆடியோ கோப்பகத்தை மாற்று"
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr ""
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr ""
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+#, fuzzy
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr ""
+
+#: playlistwindow.cpp:120
+#, fuzzy
+msgid "&Add Media..."
+msgstr "ஊடகத்தை சேர்"
+
+#: playlistwindow.cpp:121
+#, fuzzy
+msgid "&Save Playlist As..."
+msgstr "வாசிப்பு பட்டியலை சேமி"
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "மீடியாவை இயக்கு..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "கேட்பொலி குறுந்தகடை இயக்கு"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "பொது குறுக்குவழியை உள்ளமை..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "முந்தைய தடம்"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "அடுத்த தடம்"
+
+#: playlistwindow.cpp:186
+#, fuzzy
+msgid "S&earch:"
+msgstr "தேடு"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+
+#: playlistwindow.cpp:257
+#, fuzzy
+msgid "&Cover Manager"
+msgstr "உறை மேலாளர்"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+#, fuzzy
+msgid "&Equalizer"
+msgstr "வடிவமை..."
+
+#: playlistwindow.cpp:263
+#, fuzzy
+msgid "&First-Run Wizard"
+msgstr "முதல்-ஓட்ட &பகுதி"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+#, fuzzy
+msgid "Hide Toolbar"
+msgstr "வாசிபட்டியல் கருவிப்பட்டி"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+#, fuzzy
+msgid "Show Toolbar"
+msgstr "நிலைப்பட்டியைக் காட்டு"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+#, fuzzy
+msgid "Hide Player &Window"
+msgstr "சாலரத்தின் விளையாட்டு எழுத்துரு:"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+#, fuzzy
+msgid "Show Player &Window"
+msgstr "சாலரத்தின் விளையாட்டு எழுத்துரு:"
+
+#: playlistwindow.cpp:298
+#, fuzzy
+msgid "&Actions"
+msgstr "செயல்"
+
+#: playlistwindow.cpp:299
+#, fuzzy
+msgid "&Playlist"
+msgstr "வாசிபட்டியல்"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "உள்ளடக்கம்"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr ""
+
+#: playlistwindow.cpp:662
+#, fuzzy
+msgid "Play Media"
+msgstr "மீடியாவை இயக்கு..."
+
+#: playlistwindow.cpp:662
+#, fuzzy
+msgid "Add Media"
+msgstr "ஊடகத்தை சேர்..."
+
+#: collectionreader.cpp:37
+#, fuzzy
+msgid "Building Collection"
+msgstr "தொகுப்பு"
+
+#: collectionreader.cpp:67
+#, fuzzy
+msgid "Updating Collection"
+msgstr "தொகுப்பு"
+
+#: collectionreader.cpp:105
+#, fuzzy
+msgid "Updating Collection..."
+msgstr "தொகுப்பு"
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr ""
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr ""
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr ""
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr ""
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>ஆர்டீஸ் இயங்கவில்லை இதை கொண்டு <b>நேரத்தின் முன்னுரிமை</b> "
+"இது ஒலி பின்னணி பாடலை \"skip\" மற்றும் நிறுத்தும்."
+"<p>"
+"<p>நேரத்தின் முன்னுரிமையை பயன்படுத்தி,KDE கட்டுபாட்டு மையத்தை திற மற்றும் "
+"செயல்படசெய் \"Run with highest possible priority\", <i>ஒலி முறைமை </i>உள்ள <i> "
+"ஒலி & பல்லுடம்</i>கிளை. சிலர் \"$KDEDIR/bin/artswrapper\"  சரியாக உள்ளதா என "
+"பார்த்து <b>அமைக்கவும்</b> (chmod +s).</p>"
+"<p>பின்னணி பாடல் இல்லாமல் ஆர்டீஸ்டு முன்னுரிமை உயராது.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "aRts பிரச்சனை"
+
+#: engine/arts/artsengine.cpp:198
+#, fuzzy
+msgid "Cannot start aRts. You must use another engine."
+msgstr "aRts ஆரம்பிக்க முடியவில்லை. வெளியேறுகிறது."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "உயிர்நாடிப் பிழை"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>லிபாமராகார்ட்ஸ் ஏற்றும்போது போது பிழை. முதல் முயற்ச்சி:"
+"<pre>killall -9 artsd && ஆமராக்</pre>அது வேலை புரியாமல் போனால் ஆமராக் பொதுவாக "
+"தவறான முன்னொட்டுடன் நிறுவப்பட்டிருக்கலாம; தயவு செய்து அமராக்கை மறு உள்ளமைப்பு "
+"செய்யவும்:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+#, fuzzy
+msgid "amaroK Error"
+msgstr "உயிர்நாடிப் பிழை"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr ""
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+#, fuzzy
+msgid "Radio Stream"
+msgstr "Pre-Amp"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:733
+#, fuzzy
+msgid "General Warning"
+msgstr "பொதுவான விருப்பங்கள்"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:122
+#, fuzzy
+msgid "Contacting: "
+msgstr "வடிவமை..."
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr ""
+
+#: engine/helix/helix-configdialog.cpp:121
+#, fuzzy
+msgid "Output plugin:"
+msgstr "வெளியீடு:"
+
+#: engine/helix/helix-configdialog.cpp:133
+msgid "Device:"
+msgstr ""
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr ""
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr ""
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr ""
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr ""
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "K3b திட்டத்தை உருவாக்கு"
+
+#: k3bexporter.cpp:202
+#, fuzzy
+msgid "Audio Mode"
+msgstr "குறிப்பில்லா முறை"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "தரவு வகை"
+
+#: configdialog.cpp:81
+#, fuzzy
+msgid "Sound System"
+msgstr "ஒலி முறைமை:"
+
+#: configdialog.cpp:86
+#, fuzzy
+msgid "Click to select the sound system to use for playback."
+msgstr "பயன்படுத்துவதற்காக ஒலி முறைமை."
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "சொருகுப்பொருள் தகவலை பெற க்ளிக் செய்யவும்."
+
+#: configdialog.cpp:102
+#, fuzzy
+msgid "Locale Encoding"
+msgstr "இறங்குமுகம்"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "பொதுவான"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "பொதுவான விருப்பங்களை உள்ளமை"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr ""
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "காட்சிக்கு பின்"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "பின்வாசிப்பதை உள்ளமை"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "OSD"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "திரை-பிம்பத்திற்கான காட்சியை உள்ளமை"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "எஞ்ஜின்"
+
+#: configdialog.cpp:127
+#, fuzzy
+msgid "Configure Engine"
+msgstr "வடிவமை..."
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr ""
+
+#: configdialog.cpp:129
+#, fuzzy
+msgid "Configure last.fm Support"
+msgstr "வடிவமை..."
+
+#: configdialog.cpp:304
+#, fuzzy, c-format
+msgid "Configure %1"
+msgstr "வடிவமை..."
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr ""
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr ""
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr ""
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr ""
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr ""
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr ""
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+#, fuzzy
+msgid "%1 by %2"
+msgstr "ஆல்"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 kbps"
+
+#: metabundle.h:106
+#, fuzzy
+msgid "Stream"
+msgstr "Pre-Amp"
+
+#: metabundle.h:118
+#, fuzzy
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 Hz"
+
+#: metabundle.h:120
+#, fuzzy
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr ""
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr ""
+
+#: scrobbler.cpp:939
+#, fuzzy
+msgid "'%1' submitted to last.fm"
+msgstr "நிறங்களை உள்ளாமை"
+
+#: scrobbler.cpp:942
+msgid "Several tracks submitted to last.fm"
+msgstr ""
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr ""
+
+#: scrobbler.cpp:953
+#, fuzzy
+msgid "Failed to submit '%1' to last.fm"
+msgstr "நிறங்களை உள்ளாமை"
+
+#: scrobbler.cpp:956
+msgid "Failed to submit several tracks to last.fm"
+msgstr ""
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr ""
+
+#: scrobbler.cpp:967
+#, fuzzy, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, fuzzy, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, fuzzy, no-c-format
+msgid "Random Song"
+msgstr "மற்றும்"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, fuzzy, no-c-format
+msgid "Suggested Song"
+msgstr "பரிந்துரைக்கப்பட்ட பாடல்கள்"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, fuzzy, no-c-format
+msgid "Playlist Shuffle"
+msgstr "வாசிபட்டியல்"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, fuzzy, no-c-format
+msgid "&Remove played tracks"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, fuzzy, no-c-format
+msgid "Upcoming tracks:"
+msgstr "தெரியாத"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, fuzzy, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "கோப்பு பெயர்"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, fuzzy, no-c-format
+msgid "Filename"
+msgstr "கோப்பு பெயர்"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "தடம்"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "அகராதிபட்டியல் சார்ந்த"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "குறுநிரல்கள்"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "இந்த குறுநிரல்களை amaroKக்கிற்கும் பொருந்தும்."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, fuzzy, no-c-format
+msgid "&Install Script"
+msgstr "குறுநிரல்கள்"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr ""
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, fuzzy, no-c-format
+msgid "&Run"
+msgstr "இயக்கு"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, fuzzy, no-c-format
+msgid "&Stop"
+msgstr "&தவிர்"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr ""
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr ""
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr ""
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "வாசிபட்டியல் கருவிப்பட்டி"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, fuzzy, no-c-format
+msgid "Podcast Configuration"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, fuzzy, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, fuzzy, no-c-format
+msgid "Media Download"
+msgstr "முன்னணி:"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, fuzzy, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "மீடியாவை இயக்கு..."
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, fuzzy, no-c-format
+msgid "Download when a&vailable"
+msgstr "மீடியாவை இயக்கு..."
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, fuzzy, no-c-format
+msgid "Save location:"
+msgstr "இடம்:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, fuzzy, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr ""
+"தேர்வு செய்திருந்தால், amaroK காட்டும் மெட்டா தகவல் கூட தொடர்ச்சிக்கு "
+"இணைக்கப்படும்"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, fuzzy, no-c-format
+msgid " Items"
+msgstr " ms"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "முதல்-ஓட்ட &பகுதி"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, fuzzy, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr "வாசிப்பான் சாளரத்தை காட்டு (XMMS போல)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, fuzzy, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "தொகுப்பு"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, fuzzy, no-c-format
+msgid "Database (3 of 3)"
+msgstr "தரவுத்தளம்"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, fuzzy, no-c-format
+msgid "Database Setup"
+msgstr "தரவுத்தளம்"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, fuzzy, no-c-format
+msgid "Database:"
+msgstr "தரவுத்தளம்"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, fuzzy, no-c-format
+msgid "Postgresql Configuration"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, fuzzy, no-c-format
+msgid "MySQL Configuration"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, fuzzy, no-c-format
+msgid "Hostname:"
+msgstr "புரவலன்:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, fuzzy, no-c-format
+msgid "Name:"
+msgstr "பெயர்"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "முனையம்:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, fuzzy, no-c-format
+msgid "Username:"
+msgstr "பயனர்:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, fuzzy, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "ஆயத்த எழுத்துகள் &பயன்படுத்து"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, fuzzy, no-c-format
+msgid "The custom sink parameters."
+msgstr "ஆயத்த எழுத்துகள் &பயன்படுத்து"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr ""
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, fuzzy, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "மெடா தகவல்"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, fuzzy, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, fuzzy, no-c-format
+msgid " msec"
+msgstr " ms"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr ""
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, fuzzy, no-c-format
+msgid "Use custom sound device"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, no-c-format
+msgid "&Fade-out:"
+msgstr ""
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, fuzzy, no-c-format
+msgid "&Output plugin:"
+msgstr "வெளியீடு:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, fuzzy, no-c-format
+msgid "GStreamer sink"
+msgstr "தொடர்கள்"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr ""
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, fuzzy, no-c-format
+msgid "&Parameters:"
+msgstr "சட்ட விகிதம்"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, fuzzy, no-c-format
+msgid "Use custom sink parameters"
+msgstr "ஆயத்த எழுத்துகள் &பயன்படுத்து"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr ""
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, fuzzy, no-c-format
+msgid "Enable a custom device"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, fuzzy, no-c-format
+msgid "Xine Configure"
+msgstr "வடிவமை..."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, fuzzy, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, fuzzy, no-c-format
+msgid "&Stereo:"
+msgstr "உருவாக்கு"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, fuzzy, no-c-format
+msgid "&4 Channels:"
+msgstr "&எழுத்து அமைப்பு:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, fuzzy, no-c-format
+msgid "&6 Channels:"
+msgstr "&எழுத்து அமைப்பு:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, fuzzy, no-c-format
+msgid "OSS Device Configuration"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, fuzzy, no-c-format
+msgid "&Host:"
+msgstr "புரவலன்:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, fuzzy, no-c-format
+msgid "&User:"
+msgstr "பயனர்:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, fuzzy, no-c-format
+msgid "&Password:"
+msgstr "கடவுச்சொல்:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, fuzzy, no-c-format
+msgid "Output plugin"
+msgstr "வெளியீடு:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, no-c-format
+msgid "Device"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, fuzzy, no-c-format
+msgid "ALSA Device"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr ""
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, fuzzy, no-c-format
+msgid "Track Information"
+msgstr "தடம் தகவல்"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, fuzzy, no-c-format
+msgid "&Next"
+msgstr "எதுவுமில்லை"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, fuzzy, no-c-format
+msgid "Sa&ve && Close"
+msgstr "&சேமித்து &&மூடு"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, fuzzy, no-c-format
+msgid "Al&bum:"
+msgstr "திரட்டு வைபேடு"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, fuzzy, no-c-format
+msgid "Samplerate:"
+msgstr "மதிரியாக்கு"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, fuzzy, no-c-format
+msgid "&Artist:"
+msgstr "கலைஞர்"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, fuzzy, no-c-format
+msgid "&Genre:"
+msgstr "உருவாக்கு"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, fuzzy, no-c-format
+msgid "Length:"
+msgstr "நீளம்"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, fuzzy, no-c-format
+msgid "&Year:"
+msgstr "ஆண்டு"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, fuzzy, no-c-format
+msgid "&Score:"
+msgstr "திரை"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, fuzzy, no-c-format
+msgid "Bitrate:"
+msgstr "பிட்விகிதம்"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, fuzzy, no-c-format
+msgid "Trac&k:"
+msgstr "தடம்"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, fuzzy, no-c-format
+msgid "&Title:"
+msgstr "தலைப்பு"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, fuzzy, no-c-format
+msgid "Playcount:"
+msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr ""
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr ""
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, fuzzy, no-c-format
+msgid "&Comment:"
+msgstr "குறிப்புரை"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "இடம்:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "பொதுவான விருப்பங்கள்"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "திடீர்-திரையை ஆரம்பத்தில் காட்டு"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, fuzzy, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr "திடீர்திரையை amaroK  ஆரம்பத்தில் செயல்படுத்த தேர்வுசெய்."
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, fuzzy, no-c-format
+msgid "Show tra&y icon"
+msgstr "&தட்டு சின்னத்தை காட்டு"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, fuzzy, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "amaroK தட்டு சின்னத்தை செயல்படுத்த பரிசோதி."
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, fuzzy, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr "amaroK தட்டு சின்னத்தை செயல்படுத்த பரிசோதி."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, fuzzy, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "வாசிப்பான் சாளரத்தை காட்டு (XMMS போல)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, fuzzy, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "amaroK தட்டு சின்னத்தை செயல்படுத்த பரிசோதி."
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, fuzzy, no-c-format
+msgid "Playlist-Window Options"
+msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "தற்போதைய வாசிபட்டியலை வெளியே செல்லும்போது நினைவில் வைத்திருக்கும் "
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, fuzzy, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"இது குறிக்கப்பட்டிருந்தால், ஆமராக் தற்போதைய பாட்டுப்பட்டியலில் இருந்து வெளியேறி "
+"மறுதொடக்கத்தின் போது அதை மீட்டெடுக்கும்."
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, fuzzy, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"இது குறிக்கப்பட்டிருந்தால், ஆமராக் தற்போதைய பாட்டுப்பட்டியலில் இருந்து வெளியேறி "
+"மறுதொடக்கத்தின் போது அதை மீட்டெடுக்கும்."
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, fuzzy, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"குறியிடப்பட்டிருந்தால், தற்போதைக்கு வாசிக்கப்படும் பாடலை காண்பிக்க பாடல் "
+"பட்டியலானது உருள்கிறது. "
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"குறியிடப்பட்டிருந்தால், தற்போதைக்கு வாசிக்கப்படும் பாடலை காண்பிக்க பாடல் "
+"பட்டியலானது உருள்கிறது. "
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, fuzzy, no-c-format
+msgid "Show s&tatusbar"
+msgstr "நிலைப்பட்டியைக் காட்டு"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, fuzzy, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, fuzzy, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, fuzzy, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "நிலைப்பட்டியைக் காட்டு"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, fuzzy, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, fuzzy, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, fuzzy, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "பின்வரும் நிபந்தனைகள்"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, fuzzy, no-c-format
+msgid "ID&3v1 tags"
+msgstr "&ID3v1 ஒட்டுகளுக்கு மறுகுறியீடு"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "ஆயத்த எழுத்துகள் &பயன்படுத்து"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "தன்விருப்ப எழுத்துரு செயல்படுத்துதலை தேர்வுசெய்"
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, fuzzy, no-c-format
+msgid "Player-window font:"
+msgstr "சாலரத்தின் விளையாட்டு எழுத்துரு:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "சாளரத்தின் விளையாட்டு எழுத்துரு:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, fuzzy, no-c-format
+msgid "Context-browser font:"
+msgstr "உள்ளடக்க உலாவி"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, fuzzy, no-c-format
+msgid "The font to use in the context browser."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, fuzzy, no-c-format
+msgid "Color Scheme"
+msgstr "&வழக்கமான நிற திட்டமுறை"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "&வழக்கமான நிற திட்டமுறை"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"விளையாட்டு பட்டியலின் வண்ணங்களை பயனரின் பகுதியில் பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, fuzzy, no-c-format
+msgid "Fo&reground:"
+msgstr "முன்னணி:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, fuzzy, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr ""
+"வாசிப்பு பட்டியலில் முன்னணி (உரை) வண்ணத்திற்கு பயன்படுத்தும் வண்ணத்தை "
+"தேர்ந்தெடுக்கவும்."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, fuzzy, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr ""
+"வாசிப்பு பட்டியலில் முன்னணி (உரை) வண்ணத்திற்கு பயன்படுத்தும் வண்ணத்தை "
+"தேர்ந்தெடுக்கவும்."
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, fuzzy, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr ""
+"வாசிப்பு பட்டியலில் முன்னணி (உரை) வண்ணத்திற்கு பயன்படுத்தும் வண்ணத்தை "
+"தேர்ந்தெடுக்கவும்."
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "பின்னணி:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, fuzzy, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, fuzzy, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, fuzzy, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "தற்போதைய &KDE வண்ணத்தின் திட்டம்"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr ""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, fuzzy, no-c-format
+msgid "Context Browser Style"
+msgstr "உள்ளடக்க உலாவி"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, fuzzy, no-c-format
+msgid "Select a style:"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, fuzzy, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, fuzzy, no-c-format
+msgid "Install New Style..."
+msgstr "குறுநிரல்கள்"
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, fuzzy, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, fuzzy, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "படிப்படியான மாறுதல் &நடத்தை"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>இட மாறுபட்ட பழக்கவழக்கம்</ >\n"
+"<p>பின் வாசித்த பொது தடத்தின் நடுவில் அமார்க்கு இட மாறுபட்டது, இஃது வேறு "
+"தடத்திற்கு மாற்றப்பட்டுள்ளது [உள்ளமை இடம் ] அல்லது கிராஸ்பெடு காலத்திற்குள்</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, fuzzy, no-c-format
+msgid "&No crossfading"
+msgstr "&படிப்படியான மாறுதல்"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr ""
+"இயல்பான தட மாற்றத்தை செயல்படுத்து. நீங்கள் தடத்திற்கு இடையே சத்தமில்லாத "
+"இடைவெளியை சேர்க்கலாம்."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "&இடைவெளியை நுழை:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " ms"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "தடத்தின் நடுவே தாமதிக்கும் நிசப்தம், மில்லி நிமிடத்தில்."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, fuzzy, no-c-format
+msgid "&Crossfading"
+msgstr "&படிப்படியான மாறுதல்"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"குறுக்கு மங்குதலை தடத்திற்கு இடையே செயல்படுத்து. இந்த அமைப்புகள் மங்குதல் "
+"அல்லது நிசப்தத்தை சேர்க்கிறது. எ.டு. நிறுத்துதலை அழுத்தும் போது."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "மாறும் &நேரம்:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, fuzzy, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "குறுக்கு மங்குதலின் இடையே உள்ள நீளம் மில்லி நொடியில் இருக்கும்."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "&Resume playback on start"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, fuzzy, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"<b>தொடக்கத்தின் பின்வாசித்தலை ஆரம்பி </b> "
+"<p>அமார்க்கு தொடக்கத்தின் பின் வாசித்தலை ஆரம்பிக்கும் தகுதி உடைய முன் "
+"பகுதியிலிருந்து ஆரம்பிக்கும் இஃது நாடாவாசியாகும்.</p>."
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, fuzzy, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "திரை காட்சியை பயன்படுத்துக"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, fuzzy, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "எழுத்துரு:"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, fuzzy, no-c-format
+msgid "Draw &shadow"
+msgstr "நிழலை வரை"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, fuzzy, no-c-format
+msgid "C&olors"
+msgstr "நிறங்கள்"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, fuzzy, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "பின்னணி வண்ணம்:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "OSD பின்னணியின் வண்ணம்."
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, fuzzy, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "OSD உரையின் வண்ணம்."
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "OSD உரையின் வண்ணம்."
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, fuzzy, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "உரை வண்ணம்:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr ""
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, fuzzy, no-c-format
+msgid "Display &Text"
+msgstr "அடுத்ததாக வாசி"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr ""
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, fuzzy, no-c-format
+msgid "&Duration:"
+msgstr "நேரஅளவு:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, fuzzy, no-c-format
+msgid "Forever"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"OSD யில் நேரத்தை மில்லி நொடியில் காட்டுகிறது. மதிப்பு கண்டிப்பாக 500 ms மற்றும் "
+"10000 ms க்கு இடையில் இருக்கும். "
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "திரை அது கண்டிப்பாக OSD யை காட்டும்."
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, fuzzy, no-c-format
+msgid "Sc&reen:"
+msgstr "திரை"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySql"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, fuzzy, no-c-format
+msgid "Collection Folders"
+msgstr "தொகுப்பு"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, fuzzy, no-c-format
+msgid "Collection Database"
+msgstr "தொகுப்பு"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, fuzzy, no-c-format
+msgid "&Username:"
+msgstr "பயனர்:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, fuzzy, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "பின் வாசிப்பை நிறுத்து"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, fuzzy, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, fuzzy, no-c-format
+msgid "Amarok Version"
+msgstr "ப்ரேம்வொர்க் பதிப்பு"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, fuzzy, no-c-format
+msgid "Position of player window"
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, fuzzy, no-c-format
+msgid "Position of playlist window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, fuzzy, no-c-format
+msgid "Size of playlist window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, fuzzy, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "தற்போதைய வாசிபட்டியலை வெளியே செல்லும்போது நினைவில் வைத்திருக்கும் "
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, fuzzy, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"இது குறிக்கப்பட்டிருந்தால், ஆமராக் தற்போதைய பாட்டுப்பட்டியலில் இருந்து வெளியேறி "
+"மறுதொடக்கத்தின் போது அதை மீட்டெடுக்கும்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, fuzzy, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"விளையாட்டு பட்டியலின் வண்ணங்களை பயனரின் பகுதியில் பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, fuzzy, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr ""
+"விளையாட்டு பட்டியலின் வண்ணங்களை பயனரின் பகுதியில் பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, fuzzy, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, fuzzy, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, fuzzy, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, fuzzy, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, fuzzy, no-c-format
+msgid "Cycle Tracks"
+msgstr "தடம்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, fuzzy, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, fuzzy, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, fuzzy, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "amaroK தட்டு சின்னத்தை செயல்படுத்த பரிசோதி."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, fuzzy, no-c-format
+msgid "Whether to show player window"
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, fuzzy, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, fuzzy, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "தொடர்ச்சியாக அடைவுகளை சேர்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, fuzzy, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "தடத்தின் நடுவே தாமதிக்கும் நிசப்தம், மில்லி நிமிடத்தில்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, fuzzy, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "தடத்தின் நடுவே தாமதிக்கும் நிசப்தம், மில்லி நிமிடத்தில்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, fuzzy, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, fuzzy, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, fuzzy, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, fuzzy, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, fuzzy, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "சாளரத்தின் விளையாட்டு எழுத்துரு:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, fuzzy, no-c-format
+msgid "Currently unused"
+msgstr "தற்போது வாசிக்கிறது:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, fuzzy, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"குறியிடப்பட்டிருந்தால், தற்போதைக்கு வாசிக்கப்படும் பாடலை காண்பிக்க பாடல் "
+"பட்டியலானது உருள்கிறது. "
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, fuzzy, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "திடீர்-திரையை ஆரம்பத்தில் காட்டு"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, fuzzy, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr "திடீர்திரையை amaroK  ஆரம்பத்தில் செயல்படுத்த தேர்வுசெய்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, fuzzy, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "தற்போதைய வாசிபட்டியலை வெளியே செல்லும்போது நினைவில் வைத்திருக்கும் "
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, fuzzy, no-c-format
+msgid "Master volume"
+msgstr "சத்தத்தை அதிகரி"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, fuzzy, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "குறுக்கு மங்குதலின் இடையே உள்ள நீளம் மில்லி நொடியில் இருக்கும்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, fuzzy, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "குறுக்கு மங்குதலின் இடையே உள்ள நீளம் மில்லி நொடியில் இருக்கும்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "குறுக்கு மங்குதலின் இடையே உள்ள நீளம் மில்லி நொடியில் இருக்கும்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, fuzzy, no-c-format
+msgid "Sound system to use"
+msgstr "ஒலி முறைமை:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, fuzzy, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "வடிவமை..."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, fuzzy, no-c-format
+msgid "Equalizer preset name."
+msgstr "வாசிபட்டியல்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, fuzzy, no-c-format
+msgid "Use On-Screen Display"
+msgstr "திரை காட்சியை பயன்படுத்துக"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, fuzzy, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, no-c-format
+msgid "Customize the OSD display text."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, fuzzy, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "திரை-பிம்பத்திற்கான காட்சியை உள்ளமை"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, fuzzy, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, fuzzy, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, fuzzy, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "திரை-பிம்பத்தில் பயன்படுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, fuzzy, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"OSD யில் நேரத்தை மில்லி நொடியில் காட்டுகிறது. மதிப்பு கண்டிப்பாக 500 ms மற்றும் "
+"10000 ms க்கு இடையில் இருக்கும். "
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, fuzzy, no-c-format
+msgid "OSD screen"
+msgstr "திரை"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, fuzzy, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "தன்விருப்ப எழுத்துரு செயல்படுத்துதலை தேர்வுசெய்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, fuzzy, no-c-format
+msgid "Font in playlist window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, fuzzy, no-c-format
+msgid "Font in player window"
+msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, fuzzy, no-c-format
+msgid "Font in context browser"
+msgstr "உள்ளடக்க உலாவி"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, fuzzy, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "&ID3v1 ஒட்டுகளுக்கு மறுகுறியீடு"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, fuzzy, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "மெட்டா தகவலின் குறுக்குவழியை காட்டு (தலைப்பு தொடர்)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, fuzzy, no-c-format
+msgid "Recode encoding"
+msgstr "இறங்குமுகம்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, fuzzy, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, fuzzy, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, fuzzy, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, fuzzy, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr "விளையாட்டு பட்டியலின் வண்ணங்களை அமார்க்கு பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, fuzzy, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr ""
+"விளையாட்டு பட்டியலின் வண்ணங்களை பயனரின் பகுதியில் பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, fuzzy, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"விளையாட்டு பட்டியலின் வண்ணங்களை பயனரின் பகுதியில் பகுதியில் பயன்படுத்தலாம்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, fuzzy, no-c-format
+msgid "Playlist window foreground color"
+msgstr "சாளரத்தின் விளையாட்டு எழுத்துரு:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, fuzzy, no-c-format
+msgid "Playlist window background color"
+msgstr "சாளரத்தின் விளையாட்டு எழுத்துரு:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, fuzzy, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "&Resume playback on start"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, fuzzy, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "தடத்தின் நடுவே தாமதிக்கும் நிசப்தம், மில்லி நிமிடத்தில்."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, fuzzy, no-c-format
+msgid "Database Engine"
+msgstr "தரவுத்தளம்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, fuzzy, no-c-format
+msgid "Host"
+msgstr "புரவலன்:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, fuzzy, no-c-format
+msgid "Port"
+msgstr "முனையம்:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, fuzzy, no-c-format
+msgid "Database name"
+msgstr "தரவுத்தளம்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, fuzzy, no-c-format
+msgid "User"
+msgstr "பயனர்:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, fuzzy, no-c-format
+msgid "Password"
+msgstr "கடவுச்சொல்:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, fuzzy, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "பரிந்துரைக்கப்பட்ட பாடல்கள்"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, fuzzy, no-c-format
+msgid "Username"
+msgstr "பயனர்:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, fuzzy, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, fuzzy, no-c-format
+msgid "MountCommand"
+msgstr "குறிப்புரை"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, fuzzy, no-c-format
+msgid "UmountCommand"
+msgstr "குறிப்புரை"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr ""
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr ""
+
+#: smartplaylisteditor.cpp:37
+#, fuzzy
+msgid "Create Smart Playlist"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: smartplaylisteditor.cpp:45
+#, fuzzy
+msgid "Edit Smart Playlist"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "நீளம்"
+
+#: smartplaylisteditor.cpp:107
+#, fuzzy
+msgid "Track #"
+msgstr "தடம்"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "குறிப்புரை"
+
+#: smartplaylisteditor.cpp:108
+#, fuzzy
+msgid "Play Counter"
+msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+#, fuzzy
+msgid "Score"
+msgstr "திரை"
+
+#: smartplaylisteditor.cpp:108
+#, fuzzy
+msgid "First Play"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: smartplaylisteditor.cpp:108
+#, fuzzy
+msgid "Last Play"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr ""
+
+#: smartplaylisteditor.cpp:109
+#, fuzzy
+msgid "File Path"
+msgstr "கோப்பு பெயர்"
+
+#: smartplaylisteditor.cpp:125
+#, fuzzy
+msgid "Playlist name:"
+msgstr "வாசிபட்டியல்"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "பின்வரும் நிலையைப் பொருத்து"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "அனைத்தும்"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "ஏதாவது"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr "பின்வரும் நிபந்தனைகள்"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "ஆல் வரிசைப்படுத்து"
+
+#: smartplaylisteditor.cpp:152
+#, fuzzy
+msgid "Random"
+msgstr "மற்றும்"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "இற்கு எல்லை"
+
+#: smartplaylisteditor.cpp:167
+#, fuzzy
+msgid "tracks"
+msgstr "தடம்"
+
+#: smartplaylisteditor.cpp:172
+#, fuzzy
+msgid "Expand by"
+msgstr "மற்றும்"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr ""
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr ""
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "ஏறுமுகம்"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "இறங்குமுகம்"
+
+#: smartplaylisteditor.cpp:404
+#, fuzzy
+msgid "Match"
+msgstr "ஒட்டுகள்"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "பின்வரும் நிலைகளைப் பொருத்து"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "இடையே"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "கடைசியில் உள்ளது"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+#, fuzzy
+msgid "is not in the last"
+msgstr "கடைசியில் உள்ளது"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+#, fuzzy
+msgid "contains"
+msgstr "செயல்"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "உள்ளடக்காத."
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "is"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "என்பது இல்லை"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "உடன் தொடங்குகிறது"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "உடன் முடிக்கிறது"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "விட அதிகமான"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "பிறகு"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "விட குறைவான"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "முன்னால்"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "மற்றும்"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "நாட்கள்"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "மாதங்கள்"
+
+#: smartplaylisteditor.cpp:790
+#, fuzzy
+msgid "Years"
+msgstr "ஆண்டு"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr ""
+
+#: Options2.ui.h:81
+#, fuzzy
+msgid "Select Style Package"
+msgstr "குறுநிரல்கள்"
+
+#: contextbrowser.cpp:117
+#, fuzzy
+msgid "Add Lyrics"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: contextbrowser.cpp:118
+#, fuzzy
+msgid "Search For Lyrics"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:119
+#, fuzzy
+msgid "Refresh"
+msgstr "உருவாக்கு"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+#, fuzzy
+msgid "Open in external browser"
+msgstr "உள்ளடக்க உலாவி"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr ""
+
+#: contextbrowser.cpp:135
+#, fuzzy
+msgid "Artist Page"
+msgstr "கலைஞர்"
+
+#: contextbrowser.cpp:136
+#, fuzzy
+msgid "Album Page"
+msgstr "திரட்டு வைப்பேடு"
+
+#: contextbrowser.cpp:137
+#, fuzzy
+msgid "Title Page"
+msgstr "தலைப்பு"
+
+#: contextbrowser.cpp:153
+#, fuzzy
+msgid "Home"
+msgstr "ஒலியளவு"
+
+#: contextbrowser.cpp:154
+#, fuzzy
+msgid "Current"
+msgstr "நடப்புக்கு செல்"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr ""
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr ""
+
+#: contextbrowser.cpp:609
+#, fuzzy
+msgid "Set &Custom Cover"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#: contextbrowser.cpp:612
+#, fuzzy
+msgid "&Unset Cover"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+#, fuzzy
+msgid "Edit Album &Information..."
+msgstr "தடம் தகவல்"
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+#, fuzzy
+msgid "&Queue Album"
+msgstr "திரட்டு வைப்பேடு"
+
+#: contextbrowser.cpp:675
+#, fuzzy
+msgid "Compilation"
+msgstr "தொகுப்பு"
+
+#: contextbrowser.cpp:691
+#, fuzzy
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "இந்த உறையை மேலெழுத வேண்டுமா?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr ""
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr ""
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr ""
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr ""
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr ""
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr ""
+
+#: contextbrowser.cpp:819
+#, fuzzy
+msgid "Within the last minute"
+msgstr "கடைசியில் உள்ளது"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr ""
+
+#: contextbrowser.cpp:879
+#, fuzzy
+msgid "Unknown album"
+msgstr "தெரியாத"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr ""
+
+#: contextbrowser.cpp:905
+#, fuzzy
+msgid "Unknown artist"
+msgstr "தெரியாத"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, fuzzy, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, fuzzy, c-format
+msgid "Last played: %1"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: contextbrowser.cpp:1116
+#, fuzzy
+msgid "Recently Played Tracks"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr ""
+
+#: contextbrowser.cpp:1169
+#, fuzzy
+msgid "Your Favorite Tracks"
+msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr ""
+
+#: contextbrowser.cpp:1228
+#, fuzzy
+msgid "Your Newest Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: contextbrowser.cpp:1329
+#, fuzzy
+msgid "Favorite Albums"
+msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1354
+#, fuzzy
+msgid "Your Newest Albums"
+msgstr "புதிய தடங்கள்"
+
+#: contextbrowser.cpp:1371
+#, fuzzy
+msgid "Least Played Albums"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr ""
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr ""
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr ""
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr ""
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr ""
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr ""
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr ""
+
+#: contextbrowser.cpp:1649
+#, fuzzy, c-format
+msgid "First played: %1"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr ""
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr ""
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr ""
+
+#: contextbrowser.cpp:1677
+#, fuzzy
+msgid "Change Collection Setup..."
+msgstr "அடைவுகளை உள்ளமை..."
+
+#: contextbrowser.cpp:1690
+#, fuzzy
+msgid "Cue File"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: contextbrowser.cpp:1800
+#, fuzzy
+msgid "This Artist"
+msgstr "கலைஞர்"
+
+#: contextbrowser.cpp:1818
+#, fuzzy, c-format
+msgid "Favorite Tracks by %1"
+msgstr "இந்த நடிகரின் விருப்ப தடம்:"
+
+#: contextbrowser.cpp:1869
+#, fuzzy, c-format
+msgid "Albums by %1"
+msgstr "திரட்டு வைப்பேடு"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr ""
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "வணக்கம் ஆமராக் பயனர்களே!"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+#, fuzzy
+msgid "Build Collection..."
+msgstr "தொகுப்பு"
+
+#: contextbrowser.cpp:2355
+#, fuzzy
+msgid "Building Collection Database..."
+msgstr "தொகுப்பு"
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr ""
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr ""
+
+#: contextbrowser.cpp:2402
+#, fuzzy
+msgid "cover"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr ""
+
+#: contextbrowser.cpp:2403
+#, fuzzy
+msgid "edit"
+msgstr "உடன் முடிக்கிறது"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr ""
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr ""
+
+#: contextbrowser.cpp:2403
+#, fuzzy
+msgid "bonus"
+msgstr "குறும்படங்கள்"
+
+#: contextbrowser.cpp:2452
+#, fuzzy
+msgid "Cached Lyrics"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+#, fuzzy
+msgid "Fetching Lyrics"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr ""
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr ""
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr ""
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+#, fuzzy
+msgid "Fetching Wikipedia Information"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2939
+#, fuzzy
+msgid "Wikipedia Information"
+msgstr "மெடா தகவலை பார்"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr ""
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr ""
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr ""
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "சட்ட விகிதம்"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "ஆய்வாளருக்கு சொடுக்கவும்"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "அகராதி"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "பிட்விகிதம்"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr ""
+
+#: playlist.cpp:244
+#, fuzzy
+msgid "Playcount"
+msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "கலைப்பு"
+
+#: playlist.cpp:295
+#, fuzzy
+msgid "&Goto Current Track"
+msgstr "அடுத்த தடம்"
+
+#: playlist.cpp:296
+#, fuzzy
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "அடைவுகளை நீக்கு"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+#, fuzzy
+msgid "&Queue Selected Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr ""
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr ""
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr ""
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+
+#: playlist.cpp:1179
+#, fuzzy
+msgid "Playlist finished"
+msgstr "வாசிபட்டியல்"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "&இந்த காலத்தை மறை"
+
+#: playlist.cpp:2064
+#, fuzzy
+msgid "Playlist Columns"
+msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr ""
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+
+#: playlist.cpp:2629
+#, fuzzy
+msgid "Deleting files"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "நகலிடப்பட்டது: %1"
+
+#: playlist.cpp:3049
+#, fuzzy
+msgid "Load Dynamic Playlist"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "திரும்ப ஆரம்பி"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+#, fuzzy
+msgid "&Dequeue Track"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+
+#: playlist.cpp:3118
+#, fuzzy
+msgid "&Dequeue Selected Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "&பாதைக்குப் பிறகு பாடுவதை நிறுத்து"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr ""
+
+#: playlist.cpp:3135
+#, fuzzy
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr ""
+
+#: playlist.cpp:3140
+#, fuzzy
+msgid "Write '%1' for Selected Tracks"
+msgstr "புதிய தடங்கள்"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr ""
+
+#: playlist.cpp:3149
+#, fuzzy
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: playlist.cpp:3151
+#, fuzzy, c-format
+msgid "This Album: %1"
+msgstr "படத்தில் இருக்கும் மற்ற தடங்கள்:"
+
+#: playlist.cpp:3153
+#, fuzzy, c-format
+msgid "All Tracks by %1"
+msgstr "இந்த நடிகரின் விருப்ப தடம்:"
+
+#: playlist.cpp:3159
+#, fuzzy
+msgid "Set as Playlist (Crop)"
+msgstr "வாசிப்பு பட்டியலை உருவாக்கு "
+
+#: playlist.cpp:3160
+#, fuzzy
+msgid "Save as Playlist..."
+msgstr "வாசிப்பு பட்டியலை சேமி"
+
+#: playlist.cpp:3164
+#, fuzzy
+msgid "&Remove From Playlist"
+msgstr "வாசிப்புபட்டியலை சேமி"
+
+#: playlist.cpp:3166
+#, fuzzy
+msgid "&Delete File"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: playlist.cpp:3167
+#, fuzzy
+msgid "&Delete Selected Files"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "எழுதும் ஒட்டு..."
+
+#: playlist.cpp:3745
+#, fuzzy
+msgid "This file does not exist:"
+msgstr "இந்த கோப்பு இல்லை"
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr ""
+
+#: playlist.cpp:3789
+#, fuzzy
+msgid "&Command:"
+msgstr "குறிப்புரை"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr ""
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+
+#: playlist.cpp:3822
+#, fuzzy
+msgid "Add Custom Column"
+msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#: app.cpp:284
+#, fuzzy
+msgid "Files/URLs to open"
+msgstr "கோப்புகள்/URLயை திறக்க"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "விளையாட்டுப் பட்டியலை பின்னால் தள்ளி நிறுத்திவைக்கவும்  "
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "தற்போது வாசிப்பு பட்டியலை வாசிக்க தொடங்கு."
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr ""
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "பின் வாசிப்பை தற்காலிகமாக நிறுத்து"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "பின் வாசிப்பை நிறுத்து"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "வாசிப்புப்பட்டியலை முன்னால் தள்ளி நிறுத்தி வைக்கவும் "
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "கூடுதல் விருப்பங்கள்:"
+
+#: app.cpp:298
+#, fuzzy
+msgid "Append files/URLs to playlist"
+msgstr "வாசிபட்டியலில் சேர்"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr ""
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "தற்போது வாசிக்கும் பாதைக்குப் பிறகான வரிசையில் நிற்கும் வலைமனைகள்"
+
+#: app.cpp:303
+#, fuzzy
+msgid "Toggle the Playlist-window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#: app.cpp:304
+#, fuzzy
+msgid "Run first-run wizard"
+msgstr "முதல்-ஓட்ட &பகுதி"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr ""
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr ""
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "சத்தத்தை அதிகரி"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "சத்தத்தை குறை"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr ""
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr ""
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "ஊடகத்தை சேர்..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "வாசிப்பட்டியல் சாளாரத்தில் உள்ள எழுத்துரு."
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "OSD யை காட்டு"
+
+#: app.cpp:348
+#, fuzzy
+msgid "Mute Volume"
+msgstr "சத்தத்தை அதிகரி"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "வாசிபட்டியல்"
+
+#: app.cpp:754
+#, fuzzy
+msgid "Append && &Play"
+msgstr "சேர் மற்றும் வாசி"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "முறைமை தட்டில் நறுக்கு"
+
+#: app.cpp:853
+#, fuzzy
+msgid "Paused"
+msgstr "தற்காலிக நிறுத்தம்"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "சத்தம் %1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr ""
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "நேர காட்சி"
+
+#: statusbar/timeLabel.h:46
+#, fuzzy
+msgid "Normal"
+msgstr "&இயல்பான"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "மீதமுள்ள"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:422
+#, fuzzy
+msgid "Aborting all jobs..."
+msgstr "வடிவமை..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "அமரோக் தற்காலிகமாக நிறுத்தப்பட்டது"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:178
+#, fuzzy
+msgid "Unknown track"
+msgstr "தெரியாத"
+
+#: statusbar/statusbar.cpp:187
+#, fuzzy, c-format
+msgid "Playing: %1"
+msgstr "கடைசியாக இயக்கப்பட்டது"
+
+#: statusbar/statusbar.cpp:201
+#, fuzzy
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "புதிய தடங்கள்"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr ""
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr ""
+
+#: statusbar/statusbar.cpp:205
+#, fuzzy
+msgid "%1 selected of %2 tracks"
+msgstr "புதிய தடங்கள்"
+
+#: statusbar/statusbar.cpp:206
+#, fuzzy, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr ""
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr ""
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr ""
+
+#: statusbar/queueLabel.cpp:169
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: statusbar/queueLabel.cpp:172
+#, fuzzy
+msgid "Dequeue All Tracks"
+msgstr "&தடத்தை திரும்ப செய்"
+
+#: statusbar/queueLabel.cpp:183
+#, fuzzy
+msgid "%1. %2"
+msgstr "ஆல்"
+
+#: statusbar/queueLabel.cpp:189
+#, fuzzy, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: statusbar/queueLabel.cpp:244
+#, fuzzy
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr ""
+"1 தடம்\n"
+"%n தடங்கள் "
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "முடிந்தது"
+
+#: statusbar/progressBar.cpp:96
+#, fuzzy
+msgid "Aborted"
+msgstr "விடுவித்தல்"
+
+#: statusbar/progressBar.cpp:106
+#, fuzzy
+msgid "Aborting..."
+msgstr "வடிவமை..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr ""
+
+#: statusbar/toggleLabel.h:115
+#, fuzzy
+msgid "%1: off"
+msgstr "%1 fps"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr ""
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "OSD முன்தோற்றம் - மறுபொருத்த இழு"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr ""
+
+#: osd.cpp:556
+msgid "No information available for this track"
+msgstr ""
+
+#: coverfetcher.cpp:41
+#, fuzzy
+msgid "disc"
+msgstr "is"
+
+#: coverfetcher.cpp:41
+#, fuzzy
+msgid "disk"
+msgstr "is"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr ""
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr ""
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr ""
+
+#: coverfetcher.cpp:41
+#, fuzzy
+msgid "soundtrack"
+msgstr "தடம்"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr ""
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr ""
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr ""
+
+#: coverfetcher.cpp:233
+#, fuzzy
+msgid "The cover could not be retrieved."
+msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr ""
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr ""
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "தேடு"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr ""
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+#, fuzzy
+msgid "Aborted."
+msgstr "விடுவித்தல்"
+
+#: coverfetcher.cpp:379
+#, fuzzy
+msgid "New &Search..."
+msgstr "புதிய தேடல்"
+
+#: coverfetcher.cpp:380
+#, fuzzy
+msgid "Next &Cover"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: coverfetcher.cpp:390
+#, fuzzy
+msgid "Cover Found"
+msgstr "முன்னணி:"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "அமார்க்கு"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "KDEகாண ஒரு ஒலி வாசிப்பான்"
+
+#: amarokcore/main.cpp:29
+#, fuzzy
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(c) 2002-2003, மார்க் கிறச்மமென்\n"
+"(c) 2003-2004, அமார்க்கு உருவாக்குபவர்"
+
+#: amarokcore/main.cpp:30
+#, fuzzy
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"சேவையகம்: rc.freenode.net / channel: #amarok\n"
+"\n"
+"நிலையறிதல் :\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr ""
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr ""
+
+#: amarokcore/main.cpp:39
+#, fuzzy
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "உருவாக்குபவர், 733t குறியீடு, OSD மேம்படுத்தம், ஒட்டுகள்"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr ""
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr ""
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr ""
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr ""
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr ""
+
+#: amarokcore/main.cpp:45
+#, fuzzy
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "மதிப்பு மிக்க கைபுத்தக பாதுகாவலர்"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr ""
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr ""
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr ""
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "வரைகலை: amaroK சின்னம், திடீர் திரை, குறும்படங்கள்"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr ""
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr ""
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr ""
+
+#: amarokcore/main.cpp:53
+#, fuzzy
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "உருவாக்குபவர், DCOP, மேம்படுத்துதல், காலிசெய்தல், i18n"
+
+#: amarokcore/main.cpp:56
+#, fuzzy
+msgid "Analyzers, patches"
+msgstr "ஆய்வாளர். ஒட்டுகள்"
+
+#: amarokcore/main.cpp:57
+#, fuzzy
+msgid "Patches"
+msgstr "ஒட்டுகள்"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr ""
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr ""
+
+#: amarokcore/main.cpp:60
+#, fuzzy
+msgid "Postgresql support"
+msgstr "நிறங்களை உள்ளாமை"
+
+#: amarokcore/main.cpp:61
+#, fuzzy
+msgid "First-run wizard, usability"
+msgstr "முதல்-இயக்க பகுதி, பயன்படுத்தக்கூடிய"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr ""
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr ""
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr ""
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr ""
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr ""
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr ""
+
+#: amarokcore/main.cpp:68
+#, fuzzy
+msgid "Tester, IRC channel operator, whipping"
+msgstr "பரிசோதிப்பாளர், IRC அலைவரிசை இயக்குபவர், whipping"
+
+#: amarokcore/main.cpp:69
+#, fuzzy
+msgid "Icons"
+msgstr "குறும்படங்கள்"
+
+#: amarokcore/main.cpp:70
+#, fuzzy
+msgid "amaroK webmaster"
+msgstr "amaroK - எச்சரிக்கை"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr ""
+
+#: amarokcore/main.cpp:72
+#, fuzzy
+msgid "FHT routine, bugfixes"
+msgstr "புதிய FFT சுழற்சி, பிழைத்திருத்தி"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "K3B ஏற்று குறியீடு"
+
+#: amarokcore/main.cpp:74
+#, fuzzy
+msgid "Splash screen"
+msgstr "1.1க்கான தோன்றும் திரை"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr ""
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr ""
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr ""
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "மாஸ் எஞ்ஜின்"
+
+#: amarokcore/main.cpp:79
+#, fuzzy
+msgid "Audioscrobbler support"
+msgstr "நிறங்களை உள்ளாமை"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "TagLib & ktrm குறியீடு"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr ""
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr ""
+
+#: amarokcore/main.cpp:83
+#, fuzzy
+msgid "Tester, patches"
+msgstr "பரிசோதிப்பாளர், ஒட்டுகள்"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+
+#: amarokcore/crashhandler.cpp:249
+#, fuzzy
+msgid "Send Email"
+msgstr "மின்னஞ்சல்"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr ""
+
+#: playlistbrowseritem.cpp:640
+#, fuzzy
+msgid "Loading..."
+msgstr "எழுதும் ஒட்டு..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr ""
+
+#: playlistbrowseritem.cpp:882
+#, fuzzy
+msgid "Add Radio Stream"
+msgstr "Pre-Amp"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+#, fuzzy
+msgid "&Name:"
+msgstr "பெயர்"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+#, fuzzy
+msgid "&Url:"
+msgstr "பயனர்:"
+
+#: playlistbrowseritem.cpp:903
+#, fuzzy
+msgid "Edit Radio Stream"
+msgstr "Pre-Amp"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+#, fuzzy
+msgid "Retrieving Podcast..."
+msgstr "வாசிப்பு பட்டியலை மீட்டெடுக்கிறது..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+#, fuzzy
+msgid "Moving Podcasts"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: playlistbrowseritem.cpp:1223
+#, fuzzy
+msgid "Fetching Podcast"
+msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr ""
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr ""
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1405
+#, fuzzy
+msgid "Url"
+msgstr "பயனர்:"
+
+#: playlistbrowseritem.cpp:1406
+msgid "Website"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+#, fuzzy
+msgid "Podcast Information"
+msgstr "அடைவுகளை உள்ளமை..."
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1723
+#, fuzzy
+msgid "Downloading Media..."
+msgstr "எழுதும் ஒட்டு..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr ""
+
+#: playlistbrowseritem.cpp:1831
+#, fuzzy
+msgid "Author"
+msgstr "ஆசிரியர்கள்"
+
+#: playlistbrowseritem.cpp:1832
+#, fuzzy
+msgid "Date"
+msgstr "தரவு வகை"
+
+#: filebrowser.cpp:132
+#, fuzzy
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr "வடிகட்டிக்கான தொகுதிக்கு வெற்றிட-பிரிப்பி முறைகளை உள்ளிடு"
+
+#: filebrowser.cpp:186
+#, fuzzy
+msgid "&Select All Files"
+msgstr "அடைவை தேர்ந்தெடு"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+
+#: filebrowser.cpp:476
+#, fuzzy
+msgid "Search here..."
+msgstr "உலாவியை தேடும்"
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr ""
+
+#: filebrowser.cpp:532
+#, fuzzy
+msgid "Searching..."
+msgstr "உலாவியை தேடும்"
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr ""
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "&தவிர்"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "செயற்பாடு"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "கிடைக்கும் விளைவுகள்"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "செயற்படும் விளைவுகள்"
+
+#, fuzzy
+#~ msgid "Adding random tracks."
+#~ msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#, fuzzy
+#~ msgid "Adding random track."
+#~ msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#, fuzzy
+#~ msgid "Selected Tracks as Data CD"
+#~ msgstr "புதிய தடங்கள்"
+
+#, fuzzy
+#~ msgid "Selected Tracks as Audio CD"
+#~ msgstr "புதிய தடங்கள்"
+
+#~ msgid "This Album as Data CD"
+#~ msgstr "குறுந்தகடுக்கு தரவாக எழுது"
+
+#~ msgid "This Album as Audio CD"
+#~ msgstr "குறுந்தகடுக்கு கேட்பொலியாக எழுது"
+
+#, fuzzy
+#~ msgid "Set as &Playlist"
+#~ msgstr "வாசிப்பு பட்டியலை சேமி"
+
+#, fuzzy
+#~ msgid "Custom location..."
+#~ msgstr "தொகுப்பு"
+
+#, fuzzy
+#~ msgid "Add to From Dynamic Mode"
+#~ msgstr "தரவு வகை"
+
+#, fuzzy
+#~ msgid "&Cycle tracks"
+#~ msgstr "தடம்"
+
+#, fuzzy
+#~ msgid " Artists"
+#~ msgstr "கலைஞர்"
+
+#, fuzzy
+#~ msgid " Albums"
+#~ msgstr "திரட்டு வைப்பேடு"
+
+#, fuzzy
+#~ msgid " Genres"
+#~ msgstr "உருவாக்கு"
+
+#, fuzzy
+#~ msgid " Tracks"
+#~ msgstr "தடம்"
+
+#, fuzzy
+#~ msgid "Options8"
+#~ msgstr "செயல்"
+
+#, fuzzy
+#~ msgid "Configure Audioscrobbler"
+#~ msgstr "நிறங்களை உள்ளாமை"
+
+#, fuzzy
+#~ msgid "Audioscrobbler Profile"
+#~ msgstr "நிறங்களை உள்ளாமை"
+
+#, fuzzy
+#~ msgid "Audioscrobbler Services"
+#~ msgstr "நிறங்களை உள்ளாமை"
+
+#, fuzzy
+#~ msgid "After This Track"
+#~ msgstr "முந்தைய தடம்"
+
+#, fuzzy
+#~ msgid "Refresh view"
+#~ msgstr "உருவாக்கு"
+
+#, fuzzy
+#~ msgid "Shuffle queue"
+#~ msgstr "கலைப்பு"
+
+#, fuzzy
+#~ msgid "%1 More Tracks"
+#~ msgstr "உங்கள் விருப்ப தடங்கள்:"
+
+#, fuzzy
+#~ msgid "&View/Edit Meta Information..."
+#~ msgstr "மெடா தகவலை பார்"
+
+#, fuzzy
+#~ msgid "Meta Information (Multiple Files)"
+#~ msgstr "மெடா தகவல்"
+
+#, fuzzy
+#~ msgid "Engine:"
+#~ msgstr "எஞ்ஜின்"
+
+#, fuzzy
+#~ msgid " Hours"
+#~ msgstr "புரவலன்:"
+
+#, fuzzy
+#~ msgid "Stream "
+#~ msgstr "Pre-Amp"
+
+#, fuzzy
+#~ msgid "&Use hardware volume mixer"
+#~ msgstr "வன்பொருள் சத்த கலவையை பயன்படுத்து"
+
+#, fuzzy
+#~ msgid "If checked, the volume slider<br>sets the master volume on the soundcard which affects the whole system. If not checked, the volume slider only affects the amaroK output."
+#~ msgstr "தேர்வு செய்தால், சத்த சட்ட அமைப்பு மூல சத்த ஒலி அட்டை அது விளைவுறுத்தும் முழு அமைப்பு. தேர்வு செய்யாவிட்டால், சத்த சட்டம் amarok  வெளியீட்டை மட்டும் விளைவுர வைக்கும்"
+
+#, fuzzy
+#~ msgid "Enable/Disable soundcard hardware mixer. If set, the volume slider sets the master volume on the soundcard which affects the whole system. If not set, the volume slider only affects the amaroK output."
+#~ msgstr "தேர்வு செய்தால், சத்த சட்ட அமைப்பு மூல சத்த ஒலி அட்டை அது விளைவுறுத்தும் முழு அமைப்பு. தேர்வு செய்யாவிட்டால், சத்த சட்டம் amarok  வெளியீட்டை மட்டும் விளைவுர வைக்கும்"
+
+#, fuzzy
+#~ msgid "Extension"
+#~ msgstr "பதிப்பு"
+
+#, fuzzy
+#~ msgid "Output Plugin"
+#~ msgstr "வெளியீடு:"
+
+#~ msgid "amaroK - Audio Player"
+#~ msgstr "amaroK - ஒலி வாசிப்பாளர்"
+
+#, fuzzy
+#~ msgid "Show Files Finder"
+#~ msgstr "முழு அளவையும் காட்டு"
+
+#~ msgid "Samplerate"
+#~ msgstr "மாதிரியாக்கு"
+
+#, fuzzy
+#~ msgid "Remem&ber effects"
+#~ msgstr "விளைவுகளை நினைவில் வைத்திருக்கும்"
+
+#, fuzzy
+#~ msgid "If checked, amaroK remembers<br>the audio effects set through the effects window between sessions."
+#~ msgstr "தேர்வுசெய்திருந்தால், amaroK  ஒலி விளையை விளைவு சாளரத்திற்கு இடையே அமர்வை நினைவில் வைத்திருக்கும்."
+
+#, fuzzy
+#~ msgid "If set, amaroK remembers the audio effects set through the effects window."
+#~ msgstr "தேர்வுசெய்திருந்தால், amaroK  ஒலி விளையை விளைவு சாளரத்திற்கு இடையே அமர்வை நினைவில் வைத்திருக்கும்."
+
+#~ msgid "Track Name"
+#~ msgstr "தட பெயர்"
+
+#, fuzzy
+#~ msgid "Play Count"
+#~ msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#~ msgid "Search"
+#~ msgstr "தேடு"
+
+#, fuzzy
+#~ msgid "Unpaused"
+#~ msgstr "அடுக்காத"
+
+#, fuzzy
+#~ msgid ", %1"
+#~ msgstr "%1 ஆல்"
+
+#, fuzzy
+#~ msgid "Find Files"
+#~ msgstr "வாசிபட்டியல்"
+
+#, fuzzy
+#~ msgid "&View/Edit Meta Information"
+#~ msgstr "மெடா தகவலை பார்"
+
+#, fuzzy
+#~ msgid "Scripts..."
+#~ msgstr "குறுநிரல்கள்"
+
+#, fuzzy
+#~ msgid "Queue Manager..."
+#~ msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#, fuzzy
+#~ msgid "&Cover Manager..."
+#~ msgstr "&திரை பிம்பங்களை கொண்டுவா"
+
+#, fuzzy
+#~ msgid "&First-Run Wizard..."
+#~ msgstr "முதல்-ஓட்ட &பகுதி"
+
+#, fuzzy
+#~ msgid "&Visualizations..."
+#~ msgstr "காட்சி..."
+
+#, fuzzy
+#~ msgid "&Equalizer..."
+#~ msgstr "வடிவமை..."
+
+#, fuzzy
+#~ msgid "Dynamic"
+#~ msgstr "தரவு வகை"
+
+#, fuzzy
+#~ msgid "Streams"
+#~ msgstr "தொடர்கள்"
+
+#, fuzzy
+#~ msgid "Options5"
+#~ msgstr "செயல்"
+
+#, fuzzy
+#~ msgid "Various"
+#~ msgstr "பலவித கலைஞர்கள்"
+
+#, fuzzy
+#~ msgid "&Play Next"
+#~ msgstr "&வாசி"
+
+#, fuzzy
+#~ msgid "&Copy Meta-String"
+#~ msgstr "&மெட-சரத்தை நகல் எடு"
+
+#, fuzzy
+#~ msgid "Add Selected"
+#~ msgstr "குறுநிரல்கள்"
+
+#~ msgid "Enter space-separated terms to filter playlist"
+#~ msgstr "வடிகட்டிக்கான வாசிப்பு பட்டியலுக்கு வெற்றிட-பிரிப்பி முறைகளை உள்ளிடு"
+
+#, fuzzy
+#~ msgid "Untitiled"
+#~ msgstr "தலைப்பில்லா %1"
+
+#, fuzzy
+#~ msgid "Current Party"
+#~ msgstr "வாசிப்புபட்டியலை சேமி"
+
+#, fuzzy
+#~ msgid "Hide Party"
+#~ msgstr "வாசிபட்டியல் கருவிப்பட்டி"
+
+#, fuzzy
+#~ msgid "Show Party"
+#~ msgstr "நிலைப்பட்டியைக் காட்டு"
+
+#, fuzzy
+#~ msgid "Parties"
+#~ msgstr "ஒட்டுகள்"
+
+#, fuzzy
+#~ msgid "Party Configuration Saved."
+#~ msgstr "அடைவுகளை உள்ளமை..."
+
+#, fuzzy
+#~ msgid "&Party Mode"
+#~ msgstr "தரவு வகை"
+
+#, fuzzy
+#~ msgid "Enable Party Mode"
+#~ msgstr "தரவு வகை"
+
+#, fuzzy
+#~ msgid "Add Stream"
+#~ msgstr "Pre-Amp"
+
+#~ msgid "Enter File, URL or Directory"
+#~ msgstr "கோப்பினை உள்ளிடு, URL  அல்லது அடைவு"
+
+#, fuzzy
+#~ msgid "Add Source"
+#~ msgstr "அடைவை சேர்..."
+
+#, fuzzy
+#~ msgid "Save Current"
+#~ msgstr "நடப்புக்கு செல்"
+
+#, fuzzy
+#~ msgid "Configuring party"
+#~ msgstr "பின்வாசிப்பதை உள்ளமை"
+
+#, fuzzy
+#~ msgid "S&uggested song"
+#~ msgstr "பரிந்துரைக்கப்பட்ட பாடல்கள்"
+
+#, fuzzy
+#~ msgid "Ran&dom song from:"
+#~ msgstr "மற்றும்"
+
+#, fuzzy
+#~ msgid "A&vailable playlists:"
+#~ msgstr "கிடைக்கும் விளைவுகள்"
+
+#, fuzzy
+#~ msgid "Selected pla&ylists:"
+#~ msgstr "புதிய தடங்கள்"
+
+#~ msgid "Create Smart-Playlist"
+#~ msgstr "ஸ்மார்ட் வாசிப்புபட்டியலை சேமி"
+
+#, fuzzy
+#~ msgid "&Clear"
+#~ msgstr "ஆண்டு"
+
+#, fuzzy
+#~ msgid ""
+#~ "_n: 1 playlist\n"
+#~ "<u>%n playlists</u>"
+#~ msgstr ""
+#~ "_n: 1 playlist\n"
+#~ "<u>%n வாசிப்பு பட்டியல்கள்</u>"
+
+#, fuzzy
+#~ msgid "Start a Party"
+#~ msgstr "வருடலைத் துவக்கு"
+
+#~ msgid "Configure &Effects..."
+#~ msgstr "&விளைவுகளை...  உள்ளாமை "
+
+#~ msgid "Search &for:"
+#~ msgstr "இதற்காக தேடு"
+
+#~ msgid ""
+#~ "_: where\n"
+#~ "&In:"
+#~ msgstr "&In:"
+
+#~ msgid "Enter folder."
+#~ msgstr "அடைவை உள்ளிடு."
+
+#~ msgid "Results"
+#~ msgstr "முடிவுகள்"
+
+#~ msgid "Waiting for other thread"
+#~ msgstr "மற்ற நூல்களுக்காக காத்துக்கொண்டு இருக்கிறது"
+
+#~ msgid "&Abort"
+#~ msgstr "கைவிடு"
+
+#~ msgid "Started"
+#~ msgstr "ஆரம்பித்தது"
+
+#~ msgid "[1] Interface"
+#~ msgstr "[1] இடைமுகம்"
+
+#, fuzzy
+#~ msgid "[2] Collection"
+#~ msgstr "தொகுப்பு"
+
+#, fuzzy
+#~ msgid "track"
+#~ msgstr "தடம்"
+
+#, fuzzy
+#~ msgid ""
+#~ "_n: 1 file\n"
+#~ "<u>%n files</u>"
+#~ msgstr ""
+#~ "_n: 1 file\n"
+#~ "<u>%n கோப்புகள்</u>"
+
+#, fuzzy
+#~ msgid "The image Amazon has sent is too large. Please report this error to amaroK-devel@lists.sf.net."
+#~ msgstr "இந்த செய்தியை amarok-devel@lists.sf.net, க்கு சொல்லவும், நன்றி!"
+
+#~ msgid "Knight of the regression round-table (mxcl)"
+#~ msgstr "உருவாக்குபவர், knight ன் தொடரும் வட்ட-மேஜை (mxcl)"
+
+#~ msgid "XXX"
+#~ msgstr "XXX"
+
+#, fuzzy
+#~ msgid "&Queue Track (%1)"
+#~ msgstr "&தடத்தை திரும்ப செய்"
+
+#~ msgid "&Dequeue (%1)"
+#~ msgstr "வரிசையை நீக்கு (%1)"
+
+#, fuzzy
+#~ msgid "View/Edit Meta Information..."
+#~ msgstr "மெடா தகவலை பார்"
+
+#, fuzzy
+#~ msgid "25 Tracks"
+#~ msgstr "தடம்"
+
+#, fuzzy
+#~ msgid "100 Tracks"
+#~ msgstr "தடம்"
+
+#, fuzzy
+#~ msgid "[4] Finish"
+#~ msgstr "முடிந்தது."
+
+#, fuzzy
+#~ msgid "Similar Artists"
+#~ msgstr "பலவித கலைஞர்கள்"
+
+#, fuzzy
+#~ msgid "Retrieve similar artists from Audioscrobbler"
+#~ msgstr "நிறங்களை உள்ளாமை"
+
+#, fuzzy
+#~ msgid "Whether to automatically add suggestions to playlist"
+#~ msgstr "தொடர்ச்சியாக அடைவுகளை சேர்"
+
+#, fuzzy
+#~ msgid "Current Track"
+#~ msgstr "அடுத்த தடம்"
+
+#, fuzzy
+#~ msgid "OSD improvements, patches, testing"
+#~ msgstr "உருவாக்குபவர், 733t குறியீடு, OSD மேம்படுத்தம், ஒட்டுகள்"
+
+#, fuzzy
+#~ msgid "The text which should be shown in the OSD"
+#~ msgstr "திரை அது கண்டிப்பாக OSD யை காட்டும்."
+
+#, fuzzy
+#~ msgid "Score: %1"
+#~ msgstr "திரை"
+
+#, fuzzy
+#~ msgid "%artist"
+#~ msgstr "கலைஞர்"
+
+#, fuzzy
+#~ msgid "%album"
+#~ msgstr "%ஆல்பம்"
+
+#, fuzzy
+#~ msgid "%title"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "%genre"
+#~ msgstr "%genre"
+
+#, fuzzy
+#~ msgid "%year"
+#~ msgstr "ஆண்டு"
+
+#, fuzzy
+#~ msgid "%bitrate"
+#~ msgstr "பிட்விகிதம்"
+
+#, fuzzy
+#~ msgid "%length"
+#~ msgstr "%நீளம்"
+
+#, fuzzy
+#~ msgid "%file"
+#~ msgstr "தலைப்பு"
+
+#, fuzzy
+#~ msgid "Playlist Options"
+#~ msgstr "வாசிப்புபட்டியலின் விருப்பங்கள்"
+
+#, fuzzy
+#~ msgid "Sorry, the requested engine could not be loaded"
+#~ msgstr "இயங்கு பட்டியலைத்  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#, fuzzy
+#~ msgid "&Add Custom Column..."
+#~ msgstr "ஆயத்த எழுத்துகள் பயன்படுத்து"
+
+#~ msgid "Overlap"
+#~ msgstr "மேலமைதல்"
+
+#, fuzzy
+#~ msgid "Some playback options."
+#~ msgstr "&Resume playback on start"
+
+#~ msgid "If checked, amaroK will resume playback from where you left it the previous session -- just like a tape-player."
+#~ msgstr "<b>தொடக்கத்தின் பின்வாசித்தலை ஆரம்பி </b> <p>அமார்க்கு தொடக்கத்தின் பின் வாசித்தலை ஆரம்பிக்கும் தகுதி உடைய முன் பகுதியிலிருந்து ஆரம்பிக்கும் இஃது நாடாவாசியாகும்.</p>."
+
+#~ msgid "If checked, the volume slider sets the master volume on the soundcard which affects the whole system. If not checked, the volume slider only affects the amaroK output."
+#~ msgstr "தேர்வு செய்தால், சத்த சட்ட அமைப்பு மூல சத்த ஒலி அட்டை அது விளைவுறுத்தும் முழு அமைப்பு. தேர்வு செய்யாவிட்டால், சத்த சட்டம் amarok  வெளியீட்டை மட்டும் விளைவுர வைக்கும்"
+
+#~ msgid "If checked, amaroK remembers the audio effects set through the effects window between sessions."
+#~ msgstr "தேர்வுசெய்திருந்தால், amaroK  ஒலி விளையை விளைவு சாளரத்திற்கு இடையே அமர்வை நினைவில் வைத்திருக்கும்."
+
+#, fuzzy
+#~ msgid "&Fetch from amazon.%1"
+#~ msgstr "&amazon.comல் இருந்து எடுத்து வா"
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "analyzers, king of openGL"
+#~ msgstr "ஆய்வாளர், openGL லின் ராஜா"
+
+#~ msgid "KDE RadioStation code"
+#~ msgstr "KDE வானொலி நிலைய குறியீடு"
+
+#~ msgid "Geeeeza (Bochi)"
+#~ msgstr "Geeeeza (Bochi)"
+
+#, fuzzy
+#~ msgid "Click here to build one..."
+#~ msgstr "ஒண்றை உருவாக்க இங்கு சொடுக்கவும்"
+
+#, fuzzy
+#~ msgid "Edit Script"
+#~ msgstr "குறுநிரல்கள்"
+
+#, fuzzy
+#~ msgid "Whether to hide playlist together with player window"
+#~ msgstr "இயக்கி சாளரத்தில் பயனபடுத்த வேண்டிய எழுத்துரு."
+
+#, fuzzy
+#~ msgid "If set, amaroK takes appropriate action to hide the playlist when the player window is hidden. If not set, the player window and the playlist hide totally independent of each other."
+#~ msgstr "இது குறியிடப்பட்டிருந்தால், பாடல் பட்டியல் சாளரம் மறைக்கப்படும்போது ஆமராக் பாடல் பட்டியலை மறைக்க வேண்டிய முயற்சிகளை மேற்கொள்கிறது. அது குறியிடப்படாத போது, பிளேயரின் சாளரத்தையும் பாடல் பட்டியலையும் தன்னிச்சையாக மறைக்கலாம்."
+
+#, fuzzy
+#~ msgid "&Animate tray icon"
+#~ msgstr "&தட்டு சின்னத்தை காட்டு"
+
+#~ msgid "&Hide playlist with main window"
+#~ msgstr "முதன்மை சாளாரத்துடன் வாசிப்பட்டியலை &மறை"
+
+#, fuzzy
+#~ msgid "If checked, amaroK takes appropriate action to hide the playlist when the player window is hidden. If not checked, the player window and the playlist hide totally independent of each other.<br>"
+#~ msgstr "இது குறியிடப்பட்டிருந்தால், பாடல் பட்டியல் சாளரம் மறைக்கப்படும்போது ஆமராக் பாடல் பட்டியலை மறைக்க வேண்டிய முயற்சிகளை மேற்கொள்கிறது. அது குறியிடப்படாத போது, பிளேயரின் சாளரத்தையும் பாடல் பட்டியலையும் தன்னிச்சையாக மறைக்கலாம்."
+
+#~ msgid "If checked, amaroK takes appropriate action to hide the playlist when the player window is hidden. If not checked, the player window and the playlist hide totally independent of each other."
+#~ msgstr "இது குறியிடப்பட்டிருந்தால், பாடல் பட்டியல் சாளரம் மறைக்கப்படும்போது ஆமராக் பாடல் பட்டியலை மறைக்க வேண்டிய முயற்சிகளை மேற்கொள்கிறது. அது குறியிடப்படாத போது, பிளேயரின் சாளரத்தையும் பாடல் பட்டியலையும் தன்னிச்சையாக மறைக்கலாம்."
+
+#~ msgid "Playlist scrolls with &active song"
+#~ msgstr "வாசிப்புப்பட்டியல் சுழற்சியுடன் செயல்படுத்திய பாடல்"
+
+#~ msgid "Add &directories recursively"
+#~ msgstr "தொடர்ச்சியாக அடைவுகளை சேர்"
+
+#, fuzzy
+#~ msgid "If checked, adding a directory to the playlist also adds sub directories, sub-sub directories, etc.<br>"
+#~ msgstr "தேர்வு செய்திருந்தால், அடைவை வாசிப்பு பட்டியலுக்கு சேர்க்கும் போது உப அடைவையும் சேர்க்கிறது, உப-உப அடைவுகள் மேலும்."
+
+#, fuzzy
+#~ msgid "If checked, adding a directory to the playlist also adds sub directories, sub-sub directories, etc."
+#~ msgstr "தேர்வு செய்திருந்தால், அடைவை வாசிப்பு பட்டியலுக்கு சேர்க்கும் போது உப அடைவையும் சேர்க்கிறது, உப-உப அடைவுகள் மேலும்."
+
+#, fuzzy
+#~ msgid "Auto show context browser"
+#~ msgstr "உள்ளடக்க உலாவி"
+
+#~ msgid "Login"
+#~ msgstr "புகுபதிகை:"
+
+#, fuzzy
+#~ msgid "Database Engine:"
+#~ msgstr "தரவுத்தளம்"
+
+#, fuzzy
+#~ msgid "<p>The playlist, <i>'%1'</i>, could not be downloaded."
+#~ msgstr "வாசிப்புபட்டியல், '%1'  பதிவிறக்கம் செய்ய முடியவில்லை."
+
+#~ msgid "RAND"
+#~ msgstr "RAND"
+
+#~ msgid "REP"
+#~ msgstr "REP"
+
+#~ msgid "Double-click to toggle Random Mode"
+#~ msgstr "நிலையில்லாத பாங்கிற்கு இணைக்க இரண்டு சொடுக்கவும்"
+
+#~ msgid "Double-click to toggle Repeat Playlist Mode"
+#~ msgstr "நிலையில்லாத பாங்கிற்க்கு மீண்டும் இணைக்க இரண்டு சொடுக்கவும்"
+
+#~ msgid "Alarm Settings"
+#~ msgstr "எச்சரிக்கை அமைப்புகள்"
+
+#, fuzzy
+#~ msgid "Alarm time:"
+#~ msgstr "எச்சரிக்கை நேரம்:"
+
+#~ msgid "activated"
+#~ msgstr "செயல்படுத்தப்பட்டது"
+
+#, fuzzy
+#~ msgid "Configure MySql"
+#~ msgstr "வடிவமை..."
+
+#, fuzzy
+#~ msgid "C&lear Playlist"
+#~ msgstr "வாசிபட்டியலை திரும்ப செய்"
+
+#, fuzzy
+#~ msgid "Tag Filter"
+#~ msgstr "வடிகாட்டியை நீக்கு"
+
+#~ msgid "Script List"
+#~ msgstr "குறுநிரல் பட்டியல்"
+
+#, fuzzy
+#~ msgid "JavaScript Source Files"
+#~ msgstr "&ஜாவாஎழுத்தாக்க கான்சோல்"
+
+#, fuzzy
+#~ msgid "&Show Menubar"
+#~ msgstr "நிலைப்பட்டியைக் காட்டு"
+
+#, fuzzy
+#~ msgid "&Monitor changes"
+#~ msgstr "கண்காணிப்பாளரை மாற்றுகிறது"
+
+#, fuzzy
+#~ msgid "&Sort Results"
+#~ msgstr "முடிவுகள்"
+
+#, fuzzy
+#~ msgid "By &Track Tag"
+#~ msgstr "தட பெயர்"
+
+#, fuzzy
+#~ msgid "By &Filename"
+#~ msgstr "கோப்பு பெயர்"
+
+#~ msgid "&Normal"
+#~ msgstr "&இயல்பான"
+
+#, fuzzy
+#~ msgid "If checked, amaroK displays<br>metadata also for shoutcast streams."
+#~ msgstr "தேர்வு செய்திருந்தால், amaroK காட்டும் மெட்டா தகவல் கூட தொடர்ச்சிக்கு இணைக்கப்படும்"
+
+#, fuzzy
+#~ msgid "Search &Again"
+#~ msgstr "இதற்காக தேடு"
+
+#~ msgid "Select filter category"
+#~ msgstr "அலங்கார வகையை தேர்ந்தெடு"
+
+#~ msgid "Configure Colors"
+#~ msgstr "நிறங்களை உள்ளாமை"
+
+#~ msgid "&amaroK default color scheme"
+#~ msgstr "&அமார்க்கு தவறான வண்ணப்பட்டியலின் திட்டம்"
+
+#, fuzzy
+#~ msgid "Profile Settings"
+#~ msgstr "எச்சரிக்கை அமைப்புகள்"
+
+#, fuzzy
+#~ msgid "Profile Creation"
+#~ msgstr "அடைவுகளை உள்ளமை..."
+
+#, fuzzy
+#~ msgid "&Remove Selected Covers From Database"
+#~ msgstr "அடைவை தேர்ந்தெடு"
+
+#, fuzzy
+#~ msgid "&Delete Confirmation"
+#~ msgstr "அடைவை தேர்ந்தெடு"
+
+#, fuzzy
+#~ msgid "&Fetch From amazon."
+#~ msgstr "&amazon.comல் இருந்து எடுத்து வா"
+
+#~ msgid "This cover will be permanently deleted."
+#~ msgstr "இந்த உறை நிரந்தரமான நீக்கப்படும்."
+
+#, fuzzy
+#~ msgid "Fetch From amazon."
+#~ msgstr "&amazon.comல் இருந்து எடுத்து வா"
+
+#, fuzzy
+#~ msgid "Albums By <i>%1</i>"
+#~ msgstr "திரட்டு வைப்பேடு"
+
+#, fuzzy
+#~ msgid "Equalizer Settings"
+#~ msgstr "எச்சரிக்கை அமைப்புகள்"
+
+#, fuzzy
+#~ msgid "Tracks On This Album"
+#~ msgstr "படத்தில் இருக்கும் மற்ற தடங்கள்:"
+
+#, fuzzy
+#~ msgid "Albums By This Artist"
+#~ msgstr "இந்த கலைஞரின் ஆல்பம்:"
+
+#~ msgid "None"
+#~ msgstr "எதுவுமில்லை"

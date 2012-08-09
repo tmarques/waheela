@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Amarok/CodecInstall
+X-KDE-Amarok-codec=mp3
+X-KDE-Amarok-engine=xine-engine
+Exec=kdialog --msgbox "Hello World"
+

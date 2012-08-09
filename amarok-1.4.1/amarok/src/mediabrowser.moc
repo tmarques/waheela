@@ -1,0 +1,555 @@
+/****************************************************************************
+** MediaQueue meta object code from reading C++ file 'mediabrowser.h'
+**
+** Created: Fri Mar 23 10:53:40 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "mediabrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MediaQueue::className() const
+{
+    return "MediaQueue";
+}
+
+QMetaObject *MediaQueue::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaQueue( "MediaQueue", &MediaQueue::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaQueue::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaQueue", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaQueue::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaQueue", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaQueue::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUMethod slot_0 = {"itemCountChanged", 0, 0 };
+    static const QUMethod slot_1 = {"selectAll", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ "point", &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"slotShowContextMenu", 3, param_slot_2 };
+    static const QMetaData slot_tbl[] = {
+	{ "itemCountChanged()", &slot_0, QMetaData::Public },
+	{ "selectAll()", &slot_1, QMetaData::Private },
+	{ "slotShowContextMenu(QListViewItem*,const QPoint&,int)", &slot_2, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaQueue", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaQueue.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaQueue::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaQueue" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool MediaQueue::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: itemCountChanged(); break;
+    case 1: selectAll(); break;
+    case 2: slotShowContextMenu((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaQueue::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaQueue::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool MediaQueue::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaBrowser::className() const
+{
+    return "MediaBrowser";
+}
+
+QMetaObject *MediaBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaBrowser( "MediaBrowser", &MediaBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUMethod slot_0 = {"transferClicked", 0, 0 };
+    static const QUMethod slot_1 = {"slotSetFilterTimeout", 0, 0 };
+    static const QUMethod slot_2 = {"slotSetFilter", 0, 0 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"mediumAdded", 2, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In },
+	{ "constructing", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"mediumAdded", 3, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"mediumChanged", 2, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"mediumRemoved", 2, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "device", &static_QUType_ptr, "MediaDevice", QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"activateDevice", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"activateDevice", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In },
+	{ "skipDummy", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"activateDevice", 2, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"pluginSelected", 2, param_slot_10 };
+    static const QUMethod slot_11 = {"showPluginManager", 0, 0 };
+    static const QUMethod slot_12 = {"cancelClicked", 0, 0 };
+    static const QUMethod slot_13 = {"connectClicked", 0, 0 };
+    static const QUMethod slot_14 = {"disconnectClicked", 0, 0 };
+    static const QUParameter param_slot_15[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"configSelectPlugin", 1, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_16 = {"config", 1, param_slot_16 };
+    static const QUParameter param_slot_17[] = {
+	{ "src", &static_QUType_ptr, "KURL", QUParameter::In },
+	{ "filetype", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_17 = {"transcode", 2, param_slot_17 };
+    static const QUParameter param_slot_18[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_18 = {"tagsChanged", 1, param_slot_18 };
+    static const QUMethod slot_19 = {"prepareToQuit", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "transferClicked()", &slot_0, QMetaData::Protected },
+	{ "slotSetFilterTimeout()", &slot_1, QMetaData::Private },
+	{ "slotSetFilter()", &slot_2, QMetaData::Private },
+	{ "mediumAdded(const Medium*,QString)", &slot_3, QMetaData::Private },
+	{ "mediumAdded(const Medium*,QString,bool)", &slot_4, QMetaData::Private },
+	{ "mediumChanged(const Medium*,QString)", &slot_5, QMetaData::Private },
+	{ "mediumRemoved(const Medium*,QString)", &slot_6, QMetaData::Private },
+	{ "activateDevice(const MediaDevice*)", &slot_7, QMetaData::Private },
+	{ "activateDevice(int)", &slot_8, QMetaData::Private },
+	{ "activateDevice(int,bool)", &slot_9, QMetaData::Private },
+	{ "pluginSelected(const Medium*,const QString)", &slot_10, QMetaData::Private },
+	{ "showPluginManager()", &slot_11, QMetaData::Private },
+	{ "cancelClicked()", &slot_12, QMetaData::Private },
+	{ "connectClicked()", &slot_13, QMetaData::Private },
+	{ "disconnectClicked()", &slot_14, QMetaData::Private },
+	{ "configSelectPlugin(int)", &slot_15, QMetaData::Private },
+	{ "config()", &slot_16, QMetaData::Private },
+	{ "transcode(const KURL&,const QString&)", &slot_17, QMetaData::Private },
+	{ "tagsChanged(const MetaBundle&)", &slot_18, QMetaData::Private },
+	{ "prepareToQuit()", &slot_19, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "isAvailable", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"availabilityChanged", 1, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "availabilityChanged(bool)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaBrowser", parentObject,
+	slot_tbl, 20,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaBrowser" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+// SIGNAL availabilityChanged
+void MediaBrowser::availabilityChanged( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+bool MediaBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: transferClicked(); break;
+    case 1: slotSetFilterTimeout(); break;
+    case 2: slotSetFilter(); break;
+    case 3: mediumAdded((const Medium*)static_QUType_ptr.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 4: mediumAdded((const Medium*)static_QUType_ptr.get(_o+1),(QString)static_QUType_QString.get(_o+2),(bool)static_QUType_bool.get(_o+3)); break;
+    case 5: mediumChanged((const Medium*)static_QUType_ptr.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 6: mediumRemoved((const Medium*)static_QUType_ptr.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 7: activateDevice((const MediaDevice*)static_QUType_ptr.get(_o+1)); break;
+    case 8: activateDevice((int)static_QUType_int.get(_o+1)); break;
+    case 9: activateDevice((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 10: pluginSelected((const Medium*)static_QUType_ptr.get(_o+1),(const QString)static_QUType_QString.get(_o+2)); break;
+    case 11: showPluginManager(); break;
+    case 12: cancelClicked(); break;
+    case 13: connectClicked(); break;
+    case 14: disconnectClicked(); break;
+    case 15: configSelectPlugin((int)static_QUType_int.get(_o+1)); break;
+    case 16: static_QUType_bool.set(_o,config()); break;
+    case 17: transcode((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1)),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 18: tagsChanged((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 19: prepareToQuit(); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaBrowser::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: availabilityChanged((bool)static_QUType_bool.get(_o+1)); break;
+    default:
+	return QVBox::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool MediaBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaView::className() const
+{
+    return "MediaView";
+}
+
+QMetaObject *MediaView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaView( "MediaView", &MediaView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"rmbPressed", 3, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"renameItem", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"slotExpand", 1, param_slot_2 };
+    static const QUMethod slot_3 = {"selectAll", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"invokeItem", 1, param_slot_4 };
+    static const QMetaData slot_tbl[] = {
+	{ "rmbPressed(QListViewItem*,const QPoint&,int)", &slot_0, QMetaData::Private },
+	{ "renameItem(QListViewItem*)", &slot_1, QMetaData::Private },
+	{ "slotExpand(QListViewItem*)", &slot_2, QMetaData::Private },
+	{ "selectAll()", &slot_3, QMetaData::Private },
+	{ "invokeItem(QListViewItem*)", &slot_4, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaView", parentObject,
+	slot_tbl, 5,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaView" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool MediaView::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: rmbPressed((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 1: renameItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: slotExpand((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 3: selectAll(); break;
+    case 4: invokeItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaView::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaView::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool MediaView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaDevice::className() const
+{
+    return "MediaDevice";
+}
+
+QMetaObject *MediaDevice::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaDevice( "MediaDevice", &MediaDevice::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaDevice::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDevice", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaDevice::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDevice", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaDevice::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"abortTransfer", 0, 0 };
+    static const QUMethod slot_1 = {"transferFiles", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"renameItem", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"expandItem", 1, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_4 = {"connectDevice", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ "silent", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"connectDevice", 2, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_6 = {"disconnectDevice", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ "postdisconnecthook", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"disconnectDevice", 2, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"fileTransferred", 1, param_slot_8 };
+    static const QUMethod slot_9 = {"fileTransferFinished", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "abortTransfer()", &slot_0, QMetaData::Public },
+	{ "transferFiles()", &slot_1, QMetaData::Public },
+	{ "renameItem(QListViewItem*)", &slot_2, QMetaData::Public },
+	{ "expandItem(QListViewItem*)", &slot_3, QMetaData::Public },
+	{ "connectDevice()", &slot_4, QMetaData::Public },
+	{ "connectDevice(bool)", &slot_5, QMetaData::Public },
+	{ "disconnectDevice()", &slot_6, QMetaData::Public },
+	{ "disconnectDevice(bool)", &slot_7, QMetaData::Public },
+	{ "fileTransferred(KIO::Job*)", &slot_8, QMetaData::Protected },
+	{ "fileTransferFinished()", &slot_9, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaDevice", parentObject,
+	slot_tbl, 10,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaDevice.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaDevice::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaDevice" ) )
+	return this;
+    if ( !qstrcmp( clname, "amaroK::Plugin" ) )
+	return (amaroK::Plugin*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool MediaDevice::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: abortTransfer(); break;
+    case 1: transferFiles(); break;
+    case 2: renameItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 3: expandItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 4: static_QUType_bool.set(_o,connectDevice()); break;
+    case 5: static_QUType_bool.set(_o,connectDevice((bool)static_QUType_bool.get(_o+1))); break;
+    case 6: static_QUType_bool.set(_o,disconnectDevice()); break;
+    case 7: static_QUType_bool.set(_o,disconnectDevice((bool)static_QUType_bool.get(_o+1))); break;
+    case 8: fileTransferred((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 9: fileTransferFinished(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaDevice::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaDevice::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool MediaDevice::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

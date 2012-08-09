@@ -1,0 +1,31 @@
+[Desktop Entry]
+Type=Service
+Name=File System Media Device
+Name[bg]=Устройство за файлова система
+Name[da]=Filsystem-medieenhed
+Name[de]=Dateisystem-Media-Player
+Name[el]=Συσκευή πολυμέσων συστήματος αρχείων
+Name[fi]=Tiedostojärjestelmämedialaite
+Name[fr]=Système de fichiers du périphérique de média
+Name[ga]=Gléas Meán Chóras Comhad
+Name[it]=Filesystem dispositivo multimediale
+Name[ja]=ファイルシステム メディアデバイス
+Name[km]=ឧបករណ៍​មេឌៀ​របស់​ប្រព័ន្ធ​ឯកសារ
+Name[nl]=Bestandssysteem media-apparaat
+Name[pa]=ਫਾਇਲ ਸਿਸਟਮ ਮੀਡਿਆ ਜੰਤਰ
+Name[pl]=Urządzenie systemu plików jako nośnika danych
+Name[pt]=Dispositivo Multimédia de Sistema de Ficheiros
+Name[pt_BR]=Sistema de Arquivos do Dispositivo de Mídia
+Name[sv]=Mediaenhet med filsystem
+Name[xx]=xxFile System Media Devicexx
+Name[zh_CN]=文件系统媒体设备
+ServiceTypes=amaroK/Plugin
+
+X-KDE-Library=libamarok_fs-mediadevice
+X-KDE-amaroK-plugintype=mediadevice
+X-KDE-amaroK-name=fs-mediadevice
+X-KDE-amaroK-authors=amaroK Team & Others
+X-KDE-amaroK-email=amarok-devel@lists.sourceforge.net
+X-KDE-amaroK-rank=100
+X-KDE-amaroK-version=1
+X-KDE-amaroK-framework-version=23

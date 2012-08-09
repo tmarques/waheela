@@ -1,0 +1,144 @@
+/****************************************************************************
+** CoverFetcher meta object code from reading C++ file 'coverfetcher.h'
+**
+** Created: Fri Mar 23 10:38:36 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "coverfetcher.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *CoverFetcher::className() const
+{
+    return "CoverFetcher";
+}
+
+QMetaObject *CoverFetcher::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CoverFetcher( "CoverFetcher", &CoverFetcher::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CoverFetcher::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverFetcher", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CoverFetcher::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverFetcher", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CoverFetcher::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"finishedXmlFetch", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"finishedImageFetch", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"changeLocale", 1, param_slot_2 };
+    static const QMetaData slot_tbl[] = {
+	{ "finishedXmlFetch(KIO::Job*)", &slot_0, QMetaData::Private },
+	{ "finishedImageFetch(KIO::Job*)", &slot_1, QMetaData::Private },
+	{ "changeLocale(int)", &slot_2, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ 0, &static_QUType_ptr, "CoverFetcher", QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"result", 1, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "result(CoverFetcher*)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CoverFetcher", parentObject,
+	slot_tbl, 3,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CoverFetcher.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CoverFetcher::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CoverFetcher" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL result
+void CoverFetcher::result( CoverFetcher* t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,t0);
+    activate_signal( clist, o );
+}
+
+bool CoverFetcher::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: finishedXmlFetch((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 1: finishedImageFetch((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 2: changeLocale((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CoverFetcher::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: result((CoverFetcher*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CoverFetcher::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool CoverFetcher::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

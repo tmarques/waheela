@@ -1,0 +1,193 @@
+/****************************************************************************
+** Engine::Base meta object code from reading C++ file 'enginebase.h'
+**
+** Created: Tue Feb 19 15:56:36 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "enginebase.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Engine::Base::className() const
+{
+    return "Engine::Base";
+}
+
+QMetaObject *Engine::Base::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Engine__Base( "Engine::Base", &Engine::Base::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Engine::Base::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Engine::Base", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Engine::Base::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Engine::Base", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Engine::Base::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod signal_0 = {"trackEnded", 0, 0 };
+    static const QUParameter param_signal_1[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"statusText", 1, param_signal_1 };
+    static const QUParameter param_signal_2[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_2 = {"infoMessage", 1, param_signal_2 };
+    static const QUParameter param_signal_3[] = {
+	{ 0, &static_QUType_ptr, "Engine::SimpleMetaBundle", QUParameter::In }
+    };
+    static const QUMethod signal_3 = {"metaData", 1, param_signal_3 };
+    static const QUParameter param_signal_4[] = {
+	{ 0, &static_QUType_ptr, "Engine::State", QUParameter::In }
+    };
+    static const QUMethod signal_4 = {"stateChanged", 1, param_signal_4 };
+    static const QUParameter param_signal_5[] = {
+	{ 0, &static_QUType_varptr, "\x14", QUParameter::In }
+    };
+    static const QUMethod signal_5 = {"showConfigDialog", 1, param_signal_5 };
+    static const QMetaData signal_tbl[] = {
+	{ "trackEnded()", &signal_0, QMetaData::Private },
+	{ "statusText(const QString&)", &signal_1, QMetaData::Private },
+	{ "infoMessage(const QString&)", &signal_2, QMetaData::Private },
+	{ "metaData(const Engine::SimpleMetaBundle&)", &signal_3, QMetaData::Private },
+	{ "stateChanged(Engine::State)", &signal_4, QMetaData::Private },
+	{ "showConfigDialog(const QCString&)", &signal_5, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Engine::Base", parentObject,
+	0, 0,
+	signal_tbl, 6,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Engine__Base.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Engine::Base::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Engine::Base" ) )
+	return this;
+    if ( !qstrcmp( clname, "amaroK::Plugin" ) )
+	return (amaroK::Plugin*)this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL trackEnded
+void Engine::Base::trackEnded()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+// SIGNAL statusText
+void Engine::Base::statusText( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+// SIGNAL infoMessage
+void Engine::Base::infoMessage( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 2, t0 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL metaData
+void Engine::Base::metaData( const Engine::SimpleMetaBundle& t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 3 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+// SIGNAL stateChanged
+void Engine::Base::stateChanged( Engine::State t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 4 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+// SIGNAL showConfigDialog
+void Engine::Base::showConfigDialog( const QCString& t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 5 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_varptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+bool Engine::Base::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool Engine::Base::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: trackEnded(); break;
+    case 1: statusText((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 2: infoMessage((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: metaData((const Engine::SimpleMetaBundle&)*((const Engine::SimpleMetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 4: stateChanged((Engine::State)(*((Engine::State*)static_QUType_ptr.get(_o+1)))); break;
+    case 5: showConfigDialog((const QCString&)*((const QCString*)static_QUType_ptr.get(_o+1))); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Engine::Base::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool Engine::Base::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

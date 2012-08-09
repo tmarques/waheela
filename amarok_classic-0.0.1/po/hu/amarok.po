@@ -1,0 +1,6868 @@
+# Tamas Szanto <tszanto@mol.hu>, 2004.
+# Arpad Biro <biro_arpad@yahoo.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 3.5\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2006-03-24 11:11+0100\n"
+"Last-Translator: Tamas Szanto <tszanto@mol.hu>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr ""
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "Lejátszólista..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "Rádióadás..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "Intelligens lejátszólista..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "Podcast..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "Aktuális lejátszólista..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "Dinamikus lejátszólista..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "Részletes nézet"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "Listanézet"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "Nem rendezett"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "Rendezés növekvően"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "Rendezés csökkenően"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "Rádióadások"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "Cool-adások"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "Intelligens lejátszólisták"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "Gyűjtemény"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "Teljes gyűjtemény"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "Kedvenc számok"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "Előadó: %1"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "Legtöbbször lejátszott"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "Legújabb számok"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "Legutóbb lejátszott"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "Még le nem játszott"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "Legalább egyszer lejátszott"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "Műfaj szerint"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 szám véletlenszerűen"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "Dinamikus lejátszólista mentése"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "Lejátszólista neve:"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "Dinamikus lejátszólisták"
+
+#: playlistbrowser.cpp:752
+msgid "Random Mix"
+msgstr "Véletlenszerű válogatás"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "Javasolt számok"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "Podcastok"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "Podcast hozzáadása"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "Podcast-URL:"
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "Letöltési időköz"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "Ellenőrzési időköz (óra):"
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+"<p>%n podcastot jelölt ki <b>végleges törlésre</b>. A letöltött epizódok is "
+"mind törölve lesznek."
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "Lejátszólisták"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr ""
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "Lejátszólista-fájlok"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "Lejátszólisták hozzáadása"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "Hiba történt a fájl átnevezése közben."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "&Betöltés"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "&Hozzáfűzés a lejátszólistához"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+msgid "Remove From Dynamic Mode"
+msgstr "Eltávolítás dinamikus módból"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "Hozzáadás a dinamikus módhoz"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "&Visszaállítás"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "Átneve&zés"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "S&zerkesztés..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "&Eltávolítás"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "S&zerkesztés"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+msgid "Show &Information"
+msgstr "&Jellemzők"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "&Frissítések ellenőrzése"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "&Beállítások..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "Le&játszás"
+
+#: playlistbrowser.cpp:2239
+msgid "&Queue"
+msgstr "&Sor"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "&Anyag letöltése"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr ""
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "Lejátszólista hozzáadása..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "Intelligens lejátszólista hozzáadása..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "Rádióadás hozzáadása..."
+
+#: playlistbrowser.cpp:2306
+msgid "Save Dynamic Configuration..."
+msgstr "A dinamikus mód beállításainak mentése..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "A podcastok frissítése"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "Podcast hozzáadása..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "Ellenőrzési időköz..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "Alkönyvtár létrehozása"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "Könyvtár"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "Könyvtár - %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "A szám &hozzáadása a sorhoz"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "Lejátszólista &készítése"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "CD-re írás adatként"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "CD-re írás hangként"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "A &számjellemzők szerkesztése..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr "Távoli anyagoknál nem érhetők el a számjellemzők."
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "Nem létező fájl: %1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "V&isszaállítás"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "A lejátszólista mentése"
+
+#: playlistbrowser.cpp:2858
+msgid "Save to location..."
+msgstr "Mentési könyvtár..."
+
+#: playlistbrowser.cpp:2862
+msgid "&Enter a name for the playlist:"
+msgstr "A&djon nevet a lejátszólistának:"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite Playlist?"
+msgstr "A lejátszólista felülírása?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite"
+msgstr "Felülírás"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "Hiba történt az Amazonnal folytatott kommunikációban."
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr "'%1' betöltése nem sikerült, helyette '%2' lesz betöltve."
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>Nem található egy hangkimeneti modul sem. Az amaroK most felfrissíti a KDE "
+"konfigurációs adatbázisát. Néhány perc elteltével próbálja meg újból elindítani "
+"a programot.</p>"
+"<p>Ha ez nem segít, akkor valószínűleg hibás prefixszel lett telepítve a "
+"program. Próbálja még egyszer elvégezni a telepítést így:"
+"<pre>$ cd /az/amarok/forráskódja/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>További információ található a README fájlban. Szívesen adunk "
+"segítséget IRC-n az #amarok csatornán, az irc.freenode.net címen.</p>"
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "Kapcsolódás a sugárzási forráshoz..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "A helyi fájl nem létezik."
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "Szkriptkezelő"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"Szkriptcsomagok (*.amarokscript..tar, *amarokscript.tar.bz2, "
+"*amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "Válasszon egy szkriptcsomagot"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "Nem sikerült beolvasni a csomagot."
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr ""
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "A szkript telepítése sikeresen befejeződött."
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "Valóban el szeretné távolítani ezt a szkriptet: '%1'?"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "Szkript eltávolítása"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "Ehhez a szkripthez nincs információ."
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "Névjegy: %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr ""
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr "Licenc"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "Nyomkövetés"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "A kimeneti napló m&utatása"
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "Kimeneti napló (%1)"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "A(z) '%1' szkript kilépett, a hibakód: %2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "A lejátszólista feltöltése"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "Előkészítés"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "Néhány anyagot nem sikerült betölteni (ezért nem játszhatók le)."
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "Ezeket az anyagokat nem sikerült betölteni a lejátszólistába: "
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "Az amaroK nem tudta megnyitni a fájlt."
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr ""
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "Az amaroK nem támogatja ezt a lejátszólista-formátumot."
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr ""
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "A lejátszólista letöltése"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr ""
+"Ezek a könyvtárak lesznek feldolgozva a gyűjtemény számára történő kereséskor."
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "Keresés az &alkönyvtárakban is"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "A könyvtárak &változásainak figyelése"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "Lejátszólisták &importálása"
+
+#: directorylist.cpp:45
+#, fuzzy
+msgid "If selected, amaroK will read all subfolders."
+msgstr ""
+"Ha be van jelölve, akkor az amaroK az összes könyvtárt annak alkönyvtáraival "
+"együtt olvassa be"
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"Ha be van jelölve, akkor a könyvtárak automatikusan át lesznek nézve a tartalom "
+"módosulásakor - például egy új fájl megjelenésekor"
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+"Ha be van jelölve, akkor a lejátszólista-fájlok (.m3u) automatikusan fel "
+"lesznek véve a lejátszólista-böngészőbe"
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "Újbóli feltöltés"
+
+#: party.cpp:78
+msgid "Enable dynamic mode"
+msgstr "Dinamikus módra váltás"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "A beállítások mutatása"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "Bevezető - Dinamikus mód"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "Borítókezelő"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "Ezen előadó albumai"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "Az összes album"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "Különböző előadók"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "Szűrőkifejezés..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "A szűrő törlése"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "Az albumok szűréséhez adjon meg szóközzel elválasztott kifejezéseket"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "Borítóval rendelkező albumok"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "Borítóval nem rendelkező albumok"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "Nemzetközi"
+
+#: covermanager.cpp:140
+msgid "Canada"
+msgstr "Kanada"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "Franciaország"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "Németország"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "Japán"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "Egyesült Királyság"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "Amazon-site kiválasztása"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "A hiányzó borítók letöltése"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "Leállítás"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "Kicsinyített képek betöltése..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "A borító képe"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "A kijelölt borítók &letöltése"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "&Egyéni borító beállítása a kijelölt albumokhoz"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "A kijelölt borítók eltá&volítása"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "Megjelenítés tel&jes méretben"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "&Letöltés innen: amazon.%1"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "&Egyéni kép beállítása"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "Borítókép &beállítása"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "A borítókép eltá&volítása"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "Válasszon egy borítóképet"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr "Biztos, hogy törölni kívánja ezt a(z) %n borítót a gyűjteményből?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "Kész."
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr " <b>%n</b> borító nem található"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "Borító letöltése: "
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr "<b>%n</b> borító letöltése...: "
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr "%n letöltve"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr "%n nem található"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "Kapcsolódás..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr "%n eredmény erre: \"%1\""
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr "%n album"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " előadó: "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - (<b>%1</b> borító nélkül)"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "Valóban szeretné felülírni ezt a borítót?"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "A felülírás megerősítése"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "&Felülírás"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr ""
+"Kérjük, küldje el ezt az üzenetet a következő e-mail címre: "
+"amarok-devel@lists.sf.net"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "Üdvözöljük az amaroKban!"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "Analizátor"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "További analizátorok: kattintás. Leválasztás: \"d\" billentyű."
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "E modul használata esetén nem használható equalizer."
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "Kijelzők"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr ""
+"A helyi menü megjelenítéséhez kattintson a jobb oldali egérgombbal a megfelelő "
+"bejegyzésen"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "Teljes képernyős mód"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "A gyűjtemény szűréséhez adjon meg szóközzel elválasztott kifejezéseket"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "Frissítés"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "A könyvtárak beállításai"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "Fanézet"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "Listanézet"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "Csoportosítás"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "Előadó"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "Előadó / album"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "Év"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "Album"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "Műfaj / előadó"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "Műfaj / előadó / album"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "&Első szint"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "&Második szint"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "&Harmadik szint"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "&Album"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr ""
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "&Előadó"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "&Műfaj"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "É&v"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "&Nincs"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "&Album"
+
+#: collectionbrowser.cpp:207
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr "%n fájl"
+
+#: collectionbrowser.cpp:212
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr "%n album"
+
+#: collectionbrowser.cpp:217
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr "%n fájl"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr "%n szám"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "A gyűjtemény beállításai"
+
+#: collectionbrowser.cpp:1185
+#, fuzzy
+msgid "&Queue Tracks"
+msgstr "A szám &hozzáadása a sorhoz"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+#, fuzzy
+msgid "&Save as Playlist..."
+msgstr "A lejátszólista m&entése másként..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "Az előadó összes számának kiírása"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "Az egész album kiírása"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+#, fuzzy
+msgid "Burn to CD"
+msgstr "CD-re írás adatként"
+
+#: collectionbrowser.cpp:1214
+#, fuzzy
+msgid "&Fetch Cover Image"
+msgstr "Borító&képek letöltése"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr ""
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr ""
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "Cím"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "Műfaj"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "amaroK-menü"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "Menü"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "&Borítókezelő"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "&Kijelzők"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "E&qualizer"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "amaroK &varázsló"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "A gyűjtemény &frissítése"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "Lejátszás/Szünet"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "Szünet"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "Lejátszás"
+
+#: actionclasses.cpp:278
+#, fuzzy
+msgid "Click for more analyzers"
+msgstr "Analizátorok: kattintás"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "Hangerő"
+
+#: actionclasses.cpp:338
+#, fuzzy
+msgid "Volume control"
+msgstr "Hangerőszabályzó"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "&Véletlenszerű sorrend"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "A szá&m ismétlése"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "A lejátszólista &ismétlése"
+
+#: actionclasses.cpp:391
+#, fuzzy
+msgid "&Dynamic Mode"
+msgstr "Adat-üzemmód"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "Írás"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "Aktuális lejátszólista"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "A kijelölt számokat"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr ""
+
+#: actionclasses.cpp:505
+#, fuzzy
+msgid "After Current Track"
+msgstr "&Beillesztés az aktuális szám után"
+
+#: actionclasses.cpp:506
+#, fuzzy
+msgid "After Queue"
+msgstr "Össze&keverés"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>A KLibLoader nem tudja betölteni a következő modult:"
+"<br/><i>%1</i></p>"
+"<p>Hibaüzenet:"
+"<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "Név"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "Könyvtár"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "Szerzők"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "E-mail"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "Verzió"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "Keretrendszer-verzió"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "Modulinformáció"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "Grafikus equalizer"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: equalizersetup.cpp:73
+#, fuzzy
+msgid "Presets:"
+msgstr "Állapot"
+
+#: equalizersetup.cpp:80
+#, fuzzy
+msgid "Add new preset"
+msgstr "Equalizer bekapcsolása"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "Equalizer bekapcsolása"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "Előerősítő"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+#, fuzzy
+msgid "Manual"
+msgstr "Menü"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr ""
+
+#: equalizersetup.cpp:361
+#, fuzzy
+msgid "Add Equalizer Preset"
+msgstr "Equalizer bekapcsolása"
+
+#: equalizersetup.cpp:362
+#, fuzzy
+msgid "Enter preset name:"
+msgstr "Lejátszólista neve:"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Szántó Tamás"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "tszanto@mol.hu"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "Fájl törlése"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "URL"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr "%n szám a sorban"
+
+#: mediabrowser.cpp:414
+#, fuzzy
+msgid "Connect"
+msgstr "Környezet"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "Átvitel"
+
+#: mediabrowser.cpp:419
+#, fuzzy
+msgid "Connect media device"
+msgstr "%1 beállítása"
+
+#: mediabrowser.cpp:420
+#, fuzzy
+msgid "Transfer tracks to media device"
+msgstr "%1 beállítása"
+
+#: mediabrowser.cpp:421
+#, fuzzy
+msgid "Configure mount commands"
+msgstr "&Parancs:"
+
+#: mediabrowser.cpp:445
+#, fuzzy
+msgid "&Remove From Queue"
+msgstr "&Törlés a lejátszólistából"
+
+#: mediabrowser.cpp:446
+#, fuzzy
+msgid "&Clear Queue"
+msgstr "Össze&keverés"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr ""
+
+#: mediabrowser.cpp:663
+#, fuzzy
+msgid "Configure Media Device"
+msgstr "%1 beállítása"
+
+#: mediabrowser.cpp:668
+#, fuzzy
+msgid "&Mount command:"
+msgstr "&Parancs:"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:674
+#, fuzzy
+msgid "&Unmount command:"
+msgstr "&Parancs:"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr ""
+
+#: mediabrowser.cpp:818
+#, fuzzy, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr "<p>%1 ki lett jelölve <b>visszavonhatatlan</b> törlésre."
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr ""
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+#, fuzzy
+msgid "Media Device Browser"
+msgstr "Médiaeszköz"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+
+#: mediabrowser.cpp:954
+#, fuzzy
+msgid "&Transfer"
+msgstr "Átvitel"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr ""
+
+#: podcastsettings.cpp:20
+#, fuzzy
+msgid "Configure Podcast Stream"
+msgstr "%1 beállítása"
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr ""
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr ""
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+#, fuzzy
+msgid "Presets"
+msgstr "Állapot"
+
+#: equalizerpresetmanager.cpp:100
+#, fuzzy
+msgid "Rename Equalizer Preset"
+msgstr "Equalizer bekapcsolása"
+
+#: equalizerpresetmanager.cpp:101
+#, fuzzy
+msgid "Enter new preset name:"
+msgstr "Lejátszólista neve:"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+#, fuzzy
+msgid "Queue Manager"
+msgstr "Borítókezelő"
+
+#: queuemanager.cpp:276
+#, fuzzy
+msgid "Move up"
+msgstr "Borító nem található"
+
+#: queuemanager.cpp:277
+#, fuzzy
+msgid "Move down"
+msgstr "Borító nem található"
+
+#: queuemanager.cpp:279
+#, fuzzy
+msgid "Enqueue track"
+msgstr "A szám &hozzáadása a sorhoz"
+
+#: queuemanager.cpp:280
+#, fuzzy
+msgid "Clear queue"
+msgstr "Össze&keverés"
+
+#: tagdialog.cpp:59
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr "%n szám"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "Hang-ujjlenyomat előállítása..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "A szám nem található a MusicBrainz adatbázisban."
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr "A funkció használatához telepíteni kell a MusicBrainz-t"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+#, fuzzy
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "A jellemző értékét nem sikerült megváltoztatni."
+
+#: tagdialog.cpp:627
+#, fuzzy
+msgid "TagLib claims %1 file is not writable."
+msgstr "A TagLib szerint ez a fájl nem írható."
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "&Hozzáadás..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "A lejátszólista m&entése másként..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "Lejátszás..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "Hang-CD lejátszása"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "A &globális billentyűparancsok beállítása..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "Előző szám"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "Következő szám"
+
+#: playlistwindow.cpp:186
+#, fuzzy
+msgid "S&earch:"
+msgstr "Keresés"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+
+#: playlistwindow.cpp:257
+#, fuzzy
+msgid "&Cover Manager"
+msgstr "Borítókezelő"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+#, fuzzy
+msgid "&Equalizer"
+msgstr "Equalizer"
+
+#: playlistwindow.cpp:263
+#, fuzzy
+msgid "&First-Run Wizard"
+msgstr "Varázsló"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "Az eszköztár elrejtése"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "Az eszköztár megjelenítése"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "A lejátszó&ablak elrejtése"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "A lejátszó&ablak megjelenítése"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "&Műveletek"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "&Lejátszólista"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "Környezet"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "Médiaeszköz"
+
+#: playlistwindow.cpp:662
+#, fuzzy
+msgid "Play Media"
+msgstr "Lejátszás..."
+
+#: playlistwindow.cpp:662
+#, fuzzy
+msgid "Add Media"
+msgstr "Hozzáadás..."
+
+#: collectionreader.cpp:37
+#, fuzzy
+msgid "Building Collection"
+msgstr "Gyűjtemény készítése"
+
+#: collectionreader.cpp:67
+#, fuzzy
+msgid "Updating Collection"
+msgstr "A gyűjtemény frissítése"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "A gyűjtemény frissítése folyik..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr ""
+"Ha gyűjtemény készítése közben lefagy a program, kérjük küldje el nekünk ezt a "
+"fájlt."
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "A könyvtárstruktúra beolvasása"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "A fájljellemzők beolvasása"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>A GStreamert nem sikerült inicializálni.</h3> "
+"<p>Ellenőrizze, hogy telepítve van-e az összes szükséges GStreamer-modul (pl. "
+"az OGG és az MP3), majd futtassa le a <i>'gst-register'</i> programot.</p>"
+"<p>További információ található a GStreamer kézikönyvében, vagy kérjen "
+"segítséget a #gstreamer csatornán az irc.freenode.net címen.</p>"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>A GStreamerből hiányoznak a regisztrációs adatok.</h3> "
+"<p>Ellenőrizze, hogy telepítve van-e az összes szükséges GStreamer-modul (pl. "
+"OGG és MP3), majd futtassa le a <i>'gst-register'</i> programot.</p>"
+"<p>További információ a GStreamer kézikönyvében található, illetve segítséget "
+"kaphat IRC-n keresztül, a #gstreamer csatornán, az irc.freenode.net címen.</p>"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+"<p>Válasszon ki egy GStreameres <u>kimeneti modult</u> "
+"a beállítási párbeszédablakban.</p>"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>A GStreamer nem tudott létrehozni egy elemet: <i>%1</i></h3> "
+"<p>Ellenőrizze, hogy telepítve van-e az összes szükséges GStreamer-modul (pl. "
+"OGG és MP3), majd futtassa le a <i>'gst-register'</i> programot.</p>"
+"<p>További információ a GStreamer kézikönyvében található, illetve segítséget "
+"kaphat IRC-n keresztül, a #gstreamer csatornán, az irc.freenode.net címen.</p>"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "Pufferelés... %1 %"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+"<h3>Az amaroK nem tudta inicializálni a MAS-t.</h3>"
+"<p>Ellenőrizze, fut-e a MAS szolgáltatás.</p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>Az artsd nem <b>valós idejű prioritással</b> fut. Ennek hatására a "
+"lejátszásban \"kihagyások\" és szaggatás fordulhat elő."
+"<p>"
+"<p>Valós idejű prioritás használatához nyissa meg a KDE Vezérlőpultot és "
+"jelölje be \"A hangszolgáltatás valós idejű prioritással fusson\" opciót a <i>"
+"Hangszolgáltatás</i> beállítómodulban, mely a <i>Hang, multimédia</i> "
+"modulcsoportban található. Azt is érdemes ellenőrizni, hogy a "
+"\"$KDEDIR/bin/artswrapper\" program <b>set suid</b> módba van-e állítva (chmod "
+"+s).</p>"
+"<p>Általában az artsd szolgáltatás a prioritás megnövelése nélkül is megfelelő "
+"minőséggel tud lejátszani.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "aRts-hiba"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr "Az aRts nem indítható el, válasszon egy másik hangmodult."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "Végzetes hiba"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>Hiba történt a libamarokarts programkönyvtár betöltése közben. Először "
+"próbálja kiadni a "
+"<pre>killall -9 artsd && amarok</pre> parancsot. Ha ez nem segít, akkor az "
+"amaroK valószínűleg hibás prefixszel lett telepítve, ezért konfigurálja újra a "
+"programot így:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "amaroK-hiba"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr ""
+"Hiba: nem lett betöltve semmilyen hangmodul, ezért lejátszás nem lehetséges."
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "Az amaroK nem tudta inicializálni a Xine-t."
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "A Xine egyik hangmodult sem tudta inicializálni."
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "Az amaroK nem tudott új Xine-adatfolyamot létrehozni."
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+#, fuzzy
+msgid "Radio Stream"
+msgstr "Előerősítő"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "Bemeneti modul nem érhető el; ellenőrizze a telepítést."
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "Demux modul nem érhető el, ellenőrizze a telepítést."
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "Egy demux művelet nem sikerült, ellenőrizze a telepítést."
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "Belső hiba; ellenőrizze a telepítést."
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr ""
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "A gépnév nem ismert ennél az URL-nél: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "A megadott eszköznév érvénytelen."
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "A hálózat nem elérhető."
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "A hangkimenet nem elérhető; az eszköz foglalt."
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "A kapcsolat vissza lett utasítva ennél az URL-nél: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "A Xine nem találja a következő URL-t: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "A következő URL-hez való hozzáférés megtagadva: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "A következő URL-hez nem olvasható be a forrás: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr "Probléma lépett fel egy könyvtár illetve dekódoló betöltésekor."
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "Általános figyelmeztetés"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "Biztonsági figyelmeztetés"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "Ismeretlen hiba"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "Nem érhető el további információ."
+
+#: engine/helix/helix-engine.cpp:122
+#, fuzzy
+msgid "Contacting: "
+msgstr "Kapcsolódás..."
+
+#: engine/helix/helix-engine.cpp:128
+#, fuzzy
+msgid "Buffering %1%"
+msgstr "Pufferelés... %1 %"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr ""
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "Kimeneti modul:"
+
+#: engine/helix/helix-configdialog.cpp:133
+#, fuzzy
+msgid "Device:"
+msgstr "Eszköz:"
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr ""
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr ""
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "A K3b nem indítható."
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "DCOP-hiba lépett fel a K3b-vel folytatott kommunikációban."
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+"Hang-CD-t szeretne létrehozni (ez hagyományos CD-lejátszókban használható) vagy "
+"adat-CD-t (ez számítógépekben és digitális zenelejátszókban használható)?"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "K3b-projekt létrehozása"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "Hang-üzemmód"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "Adat-üzemmód"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "Hangrendszer"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "A lejátszáshoz használandó hangrendszer kijelöléséhez kattintson ide"
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "A modullal kapcsolatos információk megtekintéséhez kattintson ide"
+
+#: configdialog.cpp:102
+#, fuzzy
+msgid "Locale Encoding"
+msgstr "Az átkódoláshoz használt kódolás"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "Általános"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "Az általános opciók beállítása"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "Az amaroK megjelenésének beállítása"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "Lejátszás"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "A lejátszás beállítása"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "OSD"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "Az OSD beállítása"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "Hangmodul"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "A hangmodul beállítása"
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr ""
+
+#: configdialog.cpp:129
+#, fuzzy
+msgid "Configure last.fm Support"
+msgstr "%1 beállítása"
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "%1 beállítása"
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr ""
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr ""
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr ""
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr ""
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr ""
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr ""
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+#, fuzzy
+msgid "%1 by %2"
+msgstr " előadó: "
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 kbit/s"
+
+#: metabundle.h:106
+#, fuzzy
+msgid "Stream"
+msgstr "Előerősítő"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 kHz"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "MusicBrainz - eredmények"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr ""
+
+#: scrobbler.cpp:939
+#, fuzzy
+msgid "'%1' submitted to last.fm"
+msgstr "'%1' elküldve az Audioscrobblernek"
+
+#: scrobbler.cpp:942
+#, fuzzy
+msgid "Several tracks submitted to last.fm"
+msgstr "Több szám el lett küldve az Audioscrobblernek"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr "'%1' és %n további szám elküldve"
+
+#: scrobbler.cpp:953
+#, fuzzy
+msgid "Failed to submit '%1' to last.fm"
+msgstr "Nem sikerült elküldeni ezt: '%1' az Audioscrobblernek"
+
+#: scrobbler.cpp:956
+#, fuzzy
+msgid "Failed to submit several tracks to last.fm"
+msgstr "Nem sikerült elküldeni néhány számot az Audioscrobblernek"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr "Nem sikerült elküldeni: '%1' és %n másik szám"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr "%n szám még a sorban várakozik"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, fuzzy, no-c-format
+msgid "partyDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, fuzzy, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "A lejátszólista-ablakban használandó betűtípus"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, fuzzy, no-c-format
+msgid "Random Song"
+msgstr "Véletlenszerű"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, fuzzy, no-c-format
+msgid "Suggested Song"
+msgstr "Javasolt számok"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, fuzzy, no-c-format
+msgid "Playlist Shuffle"
+msgstr "Lejátszólisták"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, fuzzy, no-c-format
+msgid "&Remove played tracks"
+msgstr "Legritkábban lejátszott"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, fuzzy, no-c-format
+msgid "Mar&k history"
+msgstr "A jellemzők változása"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, fuzzy, no-c-format
+msgid "Upcoming tracks:"
+msgstr "Ismeretlen"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, fuzzy, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr "A visszavonási lépések maximális száma a lejátszólistában."
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr ""
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "Fájlnév"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr ""
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, fuzzy, no-c-format
+msgid "Filename"
+msgstr "Fájlnév"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "Szám"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "KönyvtárListaAlap"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "Szkriptek"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "Az amaroK számára ezek a szkriptek állnak rendelkezésre."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, fuzzy, no-c-format
+msgid "&Install Script"
+msgstr "Szkript telepítése"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr ""
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, fuzzy, no-c-format
+msgid "&Run"
+msgstr "Futtatás"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, fuzzy, no-c-format
+msgid "&Stop"
+msgstr "&Kihagyás"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, fuzzy, no-c-format
+msgid "&Uninstall"
+msgstr "Eltávolítás"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr ""
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr ""
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "Lejátszólista-eszköztár"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, fuzzy, no-c-format
+msgid "Podcast Configuration"
+msgstr "A MySQL beállításai"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, fuzzy, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "Egyéni hangeszköz használata"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, fuzzy, no-c-format
+msgid "URL:"
+msgstr "URL"
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, fuzzy, no-c-format
+msgid "Media Download"
+msgstr "Borító nem található"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, fuzzy, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "Lejátszás..."
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, fuzzy, no-c-format
+msgid "Download when a&vailable"
+msgstr "Lejátszás..."
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, fuzzy, no-c-format
+msgid "Save location:"
+msgstr "Elérési út:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, fuzzy, no-c-format
+msgid " Items"
+msgstr " ms"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "Varázsló"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>Üdvözöljük!</h1>\n"
+"<p>Manapság számtalan médialejátszó közül lehet választani. A legtöbb "
+"programból azonban hiányzik a kényelmes használatot lehetővé tevő kifinomult "
+"kezelőfelület. Hány gombot kell megnyomni, ha egy új anyagot szeretne hozzáadni "
+"a lejátszólistához? Az amaroK egyedi megközelítést használ, húzással és "
+"ejtéssel működő, könnyen kezelhető felületet kínálva.</p>\n"
+"<p align=\"right\"><i>\"Az amaroK egyszerűen szuper!\"</i> - Rodney bácsi</p>\n"
+"<h2>amaroK varázsló</h2>\n"
+"<p>A varázsló segítségével három egyszerű lépésben beállítható a program az Ön "
+"egyéni ízlésének megfelelően. A beállítás megkezdéséhez kattintson a <i>"
+"Következő</i> gombra. Ha nem szeretne varázslót használni, kattintson a <i>"
+"Kihagyás</i> gombra.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, fuzzy, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+"Egy ablakban a lejátszó és a lejátszólista\n"
+"(kombinált funkcionalitás,\n"
+"mint a JuKban)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, fuzzy, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr ""
+"Külön ablakban a lejátszó és a lejátszólista\n"
+"(mint az XMMS-ben)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, fuzzy, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p>Az amaroKban kiválaszthatja az Önnek legjobban tetsző kezelőfelületet. Az "
+"alábbi módok közül lehet választani (a jobb oldalon a módnak megfelelő nézet "
+"látható). A választott érték később bármikor megváltoztatható az amaroK "
+"beállítóablakában.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, fuzzy, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "Gyűjtemény"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, fuzzy, no-c-format
+msgid "Database (3 of 3)"
+msgstr "Az adatbázis neve"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, fuzzy, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>Gratulálunk!</h1>\n"
+"<p>Az amaroK lejátszásra kész! Ha a Befejezés gombra kattint, az amaroK elindul "
+"és elkezdi végignézni a gyűjteményhez tartozó könyvtárakat.</p>\n"
+"<p>Az amaroK lejátszólista-ablakában megjelenik a <b>Gyűjtemény</b> "
+"a bal oldalon és a <b>Lejátszólista</b> a jobb oldalon. A gyűjteményből húzza "
+"át a kívánt zenéket a lejátszólistába és kattintson a <b>Lejátszás</b> "
+"gombra.</p>\n"
+"<p>Ha további segítséget vagy részletes magyarázatot szeretne kapni, olvassa el "
+"<a href=\"help:/amarok\">az amaroK kézikönyvét</a>. Sok sikert kívánunk az "
+"amaroK használatához!</p>\n"
+"<p align=\"right\">Az amaroK készítői</p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "Az adatbázis beállításai"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, fuzzy, no-c-format
+msgid "Database:"
+msgstr "[3] Adatbázis"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, fuzzy, no-c-format
+msgid "Postgresql Configuration"
+msgstr "A MySQL beállításai"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, fuzzy, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "Kapcsolódás a sugárzási forráshoz..."
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "A MySQL beállításai"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "Gépnév:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "Név:"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "Port:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr ""
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "Jelszó:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr ""
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "Hangkimenet"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+"Válassza ki a kívánt hangkimeneti modult (\"fogadóelemet\"). A rendszer "
+"beállításaitól függ, hogy mely modulok használhatók."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "Nem az automatikusan felismert kimeneti hangeszközt kell használni"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr ""
+"Ha ez be van jelölve, a felhasználó által kijelölt hangkimeneti fogadóelem lesz "
+"érvényes."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "A használni kívánt hangkimeneti eszköz"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+"Válassza ki a kimeneti hangeszközt (a GStreamer kimeneti fogadóelemeinél lehet "
+"hasznos)."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "Egyéni paraméterek megadása a kimeneti fogadóelemhez."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "Egyéni paraméterek a kimeneti fogadóelemhez."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "Szám végén az elhalkítás időtartama"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "A GStreamer modul beállítása - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "Egyéni hangeszköz, például: /dev/dsp2"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " ms"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, fuzzy, no-c-format
+msgid "&Device:"
+msgstr "Eszköz:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "Egyéni hangeszköz használata"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, fuzzy, no-c-format
+msgid "&Fade-out:"
+msgstr "Lehalkítási időtartam:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, fuzzy, no-c-format
+msgid "&Output plugin:"
+msgstr "Kimeneti modul:"
+
+# Sink elements are terminal points in a media pipeline. They accept data but do not
+# produce anything. Disk writing, soundcard playback, and video output would all be
+# implemented by sink elements.
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "GStreamer-fogadóelem"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "Egyéni paraméterek, például: sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, fuzzy, no-c-format
+msgid "&Parameters:"
+msgstr "Paraméterek:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "Egyéni fogadóelem-paraméterek használata"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr ""
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, fuzzy, no-c-format
+msgid "Enable a custom device"
+msgstr "Egyéni hangeszköz használata"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, fuzzy, no-c-format
+msgid "Xine Configure"
+msgstr "%1 beállítása"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, fuzzy, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "A MySQL beállításai"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, fuzzy, no-c-format
+msgid "&Stereo:"
+msgstr "Mű&faj:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, fuzzy, no-c-format
+msgid "OSS Device Configuration"
+msgstr "A MySQL beállításai"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr ""
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, fuzzy, no-c-format
+msgid "&Host:"
+msgstr "Gépnév"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, fuzzy, no-c-format
+msgid "&User:"
+msgstr "Felhasználónév"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, fuzzy, no-c-format
+msgid "&Password:"
+msgstr "Jelszó:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, fuzzy, no-c-format
+msgid "Output plugin"
+msgstr "Kimeneti modul:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, fuzzy, no-c-format
+msgid "Device"
+msgstr "Eszköz:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, fuzzy, no-c-format
+msgid "ALSA Device"
+msgstr "Eszköz:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, fuzzy, no-c-format
+msgid "DeviceEnabled"
+msgstr "Eszköz:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr ""
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, fuzzy, no-c-format
+msgid "Track Information"
+msgstr "A &szám jellemzői"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "&Következő"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, fuzzy, no-c-format
+msgid "Sa&ve && Close"
+msgstr "M&entés és bezárás"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "Al&bum:"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "Mintavétel:"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "Elő&adó:"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "Mű&faj:"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "Hossz:"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "É&v:"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, fuzzy, no-c-format
+msgid "&Score:"
+msgstr "Pontszám"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "Bitráta:"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "&Sorszám:"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "&Cím:"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, fuzzy, no-c-format
+msgid "Playcount:"
+msgstr "Lejátszásszámláló"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "A jellemzők ki&töltése a MusicBrainz segítségével"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "A jellemzők meghatározása ujjlenyomat alapján."
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "Meg&jegyzés:"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "Elérési út:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "Általános beállítások"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "&Nyitókép megjelenítése indításkor"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr "Ha szeretne nyitóképet az amaroK indításakor, akkor jelölje be"
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "Panelikon megj&elenítése"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "Ha szeretné bekapcsolni az amaroK panelikonját, akkor jelölje be"
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr ""
+"Jelölje be, ha azt szeretné, hogy az amaroK panelikonja animált legyen."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "Lejátszóablak megjelenítése (mint az &XMMS-ben)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, fuzzy, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "Ha szeretne egy plusz lejátszóablakot, akkor jelölje be"
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, fuzzy, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "A borító-előnézetek alapértelmezett mérete:"
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "A környezetmegjelenítőben látható borítókép mérete képpontban megadva"
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr "képpont"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr ""
+"A környezetmegjelenítőben látható borítóképek mérete képpontban megadva"
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "A lejátszólista-ablak beállításai"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "Az aktuális &lejátszólista elmentése kilépéskor"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"Ha be van jelölve, akkor az amaroK kilépéskor elmenti az aktuális "
+"lejátszólistát, a jövőbeli indításokkor pedig betölti azt"
+"<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"Ha be van jelölve, akkor az amaroK kilépéskor\\nelmenti az aktuális "
+"lejátszólistát, a jövőbeli\\nindításokkor pedig betölti azt"
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr ""
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"Ha be van jelölve, akkor számváltásoknál a lejátszólista görgetésre kerül, hogy "
+"a lejátszás alatt álló elem látható legyen a lejátszólistában. Csak szükség "
+"esetén történik görgetés."
+"<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"Ha be van jelölve, akkor számváltásoknál a lejátszólista görgetésre kerül, hogy "
+"a lejátszás alatt álló elem látható legyen a lejátszólistában. Csak szükség "
+"esetén történik görgetés."
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, fuzzy, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "Váltás a környezetböngészőre, ha szükséges"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr "Váltás a környezetböngészőre egy szám lejátszásakor<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "Váltás a környezetböngészőre egy szám lejátszásakor"
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, fuzzy, no-c-format
+msgid "Show s&tatusbar"
+msgstr "Az állapotsor megjelenítése"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr "Ha szeretne állapotsort a lejátszólista-ablakban, akkor jelölje be<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "Ha szeretne állapotsort a lejátszólista-ablakban, akkor jelölje be"
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, fuzzy, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "Az állapotsor megjelenítése"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, fuzzy, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "A környezetböngészőben használandó betűtípus"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, fuzzy, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "A környezetböngészőben használandó betűtípus"
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "Kódolások"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "A következőket nem latin1-ként kell dekódolni:"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "ID3v1 típusú &jellemzők"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "Sho&utcast-jellemzők"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, fuzzy, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "Helyette ezt a kódolást kell használni:"
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "&Egyéni betűtípusok használata"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "Ha szeretne egyéni betűtípusokat, akkor jelölje be"
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "A lejátszóablak betűtípusa:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "A lejátszóablakban használandó betűtípus"
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "A lejátszólista-ablak betűtípusa:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "A lejátszólista-ablakban használandó betűtípus"
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "A környezetböngésző betűtípusa:"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "A környezetböngészőben használandó betűtípus"
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "Színösszeállítás"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "E&gyéni színösszeállítás"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Ha ez van kijelölve, akkor a felhasználó által meghatározott színösszeállítás "
+"lesz felhasználva a lejátszólistában"
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "&Előtér:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "A lejátszólista előtérszínét határozza meg."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr ""
+"A lejátszólista-ablak szövegeinek előtérszínének módosításához kattintson ide"
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "A lejátszólista előtérszínét (szövegszínét) határozza meg"
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "&Háttér:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "A lejátszólista háttérszínét határozza meg"
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "A lejátszólista-ablak háttérszínének módosításához kattintson ide"
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "Az aktuális &KDE-színösszeállítás"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Ha ez van kijelölve, akkor a KDE-féle színösszeállítás lesz felhasználva a "
+"lejátszólistában"
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "A klasszikus \"Funky-monkey\" &amaroK-téma"
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Ha ez van kijelölve, akkor az amaroK-féle színösszeállítás lesz felhasználva a "
+"lejátszólistában"
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "A környezetböngésző stílusa"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "Válasszon ki egy stílust:"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "Válassza ki a környezetböngésző stílusát."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, fuzzy, no-c-format
+msgid "Install New Style..."
+msgstr "Új stílus telepítése"
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr ""
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, fuzzy, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "Válassza ki a környezetböngésző stílusát."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, fuzzy, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "Válassza ki a környezetböngésző stílusát."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "Számváltási mó&d"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>Számváltási mód</b>\n"
+"<p>Lejátszás közben való számváltáskor az amaroK átléphet normál módon a "
+"következő számra (esetleges, beállítható szünettel) vagy áttűnést alkalmazhat "
+"(beállítható áttűnési időtartammal).</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "&Nincs áttűnés"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr "Normál számváltás bekapcsolása. A számok közé szünet is betehető."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "S&zünet:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " ms"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "A számok közti csend hossza (ezredmásodpercben)."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "Á&ttűnés"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"Számok közti áttűnés bekapcsolása. Ez a beállítás bekapcsolja a lehalkítást "
+"(például a \"Leállítás\" gomb lenyomásakor) illetve felhangosítást is."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "Áttűnési &idő:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "A számok közti áttűnési idő hossza (ezredmásodpercben)."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "A &lejátszás folytatása indításkor"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"Ha be van jelölve, akkor az amaroK"
+"<br>azon a helyen folytatja a lejátszást, ahol az előző használat alkalmával le "
+"volt állítva (egy szalagos magnetofonhoz hasonlóan)"
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "OS&D használata"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"Ha szeretne OSD-t (képernyőn való kijelzés), akkor jelölje be. "
+"<br>Az OSD megjeleníti a szám adatait egy új számra való váltáskor."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"Ha szeretne OSD-t (képernyőn való kijelzés), akkor jelölje be. Az OSD "
+"megjeleníti a szám adatait egy új számra való váltáskor."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "&Betűtípus"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "Az OSD-ben használandó betűtípus"
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, fuzzy, no-c-format
+msgid "Draw &shadow"
+msgstr "Árnyék rajzolása"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "Szí&nek"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "E&gyéni színösszeállítás használata"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr "Ha szeretne egyéni színeket az OSD-ben, akkor jelölje be"
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "Háttérszín:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "Az OSD hátterének színe"
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "Az OSD szövegszínének módosításához kattintson ide"
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "Az OSD szövegének színe"
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "Az OSD háttérszínének módosításához kattintson ide"
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "Szövegszín:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr ""
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "Megjelenítendő szö&veg"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, fuzzy, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "A lejátszólista néhány jellemzőjének megjelenítése."
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, fuzzy, no-c-format
+msgid "&Duration:"
+msgstr "Időtartam:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "Korlátlan"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"Az időtartam (ezredmásodpercben), ameddig az OSD-nek látszania kell. Az "
+"értéknek 500 és 10000 ms közt kell lennie."
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "A képernyő, amelyen az OSD-nek meg kell jelennie"
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, fuzzy, no-c-format
+msgid "Sc&reen:"
+msgstr "Képernyő:"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySQL"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "Gyűjteménykönyvtárak"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "Gyűjtemény-adatbázis"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, fuzzy, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"Az amaroKkal elküldhető a lejátszott számok neve az Audioscrobblerre. A "
+"rendszer ez alapján automatikusan kiválasztja az Önhöz hasonló zenei ízlésű "
+"embereket, és személyre szabott javaslatokat tesz. Az Audioscrobbler "
+"rendszerről <A href='http://www.audioscrobbler.com'>annak honlapján</A> "
+"szerezhet további információt."
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, fuzzy, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<P>Ha az Audioscrobblert az amaroKkal szeretné használni, szüksége lesz egy <A "
+"href='http://www.audioscrobbler.com:80/signup.php'>Audioscrobbler-profilra</A>."
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, fuzzy, no-c-format
+msgid "&Username:"
+msgstr "Felhasználónév:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, fuzzy, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "A saját profil fejlesztése a lejátszott számok elküldésével"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, fuzzy, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "A hasonló előadók letöltése"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, fuzzy, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"Csatlakozzon az <A href='http://www.audioscrobbler.com:80/group/amaroK+users'>"
+"amaroK Audioscrobbler-csoporthoz</A> és ossza meg zenei ízlését más "
+"amaroK-felhasználókkal."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "Amarok-verzió"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr ""
+"Az amaroK verziósztringje, ezzel történik az aRts újraindítása telepítés után."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "A lejátszóablak pozíciója"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr "A főablak pozíciója a program indításakor."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "A lejátszólista-ablak pozíciója"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "A lejátszólista-ablak pozíciója a program indításakor."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "A lejátszólista-ablak mérete"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "A lejátszólista-ablak mérete a program indulásakor."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "A lejátszólista elmentése kilépéskor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"Ha be van jelölve, akkor az amaroK kilépéskor elmenti az aktuális "
+"lejátszólistát, a jövőbeli indításokkor pedig betölti azt."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+"A lejátszólista rekurzív bővítésekor követni kell-e a szimbolikus linkeket"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"Ha ez be van jelölve, akkor ha fájlokat és könyvtárakat ad hozzá a "
+"lejátszólistához, a szimbolikus linkeket is értelmezi feldolgozza a program ."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "A számokból hátralevő idő kijelzése"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+"Jelölje be ezt az opciót, ha szám lejátszásakor a hátralevő időt szeretné "
+"kiíratni az eltelt idő helyett."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "A számok lejátszása végtelenített legyen-e"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr ""
+"Ha ez be van jelölve, akkor az aktuális számot a program folyamatosan ismételni "
+"fogja."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "A lejátszólista végtelenített lejátszása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr ""
+"Ha ez be van jelölve, akkor az amaroK az aktuális lejátszólistát folyamatosan "
+"ismételni fogja."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "A számok véletlenszerű lejátszása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr ""
+"Ha ez be van jelölve, akkor a lejátszólistába felvett számokat a program "
+"véletlenszerű sorrendben fogja lejátszani."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, fuzzy, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "Dinamikus lejátszólista lejátszása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, fuzzy, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "A KDE-hez beállított színek használata a lejátszólista-ablakban"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, fuzzy, no-c-format
+msgid "Cycle Tracks"
+msgstr "A kijelölt számokat"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, fuzzy, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "A KDE-hez beállított színek használata a lejátszólista-ablakban"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, fuzzy, no-c-format
+msgid "Mark History"
+msgstr "A jellemzők változása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, fuzzy, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr "A KDE-hez beállított színek használata a lejátszólista-ablakban"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "Ikon jelenjen-e meg a paneltálcán"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "Az amaroK panelikonjának ki-be kapcsolása."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "Animált legyen-e az amaroK panelikonja"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "A panelikon animálásának ki-be kapcsolása."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "A lejátszóablak megjelenjen-e"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+"Ennek hatására az amaroK jobban fog hasonlítani az XMMS-re és a "
+"Winamp-klónokra, mert külön lejátszóablak és lejátszólista-ablak jelenik meg."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, fuzzy, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "A KDE-hez beállított színek használata a lejátszólista-ablakban"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr ""
+"A környezet- és fedőlapmegjelenítőben látható borítókép-előnézetek mérete"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "A lejátszólista állapotsora megjelenjen-e"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "A lejátszólista néhány jellemzőjének megjelenítése."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr ""
+"Könyvtárak hozzáadása a lejátszólistához alkönyvtárakkal együtt történjen-e"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr ""
+"A lejátszólista könyvtáraiba az alkönyvtárak is beleértendők-e (ki-be "
+"kapcsolás)."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "A számok közti csend hossza (ezredmásodpercben)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "A számok közti csend hossza (ezredmásodpercben)."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "A lejátszólista-ablak látható legyen-e"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+"A lejátszólista-ablak ki-be kapcsolása. Egyenértékű a lejátszóablakban "
+"található PL gomb lenyomásával."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "Visszavonási mélység a lejátszólistában"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "A visszavonási lépések maximális száma a lejátszólistában."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "Az aktuális vizualizációs elem azonosítója"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "A vizualizációs elem azonosítója."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, fuzzy, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "A lejátszólista-ablakban használandó betűtípus"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, fuzzy, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr "A vizualizációs elem azonosítója."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "A lejátszólista-ablak elválasztási pozíciói"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "Jelenleg nem használt"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr ""
+"A lejátszólista elgördüljön-e automatikusan, hogy az aktív elem mindig "
+"látszódjon."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"Ha be van jelölve, akkor számváltásoknál a lejátszólista automatikusan "
+"elgördül, hogy a lejátszás alatt álló elem látható legyen a lejátszólistában. "
+"Csak szükség esetén történik görgetés."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "A nyitókép megjelenjen-e indításkor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr "Az amaroK indításakor megjelenő nyitókép bekapcsolása/kikapcsolása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr "A környezetböngésző aktiválódjon-e szám lejátszásakor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr "Váltás a környezetböngészőre szám lejátszásának elkezdésekor."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, fuzzy, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr "A környezetböngésző aktiválódjon-e szám lejátszásakor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr ""
+"A környezetböngésző megjelenésének beállítását végző CSS-stíluslap megadása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "Állítsa be a kívánt stíluskönyvtárra."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "Megjelenik-e a menüsor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr "Ha ez be van jelölve, az alkalmazás tetején menüsor lesz látható."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "A lejátszólistákban relatív elérési út legyen-e eltárolva"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "Hangerő"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr "Az amaroK fő-hangereje, 0-tól (= néma) 100-ig terjedhet."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "A számok között legyen-e áttűnés"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "Számváltáskor legyen-e áttűnés."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "A számok közti áttűnési idő hossza (ezredmásodpercben)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "A számok közti áttűnési idő hossza (ezredmásodpercben)."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "A használni kívánt hangrendszer"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"Válassza ki a lejátszáshoz használt hangrendszert. Az amaroK támogatja az aRts, "
+"a GStreamer, a xine és az NMM használatát, azonban az adott rendszer "
+"beállításaitól függ, melyek használhatók."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "Equalizer bekapcsolása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "Ha be van jelölve, equalizer fogja szűrni a hanganyagot."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr ""
+"Az equalizer előerősítési értéke, a -100..+100 tartományba kell esnie, 0 az "
+"alapérték."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr ""
+"Az equalizer sáverősítési értékei, összesen 10 érték, mindegyiknek a -100..+100 "
+"tartományba kell esnie, 0 az alapérték."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, fuzzy, no-c-format
+msgid "Equalizer preset name."
+msgstr "Lejátszólista neve:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "Amazon-régióazonosító borítók letöltéséhez"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr ""
+"Ez határozza meg, mely Amazon-kiszolgálóról próbáljon a program borítókat "
+"letölteni."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, fuzzy, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "Amazon-régióazonosító borítók letöltéséhez"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, fuzzy, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr ""
+"Ez határozza meg, mely Amazon-kiszolgálóról próbáljon a program borítókat "
+"letölteni."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "OSD használata"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "Az OSD ki-be kapcsolása."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, fuzzy, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr "A lejátszólista néhány jellemzőjének megjelenítése."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "Az OSD szövege"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, fuzzy, no-c-format
+msgid "Customize the OSD display text."
+msgstr "Az OSD szövegének egyéni beállítása."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "Az OSD betűtípusa"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "A szövegek árnyékolása."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "Árnyék rajzolása az OSD szövegei köré."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "Egyéni színek használata az OSD-ben"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr "Jelölje be, ha meg szeretné adni az OSD színeit."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "Az OSD szövegeinek színe"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+"Az OSD-ben megjelenő szövegek színe. A színt RGB formában kell megadni: három, "
+"0 és 255 közötti egész számot kell megadni, vesszővel elválasztva."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "Az OSD háttérszíne"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Az OSD hátterének színe. A színt RGB alakban kell megadni, három, 0 és 255 közé "
+"eső egész számmal, vesszővel elválasztva."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "Hány ezredmásodpercig legyen látható a szöveg"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"Az az időtartam (ezredmásodpercben), ameddig az OSD-nek látszódnia kell. 0 "
+"esetén nem lesz elrejtve. Az alapértelmezett érték 5000 ms."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "Y pozíció"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"Az OSD Y pozíciója, a kiválasztott képernyő és igazítás figyelembevételével. Ha "
+"az igazítás felfelé történik, akkor az Y érték az OSD felső széle és a képernyő "
+"felső széle közötti távolságot határozza meg. Ha lefelé történik az igazítás, "
+"akkor az OSD alsó széle és a képernyő alsó széle közötti távolságot határozza "
+"meg."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "Az OSD képernyőszáma"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr ""
+"Az itt megadott azonosítójú képernyőn jelenik meg az OSD. Ha csak egy monitort "
+"használ, 0-t kell megadni."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "Megjelenjen-e vagy sem az album borítója"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "Ha be van jelölve, akkor az album borítója látható lesz az OSD-ben."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "Az OSD igazítása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr ""
+"Az OSD relatív pozíciója. Lehetséges értékei: balról, egyenlő távolságra, "
+"jobbról, középen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "Egyéni betűtípusokat kell-e használni"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "Akkor jelölje be, ha egyéni betűtípusokat szeretne használni."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "A lejátszólista-ablakban használandó betűtípus"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "A lejátszóablakban használandó betűtípus"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "A környezetböngészőben használandó betűtípus"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "Az ID3v1 típusú jellemzők átkódolása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr ""
+"ha ezt bejelöli, az ID3v1 típusú jellemzők át lesznek alakítva a megadott "
+"kódolásra."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "A Shoutcast-jellemzők átkódolása"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr ""
+"Ha ez be van jelölve, a Shoutcast-jellemzők (metaadatok) át lesznek kódolva."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "Az átkódoláshoz használt kódolás"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr "A fenti sztringek átkódolásához használt kódolás."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr ""
+"Ha ez van kijelölve, akkor az amaroK saját színösszeállítása lesz felhasználva "
+"a lejátszólistában"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Ha ez be van jelölve, akkor az amaroK saját színösszeállítását használja majd a "
+"program a lejátszólistában."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr "A KDE-hez beállított színek használata a lejátszólista-ablakban"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Ha ez be van jelölve, akkor a program a KDE-hez beállított színösszeállítást "
+"fogja használni a lejátszólistában."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr "Egyéni színösszeállítás legyen-e érvényes a lejátszólistában"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Ha ez be van jelölve, akkor a felhasználó által meghatározott színösszeállítás "
+"lesz alkalmazva a lejátszólistában."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "A lejátszólista-ablak előtérszíne"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"A lejátszólista előtérszíne. A színt RGB alakban kell megadni, három 0 és 255 "
+"közé eső egésszel, vesszővel elválasztva."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "A lejátszólista-ablak háttérszíne"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"A lejátszólista háttérszíne. A színt RGB alakban kell megadni, három 0 és 255 "
+"közé eső egésszel, vesszővel elválasztva."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "A kilépéskor félbehagyott szám &lejátszásának folytatása indításkor"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr ""
+"Ha ez be van jelölve, az amaroK a legutóbbi kilépésnél aktuális számmal "
+"folytatja a lejátszást."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "Az indulásnál folytatandó szám URL-je"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr "Belső: a program indulásakor folytatandó szám URL-je."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr ""
+"A szám lejátszását ettől az időpozíciótól kezdve kell folytatni "
+"(ezredmásodpercben)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr "Belső: a kezdéskor folytatandó szám folytatási időpozíciója."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "Adatbázis"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr "A gyűjtemény tárolási adatbázisa"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr ""
+"A gyűjtemények könyvtárai alkönyvtárakkal együtt legyenek-e feldolgozva"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "A gyűjtemények könyvtárait módosítás esetén újra fel kell-e dolgozni"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "A feldolgozás során fel legyenek-e véve a lejátszólisták"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "A gyűjteményhez tartozó könyvtárak"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "Gépnév"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "A MySQL-kiszolgáló gépneve"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "Port"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "A MySQL-kiszolgáló portszáma"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "Az adatbázis neve"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "Az adatbázis neve"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "Felhasználónév"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "A MySQL-kiszolgáló eléréséhez használt felhasználónév"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "Jelszó"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "A felhasználónévhez használt jelszó"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "LejátszottSzámokKüldése"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "A lejátszott számok el legyenek-e küldve az Audioscrobblernek"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "Felhasználónév"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "Az Audioscrobbler eléréséhez használt felhasználónév"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "Az Audioscrobbler eléréséhez használt jelszó"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "HasonlóElőadókLetöltése"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "Hasonló számok letöltése az Audioscrobblerből"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, fuzzy, no-c-format
+msgid "MountCommand"
+msgstr "&Parancs:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, fuzzy, no-c-format
+msgid "UmountCommand"
+msgstr "&Parancs:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr ""
+
+#: streamprovider.cpp:250
+#, fuzzy
+msgid "Unable to connect to this stream server."
+msgstr "Kapcsolódás a sugárzási forráshoz..."
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "Intelligens lejátszólista készítése"
+
+#: smartplaylisteditor.cpp:45
+#, fuzzy
+msgid "Edit Smart Playlist"
+msgstr "Intelligens lejátszólisták"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "Hossz"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "Sorszám"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "Lejátszásszámláló"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "Pontszám"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "Első lejátszás"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "Utolsó lejátszás"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "Módosítási dátum"
+
+#: smartplaylisteditor.cpp:109
+#, fuzzy
+msgid "File Path"
+msgstr "Fájlnév"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "Lejátszólista neve:"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "A következő feltételnek megfelelően"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "Összes"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "Bármely"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr " a következő feltételek közül"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "Rendezés:"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "Véletlenszerű"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "Korlátozás:"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "szám"
+
+#: smartplaylisteditor.cpp:172
+#, fuzzy
+msgid "Expand by"
+msgstr "és"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "Teljesen véletlenszerű"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "Súlyozott pontszám"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "Növekvő"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "Csökkenő"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "Megfeleltetés:"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "A következő feltételeknek megfelelően"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "ezek közé esik:"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "ebbe esik: legutóbbi"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+#, fuzzy
+msgid "is not in the last"
+msgstr "ebbe esik: legutóbbi"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "tartalmazza ezt:"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "nem tartalmazza ezt:"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "egyenlő"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "nem egyenlő"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "ezzel kezdődik:"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "erre végződik:"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "nagyobb mint"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "ez után van:"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "kisebb mint"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "ez előtt van:"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "és"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "nap"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "hónap"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "év"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "Stíluscsomagok (*.tar, *.tar.bz2, *.tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "Válasszon ki egy stíluscsomagot"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "Dalszöveg felvétele"
+
+#: contextbrowser.cpp:118
+#, fuzzy
+msgid "Search For Lyrics"
+msgstr "A hiányzó borítók letöltése"
+
+#: contextbrowser.cpp:119
+#, fuzzy
+msgid "Refresh"
+msgstr "Műfaj szerint"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+#, fuzzy
+msgid "Open in external browser"
+msgstr "A környezetböngészőben használandó betűtípus"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr ""
+
+#: contextbrowser.cpp:135
+#, fuzzy
+msgid "Artist Page"
+msgstr "Előadó"
+
+#: contextbrowser.cpp:136
+#, fuzzy
+msgid "Album Page"
+msgstr "Album"
+
+#: contextbrowser.cpp:137
+#, fuzzy
+msgid "Title Page"
+msgstr "Cím"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "Saját"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "Jelenlegi"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "Dalszöveg"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr ""
+"<p>Ehhez a képhez nincs termékinformáció."
+"<p>A menü megjelenítéséhez kattintson a képre a jobb oldali egérgombbal."
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "&Egyéni borító beállítása"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "A borító eltá&volítása"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+#, fuzzy
+msgid "Edit Album &Information..."
+msgstr "A &szám jellemzői"
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+#, fuzzy
+msgid "&Queue Album"
+msgstr "&Album"
+
+#: contextbrowser.cpp:675
+#, fuzzy
+msgid "Compilation"
+msgstr "Gyűjtemények ezzel: %1"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "Biztos, hogy törölni kívánja ezt a borítót a gyűjteményből?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr ""
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr "%n héttel ezelőtt"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "Tegnap"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr "%n nappal ezelőtt"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr "%n órával ezelőtt"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr "%n perccel ezelőtt"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "Az elmúlt percben"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "A jövő"
+
+#: contextbrowser.cpp:879
+#, fuzzy
+msgid "Unknown album"
+msgstr "Ismeretlen"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr ""
+"Információ (az amazon.com helyről lekérve): kattintással. Menü: jobbgombos "
+"kattintással."
+
+#: contextbrowser.cpp:905
+#, fuzzy
+msgid "Unknown artist"
+msgstr "Ismeretlen"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr "%n szám"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "Legutóbb lejátszott: %1"
+
+#: contextbrowser.cpp:1116
+#, fuzzy
+msgid "Recently Played Tracks"
+msgstr "Legritkábban lejátszott"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr ""
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "Kedvenc számok"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr ""
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "Legújabb számok"
+
+#: contextbrowser.cpp:1329
+#, fuzzy
+msgid "Favorite Albums"
+msgstr "Kedvenc számok"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+
+#: contextbrowser.cpp:1354
+#, fuzzy
+msgid "Your Newest Albums"
+msgstr "Legújabb számok"
+
+#: contextbrowser.cpp:1371
+#, fuzzy
+msgid "Least Played Albums"
+msgstr "Legritkábban lejátszott"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr ""
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "A sugárzott adatok részletei"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "A jellemzők változása"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr ""
+"Kattintson ide, ha a borítót le szeretné tölteni innen: amazon.%1. Menü: "
+"jobbgombos kattintással."
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr ""
+"Információ (az amazon.%1 helyről lekérve): kattintással. Menü: jobbgombos "
+"kattintással."
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "A szám keresése a musicbrainz.org website-on"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr "Lejátszva %n alkalommal"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "Első lejátszás: %1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "Korábban nem volt lejátszva"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "Ez fájl nem szerepel a gyűjteményben!"
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr ""
+"Ha szeretne környezeti információt látni erről a számról, akkor tegye be azt a "
+"gyűjteménybe."
+
+#: contextbrowser.cpp:1677
+#, fuzzy
+msgid "Change Collection Setup..."
+msgstr "A gyűjtemény beállításainak módosítása"
+
+#: contextbrowser.cpp:1690
+#, fuzzy
+msgid "Cue File"
+msgstr "Fájl törlése"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "Ezen előadó"
+
+#: contextbrowser.cpp:1818
+#, fuzzy, c-format
+msgid "Favorite Tracks by %1"
+msgstr "Kedvenc számok - %1"
+
+#: contextbrowser.cpp:1869
+#, fuzzy, c-format
+msgid "Albums by %1"
+msgstr "Albumok - %1"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "Gyűjtemények ezzel: %1"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "Üdvözöljük az amaroKban!"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+"Itt látható a környezetböngésző, mely a lejátszás alatt álló szám különféle "
+"jellemzőit jeleníti meg. Ezt a lehetőséget csak akkor lehet kihasználni, ha "
+"előbb létrehoz egy gyűjteményt."
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "Gyűjtemény készítése..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "Gyűjtemény-adatbázis létrehozása..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "live"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "akusztikus"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "borító"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "mix"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "szerkesztés"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "medley"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "unplugged"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "ráadás"
+
+#: contextbrowser.cpp:2452
+#, fuzzy
+msgid "Cached Lyrics"
+msgstr "Dalszöveg felvétele"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+#, fuzzy
+msgid "Fetching Lyrics"
+msgstr "A hiányzó borítók letöltése"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "Dalszöveg nem található."
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr "A szám szövege nem található. Néhány javaslat:"
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr ""
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+#, fuzzy
+msgid "Fetching Wikipedia Information"
+msgstr "A hiányzó borítók letöltése"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2939
+#, fuzzy
+msgid "Wikipedia Information"
+msgstr "Jellemzők"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr ""
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr ""
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr ""
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "Frissítési gyakoriság"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "Analizátorok: kattintás"
+
+#: Options5.ui.h:52
+#, fuzzy
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<b>Az OSD-ben megjelenő címkék</b>"
+"<br>Érvényes változók:"
+"<ul>"
+"<li>Cím - %title"
+"<li>Album - %album"
+"<li>Előadó - %artist"
+"<li>Műfaj - %genre"
+"<li>Bitráta - %bitrate"
+"<li>Év - %year"
+"<li>A szám hossza - %length"
+"<li>A szám sorszáma - %track</ul>"
+"<br>Ha egy bizonyos, változót tartalmazó szövegrész kapcsos zárójelek {} közt "
+"szerepel, akkor az csak abban az esetben lesz megjelenítve, ha létezik az adott "
+"információ."
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "Könyvtár"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "Bitráta"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr ""
+
+#: playlist.cpp:244
+#, fuzzy
+msgid "Playcount"
+msgstr "Lejátszásszámláló"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "Össze&keverés"
+
+#: playlist.cpp:295
+#, fuzzy
+msgid "&Goto Current Track"
+msgstr "Aktuális szám"
+
+#: playlist.cpp:296
+#, fuzzy
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "A duplikált és hiányzó bejegyzések eltávolítása"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+#, fuzzy
+msgid "&Queue Selected Tracks"
+msgstr "A kijelölt számokat"
+
+#: playlist.cpp:436
+#, fuzzy
+msgid "Attempted to insert nothing into playlist."
+msgstr "A lejátszólista néhány jellemzőjének megjelenítése."
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr ""
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr ""
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+
+#: playlist.cpp:1179
+#, fuzzy
+msgid "Playlist finished"
+msgstr "Lejátszólista neve:"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "Ezen oszlop &elrejtése"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "Lejátszólista-oszlopok"
+
+#: playlist.cpp:2609
+#, fuzzy
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr "<p>%1 ki lett jelölve <b>visszavonhatatlan</b> törlésre."
+
+#: playlist.cpp:2613
+#, fuzzy, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr "<p>%1 ki lett jelölve <b>visszavonhatatlan</b> törlésre."
+
+#: playlist.cpp:2629
+#, fuzzy
+msgid "Deleting files"
+msgstr "Fájl törlése"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "Másolva: %1"
+
+#: playlist.cpp:3049
+#, fuzzy
+msgid "Load Dynamic Playlist"
+msgstr "Lejátszólisták"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "Ú&jraindítás"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+#, fuzzy
+msgid "&Dequeue Track"
+msgstr "A szám &hozzáadása a sorhoz"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+
+#: playlist.cpp:3118
+#, fuzzy
+msgid "&Dequeue Selected Tracks"
+msgstr "A kijelölt számokat"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "A lejátszás &leállítása a szám után"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "A(z) \"%1\" &jellemző szerkesztése"
+
+#: playlist.cpp:3135
+#, fuzzy
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "A(z) \"%1\" je&llemző szerkesztése a kijelölt számokban"
+
+# TODO: ellenőrzendő
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "Szám-&sorszámok kiosztása"
+
+#: playlist.cpp:3140
+#, fuzzy
+msgid "Write '%1' for Selected Tracks"
+msgstr "\"%1\" érték írása a kijelölt számokba"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr ""
+
+#: playlist.cpp:3149
+#, fuzzy
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr "%n szám"
+
+#: playlist.cpp:3151
+#, fuzzy, c-format
+msgid "This Album: %1"
+msgstr "Az egész album kiírása"
+
+#: playlist.cpp:3153
+#, fuzzy, c-format
+msgid "All Tracks by %1"
+msgstr "Kedvenc számok - %1"
+
+#: playlist.cpp:3159
+#, fuzzy
+msgid "Set as Playlist (Crop)"
+msgstr "Lejátszólista &készítése"
+
+#: playlist.cpp:3160
+#, fuzzy
+msgid "Save as Playlist..."
+msgstr "A lejátszólista m&entése másként..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "&Törlés a lejátszólistából"
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "&Fájl törlése"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "A kijelölt &fájlok törlése"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "Jellemző kiírása..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "Nem létező fájl:"
+
+#: playlist.cpp:3783
+#, fuzzy, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>Egyéni oszlopot is létre lehet hozni, mely végrehajt egy adott parancsot a "
+"lejátszólista minden elemére. A parancs végrehajtása a <b>nobody</b> "
+"felhasználónévvel történik (biztonsági okok miatt).\n"
+"<p>A parancs csak helyi fájlokra vonatkozhat. Az <b>%f</b> "
+"változó helyére a teljes elérési út kerül. Ha nincs megadva a <b>%f</b> "
+"változó, a program azt automatikusan hozzáfűzi."
+
+#: playlist.cpp:3788
+#, fuzzy
+msgid "Column &name:"
+msgstr "&Oszlopnév:"
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "&Parancs:"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "Példák"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "Egyéni oszlop felvétele"
+
+#: app.cpp:284
+#, fuzzy
+msgid "Files/URLs to open"
+msgstr "Megnyitandó fájlok/URL-ek"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "Léptetés visszafelé a lejátszólistában"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "Az aktuális lejátszólista lejátszásának elindítása"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "Ha le van állítva, akkor lejátszás; ha lejátszás van, akkor szünet"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "Lejátszás szüneteltetése"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "Lejátszás leállítása"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "Léptetés előre a lejátszólistában"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "További opciók:"
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "Fájlok/URL-ek hozzáfűzése a lejátszólistához"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr ""
+"Lásd a hozzáfűzést, a visszamenőleges kompatibilitás megtartása érdekében "
+"létezik"
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "URL-ek betevése a sorba a lejátszás alatt álló szám utánra"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "A lejátszólista-ablak megjelenítése/elrejtése"
+
+#: app.cpp:304
+#, fuzzy
+msgid "Run first-run wizard"
+msgstr "Az amaroK varázsló elindítása"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "A <név> modul használata"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr ""
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "Hangerő növelése"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "Hangerő csökkentése"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr ""
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr ""
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "Hozzáadás..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "A lejátszólista-ablak megjelenítése/elrejtése"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "OSD megjelenítése"
+
+#: app.cpp:348
+#, fuzzy
+msgid "Mute Volume"
+msgstr "Hangerő"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "Lejátszólista"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "Hozzáfűzés és &lejátszás"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>Ha bezárja a főablakot, az amaroK továbbra is futni fog a paneltálcában. "
+"Használja a főmenü vagy a panelikon <B>Kilépés</B> parancsát, ha be szeretné "
+"zárni a programot.</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "Dokkolás a rendszertálcába"
+
+#: app.cpp:853
+#, fuzzy
+msgid "Paused"
+msgstr "Szünet"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "Hangerő: %1 %"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr ""
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "Időkijelzés"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "Normál"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "Hátralevő"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr ""
+
+#: statusbar/statusBarBase.cpp:422
+#, fuzzy
+msgid "Aborting all jobs..."
+msgstr "Kapcsolódás..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "a lejátszás szünetel"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: statusbar/statusbar.cpp:178
+#, fuzzy
+msgid "Unknown track"
+msgstr "Ismeretlen"
+
+#: statusbar/statusbar.cpp:187
+#, fuzzy, c-format
+msgid "Playing: %1"
+msgstr "Legutóbbi lejátszás: %1"
+
+#: statusbar/statusbar.cpp:201
+#, fuzzy
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "Kijelölve: %2 / %1 szám"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr ""
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr ""
+
+#: statusbar/statusbar.cpp:205
+#, fuzzy
+msgid "%1 selected of %2 tracks"
+msgstr "Kijelölve: %2 / %1 szám"
+
+#: statusbar/statusbar.cpp:206
+#, fuzzy, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr "%n szám"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr ""
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr ""
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr ""
+
+#: statusbar/queueLabel.cpp:169
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr "%n szám"
+
+#: statusbar/queueLabel.cpp:172
+#, fuzzy
+msgid "Dequeue All Tracks"
+msgstr "A szám &hozzáadása a sorhoz"
+
+#: statusbar/queueLabel.cpp:183
+#, fuzzy
+msgid "%1. %2"
+msgstr " előadó: "
+
+#: statusbar/queueLabel.cpp:189
+#, fuzzy, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr "%n szám"
+
+#: statusbar/queueLabel.cpp:244
+#, fuzzy
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr "%n szám a sorban"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "Kész"
+
+#: statusbar/progressBar.cpp:96
+#, fuzzy
+msgid "Aborted"
+msgstr "Leállítás"
+
+#: statusbar/progressBar.cpp:106
+#, fuzzy
+msgid "Aborting..."
+msgstr "Kapcsolódás..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr ""
+
+#: statusbar/toggleLabel.h:115
+#, fuzzy
+msgid "%1: off"
+msgstr "%1 fps"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr ""
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "OSD-előnézet - húzással áthelyezhető"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr ""
+
+#: osd.cpp:556
+#, fuzzy
+msgid "No information available for this track"
+msgstr "Ehhez a szkripthez nincs információ."
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "lemez"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "lemez"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "újra-masterezés"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "cd"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "single"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "szám"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "rész"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+#, fuzzy
+msgid "No cover found"
+msgstr "Borító nem található"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr ""
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr ""
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr ""
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr ""
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "&Keresés"
+
+#: coverfetcher.cpp:343
+#, fuzzy
+msgid "Ask Amazon for covers using this query:"
+msgstr "Keresés az Amazon borító-adatbázisában:"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+#, fuzzy
+msgid "Aborted."
+msgstr "Leállítás"
+
+#: coverfetcher.cpp:379
+#, fuzzy
+msgid "New &Search..."
+msgstr "Ú&j keresés"
+
+#: coverfetcher.cpp:380
+#, fuzzy
+msgid "Next &Cover"
+msgstr "A borító eltá&volítása"
+
+#: coverfetcher.cpp:390
+#, fuzzy
+msgid "Cover Found"
+msgstr "Borító nem található"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "KDE-s zenelejátszó"
+
+#: amarokcore/main.cpp:29
+#, fuzzy
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(C) Mark Kretschmann, 2002-2003.\n"
+"(C) Az amaroK fejlesztői, 2003-2005."
+
+#: amarokcore/main.cpp:30
+#, fuzzy
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"kiszolgáló: irc.freenode.net / csatorna: #amarok\n"
+"\n"
+"Visszajelzés:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr ""
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "Stud (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "733t kód, az OSD továbbfejlesztése, javítások (Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr ""
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "A projekt alapítója (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr ""
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr ""
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr ""
+
+#: amarokcore/main.cpp:45
+#, fuzzy
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "A kézikönyv karbantartója - nélkülözhetetlen ember! (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr ""
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "Lejátszólista-böngésző, fedőlapkezelő (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr ""
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "amaroK-embléma, nyitóképernyő, ikonok"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr ""
+
+#: amarokcore/main.cpp:51
+#, fuzzy
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr "Lejátszólista-böngésző, fedőlapkezelő (teax)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr ""
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "DCOP, továbbfejlesztések, tisztítások, i18n (berkus)"
+
+#: amarokcore/main.cpp:56
+#, fuzzy
+msgid "Analyzers, patches"
+msgstr "elemzők, javítások"
+
+#: amarokcore/main.cpp:57
+#, fuzzy
+msgid "Patches"
+msgstr "javítások"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr ""
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "MySQL-támogatás"
+
+#: amarokcore/main.cpp:60
+#, fuzzy
+msgid "Postgresql support"
+msgstr "Audioscrobbler-támogatás"
+
+#: amarokcore/main.cpp:61
+#, fuzzy
+msgid "First-run wizard, usability"
+msgstr "első futtatáskori varázsló, használhatóság"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr ""
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr ""
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr ""
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr ""
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr ""
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr ""
+
+#: amarokcore/main.cpp:68
+#, fuzzy
+msgid "Tester, IRC channel operator, whipping"
+msgstr "tesztelő, IRC-operátor, noszogató"
+
+#: amarokcore/main.cpp:69
+#, fuzzy
+msgid "Icons"
+msgstr "ikonok"
+
+#: amarokcore/main.cpp:70
+#, fuzzy
+msgid "amaroK webmaster"
+msgstr "újra-masterezés"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr ""
+
+#: amarokcore/main.cpp:72
+#, fuzzy
+msgid "FHT routine, bugfixes"
+msgstr "új FFT-kód, hibajavítások"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "K3B-exportálás"
+
+#: amarokcore/main.cpp:74
+#, fuzzy
+msgid "Splash screen"
+msgstr "az 1.1-es verzió nyitóképernyője"
+
+#: amarokcore/main.cpp:75
+#, fuzzy
+msgid "Website hosting"
+msgstr "website kialakítása"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr ""
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr ""
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "MAS modul"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "Audioscrobbler-támogatás"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "TagLib- és ktrm-kezelő kód"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr ""
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr ""
+
+#: amarokcore/main.cpp:83
+#, fuzzy
+msgid "Tester, patches"
+msgstr "tesztelő, javítások"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+
+#: amarokcore/crashhandler.cpp:249
+#, fuzzy
+msgid "Send Email"
+msgstr "E-mail"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr ""
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr ""
+
+#: playlistbrowseritem.cpp:882
+#, fuzzy
+msgid "Add Radio Stream"
+msgstr "Előerősítő"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+#, fuzzy
+msgid "&Name:"
+msgstr "Név:"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr ""
+
+#: playlistbrowseritem.cpp:903
+#, fuzzy
+msgid "Edit Radio Stream"
+msgstr "Előerősítő"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+#, fuzzy
+msgid "Retrieving Podcast..."
+msgstr "A lejátszólista letöltése"
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+#, fuzzy
+msgid "Moving Podcasts"
+msgstr "A hiányzó borítók letöltése"
+
+#: playlistbrowseritem.cpp:1223
+#, fuzzy
+msgid "Fetching Podcast"
+msgstr "A hiányzó borítók letöltése"
+
+#: playlistbrowseritem.cpp:1247
+#, fuzzy
+msgid "Unable to connect to Podcast server."
+msgstr "Kapcsolódás a sugárzási forráshoz..."
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr ""
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1405
+msgid "Url"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1406
+#, fuzzy
+msgid "Website"
+msgstr "website kialakítása"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+#, fuzzy
+msgid "Podcast Information"
+msgstr "A MySQL beállításai"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1723
+#, fuzzy
+msgid "Downloading Media..."
+msgstr "Lejátszás..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr ""
+
+#: playlistbrowseritem.cpp:1831
+#, fuzzy
+msgid "Author"
+msgstr "Szerzők"
+
+#: playlistbrowseritem.cpp:1832
+#, fuzzy
+msgid "Date"
+msgstr "Adat-üzemmód"
+
+#: filebrowser.cpp:132
+#, fuzzy
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr ""
+"A könyvtárlista szűréséhez adjon meg szóközzel elválasztott kifejezéseket"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "Az összes fájl ki&jelölése"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+
+#: filebrowser.cpp:476
+#, fuzzy
+msgid "Search here..."
+msgstr "Szűrőkifejezés..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr ""
+
+#: filebrowser.cpp:532
+#, fuzzy
+msgid "Searching..."
+msgstr "Szűrőkifejezés..."
+
+#: filebrowser.cpp:565
+#, fuzzy
+msgid "No results found"
+msgstr "Borító nem található"
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "&Kihagyás"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "Effektek"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "Elérhető effektek"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "Aktív effektek"

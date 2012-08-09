@@ -1,0 +1,1167 @@
+playlist.lo .libs/playlist.o: playlist.cpp amarok.h \
+  /usr/qt/3/include/qnamespace.h /usr/qt/3/include/qglobal.h \
+  /usr/qt/3/include/qconfig.h /usr/qt/3/include/qmodules.h \
+  /usr/qt/3/include/qfeatures.h /usr/qt/3/include/qstring.h \
+  /usr/qt/3/include/qcstring.h /usr/qt/3/include/qmemarray.h \
+  /usr/qt/3/include/qgarray.h /usr/qt/3/include/qshared.h \
+  /usr/qt/3/include/qwinexport.h /usr/include/string.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/limits.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/stdio_lim.h /usr/kde/3.5/include/kurl.h \
+  /usr/qt/3/include/qvaluelist.h /usr/qt/3/include/qtl.h \
+  /usr/qt/3/include/qtextstream.h /usr/qt/3/include/qiodevice.h \
+  /usr/qt/3/include/qstring.h /usr/include/stdio.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+  /usr/qt/3/include/qdatastream.h /usr/kde/3.5/include/kdelibs_export.h \
+  /usr/kde/3.5/include/kdemacros.h /usr/qt/3/include/qglobal.h \
+  amarok_export.h ../../config.h \
+  ../../amarok/src/amarokcore/amarokconfig.h \
+  /usr/kde/3.5/include/kconfigskeleton.h /usr/qt/3/include/qcolor.h \
+  /usr/qt/3/include/qwindowdefs.h /usr/qt/3/include/qobjectdefs.h \
+  /usr/qt/3/include/qnamespace.h /usr/qt/3/include/qstringlist.h \
+  /usr/qt/3/include/qvaluelist.h /usr/qt/3/include/qstrlist.h \
+  /usr/qt/3/include/qptrlist.h /usr/qt/3/include/qglist.h \
+  /usr/qt/3/include/qptrcollection.h /usr/qt/3/include/qdatetime.h \
+  /usr/qt/3/include/qfont.h /usr/qt/3/include/qpoint.h \
+  /usr/qt/3/include/qptrlist.h /usr/qt/3/include/qdict.h \
+  /usr/qt/3/include/qgdict.h /usr/qt/3/include/qrect.h \
+  /usr/qt/3/include/qsize.h /usr/qt/3/include/qpoint.h \
+  /usr/qt/3/include/qsize.h /usr/qt/3/include/qstringlist.h \
+  /usr/qt/3/include/qvariant.h /usr/qt/3/include/qmap.h \
+  /usr/qt/3/include/qpair.h /usr/kde/3.5/include/kconfig.h \
+  /usr/kde/3.5/include/kconfigbase.h /usr/qt/3/include/qobject.h \
+  /usr/qt/3/include/qevent.h /usr/qt/3/include/qregion.h \
+  /usr/qt/3/include/qrect.h /usr/qt/3/include/qmime.h \
+  /usr/qt/3/include/qstrlist.h /usr/qt/3/include/qmap.h \
+  /usr/kde/3.5/include/kconfigdata.h /usr/kde/3.5/include/klockfile.h \
+  /usr/kde/3.5/include/ksharedptr.h \
+  /usr/kde/3.5/include/kglobalsettings.h /usr/kde/3.5/include/kdebug.h \
+  /usr/qt/3/include/qdir.h /usr/qt/3/include/qfileinfo.h \
+  /usr/qt/3/include/qfile.h /usr/qt/3/include/qdatetime.h app.h \
+  engineobserver.h engine_fwd.h /usr/kde/3.5/include/kapplication.h \
+  /usr/kde/3.5/include/kdeversion.h /usr/qt/3/include/qapplication.h \
+  /usr/qt/3/include/qdesktopwidget.h /usr/qt/3/include/qwidget.h \
+  /usr/qt/3/include/qobject.h /usr/qt/3/include/qpaintdevice.h \
+  /usr/qt/3/include/qpalette.h /usr/qt/3/include/qcolor.h \
+  /usr/qt/3/include/qbrush.h /usr/qt/3/include/qfont.h \
+  /usr/qt/3/include/qfontmetrics.h /usr/qt/3/include/qfontinfo.h \
+  /usr/qt/3/include/qsizepolicy.h /usr/qt/3/include/qasciidict.h \
+  /usr/qt/3/include/qtranslator.h /usr/qt/3/include/qpixmap.h \
+  /usr/kde/3.5/include/kinstance.h debug.h /usr/qt/3/include/qcstring.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/bits/time.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h collectiondb.h threadweaver.h \
+  /usr/qt/3/include/qevent.h /usr/qt/3/include/qguardedptr.h \
+  /usr/qt/3/include/qthread.h /usr/qt/3/include/qmutex.h \
+  /usr/qt/3/include/qimage.h /usr/qt/3/include/qpixmap.h \
+  /usr/qt/3/include/qptrqueue.h /usr/qt/3/include/qsemaphore.h \
+  /usr/qt/3/include/qptrvector.h /usr/qt/3/include/qgvector.h \
+  collectionbrowser.h /usr/qt/3/include/qlabel.h \
+  /usr/qt/3/include/qframe.h /usr/qt/3/include/qvbox.h \
+  /usr/qt/3/include/qhbox.h /usr/kde/3.5/include/klistview.h \
+  /usr/qt/3/include/qlistview.h /usr/qt/3/include/qscrollview.h \
+  /usr/qt/3/include/qscrollbar.h /usr/qt/3/include/qrangecontrol.h \
+  /usr/kde/3.5/include/kdelibs_export.h \
+  /usr/kde/3.5/include/kdialogbase.h /usr/kde/3.5/include/kdialog.h \
+  /usr/qt/3/include/qdialog.h /usr/kde/3.5/include/kjanuswidget.h \
+  /usr/qt/3/include/qsplitter.h /usr/kde/3.5/include/klistbox.h \
+  /usr/qt/3/include/qlistbox.h /usr/kde/3.5/include/kguiitem.h \
+  /usr/qt/3/include/qiconset.h /usr/kde/3.5/include/kicontheme.h \
+  /usr/kde/3.5/include/kglobal.h /usr/kde/3.5/include/kstdguiitem.h \
+  /usr/qt/3/include/qpair.h /usr/kde/3.5/include/kprogress.h \
+  /usr/qt/3/include/qprogressbar.h columnlist.h /usr/qt/3/include/qhbox.h \
+  deletedialog.h /usr/qt/3/include/qcheckbox.h \
+  /usr/qt/3/include/qbutton.h /usr/qt/3/include/qkeysequence.h \
+  deletedialogbase.h /usr/qt/3/include/qwidget.h devicemanager.h medium.h \
+  /usr/kde/3.5/include/dcopobject.h /usr/kde/3.5/include/kdatastream.h \
+  /usr/qt/3/include/qdatastream.h enginecontroller.h enginebase.h \
+  plugin/plugin.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/vector \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/functexcept.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/exception_defines.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_algobase.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++config.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/os_defines.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstring \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstddef \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/climits \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstdlib \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/alloca.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/new \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/exception \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iosfwd \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++locale.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstdio \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/clocale \
+  /usr/include/locale.h /usr/include/bits/locale.h \
+  /usr/include/langinfo.h /usr/include/nl_types.h /usr/include/iconv.h \
+  /usr/include/libintl.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++io.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/gthr.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cctype \
+  /usr/include/ctype.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stringfwd.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/postypes.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cwchar \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ctime \
+  /usr/include/stdint.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_pair.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/type_traits.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/concept_check.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/debug/debug.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cassert \
+  /usr/include/assert.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/allocator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++allocator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/new_allocator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_construct.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_uninitialized.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_vector.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_bvector.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/vector.tcc \
+  metabundle.h /usr/kde/3.5/include/klocale.h \
+  /usr/include/taglib/audioproperties.h expression.h \
+  /usr/qt/3/include/qvaluevector.h atomicstring.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hash_set \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hashtable.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iterator \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ostream \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ios \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/char_traits.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/localefwd.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/ios_base.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/atomicity.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/atomic_word.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_classes.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/string \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/memory \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_raw_storage_iter.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/limits \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_function.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_string.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/algorithm \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_algo.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_heap.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_tempbuf.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_string.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/streambuf \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/streambuf.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_ios.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/streambuf_iterator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_facets.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cwctype \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/ctype_base.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/codecvt.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/codecvt_specializations.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/time_members.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/messages_members.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_ios.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/ostream.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/locale \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_facets.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/typeinfo \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/istream \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/istream.tcc \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stream_iterator.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hash_fun.h \
+  atomicurl.h k3bexporter.h osd.h /usr/kde/3.5/include/kpixmap.h \
+  playerwindow.h /usr/qt/3/include/qtoolbutton.h \
+  /usr/qt/3/include/qiconset.h playlistitem.h playlistbrowser.h \
+  playlistbrowseritem.h dynamicmode.h podcastbundle.h podcastsettings.h \
+  /usr/kde/3.5/include/klineedit.h /usr/qt/3/include/qlineedit.h \
+  /usr/kde/3.5/include/kcompletion.h \
+  /usr/kde/3.5/include/ksortablevaluelist.h \
+  /usr/kde/3.5/include/kshortcut.h /usr/qt/3/include/qkeysequence.h \
+  /usr/qt/3/include/qdom.h /usr/qt/3/include/qfile.h \
+  /usr/qt/3/include/qhttp.h /usr/qt/3/include/qnetworkprotocol.h \
+  /usr/qt/3/include/qurlinfo.h /usr/qt/3/include/qdict.h \
+  /usr/qt/3/include/qtimer.h /usr/qt/3/include/qurl.h \
+  /usr/kde/3.5/include/kaction.h /usr/kde/3.5/include/kstdaction.h \
+  /usr/kde/3.5/include/kactioncollection.h \
+  /usr/kde/3.5/include/kactionclasses.h \
+  /usr/kde/3.5/include/kpushbutton.h /usr/qt/3/include/qpushbutton.h \
+  /usr/qt/3/include/qvbox.h playlistloader.h /usr/qt/3/include/qxml.h \
+  /usr/qt/3/include/qvaluevector.h xmlloader.h playlistselection.h \
+  queuemanager.h prettypopupmenu.h /usr/kde/3.5/include/kpopupmenu.h \
+  /usr/qt/3/include/qpopupmenu.h /usr/qt/3/include/qmenudata.h \
+  /usr/qt/3/include/qsignal.h /usr/qt/3/include/qvariant.h \
+  /usr/kde/3.5/include/kpixmapeffect.h scriptmanager.h playlistwindow.h \
+  browserbar.h /usr/kde/3.5/include/kxmlguiclient.h sliderwidget.h \
+  /usr/qt/3/include/qslider.h ../../amarok/src/statusbar/statusbar.h \
+  ./engineobserver.h ../../amarok/src/statusbar/statusBarBase.h \
+  ../../amarok/src/statusbar/progressBar.h ./amarok_export.h \
+  ../../amarok/src/statusbar/queueLabel.h ./playlistitem.h \
+  ../../amarok/src/statusbar/popupMessage.h \
+  ../../amarok/src/statusbar/overlayWidget.h /usr/qt/3/include/qbitmap.h \
+  /usr/qt/3/include/qlayout.h /usr/qt/3/include/qlabel.h \
+  /usr/qt/3/include/qvaluestack.h tagdialog.h ktrm.h tagdialogbase.h \
+  xspfplaylist.h /usr/qt/3/include/qtextstream.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cmath \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/cpp_type_traits.h \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/cmath.tcc \
+  /usr/qt/3/include/qclipboard.h /usr/qt/3/include/qheader.h \
+  /usr/qt/3/include/qpainter.h /usr/qt/3/include/qpen.h \
+  /usr/qt/3/include/qpointarray.h /usr/qt/3/include/qwmatrix.h \
+  /usr/qt/3/include/qpen.h /usr/qt/3/include/qsimplerichtext.h \
+  /usr/qt/3/include/qsortedlist.h /usr/qt/3/include/qtooltip.h \
+  /usr/kde/3.5/include/kcursor.h /usr/qt/3/include/qcursor.h \
+  /usr/kde/3.5/include/kiconeffect.h /usr/kde/3.5/include/kiconloader.h \
+  /usr/qt/3/include/qmovie.h /usr/kde/3.5/include/kio/job.h \
+  /usr/kde/3.5/include/kio/jobclasses.h /usr/include/sys/stat.h \
+  /usr/include/bits/stat.h /usr/kde/3.5/include/kio/global.h \
+  /usr/kde/3.5/include/kmessagebox.h /usr/qt/3/include/qmessagebox.h \
+  /usr/qt/3/include/qdialog.h /usr/kde/3.5/include/krandomsequence.h \
+  /usr/kde/3.5/include/kstandarddirs.h \
+  /usr/kde/3.5/include/kstringhandler.h /usr/qt/3/include/qregexp.h \
+  /usr/qt/3/include/qfontmetrics.h /usr/kde/3.5/include/kurldrag.h \
+  /usr/qt/3/include/qdragobject.h /usr/qt/3/include/qimage.h playlist.h \
+  ../../amarok/src/amarokcore/amarokdcophandler.h \
+  ../../amarok/src/amarokcore/amarokdcopiface.h tooltip.h \
+  /usr/qt/3/include/qframe.h tracktooltip.h ./metabundle.h \
+  /usr/kde/3.5/include/kactivelabel.h /usr/qt/3/include/qtextbrowser.h \
+  /usr/qt/3/include/qtextedit.h /usr/qt/3/include/qstylesheet.h \
+  /usr/qt/3/include/qptrvector.h /usr/qt/3/include/qgroupbox.h \
+  /usr/qt/3/include/qprocess.h /usr/qt/3/include/qdir.h \
+  /usr/include/taglib/fileref.h /usr/include/taglib/tstringlist.h \
+  /usr/include/taglib/tstring.h /usr/include/taglib/taglib.h \
+  /usr/include/taglib/tbytevector.h /usr/include/taglib/tlist.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/list \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_list.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/list.tcc \
+  /usr/include/taglib/tlist.tcc /usr/include/taglib/tbytevectorlist.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iostream \
+  /usr/include/taglib/audioproperties.h /usr/include/taglib/tag.h \
+  /usr/include/taglib/tstring.h playlist.moc \
+  /usr/qt/3/include/qmetaobject.h /usr/qt/3/include/qconnection.h \
+  /usr/qt/3/include/private/qucomextra_p.h \
+  /usr/qt/3/include/private/qucom_p.h /usr/qt/3/include/quuid.h \
+  /usr/qt/3/include/qobjectdefs.h /usr/qt/3/include/qsignalslotimp.h
+
+amarok.h:
+
+/usr/qt/3/include/qnamespace.h:
+
+/usr/qt/3/include/qglobal.h:
+
+/usr/qt/3/include/qconfig.h:
+
+/usr/qt/3/include/qmodules.h:
+
+/usr/qt/3/include/qfeatures.h:
+
+/usr/qt/3/include/qstring.h:
+
+/usr/qt/3/include/qcstring.h:
+
+/usr/qt/3/include/qmemarray.h:
+
+/usr/qt/3/include/qgarray.h:
+
+/usr/qt/3/include/qshared.h:
+
+/usr/qt/3/include/qwinexport.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/limits.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/kde/3.5/include/kurl.h:
+
+/usr/qt/3/include/qvaluelist.h:
+
+/usr/qt/3/include/qtl.h:
+
+/usr/qt/3/include/qtextstream.h:
+
+/usr/qt/3/include/qiodevice.h:
+
+/usr/qt/3/include/qstring.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/qt/3/include/qdatastream.h:
+
+/usr/kde/3.5/include/kdelibs_export.h:
+
+/usr/kde/3.5/include/kdemacros.h:
+
+/usr/qt/3/include/qglobal.h:
+
+amarok_export.h:
+
+../../config.h:
+
+../../amarok/src/amarokcore/amarokconfig.h:
+
+/usr/kde/3.5/include/kconfigskeleton.h:
+
+/usr/qt/3/include/qcolor.h:
+
+/usr/qt/3/include/qwindowdefs.h:
+
+/usr/qt/3/include/qobjectdefs.h:
+
+/usr/qt/3/include/qnamespace.h:
+
+/usr/qt/3/include/qstringlist.h:
+
+/usr/qt/3/include/qvaluelist.h:
+
+/usr/qt/3/include/qstrlist.h:
+
+/usr/qt/3/include/qptrlist.h:
+
+/usr/qt/3/include/qglist.h:
+
+/usr/qt/3/include/qptrcollection.h:
+
+/usr/qt/3/include/qdatetime.h:
+
+/usr/qt/3/include/qfont.h:
+
+/usr/qt/3/include/qpoint.h:
+
+/usr/qt/3/include/qptrlist.h:
+
+/usr/qt/3/include/qdict.h:
+
+/usr/qt/3/include/qgdict.h:
+
+/usr/qt/3/include/qrect.h:
+
+/usr/qt/3/include/qsize.h:
+
+/usr/qt/3/include/qpoint.h:
+
+/usr/qt/3/include/qsize.h:
+
+/usr/qt/3/include/qstringlist.h:
+
+/usr/qt/3/include/qvariant.h:
+
+/usr/qt/3/include/qmap.h:
+
+/usr/qt/3/include/qpair.h:
+
+/usr/kde/3.5/include/kconfig.h:
+
+/usr/kde/3.5/include/kconfigbase.h:
+
+/usr/qt/3/include/qobject.h:
+
+/usr/qt/3/include/qevent.h:
+
+/usr/qt/3/include/qregion.h:
+
+/usr/qt/3/include/qrect.h:
+
+/usr/qt/3/include/qmime.h:
+
+/usr/qt/3/include/qstrlist.h:
+
+/usr/qt/3/include/qmap.h:
+
+/usr/kde/3.5/include/kconfigdata.h:
+
+/usr/kde/3.5/include/klockfile.h:
+
+/usr/kde/3.5/include/ksharedptr.h:
+
+/usr/kde/3.5/include/kglobalsettings.h:
+
+/usr/kde/3.5/include/kdebug.h:
+
+/usr/qt/3/include/qdir.h:
+
+/usr/qt/3/include/qfileinfo.h:
+
+/usr/qt/3/include/qfile.h:
+
+/usr/qt/3/include/qdatetime.h:
+
+app.h:
+
+engineobserver.h:
+
+engine_fwd.h:
+
+/usr/kde/3.5/include/kapplication.h:
+
+/usr/kde/3.5/include/kdeversion.h:
+
+/usr/qt/3/include/qapplication.h:
+
+/usr/qt/3/include/qdesktopwidget.h:
+
+/usr/qt/3/include/qwidget.h:
+
+/usr/qt/3/include/qobject.h:
+
+/usr/qt/3/include/qpaintdevice.h:
+
+/usr/qt/3/include/qpalette.h:
+
+/usr/qt/3/include/qcolor.h:
+
+/usr/qt/3/include/qbrush.h:
+
+/usr/qt/3/include/qfont.h:
+
+/usr/qt/3/include/qfontmetrics.h:
+
+/usr/qt/3/include/qfontinfo.h:
+
+/usr/qt/3/include/qsizepolicy.h:
+
+/usr/qt/3/include/qasciidict.h:
+
+/usr/qt/3/include/qtranslator.h:
+
+/usr/qt/3/include/qpixmap.h:
+
+/usr/kde/3.5/include/kinstance.h:
+
+debug.h:
+
+/usr/qt/3/include/qcstring.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+collectiondb.h:
+
+threadweaver.h:
+
+/usr/qt/3/include/qevent.h:
+
+/usr/qt/3/include/qguardedptr.h:
+
+/usr/qt/3/include/qthread.h:
+
+/usr/qt/3/include/qmutex.h:
+
+/usr/qt/3/include/qimage.h:
+
+/usr/qt/3/include/qpixmap.h:
+
+/usr/qt/3/include/qptrqueue.h:
+
+/usr/qt/3/include/qsemaphore.h:
+
+/usr/qt/3/include/qptrvector.h:
+
+/usr/qt/3/include/qgvector.h:
+
+collectionbrowser.h:
+
+/usr/qt/3/include/qlabel.h:
+
+/usr/qt/3/include/qframe.h:
+
+/usr/qt/3/include/qvbox.h:
+
+/usr/qt/3/include/qhbox.h:
+
+/usr/kde/3.5/include/klistview.h:
+
+/usr/qt/3/include/qlistview.h:
+
+/usr/qt/3/include/qscrollview.h:
+
+/usr/qt/3/include/qscrollbar.h:
+
+/usr/qt/3/include/qrangecontrol.h:
+
+/usr/kde/3.5/include/kdelibs_export.h:
+
+/usr/kde/3.5/include/kdialogbase.h:
+
+/usr/kde/3.5/include/kdialog.h:
+
+/usr/qt/3/include/qdialog.h:
+
+/usr/kde/3.5/include/kjanuswidget.h:
+
+/usr/qt/3/include/qsplitter.h:
+
+/usr/kde/3.5/include/klistbox.h:
+
+/usr/qt/3/include/qlistbox.h:
+
+/usr/kde/3.5/include/kguiitem.h:
+
+/usr/qt/3/include/qiconset.h:
+
+/usr/kde/3.5/include/kicontheme.h:
+
+/usr/kde/3.5/include/kglobal.h:
+
+/usr/kde/3.5/include/kstdguiitem.h:
+
+/usr/qt/3/include/qpair.h:
+
+/usr/kde/3.5/include/kprogress.h:
+
+/usr/qt/3/include/qprogressbar.h:
+
+columnlist.h:
+
+/usr/qt/3/include/qhbox.h:
+
+deletedialog.h:
+
+/usr/qt/3/include/qcheckbox.h:
+
+/usr/qt/3/include/qbutton.h:
+
+/usr/qt/3/include/qkeysequence.h:
+
+deletedialogbase.h:
+
+/usr/qt/3/include/qwidget.h:
+
+devicemanager.h:
+
+medium.h:
+
+/usr/kde/3.5/include/dcopobject.h:
+
+/usr/kde/3.5/include/kdatastream.h:
+
+/usr/qt/3/include/qdatastream.h:
+
+enginecontroller.h:
+
+enginebase.h:
+
+plugin/plugin.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/vector:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/functexcept.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/exception_defines.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_algobase.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++config.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/os_defines.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstring:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstddef:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/climits:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/new:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/exception:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iosfwd:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++locale.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cstdio:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libintl.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++io.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/gthr.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cctype:
+
+/usr/include/ctype.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stringfwd.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/postypes.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cwchar:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ctime:
+
+/usr/include/stdint.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_pair.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/type_traits.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/concept_check.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_iterator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/debug/debug.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cassert:
+
+/usr/include/assert.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/allocator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/new_allocator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_construct.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_vector.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_bvector.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/vector.tcc:
+
+metabundle.h:
+
+/usr/kde/3.5/include/klocale.h:
+
+/usr/include/taglib/audioproperties.h:
+
+expression.h:
+
+/usr/qt/3/include/qvaluevector.h:
+
+atomicstring.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hash_set:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hashtable.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iterator:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ostream:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ios:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/char_traits.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/localefwd.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/ios_base.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/atomicity.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_classes.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/string:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/memory:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_raw_storage_iter.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/limits:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_function.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_string.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/algorithm:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_algo.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_heap.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_tempbuf.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_string.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/streambuf:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/streambuf.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_ios.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_facets.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/codecvt.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/codecvt_specializations.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/time_members.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/i686-pc-linux-gnu/bits/messages_members.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/basic_ios.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/ostream.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/locale:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/locale_facets.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/typeinfo:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/istream:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/istream.tcc:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stream_iterator.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/ext/hash_fun.h:
+
+atomicurl.h:
+
+k3bexporter.h:
+
+osd.h:
+
+/usr/kde/3.5/include/kpixmap.h:
+
+playerwindow.h:
+
+/usr/qt/3/include/qtoolbutton.h:
+
+/usr/qt/3/include/qiconset.h:
+
+playlistitem.h:
+
+playlistbrowser.h:
+
+playlistbrowseritem.h:
+
+dynamicmode.h:
+
+podcastbundle.h:
+
+podcastsettings.h:
+
+/usr/kde/3.5/include/klineedit.h:
+
+/usr/qt/3/include/qlineedit.h:
+
+/usr/kde/3.5/include/kcompletion.h:
+
+/usr/kde/3.5/include/ksortablevaluelist.h:
+
+/usr/kde/3.5/include/kshortcut.h:
+
+/usr/qt/3/include/qkeysequence.h:
+
+/usr/qt/3/include/qdom.h:
+
+/usr/qt/3/include/qfile.h:
+
+/usr/qt/3/include/qhttp.h:
+
+/usr/qt/3/include/qnetworkprotocol.h:
+
+/usr/qt/3/include/qurlinfo.h:
+
+/usr/qt/3/include/qdict.h:
+
+/usr/qt/3/include/qtimer.h:
+
+/usr/qt/3/include/qurl.h:
+
+/usr/kde/3.5/include/kaction.h:
+
+/usr/kde/3.5/include/kstdaction.h:
+
+/usr/kde/3.5/include/kactioncollection.h:
+
+/usr/kde/3.5/include/kactionclasses.h:
+
+/usr/kde/3.5/include/kpushbutton.h:
+
+/usr/qt/3/include/qpushbutton.h:
+
+/usr/qt/3/include/qvbox.h:
+
+playlistloader.h:
+
+/usr/qt/3/include/qxml.h:
+
+/usr/qt/3/include/qvaluevector.h:
+
+xmlloader.h:
+
+playlistselection.h:
+
+queuemanager.h:
+
+prettypopupmenu.h:
+
+/usr/kde/3.5/include/kpopupmenu.h:
+
+/usr/qt/3/include/qpopupmenu.h:
+
+/usr/qt/3/include/qmenudata.h:
+
+/usr/qt/3/include/qsignal.h:
+
+/usr/qt/3/include/qvariant.h:
+
+/usr/kde/3.5/include/kpixmapeffect.h:
+
+scriptmanager.h:
+
+playlistwindow.h:
+
+browserbar.h:
+
+/usr/kde/3.5/include/kxmlguiclient.h:
+
+sliderwidget.h:
+
+/usr/qt/3/include/qslider.h:
+
+../../amarok/src/statusbar/statusbar.h:
+
+./engineobserver.h:
+
+../../amarok/src/statusbar/statusBarBase.h:
+
+../../amarok/src/statusbar/progressBar.h:
+
+./amarok_export.h:
+
+../../amarok/src/statusbar/queueLabel.h:
+
+./playlistitem.h:
+
+../../amarok/src/statusbar/popupMessage.h:
+
+../../amarok/src/statusbar/overlayWidget.h:
+
+/usr/qt/3/include/qbitmap.h:
+
+/usr/qt/3/include/qlayout.h:
+
+/usr/qt/3/include/qlabel.h:
+
+/usr/qt/3/include/qvaluestack.h:
+
+tagdialog.h:
+
+ktrm.h:
+
+tagdialogbase.h:
+
+xspfplaylist.h:
+
+/usr/qt/3/include/qtextstream.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/cmath:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/cpp_type_traits.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/cmath.tcc:
+
+/usr/qt/3/include/qclipboard.h:
+
+/usr/qt/3/include/qheader.h:
+
+/usr/qt/3/include/qpainter.h:
+
+/usr/qt/3/include/qpen.h:
+
+/usr/qt/3/include/qpointarray.h:
+
+/usr/qt/3/include/qwmatrix.h:
+
+/usr/qt/3/include/qpen.h:
+
+/usr/qt/3/include/qsimplerichtext.h:
+
+/usr/qt/3/include/qsortedlist.h:
+
+/usr/qt/3/include/qtooltip.h:
+
+/usr/kde/3.5/include/kcursor.h:
+
+/usr/qt/3/include/qcursor.h:
+
+/usr/kde/3.5/include/kiconeffect.h:
+
+/usr/kde/3.5/include/kiconloader.h:
+
+/usr/qt/3/include/qmovie.h:
+
+/usr/kde/3.5/include/kio/job.h:
+
+/usr/kde/3.5/include/kio/jobclasses.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/kde/3.5/include/kio/global.h:
+
+/usr/kde/3.5/include/kmessagebox.h:
+
+/usr/qt/3/include/qmessagebox.h:
+
+/usr/qt/3/include/qdialog.h:
+
+/usr/kde/3.5/include/krandomsequence.h:
+
+/usr/kde/3.5/include/kstandarddirs.h:
+
+/usr/kde/3.5/include/kstringhandler.h:
+
+/usr/qt/3/include/qregexp.h:
+
+/usr/qt/3/include/qfontmetrics.h:
+
+/usr/kde/3.5/include/kurldrag.h:
+
+/usr/qt/3/include/qdragobject.h:
+
+/usr/qt/3/include/qimage.h:
+
+playlist.h:
+
+../../amarok/src/amarokcore/amarokdcophandler.h:
+
+../../amarok/src/amarokcore/amarokdcopiface.h:
+
+tooltip.h:
+
+/usr/qt/3/include/qframe.h:
+
+tracktooltip.h:
+
+./metabundle.h:
+
+/usr/kde/3.5/include/kactivelabel.h:
+
+/usr/qt/3/include/qtextbrowser.h:
+
+/usr/qt/3/include/qtextedit.h:
+
+/usr/qt/3/include/qstylesheet.h:
+
+/usr/qt/3/include/qptrvector.h:
+
+/usr/qt/3/include/qgroupbox.h:
+
+/usr/qt/3/include/qprocess.h:
+
+/usr/qt/3/include/qdir.h:
+
+/usr/include/taglib/fileref.h:
+
+/usr/include/taglib/tstringlist.h:
+
+/usr/include/taglib/tstring.h:
+
+/usr/include/taglib/taglib.h:
+
+/usr/include/taglib/tbytevector.h:
+
+/usr/include/taglib/tlist.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/list:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/stl_list.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/bits/list.tcc:
+
+/usr/include/taglib/tlist.tcc:
+
+/usr/include/taglib/tbytevectorlist.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/g++-v3/iostream:
+
+/usr/include/taglib/audioproperties.h:
+
+/usr/include/taglib/tag.h:
+
+/usr/include/taglib/tstring.h:
+
+playlist.moc:
+
+/usr/qt/3/include/qmetaobject.h:
+
+/usr/qt/3/include/qconnection.h:
+
+/usr/qt/3/include/private/qucomextra_p.h:
+
+/usr/qt/3/include/private/qucom_p.h:
+
+/usr/qt/3/include/quuid.h:
+
+/usr/qt/3/include/qobjectdefs.h:
+
+/usr/qt/3/include/qsignalslotimp.h:

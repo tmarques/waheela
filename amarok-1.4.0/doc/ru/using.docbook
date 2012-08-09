@@ -1,0 +1,1661 @@
+<chapter id="using-kapp">
+<title
+>Использование &amarok;</title>
+
+<para
+>&amarok; - многофункциональный аудиопроигрыватель, обеспечивающий полный контроль над вашей музыкальной коллекцией . Как и все другие проигрыватели, у &amarok; есть окно воспроизведения, через которое доступны основные функции, и окно списка воспроизведения, на разных вкладках которого можно создавать и просматривать вашу музыкальную коллекцию.</para>
+
+<para
+>Прочитав эту главу, вы научитесь использовать все возможности &amarok;, включая создание коллекций и списков.</para>
+
+<sect1 id="player-window">
+<title
+>Окно проигрывателя</title>
+
+<screenshot>
+	<screeninfo
+>Снимок окна проигрывателя</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="player_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Окно проигрывателя &amarok; - это ваш центр управления, где всё делается одним щелчком мыши. В верхней части проигрывателя прокручивается название текущей композиции или потока. Сразу под ним отображается время воспроизведения текущей дорожки, битовая частота и частота дискретизации. Щёлкнув по этой области можно переключить тип счётчика - со времени от начала воспроизведения до оставшегося времени.</para>
+
+<para
+>Из окна проигрывателя можно выбрать тип графического анализатора звука, находящегося также под бегущей строкой. Щелчком левой кнопкой мыши можно переключаться между доступными анализаторами.</para>
+
+<anchor id="analyzer-tip"/>
+
+<tip>
+
+<screenshot>
+	<screeninfo
+>Подсказка насчёт анализаторов</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="analyzer.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Анализаторы &amarok; могут быть вынесены за пределы окна проигрывателя, для чего достаточно нажать клавишу <keycap
+>d</keycap
+> на клавиатуре. После этого анализатор появится в новом окне, размер которого можно менять.</para>
+</tip>
+
+<para
+>Кроме того, под бегущей строкой есть кнопки <guibutton
+>PL</guibutton
+> и <guibutton
+>FX</guibutton
+>. Кнопкой <guibutton
+>PL</guibutton
+> быстро включается и отключается окно воспроизведения, а кнопкой <guibutton
+>FX</guibutton
+> - звуковые эффекты, предоставляемые текущей звуковой подсистемой.</para>
+
+<para
+>Остальная часть окна проигрывателя включает в себя различные элементы управления, при помощи которых можно включать и приостанавливать воспроизведение музыки, переходить к следующей или предыдущей композиции, изменять громкость воспроизведению и позицию воспроизведения.</para>
+
+</sect1>
+
+<sect1 id="equalizer">
+<title
+>Окно эквалайзера</title>
+
+<screenshot>
+	<screeninfo
+>Снимок экрана с эквалайзером</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="equalizer.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Эквалайзер &amarok; очень похож на эквалайзеры других проигрывателей. Выставьте флажок напротив метки <guilabel
+>Включить эквалайзер</guilabel
+> чтобы включить эквалайзер и ползунки для подстройки звучания под ваш вкус.</para>
+
+<para
+>Эквалайзер можно запустить из <link linkend="rmb-menu"
+>контекстного меню</link
+>. Его также можно вызвать из <link linkend="menubar"
+>Панели меню</link
+>, выбрав <menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Эквалайзер</guimenuitem
+></menuchoice
+>.</para>
+
+</sect1>
+
+<sect1 id="playlist-window">
+<title
+>Окно списка</title>
+
+<screenshot>
+	<screeninfo
+>Снимок окна списка</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="playlist_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Списку в &amarok; нет равных не только среди таковых в других проигрывателях для &kde;, в нём есть такие возможности, которых нет больше нигде. Впрочем, это не должно вас смущать - управиться с ним проще простого.</para>
+
+<para
+>Окно списка можно разделить на две основные части. Слева находится боковая панель, в которой, к примеру, содержится такая отличная вещь как <link linkend="context-browser"
+>контекстный браузер</link
+>. Справа находится собственно список, который, несмотря на его простоту, по достоинству оценят многие опытные пользователи.</para>
+</sect1>
+
+
+<sect1 id="playlist-browsers">
+<title
+>Боковые панели</title>
+
+<para
+>Боковые панели превращают список &amarok; в полноценный инструмент управления музыкой. С их помощью можно делать практически всё - от добавления новых файлов в вашу коллекцию до генерирования предложений послушать другие композиции. Кроме того, среди них вы найдёте средства поддержки плееров iPod, а также управления списками и поиска по жёсткому диску.</para>
+
+<para
+>Прочитав эту главу, вы узнаете, как "выжать" из боковых панелей всё возможное и сами поймёте, что они помогут вам взглянуть на прослушивание музыки с другой стороны.</para>
+
+<sect2 id="context-browser">
+<title
+>Панель статистики</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели статистики</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="context.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>На панели статистики отображается различная информация о воспроизводимой в данный момент композиции и музыкальной коллекции в целом.</para>
+
+<sect3 id="home-tab">
+<title
+>Вкладка "Домой"</title>
+
+<para
+>На вкладке <guilabel
+>Домой</guilabel
+> отображается информация обо всей музыкальной коллекции. На этой вкладке можно найти блоки <guilabel
+>Ваши любимые песни</guilabel
+>, <guilabel
+>Новые песни</guilabel
+> и <guilabel
+>Ваши нелюбимые песни</guilabel
+>.</para>
+
+<para
+>В блоке <guilabel
+>Ваши любимые песни</guilabel
+> перечисляются десять наиболее популярных песен из вашей коллекции.</para>
+
+<para
+>В блоке <guilabel
+>Новые песни</guilabel
+> перечисляются пять последних добавленных в коллекцию файлов.</para>
+
+<para
+>В блоке <guilabel
+>Ваши нелюбимые песни</guilabel
+> перечислены пять песен, которые вы слушали меньше всех остальных. Это композиции, которые были прослушаны пару раз и очень давно.</para>
+
+<note
+><para
+>Если щёлкнуть по любой композиции из этих списков, она тут же начнёт воспроизводиться.</para
+></note>
+
+</sect3>
+
+
+<sect3 id="current-track-tab">
+<title
+>Вкладка "Текущая дорожка"</title>
+
+<para
+>Во вкладке <guilabel
+>Текущая дорожка</guilabel
+> отображается информация о воспроизводимой в данный момент дорожке, её исполнителе и названии альбома.</para>
+
+<para
+>В первом блоке этой вкладки отображается информация о самой дорожке. В заголовке блока указано название дорожки, имя исполнителя и название альбома. Внутри блока вы найдёте изображение с обложки диска. Справа от изображения находится пиктограмма <ulink url="http://www.musicbrainz.org/"
+>MusicBrainz</ulink
+>. <inlinemediaobject
+><imageobject
+><imagedata fileref="musicbrainz.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Щёлкните по ней, чтобы поискать через MusicBrainz информацию о воспроизводимой дорожке.</para>
+
+<para
+>Под пиктограммой MusicBrainz отображается информация о текущей дорожке: сколько раз её слушали, какой её рейтинг, когда в первый и последний раз её слушали.</para>
+
+<tip
+><para
+>Чтобы обложка альбома текущей композиции показывалось на панели статистики, необходимо, чтобы файл с изображением находился в одном каталоге с прослушиваемой дорожкой. Поддерживаются файлы следующих форматов: .jpg, .jpeg, .gif, и png. Они могут называться как угодно, но предпочтение будет отдаваться файлам, в названии которых содержится слово <quote
+>front</quote
+> ("передняя обложка"). Кроме того, будут использоваться загруженные обложки, либо изображения, встроенные в соответствующий тег ID3v2.</para
+></tip>
+
+<para
+>В следующем блоке, <guilabel
+>Предлагаемые песни</guilabel
+>, перечислены композиции, которые автоматически предлагается прослушать. Просто щёлкните мышкой по любой их них для начала воспроизведения.</para>
+
+<para
+>Под блоком <guilabel
+>Предлагаемые песни</guilabel
+> находится блок <guilabel
+>Любимые песни этого исполнителя</guilabel
+>. В этом блоке перечислены пять композиций этого исполнителя с наивысшим рейтингом.</para>
+
+<para
+>В последнем блоке, <guilabel
+>Альбомы этого исполнителя</guilabel
+>, перечислены альбомы исполнителя текущей композиции, имеющиеся в вашей коллекции. Щёлкните по любому из отображённых альбомов, чтобы развернуть его содержание.</para>
+
+<tip
+><para
+>Щелчок по любой композиции из любой панели запускает её воспроизведение. По щелчку правой кнопкой мыши на альбом или дорожку вызывается контекстное меню, в котором можно выбрать один из нескольких доступных типов воспроизведения, либо добавить дорожку или весь альбом в очередь на воспроизведение.</para
+></tip>
+
+</sect3>
+
+
+<sect3 id="lyrics">
+<title
+>Вкладка "Текст песни"</title>
+
+<para
+>Вкладка <guilabel
+>Текст песни</guilabel
+> - одиночный блок, использующийся для отображения текста играющей в данный момент песни, если текст доступен.</para>
+
+</sect3>
+
+
+</sect2>
+
+
+
+<sect2 id="collection-browser">
+<title
+>Панель коллекции</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели коллекции</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Панель "Коллекция" используется для просмотра музыкальной коллекции в виде древовидной структуры. Для того, чтобы пользоваться ним, необходимо настроить используемые в коллекции каталоги. Щёлкните мышкой по кнопке <guibutton
+>Настроить папки</guibutton
+> в панели "Коллекция" для вызова диалога, через который в коллекцию будут добавлены каталоги.</para>
+
+<note
+><para
+>Если вы включили функцию <guilabel
+>Следить за изменениями в папках</guilabel
+>, то, возможно, обратили внимание, что информация об изменениях обновляется не постоянно. Действительно, автоматическое обновление делается каждые 30 секунд.</para
+></note>
+
+<para
+>Как только ваши каталоги будут просканированы, вы увидите свою коллекцию в виде дерева. Дерево разбито на три основных ветки: <guimenuitem
+>Первый уровень</guimenuitem
+>, <guimenuitem
+>Второй уровень</guimenuitem
+> и <guimenuitem
+>Третий уровень</guimenuitem
+>. Уровни могут представлять Альбом, Исполнителя, Жанр или Год. Выбрав соответствующие поля метаданных для каждого из уровней, вы тем самым определите порядок группировки коллекции на каждом из уровней дерева.</para>
+
+<note
+><para
+>В панели "Коллекция" также реализован "плоский" вид коллекции. Его можно выбрать, щёлкнув по кнопке <guibutton
+>Список</guibutton
+> на панели "Коллекция". В режиме списка ваша коллекция сперва покажется пустой. Но стоит набрать в строке поиска начало предполагаемого названия композиции, и результаты поиска не замедлят появиться в списке. Вы можете легко начать новый поиск, щёлкнув по кнопке <guibutton
+>Очистить фильтр</guibutton
+>, находящейся рядом с полем ввода, и снова набрать текст для поиска.</para
+></note>
+
+<para
+>В верхней части панели "Коллекция" находится поле поиска по коллекции. В дереве будут показаны только те композиции, данные о которых соответствуют критериям поиска. Как только вам понадобится поискать ещё раз, просто щёлкните по кнопке очистки поля поиска и снова введите запрос.</para>
+
+<para
+>Чтобы загрузить обложку альбома из Интернет, просто щёлкните правой кнопкой мышки по названию дорожки или альбома в коллекции и выберите пункт <guimenuitem
+>Найти обложки</guimenuitem
+>. Вслед за этим откроется окно с найденными обложками, из которого можно будет сохранить полученные файлы на диск, либо уточнить параметры поиска и поискать ещё раз.</para>
+
+<para
+>К встроенной программе для загрузки обложек прилагается <link linkend="cover-manager"
+>Менеджер обложек</link
+>. Вы можете вызвать программу управления обложками из меню <menuchoice
+><guimenu
+>Действия</guimenu
+><guimenuitem
+>Управление обложками</guimenuitem
+></menuchoice
+>.</para>
+</sect2>
+
+
+<sect2 id="playlist-browser">
+<title
+>Панель "Списки"</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели "Списки"</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Панель "Списки" предназначена для простого управления большим количеством списков. При помощи неё можно и самому легко создать новые списки.</para>
+
+<para
+>Панель "Списки" разделена на две части - Списки и Живые списки. В первой части отображаются ваши собственные списки. Содержание списка можно раскрыть щелчком по кнопке с крестиком слева от названия списка. В раскрытый список можно мышкой перетаскивать новые композиции. Нужный список можно загрузить в &amarok; для воспроизведения двойным щелчком мышью по нему, либо нажатием клавиши <keycap
+>Пробел</keycap
+>. Остальные возможные комбинации клавиш для работы с панелью "Списки" можно найти в главе <link linkend="keybd-shortcuts"
+>Комбинации клавиш</link
+>.</para>
+
+<tip
+><para
+>Как только вы сохраняете новый список из окна списков, он автоматически добавляется в базу.</para
+></tip>
+
+<para
+>В нижней части панели находятся т.н. "Живые списки". Они, на основе базы данных коллекции, "на лету" создают разные списки, подробнее о которых ниже.</para>
+
+<para
+>Вся коллекция: список со всеми дорожками в вашей коллекции.</para>
+
+<para
+>Любимые песни: несколько списков из пятнадцати песен с наивысшим рейтингом от каждого исполнителя в виде списка с сортировкой по исполнителю.</para>
+
+<para
+>Любимые: несколько списков из пятнадцати чаще всего слушаемых песен каждого исполнителя в виде списка с сортировкой по исполнителю.</para>
+
+<para
+>Новые: несколько списков из пятнадцати последними добавленных песен в виде списка с сортировкой по исполнителю.</para>
+
+<para
+>Последние: список из пятнадцати прослушанных последними песен из вашей коллекции.</para>
+
+<para
+>Непроигрывавшиеся ранее: список из песен, которые вы ещё ни разу (при жизни базы данных &amarok;) не слушали.</para>
+
+<para
+>Жанры: множество списков в виде списка с сортировкой по жанру.</para>
+
+<para
+>Вы можете создать свои Живые списки. Щёлкните мышкой по кнопке <guibutton
+>Создать Живой список</guibutton
+>, вслед за чем откроется диалог настройки нового Живого списка, чтобы вы ввели свои критерии.</para>
+
+</sect2>
+
+
+<sect2 id="media-device-browser">
+<title
+>Панель "Устройства"</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели "Устройства"</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="media_device.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Панель "Устройство" используется для подсоединения звукового устройства вроде iPod к &amarok;.</para>
+
+</sect2>
+
+<sect2 id="file-browser">
+<title
+>Панель "Файлы"</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели "Файлы"</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="file_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Панель "Файлы" похожа на миниатюрную копию konqueror, встроенную в список. Её можно использовать для навигации по всей файловой системе в поисках звуковых файлов, которые можно добавить в список. В верхней части панели находится панель с кнопками навигации "Вверх", "Назад" и "Вперёд" по файловой системе. Кроме того, там есть кнопки "Домашняя папка", "Обновить", "Краткое представление", "Подробности", а также кнопка "Закладки" для создания закладок на папки в файловой системе, что позволит уменьшить количество ударений ваших пальцев о кнопки мыши.</para>
+
+<para
+>Под панелью находится удобное поле поиска по маске имени файла. Оно особенно полезно при работе с каталогами, в которых очень много файлов, поскольку оставляет видимыми лишь те из файлов, которые соответствуют условиям поиска.</para>
+
+<para
+>В нижней части панели "Файлы" находится адресная строка, позволяющая получить доступ к музыке по указанному в ней URL. К примеру, если вы наберёте в адресной строке <filename class="directory"
+>tar:/home/mike/music.tar.gz</filename
+> и нажмёте <keycap
+>Ввод</keycap
+>, то попадёте внутрь архив с музыкой и сможете добавить имеющиеся там звуковые файлы в список.</para>
+
+<tip
+><para
+>Когда список уже не умещается на экране, добавлять песни в него обычным перетаскиванием становится непросто. Нажмите и удерживайте нажатой клавишу <keycap
+>Shift</keycap
+>, чтобы файлы при перетаскивании автоматически добавлялись в конец списка, а не в текущую позицию.</para
+></tip>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="playlist">
+<title
+>Список</title>
+
+<screenshot>
+	<screeninfo
+>Снимок окна списка</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>В списке находятся все дорожки, которые поставлены вами в очередь на воспроизведение. Вы можете изменить последовательность воспроизведения простым перетаскиванием композиций мышью. Над списком находится текстовая строка ввода. Как только вы введёте туда одну букву, список начнёт отображать только те композиции, в названии которых есть эта буква или буквы. Для прекращения фильтрования достаточно нажимать клавишу <keycap
+>Backspace</keycap
+> то тех пор, пока поле ввода не очистится. Справа от поля ввода находится кнопка переключения между типами тегов: Все, Название, Исполнитель, Альбом или Жанр.</para>
+
+<tip>
+
+<screenshot>
+	<screeninfo
+>Подсказка по списку</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="pl_tip1.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Вы можете установить особый порядок воспроизведения следующим образом: удерживая нажатой клавишу <keycap
+>Control</keycap
+>, щёлкните правой клавишей мыши по композициям в том порядке, в котором вы хотели бы их услышать. Композиции пронумеруются соответствующим образом, отображая этот особый порядок воспроизведения.</para>
+
+</tip>
+
+</sect1>
+
+<sect1 id="menubar">
+<title
+>Панель меню списка</title>
+
+<screenshot>
+	<screeninfo
+>Снимок меню списка</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<sect2 id="actions-menu">
+<title
+>Меню "Действия"</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Действия</guimenu
+> <guimenuitem
+>Воспроизвести адрес...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открывает диалог для ввода URL.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Действия</guimenu
+> <guimenuitem
+>Воспроизвести AudioCD</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Позволяет просмотреть и воспроизвести музыкальный компакт-диск, доступный по протоколу audiocd:/</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Действия</guimenu
+> <guimenuitem
+>Предыдущая дорожка</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Перейти на предыдущую дорожку в списке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Действия</guimenu
+> <guimenuitem
+>Пауза</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Приостановить воспроизведение текущей дорожки.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Действия</guimenu
+> <guimenuitem
+>Стоп</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Остановить воспроизведение.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Действия</guimenu
+> <guimenuitem
+>Следующая дорожка</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Перейти на следующую дорожку в списке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Q</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Действия</guimenu
+> <guimenuitem
+>Выйти</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Выйти из &amarok;.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+<sect2 id="playlist-menu">
+<title
+>Меню "Список"</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>O</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Добавить адрес...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог для добавления данных по URL в текущий список.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>S</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Сохранить список как...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог для сохранения текущего списка.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Z</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Отменить действие</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Отменить последнее изменение в списке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Shift</keycap
+> <keycap
+>S</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Повторить отменённое действие</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Вернуть отменённые изменения.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Список</guimenu
+> <guimenuitem
+>Очистить</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Очистить текущий список</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>H</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Перемешать</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Перемешать случайным образом порядок воспроизведения в списке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Enter</keycap
+> </keycombo
+> </shortcut
+> <guimenu
+>Список</guimenu
+> <guimenuitem
+>Перейти к текущей</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Переключить воспроизведение на выбранную в данный момент композицию.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Список</guimenu
+> <guimenuitem
+>Удалить копии / неправильные</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Удалить из списка все дубликаты и файлы, которых на самом деле уже нет.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>A</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Playlist</guimenu
+> <guimenuitem
+>Выделить все</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Выделить все композиции в списке</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+
+<sect2 id="tools-menu">
+<title
+>Меню "Сервис"</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Управление обложками</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть <link linkend="cover-manager"
+>Управление обложками</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Мастер первого запуска</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть Мастер первого запуска.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Визуализация...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог<link linkend="visualizations"
+>Визуализация</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Эквалайзер</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть <link linkend="equalizer"
+>Окно эквалайзера</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Сценарии...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог со сценариями.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Сканировать коллекцию</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Запустить сканирование каталогов коллекции.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+<sect2 id="settings-menu">
+<title
+>Меню "Настройка"</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>M</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Скрыть меню</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Скрыть <link linkend="menubar"
+>Панель меню</link
+> окна списка.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Скрыть панель инструментов</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Скрыть <link linkend="toolbar"
+>Панель инструментов</link
+> окна списка.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Скрыть окно проигрывателя</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Скрыть <link linkend="player-window"
+>Окно проигрывателя</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Повторять дорожку</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Повторять воспроизведение текущей дорожки</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Повторять список</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Повторять воспроизведение текущего списка</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>В случайном порядке</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Перемешать случайным образом воспроизведение дорожек в списке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить эффекты</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Настроить звуковые эффекты для текущей звуковой подсистемы.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Добавлять в список предложенные</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Добавлять в текущий список композиции, предложенные к прослушиванию на панели статистики.</para
+></listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Глобальные комбинации клавиш...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог настройки глобальных комбинаций клавиш.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Комбинации клавиш...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог настройки комбинаций клавиш для &amarok;.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить панели инструментов...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог настройки панели инструментов &amarok;.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить amaroK...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог настройки &amarok;.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+
+<sect2 id="help-menu">
+<title
+>Меню "Справка"</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>F1</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Справка</guimenu
+> <guimenuitem
+>Руководство amaroK</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть эту документацию.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Shift</keycap
+><keycap
+>F1</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Справка</guimenu
+> <guimenuitem
+>Что это</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Включить подсказочный курсор "Что Это".</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Справка</guimenu
+> <guimenuitem
+>Сообщить об ошибке...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Запустить инструмент для сообщения об ошибке.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Справка</guimenu
+> <guimenuitem
+>О программе "amaroK"</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог с информацией об &amarok;.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Справка</guimenu
+> <guimenuitem
+>О KDE</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалог с информацией о KDE</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="toolbar">
+<title
+>Панель инструментов списка</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели инструментов списка</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="buttons.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Панель инструментов списка находится под окном списка. В панели инструментов находятся кнопки запуска действий многих действий над списком. В правой части Панели находится кнопка <guibutton
+>Добавить адрес</guibutton
+>, открывающая диалог добавления звуковых файлов в список. Далее располагаются кнопки <guibutton
+>Сохранить список как</guibutton
+>, <guibutton
+>Очистить</guibutton
+> и<guibutton
+>Обновить список</guibutton
+>. Их вы можете использовать для управления текущим списком.</para>
+
+<para
+>Правее находится блок кнопок <guibutton
+>Отменить действие</guibutton
+> и <guibutton
+>Повторить отменённое действие</guibutton
+> . Вы можете использовать их для отмены и повтора действий, произведённых над списком.</para>
+
+<para
+>В центре находится уникальный анализатор с изменяемым размером. Вы можете настраивать частоту обновления, используя меню под правой клавишей мыши, выбрав в нём желаемое значение.</para>
+
+<para
+>Последней кнопкой на панели является <guibutton
+>Меню</guibutton
+>. Кнопка <guibutton
+>Меню</guibutton
+> открывает меню, аналогичное меню под правой кнопкой мыши для окна проигрывателя. Через него вы можете получить доступ к параметрам настройки &amarok;.</para>
+
+<tip
+><para
+>На панели есть ещё несколько кнопок, включая кнопки управления проигрывателем и громкостью воспроизведения. Вы можете настроить отображение различных кнопок, вызвав из меню <guibutton
+>Настройка</guibutton
+> диалог <guimenuitem
+>Настроить панели инструментов...</guimenuitem
+></para
+></tip>
+
+</sect1>
+
+<sect1 id="statusbar">
+<title
+>Панель состояния</title>
+
+<screenshot>
+	<screeninfo
+>Снимок панели состояния</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="status_bar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>В панели состояния отображается разная полезная информация о списке: название текущей композиции, общее количество композиций в списке, общее время воспроизведения, статус режимов повтора и случайного выбора. Там же находится ползунок перемещения во времени в рамках воспроизводимой композиции. Статус повтора и режима случайного выбора меняется двойным щелчком по соответствующим частям панели состояния.</para>
+
+<para
+>Вы можете отключить отображение панели состояния, сняв флажок с метки <guilabel
+>Показывать панель состояния</guilabel
+> в диалоге <link linkend="general-options"
+>Настройка amaroK</link
+>.</para>
+
+</sect1>
+
+<sect1 id="rmb-menu">
+<title
+>Меню под правой клавишей мыши</title>
+
+<screenshot>
+	<screeninfo
+>Снимок контекстного меню</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="rmb_menu.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Меню под правой клавишей мыши, как несложно догадаться, вызывается щелчком по правой клавише мыши над окном проигрывателя, либо щелчком по кнопке <guibutton
+>Меню</guibutton
+> в окне окне списка (если её нет, щёлкните правой кнопкой мыши на панели инструментов списка). Это меню используется для доступа ко всем возможным настройкам &amarok;.</para>
+
+<variablelist>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Повторять дорожку</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Включить повтор воспроизведения текущей дорожки.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Повторять список</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Включить повтор воспроизведения всего списка.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>В случайном порядке</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Перемешать порядок воспроизведения дорожек в списке.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Добавлять в список предложенные</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Добавлять в текущий список композиции, предложенные к прослушиванию на панели статистики.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Управление обложками</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть <link linkend="cover-manager"
+>Управление обложками</link
+>.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Мастер первого запуска</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Запустить мастер, обычно появляющийся при самой первой загрузке &amarok;</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Визуализация...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть <link linkend="visualizations"
+>Окно визуализации</link
+> для выбора типа визуализации, используемой в &amarok;.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Эквалайзер...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть <link linkend="equalizer"
+>Окно эквалайзера.</link
+></para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сценарии...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть диалог со сценариями.</para>
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настроить эффекты...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Вызвать диалог настройки эффектов для используемого в данный момент звукового движка. В тех случаях, когда у движка нет эффектов, этот пункт меню отключён.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настроить панели инструментов...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть диалог настройки <link linkend="toolbar"
+>Панели списка</link
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Комбинации клавиш...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть диалог настройки <link linkend="keybd-shortcuts"
+>Комбинаций клавиш &amarok;</link
+>.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Глобальные комбинации клавиш...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть диалог настройки глобальных <link linkend="keybd-shortcuts"
+>комбинаций клавиш &amarok;</link
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настроить amaroK...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Открыть <link linkend="configuring-kapp"
+>Диалог настройки &amarok;</link
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Справка</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Здесь выводится подменю со ссылками на читаемый вами сейчас документ и другую информацию об &amarok;.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Выход</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Нажмите сюда, если хотите завершить работу с &amarok;.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+<sect1 id="cover-manager">
+<title
+>Управление обложками</title>
+
+<screenshot>
+	<screeninfo
+>Управление обложками</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="coverman.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Диалог управления обложками альбомов вызывается выбором пункта меню <menuchoice
+><guimenu
+>Действия</guimenu
+> <guimenuitem
+>Управление обложками</guimenuitem
+></menuchoice
+> в окне списка.</para>
+
+<para
+>В диалоге управления обложками находится список всех альбомов в вашей коллекции. Вы можете просмотреть обложки того или иного альбома, щёлкнув по его названию в списке слева.</para>
+
+<para
+>В диалоге управления обложке есть строка поиска по изменяемым критериям для быстрого нахождения нужной обложки.</para>
+
+<para
+>В меню <guimenuitem
+>Вид</guimenuitem
+> можно выбрать, что именно будет отображаться в диалоге управления обложками. Варианты таковы:</para>
+
+<para
+><guimenuitem
+>Все альбомы</guimenuitem
+> - показать абсолютно все альбомы из вашей коллекции.</para>
+
+<para
+><guimenuitem
+>Альбомы с обложкой</guimenuitem
+> - показать только те альбомы из коллекции, к которым есть обложка.</para>
+
+<para
+><guimenuitem
+>Альбомы без обложки</guimenuitem
+> - показать только те альбомы из коллекции, к которым нет обложки.</para>
+
+<para
+>Кнопка <guimenuitem
+>Найти и загрузить недостающие обложки</guimenuitem
+> используется для загрузки отсутствующих обложек к альбомам.</para>
+</sect1>
+
+
+<sect1 id="visualizations">
+<title
+>Визуализация</title>
+
+<screenshot>
+	<screeninfo
+>Снимок окна визуализации</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="vis_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Окно визуализации служит для включения одного из возможных эффектов визуализации звука в &amarok;. Список доступных эффектов находится в самом окне. для включения эффекта визуализации просто выставьте флажок напротив его названия.</para>
+
+</sect1>
+
+
+</chapter>

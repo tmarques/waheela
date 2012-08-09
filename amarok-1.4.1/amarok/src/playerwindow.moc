@@ -1,0 +1,233 @@
+/****************************************************************************
+** IconButton meta object code from reading C++ file 'playerwindow.h'
+**
+** Created: Fri Mar 23 10:54:16 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playerwindow.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *IconButton::className() const
+{
+    return "IconButton";
+}
+
+QMetaObject *IconButton::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_IconButton( "IconButton", &IconButton::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString IconButton::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "IconButton", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString IconButton::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "IconButton", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* IconButton::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QButton::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "b", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setOn", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"setOff", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "setOn(bool)", &slot_0, QMetaData::Public },
+	{ "setOff()", &slot_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"IconButton", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_IconButton.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* IconButton::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "IconButton" ) )
+	return this;
+    return QButton::qt_cast( clname );
+}
+
+bool IconButton::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setOn((bool)static_QUType_bool.get(_o+1)); break;
+    case 1: setOff(); break;
+    default:
+	return QButton::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool IconButton::qt_emit( int _id, QUObject* _o )
+{
+    return QButton::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool IconButton::qt_property( int id, int f, QVariant* v)
+{
+    return QButton::qt_property( id, f, v);
+}
+
+bool IconButton::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *PlayerWidget::className() const
+{
+    return "PlayerWidget";
+}
+
+QMetaObject *PlayerWidget::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlayerWidget( "PlayerWidget", &PlayerWidget::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlayerWidget::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlayerWidget", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlayerWidget::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlayerWidget", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlayerWidget::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"createAnalyzer", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"createAnalyzer", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"toggleView", 0, 0 };
+    static const QUMethod slot_3 = {"drawScroll", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"timeDisplay", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ "show", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"slotShowEqualizer", 1, param_slot_5 };
+    static const QMetaData slot_tbl[] = {
+	{ "createAnalyzer()", &slot_0, QMetaData::Public },
+	{ "createAnalyzer(int)", &slot_1, QMetaData::Public },
+	{ "toggleView()", &slot_2, QMetaData::Public },
+	{ "drawScroll()", &slot_3, QMetaData::Private },
+	{ "timeDisplay(int)", &slot_4, QMetaData::Private },
+	{ "slotShowEqualizer(bool)", &slot_5, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "on", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"playlistToggled", 1, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "playlistToggled(bool)", &signal_0, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlayerWidget", parentObject,
+	slot_tbl, 6,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlayerWidget.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlayerWidget::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlayerWidget" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return QWidget::qt_cast( clname );
+}
+
+// SIGNAL playlistToggled
+void PlayerWidget::playlistToggled( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+bool PlayerWidget::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: createAnalyzer(); break;
+    case 1: createAnalyzer((int)static_QUType_int.get(_o+1)); break;
+    case 2: toggleView(); break;
+    case 3: drawScroll(); break;
+    case 4: timeDisplay((int)static_QUType_int.get(_o+1)); break;
+    case 5: slotShowEqualizer((bool)static_QUType_bool.get(_o+1)); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlayerWidget::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: playlistToggled((bool)static_QUType_bool.get(_o+1)); break;
+    default:
+	return QWidget::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlayerWidget::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool PlayerWidget::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

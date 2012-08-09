@@ -1,0 +1,110 @@
+/****************************************************************************
+** AmarokConfigDialog meta object code from reading C++ file 'configdialog.h'
+**
+** Created: Tue Feb 19 15:58:24 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "configdialog.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *AmarokConfigDialog::className() const
+{
+    return "AmarokConfigDialog";
+}
+
+QMetaObject *AmarokConfigDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_AmarokConfigDialog( "AmarokConfigDialog", &AmarokConfigDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString AmarokConfigDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "AmarokConfigDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString AmarokConfigDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "AmarokConfigDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* AmarokConfigDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KConfigDialog::staticMetaObject();
+    static const QUMethod slot_0 = {"updateSettings", 0, 0 };
+    static const QUMethod slot_1 = {"updateWidgets", 0, 0 };
+    static const QUMethod slot_2 = {"updateWidgetsDefault", 0, 0 };
+    static const QUMethod slot_3 = {"aboutEngine", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "updateSettings()", &slot_0, QMetaData::Protected },
+	{ "updateWidgets()", &slot_1, QMetaData::Protected },
+	{ "updateWidgetsDefault()", &slot_2, QMetaData::Protected },
+	{ "aboutEngine()", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"AmarokConfigDialog", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_AmarokConfigDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* AmarokConfigDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "AmarokConfigDialog" ) )
+	return this;
+    return KConfigDialog::qt_cast( clname );
+}
+
+bool AmarokConfigDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: updateSettings(); break;
+    case 1: updateWidgets(); break;
+    case 2: updateWidgetsDefault(); break;
+    case 3: aboutEngine(); break;
+    default:
+	return KConfigDialog::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool AmarokConfigDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KConfigDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool AmarokConfigDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KConfigDialog::qt_property( id, f, v);
+}
+
+bool AmarokConfigDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

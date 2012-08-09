@@ -1,0 +1,325 @@
+/****************************************************************************
+** CoverManager meta object code from reading C++ file 'covermanager.h'
+**
+** Created: Tue Feb 19 15:58:51 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "covermanager.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *CoverManager::className() const
+{
+    return "CoverManager";
+}
+
+QMetaObject *CoverManager::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CoverManager( "CoverManager", &CoverManager::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CoverManager::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverManager", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CoverManager::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverManager", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CoverManager::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QSplitter::staticMetaObject();
+    static const QUMethod slot_0 = {"updateStatusBar", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotArtistSelected", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "item", &static_QUType_ptr, "QIconViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"coverItemExecuted", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "item", &static_QUType_ptr, "QIconViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"showCoverMenu", 2, param_slot_3 };
+    static const QUMethod slot_4 = {"slotSetFilter", 0, 0 };
+    static const QUMethod slot_5 = {"slotSetFilterTimeout", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"changeView", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"changeLocale", 1, param_slot_7 };
+    static const QUMethod slot_8 = {"fetchMissingCovers", 0, 0 };
+    static const QUMethod slot_9 = {"fetchCoversLoop", 0, 0 };
+    static const QUParameter param_slot_10[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"coverFetched", 2, param_slot_10 };
+    static const QUParameter param_slot_11[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"coverRemoved", 2, param_slot_11 };
+    static const QUMethod slot_12 = {"coverFetcherError", 0, 0 };
+    static const QUMethod slot_13 = {"stopFetching", 0, 0 };
+    static const QUMethod slot_14 = {"init", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "updateStatusBar()", &slot_0, QMetaData::Public },
+	{ "slotArtistSelected(QListViewItem*)", &slot_1, QMetaData::Private },
+	{ "coverItemExecuted(QIconViewItem*)", &slot_2, QMetaData::Private },
+	{ "showCoverMenu(QIconViewItem*,const QPoint&)", &slot_3, QMetaData::Private },
+	{ "slotSetFilter()", &slot_4, QMetaData::Private },
+	{ "slotSetFilterTimeout()", &slot_5, QMetaData::Private },
+	{ "changeView(int)", &slot_6, QMetaData::Private },
+	{ "changeLocale(int)", &slot_7, QMetaData::Private },
+	{ "fetchMissingCovers()", &slot_8, QMetaData::Private },
+	{ "fetchCoversLoop()", &slot_9, QMetaData::Private },
+	{ "coverFetched(const QString&,const QString&)", &slot_10, QMetaData::Private },
+	{ "coverRemoved(const QString&,const QString&)", &slot_11, QMetaData::Private },
+	{ "coverFetcherError()", &slot_12, QMetaData::Private },
+	{ "stopFetching()", &slot_13, QMetaData::Private },
+	{ "init()", &slot_14, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CoverManager", parentObject,
+	slot_tbl, 15,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CoverManager.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CoverManager::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CoverManager" ) )
+	return this;
+    return QSplitter::qt_cast( clname );
+}
+
+bool CoverManager::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: updateStatusBar(); break;
+    case 1: slotArtistSelected((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: coverItemExecuted((QIconViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 3: showCoverMenu((QIconViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2))); break;
+    case 4: slotSetFilter(); break;
+    case 5: slotSetFilterTimeout(); break;
+    case 6: changeView((int)static_QUType_int.get(_o+1)); break;
+    case 7: changeLocale((int)static_QUType_int.get(_o+1)); break;
+    case 8: fetchMissingCovers(); break;
+    case 9: fetchCoversLoop(); break;
+    case 10: coverFetched((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 11: coverRemoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 12: coverFetcherError(); break;
+    case 13: stopFetching(); break;
+    case 14: init(); break;
+    default:
+	return QSplitter::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CoverManager::qt_emit( int _id, QUObject* _o )
+{
+    return QSplitter::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CoverManager::qt_property( int id, int f, QVariant* v)
+{
+    return QSplitter::qt_property( id, f, v);
+}
+
+bool CoverManager::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CoverView::className() const
+{
+    return "CoverView";
+}
+
+QMetaObject *CoverView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CoverView( "CoverView", &CoverView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CoverView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CoverView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CoverView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KIconView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "item", &static_QUType_ptr, "QIconViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setStatusText", 1, param_slot_0 };
+    static const QMetaData slot_tbl[] = {
+	{ "setStatusText(QIconViewItem*)", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CoverView", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CoverView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CoverView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CoverView" ) )
+	return this;
+    return KIconView::qt_cast( clname );
+}
+
+bool CoverView::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setStatusText((QIconViewItem*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return KIconView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CoverView::qt_emit( int _id, QUObject* _o )
+{
+    return KIconView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CoverView::qt_property( int id, int f, QVariant* v)
+{
+    return KIconView::qt_property( id, f, v);
+}
+
+bool CoverView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CoverViewDialog::className() const
+{
+    return "CoverViewDialog";
+}
+
+QMetaObject *CoverViewDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CoverViewDialog( "CoverViewDialog", &CoverViewDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CoverViewDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverViewDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CoverViewDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CoverViewDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CoverViewDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QDialog::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"CoverViewDialog", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CoverViewDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CoverViewDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CoverViewDialog" ) )
+	return this;
+    return QDialog::qt_cast( clname );
+}
+
+bool CoverViewDialog::qt_invoke( int _id, QUObject* _o )
+{
+    return QDialog::qt_invoke(_id,_o);
+}
+
+bool CoverViewDialog::qt_emit( int _id, QUObject* _o )
+{
+    return QDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CoverViewDialog::qt_property( int id, int f, QVariant* v)
+{
+    return QDialog::qt_property( id, f, v);
+}
+
+bool CoverViewDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

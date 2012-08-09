@@ -1,0 +1,142 @@
+/****************************************************************************
+** PlaylistWindow meta object code from reading C++ file 'playlistwindow.h'
+**
+** Created: Tue Feb 19 16:00:30 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playlistwindow.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *PlaylistWindow::className() const
+{
+    return "PlaylistWindow";
+}
+
+QMetaObject *PlaylistWindow::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlaylistWindow( "PlaylistWindow", &PlaylistWindow::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlaylistWindow::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistWindow", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlaylistWindow::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistWindow", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlaylistWindow::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"showHide", 0, 0 };
+    static const QUMethod slot_1 = {"savePlaylist", 0, 0 };
+    static const QUMethod slot_2 = {"slotPlayMedia", 0, 0 };
+    static const QUMethod slot_3 = {"slotAddLocation", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ "directPlay", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"slotAddLocation", 1, param_slot_4 };
+    static const QUMethod slot_5 = {"playAudioCD", 0, 0 };
+    static const QUMethod slot_6 = {"showQueueManager", 0, 0 };
+    static const QUMethod slot_7 = {"showScriptSelector", 0, 0 };
+    static const QUParameter param_slot_8[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"slotMenuActivated", 1, param_slot_8 };
+    static const QUMethod slot_9 = {"actionsMenuAboutToShow", 0, 0 };
+    static const QUMethod slot_10 = {"toolsMenuAboutToShow", 0, 0 };
+    static const QUMethod slot_11 = {"slotToggleMenu", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "showHide()", &slot_0, QMetaData::Public },
+	{ "savePlaylist()", &slot_1, QMetaData::Private },
+	{ "slotPlayMedia()", &slot_2, QMetaData::Private },
+	{ "slotAddLocation()", &slot_3, QMetaData::Private },
+	{ "slotAddLocation(bool)", &slot_4, QMetaData::Private },
+	{ "playAudioCD()", &slot_5, QMetaData::Private },
+	{ "showQueueManager()", &slot_6, QMetaData::Private },
+	{ "showScriptSelector()", &slot_7, QMetaData::Private },
+	{ "slotMenuActivated(int)", &slot_8, QMetaData::Private },
+	{ "actionsMenuAboutToShow()", &slot_9, QMetaData::Private },
+	{ "toolsMenuAboutToShow()", &slot_10, QMetaData::Private },
+	{ "slotToggleMenu()", &slot_11, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlaylistWindow", parentObject,
+	slot_tbl, 12,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlaylistWindow.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlaylistWindow::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlaylistWindow" ) )
+	return this;
+    if ( !qstrcmp( clname, "KXMLGUIClient" ) )
+	return (KXMLGUIClient*)this;
+    return QWidget::qt_cast( clname );
+}
+
+bool PlaylistWindow::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: showHide(); break;
+    case 1: savePlaylist(); break;
+    case 2: slotPlayMedia(); break;
+    case 3: slotAddLocation(); break;
+    case 4: slotAddLocation((bool)static_QUType_bool.get(_o+1)); break;
+    case 5: playAudioCD(); break;
+    case 6: showQueueManager(); break;
+    case 7: showScriptSelector(); break;
+    case 8: slotMenuActivated((int)static_QUType_int.get(_o+1)); break;
+    case 9: actionsMenuAboutToShow(); break;
+    case 10: toolsMenuAboutToShow(); break;
+    case 11: slotToggleMenu(); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlaylistWindow::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlaylistWindow::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool PlaylistWindow::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

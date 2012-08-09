@@ -1,0 +1,516 @@
+/****************************************************************************
+** CollectionDB meta object code from reading C++ file 'collectiondb.h'
+**
+** Created: Fri Mar 23 10:51:55 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "collectiondb.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *CollectionDB::className() const
+{
+    return "CollectionDB";
+}
+
+QMetaObject *CollectionDB::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CollectionDB( "CollectionDB", &CollectionDB::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CollectionDB::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionDB", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CollectionDB::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionDB", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CollectionDB::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "parent", &static_QUType_ptr, "QWidget", QUParameter::In },
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In },
+	{ "noedit", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"fetchCover", 4, param_slot_0 };
+    static const QUMethod slot_1 = {"scanMonitor", 0, 0 };
+    static const QUMethod slot_2 = {"startScan", 0, 0 };
+    static const QUMethod slot_3 = {"stopScan", 0, 0 };
+    static const QUMethod slot_4 = {"scanModifiedDirs", 0, 0 };
+    static const QUMethod slot_5 = {"disableAutoScoring", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ "disable", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"disableAutoScoring", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "path", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"dirDirty", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ 0, &static_QUType_ptr, "CoverFetcher", QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"coverFetcherResult", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "suggestions", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"similarArtistsFetched", 2, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"fileOperationResult", 1, param_slot_10 };
+    static const QUParameter param_slot_11[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"podcastImageResult", 1, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "oldUrl", &static_QUType_QString, 0, QUParameter::In },
+	{ "newUrl", &static_QUType_QString, 0, QUParameter::In },
+	{ "uniqueid", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"atfMigrateStatisticsUrl", 3, param_slot_12 };
+    static const QUParameter param_slot_13[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "oldid", &static_QUType_QString, 0, QUParameter::In },
+	{ "newid", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"atfMigrateStatisticsUniqueId", 3, param_slot_13 };
+    static const QMetaData slot_tbl[] = {
+	{ "fetchCover(QWidget*,const QString&,const QString&,bool)", &slot_0, QMetaData::Public },
+	{ "scanMonitor()", &slot_1, QMetaData::Public },
+	{ "startScan()", &slot_2, QMetaData::Public },
+	{ "stopScan()", &slot_3, QMetaData::Public },
+	{ "scanModifiedDirs()", &slot_4, QMetaData::Public },
+	{ "disableAutoScoring()", &slot_5, QMetaData::Public },
+	{ "disableAutoScoring(bool)", &slot_6, QMetaData::Public },
+	{ "dirDirty(const QString&)", &slot_7, QMetaData::Private },
+	{ "coverFetcherResult(CoverFetcher*)", &slot_8, QMetaData::Private },
+	{ "similarArtistsFetched(const QString&,const QStringList&)", &slot_9, QMetaData::Private },
+	{ "fileOperationResult(KIO::Job*)", &slot_10, QMetaData::Private },
+	{ "podcastImageResult(KIO::Job*)", &slot_11, QMetaData::Private },
+	{ "atfMigrateStatisticsUrl(const QString&,const QString&,const QString&)", &slot_12, QMetaData::Private },
+	{ "atfMigrateStatisticsUniqueId(const QString&,const QString&,const QString&)", &slot_13, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"scanStarted", 0, 0 };
+    static const QUParameter param_signal_1[] = {
+	{ "changed", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"scanDone", 1, param_signal_1 };
+    static const QUMethod signal_2 = {"databaseEngineChanged", 0, 0 };
+    static const QUParameter param_signal_3[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "score", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_3 = {"scoreChanged", 2, param_signal_3 };
+    static const QUParameter param_signal_4[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "rating", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_4 = {"ratingChanged", 2, param_signal_4 };
+    static const QUParameter param_signal_5[] = {
+	{ "srcUrl", &static_QUType_QString, 0, QUParameter::In },
+	{ "dstUrl", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_5 = {"fileMoved", 2, param_signal_5 };
+    static const QUParameter param_signal_6[] = {
+	{ "srcUrl", &static_QUType_QString, 0, QUParameter::In },
+	{ "dstUrl", &static_QUType_QString, 0, QUParameter::In },
+	{ "uniqueid", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_6 = {"fileMoved", 3, param_signal_6 };
+    static const QUParameter param_signal_7[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "originalid", &static_QUType_QString, 0, QUParameter::In },
+	{ "newid", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_7 = {"uniqueIdChanged", 3, param_signal_7 };
+    static const QUParameter param_signal_8[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_8 = {"coverChanged", 2, param_signal_8 };
+    static const QUParameter param_signal_9[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_9 = {"coverFetched", 2, param_signal_9 };
+    static const QUParameter param_signal_10[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_10 = {"coverRemoved", 2, param_signal_10 };
+    static const QUParameter param_signal_11[] = {
+	{ "error", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_11 = {"coverFetcherError", 1, param_signal_11 };
+    static const QUParameter param_signal_12[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_12 = {"similarArtistsFetched", 1, param_signal_12 };
+    static const QUParameter param_signal_13[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod signal_13 = {"tagsChanged", 1, param_signal_13 };
+    static const QUParameter param_signal_14[] = {
+	{ "remoteURL", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_14 = {"imageFetched", 1, param_signal_14 };
+    static const QMetaData signal_tbl[] = {
+	{ "scanStarted()", &signal_0, QMetaData::Private },
+	{ "scanDone(bool)", &signal_1, QMetaData::Private },
+	{ "databaseEngineChanged()", &signal_2, QMetaData::Private },
+	{ "scoreChanged(const QString&,int)", &signal_3, QMetaData::Private },
+	{ "ratingChanged(const QString&,int)", &signal_4, QMetaData::Private },
+	{ "fileMoved(const QString&,const QString&)", &signal_5, QMetaData::Private },
+	{ "fileMoved(const QString&,const QString&,const QString&)", &signal_6, QMetaData::Private },
+	{ "uniqueIdChanged(const QString&,const QString&,const QString&)", &signal_7, QMetaData::Private },
+	{ "coverChanged(const QString&,const QString&)", &signal_8, QMetaData::Private },
+	{ "coverFetched(const QString&,const QString&)", &signal_9, QMetaData::Private },
+	{ "coverRemoved(const QString&,const QString&)", &signal_10, QMetaData::Private },
+	{ "coverFetcherError(const QString&)", &signal_11, QMetaData::Private },
+	{ "similarArtistsFetched(const QString&)", &signal_12, QMetaData::Private },
+	{ "tagsChanged(const MetaBundle&)", &signal_13, QMetaData::Private },
+	{ "imageFetched(const QString&)", &signal_14, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CollectionDB", parentObject,
+	slot_tbl, 14,
+	signal_tbl, 15,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CollectionDB.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CollectionDB::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CollectionDB" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL scanStarted
+void CollectionDB::scanStarted()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+// SIGNAL scanDone
+void CollectionDB::scanDone( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+// SIGNAL databaseEngineChanged
+void CollectionDB::databaseEngineChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 2 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL scoreChanged
+void CollectionDB::scoreChanged( const QString& t0, int t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 3 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_int.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL ratingChanged
+void CollectionDB::ratingChanged( const QString& t0, int t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 4 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_int.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL fileMoved
+void CollectionDB::fileMoved( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 5 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL fileMoved
+void CollectionDB::fileMoved( const QString& t0, const QString& t1, const QString& t2 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 6 );
+    if ( !clist )
+	return;
+    QUObject o[4];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    static_QUType_QString.set(o+3,t2);
+    activate_signal( clist, o );
+}
+
+// SIGNAL uniqueIdChanged
+void CollectionDB::uniqueIdChanged( const QString& t0, const QString& t1, const QString& t2 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 7 );
+    if ( !clist )
+	return;
+    QUObject o[4];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    static_QUType_QString.set(o+3,t2);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverChanged
+void CollectionDB::coverChanged( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 8 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverFetched
+void CollectionDB::coverFetched( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 9 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverRemoved
+void CollectionDB::coverRemoved( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 10 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverFetcherError
+void CollectionDB::coverFetcherError( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 11, t0 );
+}
+
+// SIGNAL similarArtistsFetched
+void CollectionDB::similarArtistsFetched( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 12, t0 );
+}
+
+// SIGNAL tagsChanged
+void CollectionDB::tagsChanged( const MetaBundle& t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 13 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+// SIGNAL imageFetched
+void CollectionDB::imageFetched( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 14, t0 );
+}
+
+bool CollectionDB::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: fetchCover((QWidget*)static_QUType_ptr.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3),(bool)static_QUType_bool.get(_o+4)); break;
+    case 1: scanMonitor(); break;
+    case 2: startScan(); break;
+    case 3: stopScan(); break;
+    case 4: scanModifiedDirs(); break;
+    case 5: disableAutoScoring(); break;
+    case 6: disableAutoScoring((bool)static_QUType_bool.get(_o+1)); break;
+    case 7: dirDirty((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 8: coverFetcherResult((CoverFetcher*)static_QUType_ptr.get(_o+1)); break;
+    case 9: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    case 10: fileOperationResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 11: podcastImageResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 12: atfMigrateStatisticsUrl((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    case 13: atfMigrateStatisticsUniqueId((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CollectionDB::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: scanStarted(); break;
+    case 1: scanDone((bool)static_QUType_bool.get(_o+1)); break;
+    case 2: databaseEngineChanged(); break;
+    case 3: scoreChanged((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 4: ratingChanged((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 5: fileMoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 6: fileMoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    case 7: uniqueIdChanged((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    case 8: coverChanged((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 9: coverFetched((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 10: coverRemoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 11: coverFetcherError((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 12: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 13: tagsChanged((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 14: imageFetched((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CollectionDB::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool CollectionDB::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *INotify::className() const
+{
+    return "INotify";
+}
+
+QMetaObject *INotify::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_INotify( "INotify", &INotify::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString INotify::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "INotify", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString INotify::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "INotify", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* INotify::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = ThreadWeaver::DependentJob::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"INotify", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_INotify.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* INotify::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "INotify" ) )
+	return this;
+    return DependentJob::qt_cast( clname );
+}
+
+bool INotify::qt_invoke( int _id, QUObject* _o )
+{
+    return DependentJob::qt_invoke(_id,_o);
+}
+
+bool INotify::qt_emit( int _id, QUObject* _o )
+{
+    return DependentJob::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool INotify::qt_property( int id, int f, QVariant* v)
+{
+    return DependentJob::qt_property( id, f, v);
+}
+
+bool INotify::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

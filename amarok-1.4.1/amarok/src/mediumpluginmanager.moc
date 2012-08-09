@@ -1,0 +1,444 @@
+/****************************************************************************
+** MediaDeviceConfig meta object code from reading C++ file 'mediumpluginmanager.h'
+**
+** Created: Fri Mar 23 10:53:54 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "mediumpluginmanager.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MediaDeviceConfig::className() const
+{
+    return "MediaDeviceConfig";
+}
+
+QMetaObject *MediaDeviceConfig::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaDeviceConfig( "MediaDeviceConfig", &MediaDeviceConfig::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaDeviceConfig::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceConfig", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaDeviceConfig::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceConfig", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaDeviceConfig::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QHBox::staticMetaObject();
+    static const QUMethod slot_0 = {"configureDevice", 0, 0 };
+    static const QUMethod slot_1 = {"deleteDevice", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "configureDevice()", &slot_0, QMetaData::Public },
+	{ "deleteDevice()", &slot_1, QMetaData::Public }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "medium", &static_QUType_ptr, "Medium", QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"deleteMedium", 1, param_signal_0 };
+    static const QUMethod signal_1 = {"changed", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "deleteMedium(Medium*)", &signal_0, QMetaData::Public },
+	{ "changed()", &signal_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaDeviceConfig", parentObject,
+	slot_tbl, 2,
+	signal_tbl, 2,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaDeviceConfig.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaDeviceConfig::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaDeviceConfig" ) )
+	return this;
+    return QHBox::qt_cast( clname );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL deleteMedium
+void MediaDeviceConfig::deleteMedium( Medium* t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,t0);
+    activate_signal( clist, o );
+}
+
+// SIGNAL changed
+void MediaDeviceConfig::changed()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1 );
+}
+
+bool MediaDeviceConfig::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: configureDevice(); break;
+    case 1: deleteDevice(); break;
+    default:
+	return QHBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaDeviceConfig::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: deleteMedium((Medium*)static_QUType_ptr.get(_o+1)); break;
+    case 1: changed(); break;
+    default:
+	return QHBox::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaDeviceConfig::qt_property( int id, int f, QVariant* v)
+{
+    return QHBox::qt_property( id, f, v);
+}
+
+bool MediaDeviceConfig::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediumPluginManager::className() const
+{
+    return "MediumPluginManager";
+}
+
+QMetaObject *MediumPluginManager::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediumPluginManager( "MediumPluginManager", &MediumPluginManager::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediumPluginManager::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediumPluginManager", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediumPluginManager::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediumPluginManager", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediumPluginManager::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"redetectDevices", 0, 0 };
+    static const QUMethod slot_1 = {"newDevice", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "medium", &static_QUType_ptr, "Medium", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"deleteMedium", 1, param_slot_2 };
+    static const QUMethod slot_3 = {"slotChanged", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "redetectDevices()", &slot_0, QMetaData::Public },
+	{ "newDevice()", &slot_1, QMetaData::Public },
+	{ "deleteMedium(Medium*)", &slot_2, QMetaData::Public },
+	{ "slotChanged()", &slot_3, QMetaData::Public }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ 0, &static_QUType_ptr, "Medium", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"selectedPlugin", 2, param_signal_0 };
+    static const QUMethod signal_1 = {"changed", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "selectedPlugin(const Medium*,const QString)", &signal_0, QMetaData::Public },
+	{ "changed()", &signal_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediumPluginManager", parentObject,
+	slot_tbl, 4,
+	signal_tbl, 2,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediumPluginManager.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediumPluginManager::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediumPluginManager" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL selectedPlugin
+void MediumPluginManager::selectedPlugin( const Medium* t0, const QString t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_ptr.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL changed
+void MediumPluginManager::changed()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1 );
+}
+
+bool MediumPluginManager::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: redetectDevices(); break;
+    case 1: newDevice(); break;
+    case 2: deleteMedium((Medium*)static_QUType_ptr.get(_o+1)); break;
+    case 3: slotChanged(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediumPluginManager::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: selectedPlugin((const Medium*)static_QUType_ptr.get(_o+1),(const QString)static_QUType_QString.get(_o+2)); break;
+    case 1: changed(); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediumPluginManager::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool MediumPluginManager::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediumPluginManagerDialog::className() const
+{
+    return "MediumPluginManagerDialog";
+}
+
+QMetaObject *MediumPluginManagerDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediumPluginManagerDialog( "MediumPluginManagerDialog", &MediumPluginManagerDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediumPluginManagerDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediumPluginManagerDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediumPluginManagerDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediumPluginManagerDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediumPluginManagerDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotOk", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotOk()", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediumPluginManagerDialog", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediumPluginManagerDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediumPluginManagerDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediumPluginManagerDialog" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool MediumPluginManagerDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotOk(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediumPluginManagerDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediumPluginManagerDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool MediumPluginManagerDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *ManualDeviceAdder::className() const
+{
+    return "ManualDeviceAdder";
+}
+
+QMetaObject *ManualDeviceAdder::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ManualDeviceAdder( "ManualDeviceAdder", &ManualDeviceAdder::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ManualDeviceAdder::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ManualDeviceAdder", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ManualDeviceAdder::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ManualDeviceAdder", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ManualDeviceAdder::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotCancel", 0, 0 };
+    static const QUMethod slot_1 = {"slotOk", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"comboChanged", 1, param_slot_2 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotCancel()", &slot_0, QMetaData::Private },
+	{ "slotOk()", &slot_1, QMetaData::Private },
+	{ "comboChanged(const QString&)", &slot_2, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ManualDeviceAdder", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ManualDeviceAdder.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ManualDeviceAdder::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ManualDeviceAdder" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool ManualDeviceAdder::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotCancel(); break;
+    case 1: slotOk(); break;
+    case 2: comboChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ManualDeviceAdder::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ManualDeviceAdder::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool ManualDeviceAdder::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

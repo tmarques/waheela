@@ -1,0 +1,248 @@
+/****************************************************************************
+** ContextBrowser meta object code from reading C++ file 'contextbrowser.h'
+**
+** Created: Tue Feb 19 15:58:28 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "contextbrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *ContextBrowser::className() const
+{
+    return "ContextBrowser";
+}
+
+QMetaObject *ContextBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ContextBrowser( "ContextBrowser", &ContextBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ContextBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ContextBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ContextBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ContextBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ContextBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KTabWidget::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "url", &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"openURLRequest", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"collectionScanStarted", 0, 0 };
+    static const QUMethod slot_2 = {"collectionScanDone", 0, 0 };
+    static const QUMethod slot_3 = {"renderView", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ "delta", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"wheelDelta", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ "page", &static_QUType_ptr, "QWidget", QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"tabChanged", 1, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ "urlString", &static_QUType_QString, 0, QUParameter::In },
+	{ "point", &static_QUType_varptr, "\x0e", QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"slotContextMenu", 2, param_slot_6 };
+    static const QUMethod slot_7 = {"showHome", 0, 0 };
+    static const QUMethod slot_8 = {"showCurrentTrack", 0, 0 };
+    static const QUMethod slot_9 = {"showLyrics", 0, 0 };
+    static const QUParameter param_slot_10[] = {
+	{ "hash", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"showLyrics", 1, param_slot_10 };
+    static const QUMethod slot_11 = {"showLyricSuggestions", 0, 0 };
+    static const QUMethod slot_12 = {"showWikipedia", 0, 0 };
+    static const QUParameter param_slot_13[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"showWikipedia", 1, param_slot_13 };
+    static const QUParameter param_slot_14[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "fromHistory", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"showWikipedia", 2, param_slot_14 };
+    static const QUParameter param_slot_15[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"lyricsResult", 1, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"coverFetched", 2, param_slot_16 };
+    static const QUParameter param_slot_17[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_17 = {"coverRemoved", 2, param_slot_17 };
+    static const QUParameter param_slot_18[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_18 = {"similarArtistsFetched", 1, param_slot_18 };
+    static const QUParameter param_slot_19[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_19 = {"tagsChanged", 1, param_slot_19 };
+    static const QUMethod slot_20 = {"lyricsAdd", 0, 0 };
+    static const QUMethod slot_21 = {"lyricsSearch", 0, 0 };
+    static const QUMethod slot_22 = {"lyricsRefresh", 0, 0 };
+    static const QUMethod slot_23 = {"lyricsExternalPage", 0, 0 };
+    static const QUMethod slot_24 = {"wikiHistoryBack", 0, 0 };
+    static const QUMethod slot_25 = {"wikiHistoryForward", 0, 0 };
+    static const QUParameter param_slot_26[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_26 = {"wikiBackPopupActivated", 1, param_slot_26 };
+    static const QUParameter param_slot_27[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_27 = {"wikiForwardPopupActivated", 1, param_slot_27 };
+    static const QUMethod slot_28 = {"wikiArtistPage", 0, 0 };
+    static const QUMethod slot_29 = {"wikiAlbumPage", 0, 0 };
+    static const QUMethod slot_30 = {"wikiTitlePage", 0, 0 };
+    static const QUMethod slot_31 = {"wikiExternalPage", 0, 0 };
+    static const QUParameter param_slot_32[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_32 = {"wikiResult", 1, param_slot_32 };
+    static const QMetaData slot_tbl[] = {
+	{ "openURLRequest(const KURL&)", &slot_0, QMetaData::Public },
+	{ "collectionScanStarted()", &slot_1, QMetaData::Public },
+	{ "collectionScanDone()", &slot_2, QMetaData::Public },
+	{ "renderView()", &slot_3, QMetaData::Public },
+	{ "wheelDelta(int)", &slot_4, QMetaData::Protected },
+	{ "tabChanged(QWidget*)", &slot_5, QMetaData::Private },
+	{ "slotContextMenu(const QString&,const QPoint&)", &slot_6, QMetaData::Private },
+	{ "showHome()", &slot_7, QMetaData::Private },
+	{ "showCurrentTrack()", &slot_8, QMetaData::Private },
+	{ "showLyrics()", &slot_9, QMetaData::Private },
+	{ "showLyrics(const QString&)", &slot_10, QMetaData::Private },
+	{ "showLyricSuggestions()", &slot_11, QMetaData::Private },
+	{ "showWikipedia()", &slot_12, QMetaData::Private },
+	{ "showWikipedia(const QString&)", &slot_13, QMetaData::Private },
+	{ "showWikipedia(const QString&,bool)", &slot_14, QMetaData::Private },
+	{ "lyricsResult(KIO::Job*)", &slot_15, QMetaData::Private },
+	{ "coverFetched(const QString&,const QString&)", &slot_16, QMetaData::Private },
+	{ "coverRemoved(const QString&,const QString&)", &slot_17, QMetaData::Private },
+	{ "similarArtistsFetched(const QString&)", &slot_18, QMetaData::Private },
+	{ "tagsChanged(const MetaBundle&)", &slot_19, QMetaData::Private },
+	{ "lyricsAdd()", &slot_20, QMetaData::Private },
+	{ "lyricsSearch()", &slot_21, QMetaData::Private },
+	{ "lyricsRefresh()", &slot_22, QMetaData::Private },
+	{ "lyricsExternalPage()", &slot_23, QMetaData::Private },
+	{ "wikiHistoryBack()", &slot_24, QMetaData::Private },
+	{ "wikiHistoryForward()", &slot_25, QMetaData::Private },
+	{ "wikiBackPopupActivated(int)", &slot_26, QMetaData::Private },
+	{ "wikiForwardPopupActivated(int)", &slot_27, QMetaData::Private },
+	{ "wikiArtistPage()", &slot_28, QMetaData::Private },
+	{ "wikiAlbumPage()", &slot_29, QMetaData::Private },
+	{ "wikiTitlePage()", &slot_30, QMetaData::Private },
+	{ "wikiExternalPage()", &slot_31, QMetaData::Private },
+	{ "wikiResult(KIO::Job*)", &slot_32, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ContextBrowser", parentObject,
+	slot_tbl, 33,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ContextBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ContextBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ContextBrowser" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return KTabWidget::qt_cast( clname );
+}
+
+bool ContextBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: openURLRequest((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    case 1: collectionScanStarted(); break;
+    case 2: collectionScanDone(); break;
+    case 3: renderView(); break;
+    case 4: wheelDelta((int)static_QUType_int.get(_o+1)); break;
+    case 5: tabChanged((QWidget*)static_QUType_ptr.get(_o+1)); break;
+    case 6: slotContextMenu((const QString&)static_QUType_QString.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2))); break;
+    case 7: showHome(); break;
+    case 8: showCurrentTrack(); break;
+    case 9: showLyrics(); break;
+    case 10: showLyrics((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 11: showLyricSuggestions(); break;
+    case 12: showWikipedia(); break;
+    case 13: showWikipedia((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 14: showWikipedia((const QString&)static_QUType_QString.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 15: lyricsResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 16: coverFetched((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 17: coverRemoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 18: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 19: tagsChanged((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 20: lyricsAdd(); break;
+    case 21: lyricsSearch(); break;
+    case 22: lyricsRefresh(); break;
+    case 23: lyricsExternalPage(); break;
+    case 24: wikiHistoryBack(); break;
+    case 25: wikiHistoryForward(); break;
+    case 26: wikiBackPopupActivated((int)static_QUType_int.get(_o+1)); break;
+    case 27: wikiForwardPopupActivated((int)static_QUType_int.get(_o+1)); break;
+    case 28: wikiArtistPage(); break;
+    case 29: wikiAlbumPage(); break;
+    case 30: wikiTitlePage(); break;
+    case 31: wikiExternalPage(); break;
+    case 32: wikiResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return KTabWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ContextBrowser::qt_emit( int _id, QUObject* _o )
+{
+    return KTabWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ContextBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return KTabWidget::qt_property( id, f, v);
+}
+
+bool ContextBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

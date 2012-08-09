@@ -1,0 +1,213 @@
+<chapter id="developers">
+<title
+>Entwickler-Handbuch zu &amarok;</title>
+
+<para
+>Falls Sie bei der Entwicklung von &amarok; mithelfen möchten (z. B. durch Beisteuern von Kode, Graphiken, Dokumentation oder sonstigem), dann schreiben Sie bitte eine Email an <email
+>amarok-devel@lists.sourceforge.net</email
+>, oder besuchen Sie uns im IRC: Kanal #amarok, Netzwerk: irc.freenode.net.</para>
+
+<para
+>Sie können auch unsere <ulink url="http://lists.sourceforge.net/lists/listinfo/amarok-devel"
+>Mailingliste abonnieren</ulink
+> und wertvolle Kommentare beisteuern, während Sie den Fortschritt mitverfolgen :)</para>
+
+<para
+>Ihre Beiträge und Feedback sind sehr willkommen, wir freuen uns auf ein Gespräch mit Ihnen.</para>
+
+<sect1 id="source_file_list">
+<title
+>&amarok; Quell-Dateien</title>
+
+<para
+>Die Dateien sind in alphabetischer Reihenfolge aufgelistet, dies entspricht aber natürlich nicht ihrer Wichtigkeit. Die wichtigsten Dateien sind app.cpp, playlist.cpp und playerwindow.cpp.</para>
+
+<informaltable>
+<tgroup cols="2">
+
+<thead>
+<row>
+<entry
+>Datei</entry>
+<entry
+>Anwendung</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry
+>actionclasses.cpp</entry>
+<entry
+>Stellt ein QPopupMenu bereit. Es enthält &amarok;'s Konfigurations-Optionen, Beenden und ein KHelpMenu, welches einem das Instantiieren vieler Hilfemenüs erspart.</entry>
+</row>
+
+<row>
+<entry
+>amarokconfig.cpp</entry>
+<entry
+>KConfig-XT</entry>
+</row>
+
+<row>
+<entry
+>amarokfilelist.cpp</entry>
+<entry
+>Wird zur Zeit nich verwendet. Wird später zum Sortieren von KFileLists benutzt.</entry>
+</row>
+
+<row>
+<entry
+>app.cpp</entry>
+<entry
+>Dies ist die von kapplication abgeleitete Klasse, sie ist Parent für viele fundamentale Objekte, z. B. engine, dcop, Kontrollleiste, Widgets der obersten Ebene, usw.</entry>
+</row>
+
+<row>
+<entry
+>browserbar.cpp</entry>
+<entry
+>Behandelt die Browser, das KMultiTabBar Widget und die angepassten Splitter.</entry>
+</row>
+
+<row>
+<entry
+>browserwin.cpp</entry>
+<entry
+>Dies ist nur ein Container-Widget für Playliste, Werkzeugleiste und Browserleiste.</entry>
+</row>
+
+<row>
+<entry
+>collectionbrowser.cpp</entry>
+<entry
+>Im Aufbau. Ist eine Art Medien-Bibltiothek.</entry>
+</row>
+
+<row>
+<entry
+>effectwidget.cpp</entry>
+<entry
+>Das Widget für die Effekt-Konfiguration der Treiber.</entry>
+</row>
+
+<row>
+<entry
+>enginecontroller.cpp</entry>
+<entry
+>Schnittstelle zwischen &amarok; und dem Treiber</entry>
+</row>
+
+<row>
+<entry
+>fht.cpp</entry>
+<entry
+>&amarok;'s anspruchsvolle und flexible FHT-Routine zur Spectral-Analyse.</entry>
+</row>
+
+<row>
+<entry
+>filebrowser.cpp</entry>
+<entry
+>Der Dateibrowser.</entry>
+</row>
+
+<row>
+<entry
+>kbookmarkhandler.cpp</entry>
+<entry
+>Wird vom Dateibrowser verwendet.</entry>
+</row>
+
+<row>
+<entry
+>osd.cpp</entry>
+<entry
+>Eine sehr schöne OSD-Klasse, sie ist nicht &amarok;-spezifisch und sehr flexibel.</entry>
+</row>
+
+<row>
+<entry
+>playerwindow.cpp</entry>
+<entry
+>Dies ist das kleine Widget mit dem rollenden Text, Analyzer und den Wiedergabe/Pause-Knöpfen.</entry>
+</row>
+
+<row>
+<entry
+>playlist.cpp</entry>
+<entry
+>Dies ist die große Klasse mit dem Wiedergabelisten-Widget.</entry>
+</row>
+
+<row>
+<entry
+>playlistbrowser.cpp</entry>
+<entry
+>Der Wiedergabelisten-Browser.</entry>
+</row>
+
+<row>
+<entry
+>playlistitem.cpp</entry>
+<entry
+>Von KListViewItem abgeleitet, Wiedergabelisten-Einträge.</entry>
+</row>
+
+<row>
+<entry
+>playlistloader.cpp</entry>
+<entry
+>Läd rekursiv Ordner, KURLs und Wiedergabelisten-Dateien in das Wiedergabelisten-Widget. Arbeitet mit Threads im Hintergrund. Fragt den Treiber, ob es unbekannte Dateitypen spielen kann.</entry>
+</row>
+
+<row>
+<entry
+>pluginmanager.cpp</entry>
+<entry
+>Handhabt das &amarok; Plugin-System.</entry>
+</row>
+
+<row>
+<entry
+>sliderwidget.cpp</entry>
+<entry
+>Das vom Player-Widget benutzte angepasste Slider-Widget. Ist ein Kandidat für Refactoring durch Ableiten von QSlider.</entry>
+</row>
+
+<row>
+<entry
+>streambrowser.cpp</entry>
+<entry
+>Ein Widget, das von Meta-Servern heruntergeladene Stream-Listen anzeigt.</entry>
+</row>
+
+<row>
+<entry
+>systray.cpp</entry>
+<entry
+>&amarok;'s Symbol in der Kontrollleiste. Klein und kompakt.</entry>
+</row>
+
+<row>
+<entry
+>threadweaver.cpp</entry>
+<entry
+>Flexible Klasse, die Ergebnisse von <quote
+>Jobs</quote
+> in eine Warteschlange einreiht, bearbeitet und verteilt. Benutzt einen separaten Thread. Wird von verschiedenen &amarok;-Komponenten genutzt.</entry>
+</row>
+
+<row>
+<entry
+>tracktooltip.cpp</entry>
+<entry
+>Ist nicht direkt dem Wiedergabelisten-Widget zugehörig. Wird vom Wiedergabelisten-Widget benutzt, um diverse Informationen über das aktuell laufende Stück anzuzeigen.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</sect1>
+</chapter>

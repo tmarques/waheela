@@ -1,0 +1,1369 @@
+<chapter id="advanced-features">
+<title
+>Muud amaroKi võimalused</title>
+
+
+<sect1 id="keybd-shortcuts">
+<title
+>Kiirklahvid</title>
+
+<para
+>&amarok; kasutab kiirklahve nagu iga muu korralik rakendus. Allpool on ära toodud kiirklahvid ja nendega käivitatavad toimingud. Globaalseid kiirklahve saab seadistada, kui klõpsata hiire parema nupuga mängija aknas ja valida <guimenuitem
+>Globaalsete kiirklahvide seadistamine...</guimenuitem
+> &amarok;i enda kiirklahve saab seadistada, kui klõpsata hiire parema nupuga mängija aknas ja valida <guimenuitem
+>Kiirklahvide seadistamine...</guimenuitem
+></para>
+
+<tip
+><para
+>Oma multimeediaklahvide kasutamiseks &amarok;i kiirklahvidena tuleb määrata klaviatuur &amarok;i juhtimiskeskuses.</para
+></tip>
+
+<para
+>Globaalsed kiirklahvid:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Klahvikombinatsioon</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>X</keycap
+></keycombo
+></entry>
+<entry
+>Mängi</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Paus</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>V</keycap
+></keycombo
+></entry>
+<entry
+>Stopp</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>B</keycap
+></keycombo
+></entry>
+<entry
+>Järgmine pala</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Eelmine pala</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Add</keycap
+></keycombo
+></entry>
+<entry
+>Heli juurde</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Subtract</keycap
+></keycombo
+></entry>
+<entry
+>Heli maha</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Shift</keycap
+><keycap
+>KP_Add</keycap
+></keycombo
+></entry>
+<entry
+>Seek Forward</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Shift</keycap
+><keycap
+>KP_Subtract</keycap
+></keycombo
+></entry>
+<entry
+>Seek Backward</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Lisa andmekandja</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>P</keycap
+></keycombo
+></entry>
+<entry
+>Lugude nimekirja lülitamine</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>O</keycap
+></keycombo
+></entry>
+<entry
+>OSD näitamine</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>M</keycap
+></keycombo
+></entry>
+<entry
+>Mute Volume</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>&amarok;i kiirklahvid:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Klahvikombinatsioon</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Kopeeri</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>KP_Enter</keycap
+></keycombo
+></entry>
+<entry
+>Mine praegusele</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>D</keycap
+></keycombo
+></entry>
+<entry
+>Queue Selected Tracks</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Q</keycap
+></keycombo
+></entry>
+<entry
+>Välju</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Shift</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Tee uuesti</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>S</keycap
+></keycombo
+></entry>
+<entry
+>Salvesta lugude nimekiri</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Vali kõik</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>M</keycap
+></keycombo
+></entry>
+<entry
+>Show Menubar</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>H</keycap
+></keycombo
+></entry>
+<entry
+>Segatud</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Võta tagasi</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+<para
+>Lugude nimekirja sirvija kiirklahvid:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Klahvikombinatsioon</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycap
+>Tühikuklahv</keycap
+></entry>
+<entry
+>Lugude nimekirja laadimine</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>F2</keycap
+></entry>
+<entry
+>Lugude nimekirja ümbernimetamine</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>Backspace</keycap
+></entry>
+<entry
+>Lugude nimekirja eemaldamine</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+<sect1 id="the-dcop-interface">
+<title
+>DCOP-liides</title>
+
+<para
+>amaroKi DCOP-liides võimaldab imelihtsalt juhtida amaroKi tööd enda loodud skriptidega.</para>
+
+<para
+>The DCOP interface for amaroK has many generic calls that may be found in other KDE applications. This section is divided into four tables and is intended to describe the DCOP calls of the collection, player, playlist, and scripts. An example of the <quote
+>pause</quote
+> dcop call would look like:</para>
+
+<para
+><prompt
+>&percnt;</prompt
+>dcop amarok player pause</para>
+
+<sect2 id="dcop-collection">
+<title
+>DCOP ja amaroKi muusikakogu</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP Call</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>query</entry>
+<entry
+>The <quote
+>query</quote
+> call allows you to send direct database queries to &amarok;'s collection.</entry>
+</row>
+
+<row>
+<entry
+>scanCollection</entry>
+<entry
+>The <quote
+>scanCollection</quote
+> call performs a manual scan of your collection.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-player">
+<title
+>DCOP ja amaroKi mängija</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP Call</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>album</entry>
+<entry
+>The <quote
+>album</quote
+> call returns the album of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>artist</entry>
+<entry
+>The <quote
+>artist</quote
+> call returns the artist of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>bitrate</entry>
+<entry
+>The <quote
+>bitrate</quote
+> call returns the bitrate of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>comment</entry>
+<entry
+>The <quote
+>comment</quote
+> call returns the comment of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>coverImage</entry>
+<entry
+>The <quote
+>coverImage</quote
+> call returns the URL to the current track's cover image.</entry>
+</row>
+
+<row>
+<entry
+>currentTime</entry>
+<entry
+>The <quote
+>currentTime</quote
+> call returns the position (mm:ss) of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>encodedURL</entry>
+<entry
+>Funktsioon <quote
+>encodedURL</quote
+> tagastab parajasti mängitava pala tühikutega kodeeritud URL-i.</entry>
+</row>
+
+<row>
+<entry
+>genre</entry>
+<entry
+>The <quote
+>genre</quote
+> call returns the genre of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>nowPlaying</entry>
+<entry
+>The <quote
+>nowPlaying</quote
+> call returns "Artist - Title" of the currently playing track. If one of both id3 tags is empty, only "Artist" or "Title" is shown (without the "-").</entry>
+</row>
+
+<row>
+<entry
+>path</entry>
+<entry
+>The <quote
+>path</quote
+> call returns the filesystem path to the current track.</entry>
+</row>
+
+<row>
+<entry
+>setContextStyle</entry>
+<entry
+>The <quote
+>setContextStyle</quote
+> call sets the Context Browser's CSS theme specified by it's name.</entry>
+</row>
+
+<row>
+<entry
+>title</entry>
+<entry
+>The <quote
+>title</quote
+> call returns the title of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>totalTime</entry>
+<entry
+>The <quote
+>totalTime</quote
+> call returns the total time (mm:ss) of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>track</entry>
+<entry
+>The <quote
+>track</quote
+> call returns the track number of the current track.</entry>
+</row>
+
+<row>
+<entry
+>year</entry>
+<entry
+>The <quote
+>year</quote
+> call returns the year of the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>dynamicModeStatus</entry>
+<entry
+>The <quote
+>dynamicModeStatus</quote
+> call returns a value of true or false to indicate if the dynamic mode is enabled.</entry>
+</row>
+
+<row>
+<entry
+>equalizerEnabled</entry>
+<entry
+>The <quote
+>equalizerEnabled</quote
+> call returns a value of true or false to indicate if the equalizer is enabled.</entry>
+</row>
+
+<row>
+<entry
+>isPlaying</entry>
+<entry
+>The <quote
+>isPlaying</quote
+> call returns a value of true or false to indicate if the player is playing or not.</entry>
+</row>
+
+<row>
+<entry
+>randomModeStatus</entry>
+<entry
+>The <quote
+>randomModeStatus</quote
+> call returns the status of Random Mode with a value of true or false.</entry>
+</row>
+
+<row>
+<entry
+>repeatPlaylistStatus</entry>
+<entry
+>The <quote
+>repeatPlaylistStatus</quote
+> call returns the status of Repeat Playlist with a value of true or false.</entry>
+</row>
+
+<row>
+<entry
+>repeatTrackStatus</entry>
+<entry
+>The <quote
+>repeatTrackStatus</quote
+> call returns the status of Repeat Track with a value of true or false.</entry>
+</row>
+
+<row>
+<entry
+>getVolume</entry>
+<entry
+>The <quote
+>getVolume</quote
+> call returns a value for the volume level specified by a value of 0-100.</entry>
+</row>
+
+<row>
+<entry
+>sampleRate</entry>
+<entry
+>The <quote
+>sampleRate</quote
+> call returns the sample rate of the current track.</entry>
+</row>
+
+<row>
+<entry
+>score</entry>
+<entry
+>The <quote
+>score</quote
+> call returns the current track's score.</entry>
+</row>
+
+<row>
+<entry
+>status</entry>
+<entry
+>The <quote
+>status</quote
+> call returns a value for the engine status, 2 for playing, 1 for paused, and 0 for idle.</entry>
+</row>
+
+<row>
+<entry
+>trackCurrentTime</entry>
+<entry
+>The <quote
+>trackCurrentTime</quote
+> call returns a value of the current elapsed track time in seconds.</entry>
+</row>
+
+<row>
+<entry
+>trackPlayCounter</entry>
+<entry
+>The <quote
+>trackPlayCounter</quote
+> call returns the number of times the current track has been played.</entry>
+</row>
+
+<row>
+<entry
+>trackTotalTime</entry>
+<entry
+>The <quote
+>trackTotalTime</quote
+> call returns a value of the current track's total time in seconds.</entry>
+</row>
+
+<row>
+<entry
+>configEqualizer</entry>
+<entry
+>The <quote
+>configEqualizer</quote
+> call raises the equalizer configuration window.</entry>
+</row>
+
+<row>
+<entry
+>enableDynamicMode</entry>
+<entry
+>The <quote
+>enableDynamicMode</quote
+> call is used to toggle the dynamic mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry
+>enableOSD</entry>
+<entry
+>The <quote
+>enableOSD</quote
+> call allows you to toggle the On-Screen-Display with a true or false value</entry>
+</row>
+
+<row>
+<entry
+>enableRandomMode</entry>
+<entry
+>The <quote
+>enableRandomMode</quote
+> call is used to toggle the random mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry
+>enableRepeatPlaylist</entry>
+<entry
+>The <quote
+>enableRepeatPlaylist</quote
+> call is used to toggle the repeat playlist mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry
+>enableRepeatTrack</entry>
+<entry
+>The <quote
+>enableRepeatTrack</quote
+> call is used to toggle the repeat track mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry
+>mute</entry>
+<entry
+>The <quote
+>mute</quote
+> call allows you to mute and unmute the playing track.</entry>
+</row>
+
+<row>
+<entry
+>next</entry>
+<entry
+>The <quote
+>next</quote
+> call advances the player one track.</entry>
+</row>
+
+<row>
+<entry
+>pause</entry>
+<entry
+>The <quote
+>pause</quote
+> call pauses the currently playing track.</entry>
+</row>
+
+<row>
+<entry
+>play</entry>
+<entry
+>The <quote
+>play</quote
+> call starts the player from where it was last stopped.</entry>
+</row>
+
+<row>
+<entry
+>playPause</entry>
+<entry
+>The <quote
+>playPause</quote
+> call starts the player if it is currently stopped or paused. This call also pauses the player if it is currently playing a track.</entry>
+</row>
+
+<row>
+<entry
+>prev</entry>
+<entry
+>The <quote
+>prev</quote
+> call moves the player back one track.</entry>
+</row>
+
+<row>
+<entry
+>seek</entry>
+<entry
+>The <quote
+>seek</quote
+> call is used to seek to a specific point in a track by a value specified in seconds.</entry>
+</row>
+
+<row>
+<entry
+>seekRelative</entry>
+<entry
+>The <quote
+>seekRelative</quote
+> call is used to seek to a position relative to the current track position by a value specified in seconds.</entry>
+</row>
+
+<row>
+<entry
+>setEqualizer</entry>
+<entry
+>The <quote
+>setEqualizer</quote
+> call uses eleven space delimited integers to set the equalizer slider values. The slider values range from -255 as the lowest value, and 255 as the highest. The first integer is used to set the pre-amp value, the remaining integers set the pre-amp response frequency values from 60Hz to 16kHz.</entry>
+</row>
+
+<row>
+<entry
+>setEqualizerEnabled</entry>
+<entry
+>The <quote
+>setEqualizerEnabled</quote
+> call is used to enable the equalizer using a true or false value.</entry>
+</row>
+
+<row>
+<entry
+>setScore</entry>
+<entry
+>The <quote
+>setScore</quote
+> call sets the score of the current track specified by a number from 0 to 100.</entry>
+</row>
+
+<row>
+<entry
+>setScoreByPath</entry>
+<entry
+>The <quote
+>setScoreByPath</quote
+> call sets the score of a track specified by it's path followed by it's score specified by a number from 0 to 100.</entry>
+</row>
+
+<row>
+<entry
+>setVolume</entry>
+<entry
+>The <quote
+>setVolume</quote
+> call adjusts the volume to a level specified by a value from 0 to 100.</entry>
+</row>
+
+<row>
+<entry
+>showOSD</entry>
+<entry
+>The <quote
+>showOSD</quote
+> call raises the OSD to show the current track information.</entry>
+</row>
+
+<row>
+<entry
+>stop</entry>
+<entry
+>The <quote
+>stop</quote
+> call will stop the player if it is currently playing.</entry>
+</row>
+
+<row>
+<entry
+>volumeDown</entry>
+<entry
+>The <quote
+>volumeDown</quote
+> call adjusts the volume down one step.</entry>
+</row>
+
+<row>
+<entry
+>volumeUp</entry>
+<entry
+>The <quote
+>volumeUp</quote
+> call adjusts the volume up one step.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-playlist">
+<title
+>DCOP ja amaroKi lugude nimekiri</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP Call</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>saveCurrentPlaylist</entry>
+<entry
+>The <quote
+>saveCurrentPlaylist</quote
+> call saves the current playlist as ~/.kde/share/apps/amarok/current.xml.</entry>
+</row>
+
+<row>
+<entry
+>getActiveIndex</entry>
+<entry
+>The <quote
+>getActiveIndex</quote
+> call returns an integer value for the current track's position in the playlist.</entry>
+</row>
+
+<row>
+<entry
+>getTotalTrackCount</entry>
+<entry
+>The <quote
+>getTotalTrackCount</quote
+> call returns the total number of tracks in the playlist.</entry>
+</row>
+
+<row>
+<entry
+>addMedia</entry>
+<entry
+>The <quote
+>addMedia</quote
+> call is used to add single files to the playlist.</entry>
+</row>
+
+<row>
+<entry
+>addMediaList</entry>
+<entry
+>The <quote
+>addMediaList</quote
+> call is used to add multiple files to the playlist.</entry>
+</row>
+
+<row>
+<entry
+>clearPlaylist</entry>
+<entry
+>The <quote
+>clearPlaylist</quote
+> call is used to clear the entire playlist.</entry>
+</row>
+
+<row>
+<entry
+>playByIndex</entry>
+<entry
+>The <quote
+>playByIndex</quote
+> call starts playback of a track by it's position in the playlist. </entry>
+</row>
+
+<row>
+<entry
+>playMedia</entry>
+<entry
+>The <quote
+>playMEDIA</quote
+> call starts playback of a track specified by it's KURL.</entry>
+</row>
+
+<row>
+<entry
+>popupMessage</entry>
+<entry
+>The <quote
+>popupMessage</quote
+> call starts a popup mesage in the playlist window. The popup message is specified with a QString.</entry>
+</row>
+
+<row>
+<entry
+>removeCurrentTrack</entry>
+<entry
+>The <quote
+>removeCurrentTrack</quote
+> call removes the current track from the playlist.</entry>
+</row>
+
+<row>
+<entry
+>saveM3u</entry>
+<entry
+>The <quote
+>saveM3u</quote
+> call saves the current playlist in the M3U format. You must specify the path to save the file as, and include a value of 0 or 1 to indicate whether or not to write relative paths.</entry>
+</row>
+
+<row>
+<entry
+>setStopAfterCurrent</entry>
+<entry
+>The <quote
+>setStopAfterCurrent</quote
+> call stops playback of the playlist after the current track has completed.</entry>
+</row>
+
+<row>
+<entry
+>shortStatusMessage</entry>
+<entry
+>The <quote
+>shortStatusMessage</quote
+> call displays a string of text as a message in the status bar.</entry>
+</row>
+
+<row>
+<entry
+>shufflePlaylist</entry>
+<entry
+>The <quote
+>shufflePlaylist</quote
+> call randomizes the order of the tracks in the playlist.</entry>
+</row>
+
+<row>
+<entry
+>togglePlaylist</entry>
+<entry
+>The <quote
+>togglePlaylist</quote
+> call toggles the use of the playlist window either on or off.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-script">
+<title
+>DCOP ja amaroKi skriptid</title>
+
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP Call</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>listRunningScripts</entry>
+<entry
+>The <quote
+>listRunningScripts</quote
+> call will list all running &amarok; scripts.</entry>
+</row>
+
+<row>
+<entry
+>runScript</entry>
+<entry
+>The <quote
+>runScript</quote
+> call will start an &amarok; script specified by it's name.</entry>
+</row>
+
+<row>
+<entry
+>stopScript</entry>
+<entry
+>The <quote
+>stopScript</quote
+> call will stop an &amarok; script specified by it's name.</entry>
+</row>
+
+<row>
+<entry
+>addCustomMenuItem</entry>
+<entry
+>The <quote
+>addCustomMenuItem</quote
+> call adds a menu item to the playlist context menu. This call takes two QStrings, the first for the submenu title, the second for the item's title in the submenu. Both QStrings are returned in the script manager notification system.</entry>
+</row>
+
+<row>
+<entry
+>removeCustomMenuItem</entry>
+<entry
+>The <quote
+>removeCustomMenuItem</quote
+> call removes menu items added to the playlist context menu using the addCustomMenuItem call. This call uses the same QStrings as addCustomMenuItem.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="cmd-line-options">
+<title
+>Käsurea võtmed</title>
+
+<para
+>amaroK toetab standardseid Qt ja KDE käsurea võtmeid, kuid pakub ka mõningaid spetsiifilisi võtmeid.</para>
+
+<para
+>Qt ja KDE võtmed:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Võti</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>--help</entry>
+<entry
+>Näitab abiteadet võtmete kohta.</entry>
+</row>
+
+<row>
+<entry
+>--help-qt</entry>
+<entry
+>Näitab Qt spetsiifilisi võtmeid.</entry>
+</row>
+
+<row>
+<entry
+>--help-kde</entry>
+<entry
+>Näitab KDE spetsiifilisi võtmeid.</entry>
+</row>
+
+<row>
+<entry
+>--help-all</entry>
+<entry
+>Näitab kõiki võtmeid.</entry>
+</row>
+
+<row>
+<entry
+>--author</entry>
+<entry
+>Näitab infot autori kohta.</entry>
+</row>
+
+<row>
+<entry
+>-v, --version</entry>
+<entry
+>Näitab versiooni.</entry>
+</row>
+
+<row>
+<entry
+>--license</entry>
+<entry
+>Näitab litsentsi.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>amaroKi võtmed:</para>
+
+<note
+><para
+>&amarok;i võtmed on mõeldud kasutamiseks &amarok;i töötamise ajal.</para
+></note>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Võti</entry>
+<entry
+>Toiming</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>-r, --previous</entry>
+<entry
+>Hüppab lugude nimekirjas eelmisele palale.</entry>
+</row>
+
+<row>
+<entry
+>-p, --play</entry>
+<entry
+>Alustab lugude nimekirja mängimist.</entry>
+</row>
+
+<row>
+<entry
+>-s, --stop</entry>
+<entry
+>Katkestab taasesituse.</entry>
+</row>
+
+<row>
+<entry
+>--pause</entry>
+<entry
+>Peatab taasesituse.</entry>
+</row>
+
+<row>
+<entry
+>-f, --next</entry>
+<entry
+>Hüppab lugude nimekirjas järgmisele palale.</entry>
+</row>
+
+<row>
+<entry
+>-a, --append</entry>
+<entry
+>Lisab failid/URL-id lugude nimekirja.</entry>
+</row>
+
+<row>
+<entry
+>-e, --enqueue</entry>
+<entry
+>Vaata append (kasutusel tagasiühilduvuse nimel).</entry>
+</row>
+
+<row>
+<entry
+>--queue</entry>
+<entry
+>Seab failid/URL-id järjekorda parajasti mängitava pala järele.</entry>
+</row
+> 
+
+<row>
+<entry
+>-m, --toggle-playlist-window</entry>
+<entry
+>Lugude nimekirja akna lülitamine.</entry>
+</row>
+
+<row>
+<entry
+>--wizard</entry>
+<entry
+>Käivitab esimese korra nõustaja.</entry>
+</row>
+
+<row>
+<entry
+>--engine "nimi"</entry>
+<entry
+>Käivitab &amarok;i mootoriga "nimi".</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+</chapter>

@@ -1,0 +1,596 @@
+<chapter id="configuring-kapp">
+<title
+>Настройка &amarok;</title>
+
+
+<para
+>&amarok; можно легко настроить с помощью диалога настройки. Он содержит различные закладки для конфигурации отдельных функций &amarok;.</para>
+
+<para
+>Чтобы открыть диалог настройки, выберите пункт <guimenuitem
+>Настроить &amarok;</guimenuitem
+> в <link linkend="rmb-menu"
+>контекстном меню</link
+> проигрывателя.</para>
+
+
+<sect1 id="general-options">
+<title
+>Настроить общие параметры</title>
+
+<screenshot>
+	<screeninfo
+>Снимок экрана окна Настроить общие параметры</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Вкладка Настроить общие параметры разделена на две части: <guimenuitem
+>Общие параметры</guimenuitem
+> и <guimenuitem
+>Параметры списка</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Общие параметры</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>В группе Общие параметры можно настроить некоторые основные опции &amarok;</para>
+
+<para
+>Первая опция, <guimenuitem
+>Показывать заставку при запуске</guimenuitem
+>, используется для включения заставки, которая будет показываться каждый раз при запуске &amarok;.</para>
+
+<para
+>Следом за заставкой идёт опция <guimenuitem
+>Значок в системном лотке</guimenuitem
+> которая позволяет включать или выключать отображение значка в правой части панели задач.</para>
+ 
+<para
+><guimenuitem
+>Анимация значка в системном лотке</guimenuitem
+> используется для включения или выключения анимации значка в системном лотке. Она показывает визуально, какая часть проигрываемой песни осталась, текущий режим (пауза/воспроизведение).</para>
+
+<para
+>Следующая опция - <guimenuitem
+>Отображать окно проигрывателя</guimenuitem
+> . Включение этой опции заставит <link linkend="player-window"
+>окно проигрывателя</link
+> и <link linkend="playlist-window"
+>окно списка</link
+> воспроизведения отображаться как в XMMS. Убрав её, вы получите только окно списка воспроизведения, как в JuK.</para>
+
+<para
+>Последняя опция, <guimenuitem
+>Стандартный размер для просмотра обложек</guimenuitem
+> используется для настройки размера изображения обложки на вкладке статистики для <guimenuitem
+>Текущей дорожки:</guimenuitem
+>.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Параметры списка</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>В Параметрах списка вы можете настроить его поведение.</para>
+
+<para
+>Первая опция <guimenuitem
+>Сохранять список при выходе</guimenuitem
+> сохраняет ваш список воспроизведения при выходе из &amarok;. Включите её, если хотите сохранить текущий список воспроизведения после того как закроете &amarok;.</para>
+
+<para
+><guimenuitem
+>Скрывать список с главным окном</guimenuitem
+>. Эта опция после включения будет скрывать <link linkend="playlist-window"
+>список воспроизведения</link
+>, когда вы будете сворачивать <link linkend="player-window"
+>
+>окно проигрывателя</link
+>. Если опция не включена, то вы можете отдельно скрыть окно проигрывателя и управлять &amarok; полностью из окна списка воспроизведения.</para>
+
+<para
+>Опция <guimenuitem
+>Прокручивать список до текущей дорожки</guimenuitem
+> автоматически прокручивает <link linkend="playlist"
+>список</link
+>, чтобы показать текущую дорожку.</para>
+
+<para
+>Опция <guimenuitem
+>Добавлять каталоги рекурсивно</guimenuitem
+> удобна, если вы хотите сразу добавить файлы из папки и всех её вложенных папок.</para>
+
+<para
+>Опция <guimenuitem
+>Показать панель состояния</guimenuitem
+> используется для включения/выключения показа <link linkend="statusbar"
+>панели состояния</link
+> в <link linkend="playlist-window"
+>окне списка воспроизведения</link
+>.</para>
+
+<para
+>И наконец, опция <guimenuitem
+>Выводить статистику автоматически</guimenuitem
+> используется для включения автоматического вывода панели статистики при проигрывании файла.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Внешний вид</title>
+
+<screenshot>
+	<screeninfo
+>Снимок вкладки Внешний вид</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Вкладка Внешний вид разделена на три части.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Шрифты</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Здесь вы можете выбрать шрифты, используемые в окнах<link linkend="player-window"
+>проигрывателя</link
+>, <link linkend="playlist-window"
+>списка</link
+> и панели статистики.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Цветовая схема</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+><guilabel
+>Текущий набор цветов KDE</guilabel
+> делает &amarok; похожим на JuK, <guilabel
+>Классическая тема amaroK, "funky-monkey"</guilabel
+> - оригинальная раскраска &amarok;. Кроме того, вы можете настроить цвета вручную.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Теги</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Т.к. в спецификации тегов ID3v1 (в отличие от v2 - там должна использоваться Unicode) не указана кодировка, вы можете выбрать её здесь (выберите cp1251 для файлов из Windows).</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Настройка проигрывания</title>
+
+
+<screenshot>
+	<screeninfo
+>Снимок экрана окна Проигрывание</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Вкладка Проигрывание поможет настроить воспроизведение аудио.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Переход между песнями</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Вы можете настроить переход &amarok; с одной песни на другую. <guimenuitem
+>Обычный</guimenuitem
+> создаёт задержку, устанавливаемую в миллисекундах. <guimenuitem
+>Плавный переход</guimenuitem
+> создаёт плавный переход между песнями, который также устанавливается в миллисекундах.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Остальные опции</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Остальная часть вкладки проигрывания позволяет настроить следующие опции:</para>
+
+<para
+><guimenuitem
+>Продолжить проигрывание при запуске</guimenuitem
+> позволяет продолжить проигрывание последней песни, которую прослушивали перед закрытием &amarok;. </para>
+
+<para
+><guimenuitem
+>Использовать аппаратный регулятор громкости</guimenuitem
+> передает управление звуком микшеру на звуковой карте.</para>
+
+<para
+><guimenuitem
+>Восстанавливать эффекты при запуске</guimenuitem
+> сохраняет звуковые эффекты, настроенные с помощью кнопки <guimenuitem
+>FX</guimenuitem
+> в <link linkend="player-window"
+>окне проигрывателя</link
+>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>Настроить индикатор</title>
+
+<screenshot>
+	<screeninfo
+>Снимок экрана окна Настройка OSD</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настроить индикатор</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Закладка <guimenuitem
+>Настроить индикатор</guimenuitem
+> позволяет включить индикатор. После включения индикатора вы можете посмотреть сделанные изменения с помощью автоматического просмотра.</para>
+
+<para
+>Первая опция для OSD - Шрифт. Для установки шрифта используемого в OSD нажмите кнопку <guimenuitem
+>Выбрать</guimenuitem
+> и в диалоговом окне Выбор шрифта установите желаемый шрифт. Также можно включить опцию <guimenuitem
+>Рисовать тень</guimenuitem
+> для использования шрифтов отбрасывающих тень.</para>
+
+<para
+>Следующая опция изменяет цвета OSD. Включение опции <guimenuitem
+>Использовать пользовательские цвета</guimenuitem
+> делает доступными для использования кнопки <guimenuitem
+>Цвет текста:</guimenuitem
+> и <guimenuitem
+>Цвет фона:</guimenuitem
+>. Нажатие на кнопки открывает диалоговое окно для выбора цвета текста OSD и фона OSD. Если опция <guimenuitem
+>Использовать пользовательские цвета</guimenuitem
+> отключена, OSD будет использовать текущую цветовую схему &kde;.</para>
+
+<para
+>В поле <guilabel
+>Содержимое</guilabel
+> можно указать шаблон выводимых на индикаторе данных. Далее следует список доступных переменных.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Поле</entry>
+<entry
+>Переменная</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Название композиции</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Альбом</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Исполнитель</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Жанр</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Битрейт</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>Год</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Длина дорожки</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Номер дорожки</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Имя файла</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Комментарий</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Счёт</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Счётчик</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+><guimenuitem
+>Длительность</guimenuitem
+> используется для установки времени (в миллисекундах) в течение которого OSD будет показываться на рабочем столе.</para>
+
+<para
+>Опция <guimenuitem
+>Экран</guimenuitem
+> используется для определения экрана, на котором будет показан OSD при одновременном использовании нескольких мониторов.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Настройка движка</title>
+
+<screenshot>
+	<screeninfo
+>Снимок экрана окна Настройка движка</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Закладка Настройка движка позволяет выбрать доступный звуковой движок из выпадающего списка. Некоторые движки могут содержать больше опций в этой закладке. Всё зависит от того, какой именно движок вы выбрали.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Настройка коллекции</title>
+
+<screenshot>
+	<screeninfo
+>Снимок вкладки "Настройка коллекции"</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>На этой вкладке можно настроить поведение коллекции, например выбрать папки с музыкой, СУБД для хранения данных.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Папки</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Здесь вы можете выбрать папки с музыкой, которые будут сканироваться при обновлении коллекции, внизу есть несколько флажков для управления поведением выделения.</para>
+
+<para
+>При отмеченном флажке <guilabel
+>Рекурсивно</guilabel
+> также добавляются все папки, которые есть в отмечаемой, также можно включить наблюдение за изменениями в папках коллекции, чтобы они автоматически отражались в базе данных коллекции. <guilabel
+>Импортировать списки</guilabel
+> добавить найденные в папках коллекции списки на панель "Списки".</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>База данных коллекции</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Здесь вы можете выбрать <guilabel
+>движок</guilabel
+> для базы данных коллекции. Например, если у вас постоянно запущена MySql, имеет смысл выбрать её. В этом случае нужно будет установить дополнительные параметры в разделе <guilabel
+>Параметры MySQL</guilabel
+>.</para>
+
+ 
+
+ 
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Настройка Scrobbler</title>
+
+<screenshot>
+	<screeninfo
+>Снимок экрана окна Настройка Scrobbler</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Audioscrobbler - это система сбора статистики о прослушиваемой её участниками музыке. &amarok; предлагает стать таковым и вам. На основе собранной с вас статистики, система находит людей с похожими музыкальными вкусами и предлагает композиции, которые они слушают, но которых (ещё) нет у вас.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Профиль Audioscrobbler</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+><ulink url="http://www.audioscrobbler.com:80/signup.php"
+>Зарегистрируйтесь</ulink
+> в системе Audioscrobbler, если вы ещё не сделали этого.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Отправка названий композиций</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Ввести данные профиля мало, нужно ещё отметить <guilabel
+>Посылать названия проигрываемых композиций</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

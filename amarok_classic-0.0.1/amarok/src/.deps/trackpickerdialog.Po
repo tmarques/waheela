@@ -1,0 +1,4 @@
+trackpickerdialog.o trackpickerdialog.o: trackpickerdialog.cpp \
+  ../../config.h
+
+../../config.h:

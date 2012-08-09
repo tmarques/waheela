@@ -1,0 +1,186 @@
+/****************************************************************************
+** Analyzer::Base2D meta object code from reading C++ file 'analyzerbase.h'
+**
+** Created: Fri Mar 23 10:35:45 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "analyzerbase.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Analyzer::Base2D::className() const
+{
+    return "Analyzer::Base2D";
+}
+
+QMetaObject *Analyzer::Base2D::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Analyzer__Base2D( "Analyzer::Base2D", &Analyzer::Base2D::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Analyzer::Base2D::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Analyzer::Base2D", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Analyzer::Base2D::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Analyzer::Base2D", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Analyzer::Base2D::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = Base<QWidget>::staticMetaObject();
+    static const QUMethod slot_0 = {"draw", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "draw()", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Analyzer::Base2D", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Analyzer__Base2D.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Analyzer::Base2D::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Analyzer::Base2D" ) )
+	return this;
+    return Base<QWidget>::qt_cast( clname );
+}
+
+bool Analyzer::Base2D::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: draw(); break;
+    default:
+	return Base<QWidget>::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Analyzer::Base2D::qt_emit( int _id, QUObject* _o )
+{
+    return Base<QWidget>::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Analyzer::Base2D::qt_property( int id, int f, QVariant* v)
+{
+    return Base<QWidget>::qt_property( id, f, v);
+}
+
+bool Analyzer::Base2D::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *Analyzer::Base3D::className() const
+{
+    return "Analyzer::Base3D";
+}
+
+QMetaObject *Analyzer::Base3D::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Analyzer__Base3D( "Analyzer::Base3D", &Analyzer::Base3D::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Analyzer::Base3D::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Analyzer::Base3D", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Analyzer::Base3D::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Analyzer::Base3D", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Analyzer::Base3D::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = Base<QGLWidget>::staticMetaObject();
+    static const QUMethod slot_0 = {"draw", 0, 0 };
+    static const QUMethod slot_1 = {"draw", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "draw()", &slot_0, QMetaData::Private },
+	{ "draw()", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Analyzer::Base3D", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Analyzer__Base3D.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Analyzer::Base3D::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Analyzer::Base3D" ) )
+	return this;
+    return Base<QGLWidget>::qt_cast( clname );
+}
+
+bool Analyzer::Base3D::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: draw(); break;
+    case 1: draw(); break;
+    default:
+	return Base<QGLWidget>::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Analyzer::Base3D::qt_emit( int _id, QUObject* _o )
+{
+    return Base<QGLWidget>::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Analyzer::Base3D::qt_property( int id, int f, QVariant* v)
+{
+    return Base<QGLWidget>::qt_property( id, f, v);
+}
+
+bool Analyzer::Base3D::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

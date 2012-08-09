@@ -1,0 +1,303 @@
+/****************************************************************************
+** CollectionDB meta object code from reading C++ file 'collectiondb.h'
+**
+** Created: Tue Feb 19 15:58:09 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "collectiondb.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *CollectionDB::className() const
+{
+    return "CollectionDB";
+}
+
+QMetaObject *CollectionDB::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CollectionDB( "CollectionDB", &CollectionDB::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CollectionDB::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionDB", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CollectionDB::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionDB", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CollectionDB::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "parent", &static_QUType_ptr, "QWidget", QUParameter::In },
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In },
+	{ "noedit", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"fetchCover", 4, param_slot_0 };
+    static const QUMethod slot_1 = {"scanMonitor", 0, 0 };
+    static const QUMethod slot_2 = {"startScan", 0, 0 };
+    static const QUMethod slot_3 = {"stopScan", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ "path", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"dirDirty", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_ptr, "CoverFetcher", QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"coverFetcherResult", 1, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "suggestions", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"similarArtistsFetched", 2, param_slot_6 };
+    static const QMetaData slot_tbl[] = {
+	{ "fetchCover(QWidget*,const QString&,const QString&,bool)", &slot_0, QMetaData::Public },
+	{ "scanMonitor()", &slot_1, QMetaData::Public },
+	{ "startScan()", &slot_2, QMetaData::Public },
+	{ "stopScan()", &slot_3, QMetaData::Public },
+	{ "dirDirty(const QString&)", &slot_4, QMetaData::Private },
+	{ "coverFetcherResult(CoverFetcher*)", &slot_5, QMetaData::Private },
+	{ "similarArtistsFetched(const QString&,const QStringList&)", &slot_6, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"scanStarted", 0, 0 };
+    static const QUParameter param_signal_1[] = {
+	{ "changed", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"scanDone", 1, param_signal_1 };
+    static const QUMethod signal_2 = {"databaseEngineChanged", 0, 0 };
+    static const QUParameter param_signal_3[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "score", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_3 = {"scoreChanged", 2, param_signal_3 };
+    static const QUParameter param_signal_4[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_4 = {"coverChanged", 2, param_signal_4 };
+    static const QUParameter param_signal_5[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_5 = {"coverFetched", 2, param_signal_5 };
+    static const QUParameter param_signal_6[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_6 = {"coverRemoved", 2, param_signal_6 };
+    static const QUParameter param_signal_7[] = {
+	{ "error", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_7 = {"coverFetcherError", 1, param_signal_7 };
+    static const QUParameter param_signal_8[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_8 = {"similarArtistsFetched", 1, param_signal_8 };
+    static const QUParameter param_signal_9[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod signal_9 = {"tagsChanged", 1, param_signal_9 };
+    static const QMetaData signal_tbl[] = {
+	{ "scanStarted()", &signal_0, QMetaData::Private },
+	{ "scanDone(bool)", &signal_1, QMetaData::Private },
+	{ "databaseEngineChanged()", &signal_2, QMetaData::Private },
+	{ "scoreChanged(const QString&,int)", &signal_3, QMetaData::Private },
+	{ "coverChanged(const QString&,const QString&)", &signal_4, QMetaData::Private },
+	{ "coverFetched(const QString&,const QString&)", &signal_5, QMetaData::Private },
+	{ "coverRemoved(const QString&,const QString&)", &signal_6, QMetaData::Private },
+	{ "coverFetcherError(const QString&)", &signal_7, QMetaData::Private },
+	{ "similarArtistsFetched(const QString&)", &signal_8, QMetaData::Private },
+	{ "tagsChanged(const MetaBundle&)", &signal_9, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CollectionDB", parentObject,
+	slot_tbl, 7,
+	signal_tbl, 10,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CollectionDB.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CollectionDB::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CollectionDB" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL scanStarted
+void CollectionDB::scanStarted()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+// SIGNAL scanDone
+void CollectionDB::scanDone( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+// SIGNAL databaseEngineChanged
+void CollectionDB::databaseEngineChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 2 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL scoreChanged
+void CollectionDB::scoreChanged( const QString& t0, int t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 3 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_int.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverChanged
+void CollectionDB::coverChanged( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 4 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverFetched
+void CollectionDB::coverFetched( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 5 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverRemoved
+void CollectionDB::coverRemoved( const QString& t0, const QString& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 6 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL coverFetcherError
+void CollectionDB::coverFetcherError( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 7, t0 );
+}
+
+// SIGNAL similarArtistsFetched
+void CollectionDB::similarArtistsFetched( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 8, t0 );
+}
+
+// SIGNAL tagsChanged
+void CollectionDB::tagsChanged( const MetaBundle& t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 9 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+bool CollectionDB::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: fetchCover((QWidget*)static_QUType_ptr.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3),(bool)static_QUType_bool.get(_o+4)); break;
+    case 1: scanMonitor(); break;
+    case 2: startScan(); break;
+    case 3: stopScan(); break;
+    case 4: dirDirty((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 5: coverFetcherResult((CoverFetcher*)static_QUType_ptr.get(_o+1)); break;
+    case 6: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CollectionDB::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: scanStarted(); break;
+    case 1: scanDone((bool)static_QUType_bool.get(_o+1)); break;
+    case 2: databaseEngineChanged(); break;
+    case 3: scoreChanged((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 4: coverChanged((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 5: coverFetched((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 6: coverRemoved((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 7: coverFetcherError((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 8: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 9: tagsChanged((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CollectionDB::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool CollectionDB::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

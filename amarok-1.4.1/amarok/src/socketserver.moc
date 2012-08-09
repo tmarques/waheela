@@ -1,0 +1,205 @@
+/****************************************************************************
+** Vis::SocketNotifier meta object code from reading C++ file 'socketserver.h'
+**
+** Created: Fri Mar 23 10:55:52 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "socketserver.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Vis::SocketNotifier::className() const
+{
+    return "Vis::SocketNotifier";
+}
+
+QMetaObject *Vis::SocketNotifier::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Vis__SocketNotifier( "Vis::SocketNotifier", &Vis::SocketNotifier::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Vis::SocketNotifier::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Vis::SocketNotifier", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Vis::SocketNotifier::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Vis::SocketNotifier", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Vis::SocketNotifier::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QSocketNotifier::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"request", 1, param_slot_0 };
+    static const QMetaData slot_tbl[] = {
+	{ "request(int)", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Vis::SocketNotifier", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Vis__SocketNotifier.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Vis::SocketNotifier::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Vis::SocketNotifier" ) )
+	return this;
+    return QSocketNotifier::qt_cast( clname );
+}
+
+bool Vis::SocketNotifier::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: request((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return QSocketNotifier::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Vis::SocketNotifier::qt_emit( int _id, QUObject* _o )
+{
+    return QSocketNotifier::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Vis::SocketNotifier::qt_property( int id, int f, QVariant* v)
+{
+    return QSocketNotifier::qt_property( id, f, v);
+}
+
+bool Vis::SocketNotifier::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *Vis::Selector::className() const
+{
+    return "Vis::Selector";
+}
+
+QMetaObject *Vis::Selector::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Vis__Selector( "Vis::Selector", &Vis::Selector::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Vis::Selector::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Vis::Selector", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Vis::Selector::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Vis::Selector", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Vis::Selector::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QListView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"rightButton", 3, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "KProcess", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"processExited", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_ptr, "KProcess", QUParameter::In },
+	{ 0, &static_QUType_charstar, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"receivedStdout", 3, param_slot_2 };
+    static const QMetaData slot_tbl[] = {
+	{ "rightButton(QListViewItem*,const QPoint&,int)", &slot_0, QMetaData::Private },
+	{ "processExited(KProcess*)", &slot_1, QMetaData::Public },
+	{ "receivedStdout(KProcess*,char*,int)", &slot_2, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Vis::Selector", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Vis__Selector.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Vis::Selector::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Vis::Selector" ) )
+	return this;
+    return QListView::qt_cast( clname );
+}
+
+bool Vis::Selector::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: rightButton((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 1: processExited((KProcess*)static_QUType_ptr.get(_o+1)); break;
+    case 2: receivedStdout((KProcess*)static_QUType_ptr.get(_o+1),(char*)static_QUType_charstar.get(_o+2),(int)static_QUType_int.get(_o+3)); break;
+    default:
+	return QListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Vis::Selector::qt_emit( int _id, QUObject* _o )
+{
+    return QListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Vis::Selector::qt_property( int id, int f, QVariant* v)
+{
+    return QListView::qt_property( id, f, v);
+}
+
+bool Vis::Selector::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

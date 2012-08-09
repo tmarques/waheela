@@ -1,0 +1,63 @@
+<chapter id="hidden_features">
+<title
+>&amarok;'s versteckte Funktionen</title>
+
+<para
+>Dieses Kapitel wird Ihnen helfen, einige nicht sofort sichtbare Funktionen von &amarok; nutzen zu können. Das Kapitel ist in drei Abschnitte unterteil: Player-Fenster, Wiedergabelisten-Fenster und Systemabschnitt der Kontrollleiste.</para>
+
+<sect1 id="player_hidden">
+<title
+>Das Player-Fenster</title>
+
+<para
+>Die &amarok; Analyzer können vom Player-Fenster abgelöst werden. Durch Drücken von <keycap
+>d</keycap
+> auf der Tastatur wird der Analyzer in einem unabhängigen, in der Größe veränderbaren Fenster angezeigt.</para>
+
+</sect1>
+
+
+<sect1 id="playlist_hidden">
+<title
+>Das Wiedergabelisten-Fenster</title>
+<para
+>Beim ersten Blick auf die Wiedergabeliste scheint es, als hätte sie bereits alle nur erdenklichen Funktionen. Doch die Wiedergabeliste hat noch einige nicht auf den ersten Blick erkennbare Funktionen:</para>
+
+<para
+>Wenn Sie die <keycap
+>STRG</keycap
+>-Taste halten und die rechte Maustaste drücken, werden Dateien in der Klick-Reihenfolge in die Warteschlange zum Abspielen eingestellt.</para>
+
+<para
+>Wenn Sie nach einer Suche in der Wiedergabeliste die <keycap
+>Eingabetaste</keycap
+> drücken, wird das erste gefundene Stück abgespielt und die Suchergebnisse geleert.</para>
+
+</sect1>
+
+
+<sect1 id="tray_hidden">
+<title
+>Das Symbol im Systemabschnitt der Kontrollleiste</title>
+
+<para
+>Obwohl &amarok;s Symbol im Systemabschnitt der Kontrollleiste recht klein ist, bietet es doch die gleichen Funktionen wie das Player-Fenster. Wahrscheinlich wussten Sie schon, dass das Benutzen des Mausrades über dem Symbol die Lautstärke reguliert, aber wussten Sie auch dies:</para>
+
+<para
+>Durch Drücken der mittleren Maustaste über dem Symbol wird die Wiedergabe des aktuellen Stücks angehalten bzw. fortgesetzt.</para>
+
+<para
+>Durch Halten von <keycap
+>Shift</keycap
+> beim Benutzen des Mausrades können Sie im aktuellen Stück vor- und zurückspulen (suchen).</para>
+
+<para
+>Durch Halten von <keycap
+>Strg</keycap
+> beim Benutzen des Mausrades springen Sie zum vorigen/nächsten Stück in der Wiedergabeliste.</para>
+
+<para
+>Durch Ziehen und Ablegen eines Musikstückes auf das Symbol in der Kontrollleiste öffnet sich ein Aufklappmenü. Darin können Sie dann eine der folgenden Optionen wählen: An Wiedergabeliste anhängen, Anhängen und Abspielen oder Hinter dem aktuellen Stück anhängen.</para>
+</sect1>
+
+</chapter>

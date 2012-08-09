@@ -1,0 +1,107 @@
+/****************************************************************************
+** PodcastSettings meta object code from reading C++ file 'podcastsettings.h'
+**
+** Created: Tue Feb 19 16:00:38 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "podcastsettings.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *PodcastSettings::className() const
+{
+    return "PodcastSettings";
+}
+
+QMetaObject *PodcastSettings::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PodcastSettings( "PodcastSettings", &PodcastSettings::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PodcastSettings::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PodcastSettings", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PodcastSettings::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PodcastSettings", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PodcastSettings::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"checkModified", 0, 0 };
+    static const QUMethod slot_1 = {"slotOk", 0, 0 };
+    static const QUMethod slot_2 = {"slotUser1", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "checkModified()", &slot_0, QMetaData::Protected },
+	{ "slotOk()", &slot_1, QMetaData::Protected },
+	{ "slotUser1()", &slot_2, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PodcastSettings", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PodcastSettings.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PodcastSettings::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PodcastSettings" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool PodcastSettings::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: checkModified(); break;
+    case 1: slotOk(); break;
+    case 2: slotUser1(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PodcastSettings::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PodcastSettings::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool PodcastSettings::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

@@ -1,0 +1,420 @@
+/****************************************************************************
+** CollectionBrowser meta object code from reading C++ file 'collectionbrowser.h'
+**
+** Created: Fri Mar 23 10:51:45 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "collectionbrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *CollectionBrowser::className() const
+{
+    return "CollectionBrowser";
+}
+
+QMetaObject *CollectionBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CollectionBrowser( "CollectionBrowser", &CollectionBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CollectionBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CollectionBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CollectionBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUMethod slot_0 = {"setupDirs", 0, 0 };
+    static const QUMethod slot_1 = {"toggleDivider", 0, 0 };
+    static const QUMethod slot_2 = {"slotSetFilterTimeout", 0, 0 };
+    static const QUMethod slot_3 = {"slotSetFilter", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "setupDirs()", &slot_0, QMetaData::Public },
+	{ "toggleDivider()", &slot_1, QMetaData::Public },
+	{ "slotSetFilterTimeout()", &slot_2, QMetaData::Private },
+	{ "slotSetFilter()", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CollectionBrowser", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CollectionBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CollectionBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CollectionBrowser" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+bool CollectionBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setupDirs(); break;
+    case 1: toggleDivider(); break;
+    case 2: slotSetFilterTimeout(); break;
+    case 3: slotSetFilter(); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CollectionBrowser::qt_emit( int _id, QUObject* _o )
+{
+    return QVBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CollectionBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool CollectionBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CollectionView::className() const
+{
+    return "CollectionView";
+}
+
+QMetaObject *CollectionView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CollectionView( "CollectionView", &CollectionView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CollectionView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CollectionView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CollectionView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CollectionView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUMethod slot_0 = {"renderView", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "force", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"renderView", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"databaseChanged", 0, 0 };
+    static const QUMethod slot_3 = {"setTreeMode", 0, 0 };
+    static const QUMethod slot_4 = {"setFlatMode", 0, 0 };
+    static const QUParameter param_slot_5[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"presetMenu", 1, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"cat1Menu", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "rerender", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"cat1Menu", 2, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"cat2Menu", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "rerender", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"cat2Menu", 2, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"cat3Menu", 1, param_slot_10 };
+    static const QUParameter param_slot_11[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "rerender", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"cat3Menu", 2, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "list", &static_QUType_ptr, "KURL::List", QUParameter::In },
+	{ "caption", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"organizeFiles", 2, param_slot_12 };
+    static const QUParameter param_slot_13[] = {
+	{ "list", &static_QUType_ptr, "KURL::List", QUParameter::In },
+	{ "caption", &static_QUType_QString, 0, QUParameter::In },
+	{ "addToCollection", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"organizeFiles", 3, param_slot_13 };
+    static const QUMethod slot_14 = {"setupDirs", 0, 0 };
+    static const QUMethod slot_15 = {"scanStarted", 0, 0 };
+    static const QUMethod slot_16 = {"scanDone", 0, 0 };
+    static const QUParameter param_slot_17[] = {
+	{ "changed", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_17 = {"scanDone", 1, param_slot_17 };
+    static const QUParameter param_slot_18[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_18 = {"slotExpand", 1, param_slot_18 };
+    static const QUParameter param_slot_19[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_19 = {"slotCollapse", 1, param_slot_19 };
+    static const QUParameter param_slot_20[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_20 = {"enableCat3Menu", 1, param_slot_20 };
+    static const QUParameter param_slot_21[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_21 = {"invokeItem", 1, param_slot_21 };
+    static const QUParameter param_slot_22[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_22 = {"rmbPressed", 3, param_slot_22 };
+    static const QUMethod slot_23 = {"selectAll", 0, 0 };
+    static const QUMethod slot_24 = {"fetchCover", 0, 0 };
+    static const QUMethod slot_25 = {"showTrackInfo", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "renderView()", &slot_0, QMetaData::Public },
+	{ "renderView(bool)", &slot_1, QMetaData::Public },
+	{ "databaseChanged()", &slot_2, QMetaData::Public },
+	{ "setTreeMode()", &slot_3, QMetaData::Public },
+	{ "setFlatMode()", &slot_4, QMetaData::Public },
+	{ "presetMenu(int)", &slot_5, QMetaData::Public },
+	{ "cat1Menu(int)", &slot_6, QMetaData::Public },
+	{ "cat1Menu(int,bool)", &slot_7, QMetaData::Public },
+	{ "cat2Menu(int)", &slot_8, QMetaData::Public },
+	{ "cat2Menu(int,bool)", &slot_9, QMetaData::Public },
+	{ "cat3Menu(int)", &slot_10, QMetaData::Public },
+	{ "cat3Menu(int,bool)", &slot_11, QMetaData::Public },
+	{ "organizeFiles(const KURL::List&,const QString&)", &slot_12, QMetaData::Public },
+	{ "organizeFiles(const KURL::List&,const QString&,bool)", &slot_13, QMetaData::Public },
+	{ "setupDirs()", &slot_14, QMetaData::Private },
+	{ "scanStarted()", &slot_15, QMetaData::Private },
+	{ "scanDone()", &slot_16, QMetaData::Private },
+	{ "scanDone(bool)", &slot_17, QMetaData::Private },
+	{ "slotExpand(QListViewItem*)", &slot_18, QMetaData::Private },
+	{ "slotCollapse(QListViewItem*)", &slot_19, QMetaData::Private },
+	{ "enableCat3Menu(bool)", &slot_20, QMetaData::Private },
+	{ "invokeItem(QListViewItem*)", &slot_21, QMetaData::Private },
+	{ "rmbPressed(QListViewItem*,const QPoint&,int)", &slot_22, QMetaData::Private },
+	{ "selectAll()", &slot_23, QMetaData::Private },
+	{ "fetchCover()", &slot_24, QMetaData::Private },
+	{ "showTrackInfo()", &slot_25, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CollectionView", parentObject,
+	slot_tbl, 26,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CollectionView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CollectionView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CollectionView" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool CollectionView::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: renderView(); break;
+    case 1: renderView((bool)static_QUType_bool.get(_o+1)); break;
+    case 2: databaseChanged(); break;
+    case 3: setTreeMode(); break;
+    case 4: setFlatMode(); break;
+    case 5: presetMenu((int)static_QUType_int.get(_o+1)); break;
+    case 6: cat1Menu((int)static_QUType_int.get(_o+1)); break;
+    case 7: cat1Menu((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 8: cat2Menu((int)static_QUType_int.get(_o+1)); break;
+    case 9: cat2Menu((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 10: cat3Menu((int)static_QUType_int.get(_o+1)); break;
+    case 11: cat3Menu((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 12: organizeFiles((const KURL::List&)*((const KURL::List*)static_QUType_ptr.get(_o+1)),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 13: organizeFiles((const KURL::List&)*((const KURL::List*)static_QUType_ptr.get(_o+1)),(const QString&)static_QUType_QString.get(_o+2),(bool)static_QUType_bool.get(_o+3)); break;
+    case 14: setupDirs(); break;
+    case 15: scanStarted(); break;
+    case 16: scanDone(); break;
+    case 17: scanDone((bool)static_QUType_bool.get(_o+1)); break;
+    case 18: slotExpand((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 19: slotCollapse((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 20: enableCat3Menu((bool)static_QUType_bool.get(_o+1)); break;
+    case 21: invokeItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 22: rmbPressed((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 23: selectAll(); break;
+    case 24: fetchCover(); break;
+    case 25: showTrackInfo(); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CollectionView::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CollectionView::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool CollectionView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *OrganizeCollectionDialogBase::className() const
+{
+    return "OrganizeCollectionDialogBase";
+}
+
+QMetaObject *OrganizeCollectionDialogBase::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_OrganizeCollectionDialogBase( "OrganizeCollectionDialogBase", &OrganizeCollectionDialogBase::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString OrganizeCollectionDialogBase::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OrganizeCollectionDialogBase", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString OrganizeCollectionDialogBase::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OrganizeCollectionDialogBase", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* OrganizeCollectionDialogBase::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotDetails", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotDetails()", &slot_0, QMetaData::Public }
+    };
+    static const QUMethod signal_0 = {"detailsClicked", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "detailsClicked()", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"OrganizeCollectionDialogBase", parentObject,
+	slot_tbl, 1,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_OrganizeCollectionDialogBase.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* OrganizeCollectionDialogBase::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "OrganizeCollectionDialogBase" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+// SIGNAL detailsClicked
+void OrganizeCollectionDialogBase::detailsClicked()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool OrganizeCollectionDialogBase::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotDetails(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool OrganizeCollectionDialogBase::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: detailsClicked(); break;
+    default:
+	return KDialogBase::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool OrganizeCollectionDialogBase::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool OrganizeCollectionDialogBase::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

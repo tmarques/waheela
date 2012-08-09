@@ -1,0 +1,615 @@
+<chapter id="configuring-kapp">
+<title
+>&amarok; einrichten</title>
+
+
+<para
+>&amarok; wird einfach über den Einrichtungsdialog eingerichtet. Der Einrichtungsdialog hat mehrere Unterfenster zum Einrichten der verschiedenen Funktionen von &amarok;.</para>
+
+<para
+>Der Einrichtungsdialog wird über <guimenuitem
+>&amarok; einrichten...</guimenuitem
+> im Kontext-Menü des Player-Fensters aufgerufen.</para>
+
+
+<sect1 id="general-options">
+<title
+>Allgemeine Einstellungen</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto der allgemeinen Einstellungen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Das Unterfenster Allgemeine Einstellungen ist in zwei Abschnitte Unterteilt, <guimenuitem
+>Allgemeine Einstellungen</guimenuitem
+> und <guimenuitem
+>Wiedergabeliste einrichten</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Allgemeine Einstellungen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Im Abschnitt Allgemeine Einstellungen wird die Basis-Einrichtung von &amarok; vorgenommen.</para>
+
+<para
+>Die erste Option, <guimenuitem
+>Startbildschirm beim Start von &amarok; anzeigen</guimenuitem
+>, schaltet den Startbildschirm von &amarok; ein bzw. aus.</para>
+
+<para
+>Danach folgt die Option <guimenuitem
+>Symbol im Systemabschnitt der Kontrollleiste anzeigen</guimenuitem
+>. Sie können das Symbol ein- oder ausschalten.</para>
+ 
+<para
+>Die Option <guimenuitem
+>Symbol in Kicker animieren</guimenuitem
+> schaltet die Status-Animation im Symbol ein bzw. aus.</para>
+
+<para
+>Die Option <guimenuitem
+>Player-Fenster anzeigen (wie XMMS)</guimenuitem
+> schaltet das <link linkend="player-window"
+>Player-Fenster</link
+> zusätzlich zur <link linkend="playlist-window"
+>Wiedergabeliste</link
+> ein bzw. aus. Wenn die Option ausgeschaltet ist, wird nur das Wiedergabelisten-Fenster angezeigt (ähnlich wie bei JuK).</para>
+
+<para
+>Die letzte Option, <guimenuitem
+>Voreingestellte Größe für Cover-Vorschau</guimenuitem
+> stellt die Größe von Cover-Vorschaubildern im Kontext-Browser für <guilabel
+>Aktuelles Stück</guilabel
+> ein.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Wiedergabeliste Einrichten</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>In den Einstellungen zur Wiedergabeliste lässt sich das allgemeine Verhalten der Wiedergabeliste festlegen.</para>
+
+<para
+>Die erste Option, <guimenuitem
+>Wiedergabeliste beim Beenden speichern</guimenuitem
+>, speichert die aktuelle Wiedergabeliste automatisch beim Beenden von &amarok;. Aktivieren Sie diese Option, wenn Sie die aktuelle Wiedergabeliste beim Beenden nicht verlieren möchten.</para>
+
+<para
+>Wenn die Option <guimenuitem
+>Wiedergabeliste zusammen mit Player-Fenster ausblenden</guimenuitem
+> aktiviert ist, und Sie das Player-Fenster ausblenden, dann wird automatisch auch die Wiedergabeliste ausgeblendet. Wenn diese Option nicht aktiviert ist, verhalten sich beide Fenster unabhängig voneinander.</para>
+
+<para
+><guimenuitem
+>Aktuelles Stück beim Stückwechsel sichtbar halten</guimenuitem
+> bewirkt, dass das Wiedergabelisten-Fenster auf-/abrollt um immer das aktuell laufende Stück hervorzuheben.</para>
+
+<para
+><guimenuitem
+>Unterordner beim Hinzufügen einbeziehen</guimenuitem
+> ist nützlich, wenn Sie Dateien aus einem Ordner und all seinen Unterordnern hinzufügen möchten.</para>
+
+<para
+><guimenuitem
+>Statusleiste anzeigen</guimenuitem
+> wird verwendet, um die Statusleiste im <link linkend="statusbar"
+>Wiedergabelisten-Fenster</link
+> zu aktivieren bzw. deaktivieren.</para>
+
+<para
+><guimenuitem
+>Zum Kontext-Browser wechseln wenn angebracht</guimenuitem
+> aktiviert den Kontext-Browser automatisch beim Starten der Wiedergabe.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Erscheinungsbild einrichten</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto Erscheinungsbild einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Im Abschnitt Erscheinungsbild können Sie &amarok;s Erscheinungsbild anpassen. Der Abschnitt ist in drei Teile unterteil.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Schriftarten</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Der Schriftarten-Teil wird zur Auswahl von Schriften für &amarok; verwendet. Durch markieren von <guilabel
+>Eigene Schriften verwenden</guilabel
+> wird dieser Teil aktiviert. Es sind Schriften verfügbar für das <link linkend="player-window"
+>Player-Fenster</link
+>, das <link linkend="playlist-window"
+>Wiedergabelisten-Fenster</link
+> und den Kontext-Browser. Durch Klicken auf <guibutton
+>Auswählen...</guibutton
+> können Sie eine Schriftart aus dem Auswahldialog wählen.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Farbschema</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Dieser Teil wird zum Auswählen des Farbschemas für &amarok; verwendet. <guilabel
+>Aktuelles KDE-Farbschema</guilabel
+> lässt &amarok; das jeweils aktuelle KDE-Farbschema verwenden. Der <guilabel
+>klassischer &amarok; "funky-monkey"-Stil</guilabel
+> ist der original &amarok;-Farbstil. Schlussendlich können Sie auch ein <guilabel
+>Benutzerdefiniertes Farbschema</guilabel
+> mit eigenen Farben für &amarok; einrichten.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Tags</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Der Abschnitt Tags lässt Sie eine Kodierung für die ID3v1-Tags auswählen. Durch markieren von <guilabel
+>ID3v1-Tags rekodieren</guilabel
+> wird eine Auswahlliste aktiviert, aus der Sie die Kodierung auswählen können.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Wiedergabe einrichten</title>
+
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto Wiedergabe einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Das Unterfenster "Wiedergabe einrichten" ermöglicht Ihnen verschiedene Einstellungen zur Wiedergabe.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Übergänge einrichten</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Sie können &amarok;'s Übergänge von einem Stück zum nächsten einrichten. <guimenuitem
+>Kein Überblenden</guimenuitem
+> bewirkt eine kurze, in Millisekunden einstellbare Pause zwischen den Stücken. <guimenuitem
+>Überblenden</guimenuitem
+> bewirkt einen angenehmen Überblenden-Effekt von einem Stück zum nächsten. Die Überblenddauer ist ebenfalls in Millisekunden einstellbar.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Die verbleibenden Optionen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Die restlichen Optionen bestehen aus verschiedenen Ankreuzfeldern mit denen Sie folgendes Einstellen können:</para>
+
+<para
+><guimenuitem
+>Wiedergabe beim Start fortsetzen</guimenuitem
+> bewirkt, dass &amarok; nach dem Programmstart die Wiedergabe mit dem Stück fortsetzt, mit dem sie beim letzten Beenden aufgehört hat. </para>
+
+<para
+><guimenuitem
+>Master-Lautstärkeregler verwenden</guimenuitem
+> bewirkt, dass der &amarok;-Lautstärkeregler den Mixer Ihrer Soundkarte benutzt, um die Lautstärke zu regulieren. Dadurch wird die Lautstärke des gesamten Systems beeinflusst.</para>
+
+<para
+><guimenuitem
+>Effekte speichern</guimenuitem
+> speichert die eingestellten Effekte Ihres Sound-Servers, die mit dem <guimenuitem
+>FX</guimenuitem
+>-Knopf des <link linkend="player-window"
+>Player-Fensters</link
+> eingerichtet werden können.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>On-Screen-Display einrichten</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto OSD einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>On-Screen-Display einrichten</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Das Unterfenster <guimenuitem
+>On-Screen-Display einrichten</guimenuitem
+> ermöglicht Ihnen das Einschalten des OSD. Wenn <guimenuitem
+>On-Screen-Display verwenden</guimenuitem
+> angehakt ist, wird eine Vorschau des OSD angezeigt und Sie können die Wirkung aller Einstellungen in dieser Vorschau direkt betrachten.</para>
+
+<para
+>Die erste Option ist die Schriftart. Klicken Sie auf <guimenuitem
+>Auswählen...</guimenuitem
+>, um aus dem Dialog die gewünschte Schriftart für das OSD auszuwählen. Das Ankreuzfeld <guimenuitem
+>Schatten</guimenuitem
+> bewirkt, dass der Text im OSD schattiert dargestellt wird.</para>
+
+<para
+><guimenuitem
+>Eigene Farben verwenden</guimenuitem
+> gibt Ihnen die Möglichkeit, die OSD-Farben für Schrift und Hintergrund anzupassen. Ein Klick auf die Farb-Flächen öffnet den Dialog zur Farbauswahl. Wenn <guimenuitem
+>Eigene Farben verwenden</guimenuitem
+> nicht aktiviert ist, werden die voreingestellten &kde;-Farben verwendet.</para>
+
+<para
+>Das Eingabefeld <guilabel
+>Display-Text</guilabel
+> stellt den im OSD angezeigten Text ein. Durch das eingeben von Platzhaltern kann das OSD den eigenen Bedürfnissen angepasst werden. Unten finden Sie eine Liste der verfügbaren Platzhalter und was sie bedeuten.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Text</entry>
+<entry
+>Platzhalter</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Titel</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Album</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Interpret</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Genre</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Bitrate</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>Jahr</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Stücklänge</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Stücknummer</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Dateiname</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Kommentar</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Bewertung</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Abspielzähler</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Mit <guimenuitem
+>Anzeigedauer</guimenuitem
+> können Sie die Anzeigedauer des OSD in Millisekunden bestimmen.</para>
+
+<para
+>Die Option <guimenuitem
+>Bildschirm</guimenuitem
+> ist für Xinerama-Benutzer gedacht. Damit können Sie festlegen, auf welchem Bildschirm einer Mehrfach-Monitor-Umgebung das OSD erscheinen soll.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Sound-System einrichten</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto Sound-System einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Das Unterfenster "Audio-Ausgabe einrichten" lässt Sie einen Sound-Treiber aus der Ausklappliste auswählen. Einige Sound-Treiber aktivieren noch weitere Optionen in diesem Unterfenster.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Sammlung einrichten</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto Sammlung einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Das Unterfenster Sammlung einrichten wird zum Einrichten aller Einstellungen für Ihre Sammlung verwendet. Das beinhaltet die Ordner für Ihre Sammlung, und den Typ der Datenbank für die Sammlung. Der Dialog enthält zwei Teile, Sammlungs-Ordner und Sammlungs-Datenbank.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Sammlungs-Ordner</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+><guilabel
+>Sammlungs-Ordner</guilabel
+> ermöglicht das Auswählen der Ordner aus einer Baumartigen Ansicht des Dateisystems. Dieser Abschnitt enthält außerdem Ankreuzfelder zum Einstellen, wie mit den ausgewählten Ordnern umgegangen wird.</para>
+
+<para
+>Aktivieren Sie <guilabel
+>Unterordner rekursiv durchsuchen</guilabel
+> wenn die Ordner und alle ihre Unterordner zur Sammlung hinzugefügt werden sollen. Wenn die Sammlungs-Ordner auf Änderungen überwacht werden sollen, aktivieren Sie <guilabel
+>Änderungen überwachen</guilabel
+>. Wenn Wiedergabelisten importiert werden sollen, markieren Sie das Ankreuzfeld <guilabel
+>Wiedergabelisten importieren</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Sammlungs-Datenbank</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Der Teil <guilabel
+>Sammlungs-Datenbank</guilabel
+> wird zum Auswählen einer Datenbank für die Sammlung verwendet. Das Kombinationsfeld <guilabel
+>Treiber:</guilabel
+> lässt Sie zwischen Sqlite oder MySql wählen. Wenn MySql ausgewählt ist, ist noch weitere Einrichtung im Unterfenster <guilabel
+>MySql Einrichtung</guilabel
+> nötig.</para>
+
+<para
+>Der Abschnitt <guilabel
+>MySql-Einrichtung</guilabel
+> wird zum Einstellen der Datenbank für &amarok; verwendet. Unter <guilabel
+>Rechner:</guilabel
+> wird der Rechner eingeben, auf dem sich die MySql-Datenbank befindet. Danach wird unter <guilabel
+>Port:</guilabel
+> der Netzwerkport eingegeben, unter dem die Datenbank erreichbar ist. <guilabel
+>Name:</guilabel
+> ist der Datenbankname, zu dem die Verbindung hergestellt wird.</para>
+
+<para
+>Benutzen Sie <guilabel
+>Benutzername:</guilabel
+> und <guilabel
+>Passwort:</guilabel
+> zum Eingeben der Daten die für die Verbindung zur Datenbank benötigt werden.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Scrobbler einrichten</title>
+
+<screenshot>
+	<screeninfo
+>Bildschirmphoto Scrobbler einrichten</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Das Scrobbler-Unterfenster richtet die Audioscrobbler-Unterstützung in &amarok; ein. Audioscrobbler übermittelt Ihre abgespielten Stücke und vergleicht Ihr Profil mit dem anderer Personen, die den gleichen Musikgeschmack haben. Daraus werden Musikvorschläge erzeugt.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Audioscrobbler-Profil</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Hier geben Sie Ihren <guilabel
+>Benutzername</guilabel
+> und <guilabel
+>Passwort</guilabel
+> für Ihre Audioscrobbler-Profil ein. Wenn Sie kein Profil haben, können Sie eines unter <ulink url="http://www.audioscrobbler.com:80/signup.php"
+>registrieren</ulink
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Stück-Übermittlung</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Durch das Übermitteln von gespielten Stücken kann &amarok; im Kontext-Browser Musikvorschläge machen. Das markieren von <guilabel
+>Abgespielte Stücke senden</guilabel
+> aktiviert diese Funktion und übermittelt alle abgespielten Stücke an Ihr Audioscrobbler-Profil.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

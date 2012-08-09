@@ -1,0 +1,341 @@
+multitabbar.o multitabbar.o: multitabbar.cpp multitabbar.h \
+  /usr/qt/3/include/qscrollview.h /usr/qt/3/include/qframe.h \
+  /usr/qt/3/include/qwidget.h /usr/qt/3/include/qwindowdefs.h \
+  /usr/qt/3/include/qobjectdefs.h /usr/qt/3/include/qglobal.h \
+  /usr/qt/3/include/qconfig.h /usr/qt/3/include/qmodules.h \
+  /usr/qt/3/include/qfeatures.h /usr/qt/3/include/qstring.h \
+  /usr/qt/3/include/qcstring.h /usr/qt/3/include/qmemarray.h \
+  /usr/qt/3/include/qgarray.h /usr/qt/3/include/qshared.h \
+  /usr/qt/3/include/qwinexport.h /usr/include/string.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/limits.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/stdio_lim.h /usr/qt/3/include/qnamespace.h \
+  /usr/qt/3/include/qobject.h /usr/qt/3/include/qevent.h \
+  /usr/qt/3/include/qregion.h /usr/qt/3/include/qrect.h \
+  /usr/qt/3/include/qsize.h /usr/qt/3/include/qpoint.h \
+  /usr/qt/3/include/qmime.h /usr/qt/3/include/qmap.h \
+  /usr/qt/3/include/qdatastream.h /usr/qt/3/include/qiodevice.h \
+  /usr/qt/3/include/qpair.h /usr/qt/3/include/qvaluelist.h \
+  /usr/qt/3/include/qtl.h /usr/qt/3/include/qtextstream.h \
+  /usr/include/stdio.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+  /usr/qt/3/include/qpaintdevice.h /usr/qt/3/include/qpalette.h \
+  /usr/qt/3/include/qcolor.h /usr/qt/3/include/qstringlist.h \
+  /usr/qt/3/include/qstrlist.h /usr/qt/3/include/qptrlist.h \
+  /usr/qt/3/include/qglist.h /usr/qt/3/include/qptrcollection.h \
+  /usr/qt/3/include/qbrush.h /usr/qt/3/include/qfont.h \
+  /usr/qt/3/include/qfontmetrics.h /usr/qt/3/include/qfontinfo.h \
+  /usr/qt/3/include/qsizepolicy.h /usr/qt/3/include/qscrollbar.h \
+  /usr/qt/3/include/qrangecontrol.h /usr/qt/3/include/qvbox.h \
+  /usr/qt/3/include/qhbox.h /usr/qt/3/include/qhbox.h \
+  /usr/qt/3/include/qlayout.h /usr/qt/3/include/qstring.h \
+  /usr/qt/3/include/qptrlist.h /usr/qt/3/include/qpushbutton.h \
+  /usr/qt/3/include/qbutton.h /usr/qt/3/include/qkeysequence.h \
+  /usr/qt/3/include/qiconset.h /usr/qt/3/include/qpixmap.h \
+  multitabbar.moc /usr/qt/3/include/qmetaobject.h \
+  /usr/qt/3/include/qconnection.h /usr/qt/3/include/qapplication.h \
+  /usr/qt/3/include/qdesktopwidget.h /usr/qt/3/include/qasciidict.h \
+  /usr/qt/3/include/qgdict.h /usr/qt/3/include/qtranslator.h \
+  /usr/qt/3/include/private/qucomextra_p.h \
+  /usr/qt/3/include/private/qucom_p.h /usr/qt/3/include/quuid.h \
+  /usr/qt/3/include/qvariant.h multitabbar_p.h ./multitabbar.h \
+  multitabbar_p.moc /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h /usr/qt/3/include/qbutton.h \
+  /usr/qt/3/include/qfontmetrics.h /usr/qt/3/include/qpainter.h \
+  /usr/qt/3/include/qpen.h /usr/qt/3/include/qpointarray.h \
+  /usr/qt/3/include/qwmatrix.h /usr/qt/3/include/qpopupmenu.h \
+  /usr/qt/3/include/qmenudata.h /usr/qt/3/include/qsignal.h \
+  /usr/qt/3/include/qvariant.h /usr/qt/3/include/qstyle.h \
+  /usr/qt/3/include/qtimer.h /usr/kde/3.5/include/kdebug.h \
+  /usr/kde/3.5/include/kdelibs_export.h /usr/kde/3.5/include/kdemacros.h \
+  /usr/qt/3/include/qglobal.h /usr/kde/3.5/include/kiconloader.h \
+  /usr/qt/3/include/qpixmap.h /usr/qt/3/include/qiconset.h \
+  /usr/qt/3/include/qmovie.h /usr/kde/3.5/include/kglobal.h \
+  /usr/kde/3.5/include/kinstance.h /usr/kde/3.5/include/kicontheme.h \
+  /usr/qt/3/include/qstringlist.h /usr/kde/3.5/include/kstringhandler.h \
+  /usr/qt/3/include/qregexp.h
+
+multitabbar.h:
+
+/usr/qt/3/include/qscrollview.h:
+
+/usr/qt/3/include/qframe.h:
+
+/usr/qt/3/include/qwidget.h:
+
+/usr/qt/3/include/qwindowdefs.h:
+
+/usr/qt/3/include/qobjectdefs.h:
+
+/usr/qt/3/include/qglobal.h:
+
+/usr/qt/3/include/qconfig.h:
+
+/usr/qt/3/include/qmodules.h:
+
+/usr/qt/3/include/qfeatures.h:
+
+/usr/qt/3/include/qstring.h:
+
+/usr/qt/3/include/qcstring.h:
+
+/usr/qt/3/include/qmemarray.h:
+
+/usr/qt/3/include/qgarray.h:
+
+/usr/qt/3/include/qshared.h:
+
+/usr/qt/3/include/qwinexport.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/limits.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/qt/3/include/qnamespace.h:
+
+/usr/qt/3/include/qobject.h:
+
+/usr/qt/3/include/qevent.h:
+
+/usr/qt/3/include/qregion.h:
+
+/usr/qt/3/include/qrect.h:
+
+/usr/qt/3/include/qsize.h:
+
+/usr/qt/3/include/qpoint.h:
+
+/usr/qt/3/include/qmime.h:
+
+/usr/qt/3/include/qmap.h:
+
+/usr/qt/3/include/qdatastream.h:
+
+/usr/qt/3/include/qiodevice.h:
+
+/usr/qt/3/include/qpair.h:
+
+/usr/qt/3/include/qvaluelist.h:
+
+/usr/qt/3/include/qtl.h:
+
+/usr/qt/3/include/qtextstream.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/qt/3/include/qpaintdevice.h:
+
+/usr/qt/3/include/qpalette.h:
+
+/usr/qt/3/include/qcolor.h:
+
+/usr/qt/3/include/qstringlist.h:
+
+/usr/qt/3/include/qstrlist.h:
+
+/usr/qt/3/include/qptrlist.h:
+
+/usr/qt/3/include/qglist.h:
+
+/usr/qt/3/include/qptrcollection.h:
+
+/usr/qt/3/include/qbrush.h:
+
+/usr/qt/3/include/qfont.h:
+
+/usr/qt/3/include/qfontmetrics.h:
+
+/usr/qt/3/include/qfontinfo.h:
+
+/usr/qt/3/include/qsizepolicy.h:
+
+/usr/qt/3/include/qscrollbar.h:
+
+/usr/qt/3/include/qrangecontrol.h:
+
+/usr/qt/3/include/qvbox.h:
+
+/usr/qt/3/include/qhbox.h:
+
+/usr/qt/3/include/qhbox.h:
+
+/usr/qt/3/include/qlayout.h:
+
+/usr/qt/3/include/qstring.h:
+
+/usr/qt/3/include/qptrlist.h:
+
+/usr/qt/3/include/qpushbutton.h:
+
+/usr/qt/3/include/qbutton.h:
+
+/usr/qt/3/include/qkeysequence.h:
+
+/usr/qt/3/include/qiconset.h:
+
+/usr/qt/3/include/qpixmap.h:
+
+multitabbar.moc:
+
+/usr/qt/3/include/qmetaobject.h:
+
+/usr/qt/3/include/qconnection.h:
+
+/usr/qt/3/include/qapplication.h:
+
+/usr/qt/3/include/qdesktopwidget.h:
+
+/usr/qt/3/include/qasciidict.h:
+
+/usr/qt/3/include/qgdict.h:
+
+/usr/qt/3/include/qtranslator.h:
+
+/usr/qt/3/include/private/qucomextra_p.h:
+
+/usr/qt/3/include/private/qucom_p.h:
+
+/usr/qt/3/include/quuid.h:
+
+/usr/qt/3/include/qvariant.h:
+
+multitabbar_p.h:
+
+./multitabbar.h:
+
+multitabbar_p.moc:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/qt/3/include/qbutton.h:
+
+/usr/qt/3/include/qfontmetrics.h:
+
+/usr/qt/3/include/qpainter.h:
+
+/usr/qt/3/include/qpen.h:
+
+/usr/qt/3/include/qpointarray.h:
+
+/usr/qt/3/include/qwmatrix.h:
+
+/usr/qt/3/include/qpopupmenu.h:
+
+/usr/qt/3/include/qmenudata.h:
+
+/usr/qt/3/include/qsignal.h:
+
+/usr/qt/3/include/qvariant.h:
+
+/usr/qt/3/include/qstyle.h:
+
+/usr/qt/3/include/qtimer.h:
+
+/usr/kde/3.5/include/kdebug.h:
+
+/usr/kde/3.5/include/kdelibs_export.h:
+
+/usr/kde/3.5/include/kdemacros.h:
+
+/usr/qt/3/include/qglobal.h:
+
+/usr/kde/3.5/include/kiconloader.h:
+
+/usr/qt/3/include/qpixmap.h:
+
+/usr/qt/3/include/qiconset.h:
+
+/usr/qt/3/include/qmovie.h:
+
+/usr/kde/3.5/include/kglobal.h:
+
+/usr/kde/3.5/include/kinstance.h:
+
+/usr/kde/3.5/include/kicontheme.h:
+
+/usr/qt/3/include/qstringlist.h:
+
+/usr/kde/3.5/include/kstringhandler.h:
+
+/usr/qt/3/include/qregexp.h:

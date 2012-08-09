@@ -1,0 +1,333 @@
+/****************************************************************************
+** UrlLoader meta object code from reading C++ file 'playlistloader.h'
+**
+** Created: Fri Mar 23 10:40:55 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playlistloader.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *UrlLoader::className() const
+{
+    return "UrlLoader";
+}
+
+QMetaObject *UrlLoader::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_UrlLoader( "UrlLoader", &UrlLoader::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString UrlLoader::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "UrlLoader", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString UrlLoader::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "UrlLoader", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* UrlLoader::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = ThreadWeaver::DependentJob::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In },
+	{ "attributes", &static_QUType_ptr, "XmlAttributeList", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotNewBundle", 2, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "product", &static_QUType_QString, 0, QUParameter::In },
+	{ "version", &static_QUType_QString, 0, QUParameter::In },
+	{ "dynamicMode", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotPlaylistInfo", 3, param_slot_1 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotNewBundle(const MetaBundle&,const XmlAttributeList&)", &slot_0, QMetaData::Private },
+	{ "slotPlaylistInfo(const QString&,const QString&,const QString&)", &slot_1, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ 0, &static_QUType_ptr, "PLItemList", QUParameter::In },
+	{ 0, &static_QUType_ptr, "PLItemList", QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"queueChanged", 2, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "queueChanged(const PLItemList&,const PLItemList&)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"UrlLoader", parentObject,
+	slot_tbl, 2,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_UrlLoader.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* UrlLoader::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "UrlLoader" ) )
+	return this;
+    return DependentJob::qt_cast( clname );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL queueChanged
+void UrlLoader::queueChanged( const PLItemList& t0, const PLItemList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_ptr.set(o+1,&t0);
+    static_QUType_ptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+bool UrlLoader::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotNewBundle((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1)),(const XmlAttributeList&)*((const XmlAttributeList*)static_QUType_ptr.get(_o+2))); break;
+    case 1: slotPlaylistInfo((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    default:
+	return DependentJob::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool UrlLoader::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: queueChanged((const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+1)),(const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return DependentJob::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool UrlLoader::qt_property( int id, int f, QVariant* v)
+{
+    return DependentJob::qt_property( id, f, v);
+}
+
+bool UrlLoader::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *RemotePlaylistFetcher::className() const
+{
+    return "RemotePlaylistFetcher";
+}
+
+QMetaObject *RemotePlaylistFetcher::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_RemotePlaylistFetcher( "RemotePlaylistFetcher", &RemotePlaylistFetcher::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString RemotePlaylistFetcher::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "RemotePlaylistFetcher", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString RemotePlaylistFetcher::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "RemotePlaylistFetcher", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* RemotePlaylistFetcher::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"result", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"abort", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "result(KIO::Job*)", &slot_0, QMetaData::Private },
+	{ "abort()", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"RemotePlaylistFetcher", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_RemotePlaylistFetcher.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* RemotePlaylistFetcher::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "RemotePlaylistFetcher" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+bool RemotePlaylistFetcher::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: result((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 1: abort(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool RemotePlaylistFetcher::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool RemotePlaylistFetcher::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool RemotePlaylistFetcher::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MyXmlLoader::className() const
+{
+    return "MyXmlLoader";
+}
+
+QMetaObject *MyXmlLoader::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MyXmlLoader( "MyXmlLoader", &MyXmlLoader::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MyXmlLoader::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyXmlLoader", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MyXmlLoader::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyXmlLoader", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MyXmlLoader::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = MetaBundle::XmlLoader::staticMetaObject();
+    static const QUParameter param_signal_0[] = {
+	{ "product", &static_QUType_QString, 0, QUParameter::In },
+	{ "version", &static_QUType_QString, 0, QUParameter::In },
+	{ "dynamicMode", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"playlistInfo", 3, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "playlistInfo(const QString&,const QString&,const QString&)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MyXmlLoader", parentObject,
+	0, 0,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MyXmlLoader.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MyXmlLoader::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MyXmlLoader" ) )
+	return this;
+    return XmlLoader::qt_cast( clname );
+}
+
+// SIGNAL playlistInfo
+void MyXmlLoader::playlistInfo( const QString& t0, const QString& t1, const QString& t2 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[4];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    static_QUType_QString.set(o+3,t2);
+    activate_signal( clist, o );
+}
+
+bool MyXmlLoader::qt_invoke( int _id, QUObject* _o )
+{
+    return XmlLoader::qt_invoke(_id,_o);
+}
+
+bool MyXmlLoader::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: playlistInfo((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(const QString&)static_QUType_QString.get(_o+3)); break;
+    default:
+	return XmlLoader::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MyXmlLoader::qt_property( int id, int f, QVariant* v)
+{
+    return XmlLoader::qt_property( id, f, v);
+}
+
+bool MyXmlLoader::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

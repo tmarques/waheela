@@ -1,0 +1,142 @@
+<chapter id="quick-start">
+<title
+>&amarok;i kirtutvustus</title>
+
+<para
+>Muusika kuulamine peab olema lihtne. Käesolev kiirtutvustus lubab sul hakata &amarok;ki kasutama sõna otseses mõttes mõne minutiga.</para>
+
+
+<sect1 id="collection-building">
+<title
+>Muusikakogu loomine</title>
+
+<screenshot>
+	<screeninfo
+>Muusikakogu sirvija pilt</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Muusikakogu loomine on mõistagi &amarok;i võimaluste ärakasutamiseks olulise tähtsusega samm. Klõpsa muusikakogu sirvijas tööriistaribal asuvale nupule <guibutton
+>Seadista katalooge</guibutton
+>. Seejärel vali dialoogis <guilabel
+>Muusikakogu seadistamine</guilabel
+> kataloogid, mille põhjal sinu muusikakogu luuakse. Siin on ka mõned lisavõimalused: <guilabel
+>Kataloogide rekursiivne uurimine</guilabel
+>, <guilabel
+>Kataloogide muudatuste jälgimine</guilabel
+> ja <guilabel
+>Lugude nimekirjade import</guilabel
+>. Kui oled kataloogid valinud ja märkinud kõik vajalikud kastid, klõpsa nupule <guibutton
+>OK</guibutton
+>. Nüüd kulub veidi aega muusikakogu loomisele, seejärel võid aga hakata lugude nimekirjaga tegelema.</para>
+
+</sect1>
+
+
+<sect1 id="making-playlists">
+<title
+>Lugude nimekirja loomine</title>
+
+<screenshot>
+	<screeninfo
+>Lugude nimekirja pilt</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Lugude nimekirja loomine on äärmiselt lihtne: lohista lihtsalt vajalikud elemendid muusikakogu sirvija puuvaatest lugude nimekirja. Elementide lihtsamaks leidmiseks on tekstikast, mille abil saab muusikakogus välja filtreerida just vajalikud elemendid. Hakka sellesse kasti kirjutama ning puuvaade muutub, näidates sulle vastavalt sisestatule leitud tulemusi. Kui oled lugude nimekirjaga valmis saanud, saad selle salvesta klõpsuga nupule <guibutton
+>Salvesta lugude nimekiri kui...</guibutton
+>, mille leiad lugude nimekirja tööriistaribalt.</para>
+
+<screenshot>
+	<screeninfo
+>Lugude nimekirja sirvija pilt</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Kui sul on juba lugude nimekirju, võid need lisada lugude nimekirja sirvijasse, klõpsates tööriistaribal nupule <guibutton
+>Lisa lugude nimekiri</guibutton
+>. Kui sinu muusikakogudes on lugude nimekirju ja sa valisid muusikakogu luues lugude nimekirja importimise võimaluse, on lugude nimekirjad sind juba puuvaates ees ootamas. Puuvaates mõnel lugude nimekirjal hiire parema nupuga klõpsates avaneb hüpikmenüü, milles on teatud võimalused nimekirja laadimiseks.</para>
+
+</sect1>
+
+
+<sect1 id="streams">
+<title
+>Voogude kuulamine</title>
+
+<para
+>See osa on veel kirjutamata.</para>
+
+</sect1>
+
+
+<sect1 id="audiocd">
+<title
+>Audio CD mängimine</title>
+
+<screenshot>
+	<screeninfo
+>Lugude nimekirja menüüriba pilt</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Audio CD mängimiseks vali lugude nimekirja menüüribal käsk <menuchoice
+><guimenu
+>Toimingud</guimenu
+><guimenuitem
+>Mängi audio CD-d</guimenuitem
+></menuchoice
+>. Avaneb failisirvija, kus on näha mitu kataloogi ning CD rajad WAV-vormingus. Lohista WAV-failid lugude nimekirja ning klõpsa nupule <guibutton
+>Mängi</guibutton
+>.</para>
+
+<note
+><para
+>Audio CD mängimiseks kasutatakse protokolli audiocd:/, mis ei ühildu kõigi saadaolevate mootoritega.</para
+></note>
+
+</sect1>
+
+<sect1 id="cd-burning">
+<title
+>Audio CD kirjutamine</title>
+
+<para
+>Audio CD kirjutamine &amarok;is on väga lihtne tänu põimitusele rakendusega <ulink url="http://www.k3b.org"
+>K3b</ulink
+>. Albumi kirjutamiseks ava kõigepealt muusikakogu sirvija. Seejärel ava puuvaates esineja nimi ja klõpsa hiire parema nupuga albumile, mida soovid CD-le kirjutada. Vali hüpikmenüüst <guilabel
+>Kirjuta see album</guilabel
+>. Ilmub dialoog, mis palub valida kirjutamisrežiimi. Klõpsa seal nupule <guibutton
+>Audio režiim</guibutton
+> ning K3b hakkabki plaati kirjutama.</para>
+
+<note
+><para
+>Kirjutamise võimalust saab kasutada ka lugude nimekirjast. Klõpsa lihtsalt hiire parema nupuga mõnel lugude nimekirja elemendil ning vali menüüst <guilabel
+>Kirjuta</guilabel
+> vajalikud valikud.</para
+></note>
+
+</sect1>
+
+
+</chapter>

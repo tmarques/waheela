@@ -1,0 +1,7022 @@
+# translation of amarok.po to Greek
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2005, 2006.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2005.
+# translation of amarok.po to
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2006-03-22 13:06+0200\n"
+"Last-Translator: Spiros Georgaras <sngeorgaras@otenet.gr>\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr "amaroK - ανακαλύψτε ξανά τη μουσική σας"
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "Λίστα..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "Ροή ραδιοφώνου..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "Έξυπνη λίστα..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "Εκπομπή Pod..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "Τρέχουσα λίστα..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "Δυναμική λίστα..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "Αναλυτική προβολή"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "Προβολή λίστας"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "Μη ταξινομημένα"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "Αύξουσα ταξινόμηση"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "Φθίνουσα ταξινόμηση"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "Ροές ραδιοφώνου"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "Θαυμάσιες ροές"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "Έξυπνες λίστες"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "Συλλογή"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "Όλη η συλλογή"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "Αγαπημένα κομμάτια"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "Από %1"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "Πιο δημοφιλή"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "Νέα κομμάτια"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "Τελευταία"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "Ποτέ εκτελεσμένα"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "Συνεχώς εκτελεσμένα"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "Είδη"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 τυχαία κομμάτια"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "Αποθήκευση δυναμικής λίστας"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "Εισαγωγή ονόματος λίστας:"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "Δυναμικές λίστες"
+
+#: playlistbrowser.cpp:752
+msgid "Random Mix"
+msgstr "Τυχαία μείξη"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "Προτεινόμενα τραγούδια"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "Εκπομπές Pod"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "Προσθήκη εκπομπής Pod"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "Εισαγωγή URL εκπομπής Pod:"
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "Χρονικό διάστημα λήψης"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "Χρονικό διάστημα σάρωσης (ώρες):"
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+"<p>Επιλέξατε 1 εκπομπή pod για <b>οριστική</b> διαγραφή. Όλα τα ληφθέντα "
+"επεισόδια θα διαγραφούν επίσης.\n"
+"<p>Επιλέξατε %n εκπομπές pod για <b>οριστική</b> διαγραφή. Όλα τα ληφθέντα "
+"επεισόδια θα διαγραφούν επίσης."
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "Λίστες"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr "Αδυναμία εγγραφής στη λίστα (%1)."
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "Αρχεία λίστας"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "Προσθήκη λιστών"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Επιλέξατε να διαγράψετε <b>οριστικά </b> 1 λίστα.\n"
+"<p>Επιλέξατε να διαγράψετε <b>οριστικά </b> %n λίστες."
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "Σφάλμα κατά τη μετονομασία του αρχείου."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "Ά&νοιγμα"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "&Προσθήκη στη λίστα"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+msgid "Remove From Dynamic Mode"
+msgstr "Αφαίρεση από τη δυναμική λειτουργία"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "Προσθήκη στη δυναμική λειτουργία"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "Επανα&φορά"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "&Μετονομασία"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "&Επεξεργασία"
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "Αφαί&ρεση"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "&Επεξεργασία"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+msgid "Show &Information"
+msgstr "Εμφάνιση &πληροφοριών"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "Έ&λεγχος για νεότερες εκδόσεις"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "&Ρύθμιση..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "&Αναπαραγωγή"
+
+#: playlistbrowser.cpp:2239
+msgid "&Queue"
+msgstr "&Σε αναμονή"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "&Λήψη πολυμέσων"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr "Προσθήκη στην αναμονή &μεταφοράς, της συσκευής πολυμέσων"
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "Προσθήκη λίστας..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "Προσθήκη έξυπνης λίστας..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "Προσθήκη ροής ραδιοφώνου..."
+
+#: playlistbrowser.cpp:2306
+msgid "Save Dynamic Configuration..."
+msgstr "Αποθήκευση δυναμικών ρυθμίσεων..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "Ανανέωση όλων των εκπομπών pod"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "Προσθήκη εκπομπής Pod..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "Χρονικό διάστημα σάρωσης..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "Δημιουργία υποφακέλου"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "Φάκελος"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "Φάκελος %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "&Κομμάτι στην αναμονή"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "&Δημιουργία λίστας"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "Εγγραφή σε CD σαν δεδομένα"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "Εγγραφή σε CD σαν ήχο"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "Επεξεργασία &πληροφοριών κομματιού..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr "Μη διαθέσιμες πληροφορίες κομματιού για απομακρυσμένα πολυμέσα."
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "Αυτό το αρχείο δεν υπάρχει: %1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "&Επαναφορά"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "Αποθήκευση λίστας"
+
+#: playlistbrowser.cpp:2858
+msgid "Save to location..."
+msgstr "Αποθήκευση στη τοποθεσία..."
+
+#: playlistbrowser.cpp:2862
+msgid "&Enter a name for the playlist:"
+msgstr "&Εισαγωγή ονόματος για τη λίστα:"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr ""
+"Μια λίστα με το όνομα \"%1\" υπάρχει ήδη. Επιθυμείτε την αντικατάστασή της;"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite Playlist?"
+msgstr "Αντικατάσταση λίστας;"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite"
+msgstr "Αντικατάσταση"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "Σφάλμα κατά την επικοινωνία με το Amazon."
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr ""
+"Δυστυχώς υπάρχει αδυναμία ανοίγματος του '%1', αντί αυτού ανοίχτηκε το'%2'."
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>Το amaroK δεν μπορεί να βρει πρόσθετα μηχανών ήχου. Το amaroK ενημερώνει τη "
+"βάση δεδομένων ρυθμίσεων του KDE. Παρακαλώ αναμείνατε για λίγα λεπτά, μετά "
+"επανεκκινήστε το amaroK.</p>"
+"<p>Αν δε βοηθήσει αυτό, τότε είναι πιθανό το amaroK να έχει εγκατασταθεί με "
+"λάθος πρόθεμα, διορθώστε την εγκατάστασή σας με:"
+"<pre>$ cd /τόπος/του/κώδικα/του/amaroK/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>Περισσότερες πληροφορίες θα βρείτε στο αρχείο README. Για "
+"βοήθεια, συναντήστε μας στο #amarok στο irc.freenode.net.</p>"
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+"<p>Το %1 αναφέρει ότι <b>αδυνατεί</b> να αναπαράγει αρχεία MP3."
+"<p>Ίσως πρέπει να επιλέξετε άλλη μηχανή ήχου από το <i>Παράθυρο ρυθμίσεων</i>"
+", ή να ελέγξετε την εγκατάσταση του πλαισίου-πολυμέσων που χρησιμοποιεί η "
+"τρέχουσα μηχανή. "
+"<p>Ίσως βρείτε χρήσιμες πληροφορίες στο κεφάλαιο <i>FAQ</i> του <i>"
+"Οδηγού Χρήσης του amaroK</i>."
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "Σύνδεση στην πηγή της ροής..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "Το τοπικό αρχείο δεν υπάρχει."
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "Διαχειριστής σεναρίων"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"Πακέτα σεναρίων (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "Επιλογή πακέτου σεναρίου"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "Αδυναμία ανάγνωσης του πακέτου."
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr ""
+"Υπάρχει ήδη ένα σενάριο με το όνομα '%1'. Παρακαλώ απεγκαταστήστε το πρώτα."
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "Το πακέτο εγκαταστάθηκε επιτυχώς."
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+"<p>Απέτυχε η εγκατάσταση του σεναρίου.</p>"
+"<p>Το πακέτο δεν περιέχει ένα εκτελέσιμο αρχείο. Παρακαλώ ειδοποιήστε το "
+"συντηρητή του πακέτου για αυτό το σφάλμα.</p>"
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "Επιθυμείτε σίγουρα την απεγκατάσταση του σεναρίου '%1';"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "Απεγκατάσταση σεναρίου"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+"<p>Αδυναμία απεγκατάστασης του σεναρίου.</p>"
+"<p>Ο διαχειριστής σεναρίων μπορεί να απεγκαθιστά σενάρια που εγκαταστάθηκαν σαν "
+"πακέτα.</p>"
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+"<p>Αδυναμία εκκίνησης του σεναρίου <i>%1</i>.</p>"
+"<p>Παρακαλώ βεβαιωθείτε ότι το αρχείο έχει δικαιώματα εκτέλεσης (+x).</p>"
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "Δεν υπάρχουν πληροφορίες για αυτό το σενάριο."
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "Σχετικά με το %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr "%1 σενάριο amaroK"
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr "Άδεια χρήσης"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "Διόρθωση σφαλμάτων"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "Εμφάνιση κατα&γραφής εξόδου"
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "Καταγραφή εξόδου για το %1"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "Το σενάριο '%1' τερμάτισε με αριθμό σφάλματος: %2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "Συμπλήρωση λίστας"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "Προετοιμασία"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "Κάποια πολυμέσα δεν ήταν δυνατόν να φορτωθούν (δεν αναπαράγονται)"
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "Αυτά τα πολυμέσα δεν ήταν δυνατόν να φορτωθούν στη λίστα: "
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+"Η XML στη λίστα δεν είναι έγκυρη. Παρακαλώ αναφέρετέ το σαν σφάλμα στους "
+"προγραμματιστές του amaroK. Ευχαριστούμε."
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "Το amaroK αδυνατεί να ανοίξει το αρχείο."
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr "Αυτό το συστατικό του amaroK αδυνατεί να μεταφράσει λίστες XML."
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "Το amaroK δεν υποστηρίζει αυτό τη μορφή λίστας."
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr "Η λίστα δεν περιέχει καμία αναφορά σε αρχεία."
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "Ανάκτηση λίστας"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr ""
+"Αυτοί οι φάκελοι θα σαρωθούν για πολυμέσα για τη δημιουργία της συλλογής."
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "&Αναδρομική σάρωση φακέλων"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "&Παρακολούθηση φακέλων για αλλαγές"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "&Εισαγωγή λιστών"
+
+#: directorylist.cpp:45
+msgid "If selected, amaroK will read all subfolders."
+msgstr "Αν επιλεγεί, το amaroK θα αναγνώσει όλους τους υποφακέλους."
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"Αν επιλεγεί, όταν το περιεχόμενο των φακέλων αλλάζει (π.χ σε προσθήκη νέου "
+"αρχείου) αυτοί θα σαρώνονται ξανά."
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+"Αν επιλεγεί, τα αρχεία λιστών (.m3u) θα προστίθενται αυτόματα στην περιήγηση "
+"λίστας."
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "Επανασυμπλήρωση"
+
+#: party.cpp:78
+msgid "Enable dynamic mode"
+msgstr "Ενεργοποίηση δυναμικής λειτουργίας"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "Εμφάνιση επιλογών"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+"<p align=\"center\"><b>Δυναμική λειτουργία</b></p>Η δυναμική λειτουργία είναι "
+"μια μέθοδος για αποτελεσματικό χειρισμό της λίστας σας. Το amaroK μπορεί να "
+"αφαιρεί αυτόματα κομμάτια που έχουν αναπαραχθεί και να προσθέτει νέα τα οποία "
+"ταιριάζουν στις προτιμήσεις σας!"
+"<br>"
+"<br>Αν επιλέξετε <i>Ανακάτεμα λίστας</i>, βεβαιωθείτε ότι έχετε επιλέξει "
+"μερικές λίστες ή έξυπνες λίστες με δεξί κλικ στα αντικείμενα του περιηγητή "
+"λίστας"
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "Παρουσίαση δυναμικής λειτουργίας"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "Διαχειριστής εξωφύλλων"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "Άλμπουμ από"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "Όλα τα άλμπουμ"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "Διάφοροι καλλιτέχνες"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "Φιλτράρισμα εδώ..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "Καθαρισμός φίλτρου"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "Για το φιλτράρισμα των άλμπουμ εισάγετε όρους διαχωρισμένους με κενό"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "Άλμπουμ με εξώφυλλο"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "Άλμπουμ χωρίς εξώφυλλο"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "Διεθνή"
+
+#: covermanager.cpp:140
+msgid "Canada"
+msgstr "Καναδά"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "Γαλλίας"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "Γερμανίας"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "Ιαπωνίας"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "Ηνωμένου Βασιλείου"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "Τοπικό Amazon"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "Λήψη εξώφυλλων που λείπουν"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "Εγκατάλειψη"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "Φόρτωση εικόνων επισκόπησης..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "Εικόνα εξώφυλλου"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "&Λήψη επιλεγμένων εξώφυλλων"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "Ορισμός &προσαρμοσμένου εξώφυλλου για επιλεγμένα άλμπουμ"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "Α&ναίρεση ορισμού επιλεγμένων εξώφυλλων"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "&Εμφάνιση σε πλήρες μέγεθος"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "&Λήψη από amazon.%1"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "Ορισμός &προσαρμοσμένης εικόνας"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "Ορισμός εικόνας &εξώφυλλου"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "Α&ναίρεση ορισμού εικόνας εξώφυλλου"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "Επιλογή αρχείου εικόνας εξώφυλλου"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr ""
+"Επιθυμείτε σίγουρα να αφαιρέσετε αυτό το εξώφυλλο από τη συλλογή σας;\n"
+"Επιθυμείτε σίγουρα να αφαιρέσετε αυτά τα %n εξώφυλλα από τη συλλογή σας;"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "Τερμάτισε."
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr ""
+" Δε βρέθηκε εξώφυλλο\n"
+" Δε βρέθηκαν <b>%n</b> εξώφυλλα"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "Λήψη εξώφυλλου για "
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr ""
+"Λήψη 1 εξώφυλλου: \n"
+"Λήψη <b>%n</b> εξώφυλλων... : "
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr ""
+"1 έχει ληφθεί\n"
+"%n ελήφθησαν"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr ""
+"1 δε βρέθηκε\n"
+"%n δε βρέθηκαν"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "Σύνδεση..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr ""
+"1 αποτέλεσμα για το \"%1\"\n"
+"%n αποτελέσματα για το \"%1\""
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr ""
+"1 άλμπουμ\n"
+"%n άλμπουμ"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " από "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> χωρίς εξώφυλλο)"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "Επιθυμείτε σίγουρα να αντικαταστήσετε αυτό το εξώφυλλο;"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "&Επιβεβαίωση αντικατάστασης"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "&Αντικατάσταση"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr ""
+"Παρακαλώ αναφέρετε αυτό το μήνυμα στο amarok-devel@lists.sf.net, ευχαριστούμε!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "Καλώς ήρθατε στο amaroK"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "Αναλυτής"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "Κλικ για περισσότερους αναλυτές, πατήστε 'd' για αποπροσάρτηση."
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "Ο ισοσταθμιστής δεν είναι διαθέσιμος με αυτή τη μηχανή ήχου."
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "Οπτικά εφέ"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "Δεξί κλικ στο αντικείμενο για σχετικό μενού"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "Πλήρη οθόνη"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Δε βρέθηκαν οπτικά εφέ</h3>Πιθανές αιτίες:"
+"<ul>"
+"<li>Δεν υπάρχει το libvisual.</li>"
+"<li>Δεν υπάρχει το πρόσθετο libvisual.</li></ul>Παρακαλώ ελέγξτε αυτές τις "
+"πιθανότητες και επανεκκινήστε το amaroK.</div>"
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "Για φιλτράρισμα της συλλογής εισάγετε όρους διαχωρισμένους με κενό"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "Ρύθμιση φακέλων"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "Προβολή δέντρου"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "Επίπεδη προβολή"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "Ομαδοποίηση κατά"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "Καλλιτέχνη"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "Καλλιτέχνη / Άλμπουμ"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "Έτος"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "Άλμπουμ"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "Είδος / Καλλιτέχνη"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "Είδος / Καλλιτέχνη / Άλμπουμ"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "&Πρώτο επίπεδο"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "&Δεύτερο επίπεδο"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "&Τρίτο επίπεδο"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "Ά&λμπουμ"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr "(Έ&τος) - Άλμπουμ"
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "&Καλλιτέχνη"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "&Είδος"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "Έ&τος"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "Κ&ανένα"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "Ά&λμπουμ"
+
+#: collectionbrowser.cpp:207
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"1 καλλιτέχνης\n"
+"%n καλλιτέχνες"
+
+#: collectionbrowser.cpp:212
+#, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"1 άλμπουμ\n"
+"%n άλμπουμ"
+
+#: collectionbrowser.cpp:217
+#, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"1 είδος\n"
+"%n είδη"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"1 κομμάτι\n"
+"%n κομμάτια"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "Ρύθμιση συλλογής"
+
+#: collectionbrowser.cpp:1185
+msgid "&Queue Tracks"
+msgstr "&Κομμάτια στην αναμονή"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+msgid "&Save as Playlist..."
+msgstr "&Αποθήκευση λίστας ως..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "Εγγραφή όλων των κομματιών αυτού του καλλιτέχνη"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "Εγγραφή αυτού του άλμπουμ"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+msgid "Burn to CD"
+msgstr "Εγγραφή σε CD"
+
+#: collectionbrowser.cpp:1214
+msgid "&Fetch Cover Image"
+msgstr "&Λήψη εξώφυλλου"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+"Επεξεργασία πληροφοριών κομματιού...\n"
+"Επεξεργασία πληροφοριών για %n κομμάτια..."
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr "&Σήμανση ως συλλογή"
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr "Α&ναίρεση σήμανσης ως συλλογή"
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "Τίτλος"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "Είδος"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Επίπεδη προβολή</h3>Για να ενεργοποιήσετε την επίπεδη προβολή, παρακαλώ "
+"εισάγετε όρους αναζήτησης στην παραπάνω γραμμή φίλτρου.</div>"
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "Μενού amaroK"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "Μενού"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "&Διαχειριστής εξωφύλλων"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "&Οπτικά εφέ"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "&Ισοσταθμιστής"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "&Μάγος πρώτης εκτέλεσης"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "&Επανασάρωση συλλογής"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "Αναπαραγωγή/Παύση"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "Παύση"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "Αναπαραγωγή"
+
+#: actionclasses.cpp:278
+msgid "Click for more analyzers"
+msgstr "Κλικ για περισσότερους αναλυτές"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "Ένταση"
+
+#: actionclasses.cpp:338
+msgid "Volume control"
+msgstr "Έλεγχος έντασης"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "&Τυχαία λειτουργία"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "Επανάληψη &κομματιού"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "Ε&πανάληψη λίστας"
+
+#: actionclasses.cpp:391
+msgid "&Dynamic Mode"
+msgstr "&Δυναμική λειτουργία"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "Εγγραφή"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "Τρέχουσα λίστα"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "Επιλεγμένα κομμάτια"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr "Τώρα"
+
+#: actionclasses.cpp:505
+msgid "After Current Track"
+msgstr "Μετά το τρέχον κομμάτι"
+
+#: actionclasses.cpp:506
+msgid "After Queue"
+msgstr "Μετά την αναμονή"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>KLibLoader αδυναμία εκκίνησης του πρόσθετου:"
+"<br/><i>%1</i></p>"
+"<p>Μήνυμα σφάλματος:"
+"<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "Όνομα"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "Συγγραφείς"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "Email"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "Έκδοση"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "Έκδοση πλαισίου"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "Πληροφορίες πρόσθετου"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr "Ένας Ισοσταθμιστής του amaroK με χρήση γραμμικού γραφήματος"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "Γραφικός ισοσταθμιστής"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "Ισοσταθμιστής"
+
+#: equalizersetup.cpp:73
+msgid "Presets:"
+msgstr "Προεπιλογές:"
+
+#: equalizersetup.cpp:80
+msgid "Add new preset"
+msgstr "Προσθήκη νέας προεπιλογής"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr "Διαχείριση προεπιλογών"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "Ενεργοποίηση ισοσταθμιστή"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "Προενίσχυση"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+msgid "Manual"
+msgstr "Χειροκίνητο"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr "Μηδενικό"
+
+#: equalizersetup.cpp:361
+msgid "Add Equalizer Preset"
+msgstr "Προσθήκη προεπιλογής ισοσταθμιστή"
+
+#: equalizersetup.cpp:362
+msgid "Enter preset name:"
+msgstr "Εισαγωγή ονόματος προεπιλογής:"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr "Μια προεπιλογή με το όνομα %1 υπάρχει ήδη. Αντικατάσταση;"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Fanis Dokianakis,Τούσης Μανώλης"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "madf<ΑΤ>hellug.gr,manolis@koppermind.homelinux.org"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Περιηγητής συσκευών πολυμέσων</h3>Κάντε κλικ στο κουμπί σύνδεσης για την "
+"πρόσβαση στο προσαρτημένο σας iPod. Σύρετε και αφήστε αρχεία για να τα "
+"τοποθετήσετε σε αναμονή για μεταφορά.</div>"
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "Διαγραφή αρχείου"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "URL"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr ""
+"1 κομμάτι σε αναμονή\n"
+"%n κομμάτια σε αναμονή"
+
+#: mediabrowser.cpp:414
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "Μεταφορά"
+
+#: mediabrowser.cpp:419
+msgid "Connect media device"
+msgstr "Σύνδεση συσκευής πολυμέσων"
+
+#: mediabrowser.cpp:420
+msgid "Transfer tracks to media device"
+msgstr "Μεταφορά κομματιών στη συσκευή πολυμέσων"
+
+#: mediabrowser.cpp:421
+msgid "Configure mount commands"
+msgstr "Ρύθμιση εντολών προσάρτησης"
+
+#: mediabrowser.cpp:445
+msgid "&Remove From Queue"
+msgstr "&Αφαίρεση από την αναμονή"
+
+#: mediabrowser.cpp:446
+msgid "&Clear Queue"
+msgstr "&Καθάρισμα αναμονής"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr "0 κομμάτια σε αναμονή"
+
+#: mediabrowser.cpp:663
+msgid "Configure Media Device"
+msgstr "Ρύθμιση συσκευής πολυμέσων"
+
+#: mediabrowser.cpp:668
+msgid "&Mount command:"
+msgstr "&Εντολή προσάρτησης:"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+"Ορίστε εδώ την εντολή προσάρτησης της συσκευής σας, κενές εντολές δεν "
+"εκτελούνται."
+
+#: mediabrowser.cpp:674
+msgid "&Unmount command:"
+msgstr "Ε&ντολή αποπροσάρτησης:"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+"Ορίστε εδώ την εντολή αποπροσάρτησης της συσκευής σας, κενές εντολές δεν "
+"εκτελούνται."
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr "αδύνατη η εκτέλεση του %1"
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Επιλέξατε την <b>οριστική</b> διαγραφή ενός αρχείου.\n"
+"<p>Επιλέξατε την <b>οριστική</b> διαγραφή %n αρχείων."
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr "Δε βρέθηκε η συσκευή, παρακαλώ προσαρτήστε την και προσπαθήστε ξανά."
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+msgid "Media Device Browser"
+msgstr "Περιηγητής συσκευών πολυμέσων"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+"Υπάρχουν κομμάτια σε αναμονή για μεταφορά. Επιθυμείτε τη μεταφορά τους πριν την "
+"αποσύνδεση;"
+
+#: mediabrowser.cpp:954
+msgid "&Transfer"
+msgstr "&Μεταφορά"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+"Η συσκευή σας τώρα συγχρονίστηκε, παρακαλώ αποπροσαρτήστε την και αποσυνδεθείτε "
+"τώρα."
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr "Η συσκευή σας τώρα συγχρονίστηκε, μπορείτε να αποσυνδεθείτε τώρα."
+
+#: podcastsettings.cpp:20
+msgid "Configure Podcast Stream"
+msgstr "Ρύθμιση ροής εκπομπής Pod"
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr "Εφαρμογή σε όλες τις εκπομπές Pod"
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr "<p>Αυτό θα ορίσει τις ρυθμίσεις εκπομπής pod καθολικά. Είστε σίγουροι;"
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+msgid "Presets"
+msgstr "Προεπιλογές"
+
+#: equalizerpresetmanager.cpp:100
+msgid "Rename Equalizer Preset"
+msgstr "Μετονομασία προεπιλογής ισοσταθμιστή"
+
+#: equalizerpresetmanager.cpp:101
+msgid "Enter new preset name:"
+msgstr "Εισαγωγή νέου ονόματος προεπιλογής:"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+"Όλες οι προεπιλογές θα διαγραφούν και θα επανέλθουν οι προκαθορισμένες. Είστε "
+"σίγουροι;"
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Ο διαχειριστής λίστας αναμονής</h3>για να δημιουργήσετε μια λίστα αναμονής, "
+"<b>σύρετε</b> κομμάτια από τη λίστα, και <b>αφήστε</b> τα εδώ."
+"<br>"
+"<br>Σύρετε αρχεία μέσα στο διαχειριστή,για να την αναταξινόμησή τους.</div>"
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+msgid "Queue Manager"
+msgstr "Διαχειριστής λίστας αναμονής"
+
+#: queuemanager.cpp:276
+msgid "Move up"
+msgstr "Μετακίνηση πάνω"
+
+#: queuemanager.cpp:277
+msgid "Move down"
+msgstr "Μετακίνηση κάτω"
+
+#: queuemanager.cpp:279
+msgid "Enqueue track"
+msgstr "Κομμάτι στην αναμονή"
+
+#: queuemanager.cpp:280
+msgid "Clear queue"
+msgstr "Καθαρισμός λίστας αναμονής"
+
+#: tagdialog.cpp:59
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr ""
+"1 κομμάτι\n"
+"Πληροφορίες για %n κομμάτια"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "Δημιουργία ηχητικού αποτυπώματος..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "Το κομμάτι δε βρέθηκε στη βάση δεδομένων του MusicBrainz."
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr ""
+"Παρακαλώ εγκαταστήστε το MusicBrainz για να ενεργοποιήσετε αυτή τη λειτουργία"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "Δυστυχώς, η ετικέτα του %1 δε μπορεί να τροποποιηθεί."
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr "Η TagLib αναφέρει ότι %1 αρχείο δεν είναι εγγράψιμο."
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "&Προσθήκη πολυμέσων..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "&Αποθήκευση λίστας ως..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "Αναπαραγωγή πολυμέσου..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "Αναπαραγωγή CD ήχου"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "Ρύθμιση &καθολικών συντομεύσεων..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "Προηγούμενο κομμάτι"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "Επόμενο κομμάτι"
+
+#: playlistwindow.cpp:186
+msgid "S&earch:"
+msgstr "Α&ναζήτηση:"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+"Εισάγετε όρους διαχωρισμένους με κόμμα για φιλτράρισμα της λίστας.\n"
+"\n"
+"Υπάρχει επίσης προχωρημένη δυνατότητα σύνταξης όπως αυτή του Google:\n"
+"δείτε το εγχειρίδιο (Το τμήμα για τη λίστα στο κεφάλαιο 4) για λεπτομέρειες."
+
+#: playlistwindow.cpp:257
+msgid "&Cover Manager"
+msgstr "Διαχειριστής ε&ξωφύλλων"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+msgid "&Equalizer"
+msgstr "&Ισοσταθμιστής"
+
+#: playlistwindow.cpp:263
+msgid "&First-Run Wizard"
+msgstr "Μά&γος πρώτης εκτέλεσης"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "Απόκρυψη γραμμής εργαλείων"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "Εμφάνιση γραμμής εργαλείων"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "Απόκρυψη παραθύρου &αναπαραγωγής"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "&Εμφάνιση παραθύρου αναπαραγωγής"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "&Ενέργειες"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "&Λίστα"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "Σχετικό περιεχόμενο"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "Συσκευή πολυμέσων"
+
+#: playlistwindow.cpp:662
+msgid "Play Media"
+msgstr "Αναπαραγωγή πολυμέσου"
+
+#: playlistwindow.cpp:662
+msgid "Add Media"
+msgstr "Προσθήκη πολυμέσων"
+
+#: collectionreader.cpp:37
+msgid "Building Collection"
+msgstr "Κατασκευή συλλογής"
+
+#: collectionreader.cpp:67
+msgid "Updating Collection"
+msgstr "Ενημέρωση συλλογής"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "Ενημέρωση συλλογής..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr ""
+"Αναφορά αυτού του αρχείου αν το amaroK καταρρεύσει κατά την κατασκευή της "
+"συλλογής"
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "Ανάγνωση δομής καταλόγων"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "Ανάγνωση μεταδεδομένων"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Ο GStreamer αδυνατεί να εκκινήσει.</h3> "
+"<p>Παρακαλώ βεβαιωθείτε ότι έχετε εγκαταστήσει όλα τα απαραίτητα πρόσθετά του "
+"(π.χ OGG και MP3), και εκτελέστε έπειτα <i>'gst-register'</i>.</p>"
+"<p>Για περισσότερη βοήθεια συμβουλευτείτε το εγχειρίδιο του GStreamer και "
+"συνδεθείτε στο #gstreamer στο irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Λείπει μια εγγραφή του GStreamer.</h3> "
+"<p>Παρακαλώ βεβαιωθείτε ότι εγκαταστήσατε Όλα τα απαραίτητα πρόσθετα του "
+"GStreamer (π.χ. OGG και MP3), και εκτελέστε το <i>'gst-register'</i> έπειτα.</p>"
+"<p>Για βοήθεια συμβουλευτείτε το εγχειρίδιο του GStreamer, ή συνδεθείτε στο "
+"#gstreamer στο irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+"<p>Παρακαλώ επιλέξτε ένα <u>πρόσθετο εξόδου</u> GStreamer στο διάλογο ρυθμίσεων "
+"μηχανής ήχου.</p>"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Ο GStreamer αδυνατεί να δημιουργήσει το στοιχείο: <i>%1</i></h3> "
+"<p>Παρακαλώ βεβαιωθείτε ότι εγκαταστήσατε όλα τα απαραίτητα πρόσθετα "
+"GStreamer(π.χ. OGG και MP3), και εκτελέστε έπειτα <i>'gst-register'</i>.</p>"
+"<p>Για περισσότερη βοήθεια συμβουλευτείτε το εγχειρίδιο του GStreamer, και στο "
+"#gstreamer στο irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "Φόρτωμα.. %1%"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+"<h3>Το amaroK αδυνατεί να ξεκινήσει το MAS.</h3>"
+"<p>Ελέγξτε αν έχει εκκινήσει o δαίμονας mas.</p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>Ο artsd δεν εκτελείται με <b>προτεραιότητα πραγματικού χρόνου</b> "
+"οπότε μπορεί η αναπαραγωγή ήχου να παρουσιάσει \"κοψίματα\" και τρεμόπαιγμα."
+"<p>"
+"<p>Για να χρησιμοποιήσετε την προτεραιότητα πραγματικού χρόνου, ανοίξτε το "
+"κέντρο ελέγχου του KDE και ενεργοποιήστε το \"Εκτέλεση με τη μεγαλύτερη δυνατή "
+"προτεραιότητα\", στο <i>Σύστημα ήχου</i> στον κλάδο <i>Ήχος & πολυμέσα</i>"
+". Ίσως θα πρέπει να ελέγξετε επίσης ότι το \"$KDEDIR/bin/artswrapper\" έχει <b>"
+"οριστεί suid</b> (chmod +s).</p>"
+"<p>Ίσως πάλι διαπιστώσετε ότι, η αναπαραγωγή είναι μια χαρά και χωρίς να "
+"αυξήσετε την προτεραιότητα του artsd.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "Πρόβλημα aRts"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr ""
+"Αδυναμία εκκίνησης του aRts. Πρέπει να χρησιμοποιήσετε άλλη μηχανή ήχου."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "Κρίσιμο σφάλμα"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>Σφάλμα κατά την εκκίνηση του libamarokarts. Δοκιμάστε πρώτα:"
+"<pre>killall -9 artsd && amarok</pre> αν δε δουλέψει αυτό τότε είναι πιθανόν "
+"ότι το amaroK εγκαταστάθηκε με λάθος πρόθεμα; παρακαλώ ξαναρυθμίστε το amaroK "
+"με:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "Σφάλμα amaroK"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr "Σφάλμα: Δεν έχει εκκινηθεί μηχανή ήχου, αδυναμία εκτέλεσης κομματιού."
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr "Αυτόματη σάρωση"
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "Ο amaroK αδυνατεί να εκκινήσει το xine."
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "το xine δεν μπορεί να εκκινήσει κανέναν οδηγό ήχου."
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "Το amaroK δε μπορεί να δημιουργήσει μια νέα ροή xine."
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+msgid "Radio Stream"
+msgstr "Ροή ραδιοφώνου"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "Δεν υπάρχει διαθέσιμο άρθρωμα εισόδου: ελέγξτε την εγκατάστασή σας."
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "Δεν υπάρχει διαθέσιμο άρθρωμα demux: ελέγξτε την εγκατάστασή σας."
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "Απέτυχε το demuxing: ελέγξτε την εγκατάστασή σας."
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "Εσωτερικό σφάλμα: ελέγξτε την εγκατάστασή σας."
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr "Ανακατεύθυνση στο:"
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "Άγνωστος εξυπηρετητής στο URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "Το όνομα συσκευής που ορίσατε μοιάζει να μην είναι έγκυρο."
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "Το δίκτυο φαίνεται να είναι απροσπέλαστο."
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "Μη διαθέσιμη έξοδος ήχου: η συσκευή είναι απασχολημένη."
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "Άρνηση σύνδεσης από το URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "Το xine αδυνατεί να βρει το URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "Απαγόρευση πρόσβασης από το URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "Αδυναμία ανάγνωσης της πηγής στο URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr "Πρόβλημα κατά την φόρτωση μιας βιβλιοθήκης ή αποκωδικοποιητή."
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "Γενική προειδοποίηση"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "Προειδοποίηση ασφαλείας"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "Άγνωστο σφάλμα"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "Δυστυχώς, δεν είναι διαθέσιμες επιπλέον πληροφορίες."
+
+#: engine/helix/helix-engine.cpp:122
+msgid "Contacting: "
+msgstr "Σύνδεση: "
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr "Φόρτωμα %1%"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+"Η βιβλιοθήκη helix που ρυθμίσατε δεν υποστηρίζει ALSA, η μηχανή ήχου helix "
+"επέστρεψε στη χρήση του OSS"
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+"Αδυναμία του amaroK να αρχικοποιήσει τη μηχανή ήχου helix. Παρακαλώ ελέγξτε τις "
+"διαδρομές στο\"Ρυθμίσεις amaroK\" -> \"Μηχανή ήχου\""
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr "Δε βρέθηκε πρόσθετο για τη μορφή %1"
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "Πρόσθετο εξόδου:"
+
+#: engine/helix/helix-configdialog.cpp:133
+msgid "Device:"
+msgstr "Συσκευή:"
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr "Κύριος"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr "Κατάλογος πυρήνα Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr "Αυτός είναι ο κατάλογος όπου βρίσκεται το clntcore.so"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr "Κατάλογος πρόσθετων Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr ""
+"Αυτός είναι ο κατάλογος όπου βρίσκεται, για παράδειγμα, το vorbisrend.so"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr "Κατάλογος κωδικοποιητών Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr "Αυτός είναι ο κατάλογος όπου βρίσκεται, για παράδειγμα, το cvt1.so is"
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr "Πρόσθετα"
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "Αδυναμία εκκίνησης του K3b."
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "Συνέβη ένα σφάλμα επικοινωνίας DCOP με το K3b."
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+"Δημιουργία ενός CD ήχου, κατάλληλο για αναγνώστες CD, ή ενός CD δεδομένων για "
+"υπολογιστές και άλλες ψηφιακές συσκευές αναπαραγωγής;"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "Δημιουργία έργου K3b"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "Λειτουργία ήχου"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "Λειτουργία δεδομένων"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "Σύστημα ήχου"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "Κλικ για επιλογή του συστήματος ήχου για την αναπαραγωγή."
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "Κλικ για πληροφορίες του πρόσθετου."
+
+#: configdialog.cpp:102
+msgid "Locale Encoding"
+msgstr "Σελίδα κωδικοποίησης"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "Γενικά"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "Ρυθμίσεις γενικών επιλογών"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "Ρυθμίσεις εμφάνισης του amaroK"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "Αναπαραγωγή"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "Ρυθμίσεις αναπαραγωγής"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "OSD"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "Ρυθμίσεις απεικόνισης πάνω-στην-οθόνη (OSD)"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "Μηχανή ήχου"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "Ρυθμίσεις μηχανής ήχου"
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr "last.fm"
+
+#: configdialog.cpp:129
+msgid "Configure last.fm Support"
+msgstr "Ρύθμιση υποστήριξης last.fm"
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "Ρύθμιση του %1"
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr "100%"
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr "40%"
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr "20%"
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr "0%"
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+msgid "%1 by %2"
+msgstr "%1 από %2"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 kbps"
+
+#: metabundle.h:106
+msgid "Stream"
+msgstr "Ροή"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 kHz"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "Αποτελέσματα MusicBrainz"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr "Υποβολή στο last.fm"
+
+#: scrobbler.cpp:939
+msgid "'%1' submitted to last.fm"
+msgstr "Το '%1' υποβλήθηκε στο last.fm"
+
+#: scrobbler.cpp:942
+msgid "Several tracks submitted to last.fm"
+msgstr "Αρκετά κομμάτια υποβλήθηκαν στο last.fm"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr ""
+"Το '%1' και ένα άλλο κομμάτι υποβλήθηκαν\n"
+"Το '%1' και %n άλλα κομμάτια υποβλήθηκαν"
+
+#: scrobbler.cpp:953
+msgid "Failed to submit '%1' to last.fm"
+msgstr "Αποτυχία υποβολής του '%1' στο last.fm"
+
+#: scrobbler.cpp:956
+msgid "Failed to submit several tracks to last.fm"
+msgstr "Αποτυχία υποβολής αρκετών κομματιών στο last.fm"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr ""
+"Αποτυχία υποβολής του '%1' και ενός ακόμη κομματιού\n"
+"Αποτυχία υποβολής του '%1' και %n ακόμη κομματιών"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr ""
+"Ένα κομμάτι ακόμα σε αναμονή\n"
+"%n κομμάτια ακόμα σε αναμονή"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr "partyDialogBase"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "Τύπος τραγουδιού για προσθήκη στη λίστα"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, no-c-format
+msgid "Random Song"
+msgstr "Τυχαίο τραγούδι"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, no-c-format
+msgid "Suggested Song"
+msgstr "Προτεινόμενο τραγούδι"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, no-c-format
+msgid "Playlist Shuffle"
+msgstr "Ανακάτεμα λίστας"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr "Επιλέξτε τον τύπο τραγουδιού που επιθυμείτε να προστεθεί στη λίστα"
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, no-c-format
+msgid "&Remove played tracks"
+msgstr "&Αφαίρεση εκτελεσμένων κομματιών"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr "Αυτόματη αφαίρεση των εκτελεσμένων κομματιών από τη λίστα"
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr "&Σήμανση ιστορικού"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr "Μετά την αναπαραγωγή, τα κομμάτια θα απενεργοποιηθούν"
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr "Εκτελεσμένα κομμάτια για εμφάνιση:"
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr "Πόσα κομμάτια που έχουν αναπαραχθεί να εμφανίζονται πριν την αφαίρεση"
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, no-c-format
+msgid "Upcoming tracks:"
+msgstr "Επόμενα κομμάτια:"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr ""
+"Ο ελάχιστος αριθμός των επερχόμενων κομματιών που θα διατηρούνται στη λίστα."
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr "Κομμάτια για προσθήκη:"
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr ""
+"Ο αριθμός των κομματιών που θα προστίθενται στη λίστα μετά από κάθε τραγούδι"
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "Όνομα αρχείου"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr "Επιλογή καλύτερου δυνατού ταιριάσματος"
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, no-c-format
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "Κομμάτι"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "DirectoryListBase"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "Σενάρια"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "Αυτά τα σενάρια είναι αυτή τη στιγμή γνωστά στο amaroK."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, no-c-format
+msgid "&Install Script"
+msgstr "Εγ&κατάσταση σεναρίου"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr "&Λήψη επιπλέον σεναρίων"
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, no-c-format
+msgid "&Run"
+msgstr "&Εκτέλεση"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, no-c-format
+msgid "&Stop"
+msgstr "&Σταμάτημα"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr "&Απεγκατάσταση"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr "Αυ&τόματη εκκίνηση σεναρίων κατά την έναρξη της εφαρμογής"
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr ""
+"Αν ενεργοποιηθεί, το amaroK θα εκκινεί αυτόματα τα σενάρια που έτρεχαν τη "
+"στιγμή που εγκαταλείψατε την εφαρμογή."
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+"<p align=\"center\">Τα μπλε συρόμενα σημεία μπορούν να συρθούν για να ρυθμιστεί "
+"ο ισοσταθμιστής. Διπλό κλικ στη γραμμή για να προσθέσετε νέο συρόμενο σημείο</p>"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr "<p align=\"center\">Προ-ενίσχ</p>"
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "Γραμμή εργαλείων λίστας"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, no-c-format
+msgid "Podcast Configuration"
+msgstr "Ρυθμίσεις εκπομπής Pod"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "Ενεργοποίηση αυ&τόματης λήψης"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr ""
+"Αν ενεργοποιηθεί, το amaroK θα ελέγχει αυτόματα την εκπομπή pod για ενημερώσεις"
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr "URL:"
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr "Τοποθεσία της εκπομπής pod"
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, no-c-format
+msgid "Media Download"
+msgstr "Κατέβασμα πολυμέσων"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "Ροή ή κατέβασμα όπως &ζητείται"
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+"Τα πολυμέσα πρέπει να ληφθούν, αλλιώς η εκπομπή pod θα αναπαράγεται από τον "
+"απομακρυσμένο εξυπηρετητή."
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, no-c-format
+msgid "Download when a&vailable"
+msgstr "Κατέβασμα όταν είναι &διαθέσιμο"
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr "Κατέβασμα πολυμέσων μόλις γίνουν διαθέσιμα"
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, no-c-format
+msgid "Save location:"
+msgstr "Τοποθεσία αποθήκευσης:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr "Περιορισμός &αριθμού αντικειμένων"
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr "Αν ενεργοποιηθεί, το amaroK θα απορρίπτει παλαιότερες εκπομπές pod"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr "Διατήρηση το μέγιστο:"
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, no-c-format
+msgid " Items"
+msgstr " αντικείμενα"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr "Ο μέγιστος αριθμός αντικειμένων εκπομπής pod που αποθηκεύονται"
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "Μάγος πρώτης εκτέλεσης"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>Καλώς ήρθατε!</h1>\n"
+"<p>Είναι αλήθεια, ότι υπάρχουν πολλά προγράμματα αναπαραγωγής μέσων αυτό τον "
+"καιρό. Αλλά αυτό που λείπει από τα περισσότερα από αυτά είναι ένα περιβάλλον "
+"που δεν θα μπλέκεται στα πόδια σας. Πόσα κουμπιά πρέπει να πατήσετε μόνο και "
+"μόνο για να προσθέσετε ένα αρχείο πολυμέσων στη λίστα τραγουδιών σας; Το amaroK "
+"προσπαθεί να είναι κάπως διαφορετικό και να παρέχει ένα απλό περιβάλλον με "
+"λειτουργίες συρσίματος και ελευθέρωσης που κάνει πανεύκολο το χειρισμό της "
+"λίστας τραγουδιών."
+"<p>\n"
+"<p align=\"right\"><i>\"Το amaroK είναι πραγματικά υπέροχο!\"</i> "
+"- Θείος Rodney</p>\n"
+"<h2>Μάγος πρώτης εκτέλεσης</h2>\n"
+"<p>Αυτός ο μάγος θα σας βοηθήσει να εγκαταστήσετε το amaroK σε τρία εύκολα "
+"βήματα. Πατήστε <i>Επόμενο</i> για να ξεκινήσετε, αν δε σας αρέσουν οι μάγοι, "
+"πατήστε <i>Παράλειψη</i>.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr "Περιβάλλον (1 από 3)"
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+"Ένα παράθυρο για αναπαραγωγή και λίστα\n"
+"συνδυασμένο (όπως το JuK)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr ""
+"Ξεχωριστό παράθυρο αναπαραγωγής και λίστας\n"
+"(όπως το XMMS ή το Winamp)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p>Με το amaroK μπορείτε να χρησιμοποιήσετε τη διάταξη παραθύρων που βρίσκετε "
+"πιο άνετη.</p>\n"
+"<p>Μπορείτε να αλλάξετε αυτές τις ρυθμίσεις αργότερα από το διάλογο ρυθμίσεων "
+"του amaroK.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "Συλλογή (2 από 3)"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+"<p>Παρακαλώ επιλέξτε τους φακέλους στα δεξιά όπου θα αποθηκευτούν τα αρχεία "
+"μουσικής σας.</p>\n"
+"<p>Συστήνεται έντονα η επιλογή φακέλων, καθώς αυτό θα σας προσφέρει βελτιωμένες "
+"δυνατότητες.</p>\n"
+"<p>Αν επιθυμείτε, το amaroK μπορεί να ελέγχει αυτούς τους καταλόγους για νέα "
+"αρχεία και να τα προσθέτει στη συλλογή..</p>"
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, no-c-format
+msgid "Database (3 of 3)"
+msgstr "Βάση δεδομένων (3 από 3)"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+"Το amaroK χρησιμοποιεί μια βάση δεδομένων για την αποθήκευση πληροφοριών "
+"σχετικά με τη μουσική σας. Αν δεν είστε σίγουροι πια μορφή να επιλέξετε, "
+"πατήστε το Επόμενο.\n"
+"<p>Η <b>MySQL</b>ή η <b>Postgrsql</b> είναι γρηγορότερες από την <b>sqlite</b>"
+", αλλά απαιτούν επιπλέον εγκαταστάσεις.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/MySQL_HowTo\">"
+"Οδηγίες για τη ρύθμιση της MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/Postgresql_HowTo\">"
+"Οδηγίες για τη ρύθμιση της Postgresql</a>.</li>\n"
+"</ul>"
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>Συγχαρητήρια!</h1>\n"
+"<p>Το amaroK είναι έτοιμο για χρήση! Όταν πατήσετε το Τέλος το amaroK θα "
+"εμφανιστεί και θα ξεκινήσει η σάρωση των φακέλων της συλλογής σας.</p>\n"
+"<p>Το παράθυρο λίστας του amaroK θα απεικονίσει τη <b>Συλλογή</b> "
+"σας αριστερά και τη <b>Λίστα</b> δεξιά. Σύρετε και αφήστε τη μουσική από τη "
+"συλλογή στη λίστα και πατήστε <b>Αναπαραγωγή</b>.</p>\n"
+"<p>Αν θέλετε επιπλέον βοήθεια ή κάποιο οδηγό, παρακαλούμε δείτε το <a "
+"href=\"help:/amarok\">Εγχειρίδιο του amaroK</a>. Ελπίζουμε να ευχαριστηθείτε με "
+"τη χρήση του amaroK.</p>\n"
+"<p align=\"right\">Οι προγραμματιστές του amaroK</p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "Ρύθμιση βάσης δεδομένων"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, no-c-format
+msgid "Database:"
+msgstr "Βάση δεδομένων:"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, no-c-format
+msgid "Postgresql Configuration"
+msgstr "Ρυθμίσεις Postgresql"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr "Σύνδεση:"
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "Παράμετροι σύνδεσης σε αυτή τη βάση δεδομένων."
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "Ρυθμίσεις MySQL"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "Υπολογιστής:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "Όνομα:"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr "Η θύρα σύνδεσης με τον εξυπηρετητή mysql."
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "Θύρα:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr "Το όνομα του υπολογιστή όπου βρίσκεται η βάση δεδομένων."
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr "Το όνομα της βάσης δεδομένων."
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr "Το όνομα χρήστη με το οποίο θα γίνει η σύνδεση."
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr "Ο κωδικός πρόσβασης με τον οποίο θα γίνει η σύνδεση."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "Μέθοδος εξόδου ήχου"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+"Επιλέξτε το πρόσθετο εξόδου ήχου (\"sink\"). Η διαθεσιμότητα εξαρτάται από τις "
+"ρυθμίσεις του συστήματος."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "Μη χρήση της ανιχνευμένης συσκευής ήχου audiosink"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr ""
+"Αν ενεργοποιηθεί, χρησιμοποιείται η ορισμένη από το χρήστη συσκευή ήχου για το "
+"audiosink."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "Συσκευή εξόδου ήχου"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+"Επιλέξτε τη συσκευή εξόδου ήχου, χρησιμεύει για την έξοδο ήχου της μηχανής "
+"gstreamer."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "Χρήση προσαρμοσμένων παραμέτρων για το πρόσθετο εξόδου."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "Οι προσαρμοσμένες παράμετροι του πρόσθετου εξόδου ήχου."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "Διάρκεια ομαλού σβησίματος στο τέλος κομματιού"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "Ρυθμίσεις μηχανής GStreamer - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "Προσαρμοσμένη συσκευή ήχου. Παράδειγμα: /dev/dsp2"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " msec"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr "&Συσκευή:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "Χρήση προσαρμοσμένης συσκευής ήχου"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, no-c-format
+msgid "&Fade-out:"
+msgstr "Διάρκεια ομαλού σ&βησίματος:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, no-c-format
+msgid "&Output plugin:"
+msgstr "Πρόσθετο ε&ξόδου:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "πρόσθετο εξόδου GStreamer"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "Προσαρμοσμένες παράμετροι. Παράδειγμα: sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, no-c-format
+msgid "&Parameters:"
+msgstr "&Παράμετροι:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "Χρήση προσαρμοσμένων παραμέτρων πρόσθετου εξόδου"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr "Επιλέξτε το πρόσθετο εξόδου ήχου."
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, no-c-format
+msgid "Enable a custom device"
+msgstr "Ενεργοποίηση προσαρμοσμένης συσκευής"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+"Αν επιλεγεί, ενεργοποιεί τη ρύθμιση μιας προσαρμοσμένης συσκευής ήχου. Σε άλλη "
+"περίπτωση χρησιμοποιείται η προκαθορισμένη."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, no-c-format
+msgid "Xine Configure"
+msgstr "Ρύθμιση του Xine"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr ""
+"Η συσκευή ήχου μπορεί να τροποποιηθεί μετά την αλλαγή του πρόσθετου εξόδου σε "
+"ALSA ή OSS."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "Ρυθμίσεις συσκευής ALSA"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr "&Μονοφωνικά:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, no-c-format
+msgid "&Stereo:"
+msgstr "&Στερεοφωνικά:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr "&4 κανάλια:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr "&6 κανάλια:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, no-c-format
+msgid "OSS Device Configuration"
+msgstr "Ρυθμίσεις συσκευής OSS"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr "Διάτα&ξη ηχείων:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr "Διαμεσολαβητής HTTP για ροή"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, no-c-format
+msgid "&Host:"
+msgstr "&Υπολογιστής:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, no-c-format
+msgid "&User:"
+msgstr "&Χρήστης:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, no-c-format
+msgid "&Password:"
+msgstr "&Κωδικός πρόσβασης:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, no-c-format
+msgid "Output plugin"
+msgstr "Πρόσθετο εξόδου:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr "OSS και ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, no-c-format
+msgid "Device"
+msgstr "Συσκευή"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, no-c-format
+msgid "ALSA Device"
+msgstr "Συσκευή ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr "ΣυσκευήΕνεργή"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr "Είναι επιλεγμένη η συσκευή"
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, no-c-format
+msgid "Track Information"
+msgstr "Πληροφορίες κομματιού"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "&Επόμενο"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, no-c-format
+msgid "Sa&ve && Close"
+msgstr "&Αποθήκευση && έξοδος"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "Ά&λμπουμ:"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "Δειγματοληψία:"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "&Καλλιτέχνης:"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "&Είδος:"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "Διάρκεια:"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "&Έτος:"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, no-c-format
+msgid "&Score:"
+msgstr "&Βαθμολογία:"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "Ρυθμός bit:"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "Κο&μμάτι:"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "&Τίτλος:"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, no-c-format
+msgid "Playcount:"
+msgstr "Μετρητής εκτελέσεων:"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "Συμπλήρωση ετικετών με &χρήση του MusicBrainz"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "Ανίχνευση μεταδεδομένων από αποτύπωμα."
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "&Σχόλιο:"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "Γενικές επιλογές"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "Εμφάνιση εισαγωγικής οθόνης κατά την έναρ&ξη"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr ""
+"Ενεργοποιήστε το για την ενεργοποίηση της εισαγωγικής οθόνης κατά την εκκίνηση "
+"του amaroK."
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "Εμφάνιση εικονιδίου στο &πλαίσιο συστήματος"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr ""
+"Επιλέξτε το για την ενεργοποίηση της εμφάνισης του εικονιδίου του amaroK στο "
+"πλαίσιο του συστήματος."
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr "&Αναβόσβημα εικονιδίου κατά την αναπαραγωγή"
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr ""
+"Επιλέξτε το για να αναβοσβήνει το εικονίδιο του amarok στο πλαίσιο εικονιδίων "
+"του συστήματος."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "Εμφάνιση παράθυρου αναπαραγωγής (όπως το &XMMS)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "Επιλέξτε το για να ενεργοποιηθεί ένα επιπλέον παράθυρο αναπαραγωγής."
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "Προκαθορισμένο μέγεθος επισκόπησης ε&ξώφυλλων:"
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "Το μέγεθος σε εικονοστοιχεία της επισκόπησης εξώφυλλου."
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr "px"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr "Το μέγεθος σε εικονοστοιχεία των επισκοπήσεων εξώφυλλου."
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "Επιλογές παράθυρου λίστας"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "&Διατήρηση της τρέχουσας λίστας κατά την έξοδο"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα αποθηκεύει την τρέχουσα λίστα κατά την έξοδο και θα "
+"την επαναφέρει στην επόμενη εκκίνηση. "
+"<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα αποθηκεύει την τρέχουσα λίστα κατά την έξοδο και θα "
+"την επαναφέρει στην επόμενη εκκίνηση."
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr "&Σχετική διαδρομή για χειροκίνητη αποθήκευση λίστας"
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιεί σχετική διαδρομή για κομμάτια σε λίστες "
+"αποθηκευμένες χειροκίνητα από το χρήστη."
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr "&Διατήρησε ορατό το ενεργό τραγούδι σε αλλαγή κομματιού"
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"Αν επιλεχθεί, η λίστα αναπαραγωγής θα κυλά κατά την αλλαγή τραγουδιού για να "
+"διατηρήσει το ενεργό κομμάτι ορατό μέσα στη λίστα. Η κύλιση δε συμβαίνει αν "
+"αυτό δεν είναι κατάλληλο."
+"<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"Αν επιλεχθεί, η λίστα αναπαραγωγής θα κυλά κατά την αλλαγή τραγουδιού για να "
+"διατηρήσει το ενεργό κομμάτι ορατό μέσα στη λίστα. Η κύλιση δε συμβαίνει αν "
+"αυτό δεν είναι κατάλληλο."
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "Εναλλαγή στην περιήγηση περιεχομένου κατά την αλ&λαγή κομματιού"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr ""
+"Εναλλαγή στην περιήγηση περιεχομένου, όταν αναπαράγεται ένα κομμάτι."
+"<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "Εναλλαγή στην περιήγηση περιεχομένου, όταν αναπαράγεται ένα κομμάτι."
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, no-c-format
+msgid "Show s&tatusbar"
+msgstr "Εμφάνιση &γραμμής κατάστασης"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr ""
+"Επιλέξτε το για την εμφάνιση της γραμμής κατάστασης στο παράθυρο λίστας."
+"<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr ""
+"Επιλέξτε το για την εμφάνιση της γραμμής κατάστασης στο παράθυρο λίστας."
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "Εμφάνιση στατιστικών κατά άλ&μπουμ"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "Εμφάνιση στατιστικών κατά άλμπουμ στο σχετικό περιεχόμενο.<br>"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "Εμφάνιση στατιστικών κατά άλμπουμ στο σχετικό περιεχόμενο."
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "Κωδικοποιήσεις"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "Μη κωδικοποίηση των παρακάτω ως latin1:"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "Ετικέτες ID&3v1"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+"Αποκωδικοποίηση των ετικετών ID3v1 (χρησιμοποιείται από κάποια MP3) με χρήση "
+"του παρακάτω συνόλου χαρακτήρων."
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "&Μεταδεδομένα Shoutcast"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+"Αποκωδικοποίηση των πληροφοριών τίτλου και καλλιτέχνη από μουσικές ροές "
+"Shoutcast με χρήση του παρακάτω συνόλου χαρακτήρων."
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "Αντίθετα α&ποκωδικοποίηση με το σύνολο χαρακτήρων:"
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+"Αν ενεργοποιήθηκαν τα μεταδεδομένα ID3v1 ή Shoutcast, θα αποκωδικοποιούνται με "
+"αυτήν την κωδικοποίηση χαρακτήρων."
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "&Χρήση προσαρμοσμένων γραμματοσειρών"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "Επιλέξτε το για να ενεργοποιήσετε προσαρμοσμένες γραμματοσειρές."
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "Γραμματοσειρά παράθυρου αναπαραγωγής:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "Η γραμματοσειρά που θα χρησιμοποιηθεί στο παράθυρο αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "Γραμματοσειρά παράθυρου λίστας:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "Η γραμματοσειρά που θα χρησιμοποιηθεί στο παράθυρο λίστας.."
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "Γραμματοσειρά σχετικού περιεχομένου:"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "Η γραμματοσειρά που θα χρησιμοποιηθεί στο σχετικό περιεχόμενο."
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "Θέμα χρώματος"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "&Προσαρμοσμένο θέμα χρώματος"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει τα ορισμένα από το χρήστη χρώματα για "
+"τη λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "&Προσκήνιο:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "Επιλογή του χρώματος προσκηνίου για τη λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr ""
+"Κλικ για επιλογή του χρώματος προσκηνίου του κειμένου για τη λίστα "
+"αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "Επιλογή του χρώματος προσκηνίου (κείμενο) για τη λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "&Φόντο:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "Επιλογή του χρώματος φόντου για τη λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "Κλικ για επιλογή του χρώματος φόντου για τη λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "Το τρέχον θέμα χρωμάτων του &KDE"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει τα τυπικά χρώματα του KDE για τη "
+"λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "Το κλασσικό θέμα του &amaroK, \"funky-monkey\""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει τα τυπικά χρώματα του amaroK για τη "
+"λίστα αναπαραγωγής."
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "Στυλ σχετικού περιεχομένου"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "Επιλογή ενός στυλ:"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "Επιλογή του στυλ του σχετικού περιεχομένου."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, no-c-format
+msgid "Install New Style..."
+msgstr "Εγκατάσταση νέου στυλ..."
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+"Κλικ για την εγκατάσταση ενός νέου στυλ του σχετικού περιεχομένου."
+"<br>Συμβουλή: Περισσότερα στυλ μπορούν να βρεθούν στο <a "
+"href='http://kde-look.org'>http://kde-look.org</a>"
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr "Επιλογή και εγκατάσταση νέου στυλ του σχετικού περιεχομένου."
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr "Κατέβασμα στυλ..."
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "Κλικ για το κατέβασμα νέων στυλ του σχετικού περιεχομένου."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "Επιλογή και κατέβασμα νέων στυλ του σχετικού περιεχομένου."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "Συμπεριφορά &μετάβασης"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>Συμπεριφορά μετάβασης</b>\n"
+"<p>Κατά την αναπαραγωγή, όταν το amaroK μεταβαίνει ανάμεσα στα κομμάτια, μπορεί "
+"είτε να συνεχίσει στο επόμενο κομμάτι ακαριαία (με ρυθμιζόμενη παύση), ή να "
+"μεταβεί ομαλά (με ρυθμιζόμενη περίοδο ομαλής αποστολής).</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "&Χωρίς ομαλή μετάβαση"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr ""
+"Ενεργοποίηση κανονικής μετάβασης κομματιών. Μπορείτε να ορίσετε μία παύση "
+"ανάμεσα στα κομμάτια."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "Εισαγωγή &παύσης:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " ms"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "Παύση μεταξύ των κομματιών, σε χιλιοστά του δευτερολέπτου."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "&Ομαλή μετάβαση"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"Ενεργοποίηση της ομαλής μετάβασης μεταξύ των κομματιών. Αυτή η επιλογή "
+"ενεργοποιεί επίσης και την ομαλή παύση σβησίματος ή αρχής π.χ. όταν πατηθεί το "
+"σταμάτημα."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "&Περίοδος μετάβασης:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr ""
+"Η διάρκεια της ομαλής μετάβασης μεταξύ των κομματιών, σε χιλιοστά του "
+"δευτερολέπτου."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "&Συνέχεια αναπαραγωγής στην εκκίνηση"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα "
+"<br>συνεχίζει την αναπαραγωγή από το σημείο που βρισκόταν στη τελευταία "
+"συνεδρία -- όπως ακριβώς ένα κασετόφωνο."
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "&Χρήση απεικόνισης στην οθόνη (OSD)"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"Επιλέξτε το για να ενεργοποιήσετε την απεικόνιση πάνω στην οθόνη (OSD). "
+"<br>Το OSD απεικονίζει για λίγο πληροφορίες ενός κομματιού στην αρχή της "
+"εκτέλεσής του."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"Επιλέξτε το για να ενεργοποιήσετε την απεικόνιση πάνω στην οθόνη (OSD). Το OSD "
+"απεικονίζει για λίγο πληροφορίες ενός κομματιού στην αρχή της εκτέλεσής του."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "&Γραμματοσειρά"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr ""
+"Η γραμματοσειρά που θα χρησιμοποιηθεί για την απεικόνιση πάνω στην οθόνη (OSD)."
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, no-c-format
+msgid "Draw &shadow"
+msgstr "Σχε&δίαση σκιάς"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "&Χρώματα"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "Χρήση &προσαρμοσμένων χρωμάτων"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr ""
+"Επιλέξτε το για να ορίσετε προσαρμοσμένα χρώματα για την απεικόνιση πάνω στην "
+"οθόνη."
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "Χρώμα φόντου:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "Το χρώμα φόντου της απεικόνισης πάνω στην οθόνη (OSD)."
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "Κλικ για επιλογή του χρώματος του κειμένου OSD."
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "Το χρώμα του κειμένου OSD."
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "Κλικ για επιλογή του χρώματος φόντου του OSD."
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "Χρώμα κειμένου:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr "Ορισμός φόντου ως διαφα&νές"
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "Εμφάνιση &κειμένου"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "Εμφάνιση των ίδιων πληροφοριών με τις στήλες της λίστας"
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, no-c-format
+msgid "&Duration:"
+msgstr "&Διάρκεια:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "Για πάντα"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"Η διάρκεια εμφάνισης του OSD σε χιλιοστά του δευτερολέπτου. Οι τιμές είναι "
+"μεταξύ 500 ms και 10000 ms."
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "Η οθόνη στην οποία θα απεικονίζεται το OSD."
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, no-c-format
+msgid "Sc&reen:"
+msgstr "Ο&θόνη:"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySql"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "Φάκελοι συλλογής"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "Βάση δεδομένων συλλογής"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"Το amaroK μπορεί να στέλνει το όνομα κάθε κομματιού που αναπαράγεται στο "
+"last.fm. Το σύστημα αυτόματα σας συνδέει με άτομα ίδιων μουσικών προτιμήσεων "
+"και παράγει προσωπικές προτάσεις. Περισσότερα για το last.fm, στην <A "
+"href='http://www.last.fm'>ιστοσελίδα</A>του."
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr "Προφίλ last.fm"
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<P>Για να χρησιμοποιήσετε το last.fm με το amaroK, πρέπει να έχετε ένα <A "
+"href='http://www.last.fm:80/signup.php'>προφίλ last.fm</A>."
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, no-c-format
+msgid "&Username:"
+msgstr "Όνομα &χρήστη:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr "Υπηρεσίες last.fm"
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+"Αν γίνει εγγραφή, το amaroK μπορεί να δηλώνει στο last.fm τις μουσικές σας "
+"προτιμήσεις, το προφίλ σας θα μπορεί να παρέχει στατιστικά και προτάσεις. Δε "
+"χρειάζεται να έχετε λογαριασμό για να λαμβάνετε λίστες παρόμοιων καλλιτεχνών "
+"για εμφάνιση στο σχετικό περιεχόμενο."
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "&Βελτίωση του προφίλ μου με την υποβολή των κομματιών που ακούω"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "&Λήψη παρόμοιων καλλιτεχνών"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"Γιατί δε συμμετέχετε στην <A href='http://www.last.fm:80/group/amaroK+users'>"
+"ομάδα amaroK του last.fm</A> για να μοιραστείτε τις μουσικές σας προτιμήσεις με "
+"άλλους χρήστες του amaroK;"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "Έκδοση Amarok"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr ""
+"Η συμβολοσειρά της έκδοσης του Amarok, χρησιμεύει στην επανεκκίνηση του aRts σε "
+"νέες εγκαταστάσεις."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "Θέση παράθυρου αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr "Η θέση του κύριου παράθυρου του amaroK κατά την εκκίνηση του amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "Θέση του παραθύρου λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "Η θέση του κύριου παράθυρου της λίστας κατά την εκκίνηση του amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "Μέγεθος του παράθυρου λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "Το μέγεθος του παραθύρου της λίστας κατά την εκκίνηση του amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "Αν θα αποθηκεύεται η λίστα αναπαραγωγής κατά την έξοδο"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα αποθηκεύει την τρέχουσα λίστα κατά την έξοδο και θα "
+"την επαναφέρει στην επόμενη εκκίνηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+"Αν θα ακολουθούνται οι συμβολικοί δεσμοί αναδρομικά κατά την προσθήκη "
+"αντικειμένων στη λίστα"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα ακολουθεί τους συμβολικούς δεσμούς όταν προσθέτει "
+"αρχεία ή καταλόγους στη λίστα αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "Αν θα εμφανίζεται ο εναπομένοντας χρόνος του κομματιού"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+"Επιλέξτε αυτό για την εμφάνιση του εναπομείναντα χρόνου του κομματιού στη θέση "
+"του χρόνου αναπαραγωγής του κομματιού στο παράθυρο αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "Αν θα αναπαράγεται το κομμάτι συνεχώς"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr "Αν επιλεχθεί, το amaroK θα επαναλαμβάνει για πάντα το τρέχων κομμάτι."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "Αν θα αναπαράγεται η λίστα συνεχώς"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα επαναλαμβάνει για πάντα την τρέχουσα λίστα "
+"αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "Αν θα αναπαράγονται τα κομμάτια με τυχαία σειρά"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα αναπαράγει τα κομμάτια στη λίστα με τυχαία σειρά."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "Αναπαραγωγή μιας δυναμικής λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr ""
+"Δυναμική λίστα αναπαραγωγής η οποία αφαιρεί τα εκτελεσμένα τραγούδια από τη "
+"λίστα και προσθέτει κάποιο άλλο τραγούδι."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr "Εμφάνιση βοήθειας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "Αν θα εμφανίζεται ο διάλογος δυναμικών πληροφοριών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr "Προσθήκη τραγουδιού αυτού του τύπου"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr ""
+"Η δυναμική λειτουργία θα προσθέσει αυτόν τον τύπο τραγουδιού στο τέλος της "
+"λίστας αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr "Σύνολο έξυπνων λιστών για προσθήκη στη δυναμική λειτουργία."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr "Αριθμός των επερχόμενων τραγουδιών για εμφάνιση"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Αριθμός των επερχόμενων τραγουδιών προς εμφάνιση στη λίστα για τη δυναμική "
+"λειτουργία."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr "Αριθμός ιστορικού τραγουδιών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Ο αριθμός των προηγούμενα εκτελεσμένων τραγουδιών προς εμφάνιση στη λίστα για "
+"τη δυναμική λειτουργία."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr "Αριθμός κομματιών για προσθήκη"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr ""
+"Αριθμός των τραγουδιών για προσθήκη στη λίστα αναπαραγωγής για τη δυναμική "
+"λειτουργία."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, no-c-format
+msgid "Cycle Tracks"
+msgstr "Επανάληψη κομματιών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "Αν θα αφαιρείται το πρώτο αντικείμενο στη λίστα αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr "Σήμανση ιστορικού"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr ""
+"Αν θα σημειώνονται τα αντικείμενα της λίστας ως ιστορικό μετά την αναπαραγωγή "
+"τους."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "Αν θα εμφανίζεται εικονίδιο στο πλαίσιο συστήματος."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "Ενεργοποίηση/απενεργοποίηση του εικονιδίου συστήματος για το amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "Αν θα υπάρχει κίνηση του εικονιδίου στο πλαίσιο συστήματος"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "Ενεργοποίηση/απενεργοποίηση της κίνησης στο εικονίδιο συστήματος."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "Αν θα εμφανίζεται το παράθυρο αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+"Ορίζει στο amaroK να μοιάζει περισσότερο με το XMMS και άλλους κλώνους του "
+"Winamp με ξεχωριστά παράθυρα αναπαραγωγής και λίστας."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr ""
+"Αν θα εμφανίζεται η γραμμή εργαλείων στο παράθυρο της λίστας αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr ""
+"Το μέγεθος της επισκόπησης εξώφυλλων στο σχετικό περιεχόμενο και στον "
+"διαχειριστή εξώφυλλων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "Αν θα εμφανίζεται η γραμμή κατάστασης της λίστας αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "Προβολή πληροφοριών κατάστασης στη λίστα αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "Αν θα προστίθενται κατάλογοι στη λίστα αναπαραγωγής αναδρομικά"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr ""
+"Ενεργοποίηση/απενεργοποίηση της αναδρομικής προσθήκης καταλόγου στη λίστα"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "Καθυστέρηση μεταξύ κομματιών, σε χιλιοστά του δευτερολέπτου"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "Καθυστέρηση μεταξύ κομματιών, σε χιλιοστά του δευτερολέπτου."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "Αν θα είναι ορατό το παράθυρο λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+"Ενεργοποίηση/απενεργοποίηση του παραθύρου λίστας. Ισοδυναμεί με κλικ στο κουμπί "
+"PL στο παράθυρο αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "Αριθμός των βημάτων αναίρεσης στη λίστα"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "Ο αριθμός των βημάτων αναίρεσης στη λίστα αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "Δείκτης του τρέχοντος οπτικού αναλυτή"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "Η ταυτότητα του οπτικού αναλυτή για εμφάνιση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "Δείκτης του αναλυτή που εμφανίζεται στο παράθυρο λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr ""
+"Η ταυτότητα του οπτικού αναλυτή για εμφάνιση στο παράθυρο της λίστας "
+"αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "Θέσεις χωρίσματος παράθυρου λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "Δε χρησιμοποιείται"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr "Αν θα γίνεται κύλιση της λίστας με το ενεργό αντικείμενο αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"Αν επιλεχθεί, η λίστα αναπαραγωγής θα κυλά κατά την αλλαγή τραγουδιού για να "
+"διατηρήσει το ενεργό κομμάτι ορατό μέσα στη λίστα. Η κύλιση δε συμβαίνει αν "
+"αυτό δεν είναι κατάλληλο."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "Αν θα εμφανίζεται εισαγωγική οθόνη κατά την εκκίνηση"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr ""
+"Ενεργοποίηση/απενεργοποίηση της εισαγωγικής οθόνης κατά την εκκίνηση του "
+"amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr "Αν θα ενεργοποιείται το σχετικό περιεχόμενο στην αρχή αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr ""
+"Αυτόματη εναλλαγή στο σχετικό περιεχόμενο κατά την έναρξη αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr ""
+"Αν θα εμφανίζονται στο σχετικό περιεχόμενο στατιστικά κατά άλμπουμ όταν αυτό "
+"είναι δυνατό."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr "Εμφάνιση στατιστικών κατά άλμπουμ στο σχετικό περιεχόμενο."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr ""
+"Ορισμός ενός φύλλου στυλ CSS για προσαρμογή της αποτύπωσης του σχετικού "
+"περιεχομένου"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "Ορίστε εδώ τον κατάλογο στυλ που επιθυμείτε να χρησιμοποιήσετε."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "Αν θα εμφανίζεται η γραμμή μενού"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr ""
+"Αν επιλεχθεί, το amaroK εμφανίζει μια γραμμή μενού στο πάνω μέρος της "
+"εφαρμογής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "Αν οι λίστες αποθηκεύουν τις σχετικές διαδρομές"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+"Αν επιλεχθεί, οι χειροκίνητα αποθηκευμένες λίστες του amaroK θα περιέχουν "
+"σχετικές διαδρομές στα κομμάτια, και όχι απόλυτες."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "Κύρια ένταση"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr ""
+"Η κύρια ένταση ήχου του amaroK, παίρνει τιμές από 0 (χωρίς ήχο) και 100"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "Αν θα γίνεται ομαλή μετάβαση μεταξύ των κομματιών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "Ενεργοποίηση/απενεργοποίηση της ομαλής μετάβασης μεταξύ των κομματιών."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "Διάρκεια της ομαλής μετάβασης, σε χιλιοστά"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr ""
+"Η διάρκεια της ομαλής μετάβασης μεταξύ των κομματιών σε χιλιοστά του "
+"δευτερολέπτου."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "Σύστημα ήχου που θα χρησιμοποιηθεί"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"Επιλέξτε το σύστημα ήχου που θα χρησιμοποιηθεί για την αναπαραγωγή μέσων. Το "
+"amaroK αυτή τη στιγμή υποστηρίζει τα aRts, GStreamer, xine, και NMM. Ωστόσο η "
+"διαθεσιμότητα τους εξαρτάται από τις ρυθμίσεις κατά τη διάρκεια της "
+"μεταγλώττισης του amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "Ενεργοποίηση του ισοσταθμιστή"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "Αν ενεργοποιηθεί, ένα πρόσθετο ισοσταθμιστή φιλτράρει τη ροή ήχου."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr ""
+"Προενίσχυση στον ισοσταθμιστή, εύρος τιμών από -100..100, 0 το κανονικό."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr ""
+"Ενίσχυση κάθε μπάντας του ισοσταθμιστή, 10 τιμές, εύρος -100..100, 0 το "
+"κανονικό."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, no-c-format
+msgid "Equalizer preset name."
+msgstr "Όνομα προεπιλογής ισοσταθμιστή:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "Τοπικό Amazon για τη λήψη εξώφυλλων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr ""
+"Ορίζει τον εξυπηρετητή Amazon που θα χρησιμοποιηθεί για τη λήψη εξώφυλλων."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "Τοπικό Wikipedia για λήψη πληροφοριών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr ""
+"Ορίζει τη γλώσσα στην οποία θα λαμβάνονται οι πληροφορίες από το Wikipedia."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "Χρήση απεικόνισης στην οθόνη"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "Ενεργοποίησης/απενεργοποίηση της απεικόνισης πάνω στην οθόνη (OSD)."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr "Εμφάνιση των ίδιων πληροφοριών στο OSD με τις στήλες της λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+"Αν ενεργοποιηθεί, το OSD θα εμφανίζει τις ίδιες πληροφορίες και με την ίδια "
+"σειρά με τις στήλες της λίστας αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "Το κείμενο OSD που θα εμφανίζεται"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, no-c-format
+msgid "Customize the OSD display text."
+msgstr "Προσαρμογή του κειμένου OSD που θα εμφανίζεται."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "Γραμματοσειρά για την απεικόνιση πάνω στην οθόνη (OSD)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "Σχεδίαση σκιάς γύρω από το κείμενο."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "Σχεδίαση μιας σκιάς γύρω από το κείμενο OSD."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr "Εναλλαγή ψευδοδιαφάνειας."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr "Ορίζει το φόντο του OSD να χρησιμοποιεί ψευδοδιαφάνεια."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "Αν θα γίνεται χρήση προσαρμοσμένων χρωμάτων στο OSD"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε προσαρμοσμένα χρώματα για το OSD αν ενεργοποιήσετε "
+"αυτό."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "Χρώμα γραμματοσειράς του OSD"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+"Το χρώμα του κειμένου στο OSD. Το χρώμα καθορίζεται ως RGB, μια λίστα "
+"διαχωρισμένη με κόμμα, που περιέχει τρεις ακεραίους από 0 έως 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "Χρώμα φόντου για την απεικόνιση πάνω στην οθόνη (OSD)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Το χρώμα φόντου του OSD. Το χρώμα καθορίζεται ως RGB, μια λίστα διαχωρισμένη με "
+"κόμμα, που περιέχει τρεις ακεραίους από 0 έως 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "Διάρκεια σε χιλιοστά της απεικόνισης του κειμένου."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"Η διάρκεια σε χιλιοστά του δευτερολέπτου απεικόνισης του OSD. Μια τιμή 0 "
+"σημαίνει συνεχής απεικόνιση. Η αρχική τιμή είναι 5000ms."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "Μετατόπιση θέσης Y"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"Η Υ θέση του OSD σχετικά με την επιλεγμένη οθόνη και την στοίχιση του OSD. Αν "
+"επιλεχθεί η στοίχιση πάνω, η μετατόπιση Υ είναι το διάστημα μεταξύ του πάνω "
+"μέρους του OSD και του πάνω μέρους της οθόνης. Αν επιλεχθεί η στοίχιση κάτω "
+"τότε η μετατόπιση Υ είναι το διάστημα μεταξύ του κάτω μέρους του OSD και του "
+"κάτω μέρους της οθόνης."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "Οθόνη OSD"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr ""
+"Η οθόνη στην οποία θα εμφανίζεται το OSD. Για συστήματα με μία οθόνη πρέπει να "
+"είναι 0."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "Αν θα εμφανίζεται το εξώφυλλο του άλμπουμ"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "Αν ενεργοποιηθεί, το εξώφυλλο του άλμπουμ θα εμφανίζεται στο OSD."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "Στοίχιση του OSD"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr ""
+"Η σχετική θέση του OSD. Οι πιθανές επιλογές είναι αριστερά, στο μέσο, δεξιά και "
+"στο κέντρο."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "Αν θα γίνει χρήση προσαρμοσμένων από το χρήστη γραμματοσειρών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "Ενεργοποίηση/απενεργοποίηση προσαρμοσμένων γραμματοσειρών."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "Γραμματοσειρά παράθυρου λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "Γραμματοσειρά παράθυρου αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "Γραμματοσειρά του σχετικού περιεχομένου"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "Επανακωδικοποίηση ετικετών ID3v1"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr ""
+"Αν επιλεχθεί, οι ετικέτες ID3v1 θα επανακωδικοποιούνται με την επιλεγμένη "
+"κωδικοποίηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "Επανακωδικοποίηση μεταδεδομένων Shoutcast"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "Αν επιλεχθεί, τα μεταδεδομένα Shoutcast θα επανακωδικοποιούνται."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "Επανακωδικοποίηση συνόλου χαρακτήρων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr ""
+"Το σετ χαρακτήρων με το οποίο θα κωδικοποιείται η παραπάνω συμβολοσειρά "
+"δεδομένων."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr ""
+"Αν θα γίνει χρήση των τυπικών χρωμάτων του amaroK για το παράθυρο λίστα "
+"αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει τα τυπικά χρώματα amaroK στη λίστα "
+"αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr ""
+"Αν θα γίνει χρήση των καθολικών χρωμάτων του KDE στο παράθυρο της λίστας "
+"αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει τα καθολικά χρώματα του KDE στο "
+"παράθυρο της λίστας αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr ""
+"Αν θα γίνει χρήση προσαρμοσμένων από το χρήστη χρωμάτων στο παράθυρο λίστας "
+"αναπαραγωγής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Αν επιλεχθεί, το amaroK θα χρησιμοποιήσει προσαρμοσμένα από το χρήστη χρώματα "
+"στη λίστα αναπαραγωγής."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "Χρώμα προσκηνίου στο παράθυρο λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Το χρώμα προσκηνίου της λίστας αναπαραγωγής. Το χρώμα καθορίζεται ως RGB, μια "
+"λίστα διαχωρισμένη με κόμμα, που περιέχει τρεις ακεραίους από 0 έως 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "Χρώμα φόντου στο παράθυρο λίστας"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Το χρώμα φόντου της λίστας αναπαραγωγής. Το χρώμα καθορίζεται ως RGB, μια λίστα "
+"διαχωρισμένη με κόμμα, που περιέχει τρεις ακεραίους από 0 έως 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr ""
+"Συνέχιση αναπαραγωγής του τελευταίου εκτελεσμένου κομματιού κατά την εκκίνηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr ""
+"Αν επιλεχθεί, το amaroK συνεχίζει την αναπαραγωγή του τελευταίου εκτελεσμένου "
+"κομματιού κατά την εκκίνηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "Το URL κομματιού για συνέχιση στην εκκίνηση"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr ""
+"Εσωτερικό: Το URL του κομματιού που θα συνεχίσει να αναπαράγεται στην εκκίνηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "Χρόνος συνέχισης, σε χιλιοστά δευτερολέπτου"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr ""
+"Εσωτερικό: Θέση εκτέλεσης στο κομμάτι που θα συνεχίσει να αναπαράγεται στην "
+"εκκίνηση."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "Μηχανή βάσης δεδομένων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr "Η μηχανή βάσης δεδομένων που θα αποθηκεύει τη συλλογή"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr "Αν θα σαρώνονται αναδρομικά οι φάκελοι συλλογής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "Αν θα σαρώνονται ξανά οι φάκελοι συλλογής όταν συμβεί αλλαγή"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "Αν θα προστίθενται λίστες κατά τη σάρωση"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "Λίστα των φακέλων στη συλλογή"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "Υπολογιστής"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "Ο υπολογιστής στον οποίο εκτελείται ο εξυπηρετητής MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "Θύρα"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "Η θύρα στην οποίο εκτελείται ο εξυπηρετητής MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "Όνομα βάσης δεδομένων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "Το όνομα της βάσης δεδομένων"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "Χρήστης"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "Το όνομα χρήστη για σύνδεση στη MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "Ο κωδικός πρόσβασης του χρήστη"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr "Πληροφορίες"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr "Πληροφορίες σύνδεσης για τον εξυπηρετητή Postgresql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "Υποβολή εκτελεσμένων τραγουδιών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "Αν θα υποβάλλονται τα εκτελεσμένα τραγούδια στο Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "Το όνομα του χρήστη για σύνδεση με το Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "Ο κωδικός πρόσβασης για σύνδεση με το Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "Λήψη παρόμοιων καλλιτεχνών"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "Αν θα λαμβάνονται παρόμοια τραγούδια από το Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, no-c-format
+msgid "MountCommand"
+msgstr "Εντολή προσάρτησης"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr ""
+"Η εντολή προσάρτησης που θα χρησιμοποιηθεί για τη σύνδεση με τη συσκευή "
+"πολυμέσων."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, no-c-format
+msgid "UmountCommand"
+msgstr "Εντολή αποπροσάρτησης"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr ""
+"Η εντολή αποπροσάρτησης που θα χρησιμοποιηθεί για τη σύνδεση με τη συσκευή "
+"πολυμέσων."
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr "Αδυναμία σύνδεσης σε αυτόν τον εξυπηρετητή ροής."
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "Δημιουργία έξυπνης λίστας"
+
+#: smartplaylisteditor.cpp:45
+msgid "Edit Smart Playlist"
+msgstr "Επεξεργασία έξυπνης λίστας"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "Διάρκεια"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "Κομμάτι #"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "Μετρητής εκτελέσεων"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "Βαθμολογία"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "Πρώτη εκτέλεση"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "Τελευταία εκτέλεση"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "Ημερομηνία τροποποίησης"
+
+#: smartplaylisteditor.cpp:109
+msgid "File Path"
+msgstr "Διαδρομή αρχείου"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "Όνομα λίστας:"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "Ταίριασμα της ακόλουθης συνθήκης"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "Όλες"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "Κάποια"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr " από τις ακόλουθες συνθήκες"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "Ταξινόμηση κατά"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "Τυχαία"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "Μέχρι"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "κομμάτια"
+
+#: smartplaylisteditor.cpp:172
+msgid "Expand by"
+msgstr "Ανάπτυξη κατά"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "Εντελώς τυχαία"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "Με βάση τη βαθμολογία"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "Αύξουσα"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "Ταίριασμα"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "Ταίριασμα των ακόλουθων συνθηκών"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "είναι ανάμεσα"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "είναι στο τέλος του"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+msgid "is not in the last"
+msgstr "δεν είναι στο τέλος του"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "περιέχει το"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "δεν περιέχει το"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "είναι το"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "δεν είναι το"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "αρχίζει με"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "τελειώνει με"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "είναι μεγαλύτερο του"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "είναι μετά το"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "είναι μικρότερο του"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "είναι πριν το"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "και"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "Μέρες"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "Μήνες"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "Έτη"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "Πακέτα στυλ (*.tar, *.tar.bz2, *.tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "Επιλογή πακέτου στυλ"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "Προσθήκη στίχων"
+
+#: contextbrowser.cpp:118
+msgid "Search For Lyrics"
+msgstr "Αναζήτηση για στίχους"
+
+#: contextbrowser.cpp:119
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+msgid "Open in external browser"
+msgstr "Άνοιγμα σε εξωτερικό περιηγητή"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr "Εμπρός"
+
+#: contextbrowser.cpp:135
+msgid "Artist Page"
+msgstr "Σελίδα καλλιτέχνη"
+
+#: contextbrowser.cpp:136
+msgid "Album Page"
+msgstr "Σελίδα άλμπουμ"
+
+#: contextbrowser.cpp:137
+msgid "Title Page"
+msgstr "Σελίδα τίτλου"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "Προσωπικός κατάλογος"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "Τρέχον"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "Στίχοι"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr ""
+"<p>Δεν υπάρχουν διαθέσιμες πληροφορίες προϊόντος για αυτήν την εικόνα."
+"<p>Δεξί κλικ στην εικόνα για μενού."
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "Ορισμός &προσαρμοσμένου εξώφυλλου"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "&Αναίρεση ορισμού εξώφυλλου"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+msgid "Edit Album &Information..."
+msgstr "Επεξεργασία π&ληροφοριών άλμπουμ..."
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+msgid "&Queue Album"
+msgstr "Άλμπουμ σε α&ναμονή"
+
+#: contextbrowser.cpp:675
+msgid "Compilation"
+msgstr "Συλλογή"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr ""
+"Είστε σίγουροι ότι επιθυμείτε την αφαίρεση αυτού του εξώφυλλου από τη συλλογή;"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr "%1 %2"
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr ""
+"Πριν μια εβδομάδα\n"
+"Πριν %n εβδομάδες"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "Χθες"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr ""
+"Πριν μια ημέρα\n"
+"Πριν %n ημέρες"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr ""
+"Πριν μια ώρα\n"
+"Πριν %n ώρες"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr ""
+"Πριν ένα λεπτό\n"
+"Πριν %n λεπτά"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "Μέσα στο τελευταίο λεπτό"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "Το μέλλον"
+
+#: contextbrowser.cpp:879
+msgid "Unknown album"
+msgstr "Άγνωστο άλμπουμ"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr "Κλικ για πληροφορίες από το amazon.com, δεξί κλικ για μενού."
+
+#: contextbrowser.cpp:905
+msgid "Unknown artist"
+msgstr "Άγνωστος καλλιτέχνης"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr ""
+"Single\n"
+"%n Κομμάτια"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "Τελευταία εκτέλεση: %1"
+
+#: contextbrowser.cpp:1116
+msgid "Recently Played Tracks"
+msgstr "Πρόσφατα εκτελεσμένα κομμάτια"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+"Μια λίστα με τα τελευταία εκτελεσμένα σας κομμάτια θα εμφανιστεί εδώ, μόλις "
+"ακούσετε μερικά από τα τραγούδια σας."
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr "&#xa0;&#8211 "
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "Τα αγαπημένα σας κομμάτια"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Μια λίστα με τα αγαπημένα σας κομμάτια θα εμφανιστεί εδώ, μόλις ακούσετε μερικά "
+"από τα τραγούδια σας."
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr "&#xa0;&#8211; "
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "Τα νέα σας κομμάτια"
+
+#: contextbrowser.cpp:1329
+msgid "Favorite Albums"
+msgstr "Αγαπημένα άλμπουμ"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Μια λίστα με τα αγαπημένα σας άλμπουμ θα εμφανιστεί εδώ, μόλις ακούσετε μερικά "
+"από τα τραγούδια σας."
+
+#: contextbrowser.cpp:1354
+msgid "Your Newest Albums"
+msgstr "Τα νέα σας άλμπουμ"
+
+#: contextbrowser.cpp:1371
+msgid "Least Played Albums"
+msgstr "Λιγότερο εκτελεσμένα άλμπουμ"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr ""
+"Μια λίστα των άλμπουμ θα εμφανιστεί εδώ, τα οποία δεν έχετε ακούσει εδώ και "
+"πολύ καιρό."
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "Λεπτομέρειες ροής"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "Ιστορικό μεταδεδομένων"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr "Κλικ για λήψη εξώφυλλου από το amazon.%1, δεξί κλικ για μενού."
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr "Κλικ για πληροφορίες από το amazon.%1, δεξί κλικ για μενού."
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "Αναζήτηση αυτού του κομματιού στο musicbrainz.org"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr ""
+"Το κομμάτι έπαιξε μια φορά\n"
+"Το κομμάτι έπαιξε %n φορές"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "Πρώτη εκτέλεση: %1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "Δεν έχει εκτελεστεί ξανά"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "Αυτό το αρχείο δεν υπάρχει στη συλλογή σας!"
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr ""
+"Αν επιθυμείτε σχετικές πληροφορίες για αυτό το κομμάτι, πρέπει να το προσθέσετε "
+"στη συλλογή σας."
+
+#: contextbrowser.cpp:1677
+msgid "Change Collection Setup..."
+msgstr "Αλλαγή εγκατάστασης συλλογής..."
+
+#: contextbrowser.cpp:1690
+msgid "Cue File"
+msgstr "Αρχείο Cue"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "Αυτόν τον καλλιτέχνη"
+
+#: contextbrowser.cpp:1818
+#, c-format
+msgid "Favorite Tracks by %1"
+msgstr "Αγαπημένα κομμάτια από %1"
+
+#: contextbrowser.cpp:1869
+#, c-format
+msgid "Albums by %1"
+msgstr "Άλμπουμ από %1"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "Συλλογές με %1"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "Καλώς ήρθες χρήστη του amaroK!"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+"Αυτό είναι το σχετικό περιεχόμενο: εμφανίζει σχετικές πληροφορίες με το τρέχων "
+"κομμάτι. Για να χρησιμοποιήσετε αυτή τη λειτουργία του amaroΚ, πρέπει να "
+"δημιουργήσετε μια συλλογή."
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "Κατασκευή συλλογής..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "Κατασκευή βάσης δεδομένων συλλογής..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+"Παρακαλώ κάντε υπομονή όσο το amaroK σαρώνει τη μουσική σας συλλογή. Μπορείτε "
+"να παρακολουθείτε την πρόοδο αυτής της λειτουργίας στη γραμμή κατάστασης."
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "ζωντανό"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "ακουστικό"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "εξώφυλλο"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "μείξη"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "ριμέικ"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "ποτ πουρί"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "unplugged"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "bonus"
+
+#: contextbrowser.cpp:2452
+msgid "Cached Lyrics"
+msgstr "Αποθηκευμένοι στίχοι"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+msgid "Fetching Lyrics"
+msgstr "Λήψη στίχων"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr ""
+"Αδυναμία λήψης των στίχων επειδή δεν είναι δυνατή η προσπέλαση του εξυπηρετητή."
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "Δε βρέθηκαν στίχοι."
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr ""
+"Δε βρέθηκαν στίχοι για το κομμάτι, ρίξτε μια ματιά σε κάποιες προτάσεις:"
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+msgid "Fetching Wikipedia Information"
+msgstr "Λήψη πληροφοριών Wikipedia"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+"Αδυναμία λήψης πληροφοριών καλλιτέχνη επειδή δεν είναι δυνατή η προσπέλαση του "
+"εξυπηρετητή."
+
+#: contextbrowser.cpp:2939
+msgid "Wikipedia Information"
+msgstr "Πληροφορίες Wikipedia"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr "Άλλες γλώσσες του Wikipedia"
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr "Η MySQL ανέφερε το παρακάτω σφάλμα:<br>"
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>Μπορείτε να ρυθμίσετε την MySQL στο τμήμα συλλογής κάτω από το Ρυθμίσεις->"
+"Ρυθμίσεις amaroK</p>"
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr "Η Postgresql ανέφερε το παρακάτω σφάλμα:<br>"
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>Μπορείτε να ρυθμίσετε την Postgresql στο τμήμα συλλογής κάτω από το "
+"Ρυθμίσεις-> Ρυθμίσεις amaroK</p>"
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "Ρυθμός καρέ"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "Κλικ για αναλυτές"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<h3>Στοιχεία που εμφανίζονται στο OSD</h3>Μπορείτε να χρησιμοποιήσετε τα "
+"παρακάτω αναγνωριστικά:"
+"<ul>"
+"<li>Τίτλος - %1"
+"<li>Άλμπουμ - %2"
+"<li>Καλλιτέχνης - %3"
+"<li>Είδος - %4"
+"<li>Ρυθμός bit - %5"
+"<li>Έτος - %6"
+"<li>Διάρκεια κομματιού - %7"
+"<li>Αριθμός Κομματιού - %8"
+"<li>Όνομα αρχείου - %9 "
+"<li>Κατάλογος - %10 "
+"<li>Τύπος - %11 "
+"<li>Σχόλιο - %12"
+"<li>Βαθμολογία - %13 "
+"<li>Μετρητής εκτελέσεων - %14</ul>Αν εισάγετε σε αγκύλες { } τμήματα του "
+"κειμένου που περιέχουν ένα αναγνωριστικό, αυτό το τμήμα δε θα είναι ορατό αν το "
+"αναγνωριστικό είναι κενό, για παράδειγμα:Το "
+"<pre>%11</pre> θα κρύψει τη <b>βαθμολογία: <i>%score</i></b>"
+"αν το κομμάτι δεν έχει βαθμολογία."
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "Κατάλογος"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "Ρυθμός bit"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr "Τύπος"
+
+#: playlist.cpp:244
+msgid "Playcount"
+msgstr "Μετρητής εκτελέσεων"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "Α&νακάτεμα"
+
+#: playlist.cpp:295
+msgid "&Goto Current Track"
+msgstr "&Μετάβαση στο τρέχων κομμάτι"
+
+#: playlist.cpp:296
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "Α&φαίρεση διπλών && μη ενεργών καταχωρήσεων"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+msgid "&Queue Selected Tracks"
+msgstr "Τα επιλεγμένα κομμάτια σε α&ναμονή"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr "Προσπάθεια εισαγωγής μηδενικού στοιχείου στη λίστα."
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr "Δεν επιστράφηκαν κομμάτια για εισαγωγή"
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr "Δεν έχουν οριστεί έγκυρες πηγές για αυτή τη δυναμική λίστα."
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Προειδοποίηση</b></div>Η λίστα αναπαραγωγής με όνομα "
+"<i>%1</i> δεν περιέχει κομμάτια."
+"<br>"
+"<br>Παρακαλώ τροποποιήστε τη λίστα σας ή επιλέξτε μια διαφορετική πηγή."
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Προειδοποίηση</b></div>Η έξυπνη λίστα αναπαραγωγής με "
+"τίτλο <i>%1</i> δεν περιέχει κομμάτια."
+"<br>"
+"<br>Παρακαλώ τροποποιήστε την ή επιλέξτε μια διαφορετική πηγή."
+
+#: playlist.cpp:1179
+msgid "Playlist finished"
+msgstr "Η λίστα αναπαραγωγής τελείωσε"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Η λίστα αναπαραγωγής</h3>Αυτή είναι η λίστα αναπαραγωγής. Για να "
+"δημιουργήσετε μια λίστα <b>σύρετε</b> κομμάτια από τις καρτέλες περιήγησης "
+"αριστερά, <b>αφήστε</b> τα εδώ και έπειτα κάντε <b>διπλό κλικ</b> "
+"σε αυτά για να ξεκινήσει η αναπαραγωγή τους.</div>"
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+"<div align=center>"
+"<h3>Οι περιηγητές</h3>Οι περιηγητές είναι η πηγή όλης της μουσικής σας. Η "
+"περιήγηση συλλογής περιέχει τη συλλογή σας. Η λίστα αναπαραγωγής περιέχει τις "
+"προκαθορισμένες από εσάς λίστες τραγουδιών. Η περιήγηση αρχείων εμφανίζει έναν "
+"επιλογέα αρχείων με τον οποίο μπορείτε να έχετε πρόσβαση σε κάθε μουσική στον "
+"υπολογιστή σας. </div>"
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "&Απόκρυψη αυτής της στήλης"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "Στήλες λίστας αναπαραγωγής"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr "<p>Επιλέξατε την <b>οριστική</b> διαγραφή του αρχείου <i>'%1'</i>."
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Επιλέξατε την <b>οριστική</b> διαγραφή ενός αρχείου.\n"
+"<p>Επιλέξατε την <b>οριστική</b> διαγραφή %n αρχείων."
+
+#: playlist.cpp:2629
+msgid "Deleting files"
+msgstr "Διαγραφή αρχείων"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "Έγινε αντιγραφή: %1"
+
+#: playlist.cpp:3049
+msgid "Load Dynamic Playlist"
+msgstr "Φόρτωση δυναμικής λίστας"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "&Επανεκκίνηση"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+msgid "&Dequeue Track"
+msgstr "Αφαίρεση κομματιού από την ανα&μονή"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+"Εναλλαγή &κατάστασης αναμονής (1 κομμάτι)\n"
+"Εναλλαγή &κατάστασης αναμονής (%n κομμάτια)"
+
+#: playlist.cpp:3118
+msgid "&Dequeue Selected Tracks"
+msgstr "Αφαίρεση επιλεγμένων κομματιών από την ανα&μονή"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "&Σταμάτημα αναπαραγωγής μετά το κομμάτι"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "&Επεξεργασία ετικέτας του '%1'"
+
+#: playlist.cpp:3135
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "&Επεξεργασία της ετικέτας του '%1' για τα επιλεγμένα κομμάτια"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "Ορισμός αριθμών κομματιών με &συνέχεια"
+
+#: playlist.cpp:3140
+msgid "Write '%1' for Selected Tracks"
+msgstr "Εγγραφή του '%1' στα επιλεγμένα κομμάτια"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr "&Αντιγραφή ετικετών στο πρόχειρο"
+
+#: playlist.cpp:3149
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr ""
+"Αυτό το κομμάτι\n"
+"Τα επιλεγμένα κομμάτια"
+
+#: playlist.cpp:3151
+#, c-format
+msgid "This Album: %1"
+msgstr "Αυτό το άλμπουμ: %1"
+
+#: playlist.cpp:3153
+#, c-format
+msgid "All Tracks by %1"
+msgstr "Όλα τα κομμάτια από %1"
+
+#: playlist.cpp:3159
+msgid "Set as Playlist (Crop)"
+msgstr "Ορισμός σαν λίστα αναπαραγωγής (αποκοπή)"
+
+#: playlist.cpp:3160
+msgid "Save as Playlist..."
+msgstr "&Αποθήκευση λίστας ως..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "&Αφαίρεση από τη λίστα"
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "&Διαγραφή αρχείου"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "&Διαγραφή επιλεγμένων αρχείων"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "Εγγραφή ετικέτας..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "Αυτό το αρχείο δεν υπάρχει:"
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>Μπορείτε να δημιουργήσετε μια προσαρμοσμένη στήλη η οποία θα εκτελεί μια "
+"εντολή κελύφους για κάθε αντικείμενο στη λίστα αναπαραγωγής. Για λόγους "
+"ασφάλειας, η εντολή κελύφους εκτελείται με δικαιώματα του χρήστη <b>nobody</b>"
+".\n"
+"<p>Μπορείτε να εκτελείτε την εντολή σε τρέχοντα τοπικά αρχεία. Η πλήρης "
+"διαδρομή εισάγεται στη θέση <b>%f</b> στη συμβολοσειρά. Αν δεν ορίσετε το <b>"
+"%f</b> τότε αυτό προστίθεται στο τέλος."
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr "Ό&νομα στήλης:"
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "&Εντολή:"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "Παραδείγματα"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "Προσθήκη προσαρμοσμένης στήλης"
+
+#: app.cpp:284
+msgid "Files/URLs to open"
+msgstr "Αρχεία/URLs για άνοιγμα"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "Παράλειψη προς τα πίσω στη λίστα"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "Εκκίνηση αναπαραγωγής της τρέχουσας λίστας"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "Αναπαραγωγή αν είναι σταματημένο, αλλιώς παύση"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "Παύση αναπαραγωγής"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "Σταμάτημα αναπαραγωγής"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "Παράλειψη προς τα μπροστά στη λίστα"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "Επιπλέον επιλογές:"
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "Προσθήκη των αρχείων/URLs στη λίστα"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr ""
+"Δείτε την προσθήκη στο τέλος, που υπάρχει διαθέσιμη για λόγους συμβατότητας"
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "Τοποθέτηση των URLs σε αναμονή μετά το τρέχων κομμάτι"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "Εναλλαγή του παραθύρου λίστας αναπαραγωγής"
+
+#: app.cpp:304
+msgid "Run first-run wizard"
+msgstr "Εκτέλεση του μάγου πρώτης έναρξης"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "Χρήση της μηχανής <name>"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr "Βάση για σχετικά ονόματα αρχείων/URLs"
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "Αύξηση έντασης"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "Μείωση έντασης"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr "Αναζήτηση μπροστά"
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr "Αναζήτηση πίσω"
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "Προσθήκη πολυμέσων..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "Εναλλαγή παραθύρου λίστας"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "Εμφάνιση OSD"
+
+#: app.cpp:348
+msgid "Mute Volume"
+msgstr "Σίγαση ήχου"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>Χρησιμοποιείτε έναν επεξεργαστή με το χαρακτηριστικό <i>HyperThreading</i> "
+"ενεργοποιημένο. Παρακαλώ σημειώστε ότι το amaroK μπορεί να είναι ασταθές με "
+"αυτή τη ρύθμιση.</p>"
+"<p>Αν παρουσιάζονται προβλήματα, χρησιμοποιήστε την επιλογή πυρήνα του Linux "
+"'NOHT', ή απενεργοποιήστε το <i>HyperThreading</i> στις ρυθμίσεις του BIOS.</p>"
+"<p>Περισσότερες πληροφορίες μπορούν να βρεθούν στο αρχείο README. Για περαιτέρω "
+"βοήθεια συνδεθείτε με μας στο #amarok του irc.freenode.net.</p>"
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "Λίστα αναπαραγωγής"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "Προσθήκη && &εκτέλεση"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>Κλείνοντας το κύριο παράθυρο το amaroK θα συνεχίσει να εκτελείται στο "
+"πλαίσιο εικονιδίων του συστήματος. Χρησιμοποιήστε το <B>Έξοδος</B> "
+"από το μενού, ή το εικονίδιο στο πλαίσιο συστήματος για να τερματίσετε την "
+"εφαρμογή.</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "Προσάρτηση στο πλαίσιο συστήματος"
+
+#: app.cpp:853
+msgid "Paused"
+msgstr "Παύση"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "Ένταση: %1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr "Χωρίς ήχο"
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "Εμφάνιση χρόνου"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "Κανονικός"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "Εναπομένοντας"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr "Εγκατάλειψη όλων των λειτουργιών του παρασκηνίου"
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr "Εμφάνιση λεπτομερειών προόδου"
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr "Εκτελούνται πολλαπλές διεργασίες του παρασκηνίου"
+
+#: statusbar/statusBarBase.cpp:422
+msgid "Aborting all jobs..."
+msgstr "Εγκατάλειψη όλων των εργασιών..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "Το amaroK είναι σε παύση"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+"Μία από τις καλύτερες δουλειές του Mike Oldfield, το Amarok, ενέπνευσε το όνομα "
+"πίσω από το πρόγραμμα αναπαραγωγής που χρησιμοποιείτε τώρα. Σας ευχαριστούμε "
+"που επιλέξατε το amaroK!</p><p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>Και πολύ άλλοι που βοήθησαν να γίνει το amaroK αυτό που είναι τώρα</p>"
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> από <b>%2</b> στο <b>%3</b>"
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> από <b>%2</b>"
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> στο <b>%2</b>"
+
+#: statusbar/statusbar.cpp:178
+msgid "Unknown track"
+msgstr "Άγνωστο κομμάτι"
+
+#: statusbar/statusbar.cpp:187
+#, c-format
+msgid "Playing: %1"
+msgstr "Αναπαραγωγή: %1"
+
+#: statusbar/statusbar.cpp:201
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "Επιλέχθηκαν %1 κομμάτια από %2 ορατά των %3"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr "0 ορατά από 1 κομμάτι"
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr "%1 ορατά από %2 κομμάτια"
+
+#: statusbar/statusbar.cpp:205
+msgid "%1 selected of %2 tracks"
+msgstr "Επιλέχθηκαν %1 από %2 κομμάτια"
+
+#: statusbar/statusbar.cpp:206
+#, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr ""
+"1 κομμάτι\n"
+"%n κομμάτια"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr " - [ %1 / %2 / %3 ]"
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr " - [ %1 / %2 ]"
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr " - [ %1 ]"
+
+#: statusbar/queueLabel.cpp:169
+#, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr ""
+"1 κομμάτι σε αναμονή\n"
+"%n κομμάτια σε αναμονή"
+
+#: statusbar/queueLabel.cpp:172
+msgid "Dequeue All Tracks"
+msgstr "Αφαίρεση όλων των κομματιών από την ανα&μονή"
+
+#: statusbar/queueLabel.cpp:183
+msgid "%1. %2"
+msgstr "%1. %2"
+
+#: statusbar/queueLabel.cpp:189
+#, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr ""
+"1 ακόμα κομμάτι\n"
+"%n ακόμα κομμάτια"
+
+#: statusbar/queueLabel.cpp:244
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr ""
+"1 κομμάτι σε αναμονή: %1\n"
+"%n κομμάτια σε αναμονή, με επόμενο το: %1"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: statusbar/progressBar.cpp:96
+msgid "Aborted"
+msgstr "Εγκαταλείφθηκε"
+
+#: statusbar/progressBar.cpp:106
+msgid "Aborting..."
+msgstr "Εγκατάλειψη..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr "%1: ενεργό"
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: off"
+msgstr "%1: ανενεργό"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr "&nbsp;<br>&nbsp;<i>Απενεργοποιημένο</i>"
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "Προεπισκόπηση OSD - σύρετε για επανατοποθέτηση"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr "Δεν εκτελείται κομμάτι"
+
+#: osd.cpp:556
+msgid "No information available for this track"
+msgstr "Δεν υπάρχουν πληροφορίες διαθέσιμες για αυτό το κομμάτι"
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "δίσκος"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "δίσκος"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "remaster"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "cd"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "single"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "soundtrack"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "τμήμα"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr "Δε βρέθηκε εξώφυλλο"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr "Δεν είναι έγκυρη η XML που λήφθηκε από το Amazon."
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr "Αδυναμία λήψης του εξώφυλλου."
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr "Τα δεδομένα εξώφυλλου δημιούργησαν μια μη έγκυρη εικόνα."
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+"Είδατε όλα τα εξώφυλλα που επέστρεψε το Amazon με βάση την παρακάτω ερώτηση. "
+"Ίσως να χρειαστεί αλλαγή της ερώτησης:"
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr "Επεξεργαστής ερώτησης Amazon"
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "&Αναζήτηση"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr "Αναζήτηση εξώφυλλων στο Amazon με αυτή την ερώτηση:"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+msgid "Aborted."
+msgstr "Εγκαταλείφθηκε."
+
+#: coverfetcher.cpp:379
+msgid "New &Search..."
+msgstr "Νέα &αναζήτηση"
+
+#: coverfetcher.cpp:380
+msgid "Next &Cover"
+msgstr "Επόμενο &εξώφυλλο"
+
+#: coverfetcher.cpp:390
+msgid "Cover Found"
+msgstr "Βρέθηκε εξώφυλλο"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "Το πρόγραμμα αναπαραγωγής ήχου του KDE"
+
+#: amarokcore/main.cpp:29
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, Η ομάδα ανάπτυξης του amaroK"
+
+#: amarokcore/main.cpp:30
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"Εξυπηρετητής: irc.freenode.net / Κανάλι: #amarok\n"
+"\n"
+"Σχόλια στο:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr "Babe-Magnet"
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "Stud (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "κώδικας 733t, βελτιώσεις OSD, διορθώσεις (Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr "Είναι καλό, αλλά δεν είναι το irssi"
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "Ιδρυτής του έργου (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr "Turtle-Power'"
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr "Cowboy mxcl"
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr "Το μωβ δεν είναι κοριτσίστικο!"
+
+#: amarokcore/main.cpp:45
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "DCOP, βελτιώσεις, Πολύτιμος συντηρητής του εγχειριδίου (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr "Προγραμματιστής Spaghetti"
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "Περιήγηση λίστας αναπαραγωγής, διαχειριστής εξώφυλλων (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr "Και είπεν ο Θεός, γενηθείτω Mac"
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "Λογότυπο του amaroK, εισαγωγική οθόνη, εικονίδια"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr "Σερφάρισμα ασταμάτητα"
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr ""
+"Περιήγηση λίστας αναπαραγωγής, Δυναμική λειτουργία, Διαχειριστής αναμονής "
+"(sebr)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr "Το μόνο που χρειάζεστε είναι το DCOP"
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "Βελτιώσεις DCOP, βελτιώσεις κώδικα, i18n (berkus)"
+
+#: amarokcore/main.cpp:56
+msgid "Analyzers, patches"
+msgstr "Αναλυτές, διορθώσεις"
+
+#: amarokcore/main.cpp:57
+msgid "Patches"
+msgstr "Διορθώσεις"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr "Βελτιώσεις, Διορθώσεις σφαλμάτων"
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "Υποστήριξη MySQL"
+
+#: amarokcore/main.cpp:60
+msgid "Postgresql support"
+msgstr "Υποστήριξη Postgresql"
+
+#: amarokcore/main.cpp:61
+msgid "First-run wizard, usability"
+msgstr "Μάγος πρώτης εκτέλεσης, χρηστικότητα περιβάλλοντος"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr ""
+"Αναλυτές, σχετικό περιεχόμενο και βελτιώσεις εμφάνισης του εικονιδίου "
+"συστήματος"
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr "Το εικονίδιο του amaroK 'Μπλε λύκος'"
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr "Εργασία στα εικονίδια και εικόνες"
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr "Θαυμάσια βοήθεια με διορθώσεις σφαλμάτων για την pre 1.2"
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr ""
+"βελτιώσεις εγχειριδίου, μεταφράσεις, διορθώσεις σφαλμάτων, στιγμιότυπα οθόνης "
+"(apachelogger)"
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr "Διορθώσεις, Πρότυπο σεναρίου Ruby (eean)"
+
+#: amarokcore/main.cpp:68
+msgid "Tester, IRC channel operator, whipping"
+msgstr "Δοκιμαστής, διαχειριστής του καναλιού IRC, μαστίγωμα"
+
+#: amarokcore/main.cpp:69
+msgid "Icons"
+msgstr "Εικονίδια"
+
+#: amarokcore/main.cpp:70
+msgid "amaroK webmaster"
+msgstr "διαχειριστής ιστοσελίδας amaroK"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr "Πλευρική γραμμή εργαλείων του Konqueror, μερικές μέθοδοι DCOP"
+
+#: amarokcore/main.cpp:72
+msgid "FHT routine, bugfixes"
+msgstr "Αλγόριθμος FHT, διορθώσεις σφαλμάτων"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "Κώδικας εξαγωγής στο K3B"
+
+#: amarokcore/main.cpp:74
+msgid "Splash screen"
+msgstr "Εισαγωγική οθόνη"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr "Φιλοξενία ιστοσελίδας"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr "Μηχανή HelixPlayer"
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr "Υποστήριξη Wikipedia, διορθώσεις"
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "Μηχανή MAS"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "Υποστήριξη Audioscrobbler"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "Κώδικας TagLib & ktrm"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr "Διάφορα πράγματα"
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr "Διορθώσεις σφαλμάτων"
+
+#: amarokcore/main.cpp:83
+msgid "Tester, patches"
+msgstr "Δοκιμαστής, διορθώσεις"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+"Το amaroK κατέρρευσε! Σας ζητάμε συγνώμη για αυτό που έγινε :(\n"
+"\n"
+"Αλλά δε χάθηκαν όλα! Ίσως μπορείτε να μας βοηθήσετε να διορθώσουμε αυτό το "
+"πρόβλημα. Το amaroK προσάρτησε δεδομένα αποσφαλμάτωσης που περιγράφουν την "
+"κατάρρευση, έτσι κάντε απλά κλικ για να τα στείλετε, ή αν έχετε διαθέσιμο χρόνο "
+"γράψτε μας και μια σύντομη περιγραφή για το πώς συνέβη η κατάρρευση.\n"
+"\n"
+"Ευχαριστούμε.\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"Οι παρακάτω πληροφορίες θα βοηθήσουν τους προγραμματιστές να αναγνωρίσουν το "
+"πρόβλημα, παρακαλώ να μην τροποποιηθούν.\n"
+"\n"
+"\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:249
+msgid "Send Email"
+msgstr "Αποστολή ηλεκτρονικού μηνύματος"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr "Χειριστής κατάρρευσης"
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr " - [%2]"
+
+#: playlistbrowseritem.cpp:882
+msgid "Add Radio Stream"
+msgstr "Προσθήκη ροής ραδιοφώνου"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+msgid "&Name:"
+msgstr "Ό&νομα:"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr "&Url:"
+
+#: playlistbrowseritem.cpp:903
+msgid "Edit Radio Stream"
+msgstr "Επεξεργασία ροής ραδιοφώνου"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+msgid "Retrieving Podcast..."
+msgstr "Λήψη εκπομπής Pod..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+msgid "Moving Podcasts"
+msgstr "Μετακίνηση εκπομπών Pod"
+
+#: playlistbrowseritem.cpp:1223
+msgid "Fetching Podcast"
+msgstr "Λήψη εκπομπής Pod"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr "Αδυναμία σύνδεσης σε αυτόν το εξυπηρετητή εκπομπής Pod."
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr "Η εκπομπή Pod επέστρεψε μη έγκυρα δεδομένα."
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr "Δυστυχώς, υποστηρίζονται μόνο τροφοδοσίες RSS 2.0 για εκπομπές pod!"
+
+#: playlistbrowseritem.cpp:1405
+msgid "Url"
+msgstr "Url"
+
+#: playlistbrowseritem.cpp:1406
+msgid "Website"
+msgstr "Ιστοσελίδα"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr "Πνευματικά δικαιώματα"
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+msgid "Podcast Information"
+msgstr "Πληροφορίες εκπομπής Pod"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr "Λήφθηκαν νέες εκπομπές pod!"
+
+#: playlistbrowseritem.cpp:1723
+msgid "Downloading Media..."
+msgstr "Λήψη πολυμέσων..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr "Λήψη πολυμέσων εκπομπής Pod"
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr "Εγκατάλειψη λήψης πολυμέσων, αδυναμία σύνδεσης με τον εξυπηρετητή."
+
+#: playlistbrowseritem.cpp:1831
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: playlistbrowseritem.cpp:1832
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: filebrowser.cpp:132
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr ""
+"Εισάγετε όρους διαχωρισμένους με κενό για φιλτράρισμα της λίστας καταλόγων"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "&Επιλογή όλων των αρχείων"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+"<div align=center>Εισάγετε παραπάνω έναν όρο αναζήτησης: μπορείτε να "
+"χρησιμοποιήσετε χαρακτήρες όπως το * και του ? </div>"
+
+#: filebrowser.cpp:476
+msgid "Search here..."
+msgstr "Αναζήτηση εδώ..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr "&Εμφάνιση πλαισίου αναζήτησης"
+
+#: filebrowser.cpp:532
+msgid "Searching..."
+msgstr "Αναζήτηση..."
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr "Δε βρέθηκαν αποτελέσματα."
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "&Παράλειψη"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "Εφέ"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "Διαθέσιμα εφέ"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "Ενεργά εφέ"
+
+#~ msgid "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
+#~ msgstr "Το Tunepimp (MusicBrainz tagging library) επέστρεψε το ακόλουθο σφάλμα: \"%1\"."

@@ -1,0 +1,283 @@
+/****************************************************************************
+** amaroK::Menu meta object code from reading C++ file 'actionclasses.h'
+**
+** Created: Fri Mar 23 10:51:27 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "actionclasses.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *amaroK::Menu::className() const
+{
+    return "amaroK::Menu";
+}
+
+QMetaObject *amaroK::Menu::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__Menu( "amaroK::Menu", &amaroK::Menu::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::Menu::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::Menu", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::Menu::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::Menu", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::Menu::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = PrettyPopupMenu::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotActivated", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"slotAboutToShow", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotActivated(int)", &slot_0, QMetaData::Public },
+	{ "slotAboutToShow()", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::Menu", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__Menu.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::Menu::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::Menu" ) )
+	return this;
+    return PrettyPopupMenu::qt_cast( clname );
+}
+
+bool amaroK::Menu::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotActivated((int)static_QUType_int.get(_o+1)); break;
+    case 1: slotAboutToShow(); break;
+    default:
+	return PrettyPopupMenu::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::Menu::qt_emit( int _id, QUObject* _o )
+{
+    return PrettyPopupMenu::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::Menu::qt_property( int id, int f, QVariant* v)
+{
+    return PrettyPopupMenu::qt_property( id, f, v);
+}
+
+bool amaroK::Menu::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::BurnMenu::className() const
+{
+    return "amaroK::BurnMenu";
+}
+
+QMetaObject *amaroK::BurnMenu::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__BurnMenu( "amaroK::BurnMenu", &amaroK::BurnMenu::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::BurnMenu::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::BurnMenu", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::BurnMenu::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::BurnMenu", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::BurnMenu::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KPopupMenu::staticMetaObject();
+    static const QUMethod slot_0 = {"slotAboutToShow", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotActivated", 1, param_slot_1 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotAboutToShow()", &slot_0, QMetaData::Private },
+	{ "slotActivated(int)", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::BurnMenu", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__BurnMenu.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::BurnMenu::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::BurnMenu" ) )
+	return this;
+    return KPopupMenu::qt_cast( clname );
+}
+
+bool amaroK::BurnMenu::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotAboutToShow(); break;
+    case 1: slotActivated((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return KPopupMenu::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::BurnMenu::qt_emit( int _id, QUObject* _o )
+{
+    return KPopupMenu::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::BurnMenu::qt_property( int id, int f, QVariant* v)
+{
+    return KPopupMenu::qt_property( id, f, v);
+}
+
+bool amaroK::BurnMenu::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::StopMenu::className() const
+{
+    return "amaroK::StopMenu";
+}
+
+QMetaObject *amaroK::StopMenu::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__StopMenu( "amaroK::StopMenu", &amaroK::StopMenu::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::StopMenu::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::StopMenu", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::StopMenu::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::StopMenu", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::StopMenu::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KPopupMenu::staticMetaObject();
+    static const QUMethod slot_0 = {"slotAboutToShow", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotActivated", 1, param_slot_1 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotAboutToShow()", &slot_0, QMetaData::Private },
+	{ "slotActivated(int)", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::StopMenu", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__StopMenu.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::StopMenu::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::StopMenu" ) )
+	return this;
+    return KPopupMenu::qt_cast( clname );
+}
+
+bool amaroK::StopMenu::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotAboutToShow(); break;
+    case 1: slotActivated((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return KPopupMenu::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::StopMenu::qt_emit( int _id, QUObject* _o )
+{
+    return KPopupMenu::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::StopMenu::qt_property( int id, int f, QVariant* v)
+{
+    return KPopupMenu::qt_property( id, f, v);
+}
+
+bool amaroK::StopMenu::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

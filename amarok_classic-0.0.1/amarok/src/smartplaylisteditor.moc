@@ -1,0 +1,213 @@
+/****************************************************************************
+** SmartPlaylistEditor meta object code from reading C++ file 'smartplaylisteditor.h'
+**
+** Created: Tue Feb 19 16:01:02 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "smartplaylisteditor.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *SmartPlaylistEditor::className() const
+{
+    return "SmartPlaylistEditor";
+}
+
+QMetaObject *SmartPlaylistEditor::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_SmartPlaylistEditor( "SmartPlaylistEditor", &SmartPlaylistEditor::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString SmartPlaylistEditor::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "SmartPlaylistEditor", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString SmartPlaylistEditor::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "SmartPlaylistEditor", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* SmartPlaylistEditor::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"addCriteria", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "xml", &static_QUType_ptr, "QDomElement", QUParameter::InOut }
+    };
+    static const QUMethod slot_1 = {"addCriteria", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "criteria", &static_QUType_ptr, "CriteriaEditor", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"removeCriteria", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "index", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"updateOrderTypes", 1, param_slot_3 };
+    static const QUMethod slot_4 = {"buildQuery", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "addCriteria()", &slot_0, QMetaData::Public },
+	{ "addCriteria(QDomElement&)", &slot_1, QMetaData::Public },
+	{ "removeCriteria(CriteriaEditor*)", &slot_2, QMetaData::Public },
+	{ "updateOrderTypes(int)", &slot_3, QMetaData::Private },
+	{ "buildQuery()", &slot_4, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"SmartPlaylistEditor", parentObject,
+	slot_tbl, 5,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_SmartPlaylistEditor.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* SmartPlaylistEditor::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "SmartPlaylistEditor" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool SmartPlaylistEditor::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: addCriteria(); break;
+    case 1: addCriteria((QDomElement&)*((QDomElement*)static_QUType_ptr.get(_o+1))); break;
+    case 2: removeCriteria((CriteriaEditor*)static_QUType_ptr.get(_o+1)); break;
+    case 3: updateOrderTypes((int)static_QUType_int.get(_o+1)); break;
+    case 4: buildQuery(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool SmartPlaylistEditor::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool SmartPlaylistEditor::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool SmartPlaylistEditor::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CriteriaEditor::className() const
+{
+    return "CriteriaEditor";
+}
+
+QMetaObject *CriteriaEditor::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CriteriaEditor( "CriteriaEditor", &CriteriaEditor::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CriteriaEditor::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CriteriaEditor", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CriteriaEditor::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CriteriaEditor", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CriteriaEditor::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QHBox::staticMetaObject();
+    static const QUMethod slot_0 = {"slotRemoveCriteria", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotFieldSelected", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"loadEditWidgets", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotRemoveCriteria()", &slot_0, QMetaData::Private },
+	{ "slotFieldSelected(int)", &slot_1, QMetaData::Private },
+	{ "loadEditWidgets()", &slot_2, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CriteriaEditor", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CriteriaEditor.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CriteriaEditor::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CriteriaEditor" ) )
+	return this;
+    return QHBox::qt_cast( clname );
+}
+
+bool CriteriaEditor::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotRemoveCriteria(); break;
+    case 1: slotFieldSelected((int)static_QUType_int.get(_o+1)); break;
+    case 2: loadEditWidgets(); break;
+    default:
+	return QHBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CriteriaEditor::qt_emit( int _id, QUObject* _o )
+{
+    return QHBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CriteriaEditor::qt_property( int id, int f, QVariant* v)
+{
+    return QHBox::qt_property( id, f, v);
+}
+
+bool CriteriaEditor::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

@@ -1,0 +1,207 @@
+/****************************************************************************
+** KDE::StatusBar meta object code from reading C++ file 'statusBarBase.h'
+**
+** Created: Fri Mar 23 10:37:11 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "statusBarBase.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *KDE::StatusBar::className() const
+{
+    return "KDE::StatusBar";
+}
+
+QMetaObject *KDE::StatusBar::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_KDE__StatusBar( "KDE::StatusBar", &KDE::StatusBar::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString KDE::StatusBar::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "KDE::StatusBar", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString KDE::StatusBar::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "KDE::StatusBar", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* KDE::StatusBar::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setMainText", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"resetMainText", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"longMessage", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In },
+	{ "type", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"longMessage", 2, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"longMessageThreadSafe", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In },
+	{ "type", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"longMessageThreadSafe", 2, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ "_short", &static_QUType_QString, 0, QUParameter::In },
+	{ "_long", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"shortLongMessage", 2, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "_short", &static_QUType_QString, 0, QUParameter::In },
+	{ "_long", &static_QUType_QString, 0, QUParameter::In },
+	{ "type", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"shortLongMessage", 3, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"shortMessage", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In },
+	{ "longShort", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"shortMessage", 2, param_slot_9 };
+    static const QUMethod slot_10 = {"endProgressOperation", 0, 0 };
+    static const QUParameter param_slot_11[] = {
+	{ "owner", &static_QUType_ptr, "QObject", QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"endProgressOperation", 1, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "steps", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"setProgress", 1, param_slot_12 };
+    static const QUMethod slot_13 = {"incrementProgress", 0, 0 };
+    static const QUParameter param_slot_14[] = {
+	{ "show", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"toggleProgressWindow", 1, param_slot_14 };
+    static const QUMethod slot_15 = {"abortAllProgressOperations", 0, 0 };
+    static const QUParameter param_slot_16[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In },
+	{ "percent", &static_QUType_ptr, "unsigned long", QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"setProgress", 2, param_slot_16 };
+    static const QUMethod slot_17 = {"showMainProgressBar", 0, 0 };
+    static const QUMethod slot_18 = {"hideMainProgressBar", 0, 0 };
+    static const QUMethod slot_19 = {"updateProgressAppearance", 0, 0 };
+    static const QUMethod slot_20 = {"showShortLongDetails", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "setMainText(const QString&)", &slot_0, QMetaData::Public },
+	{ "resetMainText()", &slot_1, QMetaData::Public },
+	{ "longMessage(const QString&)", &slot_2, QMetaData::Public },
+	{ "longMessage(const QString&,int)", &slot_3, QMetaData::Public },
+	{ "longMessageThreadSafe(const QString&)", &slot_4, QMetaData::Public },
+	{ "longMessageThreadSafe(const QString&,int)", &slot_5, QMetaData::Public },
+	{ "shortLongMessage(const QString&,const QString&)", &slot_6, QMetaData::Public },
+	{ "shortLongMessage(const QString&,const QString&,int)", &slot_7, QMetaData::Public },
+	{ "shortMessage(const QString&)", &slot_8, QMetaData::Public },
+	{ "shortMessage(const QString&,bool)", &slot_9, QMetaData::Public },
+	{ "endProgressOperation()", &slot_10, QMetaData::Public },
+	{ "endProgressOperation(QObject*)", &slot_11, QMetaData::Public },
+	{ "setProgress(int)", &slot_12, QMetaData::Public },
+	{ "incrementProgress()", &slot_13, QMetaData::Public },
+	{ "toggleProgressWindow(bool)", &slot_14, QMetaData::Public },
+	{ "abortAllProgressOperations()", &slot_15, QMetaData::Public },
+	{ "setProgress(KIO::Job*,unsigned long)", &slot_16, QMetaData::Private },
+	{ "showMainProgressBar()", &slot_17, QMetaData::Private },
+	{ "hideMainProgressBar()", &slot_18, QMetaData::Private },
+	{ "updateProgressAppearance()", &slot_19, QMetaData::Private },
+	{ "showShortLongDetails()", &slot_20, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"KDE::StatusBar", parentObject,
+	slot_tbl, 21,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_KDE__StatusBar.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* KDE::StatusBar::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "KDE::StatusBar" ) )
+	return this;
+    return QWidget::qt_cast( clname );
+}
+
+bool KDE::StatusBar::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setMainText((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 1: resetMainText(); break;
+    case 2: longMessage((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: longMessage((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 4: longMessageThreadSafe((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 5: longMessageThreadSafe((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 6: shortLongMessage((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 7: shortLongMessage((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(int)static_QUType_int.get(_o+3)); break;
+    case 8: shortMessage((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 9: shortMessage((const QString&)static_QUType_QString.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 10: endProgressOperation(); break;
+    case 11: endProgressOperation((QObject*)static_QUType_ptr.get(_o+1)); break;
+    case 12: setProgress((int)static_QUType_int.get(_o+1)); break;
+    case 13: incrementProgress(); break;
+    case 14: toggleProgressWindow((bool)static_QUType_bool.get(_o+1)); break;
+    case 15: abortAllProgressOperations(); break;
+    case 16: setProgress((KIO::Job*)static_QUType_ptr.get(_o+1),(unsigned long)(*((unsigned long*)static_QUType_ptr.get(_o+2)))); break;
+    case 17: showMainProgressBar(); break;
+    case 18: hideMainProgressBar(); break;
+    case 19: updateProgressAppearance(); break;
+    case 20: showShortLongDetails(); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool KDE::StatusBar::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool KDE::StatusBar::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool KDE::StatusBar::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

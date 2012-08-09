@@ -1,0 +1,438 @@
+/****************************************************************************
+** XineGeneralEntry meta object code from reading C++ file 'xine-config.h'
+**
+** Created: Fri Mar 23 10:57:23 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "xine-config.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *XineGeneralEntry::className() const
+{
+    return "XineGeneralEntry";
+}
+
+QMetaObject *XineGeneralEntry::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_XineGeneralEntry( "XineGeneralEntry", &XineGeneralEntry::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString XineGeneralEntry::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineGeneralEntry", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString XineGeneralEntry::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineGeneralEntry", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* XineGeneralEntry::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod signal_0 = {"viewChanged", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "viewChanged()", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"XineGeneralEntry", parentObject,
+	0, 0,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_XineGeneralEntry.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* XineGeneralEntry::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "XineGeneralEntry" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL viewChanged
+void XineGeneralEntry::viewChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool XineGeneralEntry::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool XineGeneralEntry::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: viewChanged(); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool XineGeneralEntry::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool XineGeneralEntry::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *XineStrEntry::className() const
+{
+    return "XineStrEntry";
+}
+
+QMetaObject *XineStrEntry::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_XineStrEntry( "XineStrEntry", &XineStrEntry::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString XineStrEntry::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineStrEntry", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString XineStrEntry::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineStrEntry", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* XineStrEntry::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = XineGeneralEntry::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "newEntry", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"entryChanged", 1, param_slot_0 };
+    static const QMetaData slot_tbl[] = {
+	{ "entryChanged(const QString&)", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"XineStrEntry", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_XineStrEntry.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* XineStrEntry::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "XineStrEntry" ) )
+	return this;
+    return XineGeneralEntry::qt_cast( clname );
+}
+
+bool XineStrEntry::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: entryChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return XineGeneralEntry::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool XineStrEntry::qt_emit( int _id, QUObject* _o )
+{
+    return XineGeneralEntry::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool XineStrEntry::qt_property( int id, int f, QVariant* v)
+{
+    return XineGeneralEntry::qt_property( id, f, v);
+}
+
+bool XineStrEntry::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *XineIntEntry::className() const
+{
+    return "XineIntEntry";
+}
+
+QMetaObject *XineIntEntry::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_XineIntEntry( "XineIntEntry", &XineIntEntry::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString XineIntEntry::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineIntEntry", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString XineIntEntry::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineIntEntry", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* XineIntEntry::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = XineGeneralEntry::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "newEntry", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"entryChanged", 1, param_slot_0 };
+    static const QMetaData slot_tbl[] = {
+	{ "entryChanged(int)", &slot_0, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"XineIntEntry", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_XineIntEntry.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* XineIntEntry::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "XineIntEntry" ) )
+	return this;
+    return XineGeneralEntry::qt_cast( clname );
+}
+
+bool XineIntEntry::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: entryChanged((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return XineGeneralEntry::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool XineIntEntry::qt_emit( int _id, QUObject* _o )
+{
+    return XineGeneralEntry::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool XineIntEntry::qt_property( int id, int f, QVariant* v)
+{
+    return XineGeneralEntry::qt_property( id, f, v);
+}
+
+bool XineIntEntry::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *XineEnumEntry::className() const
+{
+    return "XineEnumEntry";
+}
+
+QMetaObject *XineEnumEntry::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_XineEnumEntry( "XineEnumEntry", &XineEnumEntry::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString XineEnumEntry::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineEnumEntry", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString XineEnumEntry::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineEnumEntry", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* XineEnumEntry::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = XineIntEntry::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"XineEnumEntry", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_XineEnumEntry.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* XineEnumEntry::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "XineEnumEntry" ) )
+	return this;
+    return XineIntEntry::qt_cast( clname );
+}
+
+bool XineEnumEntry::qt_invoke( int _id, QUObject* _o )
+{
+    return XineIntEntry::qt_invoke(_id,_o);
+}
+
+bool XineEnumEntry::qt_emit( int _id, QUObject* _o )
+{
+    return XineIntEntry::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool XineEnumEntry::qt_property( int id, int f, QVariant* v)
+{
+    return XineIntEntry::qt_property( id, f, v);
+}
+
+bool XineEnumEntry::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *XineConfigDialog::className() const
+{
+    return "XineConfigDialog";
+}
+
+QMetaObject *XineConfigDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_XineConfigDialog( "XineConfigDialog", &XineConfigDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString XineConfigDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineConfigDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString XineConfigDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "XineConfigDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* XineConfigDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = amaroK::PluginConfig::staticMetaObject();
+    static const QUMethod slot_0 = {"save", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "xine", &static_QUType_ptr, "xine_t", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"reset", 1, param_slot_1 };
+    static const QMetaData slot_tbl[] = {
+	{ "save()", &slot_0, QMetaData::Public },
+	{ "reset(xine_t*)", &slot_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"XineConfigDialog", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_XineConfigDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* XineConfigDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "XineConfigDialog" ) )
+	return this;
+    return PluginConfig::qt_cast( clname );
+}
+
+bool XineConfigDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: save(); break;
+    case 1: reset((xine_t*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return PluginConfig::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool XineConfigDialog::qt_emit( int _id, QUObject* _o )
+{
+    return PluginConfig::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool XineConfigDialog::qt_property( int id, int f, QVariant* v)
+{
+    return PluginConfig::qt_property( id, f, v);
+}
+
+bool XineConfigDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

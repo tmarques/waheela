@@ -1,0 +1,164 @@
+/****************************************************************************
+** GenericMediaDevice meta object code from reading C++ file 'genericmediadevice.h'
+**
+** Created: Fri Mar 23 10:43:06 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "genericmediadevice.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *GenericMediaDevice::className() const
+{
+    return "GenericMediaDevice";
+}
+
+QMetaObject *GenericMediaDevice::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_GenericMediaDevice( "GenericMediaDevice", &GenericMediaDevice::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString GenericMediaDevice::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "GenericMediaDevice", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString GenericMediaDevice::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "GenericMediaDevice", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* GenericMediaDevice::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = MediaDevice::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"renameItem", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"expandItem", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "mountPoint", &static_QUType_QString, 0, QUParameter::In },
+	{ "kBSize", &static_QUType_ptr, "unsigned long", QUParameter::In },
+	{ "kBUsed", &static_QUType_ptr, "unsigned long", QUParameter::In },
+	{ "kBAvail", &static_QUType_ptr, "unsigned long", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"foundMountPoint", 4, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "dir", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"refreshDir", 1, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ "items", &static_QUType_ptr, "KFileItemList", QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"newItems", 1, param_slot_4 };
+    static const QUMethod slot_5 = {"dirListerCompleted", 0, 0 };
+    static const QUMethod slot_6 = {"dirListerClear", 0, 0 };
+    static const QUParameter param_slot_7[] = {
+	{ "url", &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"dirListerClear", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "fileitem", &static_QUType_ptr, "KFileItem", QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"dirListerDeleteItem", 1, param_slot_8 };
+    static const QMetaData slot_tbl[] = {
+	{ "renameItem(QListViewItem*)", &slot_0, QMetaData::Protected },
+	{ "expandItem(QListViewItem*)", &slot_1, QMetaData::Protected },
+	{ "foundMountPoint(const QString&,unsigned long,unsigned long,unsigned long)", &slot_2, QMetaData::Protected },
+	{ "refreshDir(const QString&)", &slot_3, QMetaData::Protected },
+	{ "newItems(const KFileItemList&)", &slot_4, QMetaData::Protected },
+	{ "dirListerCompleted()", &slot_5, QMetaData::Protected },
+	{ "dirListerClear()", &slot_6, QMetaData::Protected },
+	{ "dirListerClear(const KURL&)", &slot_7, QMetaData::Protected },
+	{ "dirListerDeleteItem(KFileItem*)", &slot_8, QMetaData::Protected }
+    };
+    static const QUMethod signal_0 = {"startTransfer", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "startTransfer()", &signal_0, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"GenericMediaDevice", parentObject,
+	slot_tbl, 9,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_GenericMediaDevice.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* GenericMediaDevice::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "GenericMediaDevice" ) )
+	return this;
+    return MediaDevice::qt_cast( clname );
+}
+
+// SIGNAL startTransfer
+void GenericMediaDevice::startTransfer()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool GenericMediaDevice::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: renameItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 1: expandItem((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: foundMountPoint((const QString&)static_QUType_QString.get(_o+1),(unsigned long)(*((unsigned long*)static_QUType_ptr.get(_o+2))),(unsigned long)(*((unsigned long*)static_QUType_ptr.get(_o+3))),(unsigned long)(*((unsigned long*)static_QUType_ptr.get(_o+4)))); break;
+    case 3: refreshDir((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 4: newItems((const KFileItemList&)*((const KFileItemList*)static_QUType_ptr.get(_o+1))); break;
+    case 5: dirListerCompleted(); break;
+    case 6: dirListerClear(); break;
+    case 7: dirListerClear((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    case 8: dirListerDeleteItem((KFileItem*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return MediaDevice::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool GenericMediaDevice::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: startTransfer(); break;
+    default:
+	return MediaDevice::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool GenericMediaDevice::qt_property( int id, int f, QVariant* v)
+{
+    return MediaDevice::qt_property( id, f, v);
+}
+
+bool GenericMediaDevice::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

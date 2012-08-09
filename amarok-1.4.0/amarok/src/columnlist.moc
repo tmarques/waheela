@@ -1,0 +1,207 @@
+/****************************************************************************
+** ColumnList meta object code from reading C++ file 'columnlist.h'
+**
+** Created: Fri Mar 23 10:38:14 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "columnlist.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *ColumnList::className() const
+{
+    return "ColumnList";
+}
+
+QMetaObject *ColumnList::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ColumnList( "ColumnList", &ColumnList::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ColumnList::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ColumnList", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ColumnList::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ColumnList", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ColumnList::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QHBox::staticMetaObject();
+    static const QUMethod slot_0 = {"moveUp", 0, 0 };
+    static const QUMethod slot_1 = {"moveDown", 0, 0 };
+    static const QUMethod slot_2 = {"updateUI", 0, 0 };
+    static const QUMethod slot_3 = {"setChanged", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "moveUp()", &slot_0, QMetaData::Private },
+	{ "moveDown()", &slot_1, QMetaData::Private },
+	{ "updateUI()", &slot_2, QMetaData::Private },
+	{ "setChanged()", &slot_3, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"changed", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "changed()", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ColumnList", parentObject,
+	slot_tbl, 4,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ColumnList.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ColumnList::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ColumnList" ) )
+	return this;
+    return QHBox::qt_cast( clname );
+}
+
+// SIGNAL changed
+void ColumnList::changed()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool ColumnList::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: moveUp(); break;
+    case 1: moveDown(); break;
+    case 2: updateUI(); break;
+    case 3: setChanged(); break;
+    default:
+	return QHBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ColumnList::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: changed(); break;
+    default:
+	return QHBox::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ColumnList::qt_property( int id, int f, QVariant* v)
+{
+    return QHBox::qt_property( id, f, v);
+}
+
+bool ColumnList::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *ColumnsDialog::className() const
+{
+    return "ColumnsDialog";
+}
+
+QMetaObject *ColumnsDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ColumnsDialog( "ColumnsDialog", &ColumnsDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ColumnsDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ColumnsDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ColumnsDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ColumnsDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ColumnsDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotChanged", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotChanged()", &slot_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ColumnsDialog", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ColumnsDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ColumnsDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ColumnsDialog" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool ColumnsDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotChanged(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ColumnsDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ColumnsDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool ColumnsDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

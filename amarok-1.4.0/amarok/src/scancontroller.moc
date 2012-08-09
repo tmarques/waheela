@@ -1,0 +1,103 @@
+/****************************************************************************
+** ScanController meta object code from reading C++ file 'scancontroller.h'
+**
+** Created: Fri Mar 23 10:41:24 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "scancontroller.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *ScanController::className() const
+{
+    return "ScanController";
+}
+
+QMetaObject *ScanController::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ScanController( "ScanController", &ScanController::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ScanController::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ScanController", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ScanController::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ScanController", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ScanController::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = ThreadWeaver::DependentJob::staticMetaObject();
+    static const QUMethod slot_0 = {"slotReadReady", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotReadReady()", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ScanController", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ScanController.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ScanController::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ScanController" ) )
+	return this;
+    if ( !qstrcmp( clname, "QXmlDefaultHandler" ) )
+	return (QXmlDefaultHandler*)this;
+    return DependentJob::qt_cast( clname );
+}
+
+bool ScanController::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotReadReady(); break;
+    default:
+	return DependentJob::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ScanController::qt_emit( int _id, QUObject* _o )
+{
+    return DependentJob::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ScanController::qt_property( int id, int f, QVariant* v)
+{
+    return DependentJob::qt_property( id, f, v);
+}
+
+bool ScanController::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

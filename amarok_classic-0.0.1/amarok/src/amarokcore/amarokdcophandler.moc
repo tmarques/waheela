@@ -1,0 +1,587 @@
+/****************************************************************************
+** amaroK::DcopPlayerHandler meta object code from reading C++ file 'amarokdcophandler.h'
+**
+** Created: Tue Feb 19 15:55:04 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "amarokdcophandler.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *amaroK::DcopPlayerHandler::className() const
+{
+    return "amaroK::DcopPlayerHandler";
+}
+
+QMetaObject *amaroK::DcopPlayerHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopPlayerHandler( "amaroK::DcopPlayerHandler", &amaroK::DcopPlayerHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopPlayerHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlayerHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopPlayerHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlayerHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopPlayerHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopPlayerHandler", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopPlayerHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopPlayerHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopPlayerHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokPlayerInterface" ) )
+	return (AmarokPlayerInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopPlayerHandler::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool amaroK::DcopPlayerHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopPlayerHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopPlayerHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::DcopPlaylistHandler::className() const
+{
+    return "amaroK::DcopPlaylistHandler";
+}
+
+QMetaObject *amaroK::DcopPlaylistHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopPlaylistHandler( "amaroK::DcopPlaylistHandler", &amaroK::DcopPlaylistHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopPlaylistHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlaylistHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopPlaylistHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlaylistHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopPlaylistHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopPlaylistHandler", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopPlaylistHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopPlaylistHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopPlaylistHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokPlaylistInterface" ) )
+	return (AmarokPlaylistInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopPlaylistHandler::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool amaroK::DcopPlaylistHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopPlaylistHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopPlaylistHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::DcopPlaylistBrowserHandler::className() const
+{
+    return "amaroK::DcopPlaylistBrowserHandler";
+}
+
+QMetaObject *amaroK::DcopPlaylistBrowserHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopPlaylistBrowserHandler( "amaroK::DcopPlaylistBrowserHandler", &amaroK::DcopPlaylistBrowserHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopPlaylistBrowserHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlaylistBrowserHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopPlaylistBrowserHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopPlaylistBrowserHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopPlaylistBrowserHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopPlaylistBrowserHandler", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopPlaylistBrowserHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopPlaylistBrowserHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopPlaylistBrowserHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokPlaylistBrowserInterface" ) )
+	return (AmarokPlaylistBrowserInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopPlaylistBrowserHandler::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool amaroK::DcopPlaylistBrowserHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopPlaylistBrowserHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopPlaylistBrowserHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::DcopContextBrowserHandler::className() const
+{
+    return "amaroK::DcopContextBrowserHandler";
+}
+
+QMetaObject *amaroK::DcopContextBrowserHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopContextBrowserHandler( "amaroK::DcopContextBrowserHandler", &amaroK::DcopContextBrowserHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopContextBrowserHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopContextBrowserHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopContextBrowserHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopContextBrowserHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopContextBrowserHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopContextBrowserHandler", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopContextBrowserHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopContextBrowserHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopContextBrowserHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokContextBrowserInterface" ) )
+	return (AmarokContextBrowserInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopContextBrowserHandler::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool amaroK::DcopContextBrowserHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopContextBrowserHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopContextBrowserHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+#include <qvariant.h>
+const char *amaroK::DcopCollectionHandler::className() const
+{
+    return "amaroK::DcopCollectionHandler";
+}
+
+QMetaObject *amaroK::DcopCollectionHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopCollectionHandler( "amaroK::DcopCollectionHandler", &amaroK::DcopCollectionHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopCollectionHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopCollectionHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopCollectionHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopCollectionHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopCollectionHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_0 = {"totalAlbums", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_1 = {"totalArtists", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_2 = {"totalCompilations", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_3 = {"totalGenres", 1, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_4 = {"totalTracks", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_QVariant, "\x04", QUParameter::Out },
+	{ "sql", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"query", 2, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_QVariant, "\x04", QUParameter::Out },
+	{ "artists", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"similarArtists", 2, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "oldURL", &static_QUType_QString, 0, QUParameter::In },
+	{ "newURL", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"migrateFile", 2, param_slot_7 };
+    static const QUMethod slot_8 = {"scanCollection", 0, 0 };
+    static const QUMethod slot_9 = {"scanCollectionChanges", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "totalAlbums()", &slot_0, QMetaData::Public },
+	{ "totalArtists()", &slot_1, QMetaData::Public },
+	{ "totalCompilations()", &slot_2, QMetaData::Public },
+	{ "totalGenres()", &slot_3, QMetaData::Public },
+	{ "totalTracks()", &slot_4, QMetaData::Public },
+	{ "query(const QString&)", &slot_5, QMetaData::Public },
+	{ "similarArtists(int)", &slot_6, QMetaData::Public },
+	{ "migrateFile(const QString&,const QString&)", &slot_7, QMetaData::Public },
+	{ "scanCollection()", &slot_8, QMetaData::Public },
+	{ "scanCollectionChanges()", &slot_9, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopCollectionHandler", parentObject,
+	slot_tbl, 10,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopCollectionHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopCollectionHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopCollectionHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokCollectionInterface" ) )
+	return (AmarokCollectionInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopCollectionHandler::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: static_QUType_int.set(_o,totalAlbums()); break;
+    case 1: static_QUType_int.set(_o,totalArtists()); break;
+    case 2: static_QUType_int.set(_o,totalCompilations()); break;
+    case 3: static_QUType_int.set(_o,totalGenres()); break;
+    case 4: static_QUType_int.set(_o,totalTracks()); break;
+    case 5: static_QUType_QVariant.set(_o,QVariant(query((const QString&)static_QUType_QString.get(_o+1)))); break;
+    case 6: static_QUType_QVariant.set(_o,QVariant(similarArtists((int)static_QUType_int.get(_o+1)))); break;
+    case 7: migrateFile((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 8: scanCollection(); break;
+    case 9: scanCollectionChanges(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::DcopCollectionHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopCollectionHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopCollectionHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::DcopScriptHandler::className() const
+{
+    return "amaroK::DcopScriptHandler";
+}
+
+QMetaObject *amaroK::DcopScriptHandler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__DcopScriptHandler( "amaroK::DcopScriptHandler", &amaroK::DcopScriptHandler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::DcopScriptHandler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopScriptHandler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::DcopScriptHandler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::DcopScriptHandler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::DcopScriptHandler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"runScript", 2, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::Out },
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"stopScript", 2, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_QVariant, "\x04", QUParameter::Out }
+    };
+    static const QUMethod slot_2 = {"listRunningScripts", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "submenu", &static_QUType_QString, 0, QUParameter::In },
+	{ "itemTitle", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"addCustomMenuItem", 2, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ "submenu", &static_QUType_QString, 0, QUParameter::In },
+	{ "itemTitle", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"removeCustomMenuItem", 2, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::Out },
+	{ "key", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"readConfig", 2, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_QVariant, "\x04", QUParameter::Out },
+	{ "key", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"readListConfig", 2, param_slot_6 };
+    static const QMetaData slot_tbl[] = {
+	{ "runScript(const QString&)", &slot_0, QMetaData::Public },
+	{ "stopScript(const QString&)", &slot_1, QMetaData::Public },
+	{ "listRunningScripts()", &slot_2, QMetaData::Public },
+	{ "addCustomMenuItem(QString,QString)", &slot_3, QMetaData::Public },
+	{ "removeCustomMenuItem(QString,QString)", &slot_4, QMetaData::Public },
+	{ "readConfig(const QString&)", &slot_5, QMetaData::Public },
+	{ "readListConfig(const QString&)", &slot_6, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::DcopScriptHandler", parentObject,
+	slot_tbl, 7,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__DcopScriptHandler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::DcopScriptHandler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::DcopScriptHandler" ) )
+	return this;
+    if ( !qstrcmp( clname, "AmarokScriptInterface" ) )
+	return (AmarokScriptInterface*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool amaroK::DcopScriptHandler::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: static_QUType_bool.set(_o,runScript((const QString&)static_QUType_QString.get(_o+1))); break;
+    case 1: static_QUType_bool.set(_o,stopScript((const QString&)static_QUType_QString.get(_o+1))); break;
+    case 2: static_QUType_QVariant.set(_o,QVariant(listRunningScripts())); break;
+    case 3: addCustomMenuItem((QString)static_QUType_QString.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 4: removeCustomMenuItem((QString)static_QUType_QString.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 5: static_QUType_QString.set(_o,readConfig((const QString&)static_QUType_QString.get(_o+1))); break;
+    case 6: static_QUType_QVariant.set(_o,QVariant(readListConfig((const QString&)static_QUType_QString.get(_o+1)))); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::DcopScriptHandler::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::DcopScriptHandler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool amaroK::DcopScriptHandler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

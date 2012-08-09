@@ -1,0 +1,272 @@
+/****************************************************************************
+** FileBrowser meta object code from reading C++ file 'filebrowser.h'
+**
+** Created: Fri Mar 23 10:53:17 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "filebrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *FileBrowser::className() const
+{
+    return "FileBrowser";
+}
+
+QMetaObject *FileBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_FileBrowser( "FileBrowser", &FileBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString FileBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "FileBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString FileBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "FileBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* FileBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "url", &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setUrl", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"setUrl", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"setFilter", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_ptr, "KFileItem", QUParameter::In },
+	{ 0, &static_QUType_ptr, "QDropEvent", QUParameter::In },
+	{ 0, &static_QUType_ptr, "KURL::List", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"dropped", 3, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ 0, &static_QUType_ptr, "KFileItem", QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"activate", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"contextMenuActivated", 1, param_slot_5 };
+    static const QUMethod slot_6 = {"gotoCurrentFolder", 0, 0 };
+    static const QUMethod slot_7 = {"prepareContextMenu", 0, 0 };
+    static const QUMethod slot_8 = {"selectAll", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ 0, &static_QUType_ptr, "KFileView", QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"slotViewChanged", 1, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ 0, &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"urlChanged", 1, param_slot_10 };
+    static const QMetaData slot_tbl[] = {
+	{ "setUrl(const KURL&)", &slot_0, QMetaData::Public },
+	{ "setUrl(const QString&)", &slot_1, QMetaData::Public },
+	{ "setFilter(const QString&)", &slot_2, QMetaData::Public },
+	{ "dropped(const KFileItem*,QDropEvent*,const KURL::List&)", &slot_3, QMetaData::Public },
+	{ "activate(const KFileItem*)", &slot_4, QMetaData::Private },
+	{ "contextMenuActivated(int)", &slot_5, QMetaData::Private },
+	{ "gotoCurrentFolder()", &slot_6, QMetaData::Private },
+	{ "prepareContextMenu()", &slot_7, QMetaData::Private },
+	{ "selectAll()", &slot_8, QMetaData::Private },
+	{ "slotViewChanged(KFileView*)", &slot_9, QMetaData::Private },
+	{ "urlChanged(const KURL&)", &slot_10, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"FileBrowser", parentObject,
+	slot_tbl, 11,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_FileBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* FileBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "FileBrowser" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+bool FileBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setUrl((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    case 1: setUrl((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 2: setFilter((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: dropped((const KFileItem*)static_QUType_ptr.get(_o+1),(QDropEvent*)static_QUType_ptr.get(_o+2),(const KURL::List&)*((const KURL::List*)static_QUType_ptr.get(_o+3))); break;
+    case 4: activate((const KFileItem*)static_QUType_ptr.get(_o+1)); break;
+    case 5: contextMenuActivated((int)static_QUType_int.get(_o+1)); break;
+    case 6: gotoCurrentFolder(); break;
+    case 7: prepareContextMenu(); break;
+    case 8: selectAll(); break;
+    case 9: slotViewChanged((KFileView*)static_QUType_ptr.get(_o+1)); break;
+    case 10: urlChanged((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool FileBrowser::qt_emit( int _id, QUObject* _o )
+{
+    return QVBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool FileBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool FileBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *SearchPane::className() const
+{
+    return "SearchPane";
+}
+
+QMetaObject *SearchPane::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_SearchPane( "SearchPane", &SearchPane::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString SearchPane::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "SearchPane", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString SearchPane::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "SearchPane", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* SearchPane::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"toggle", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"urlChanged", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"searchTextChanged", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_ptr, "KFileItemList", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"searchMatches", 1, param_slot_3 };
+    static const QUMethod slot_4 = {"searchComplete", 0, 0 };
+    static const QUMethod slot_5 = {"_searchComplete", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"activate", 1, param_slot_6 };
+    static const QMetaData slot_tbl[] = {
+	{ "toggle(bool)", &slot_0, QMetaData::Private },
+	{ "urlChanged(const KURL&)", &slot_1, QMetaData::Private },
+	{ "searchTextChanged(const QString&)", &slot_2, QMetaData::Private },
+	{ "searchMatches(const KFileItemList&)", &slot_3, QMetaData::Private },
+	{ "searchComplete()", &slot_4, QMetaData::Private },
+	{ "_searchComplete()", &slot_5, QMetaData::Private },
+	{ "activate(QListViewItem*)", &slot_6, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"SearchPane", parentObject,
+	slot_tbl, 7,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_SearchPane.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* SearchPane::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "SearchPane" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+bool SearchPane::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: toggle((bool)static_QUType_bool.get(_o+1)); break;
+    case 1: urlChanged((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    case 2: searchTextChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: searchMatches((const KFileItemList&)*((const KFileItemList*)static_QUType_ptr.get(_o+1))); break;
+    case 4: searchComplete(); break;
+    case 5: _searchComplete(); break;
+    case 6: activate((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool SearchPane::qt_emit( int _id, QUObject* _o )
+{
+    return QVBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool SearchPane::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool SearchPane::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

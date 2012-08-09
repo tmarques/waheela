@@ -1,0 +1,6791 @@
+# traditional Chinese Traditional of amarok.
+# Stanley Wong <stanley18fan0k@yahoo.com.hk>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2005-08-16 00:07+0800\n"
+"Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "未知"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr "amaroK - 重新發現您的音樂寶藏"
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "播放清單..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "廣播音訊流..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "智能播放清單..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "Podcast..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "目前播放清單..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "動態播放清單..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "重新命名"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "詳細檢視"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "清單檢視"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "不排序"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "以上至下排列"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "以下至上排列"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "廣播音訊流"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "超酷音訊流"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "智能播放清單"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "音樂集"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "所有音樂集"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "喜愛的曲目"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "By %1"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "經常播放的"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "最新的曲目"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "上一次播放"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "未播放過的"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "播放過的"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "風格"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 隨機曲目"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "儲存動態播放清單"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "請輸入播放清單的名稱："
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "動態播放清單"
+
+#: playlistbrowser.cpp:752
+#, fuzzy
+msgid "Random Mix"
+msgstr "隨機"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "提議的樂曲"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "Podcasts"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "加入 Podcast"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "請輸入 Podcast URL："
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "下載間隔"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "每次掃描間隔(小時)："
+
+#: playlistbrowser.cpp:1001
+#, fuzzy, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr "<p>您已選擇要<b>永久刪除</b> %n 張播放清單。"
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "播放清單"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr "無法寫入播放清單(%1)。"
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "播放清單檔案"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "加入播放清單"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr "<p>您已選擇要<b>永久刪除</b> %n 張播放清單。"
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "重新命名檔案時發生錯誤。"
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "載入(&L)"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "附加到播放清單中(&A)"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+#, fuzzy
+msgid "Remove From Dynamic Mode"
+msgstr "從動態模式中移除"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "加入到動態模式"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "還原(&T)"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "編輯(&D)..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "移除(&E)"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "編輯(&D)"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+#, fuzzy
+msgid "Show &Information"
+msgstr "曲目資訊"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "檢查更新(&C)"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "設定(&C)..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "播放(&P)"
+
+#: playlistbrowser.cpp:2239
+#, fuzzy
+msgid "&Queue"
+msgstr "隨機排列佇列"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "下載媒體(&D)"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr ""
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "加入播放清單..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "加入智能播放清單..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "加入廣播音訊流..."
+
+#: playlistbrowser.cpp:2306
+#, fuzzy
+msgid "Save Dynamic Configuration..."
+msgstr "OSS 裝置設定"
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "重新整理全部 Podcasts"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "加入 Podcast..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "掃描間隔..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "建立子目錄"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "目錄"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "目錄 %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "把曲目放入播放佇列(&Q)"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "建立播放清單(&M)"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "以資料形式燒錄到 CD"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "以音訊形式燒錄到 CD"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "編輯曲目資訊(&I)..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+#, fuzzy
+msgid "Track information is not available for remote media."
+msgstr "這個指令稿沒有可用的資訊。"
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "這個檔案不存在：%1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "還原(&R)"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "儲存播放清單"
+
+#: playlistbrowser.cpp:2858
+#, fuzzy
+msgid "Save to location..."
+msgstr "位置："
+
+#: playlistbrowser.cpp:2862
+#, fuzzy
+msgid "&Enter a name for the playlist:"
+msgstr "要不要移除播放清單的第一個項目"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: playlistbrowser.cpp:2886
+#, fuzzy
+msgid "Overwrite Playlist?"
+msgstr "儲存播放清單"
+
+#: playlistbrowser.cpp:2886
+#, fuzzy
+msgid "Overwrite"
+msgstr "覆寫(&O)"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "聯絡 Amazon 時發生錯誤。"
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr "對不起，'%1' 無法被載入，不過我們已載入 '%2'。"
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>amaroK 找不到任何解碼引擎外掛程式，因此 amaroK 正在更新 KDE 設定資料庫。請稍候一會兒，然後重新啟動 amaroK。</p>"
+"<p>如果這樣仍然沒有幫助，那麼很有可能是在安裝 amaroK 時使用了錯誤的 prefix。真是這樣的話，您可以嘗試這樣做："
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>您也能在 README 中找到更多資訊。若需要更深入的幫助，您可以加入我們的在 irc.freenode.net 的 "
+"IRC 頻道 #amarok。</p>"
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+"<p>%1 聲稱它<b>無法</b>播放 MP3 檔案。"
+"<p>您可以在<i>設定對話框</i>中選擇另外一些解碼引擎，或測試一下該引擎使用的媒體架構。"
+"<p>您可以在 <i>amaroK 手冊中</i>的 <i>FAQ</i> 章節裏找到更多有用的資訊。"
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "正在連接到流媒體來源..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "本地檔案不存在。"
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "指令稿管理員"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"指令稿套件 (*.amarokscript.tar, *.amarokscript.tar.bz2, *.amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "選擇指令稿套件"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "無法讀取這個套件。"
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr "名稱為 '%1' 指令稿已被安裝。請先把它解除安裝。"
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "指令稿安裝成功。"
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr "<p>指令稿安裝失敗</p><p>這個套件並不包含一個可執行檔。請通知套件維護者這個錯誤。</p>"
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "您真的要解除安裝指令稿'%1'?"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "解除安裝指令稿"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "解除安裝"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr "<p>無法解除安裝這個指令稿</p><p>指令稿管理員只能解除安裝那些以套件形式安裝的指令稿。</p>"
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr "<p>無法啟動指令稿 <i>%1</i>。</p><p>請確定該檔案是有執行的權限。</p>"
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "這個指令稿沒有可用的資訊。"
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "關於 %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr ""
+
+#: scriptmanager.cpp:561
+#, fuzzy
+msgid "License"
+msgstr "歌詞"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "除錯"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "顯示輸出記錄(&L)"
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "%1 的輸出記錄"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "指令稿 '%1' 已退出，並傳回錯誤碼：%2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "正在填入播放清單"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "準備中"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "某些媒體無法被載入(不可播放)。"
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "這些媒體無法被載入至播放清單："
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr "播放清單中的 XML 無效。請把這個錯誤回報給 amaroK 開發人員，謝謝。"
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "amaroK 無法開啟檔案。"
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr "這個 amaroK 元件不能讀取 XML 播放清單。"
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "amaroK 未支援這種播放清單的格式。"
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr "這張播放清單沒有關聯到任何檔案。"
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "正在接收播放清單"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr "這些目錄會被掃描，用以建立您的音樂集。"
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "遞迴地掃描目錄(&S)"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "注意目錄的改變(&W)"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "匯入播放清單(&I)"
+
+#: directorylist.cpp:45
+msgid "If selected, amaroK will read all subfolders."
+msgstr "這個選項開啟後，amaroK 將會讀取所有子目錄。"
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr "選擇後，當目錄的內容有任何更動，amaroK 都會自動重新掃描一次。(例如加入了一個新的檔案)"
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr "選擇後，播放清單檔案(.m3u)會被自動加入到播放清單瀏覽器。"
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "重新填入"
+
+#: party.cpp:78
+#, fuzzy
+msgid "Enable dynamic mode"
+msgstr "啟動動態模式"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "顯示選項"
+
+#: party.cpp:234
+#, fuzzy
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+"<p align=\"center\"><b>動態模式</b></p>\n"
+"動態模式是一種強而有力的播放清單管理方式。amaroK 可以自動移除已播放的樂曲，並加入新的來配合您的口味！"
+"<br>\n"
+"<br>\n"
+"如果您選擇了<i>隨機排列播放清單</i>，請確定您已選取了一些播放清單。您可以在清單瀏覽器中右擊這些項目來選取它們。"
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "動態模式介紹"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "封面管理員"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "專輯作者"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "所有專輯"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "各個演出者"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "在這裏篩選音樂..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "清除篩選器"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "請輸入以空白分隔的詞語來篩選專輯"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "有封面的專輯"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "無封面的專輯"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "國際"
+
+#: covermanager.cpp:140
+#, fuzzy
+msgid "Canada"
+msgstr "和"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "法國"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "德國"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "日本"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "英國"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "Amazon 地區"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "取得缺掉的封面"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "中止"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "載入縮圖中..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "封面影像"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "取得選擇的封面(&F)"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "設定自定的封面給選擇的專輯(&C)"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "取消設定選擇的封面(&U)"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "顯示全大小(&S)"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "從 amazon.%1 取得 (&F)"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "設定自我的影像(&C)"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "設定封面的影像(&C)"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "取消設定封面影像(&U)"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "請選擇封面的影像檔案"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr "您真的要在音樂集裏移除這 %n 張封面嗎?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "已完成。"
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr "找不到<b>%n</b>張封面"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "取得封面給"
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr "正在取得<b>%n<b>張封面...："
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr "已取得 %n 張"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr "找不到 %n 張"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "正在連接..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr "\"%1\" 有 %n 個結果"
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr "%n 張專輯"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " 由 "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( 無封面的<b>%1</b> )"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "您真的要覆寫這一張封面嗎?"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "覆寫確認"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "覆寫(&O)"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr "請把這訊息報告到 amarok-devel@lists.sf.net，謝謝!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "歡迎來到 amaroK"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "分析器"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "按這裏可以使用更多分析器。按 'd' 會分開分析器到一個獨立視窗。"
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "等化器不適用於這個解碼引擎。"
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "視覺化"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "右擊項目可以取得一張內容選單"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>找不到視覺化元件</h3>可能的原因："
+"<ul>"
+"<li>未安裝 libvisual</li>"
+"<li>libvisual 的外掛程式並未安裝</li></ul>請檢查這些可能性然後重新啟動 amaroK。</div>"
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "請輸入一些以空格分開的字詞，來篩選音樂集"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "更新"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "設定目錄"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "樹狀檢視"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "平面檢視"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "分類以"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "演出者"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "演出者 / 專輯"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "年份"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "專輯"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "風格 / 演出者"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "風格 / 演出者 / 專輯"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "第一級別(&F)"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "第二級別(&S)"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "第三級別(&T)"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "專輯(&A)"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr "(年份) - 專輯(&E)"
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "演出者(&R)"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "風格(&G)"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "年份(&Y)"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "無(&N)"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "專輯(&L)"
+
+#: collectionbrowser.cpp:207
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+
+#: collectionbrowser.cpp:212
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr "%n 張專輯"
+
+#: collectionbrowser.cpp:217
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr "已取得 %n 張"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr "%n 個曲目"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "設定音樂集"
+
+#: collectionbrowser.cpp:1185
+msgid "&Queue Tracks"
+msgstr "把曲目放入佇列(&Q)"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+#, fuzzy
+msgid "&Save as Playlist..."
+msgstr "另存播放清單為(&S)..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "把這個演出者的全部曲目燒錄"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "燒錄這個專輯"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+#, fuzzy
+msgid "Burn to CD"
+msgstr "以資料形式燒錄到 CD"
+
+#: collectionbrowser.cpp:1214
+#, fuzzy
+msgid "&Fetch Cover Image"
+msgstr "取得封面影像(&F)"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr "編輯 %n 個曲目的資訊..."
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr "標記成精選(&M)"
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr "取消標記成精選(&U)"
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "標題"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "風格"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr "<div align=center><h3>平面檢視模式</h3>要啟用平面檢視模式，請在上面的篩選器中輸入要搜尋的項目。</div>"
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "amaroK 選單"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "選單"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "封面管理員(&O)"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "視覺化(&V)"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "等化器(&Q)"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "首次執行精靈(&W)"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "重新掃描音樂集(&R)"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "播放/暫停"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "暫停"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "播放"
+
+#: actionclasses.cpp:278
+msgid "Click for more analyzers"
+msgstr "按這裏可以使用更多的分析器"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "音量"
+
+#: actionclasses.cpp:338
+msgid "Volume control"
+msgstr "音量控制"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "隨機模式(&M)"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "重覆曲目(&T)"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "重覆播放清單(&P)"
+
+#: actionclasses.cpp:391
+msgid "&Dynamic Mode"
+msgstr "動態模式(&D)"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "燒錄"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "目前的播放清單"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "選擇的曲目"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr ""
+
+#: actionclasses.cpp:505
+#, fuzzy
+msgid "After Current Track"
+msgstr "去到目前的曲目(&G)"
+
+#: actionclasses.cpp:506
+#, fuzzy
+msgid "After Queue"
+msgstr "隨機排列佇列"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr "<p>KLibLoader 無法載入外掛程式：<br/><i>%1</i></p><p>錯誤訊息為：<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "名稱"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "程式庫"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "作者"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "電子郵件"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "版本"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "架構版本"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "外掛程式資訊"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr "一個使用折線圖的 amaroK 等化器"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "圖表等化器"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "等化器"
+
+#: equalizersetup.cpp:73
+#, fuzzy
+msgid "Presets:"
+msgstr "預置"
+
+#: equalizersetup.cpp:80
+#, fuzzy
+msgid "Add new preset"
+msgstr "儲存等化器預置"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr ""
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "開啟等化器"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "前置放大"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+#, fuzzy
+msgid "Manual"
+msgstr "主要"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr ""
+
+#: equalizersetup.cpp:361
+#, fuzzy
+msgid "Add Equalizer Preset"
+msgstr "儲存等化器預置"
+
+#: equalizersetup.cpp:362
+msgid "Enter preset name:"
+msgstr "請輸入預置名稱："
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Stanley Wong"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "stanley18fan0k@yahoo.com.hk"
+
+#: mediabrowser.cpp:302
+#, fuzzy
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr "<div align=center><h3>媒體瀏覽器</h3>您可以把檔案拖曳到下面，來把它們傳輸到您的 iPod。</div>"
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "刪除檔案"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "URL"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr "有 %n 個曲目在播放佇列中"
+
+#: mediabrowser.cpp:414
+#, fuzzy
+msgid "Connect"
+msgstr "系絡"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "傳輸"
+
+#: mediabrowser.cpp:419
+#, fuzzy
+msgid "Connect media device"
+msgstr "設定解碼引擎"
+
+#: mediabrowser.cpp:420
+#, fuzzy
+msgid "Transfer tracks to media device"
+msgstr "設定解碼引擎"
+
+#: mediabrowser.cpp:421
+#, fuzzy
+msgid "Configure mount commands"
+msgstr "命令(&C)："
+
+#: mediabrowser.cpp:445
+#, fuzzy
+msgid "&Remove From Queue"
+msgstr "從播放清單中移除(&R)"
+
+#: mediabrowser.cpp:446
+#, fuzzy
+msgid "&Clear Queue"
+msgstr "隨機排列佇列"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr ""
+
+#: mediabrowser.cpp:663
+#, fuzzy
+msgid "Configure Media Device"
+msgstr "設定解碼引擎"
+
+#: mediabrowser.cpp:668
+#, fuzzy
+msgid "&Mount command:"
+msgstr "命令(&C)："
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:674
+#, fuzzy
+msgid "&Unmount command:"
+msgstr "命令(&C)："
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr ""
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr "<p>您已選擇了要永久刪除選取的 %n 個檔案。"
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr ""
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+#, fuzzy
+msgid "Media Device Browser"
+msgstr "媒體裝置"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+
+#: mediabrowser.cpp:954
+#, fuzzy
+msgid "&Transfer"
+msgstr "傳輸"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr ""
+
+#: podcastsettings.cpp:20
+#, fuzzy
+msgid "Configure Podcast Stream"
+msgstr "設定全域熱鍵(&G)..."
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr ""
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr ""
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+msgid "Presets"
+msgstr "預置"
+
+#: equalizerpresetmanager.cpp:100
+#, fuzzy
+msgid "Rename Equalizer Preset"
+msgstr "儲存等化器預置"
+
+#: equalizerpresetmanager.cpp:101
+#, fuzzy
+msgid "Enter new preset name:"
+msgstr "請輸入預置名稱："
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>佇列管理員</h3>要建立一個佇列項目，您可以從播放清單中<b>拖曳</b>到這裏。"
+"<br>"
+"<br>您也能在這裏以拖曳方式調整播放順序。</div>"
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+msgid "Queue Manager"
+msgstr "佇列管理員"
+
+#: queuemanager.cpp:276
+msgid "Move up"
+msgstr "移上"
+
+#: queuemanager.cpp:277
+msgid "Move down"
+msgstr "移下"
+
+#: queuemanager.cpp:279
+msgid "Enqueue track"
+msgstr "把曲目放入播放佇列"
+
+#: queuemanager.cpp:280
+#, fuzzy
+msgid "Clear queue"
+msgstr "隨機排列佇列"
+
+#: tagdialog.cpp:59
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr "%n 曲目的資訊"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "正在產生音訊指紋..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "在 MusicBrainz 資料庫找不到這個曲目。"
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr "請安裝 MusicBrainz 來使它可以運作。"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "對不起，%1 的標籤無法被更改。"
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr "TagLib 聲稱 '%1' 檔案是不可寫的。"
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "加入媒體(&A)..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "另存播放清單為(&S)..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "播放媒體..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "播放音樂 CD"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "設定全域熱鍵(&G)..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "上一曲目"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "下一曲目"
+
+#: playlistwindow.cpp:186
+msgid "S&earch:"
+msgstr "搜尋(&E)："
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+"您可以在這裏輸入要搜尋的項目，來篩選播放清單。您也能指定多個項目，不過要以空格分開。\n"
+"\n"
+"另外，Google-esque 語法也是可用的；\n"
+"詳情請參閱手冊第四章的播放清單部分。"
+
+#: playlistwindow.cpp:257
+msgid "&Cover Manager"
+msgstr "封面管理員(&C)"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+msgid "&Equalizer"
+msgstr "等化器(&E)"
+
+#: playlistwindow.cpp:263
+msgid "&First-Run Wizard"
+msgstr "首次執行精靈(&F)"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "隱藏工具列"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "顯示工具列"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "隱藏播放器視窗(&W)"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "顯示播放器視窗(&W)"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "動作(&A)"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "播放清單(&P)"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "系絡"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "媒體裝置"
+
+#: playlistwindow.cpp:662
+msgid "Play Media"
+msgstr "播放媒體"
+
+#: playlistwindow.cpp:662
+msgid "Add Media"
+msgstr "加入媒體"
+
+#: collectionreader.cpp:37
+msgid "Building Collection"
+msgstr "正在建立音樂集"
+
+#: collectionreader.cpp:67
+msgid "Updating Collection"
+msgstr "正在更新音樂集"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "正在更新音樂集..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr "若 amaroK 在建立音樂集的時候當掉，請把這檔案回報給我們。"
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "正在讀取目錄架構"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "正在讀取中繼資料"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer 無法被初始化。</h3>　"
+"<p>請確定您已安裝了所有需要的 GStreamer 外掛程式(如 OGG 及 MP3)，並已執行<i>'gst-register'</i>來註冊它。</p>"
+"<p>如果需要更多的協助，請參閱 GStreamer 手冊，及加入在 irc.freenode.net 的 #gstreamer IRC 頻道。"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer 欠了一個註冊表。</h3>　"
+"<p>請確定您已安裝了所有需要的 GStreamer 外掛程式(如 OGG 及 MP3)，並已執行<i>'gst-register'</i>來註冊它。</p>"
+"<p>如果需要更多的協助，請參閱 GStreamer 手冊，及加入在 irc.freenode.net 的 #gstreamer IRC 頻道。"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr "請在解碼引擎設定中為 GStreamer 選擇<u>音效輸出系統</u>。"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer 無法建立 element：<i>%1</i></h3>　"
+"<p>請確定您已安裝了所有需要的 GStreamer 外掛程式(如 OGG 及 MP3)，並已執行<i>'gst-register'</i>來註冊它。</p>"
+"<p>如果需要更多的協助，請參閱 GStreamer 手冊，及加入在 irc.freenode.net 的 #gstreamer IRC 頻道。"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "正在緩衝.. %1%"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr "<h3>amaroK 無法初始化 MAS。</h3><p>請檢查 MAS 是否正在執行。</p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>artsd 不是以<b>即時優先級</b>運作，可能會在播放音效時導致\"跳音\"及時間延遲。"
+"<p>"
+"<p>要使用即時優先級，請在「KDE 控制中心->聲音 & "
+"多媒體->聲音系統」裏啟用「以即時的優先等級運行聲音伺服器」。某些情況下，您還需要檢查\"$KDEDIR/bin/artswrapper\"是否已<b>"
+"set suid</b>(chmod +s)。</p>然而，您或會發現即使沒有提高等級，artsd 仍然可以播放得很流暢。</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "aRts 問題"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr "無法啟動 aRts。您需要使用其他的解碼引擎。"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "嚴重錯誤"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>載入 libamarokarts 時發生錯誤。請嘗試："
+"<pre>killall -9 artsd && amarok</pre>如果這樣仍然沒有幫助，那麼很有可能是在安裝 amaroK 時使用了錯誤的 "
+"prefix。真是這樣的話，您可以嘗試這樣做："
+"<pre> ./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "amaroK 錯誤"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr "錯誤：沒有音效解碼引擎被載入，不能開始播放。"
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr "自動偵測"
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "amaroK 無法初始化 xine。"
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "xine 無法初始化任何音訊輸出系統。"
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "amamroK 無法產生一個新的 xine 音訊流。"
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+msgid "Radio Stream"
+msgstr "廣播音訊流"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "沒有可用的解碼外掛程式；請檢查您的 xine 安裝。"
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "沒有可用的解密外掛程式；請檢查您的 xine 安裝。"
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "解密失敗；請檢查您的 xine 安裝。"
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "內部錯誤；請檢查您的 xine 安裝。"
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr "重新導向至："
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "這個 URL 代表的主機不明：<i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "您指定的裝置名稱可能無效。"
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "網絡好像無法連接。"
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "音訊輸出系統不可用；裝置繁忙。"
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "連接到這個 URL 時被拒絕：<i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "xine 找不到這個 URL：<i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "這個 URL 拒絕被存取：<i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "URL 的來源無法被讀取：<i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr "載入程式庫或解碼器時發生問題。"
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "一般警告"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "安全性警告"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "未知錯誤"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "對不起，沒有更多可用的額外資訊。"
+
+#: engine/helix/helix-engine.cpp:122
+msgid "Contacting: "
+msgstr "正在聯絡："
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr "正在緩衝 %1%"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr "amaroK 無法初始化 helix 解碼引擎。請在\"amaroK 設定\" -> \"解碼引擎\"中檢查相關路徑。"
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr "找不到 %1 格式的解碼外掛程式"
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "輸出外掛程式："
+
+#: engine/helix/helix-configdialog.cpp:133
+#, fuzzy
+msgid "Device:"
+msgstr "裝置(&D)："
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr "主要"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr "Helix/Realplay 核心目錄"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr "這裏是 clntcore.so 所在的目錄"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr "Helix/Realplay 外掛程式目錄"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr "這裏是如 vorbisrend.so 等外掛程式所在的目錄"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr "Helix/Realplay codecs 目錄"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr "這裏是如 cvt1.so 等 codecs 所在的目錄"
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "無法啟動 K3b。"
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "與 K3b 進行 DCOP 通訊時發生錯誤。"
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr "要建立一張音訊模式 CD (適合 CD 播放機)，還是一張資料模式 CD(適合電腦及其他數碼音樂播放機)?"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "建立一個 K3b 專案"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "音訊模式"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "資料模式"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "音效系統"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "按一下來選擇用來播放的音效系統。"
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "按一下來取得外掛程式的資訊。"
+
+#: configdialog.cpp:102
+#, fuzzy
+msgid "Locale Encoding"
+msgstr "重新編碼至"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "一般"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "設定一般選項"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "設定 amaroK 的外貌"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "播放"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "設定播放"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "OSD"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "設定 OSD(On-Screen-Display)"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "解碼引擎"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "設定解碼引擎"
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr ""
+
+#: configdialog.cpp:129
+#, fuzzy
+msgid "Configure last.fm Support"
+msgstr "設定全域熱鍵(&G)..."
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "設定 %1"
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr ""
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr ""
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr ""
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr ""
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr ""
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr ""
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+msgid "%1 by %2"
+msgstr "%1 by %2"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 kbps"
+
+#: metabundle.h:106
+msgid "Stream"
+msgstr "音訊流"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 kHz"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "MusicBrainz 結果"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr ""
+
+#: scrobbler.cpp:939
+#, fuzzy
+msgid "'%1' submitted to last.fm"
+msgstr "已提交 '%1' 到 Audioscrobbler"
+
+#: scrobbler.cpp:942
+#, fuzzy
+msgid "Several tracks submitted to last.fm"
+msgstr "已提交一些曲目到 Audioscrobbler"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr "'%1' 及其餘 %n 個曲目已提交"
+
+#: scrobbler.cpp:953
+#, fuzzy
+msgid "Failed to submit '%1' to last.fm"
+msgstr "無法提交 '%1' 到 Audioscrobbler"
+
+#: scrobbler.cpp:956
+#, fuzzy
+msgid "Failed to submit several tracks to last.fm"
+msgstr "無法提交一些曲目到 Audioscrobbler"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr "無法提交 '%1' 及其餘 %n 個曲目"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr "尚有 %n 個曲目在播放佇列中"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr "partyDialogBase"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "要附加到播放清單的樂曲類型"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, no-c-format
+msgid "Random Song"
+msgstr "隨機樂曲"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, no-c-format
+msgid "Suggested Song"
+msgstr "提議樂曲"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, no-c-format
+msgid "Playlist Shuffle"
+msgstr "隨機排列播放清單"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr "請選擇您希望加入到播放清單中的樂曲類型"
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, fuzzy, no-c-format
+msgid "&Remove played tracks"
+msgstr "最近播放的曲目"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr "自動把播放過的曲目移至播放清單中"
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr "標記歷史(&K)"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr "把播放過的曲目顯示成灰色"
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr "要顯示的已播放曲目："
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr "在移動之前要顯示的已播放曲目數量"
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, no-c-format
+msgid "Upcoming tracks:"
+msgstr "即將來的曲目："
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr "要保留在播放清單中的即將來的曲目最小數目"
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr "要附加的曲目："
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr "要附加到播放清單中的曲目數量"
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "檔案名稱"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr "選擇盡可能的符合"
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, no-c-format
+msgid "Filename"
+msgstr "檔案名稱"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "曲目號"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "DirectoryListBase"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "命令稿"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "這些命令稿是 amaroK 所知的。"
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, no-c-format
+msgid "&Install Script"
+msgstr "安裝命令稿(&I)"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr "取得更多的命令稿(&G)"
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, no-c-format
+msgid "&Run"
+msgstr "執行(&R)"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, no-c-format
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr "解除安裝(&U)"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr "在應用程式啟動時重新啟動執行中的命令稿(&E)"
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr "啟用後，amaroK 會自動重新啟動上一次離開時執行中的命令稿。"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr "<p align=\"center\">這些藍點可被拖曳，用來調整等化器。在線上雙擊可以加入一個新的藍點。</p>"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr "<p align=\"center\">前置放大</p>"
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "播放清單工具列"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, no-c-format
+msgid "Podcast Configuration"
+msgstr "Podcast 設定"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, fuzzy, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "啟用自動擷取"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr "選取後，amaroK 會自動掃描 Podcast 有沒有更新"
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr "Podcast 的位置"
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, no-c-format
+msgid "Media Download"
+msgstr "媒體下載"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, fuzzy, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "要求的時候播放流媒體"
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, fuzzy, no-c-format
+msgid "Download when a&vailable"
+msgstr "可用的時候下載"
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr "可用的時候立刻下載"
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, fuzzy, no-c-format
+msgid "Save location:"
+msgstr "位置："
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, fuzzy, no-c-format
+msgid "Limit &number of items"
+msgstr "限制項目數量"
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr "選取後，amaroK 會扔掉過舊的 Podcast。"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr "保留最多："
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, no-c-format
+msgid " Items"
+msgstr " 個項目"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr "可以儲存的 Podcast 數量上限"
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "首次執行精靈"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>歡迎您！</h1>\n"
+"<p>今時今日已經有許多的媒體播放器，但大多數播放器所缺少的，是一個"
+"<br>體貼到位的使用介面。像「加入媒體到播放清單中」般簡單的動作，"
+"<br>您需要按多少次按鈕才可完成呢？amaroK 嘗試改進這方面，讓您可以"
+"<br>簡便地以拖曳的方式管理播放清單。</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i>- Uncle Rodney</p>\n"
+"<h2>首次執行精靈</h2>\n"
+"這個精靈會以設定三步曲來幫助您快速設定 amaroK。請按\n"
+"<i>下一步</i>來開始。若您不想使用精靈，請按<i>略過</i>。</p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr "設定三步曲(第一部)--使用介面"
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+"單一視窗---集播放與管理播放清單功能於一身\n"
+"(如 Juk 般)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr ""
+"分工合作---分開播放和管理播放清單的視窗\n"
+"(像 XMMS 或 Winamp 般)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p>使用 amaroK，您可以自行選擇覺得舒適的視窗布局。</p>\n"
+"<p>稍候您也能在設定對話框中再次找到這些設定。</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "設定三步曲(第二部)--音樂集"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+"<p>請在左邊選擇您的音樂所在的目錄。</p>\n"
+"<p>我們建議您花少許時間完成這個動作，因為它會加強您所享受的功能。</p>\n"
+"<p>如果您希望的話，amaroK 可以替您監察這些目錄。當有新的音樂加入到目錄時，它們會被自動放進播放清單中。"
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, no-c-format
+msgid "Database (3 of 3)"
+msgstr "設定三步曲(第三部)--音樂資料庫"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, fuzzy, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+"amaroK 使用一個音樂資料庫來儲存音樂的資訊。如果您不知道要選哪一個，可以按「下一步」使用預設值。\n"
+"<p><b>MySQL</b> 或 <b>PostgreSQL</b> 都比 <b>sqlite</b> 快，但它們都需要額外的設定。</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/MySQL_HowTo\">"
+"MySQL 設定指南(英文)</a></li>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/Postgresql_HowTo\">"
+"PostgreSQL 設定指南(英文)</a></li>\n"
+"</ul>"
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>恭喜！</h1>\n"
+"<p>您的 amaroK 已經可以使用了！當您按下「完成」後，amaroK 主視窗就會顯示出來，並且開始掃描您的音樂集所包含的目錄。</p>\n"
+"<p>amaroK 的播放清單會在左邊顯示您的<b>音樂集</b>，而右邊則會顯示您的<b>播放清單</b>"
+"。要播放音樂集其中的音樂，只需把它們拖曳到播放清單中，並按下<b>播放</b>就行了。</p>\n"
+"如果您希望得到更多的幫助或一份指南，請參閱<a href=\"help:/amarok\">amaroK 手冊</a>。\n"
+"<p align=\"right\">amaroK 開發人員</p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "資料庫設定"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, no-c-format
+msgid "Database:"
+msgstr "資料庫："
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, no-c-format
+msgid "Postgresql Configuration"
+msgstr "PostgreSQL 設定"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr "Conninfo："
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "連接資料庫的參數"
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "MySQL 設定"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "主機名稱："
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr "MySQL 要連接的連接埠。"
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "連接埠："
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr "資料庫所在的主機名稱。"
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr "資料庫的名稱。"
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "使用者名稱："
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr "連接使用的使用者名稱。"
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "密碼："
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr "連接使用的密碼。"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "要使用的音效輸出方式"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr "請選擇音效輸出外掛程式(\"sink\")。它們是否可用完全取決於您的系統。"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "不要使用自動偵測的 audiosink 音效裝置"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr "啟用後將會為 audiosink 使用用戶指定的音效裝置"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "要使用的音效輸出裝置"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr "選擇音效輸出裝置；這對 GStreamer 解碼引擎很有幫助。"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "對輸出 sink 使用自訂的參數。"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "自訂的 sink 參數。"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "一個曲目的淡出時間"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "GStreamer 解碼引擎設定 - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "自訂音效裝置。例如：/dev/dsp2"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " msec"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr "裝置(&D)："
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "使用自訂音效裝置"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, fuzzy, no-c-format
+msgid "&Fade-out:"
+msgstr "淡出持續時間(&O)："
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, no-c-format
+msgid "&Output plugin:"
+msgstr "輸出外掛程式(&O)："
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "GStreamer sink"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "自訂的參數。例如：sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, no-c-format
+msgid "&Parameters:"
+msgstr "參數(&P)："
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "使用自訂的 sink 參數"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr "請選擇音效輸出外掛程式。"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, no-c-format
+msgid "Enable a custom device"
+msgstr "啟用一個自訂的裝置"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr "選擇後會啟用自訂音效裝置，否則會使用預設的。"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, no-c-format
+msgid "Xine Configure"
+msgstr "Xine 設定"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr "輸出外掛程式轉換至 ALSA 或 OSS 後，音效裝置可能會被修改。"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "ALSA 裝置設定"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr "單聲道(&M)："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, no-c-format
+msgid "&Stereo:"
+msgstr "雙聲道(&S)："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr "&4 聲道："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr "&6 聲道："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, no-c-format
+msgid "OSS Device Configuration"
+msgstr "OSS 裝置設定"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr "揚聲器類型(&A)："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr "用來處理流媒體的 HTTP Proxy"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, no-c-format
+msgid "&Host:"
+msgstr "主機(&H)："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, no-c-format
+msgid "&User:"
+msgstr "使用者名稱(&U)："
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, no-c-format
+msgid "&Password:"
+msgstr "密碼(&P)："
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, fuzzy, no-c-format
+msgid "Output plugin"
+msgstr "輸出外掛程式："
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, fuzzy, no-c-format
+msgid "Device"
+msgstr "裝置(&D)："
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, fuzzy, no-c-format
+msgid "ALSA Device"
+msgstr "裝置(&D)："
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr ""
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr ""
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, no-c-format
+msgid "Track Information"
+msgstr "曲目資訊"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "下一個(&N)"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, no-c-format
+msgid "Sa&ve && Close"
+msgstr "儲存並關閉(&V)"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "專輯(&B)："
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "取樣頻率："
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "演出者(&A)："
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "風格(&G)："
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "長度："
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "年份(&Y)："
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, no-c-format
+msgid "&Score:"
+msgstr "分數(&S)："
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "位元率："
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "曲目號："
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "標題(&T)："
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, fuzzy, no-c-format
+msgid "Playcount:"
+msgstr "播放次數"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "使用 MusicBrainz 填入標籤項目(&U)"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "從音訊指紋中中偵測中繼資料"
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "評價(&C)："
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "一般選項"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "啟動時顯示啟動畫面(&U)"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr "選取後會啟用 amaroK 啟動畫面。"
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "顯示系統匣圖示(&Y)"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "選取後會啟用 amaroK 的系統匣圖示。"
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr "播放時閃爍系統匣圖示(&F)"
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr "選取後會啟用 amaroK 系統匣圖示的動畫。"
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "顯示播放器視窗 (像 XMMS)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, fuzzy, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "選取後會啟用一個額外的播放器視窗。"
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "封面預覽的預設大小(&C)："
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "系絡檢視器中顯示的封面影像大小，單位是像素。"
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr "像素"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr "系絡檢視器中顯示的封面影像大小，單位是像素。"
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "播放清單視窗的選項"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "結束時記住目前的播放清單(&R)"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr "選取後，amaroK 會在結束時儲存目前的播放清單，然後在再次啟動時把它還原至視窗。<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"選取後，amaroK 會在\\n結束時儲存目前的播放清單，然後在再次啟動時把它還原至視窗。"
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr "對手動儲存的播放清單使用相對路徑(&M)"
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr "選取後，amaroK 會對手動儲存播放清單的曲目使用相對路徑。"
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr "使播放中的樂曲在播放過渡時可看到(&K)"
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr "選取後，播放過渡時清單會被捲動至要播放的樂曲附近，使您可以在清單中看到它。如果情況不適合捲動，那就不會捲動。<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr "選取後，播放過渡時清單會被捲動至要播放的樂曲附近，使您可以在清單中看到它。如果情況不適合捲動，那就不會捲動。"
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "播放過渡時轉移至系絡瀏覽器(&A)"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr "當播放一個曲目時轉移至系絡瀏覽器。<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "當播放一個曲目時轉移至系絡瀏覽器。"
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, no-c-format
+msgid "Show s&tatusbar"
+msgstr "顯示狀態列(&T)"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr "選取後會啟用播放清單視窗中的狀態列。<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "選取後會啟用播放清單視窗中的狀態列。"
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "顯示專輯的統計(&L)"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "在系絡瀏覽器中顯示專輯的統計。<br>"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "在系絡瀏覽器中顯示專輯的統計。"
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "編碼"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "不要把下列標籤以 latin1 編碼解讀："
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "ID&3v1 標籤"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr "把 ID3v1 標籤 (被一些 MP3 檔案使用) 以下面的字元集解讀。"
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "&Shoutcast 中繼資料"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr "使用下面的字元集解讀 Shoutcast 音訊流的標題和演出者資訊。"
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "使用這字元集來解碼(&D)："
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr "如果 ID3v1 或 Shoutcast 中繼資料被選取，那麼就會以這個字元編碼來解讀。"
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "使用自訂的字型(&U)"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "選取後會啟用自訂的字型。"
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "播放器視窗的字型："
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "在播放器視窗中使用的字型。"
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "播放清單視窗的字型："
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "在播放清單視窗中使用的字型。"
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "系絡瀏覽器的字型："
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "在系絡瀏覽器中使用的字型。"
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "色彩方案："
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "自訂色彩方案(&C)"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr "選取後，amaroK 會在播放清單中使用自訂的顏色。"
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "前景(&R)："
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "選擇要在播放清單中使用的前景顏色。"
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr "按一下來選擇要在播放清單中使用的前景文字顏色"
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "選擇要在播放清單中使用的前景(文字)顏色。"
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "背景(&B)："
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "選擇要在播放清單中使用的背景顏色。"
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "按一下來選擇要在播放清單中使用的背景顏色。"
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "目前的 KDE 色彩方案(&K)"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr "選取後，amaroK 會在播放清單使用 KDE 標準色彩。"
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "典型 &amaroK 風格，\"funky-monkey\""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr "選取後，amaroK 會在播放清單使用 amaroK 標準色彩。"
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "系絡瀏覽器風格"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "請選擇一種風格："
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "選擇系絡瀏覽器的風格。"
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, no-c-format
+msgid "Install New Style..."
+msgstr "安裝新的風格..."
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+"按一下來安裝一個新的系絡瀏覽器風格。"
+"<br>提示：您可在<a href='http://kde-look.org'>http://kde-look.org</a>上找到更多風格"
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr "選擇並安裝一個新的系絡瀏覽器風格。"
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr "下載新的風格..."
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "按一下來下載一個新的系絡瀏覽器風格。"
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "選擇並下載一個新的系絡瀏覽器風格。"
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "過渡風格(&B)"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>過渡風格</b>\n"
+"<p>在播放時，當 amaroK 在曲目之間過渡，它可以直接跳至下一曲目(可以加上空隔)，或使用淡出淡入的方式(可設定時間)來使播放更順暢。</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "無淡出淡入 (&N)"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr "啟用一般的曲目過渡處理。您可以在曲目之間插入一段空隔。"
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "插入空隔(&G)："
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " ms"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "曲目之間的空隔，單位是 milliseconds。"
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "淡出淡入(&C)"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr "啟用曲目之間的淡出淡入處理。這個設定也會影響從靜止中播放和停止播放的動作。"
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "淡出淡入時間(&P)："
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "曲目之間的淡出淡入持續時間，單位是 milliseconds。"
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "啟動時恢復播放(&R)"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr "選取後，amaroK 將會在啟動時繼續<br>上一次的未完成的播放 -- 就像磁帶播放機一樣。"
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "使用 On-Screen-Display(&U)"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr "選取後會啟用 OSD (On-Screen-Display)。<br>OSD 會在播放過渡時顯示目前曲目的大概資訊。"
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr "選取後會啟用 OSD (On-Screen-Display)。OSD 會在播放過渡時顯示目前曲目的大概資訊。"
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "字型(&F)"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "OSD 使用的字型。"
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, no-c-format
+msgid "Draw &shadow"
+msgstr "使用陰影(&S)"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "顏色(&O)"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "使用自訂顏色(&C)"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr "選取後會啟用 OSD 的自訂顏色。"
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "背景顏色："
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "OSD 背景的顏色。"
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "按一下來選擇 OSD 文字的顏色。"
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "OSD 文字的顏色。"
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "按一下來選擇 OSD 的背景顏色。"
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "文字顏色："
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr "使背景半透明化(&B)"
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "顯示文字(&T)"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "顯示與播放清單中各欄相同的資訊"
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, no-c-format
+msgid "&Duration:"
+msgstr "持續時間(&D)："
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "永遠"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr "OSD 每次顯示的持續時間(單位是 milliseconds)。這個數值必須在 500 ms 和 10000 ms 之間。"
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "用來顯示 OSD 的螢幕。"
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, no-c-format
+msgid "Sc&reen:"
+msgstr "螢幕(&R)："
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySql"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "音樂集目錄"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "音樂集資料庫"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, fuzzy, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"amaroK 可以把所有您播放的樂曲名稱傳送至 "
+"Audioscrobbler。系統會自動把您配對至近似音樂口味的人們中，並提議您一些可能會喜歡的樂曲。要了解更多 Auioscrobbler "
+"的資料，您可以<A href='http://www.audioscrobbler.com'>連上它的網站</A>。"
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, fuzzy, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<P>要在 amaroK 內使用 Audioscrobbler，您需要一個<A "
+"href='http://www.audioscrobbler.com:80/signup.php'>Audioscrobbler 帳號</A>。"
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, no-c-format
+msgid "&Username:"
+msgstr "使用者名稱(&U)："
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr ""
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, fuzzy, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+"註冊後，amaroK 可以告訴 Audioscrobbler 您的聆聽習慣；您的帳號會提供統計資料及樂曲提議。系絡瀏覽器不需要這個帳號來顯示風格相近的演出者。"
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, fuzzy, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "提交我播放的曲目來改進我的帳號資料(&I)"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "收集風格相近的演出者(&R)"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, fuzzy, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"何不加入 <A href='http://www.audioscrobbler.com:80/group/amaroK+users'>"
+"amaroK Audioscrobbler group</A> 來與其他 amaroK 使用者分享您的音樂口味？"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "Amarok 版本"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr "Amarok 版本字串，用來在新安裝時重新啟動 aRts。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "播放器視窗位置"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr "amaroK 啟動後主視窗的位置。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "播放清單視窗位置"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "amaroK 啟動後播放清單視窗的位置。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "播放清單視窗大小"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "amaroK 啟動後播放清單視窗的大小。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "要不要在離開時儲存播放清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr "設定後，amaroK 會在結束時儲存目前的播放清單，然後在再次啟動時把它還原至視窗。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr "要不要在遞迴地加入項目到清單時跟蹤符號連結"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr "設定後，amaroK 會在加入檔案或目錄到播放清單時跟蹤符號連結。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "要不要顯示剩餘時間"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr "設定這個可以在播放器中顯示曲目剩餘的時間，而不是已播放的時間。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "要不要重覆播放曲目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr "設定後，amaroK 會無限期地重覆播放曲目。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "要不要重覆播放整個播放清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr "設定後，amaroK 會無限期地重覆播放清單。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "要不要隨機播放曲目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr "設定後，amaroK 會隨機播放在清單中的曲目。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "播放一張動態播放清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr "動態播放清單會從清單中移除樂曲及附加其他樂曲。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr "顯示說明"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "要不要顯示/隱藏動態資訊對話框"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr "加入這類型的樂曲"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr "動態模式會把這類型的樂曲附加到播放清單的尾部。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr "要在動態模式中附加的智能清單列表。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr "要顯示的即將來的樂曲數量"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr "動態模式中要顯示的即將來的樂曲數量"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr "樂曲記錄數目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr "動態模式中顯示上一次播放樂曲的數目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr "要附加的曲目數量"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr "動態模式中附加到播放清單的曲目數量"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, no-c-format
+msgid "Cycle Tracks"
+msgstr "循環曲目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "要不要移除播放清單的第一個項目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr "標記歷史"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr "要不要在播放過清單中的項目後記下作播放歷史"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "要不要在系統匣中顯示圖示"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "啟用/停用系統匣圖示。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "要不要在系統匣圖示顯示動畫"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "啟用/停用系統匣圖示動畫。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "要不要顯示播放器視窗"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr "使 amaroK 與 XMMS 及其他 Winamp 仿製品看起來更相似，擁有獨立的播放器及播放清單視窗。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "要不要在播放清單視窗中顯示工具列。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr "系絡瀏覽器及封面管理員預覽封面時的大小"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "要不要顯示播放清單的狀態列"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "檢視一些播放清單的狀態資訊"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "要不要遞迴地把目錄加入到播放清單中"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr "啟用/停用遞迴地把目錄加入播放清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "曲目之間的延遲，單位是 milliseconds"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "曲目之間的延遲，單位是 milliseconds。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "播放清單視窗是否可見"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr "啟用/停用播放清單視窗。這個作用相等於在播放器視窗中按下 PL 按鈕。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "播放清單還原功能記錄次數"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "播放清單中還原功能的動作記錄次數"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "目前視像分析器的索引"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "要顯示的視像分析器的 ID。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "播放清單視窗顯示的分析器的索引"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr "要顯示在播放清單視窗的視像分析器的 ID。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "播放清單視窗的分割位置"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "目前使用的"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr "播放清單要不要捲動至目前播放的項目"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr "選取後，播放過渡時清單會被捲動至要播放的樂曲附近，使您可以在清單中看到它。如果情況不適合捲動，那就不會捲動。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "要不要在啟動時顯示啟動畫面"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr "啟用/停用啟動畫面"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr "系絡瀏覽器在開始播放時要不要啟動"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr "開始播放時自動轉換至系絡瀏覽器。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr "在可以的時候系絡瀏覽器要不要顯示專輯統計。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr "在系絡瀏覽器中顯示專輯統計。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr "設定系絡瀏覽器使用的 CSS 樣式表"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "請把它設定成您希望使用的樣式表的目錄。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "要不要顯示選單列"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr "選取後，amaroK 會在應用程式的頂端顯示一選單列。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "儲存播放清單時要不要使用相對路徑"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr "選取後，amaroK 會對手動儲存播放清單的曲目使用相對路徑，而非絕對路徑。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "主音量"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr "amaroK 的主音量，範圍為 0(靜音) 至 100。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "要不要在曲目之間使用淡入淡出"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "啟用/停用播放過渡時的淡入淡出"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "淡入淡出的持續時間，單位是 milliseconds"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "曲目之間的淡入淡出時間，單位是 milliseconds。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "要使用的音效系統"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"選擇用來播放媒體的音效系統。目前，amaroK 支援 aRts、GStreamer、xine 和 "
+"NMM；不過，它們可不可被使用(即使已安裝)完全取決於編譯時的設定。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "啟用等化器外掛程式"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "啟用後，等化器會處理輸出的音訊流，"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr "等化器的前置放大值，範圍是 -100...100，0 則為正常。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr "等化器的頻帶放大值。分別有 10 個頻帶值，範圍是 -100...100，0 則為正常。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, fuzzy, no-c-format
+msgid "Equalizer preset name."
+msgstr "請輸入預置名稱："
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "接收封面用的 Amazon 地區"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr "決定應從哪一個 Amazon 伺服器接收封面影像。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "接收資訊用的 Wikipedia 地區位置"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr "決定從 Wikipedia 接收哪種語言的資訊。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "使用 OSD (On-Screen Display)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "啟用/停用 OSD (On-Screen Display)。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr "OSD 顯示與播放清單中各欄相同的資訊"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr "啟用後，OSD 將會顯示與播放清單的次序相同，並一樣的資訊。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "要顯示的的 OSD 文字"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, fuzzy, no-c-format
+msgid "Customize the OSD display text."
+msgstr "自訂 OSD 顯示的文字。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "OSD 字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "在文字附近加上陰影。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "在 OSD 文字附近加上陰影。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr "切換偽半透明"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr "OSD 背景使用偽半透明。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "要不要自訂 OSD 的顏色"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr "如果設為真，您可以對 OSD 使用自訂頻色。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "OSD 的字型顏色"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr "OSD 的文字顏色。顏色需要使用 RGB 格式設定：以逗號分開三個數值，範圍為 0 至 255，分別對應紅、綠和藍。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "OSD 的背景顏色"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr "OSD 的背景顏色。顏色需要使用 RGB 格式設定：以逗號分開三個數值，範圍為 0 至 255，分別對應紅、綠和藍。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "文字顯示的時間(單位是 milliseconds)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr "顯示 OSD 的持續時間。預設值為 5000 ms，設定為 0 代表持續顯示不關閉。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "Y 位置坐標"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"這個是 OSD 的 Y 位置坐標，它是與選取的螢幕和 OSD 對齊方式相對的。如果使用頂端對齊方式，Y 坐標會用來表示螢幕頂端與 OSD "
+"頂部之間的距離。若使用底部對齊方式，Y 坐標會用來表示螢幕底部與 OSD 底部之間的距離。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "OSD 螢幕"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr "用作顯示 OSD 的螢幕。對於單顯示器的環境，這個值應為 0。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "要不要顯示專輯的封面"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "啟用後會在 OSD 顯示專輯的封面"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "對齊 OSD 到"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr "OSD 的相對位置。可以選擇：左、中、右。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "要不要使用使用者定義的字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "啟用/停用自訂的字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "播放清單視窗的字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "播放器視窗的字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "系絡瀏覽器的字型"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "重新編碼 ID3v1 標籤"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr "選取後，ID3v1 標籤會以選定的字元集重新編碼。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "重新編碼 Shoucast 中繼資料"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "選取後，Shoucast 中繼資料會被重新編碼。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "重新編碼至"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr "解碼上面字串資料使用的字元集。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr "要不要在播放清單的視窗使用 amaroK 標準色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr "設定後，amaroK 會在播放清單的視窗使用 amaroK 標準色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr "要不要在播放清單的視窗使用 KDE 全域色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr "設定後，amaroK 會在播放清單的視窗使用 KDE 標準色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr "要不要在播放清單的視窗使用自訂的色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr "設定後，，amaroK 會在播放清單的視窗使用自訂色彩"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "播放清單前景顏色"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr "用作播放清單的前景色彩。顏色需要使用 RGB 格式設定：以逗號分開三個數值，範圍為 0 至 255，分別對應紅、綠和藍。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "播放清單背景顏色"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr "用作播放清單的背景色彩。顏色需要使用 RGB 格式設定：以逗號分開三個數值，範圍為 0 至 255，分別對應紅、綠和藍。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "啟動時恢復播放上一次離開時的樂曲"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr "設定後，amaroK 會在啟動時恢復播放上一次離開時的樂曲"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "啟動時要恢復播放的曲目 URL"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr "內部：啟動時要恢復播放的曲目 URL"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "恢復播放到曲目的哪一位置，單位是 milliseconds"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr "內部：啟動時要恢復播放曲目的時間位置。"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "資料庫引擎"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr "用作儲存音樂集的資料庫引擎"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr "要不要遞迴地掃描音樂集的目錄"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "要不要在音樂集的目錄有改變時重新掃描"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "要不要在掃描的時候自動加入播放清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "音樂集的目錄清單"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "主機"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "MySQL 伺服器運作的主機"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "連接埠"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "MySQL 聆聽的連接埠"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "資料庫名稱"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "資料庫的名稱"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "使用者"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "連接 MySQL 時使用的用戶名稱"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "密碼"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "這個使用者的密碼"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr "Conninfo"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr "PostgreSQL 伺服器的連接資訊"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "提交播放過的樂曲"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "要不要提交播放過的樂曲至 Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "使用者名稱"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "用來連接 Audioscrobbler 的使用者名稱"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "用來連接 Audioscrobbler 的用戶密碼"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "接收風格相近的演出者"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "要不要從 Audioscrobbler 接收風格相近的樂曲"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, fuzzy, no-c-format
+msgid "MountCommand"
+msgstr "命令(&C)："
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr ""
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, fuzzy, no-c-format
+msgid "UmountCommand"
+msgstr "命令(&C)："
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr ""
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr "無法連接到這個流媒體伺服器。"
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "建立智能播放清單"
+
+#: smartplaylisteditor.cpp:45
+msgid "Edit Smart Playlist"
+msgstr "編輯智能播放清單"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "長度"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "曲目 #"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "評價"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "播放次數"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "分數"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "第一次播放"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "上一次播放"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "修改日期"
+
+#: smartplaylisteditor.cpp:109
+msgid "File Path"
+msgstr "檔案路徑"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "播放清單名稱："
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "符合下列條件"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "全部"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "任何"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr "下列的條件"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "順序"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "隨機"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "限制"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "個曲目"
+
+#: smartplaylisteditor.cpp:172
+msgid "Expand by"
+msgstr "展開的方式"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "完全隨機"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "分數比重"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "遞增"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "遞減"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "符合"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "符合下列情況"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "的前後是"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "是在最後"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+msgid "is not in the last"
+msgstr "不是在最後"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "包含"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "不包含"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "是"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "不是"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "開頭是"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "結尾是"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "是大於"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "是後於"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "是小於"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "是先於"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "和"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "日"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "月"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "年"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "風格套件包 (*.tar, *.tar.bz2, *.tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "請選擇風格套件包"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "加入歌詞"
+
+#: contextbrowser.cpp:118
+msgid "Search For Lyrics"
+msgstr "搜尋歌詞"
+
+#: contextbrowser.cpp:119
+msgid "Refresh"
+msgstr "重新整理"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+msgid "Open in external browser"
+msgstr "在外部瀏覽器開啟"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr "往前"
+
+#: contextbrowser.cpp:135
+msgid "Artist Page"
+msgstr "演出者頁"
+
+#: contextbrowser.cpp:136
+msgid "Album Page"
+msgstr "專輯頁"
+
+#: contextbrowser.cpp:137
+msgid "Title Page"
+msgstr "標題頁"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "主頁"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "播放中"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr "<p>這個影像無可用的產品資訊。<p>在影像上右擊可以顯示一個選單。"
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "設定自己的封面(&C)"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "取消設定封面(&U)"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+#, fuzzy
+msgid "Edit Album &Information..."
+msgstr "編輯曲目資訊(&I)..."
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+#, fuzzy
+msgid "&Queue Album"
+msgstr "專輯(&A)"
+
+#: contextbrowser.cpp:675
+msgid "Compilation"
+msgstr "精選"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "您真的要從音樂集中移除這個封面?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr "%1 %2"
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr "%n 個星期以前"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "昨天"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr "%n 天以前"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr "%n 個小時以前"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr "%n 分鐘以前"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "一分鐘之內"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "未來"
+
+#: contextbrowser.cpp:879
+msgid "Unknown album"
+msgstr "未知專輯"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr "按一下可以取得從 amazon.com 獲得的資訊，右擊可以顯示一個選單。"
+
+#: contextbrowser.cpp:905
+msgid "Unknown artist"
+msgstr "未知演出者"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr "%n 個曲目"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "上一次播放：%1"
+
+#: contextbrowser.cpp:1116
+msgid "Recently Played Tracks"
+msgstr "最近播放的曲目"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr "當您播放過其中一些樂曲後，您最近播放的曲目的清單便會在這裏顯示出來。"
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr "&#xa0;&#8211 "
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "您喜愛的曲目"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr "當您播放過其中一些樂曲後，您最喜愛的曲目的清單便會在這裏顯示出來。"
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr "&#xa0;&#8211; "
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "您最新的曲目"
+
+#: contextbrowser.cpp:1329
+msgid "Favorite Albums"
+msgstr "您喜愛的專輯"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr "當您播放過其中一些樂曲後，您最喜愛的專輯的清單便會在這裏顯示出來。"
+
+#: contextbrowser.cpp:1354
+msgid "Your Newest Albums"
+msgstr "您最新的專輯"
+
+#: contextbrowser.cpp:1371
+msgid "Least Played Albums"
+msgstr "最少播放的專輯"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr "您很少播放的專輯的清單會在這裏顯示出來。"
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "流媒體詳細資料"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "中繼資料歷史"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr "按一下可以從 amazon.%1 取得封面，右擊會顯示一個選單。"
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr "按一下可以從 amazon.%1 取得資訊，右擊會顯示一個選單。"
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "在 musicbrainz.org 搜尋這曲目"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr "這個曲目已播放過 %n 次"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "第一次播放：%1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "從未播放過"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "這個檔案不在您的音樂集內！"
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr "如果您希望可以看到更多這個曲目的系絡資料，您應該把它加入您的音樂集裏。"
+
+#: contextbrowser.cpp:1677
+msgid "Change Collection Setup..."
+msgstr "更改音樂集設定..."
+
+#: contextbrowser.cpp:1690
+msgid "Cue File"
+msgstr "Cue 檔案"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "這位演出者"
+
+#: contextbrowser.cpp:1818
+#, c-format
+msgid "Favorite Tracks by %1"
+msgstr "您最喜愛 %1 的曲目"
+
+#: contextbrowser.cpp:1869
+#, c-format
+msgid "Albums by %1"
+msgstr "%1 的專輯"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "%1 的精選"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "amaroK 的使用者，您好！"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr "這裏是系絡瀏覽器：它會告訴您目前播放中的曲目的系絡資訊。要使用這個功能，您必須建立一個音樂集。"
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "建立音樂集..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "正在建立音樂集資料庫..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr "請稍候。amaroK 正在掃描您的音樂集。您可以在狀態列看到它的進度。"
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "live"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "acoustic"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "cover"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "mix"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "edit"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "medley"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "unplugged"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "bonus"
+
+#: contextbrowser.cpp:2452
+msgid "Cached Lyrics"
+msgstr "快取中的歌詞"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+msgid "Fetching Lyrics"
+msgstr "正在取得歌詞"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "找不到歌詞。"
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr "找不到曲目的歌詞，這裏有一些提議："
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+msgid "Fetching Wikipedia Information"
+msgstr "正在取得 Wikipedia 資訊"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+
+#: contextbrowser.cpp:2939
+msgid "Wikipedia Information"
+msgstr "Wikipedia 資訊"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr "其他語言的 Wikipedia"
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr "MySQL 傳回下列的錯誤：<br>"
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr "<p>您可以在「設定->設定 amaroK ->音樂集」中設定 MySQL </p>"
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr "PostgreSQL 傳回下列的錯誤：<br>"
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr "<p>您可以在「設定->設定 amaroK ->音樂集」中設定 PostgreSQL </p>"
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "幀速率"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "按這裏分析音訊"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<h3>顯示在 OSD 的標籤</h3>您可以使用下列的記號："
+"<ul>"
+"<li>標題 - %1"
+"<li>專輯 - %2"
+"<li>演出者 - %3"
+"<li>風格 - %4"
+"<li>位元率 - %5"
+"<li>年份 - %6"
+"<li>曲目長度 - %7"
+"<li>曲目號 - %8"
+"<li>檔案名稱 - %9"
+"<li>目錄 - %10"
+"<li>類型 - %11"
+"<li>評價 - %12"
+"<li>分數 - %13"
+"<li>播放次數 - "
+"%14</ul>如果您把其中一段文字以大括弧\"{}\"括住，那麼當這一段文字的記號的資訊不可用時，它就會自動隱藏起來。例如：曲目沒有分數，那麼"
+"<pre>%11</pre> 將不會顯示 <b>Score: <i>%score</i></b>。"
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "目錄"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "位元率"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr "類型"
+
+#: playlist.cpp:244
+msgid "Playcount"
+msgstr "播放次數"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "隨機排列(&H)"
+
+#: playlist.cpp:295
+msgid "&Goto Current Track"
+msgstr "去到目前的曲目(&G)"
+
+#: playlist.cpp:296
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "移除兩個一樣 && 無效的項目(&R)"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+msgid "&Queue Selected Tracks"
+msgstr "把選擇的曲目放入播放佇列(&Q)"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr "嘗試加入項目到播放清單，但加入的項目的數目為 0。"
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr "沒有傳回要加入的曲目。"
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr "沒有為這張動態播放清單設定有效的來源。"
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>警告</b></div>標題為<i>%1</i> 的播放清單沒有指定任何曲目。"
+"<br>"
+"<br>請檢查它，或選擇另一張播放清單。"
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>警告</b></div>標題為<i>%1</i> 的智能播放清單沒有指定任何曲目。"
+"<br>"
+"<br>請檢查它，或選擇另一張智能播放清單。"
+
+#: playlist.cpp:1179
+msgid "Playlist finished"
+msgstr "完成播放清單"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>播放清單</h3>這裏是播放清單。要建立一張清單，您可以從右面的瀏覽器面板中<b>拖曳</b>過來，並在樂曲上面雙擊來開始播放。</div>"
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+"<div align=center>瀏覽器面板"
+"<h3>瀏覽器面板是 amaroK "
+"的\"音樂之源\"。音樂集瀏覽器會記住您的音樂集；播放清單瀏覽器會記住您使用過的播放清單；檔案瀏覽器可讓您存取電腦內任一角落的音樂。</div>"
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "隱藏這一欄(&H)"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "播放清單各欄"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr "<p>您已選擇要<b>永久</b>刪除檔案<i>'%1'</i>。"
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr "<p>您已選擇要<b>永久</b>刪除這%n個檔案。"
+
+#: playlist.cpp:2629
+msgid "Deleting files"
+msgstr "正在刪除檔案"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "已複製：%1"
+
+#: playlist.cpp:3049
+#, fuzzy
+msgid "Load Dynamic Playlist"
+msgstr "儲存動態播放清單"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "重新啟動(&R)"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+msgid "&Dequeue Track"
+msgstr "把曲目從播放佇列取出(&D)"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr "切換佇列狀態(%n 個曲目)(&Q)"
+
+#: playlist.cpp:3118
+msgid "&Dequeue Selected Tracks"
+msgstr "把選擇的曲目從播放佇列取出(&D)"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "播放完這個曲目後便停止"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "編輯標籤 '%1' (&E)"
+
+#: playlist.cpp:3135
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "編輯選擇曲目的 '%1' 標籤(&E)"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "反覆指定曲目號(&I)"
+
+#: playlist.cpp:3140
+msgid "Write '%1' for Selected Tracks"
+msgstr "把選擇曲目的標題寫成 '%1'"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr "複製標籤到剪貼簿(&C)"
+
+#: playlist.cpp:3149
+#, fuzzy
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr "%n 個已選擇的曲目"
+
+#: playlist.cpp:3151
+#, fuzzy, c-format
+msgid "This Album: %1"
+msgstr "燒錄這個專輯"
+
+#: playlist.cpp:3153
+#, fuzzy, c-format
+msgid "All Tracks by %1"
+msgstr "您最喜愛 %1 的曲目"
+
+#: playlist.cpp:3159
+#, fuzzy
+msgid "Set as Playlist (Crop)"
+msgstr "儲存播放清單"
+
+#: playlist.cpp:3160
+#, fuzzy
+msgid "Save as Playlist..."
+msgstr "另存播放清單為(&S)..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "從播放清單中移除(&R)"
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "刪除檔案(&D)"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "刪除選擇的檔案(&D)"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "寫入標籤中..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "這個檔案不存在："
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>您可以建立一個自訂的欄位，來使用一些 Shell 指令處理播放清單中的所有項目。基於系統安全的原因，這些指令將以<b>nobody</b>"
+"的使用者身份執行。\n"
+"<p>目前來說您只能對本地的檔案執行指令。您可以在指令中使用<b>%f</b>來表示本地檔案的路徑。如果您不指定<b>%f</b>"
+"，那麼 amaroK 便會自動在指令字串後面附上它。"
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr "欄名稱(&N)："
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "命令(&C)："
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "範例"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "加入自訂的欄"
+
+#: app.cpp:284
+msgid "Files/URLs to open"
+msgstr "要開啟的檔案/URL"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "在播放清單中往後略過"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "開始播放目前的播放清單"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "停止的話就開始播放，播放中的就暫停"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "暫停播放"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "停止播放"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "在播放清單中往前略過"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "額外設定："
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "要附加到播放清單的檔案/URL"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr ""
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "目前曲目播放完後，仍在佇列中的 URL"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "切換播放清單的視窗"
+
+#: app.cpp:304
+msgid "Run first-run wizard"
+msgstr "執行首次執行精靈"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "使用 <name> 引擎"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr ""
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "增大音量"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "減少音量"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr "往前搜尋"
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr "往後搜尋"
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "加入媒體..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "切換播放清單視窗"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "顯示 OSD"
+
+#: app.cpp:348
+msgid "Mute Volume"
+msgstr "靜止音量"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "播放清單"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "附加到播放清單 && 播放(&P)"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>關閉主視窗不會完全關閉 amaroK，它仍然會在系統匣中運作。要完全關閉，您可以在選單中按<B>離開</B>，或用系統匣圖示來結束應用程式。</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "停駐在系統列中"
+
+#: app.cpp:853
+msgid "Paused"
+msgstr "已暫停"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "音量：%1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr "靜音"
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "時間顯示"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "正常"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "剩下"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr "取消所有在背景執行的動作"
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr "顯示詳細進度"
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr "多個背景動作正在執行"
+
+#: statusbar/statusBarBase.cpp:422
+msgid "Aborting all jobs..."
+msgstr "中止所有工作..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "amaroK 已暫停"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+"<p>您正在使用的音樂播放器的名字，是從歌手 Mike Oldfield 其中一張最好的專輯--Amarok 得到靈感的。謝謝您選用 amaroK！</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>還有許許多多不辭勞苦的人們幫助我們成就 amaroK。"
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> by <b>%2</b>"
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> on <b>%2</b>"
+
+#: statusbar/statusbar.cpp:178
+msgid "Unknown track"
+msgstr "未知的曲目"
+
+#: statusbar/statusbar.cpp:187
+#, c-format
+msgid "Playing: %1"
+msgstr "正在播放：%1"
+
+#: statusbar/statusbar.cpp:201
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "%3 個曲目中可見的 %2 個裏選擇了 %1 個"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr "1 個曲目中可見 0 個"
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr "%2 個曲目中可見 %1 個"
+
+#: statusbar/statusbar.cpp:205
+msgid "%1 selected of %2 tracks"
+msgstr "%2 個曲目中選擇了 %1 個"
+
+#: statusbar/statusbar.cpp:206
+#, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr "%n 個曲目"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr " - [ %1 / %2 / %3 ]"
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr " - [ %1 / %2 ]"
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr " - [ %1 ]"
+
+#: statusbar/queueLabel.cpp:169
+#, fuzzy, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr "%n 個已選擇的曲目"
+
+#: statusbar/queueLabel.cpp:172
+#, fuzzy
+msgid "Dequeue All Tracks"
+msgstr "把曲目從播放佇列取出(&D)"
+
+#: statusbar/queueLabel.cpp:183
+#, fuzzy
+msgid "%1. %2"
+msgstr "%1 - %2"
+
+#: statusbar/queueLabel.cpp:189
+#, fuzzy, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr "%n 個曲目"
+
+#: statusbar/queueLabel.cpp:244
+#, fuzzy
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr "有 %n 個曲目在播放佇列中"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "已完成"
+
+#: statusbar/progressBar.cpp:96
+msgid "Aborted"
+msgstr "已中止"
+
+#: statusbar/progressBar.cpp:106
+msgid "Aborting..."
+msgstr "正在中止..."
+
+#: statusbar/toggleLabel.h:115
+#, fuzzy
+msgid "%1: on"
+msgstr "%2：開啟"
+
+#: statusbar/toggleLabel.h:115
+#, fuzzy
+msgid "%1: off"
+msgstr "%2：關閉"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr "&nbsp;<br>&nbsp;<i>已停用</i>"
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "OSD 預覽 - 您可以把我拖曳到適合的位置"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr "沒有曲目正在播放"
+
+#: osd.cpp:556
+#, fuzzy
+msgid "No information available for this track"
+msgstr "這個指令稿沒有可用的資訊。"
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "disc"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "disk"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "remaster"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "cd"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "single"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "soundtrack"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "part"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr "找不到封面"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr "從 Amazon 取得的 XML 是無效的。"
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr "接收不到封面。"
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr "封面資料產生了無效的影像。"
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr "您已看到對於下面的查詢，Amazon 所有傳回的封面。或者您可以精簡它："
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr "Amazon 查詢編輯器"
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "搜尋(&S)"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr "使用這個查詢名稱來搜尋 Amazon"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+msgid "Aborted."
+msgstr "已中止。"
+
+#: coverfetcher.cpp:379
+msgid "New &Search..."
+msgstr "新的搜尋(&S)..."
+
+#: coverfetcher.cpp:380
+msgid "Next &Cover"
+msgstr "下一張封面(&C)"
+
+#: coverfetcher.cpp:390
+msgid "Cover Found"
+msgstr "找到封面"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "KDE 的音樂播放器"
+
+#: amarokcore/main.cpp:29
+#, fuzzy
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2005, amaroK 開發小組"
+
+#: amarokcore/main.cpp:30
+#, fuzzy
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"伺服器: irc.freenode.net / 頻道: #amarok\n"
+"\n"
+"反饋:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr "Babe-Magnet"
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "Stud (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "測試代碼，改進 OSD，修補錯誤(Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr "It's good, but it's not irssi"
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "專案始創者 (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr "Turtle-Power'"
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr "Cowboy mxcl"
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr "Purple is not girly!"
+
+#: amarokcore/main.cpp:45
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "DCOP，改進，可愛的手冊維護者 (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr "Spaghetti Coder"
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "播放清單瀏覽器，封面管理員 (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr "And God said, let there be Mac"
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "amaroK 標誌，啟動畫面，圖示"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr "Surfin' down under"
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr "播放清單瀏覽器，動態模式，佇列管理員 (sebr)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr "DCOP 是您需要的"
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "DCOP，改進，精簡代碼，i18n (berkus)"
+
+#: amarokcore/main.cpp:56
+msgid "Analyzers, patches"
+msgstr "音訊分析器，修補錯誤"
+
+#: amarokcore/main.cpp:57
+msgid "Patches"
+msgstr "修補錯誤"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr "改進，修補錯誤"
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "MySQL 支援"
+
+#: amarokcore/main.cpp:60
+msgid "Postgresql support"
+msgstr "PostgreSQL 支援"
+
+#: amarokcore/main.cpp:61
+msgid "First-run wizard, usability"
+msgstr "首次執行精靈，amaroK 可用性"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr "音訊分析器，系絡瀏覽器及系統匣小圖示"
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr "amaroK 應用程式圖示'藍狐'(Blue Wolf)"
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr "圖示及影像"
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr "幫助我們修補了非常多 pre 1.2 版本的錯誤"
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr "手冊改進，翻譯，修補錯誤，抓圖 (apachelogger)"
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr "修補錯誤，Ruby 指令搞範本 (eean)"
+
+#: amarokcore/main.cpp:68
+msgid "Tester, IRC channel operator, whipping"
+msgstr "測試，IRC 頻道運作者，鞭策"
+
+#: amarokcore/main.cpp:69
+msgid "Icons"
+msgstr "圖示"
+
+#: amarokcore/main.cpp:70
+msgid "amaroK webmaster"
+msgstr "amaroK 網站管理員"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr ""
+
+#: amarokcore/main.cpp:72
+msgid "FHT routine, bugfixes"
+msgstr "FHT 常式，修補錯誤"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "K3B 匯出代碼"
+
+#: amarokcore/main.cpp:74
+msgid "Splash screen"
+msgstr "啟動畫面"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr "網站寄存者"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr "HelixPlayer 引擎"
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr "Wikipedia 支援，修補錯誤"
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "MAS 引擎"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "Audioscrobbler 支援"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "TagLib & ktrm 代碼"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr "許多東西"
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr "修補錯誤"
+
+#: amarokcore/main.cpp:83
+msgid "Tester, patches"
+msgstr "測試，修補錯誤"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+"amaroK 竟然當掉了！我們為此感到萬分抱歉 :(\n"
+"\n"
+"但是，事情不會就這樣結束的！您可以幫助我們修正它。amaroK "
+"已經建立了一個描述當機狀況的回溯追蹤，您只需按下傳送就行了。若您有空，也請寫下當機前的大概情況。\n"
+"\n"
+"我們非常感謝您！\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+
+#: amarokcore/crashhandler.cpp:249
+msgid "Send Email"
+msgstr "傳送電子郵件"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr "當機處理器"
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "載入中..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr " - [%2]"
+
+#: playlistbrowseritem.cpp:882
+msgid "Add Radio Stream"
+msgstr "加入廣播音訊流"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+msgid "&Name:"
+msgstr "姓名(&N)："
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr "&URL："
+
+#: playlistbrowseritem.cpp:903
+msgid "Edit Radio Stream"
+msgstr "編輯廣播音訊流"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+msgid "Retrieving Podcast..."
+msgstr "正在接收 Podcast..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+#, fuzzy
+msgid "Moving Podcasts"
+msgstr "正在取得 Podcast"
+
+#: playlistbrowseritem.cpp:1223
+msgid "Fetching Podcast"
+msgstr "正在取得 Podcast"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr "無法連接到 Podcast 伺服器。"
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr "Podcast 伺服器傳回了無效的資料。"
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr "對不起，只能為 Podcast 使用 RSS 2.0 feeds!"
+
+#: playlistbrowseritem.cpp:1405
+#, fuzzy
+msgid "Url"
+msgstr "&URL："
+
+#: playlistbrowseritem.cpp:1406
+#, fuzzy
+msgid "Website"
+msgstr "網站寄存者"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr ""
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+#, fuzzy
+msgid "Podcast Information"
+msgstr "Podcast 設定"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr "已經接收到新的 Podcast。"
+
+#: playlistbrowseritem.cpp:1723
+msgid "Downloading Media..."
+msgstr "正在下載媒體..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr "正在下載 Podcast 媒體..."
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr "媒體的下載已中止：無法連接到伺服器。"
+
+#: playlistbrowseritem.cpp:1831
+#, fuzzy
+msgid "Author"
+msgstr "作者"
+
+#: playlistbrowseritem.cpp:1832
+#, fuzzy
+msgid "Date"
+msgstr "資料模式"
+
+#: filebrowser.cpp:132
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr "請輸入以空格分開的搜尋項目來篩選目錄清單"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "選擇所有檔案(&S)"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr "<div align=center>請在上面輸入一個搜尋項目；您可以使用萬用字符如 * 和 ?</div>"
+
+#: filebrowser.cpp:476
+msgid "Search here..."
+msgstr "在這裏搜尋..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr "顯示搜尋面板(&S)"
+
+#: filebrowser.cpp:532
+msgid "Searching..."
+msgstr "正在搜尋..."
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr "找不到符合的結果"
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "略過(&S)"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "效果"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "可用的效果"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "作用中的效果"
+
+#~ msgid "amaroK has had to delete some of the images that you downloaded from Amazon. Amazon's licensing policy require us to remove content within 90 days of its download. You can read more about Amazon's policies <a href='http://www.amazon.com/webservices'>here</a>. Please note that this only affects covers downloaded using the Cover Manager's fetch covers feature and the covers downloaded using the context menu in the Context Browser, not manually added covers."
+#~ msgstr "amaroK 已經刪除了一些您從 Amazon 下載的圖片。這是因為 Amazon 的授權條款要求我們在下載內容的 90 天內刪除它。您可以在<a href='http://www.amazon.com/webservices'>這裏</a>找到更多 Amazon 授權條款的相關資訊。請注意：這僅對從封面管理員及系絡瀏覽器取得的封面有效。您自行加入的封面將不受影響。"
+
+#~ msgid "Unable to decode <i>%1</i>"
+#~ msgstr "無法解碼 <i>%1</i>"
+
+#~ msgid "Adding random tracks."
+#~ msgstr "正在加入隨機曲目。"
+
+#~ msgid "Adding random track."
+#~ msgstr "正在加入隨機曲目。"
+
+#~ msgid "Adding suggested tracks."
+#~ msgstr "正在加入提議的曲目。"
+
+#~ msgid "Adding suggested track."
+#~ msgstr "正在加入提議的曲目。"
+
+#~ msgid "Adding tracks from custom filter."
+#~ msgstr "正在從自訂篩選器中加入曲目。"
+
+#~ msgid "Adding track from custom filter."
+#~ msgstr "正在從自訂篩選器中加入曲目。"
+
+#, fuzzy
+#~ msgid "&Download on request"
+#~ msgstr "要求的時候才下載"
+
+#~ msgid "Download media and save to disk only when asked.  An entry will not be playable until the file has been explicitly saved."
+#~ msgstr "僅在請求的時候才下載媒體和儲存到磁碟。這個項目將不可播放直至檔案被明確地儲存。"
+
+#~ msgid "Play media from remote location, but do not save to disk"
+#~ msgstr "從遠端播放媒體，但不要儲存到磁碟"
+
+#~ msgid "Selected Tracks as Data CD"
+#~ msgstr "燒錄選擇曲目成一片資料 CD"
+
+#~ msgid "Selected Tracks as Audio CD"
+#~ msgstr "燒錄選擇曲目成一片音訊 CD"
+
+#~ msgid "This Album as Data CD"
+#~ msgstr "燒錄這張專輯成一片資料 CD"
+
+#~ msgid "This Album as Audio CD"
+#~ msgstr "燒錄這張專輯成一片音訊 CD"
+
+#~ msgid "All Tracks by This Artist as Data CD"
+#~ msgstr "燒錄所有這個演出者的曲目成一片資料 CD"
+
+#~ msgid "All Tracks by This Artist as Audio CD"
+#~ msgstr "燒錄所有這個演出者的曲目成一片音訊 CD"
+
+#, fuzzy
+#~ msgid "Set as &Playlist"
+#~ msgstr "另存播放清單為(&S)..."
+
+#, fuzzy
+#~ msgid "Alt+R"
+#~ msgstr "Alt+3"
+
+#~ msgid "O&K"
+#~ msgstr "確定(&K)"
+
+#, fuzzy
+#~ msgid "Custom location..."
+#~ msgstr "精選"
+
+#~ msgid "Add to From Dynamic Mode"
+#~ msgstr "從動態模式中加入"
+
+#~ msgid "&Cycle tracks"
+#~ msgstr "循環曲目(&C)"
+
+#~ msgid "infoDialog"
+#~ msgstr "資訊對話框"
+
+#~ msgid "&Do not show this message again"
+#~ msgstr "不要再顯示這個訊息(&D)"
+
+#, fuzzy
+#~ msgid " Artists"
+#~ msgstr "演出者"
+
+#, fuzzy
+#~ msgid " Albums"
+#~ msgstr "專輯"
+
+#, fuzzy
+#~ msgid " Genres"
+#~ msgstr "風格"
+
+#, fuzzy
+#~ msgid " Tracks"
+#~ msgstr "曲目號"
+
+#~ msgid "Wiki"
+#~ msgstr "Wiki"
+
+#, fuzzy
+#~ msgid "Options8"
+#~ msgstr "顯示選項"
+
+#~ msgid "Scrobbler"
+#~ msgstr "Scrobbler"
+
+#~ msgid "Configure Audioscrobbler"
+#~ msgstr "設定 Audioscrobber"
+
+#~ msgid "Audioscrobbler Profile"
+#~ msgstr "Audioscrobbler 帳號"
+
+#~ msgid "Audioscrobbler Services"
+#~ msgstr "Audioscrobbler 服務"
+
+#, fuzzy
+#~ msgid "After This Track"
+#~ msgstr "上一曲目"
+
+#~ msgid "Priority of GStreamer pipeline thread"
+#~ msgstr "GStreamer 管線線程的優先級別"
+
+#~ msgid "The priority of the thread for GStreamer, a value between 0 (low) and 3 (high)."
+#~ msgstr "GStreamer 線程的優先級別，可指定的範圍為 0(低) 到 3(高)"
+
+#~ msgid "Duration of Fade-in when starting a track"
+#~ msgstr "一個曲目的淡入時間"
+
+#~ msgid "Fade-&in duration:"
+#~ msgstr "淡入持續時間(&I)："
+
+#, fuzzy
+#~ msgid "Refresh view"
+#~ msgstr "重新整理"
+
+#~ msgid "Shuffle queue"
+#~ msgstr "隨機排列佇列"
+
+#~ msgid "Sorry xine 1-rc6a cannot play remote streams, please upgrade to 1-rc7"
+#~ msgstr "對不起。xine 版本 1-rc6a 不能播放遠端音訊流，請升級至 1-rc7。"

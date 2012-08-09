@@ -1,0 +1,565 @@
+/****************************************************************************
+** LastFm::Controller meta object code from reading C++ file 'lastfm.h'
+**
+** Created: Fri Mar 23 10:53:35 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "lastfm.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *LastFm::Controller::className() const
+{
+    return "LastFm::Controller";
+}
+
+QMetaObject *LastFm::Controller::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_LastFm__Controller( "LastFm::Controller", &LastFm::Controller::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString LastFm::Controller::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::Controller", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString LastFm::Controller::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::Controller", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* LastFm::Controller::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"playbackStopped", 0, 0 };
+    static const QUMethod slot_1 = {"ban", 0, 0 };
+    static const QUMethod slot_2 = {"love", 0, 0 };
+    static const QUMethod slot_3 = {"skip", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "playbackStopped()", &slot_0, QMetaData::Public },
+	{ "ban()", &slot_1, QMetaData::Public },
+	{ "love()", &slot_2, QMetaData::Public },
+	{ "skip()", &slot_3, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"LastFm::Controller", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_LastFm__Controller.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* LastFm::Controller::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "LastFm::Controller" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+bool LastFm::Controller::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: playbackStopped(); break;
+    case 1: ban(); break;
+    case 2: love(); break;
+    case 3: skip(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool LastFm::Controller::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool LastFm::Controller::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool LastFm::Controller::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *LastFm::WebService::className() const
+{
+    return "LastFm::WebService";
+}
+
+QMetaObject *LastFm::WebService::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_LastFm__WebService( "LastFm::WebService", &LastFm::WebService::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString LastFm::WebService::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::WebService", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString LastFm::WebService::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::WebService", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* LastFm::WebService::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"requestMetaData", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "enabled", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"enableScrobbling", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"love", 0, 0 };
+    static const QUMethod slot_3 = {"skip", 0, 0 };
+    static const QUMethod slot_4 = {"ban", 0, 0 };
+    static const QUMethod slot_5 = {"readProxy", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"metaDataFinished", 2, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"fetchImageFinished", 2, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"enableScrobblingFinished", 2, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"loveFinished", 2, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"skipFinished", 2, param_slot_10 };
+    static const QUParameter param_slot_11[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"banFinished", 2, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"friendsFinished", 2, param_slot_12 };
+    static const QUParameter param_slot_13[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"neighboursFinished", 2, param_slot_13 };
+    static const QUParameter param_slot_14[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"recentTracksFinished", 2, param_slot_14 };
+    static const QUParameter param_slot_15[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"userTagsFinished", 2, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In },
+	{ "error", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"recommendFinished", 2, param_slot_16 };
+    static const QMetaData slot_tbl[] = {
+	{ "requestMetaData()", &slot_0, QMetaData::Public },
+	{ "enableScrobbling(bool)", &slot_1, QMetaData::Public },
+	{ "love()", &slot_2, QMetaData::Public },
+	{ "skip()", &slot_3, QMetaData::Public },
+	{ "ban()", &slot_4, QMetaData::Public },
+	{ "readProxy()", &slot_5, QMetaData::Private },
+	{ "metaDataFinished(int,bool)", &slot_6, QMetaData::Private },
+	{ "fetchImageFinished(int,bool)", &slot_7, QMetaData::Private },
+	{ "enableScrobblingFinished(int,bool)", &slot_8, QMetaData::Private },
+	{ "loveFinished(int,bool)", &slot_9, QMetaData::Private },
+	{ "skipFinished(int,bool)", &slot_10, QMetaData::Private },
+	{ "banFinished(int,bool)", &slot_11, QMetaData::Private },
+	{ "friendsFinished(int,bool)", &slot_12, QMetaData::Private },
+	{ "neighboursFinished(int,bool)", &slot_13, QMetaData::Private },
+	{ "recentTracksFinished(int,bool)", &slot_14, QMetaData::Private },
+	{ "userTagsFinished(int,bool)", &slot_15, QMetaData::Private },
+	{ "recommendFinished(int,bool)", &slot_16, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"actionStarted", 0, 0 };
+    static const QUMethod signal_1 = {"actionFinished", 0, 0 };
+    static const QUParameter param_signal_2[] = {
+	{ "url", &static_QUType_QString, 0, QUParameter::In },
+	{ "name", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_2 = {"stationChanged", 2, param_signal_2 };
+    static const QUMethod signal_3 = {"songQueued", 0, 0 };
+    static const QUParameter param_signal_4[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod signal_4 = {"metaDataResult", 1, param_signal_4 };
+    static const QUMethod signal_5 = {"enableScrobblingDone", 0, 0 };
+    static const QUMethod signal_6 = {"loveDone", 0, 0 };
+    static const QUMethod signal_7 = {"skipDone", 0, 0 };
+    static const QUMethod signal_8 = {"banDone", 0, 0 };
+    static const QUParameter param_signal_9[] = {
+	{ "username", &static_QUType_QString, 0, QUParameter::In },
+	{ "friends", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod signal_9 = {"friendsResult", 2, param_signal_9 };
+    static const QUParameter param_signal_10[] = {
+	{ "username", &static_QUType_QString, 0, QUParameter::In },
+	{ "friends", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod signal_10 = {"neighboursResult", 2, param_signal_10 };
+    static const QUParameter param_signal_11[] = {
+	{ "username", &static_QUType_QString, 0, QUParameter::In },
+	{ "songs", &static_QUType_ptr, "QValueList<QPair<QString,QString>>", QUParameter::In }
+    };
+    static const QUMethod signal_11 = {"recentTracksResult", 2, param_signal_11 };
+    static const QUParameter param_signal_12[] = {
+	{ "username", &static_QUType_QString, 0, QUParameter::In },
+	{ "tags", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod signal_12 = {"userTagsResult", 2, param_signal_12 };
+    static const QMetaData signal_tbl[] = {
+	{ "actionStarted()", &signal_0, QMetaData::Public },
+	{ "actionFinished()", &signal_1, QMetaData::Public },
+	{ "stationChanged(QString,QString)", &signal_2, QMetaData::Public },
+	{ "songQueued()", &signal_3, QMetaData::Public },
+	{ "metaDataResult(const MetaBundle&)", &signal_4, QMetaData::Public },
+	{ "enableScrobblingDone()", &signal_5, QMetaData::Public },
+	{ "loveDone()", &signal_6, QMetaData::Public },
+	{ "skipDone()", &signal_7, QMetaData::Public },
+	{ "banDone()", &signal_8, QMetaData::Public },
+	{ "friendsResult(const QString&,const QStringList&)", &signal_9, QMetaData::Public },
+	{ "neighboursResult(const QString&,const QStringList&)", &signal_10, QMetaData::Public },
+	{ "recentTracksResult(const QString&,QValueList<QPair<QString,QString>>)", &signal_11, QMetaData::Public },
+	{ "userTagsResult(const QString&,const QStringList&)", &signal_12, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"LastFm::WebService", parentObject,
+	slot_tbl, 17,
+	signal_tbl, 13,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_LastFm__WebService.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* LastFm::WebService::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "LastFm::WebService" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL actionStarted
+void LastFm::WebService::actionStarted()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+// SIGNAL actionFinished
+void LastFm::WebService::actionFinished()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL stationChanged
+void LastFm::WebService::stationChanged( QString t0, QString t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 2 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_QString.set(o+2,t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL songQueued
+void LastFm::WebService::songQueued()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 3 );
+}
+
+// SIGNAL metaDataResult
+void LastFm::WebService::metaDataResult( const MetaBundle& t0 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 4 );
+    if ( !clist )
+	return;
+    QUObject o[2];
+    static_QUType_ptr.set(o+1,&t0);
+    activate_signal( clist, o );
+}
+
+// SIGNAL enableScrobblingDone
+void LastFm::WebService::enableScrobblingDone()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 5 );
+}
+
+// SIGNAL loveDone
+void LastFm::WebService::loveDone()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 6 );
+}
+
+// SIGNAL skipDone
+void LastFm::WebService::skipDone()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 7 );
+}
+
+// SIGNAL banDone
+void LastFm::WebService::banDone()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 8 );
+}
+
+// SIGNAL friendsResult
+void LastFm::WebService::friendsResult( const QString& t0, const QStringList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 9 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_varptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL neighboursResult
+void LastFm::WebService::neighboursResult( const QString& t0, const QStringList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 10 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_varptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL recentTracksResult
+void LastFm::WebService::recentTracksResult( const QString& t0, QValueList<QPair<QString,QString> > t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 11 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_ptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL userTagsResult
+void LastFm::WebService::userTagsResult( const QString& t0, const QStringList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 12 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_varptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+bool LastFm::WebService::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: requestMetaData(); break;
+    case 1: enableScrobbling((bool)static_QUType_bool.get(_o+1)); break;
+    case 2: love(); break;
+    case 3: skip(); break;
+    case 4: ban(); break;
+    case 5: readProxy(); break;
+    case 6: metaDataFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 7: fetchImageFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 8: enableScrobblingFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 9: loveFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 10: skipFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 11: banFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 12: friendsFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 13: neighboursFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 14: recentTracksFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 15: userTagsFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 16: recommendFinished((int)static_QUType_int.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool LastFm::WebService::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: actionStarted(); break;
+    case 1: actionFinished(); break;
+    case 2: stationChanged((QString)static_QUType_QString.get(_o+1),(QString)static_QUType_QString.get(_o+2)); break;
+    case 3: songQueued(); break;
+    case 4: metaDataResult((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 5: enableScrobblingDone(); break;
+    case 6: loveDone(); break;
+    case 7: skipDone(); break;
+    case 8: banDone(); break;
+    case 9: friendsResult((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    case 10: neighboursResult((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    case 11: recentTracksResult((const QString&)static_QUType_QString.get(_o+1),(QValueList<QPair<QString,QString> >)(*((QValueList<QPair<QString,QString> >*)static_QUType_ptr.get(_o+2)))); break;
+    case 12: userTagsResult((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool LastFm::WebService::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool LastFm::WebService::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *LastFm::LoginDialog::className() const
+{
+    return "LastFm::LoginDialog";
+}
+
+QMetaObject *LastFm::LoginDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_LastFm__LoginDialog( "LastFm::LoginDialog", &LastFm::LoginDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString LastFm::LoginDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::LoginDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString LastFm::LoginDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "LastFm::LoginDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* LastFm::LoginDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotOk", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotOk()", &slot_0, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"LastFm::LoginDialog", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_LastFm__LoginDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* LastFm::LoginDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "LastFm::LoginDialog" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool LastFm::LoginDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotOk(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool LastFm::LoginDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool LastFm::LoginDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool LastFm::LoginDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

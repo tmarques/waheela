@@ -1,0 +1,283 @@
+/****************************************************************************
+** EngineController meta object code from reading C++ file 'enginecontroller.h'
+**
+** Created: Tue Feb 19 15:59:05 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "enginecontroller.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *EngineController::className() const
+{
+    return "EngineController";
+}
+
+QMetaObject *EngineController::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_EngineController( "EngineController", &EngineController::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString EngineController::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "EngineController", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString EngineController::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "EngineController", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* EngineController::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"previous", 0, 0 };
+    static const QUMethod slot_1 = {"next", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "forceNext", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"next", 1, param_slot_2 };
+    static const QUMethod slot_3 = {"trackFinished", 0, 0 };
+    static const QUMethod slot_4 = {"play", 0, 0 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"play", 1, param_slot_5 };
+    static const QUMethod slot_6 = {"pause", 0, 0 };
+    static const QUMethod slot_7 = {"stop", 0, 0 };
+    static const QUMethod slot_8 = {"playPause", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ "ms", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"seek", 1, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ "ms", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"seekRelative", 1, param_slot_10 };
+    static const QUMethod slot_11 = {"seekForward", 0, 0 };
+    static const QUParameter param_slot_12[] = {
+	{ "ms", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"seekForward", 1, param_slot_12 };
+    static const QUMethod slot_13 = {"seekBackward", 0, 0 };
+    static const QUParameter param_slot_14[] = {
+	{ "ms", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"seekBackward", 1, param_slot_14 };
+    static const QUParameter param_slot_15[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_15 = {"increaseVolume", 1, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out },
+	{ "ticks", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"increaseVolume", 2, param_slot_16 };
+    static const QUParameter param_slot_17[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_17 = {"decreaseVolume", 1, param_slot_17 };
+    static const QUParameter param_slot_18[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out },
+	{ "ticks", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_18 = {"decreaseVolume", 2, param_slot_18 };
+    static const QUParameter param_slot_19[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out },
+	{ "percent", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_19 = {"setVolume", 2, param_slot_19 };
+    static const QUMethod slot_20 = {"mute", 0, 0 };
+    static const QUParameter param_slot_21[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_21 = {"playRemote", 1, param_slot_21 };
+    static const QUParameter param_slot_22[] = {
+	{ 0, &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_22 = {"slotStreamMetaData", 1, param_slot_22 };
+    static const QUParameter param_slot_23[] = {
+	{ 0, &static_QUType_ptr, "Engine::SimpleMetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_23 = {"slotEngineMetaData", 1, param_slot_23 };
+    static const QUMethod slot_24 = {"slotMainTimer", 0, 0 };
+    static const QUMethod slot_25 = {"slotTrackEnded", 0, 0 };
+    static const QUParameter param_slot_26[] = {
+	{ 0, &static_QUType_ptr, "Engine::State", QUParameter::In }
+    };
+    static const QUMethod slot_26 = {"slotStateChanged", 1, param_slot_26 };
+    static const QUMethod slot_27 = {"streamError", 0, 0 };
+    static const QUMethod slot_28 = {"slotSigError", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "previous()", &slot_0, QMetaData::Public },
+	{ "next()", &slot_1, QMetaData::Public },
+	{ "next(const bool)", &slot_2, QMetaData::Public },
+	{ "trackFinished()", &slot_3, QMetaData::Public },
+	{ "play()", &slot_4, QMetaData::Public },
+	{ "play(const MetaBundle&)", &slot_5, QMetaData::Public },
+	{ "pause()", &slot_6, QMetaData::Public },
+	{ "stop()", &slot_7, QMetaData::Public },
+	{ "playPause()", &slot_8, QMetaData::Public },
+	{ "seek(int)", &slot_9, QMetaData::Public },
+	{ "seekRelative(int)", &slot_10, QMetaData::Public },
+	{ "seekForward()", &slot_11, QMetaData::Public },
+	{ "seekForward(int)", &slot_12, QMetaData::Public },
+	{ "seekBackward()", &slot_13, QMetaData::Public },
+	{ "seekBackward(int)", &slot_14, QMetaData::Public },
+	{ "increaseVolume()", &slot_15, QMetaData::Public },
+	{ "increaseVolume(int)", &slot_16, QMetaData::Public },
+	{ "decreaseVolume()", &slot_17, QMetaData::Public },
+	{ "decreaseVolume(int)", &slot_18, QMetaData::Public },
+	{ "setVolume(int)", &slot_19, QMetaData::Public },
+	{ "mute()", &slot_20, QMetaData::Public },
+	{ "playRemote(KIO::Job*)", &slot_21, QMetaData::Private },
+	{ "slotStreamMetaData(const MetaBundle&)", &slot_22, QMetaData::Private },
+	{ "slotEngineMetaData(const Engine::SimpleMetaBundle&)", &slot_23, QMetaData::Private },
+	{ "slotMainTimer()", &slot_24, QMetaData::Private },
+	{ "slotTrackEnded()", &slot_25, QMetaData::Private },
+	{ "slotStateChanged(Engine::State)", &slot_26, QMetaData::Private },
+	{ "streamError()", &slot_27, QMetaData::Private },
+	{ "slotSigError()", &slot_28, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"orderPrevious", 0, 0 };
+    static const QUMethod signal_1 = {"orderCurrent", 0, 0 };
+    static const QUParameter param_signal_2[] = {
+	{ 0, &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_2 = {"orderNext", 1, param_signal_2 };
+    static const QUParameter param_signal_3[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_3 = {"statusText", 1, param_signal_3 };
+    static const QMetaData signal_tbl[] = {
+	{ "orderPrevious()", &signal_0, QMetaData::Public },
+	{ "orderCurrent()", &signal_1, QMetaData::Public },
+	{ "orderNext(const bool)", &signal_2, QMetaData::Public },
+	{ "statusText(const QString&)", &signal_3, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"EngineController", parentObject,
+	slot_tbl, 29,
+	signal_tbl, 4,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_EngineController.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* EngineController::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "EngineController" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineSubject" ) )
+	return (EngineSubject*)this;
+    return QObject::qt_cast( clname );
+}
+
+// SIGNAL orderPrevious
+void EngineController::orderPrevious()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+// SIGNAL orderCurrent
+void EngineController::orderCurrent()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1 );
+}
+
+// SIGNAL orderNext
+void EngineController::orderNext( const bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 2, t0 );
+}
+
+// SIGNAL statusText
+void EngineController::statusText( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 3, t0 );
+}
+
+bool EngineController::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: previous(); break;
+    case 1: next(); break;
+    case 2: next((const bool)static_QUType_bool.get(_o+1)); break;
+    case 3: trackFinished(); break;
+    case 4: play(); break;
+    case 5: play((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 6: pause(); break;
+    case 7: stop(); break;
+    case 8: playPause(); break;
+    case 9: seek((int)static_QUType_int.get(_o+1)); break;
+    case 10: seekRelative((int)static_QUType_int.get(_o+1)); break;
+    case 11: seekForward(); break;
+    case 12: seekForward((int)static_QUType_int.get(_o+1)); break;
+    case 13: seekBackward(); break;
+    case 14: seekBackward((int)static_QUType_int.get(_o+1)); break;
+    case 15: static_QUType_int.set(_o,increaseVolume()); break;
+    case 16: static_QUType_int.set(_o,increaseVolume((int)static_QUType_int.get(_o+1))); break;
+    case 17: static_QUType_int.set(_o,decreaseVolume()); break;
+    case 18: static_QUType_int.set(_o,decreaseVolume((int)static_QUType_int.get(_o+1))); break;
+    case 19: static_QUType_int.set(_o,setVolume((int)static_QUType_int.get(_o+1))); break;
+    case 20: mute(); break;
+    case 21: playRemote((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 22: slotStreamMetaData((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 23: slotEngineMetaData((const Engine::SimpleMetaBundle&)*((const Engine::SimpleMetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 24: slotMainTimer(); break;
+    case 25: slotTrackEnded(); break;
+    case 26: slotStateChanged((Engine::State)(*((Engine::State*)static_QUType_ptr.get(_o+1)))); break;
+    case 27: streamError(); break;
+    case 28: slotSigError(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool EngineController::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: orderPrevious(); break;
+    case 1: orderCurrent(); break;
+    case 2: orderNext((const bool)static_QUType_bool.get(_o+1)); break;
+    case 3: statusText((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool EngineController::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool EngineController::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

@@ -1,0 +1,6985 @@
+# translation of amarok.po to Dutch
+# Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
+#
+# Rinse de Vries <rinse@kde.nl>, 2004.
+# Rinse de Vries <rinsedevries@kde.nl>, 2004, 2005, 2006.
+# Tom Albers <tomalbers@kde.nl>, 2005.
+# Sander Koning <sanderkoning@kde.nl>, 2005.
+# Bram Schoenmakers <bram_s@softhome.net>, 2005.
+# Bram Schoenmakers <bramschoenmakers@kde.nl>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2006-02-04 00:40+0100\n"
+"Last-Translator: Rinse de Vries <rinsedevries@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.1\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr "amaroK - herontdek uw muziek"
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "Afspeellijst..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "Radiostream..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "Intelligente afspeellijst..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "Podcast..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "Huidige afspeellijst..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "Dynamische afspeellijst..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "Hernoemen"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "Gedetailleerde weergave"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "Lijstweergave"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "Ongesorteerd"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "Oplopend sorteren"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "Aflopend sorteren"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "Radiostreams"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "Cool-Streams"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "Intelligente afspeellijsten"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "Collectie"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "Alle collecties"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "Favoriete tracks"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "Van %1"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "Meest afgespeeld"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "Nieuwste tracks"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "Laatst afgespeeld"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "Nooit afgespeeld"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "Ooit afgespeeld"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "Genres"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 willekeurige tracks"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "Dynamische afspeellijst opslaan"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "Naam afspeellijst invoeren:"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "Dynamische afspeellijsten"
+
+#: playlistbrowser.cpp:752
+msgid "Random Mix"
+msgstr "Willekeurige mix"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "Voorgestelde nummers"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "Podcasts"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "Podcast toevoegen"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "URL-adres Podcast invoeren:"
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "Downloadinterval"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "Scaninterval (uren):"
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+"<p>U hebt 1 Podcast geselecteerd om <b>onherroepelijk</b> "
+"te verwijderen. Alle gedownloade episoden zullen ook worden verwijderd.\n"
+"<p>U hebt %n Podcasts geselecteerd om <b>onherroepelijk</b> "
+"te verwijderen. Alle gedownloade episoden zullen ook worden verwijderd."
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "Afspeellijsten"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr "De afspeellijst kan niet worden geschreven (%1)."
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "Afspeellijstbestanden"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "Afspeellijsten toevoegen"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>U hebt 1 afspeellijst geselecteerd om <b>permanent</b> te verwijderen.\n"
+"<p>U hebt %n afspeellijsten geselecteerd om <b>permanent</b> te verwijderen."
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "Fout bij het hernoemen van het bestand."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "&Laden"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "&Aan afspeellijst toevoegen"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+msgid "Remove From Dynamic Mode"
+msgstr "Uit dynamische modus verwijderen"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "Aan dynamische modus toevoegen"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "He&rstellen"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "He&rnoemen"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "Be&werken..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "Afspeellijst w&eghalen"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "Be&werken"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+msgid "Show &Information"
+msgstr "&Informatie tonen"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "&Controleren op updates"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "&Instellen..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "Afs&pelen"
+
+#: playlistbrowser.cpp:2239
+msgid "&Queue"
+msgstr "In wa&chtrij"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "Media &downloaden"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr "Aan media-apparaat en overdrach&twachtrij toevoegen"
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "Afspeellijst toevoegen..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "Intelligente afspeellijst toevoegen..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "Radiostream toevoegen..."
+
+#: playlistbrowser.cpp:2306
+msgid "Save Dynamic Configuration..."
+msgstr "Dynamische configuratie opslaan..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "Alle Podcasts verversen"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "Podcast toevoegen..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "Scaninterval..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "Submap aanmaken"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "Map"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "Map %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "Track in &wachtrij"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "Afspeellijst aan&maken"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "Als data-cd branden"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "Als audio-cd branden"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "Track&informatie bewerken..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr "Trackinformatie is niet beschikbaar voor externe media."
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "Dit bestand bestaat niet: %1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "He&rstellen"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "Afspeellijst opslaan"
+
+#: playlistbrowser.cpp:2858
+msgid "Save to location..."
+msgstr "Opslaan naar locatie..."
+
+#: playlistbrowser.cpp:2862
+msgid "&Enter a name for the playlist:"
+msgstr "Vo&er een naam in voor de afspeellijst:"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr "Een afspeellijst met de naam%1 bestaat al. Overschrijven?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite Playlist?"
+msgstr "Afspeellijst overschrijven?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite"
+msgstr "Overschrijven"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "Er deed zich een communicatiefout met Amazon voor."
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr ""
+"Helaas, '%1' kon niet worden geladen. In plaats daarvan heeft het programma "
+"'%2' geladen."
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>amaroK kon geen enkele geluidsengineplugins vinden. amaroK werkt nu de "
+"KDE-configuratiedatabase bij. Wacht enkele minuten en herstart daarna het "
+"programma.</p>Als dat niet werkt, dan is amaroK zeer waarschijnlijk "
+"gecompileerd met een onjuiste prefix. Repareer uw installatie met behulp van de "
+"volgende commando's: "
+"<pre>$ cd /pad/naar/amarok/broncode/ "
+"<br>$ su -c \"make uninstall\" "
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\" "
+"<br>$ kbuildsycoca "
+"<br>$ amarok</pre> Meer informatie vindt u in het bestand README. Voor verdere "
+"assistentie, word lid van het IRC-kanaal #amarok op irc.freenode.net."
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+"<p>%1 stelt dat het <b>geen</b> MP3-bestanden kan afspelen. "
+"<p>U kunt in de <i>configuratiedialoog</i> een andere engine kiezen, of de "
+"installatie van het multimediaframework dat de huidige engine gebruikt nader "
+"bestuderen. "
+"<p>U vindt mogelijk bruikbare informatie in de sectie <i>Vraag en antwoord</i> "
+"van het <i>handboek van amaroK</i>."
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "Maakt verbinding met streambron..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "Lokaal bestand bestaat niet."
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "Scriptbeheerder"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"Scriptpakketten (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "Scriptpakket selecteren"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "Dit pakket is onleesbaar."
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr ""
+"Een script met de naam '%1' is al geïnstalleerd. Deïnstaleer deze eerst."
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "Script met succes geïnstalleerd."
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+"<p>Scriptinstallatie is mislukt.</p> "
+"<p>Het pakket bevatten geen uitvoerbaar bestand. Informeerde auteur van het "
+"pakket over deze fout.</p>"
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "Wilt u werkelijk het script '%1' deïnstalleren?"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "Script deïnstalleren"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "Deïnstalleren"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+"<p>Dit script kon niet worden verwijderd.</p> "
+"<p> De Scriptbeheerder kan alleen scripts verwijderen die als pakketten waren "
+"geïnstalleerd.</p>"
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+"<p>Het script <i>%1</i> kon niet worden gestart.</p> "
+"<p>Zorg ervoor dat het bestand uitvoerrechten heeft.</p>"
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "Er is geen informatie beschikbaar voor dit script."
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "Info over %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr "%1 amaroKscript"
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr "Licentie"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "Debugging"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "Uitvoer&log tonen"
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "Uitvoerlog voor %1"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "Het script '%1' is gestopt met de foutcode: %2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "Afspeellijst wordt gevuld"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "Voorbereiden"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "Sommige media kon niet worden geladen (niet afspeelbaar)."
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "Deze media kon niet in de afspeellijst worden geladen: "
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+"De XML in de afspeellijst is ongeldig. Rapporteer dit als een bug aan het "
+"ontwikkelaarsteam van amaroK. Alvast bedankt."
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "amaroK kon het bestand niet openen."
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr "Dit component van amaroK kan geen XML-afspeellijsten vertalen."
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "amaroK biedt geen ondersteuning voor afspeellijsten van dit formaat."
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr "De afspeellijst bevat geen verwijzingen naar bestanden."
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "Afspeellijst wordt opgehaald"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr ""
+"Deze mappen zullen worden doorzocht op nieuwe bestanden om uw collectie aan te "
+"maken."
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "Mappen recur&sief doorzoeken"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "Mappen op &wijzigingen observeren"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "Afspeellijsten &importeren"
+
+#: directorylist.cpp:45
+msgid "If selected, amaroK will read all subfolders."
+msgstr "Indien geselecteerd zal amaroK alle submappen inlezen."
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"Indien geselecteerd zullen de mappen automatisch opnieuw worden doorzocht als "
+"de inhoud ervan is gewijzigd, bijv. doordat er een nieuw bestand is toegevoegd."
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+"Indien geselecteerd zullen afspeellijsten (.m3u) automatisch worden toegevoegd "
+"aan de afspeellijstbrowser."
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "Opnieuw vullen"
+
+#: party.cpp:78
+msgid "Enable dynamic mode"
+msgstr "Dynamische modus activeren"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "Opties tonen"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+"<p align=\"center\"><b>Dynamische modus</b></p>De dynamische modus biedt een "
+"krachtige methode voor het manipuleren van uw afspeellijst. amaroK kan "
+"automatisch afgespeelde items verwijderen en nieuwe toevoegen die aan uw smaak "
+"voldoen! "
+"<br>Als u <i>Afspeellijst door elkaar</i> selecteert, zorg er dan voor dat u "
+"enkele afspeellijsten of intelligente afspeellijsten kiest door rechts te "
+"klikken op de items in de afspeellijstbrowser."
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "Inleiding tot dynamische modus"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "Hoesbeheerder"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "Album van"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "Alle albums"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "Diverse artiesten"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "Hier filteren..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "Filter wissen"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "Voer door spaties gescheiden termen in om de albums te filteren"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "Albums met hoes"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "Albums zonder hoes"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "Internationaal"
+
+#: covermanager.cpp:140
+msgid "Canada"
+msgstr "Canada"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "Frankrijk"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "Duitsland"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "Japan"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "Amazonlocatie"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "Ontbrekende hoezen ophalen"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "Afbreken"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "Miniaturen worden..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "Hoesafbeelding"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "Geselecteerde hoezen op&halen"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "Eigen &hoes instellen voor geselecteerde albums"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "Geselecteerde hoezen &uitzetten"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "Op ware grootte &tonen"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "Op&halen van amazon.%1"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "Aangepaste afbeelding in&stellen"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "&Hoesafbeelding instellen"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "Hoesafbeelding &uitzetten"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "Bestand van hoesafbeelding selecteren"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr ""
+"Wilt u werkelijk deze hoes uit de collectie verwijderen?\n"
+"Wilt u werkelijk deze %n hoezen uit de collectie verwijderen?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "Voltooid."
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr ""
+"De hoes is niet gevonden\n"
+"<b>%n</b> hoezen zijn niet gevonden"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "Hoes ophalen voor"
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr ""
+"%n hoes wordt opgehaald: \n"
+"<b>%n</b> hoezen worden opgehaald: "
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr ""
+"%n opgehaald\n"
+"%n opgehaald"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr ""
+"%n niet gevonden\n"
+"%n niet gevonden"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "Verbinden..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr ""
+"%n resultaat voor %1\n"
+"%n resultaten voor %1"
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr ""
+"%n album\n"
+"%n albums"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " door "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> zonder hoes )"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "Wilt u werkelijk deze hoes overschrijven?"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "Overschrijven bevestigen"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "&Overschrijven"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr "Rapporteer deze melding aan amarok-devel@lists.sf.net. Bedankt!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "Welkom bij amaroK"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "Ontleder"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "Klik voor meer ontleders, druk op 'd' om te ontkoppelen."
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "De equalizer is niet beschikbaar met deze engine."
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "Visualisaties"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "Klik met de rechtermuisknop op een item om het contextmenu te openen"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "Volledig scherm"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>Geen visualisaties gevonden</h3>Mogelijke redenen: "
+"<ul> "
+"<li>libvisual is niet geïnstalleerd</li> "
+"<li>Er is geen enkele libvisualplugin geïnstalleerd.</li></ul>"
+"Controleer dit even en herstart dan amaroK.</div>"
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "Voer met spaties gescheiden termen in om de collectie te filteren"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "Bijwerken"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "Mappen instellen"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "Boomstructuurweergave"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "Vlakke weergave"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "Groeperen op"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "Artiest"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "Artiest / album"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "Jaar"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "Album"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "Genre / artiest"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "Genre / artiest / album"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "&Eerste niveau"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "&Tweede niveau"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "&Derde niveau"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "&Album"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr "(J&aar) -album"
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "A&rtiest"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "&Genre"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "&Jaar"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "Gee&n"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "A&lbum"
+
+#: collectionbrowser.cpp:207
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"1 artiest\n"
+"%n artiesten"
+
+#: collectionbrowser.cpp:212
+#, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"1 album\n"
+"%n albums"
+
+#: collectionbrowser.cpp:217
+#, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"1 genre\n"
+"%n genres"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"%n track\n"
+"%n tracks"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "Collectie instellen"
+
+#: collectionbrowser.cpp:1185
+msgid "&Queue Tracks"
+msgstr "Tracks in &wachtrij"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+msgid "&Save as Playlist..."
+msgstr "Afspeellijst op&slaan als..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "Alle tracks van deze artiest branden"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "Dit album branden"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+msgid "Burn to CD"
+msgstr "Als cd branden"
+
+#: collectionbrowser.cpp:1214
+msgid "&Fetch Cover Image"
+msgstr "Hoesa&fbeelding ophalen"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+"Track&informatie bewerken...\n"
+"&Informatie voor %n tracks bewerken..."
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr "&Markeren als compilatie"
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr "Ni&et markeren als compilatie"
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "Titel"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "Genre"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>Vlakke weergave</h3>Om de vlakke weergave te activeren, voer een zoekterm "
+"in in de filterregel hierboven.</div>"
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "amaroKmenu"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "Menu"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "H&oesbeheerder"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "&Visualisaties"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "E&qualizer"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "Configuratie-&assistent"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "Collectie opnieuw doo&rzoeken"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "Afspelen/Pauze"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "Pauze"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "Afspelen"
+
+#: actionclasses.cpp:278
+msgid "Click for more analyzers"
+msgstr "Klik voor meer ontleders"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "Volume"
+
+#: actionclasses.cpp:338
+msgid "Volume control"
+msgstr "Volumecontrole"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "&Willekeurig"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "&Track herhalen"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "Afspe&ellijst herhalen"
+
+#: actionclasses.cpp:391
+msgid "&Dynamic Mode"
+msgstr "&Dynamische modus"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "Branden"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "Huidige afspeellijst"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "Geselecteerde tracks"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr "Nu"
+
+#: actionclasses.cpp:505
+msgid "After Current Track"
+msgstr "Na huidige track"
+
+#: actionclasses.cpp:506
+msgid "After Queue"
+msgstr "Achter wachtrij"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>KlibLoader kon de plugin niet laden: "
+"<br/><i>%1</i></p>"
+"<p>Foutmelding:"
+"<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "Naam"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "Bibliotheek"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "Auteurs"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "E-mail"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "Versie"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "Frameworkversie"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "Plugininformatie"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr "Een amaroKequalizer, gebruik makend van een lijngrafiek"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "Grafiekequalizer"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: equalizersetup.cpp:73
+msgid "Presets:"
+msgstr "Voorinstellingen:"
+
+#: equalizersetup.cpp:80
+msgid "Add new preset"
+msgstr "Nieuwe voorinstelling toevoegen"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr "Voorinstellingen beheren"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "Equalizer activeren"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "Voorversterking"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+msgid "Manual"
+msgstr "Handmatig"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr "Nul"
+
+#: equalizersetup.cpp:361
+msgid "Add Equalizer Preset"
+msgstr "Voorinstelling van equalizer toevoegen"
+
+#: equalizersetup.cpp:362
+msgid "Enter preset name:"
+msgstr "Naam voorinstelling:"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr "Een voorinstelling met de naam%1 bestaat al. Overschrijven?"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Rinse de Vries,Bram Schoenmakers"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "rinsedevries@kde.nl,bramschoenmakers@kde.nl"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>Media-apparaat-browser</h3>Klik op de verbindknop om toegang te krijgen tot "
+"uw aangekoppelde iPod. Versleep bestanden om ze toe te voegen aan de wachtrij "
+"voor de overdracht.</div>"
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "Bestand verwijderen"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "URL-adres"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr ""
+"%n track in wachtrij\n"
+"%n tracks in wachtrij"
+
+#: mediabrowser.cpp:414
+msgid "Connect"
+msgstr "Verbinden"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "Verzenden"
+
+#: mediabrowser.cpp:419
+msgid "Connect media device"
+msgstr "Media-apparaat verbinden"
+
+#: mediabrowser.cpp:420
+msgid "Transfer tracks to media device"
+msgstr "Tracks naar media-apparaat sturen"
+
+#: mediabrowser.cpp:421
+msgid "Configure mount commands"
+msgstr "Aan/afkoppelcommando's instellen"
+
+#: mediabrowser.cpp:445
+msgid "&Remove From Queue"
+msgstr "Uit afspeellijst &halen"
+
+#: mediabrowser.cpp:446
+msgid "&Clear Queue"
+msgstr "Wa&chtrij opschonen"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr "0 tracks in wachtrij"
+
+#: mediabrowser.cpp:663
+msgid "Configure Media Device"
+msgstr "Media-apparaat instellen "
+
+#: mediabrowser.cpp:668
+msgid "&Mount command:"
+msgstr "Aankoppelco&mmando:"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+"Stel hier het commando in om uw apparaat mee aan te koppelen. Lege commando's "
+"zullen niet uitgevoerd worden."
+
+#: mediabrowser.cpp:674
+msgid "&Unmount command:"
+msgstr "Afkoppelc&ommando:"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+"Stel hier het commando in om uw apparaat mee af te koppelen. Lege commando's "
+"zullen niet uitgevoerd worden."
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr "kon %1 niet uitvoeren"
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>U hebt 1 bestand geselecteerd om <b>permanent</b> te verwijderen.\n"
+"U hebt %n bestanden geselecteerd om "
+"<p>permanent<b> te verwijderen."
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr ""
+"Kon het apparaat niet vinden. Koppel het apparaat aan en probeer het opnieuw."
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+msgid "Media Device Browser"
+msgstr "Media-apparaat-browser"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+"Er zijn tracks voor overdracht in de wachtrij geplaatst. Wilt u ze overzenden "
+"voordat u de verbinding verbreekt?"
+
+#: mediabrowser.cpp:954
+msgid "&Transfer"
+msgstr "&Overzenden"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+"Uw apparaat is gesynchroniseerd. Koppel het nu af en verbreek de verbinding."
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr "Uw apparaat is gesynchroniseerd. U kunt de verbinding verbreken."
+
+#: podcastsettings.cpp:20
+msgid "Configure Podcast Stream"
+msgstr "PodCaststream instellen..."
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr "Toepassen op alle Podcasts"
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr ""
+"<p>Dit zal alle Podcastinstellingen globaal instellen. Wilt u doorgaan?"
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+msgid "Presets"
+msgstr "Voorinstellingen"
+
+#: equalizerpresetmanager.cpp:100
+msgid "Rename Equalizer Preset"
+msgstr "Voorinstelling van equalizer hernoemen"
+
+#: equalizerpresetmanager.cpp:101
+msgid "Enter new preset name:"
+msgstr "Nieuwe naam van voorinstelling:"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+"Teruggaan naar de standaardwaarden zal alle aanwezige voorinstellingen "
+"verwijderen. Wilt u doorgaan?"
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>De wachtrijbeheerder</h3> "
+"<br>Om een wachtrij aan te maken, <b>sleep</b> tracks vanuit de afspeellijst  "
+"<b>hier naar toe</b> om ze in de wachtrij te plaatsen. "
+"<br>"
+"<br>Versleep de tracks binnen de beheerder om de volgorde te veranderen.</div>"
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+msgid "Queue Manager"
+msgstr "Wachtrijbeheerder"
+
+#: queuemanager.cpp:276
+msgid "Move up"
+msgstr "Omhoog"
+
+#: queuemanager.cpp:277
+msgid "Move down"
+msgstr "Omlaag"
+
+#: queuemanager.cpp:279
+msgid "Enqueue track"
+msgstr "Track in wachtrij"
+
+#: queuemanager.cpp:280
+msgid "Clear queue"
+msgstr "Wachtrij opschonen"
+
+#: tagdialog.cpp:59
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr ""
+"1 track\n"
+"Informatie voor %n tracks"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "Audiovingerafdruk wordt aangemaakt..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "De track is niet gevonden in de MusicBrainzdatabase."
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr "Installeer MusicBrainz om deze functie te activeren"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "Helaas, de tag voor %1 kon niet worden gewijzigd."
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr "Volgens TagLib is bestand %1 niet schrijfbaar."
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "Medium &toevoegen..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "Afspeellijst op&slaan als..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "Medium afspelen..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "Audio-cd afspelen"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "&Globale sneltoetsen instellen..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "Vorige track"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "Volgende track"
+
+#: playlistwindow.cpp:186
+msgid "S&earch:"
+msgstr "Zo&eken:"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+"Voer door spaties gescheiden termen in om de afspeellijst te filteren.\n"
+"\n"
+"Geavanceerd: Google-achtige syntaxis is ook beschikbaar,\n"
+"zie het handboek (sectie \"De afspeellijst\" van hoofdstuk 4) voor meer "
+"informatie."
+
+#: playlistwindow.cpp:257
+msgid "&Cover Manager"
+msgstr "&Hoesbeheerder"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+msgid "&Equalizer"
+msgstr "&Equalizer"
+
+#: playlistwindow.cpp:263
+msgid "&First-Run Wizard"
+msgstr "&Configuratie-assistent"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "Werkbalk verbergen"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "Werkbalk tonen"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "&Afspelervenster verbergen"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "&Afspelervenster tonen"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "&Acties"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "Afs&peellijst"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "Context"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "Media-apparaat"
+
+#: playlistwindow.cpp:662
+msgid "Play Media"
+msgstr "Medium afspelen"
+
+#: playlistwindow.cpp:662
+msgid "Add Media"
+msgstr "Medium toevoegen"
+
+#: collectionreader.cpp:37
+msgid "Building Collection"
+msgstr "Collectie wordt opgebouwd"
+
+#: collectionreader.cpp:67
+msgid "Updating Collection"
+msgstr "Collectie wordt bijgewerkt"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "Collectie wordt bijgewerkt..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr ""
+"Rapporteer dit bestand in het geval het programma vastloopt tijdens het bouwen "
+"van de collectie."
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "Mappenstructuur wordt gelezen"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "Metadata wordt gelezen"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer kon niet worden geïnitialiseerd.</h3> "
+"<p>Zorg ervoor dat u alle benodigde GStreamerplugins (dus OGG en MP3) hebt "
+"geïnstalleerd, en naderhand het commando <i>gst-register</i> "
+"hebt uitgevoerd.</p> "
+"<p>Lees voor meer informatie het handboek van GStreamer en wordt lid van het "
+"IRC-kanaal #gstreamer op irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer mist een register.</h3> "
+"<p>Zorg ervoor dat u alle benodigde GStreamerplugins hebt geïnstalleerd (dus "
+"OGG en MP3), en naderhand het commando <i>gst-register</i> hebt uitgevoerd.</p> "
+"<p>Lees voor meer informatie het handboek van GStreamer en wordt lid van het "
+"IRC-kanaal #gstreamer op irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+"<p>Selecteer een <u>uitvoerplugin</u> voor GStreamer in de instellingendialoog "
+"van de engine.</p>"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>GStreamer kon het volgende element niet aanmaken: <i>%1</i></h3> "
+"<p>Zorg ervoor dat u alle benodigde GStreamerplugins hebt geïnstalleerd (dus "
+"OGG en MP3), en naderhand het commando <i>gst-register</i> hebt uitgevoerd.</p> "
+"<p>Lees voor meer informatie het handboek van GStreamer en wordt lid van het "
+"IRC-kanaal #gstreamer op irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "Buffer wordt aangemaakt... %1%"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+"<h3>amaroK kon MAS niet initialiseren.</h3> "
+"<p>Controleer of de mas-deamon wel draait.</p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>artsd draait niet met <b>realtimeprioriteit</b>. Hierdoor kan het geluid "
+"stotteren en overslaan. </p> "
+"<p>Om realtimeprioriteit te activeren, open het configuratiescherm van KDE en "
+"selecteer onder de sectie \"Geluid en Multimedia -> Geluidssysteem\" de optie "
+"\"Uitvoeren met de hoogst mogelijke prioriteit\". In sommige gevallen is het "
+"noodzakelijk om te controleren of \"$KDEDIR/bin/artswrapper\" het <i>SUID</i>"
+"-bit heeft ingesteld (chmod +s).</p> "
+"<p>Realtimeprioriteit is niet altijd noodzakelijk, dus als u geen last hebt van "
+"stotterend geluid, laat de prioriteit van artsd voor wat ze is.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "aRts-probleem"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr "aRts kon niet worden opgestart. Gebruik een andere engine."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "Fatale fout"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>Er deed zich een fout voor tijdens het laden van libamarokarts. Probeer "
+"eerst: "
+"<pre>killall -9 artsd && amarok</pre>. Als dat niet helpt, dan was amaroK "
+"mogelijk geïnstalleerd met een verkeerde prefix. Compileer amaroK opnieuw met "
+"behulp van: "
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "amaroKfout"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr "Fout: geen engine geladen. Afspelen kon niet worden gestart."
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr "Autodetecteren"
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "amaroK kon Xine niet initialiseren."
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "Xine kon geen enkel geluidstuurprogramma initialiseren."
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "amaroK kon geen nieuwe Xine-stream aanmaken."
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+msgid "Radio Stream"
+msgstr "Radiostream"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "Geen invoerplugin beschikbaar. Controleer uw installatie."
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "Geen demuxplugin beschikbaar. Controleer uw installatie."
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "Demux is mislukt. Controleer uw installatie."
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "Internet fout. Controleer uw installatie."
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr "Omleiden naar:"
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "De host is onbekend voor het volgende URL-adres: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "De apparaatnaam die u opgaf blijkt ongeldig te zijn."
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "Het netwerk is onbereikbaar."
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "Geluidsuitvoer is niet beschikbaar. Het apparaat is bezet."
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "De verbinding werd geweigerd voor URL-adres: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "Xine kon het volgende URL-adres niet vinden: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "Toegang geweigerd voor URL-adres: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "De bron kan niet worden gelezen voor URL-adres: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr ""
+"Er deed zich een fout voor tijdens het laden van een bibliotheek of decoder."
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "Algemene waarschuwing"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "Beveiligingswaarschuwing"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "Helaas, geen aanvullende informatie beschikbaar."
+
+#: engine/helix/helix-engine.cpp:122
+msgid "Contacting: "
+msgstr "Verbinden: "
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr "Buffer %1%"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+"De helixbibliotheek die u hebt ingesteld biedt geen ondersteuning voor ALSA, de "
+"helixengine valt nu terug op OSS."
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+"amaroK kon de Helixengine niet initialiseren. Controleer de paden bij de sectie "
+"\"Engine\" in de instellingendialoog van amaroK."
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr "Geen plugin gevonden voor het formaat %1"
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "Uitvoerplugin:"
+
+#: engine/helix/helix-configdialog.cpp:133
+msgid "Device:"
+msgstr "Apparaat:"
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr "Algemeen"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr "Map van Helix/Realplaykern"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr "Dit is de map waarin clntcore.so zich bevindt"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr "Map van Helix/Realplayplugins"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr "Dit is de map waarin bijvoorbeeld vorbisrend.so zich bevindt"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr "Map van Helix/Realplaycodecs"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr "Dit is de map waarin bijvoorbeeld cvt1.so zich bevindt"
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr "Plugins"
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "K3b kon niet worden opgestart."
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "Er deed zich een DCOP-communicatiefout voor met K3b."
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+"Wilt u een audio-cd aanmaken die geschikt is voor cd-spelers, of een data-cd "
+"voor computers en andere digitale muziekspelers?"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "K3b-project aanmaken"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "Audio-cd"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "Data-cd"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "Geluidssysteem"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "Klik om het geluidssysteem te selecteren."
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "Klik om informatie over de plugin te bekijken."
+
+#: configdialog.cpp:102
+msgid "Locale Encoding"
+msgstr "Lokale codering"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "Algemeen"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "Algemene opties instellen"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "Uiterlijk van amaroK instellen"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "Afspelen"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "Afspelen instellen"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "OSD"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "On-Screen-Display instellen"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "Engine"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "Engine instellen "
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr "last.fm"
+
+#: configdialog.cpp:129
+msgid "Configure last.fm Support"
+msgstr "Ondersteuning voor last.fm instellen..."
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "%1 instellen "
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr "100%"
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr "40%"
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr "20%"
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr "0%"
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+msgid "%1 by %2"
+msgstr "'%1' door %2"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 kbps"
+
+#: metabundle.h:106
+msgid "Stream"
+msgstr "Stream"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 kHz"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "Resultaten van MusicBrainz"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr "Indienen bij last.fm"
+
+#: scrobbler.cpp:939
+msgid "'%1' submitted to last.fm"
+msgstr "'%1' is ingediend bij last.fm"
+
+#: scrobbler.cpp:942
+msgid "Several tracks submitted to last.fm"
+msgstr "Meerdere tracks ingediend bij last.fm"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr ""
+"'%1' en een andere track ingediend\n"
+"'%1' en %n andere tracks ingediend"
+
+#: scrobbler.cpp:953
+msgid "Failed to submit '%1' to last.fm"
+msgstr "'%1' kon niet worden ingediend bij last.fm"
+
+#: scrobbler.cpp:956
+msgid "Failed to submit several tracks to last.fm"
+msgstr "Meerdere tracks konden niet worden ingediend bij last.fm"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr ""
+"'%1' en een andere track konden niet worden ingediend\n"
+"'%1'en %n andere tracks kon niet worden ingediend"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr ""
+"1 track nog steeds in de wachtrij\n"
+"%n tracks nog steeds in de wachtrij"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr "partyDialogBase"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "Type muziek om aan afspeellijst toe te voegen:"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, no-c-format
+msgid "Random Song"
+msgstr "Willekeurige track"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, no-c-format
+msgid "Suggested Song"
+msgstr "Voorgestelde track"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, no-c-format
+msgid "Playlist Shuffle"
+msgstr "Afspeellijst door elkaar"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr "Selecteer get type tracks dat u wilt toevoegen aan de afspeellijst"
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, no-c-format
+msgid "&Remove played tracks"
+msgstr "Afgespeelde tracks ve&rwijderen"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr "Afgespeelde tracks daadwerkelijk uit de afspeellijst verwijderen"
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr "Geschiedenis mar&keren"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr "Eenmaal afgespeeld worden tracks grijs gemaakt"
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr "Afgespeelde tracks om te tonen:"
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr ""
+"Hoeveel afgespeelde items er zullen worden getoond voor de verwijdering"
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, no-c-format
+msgid "Upcoming tracks:"
+msgstr "Aankomende tracks:"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr "Minimaal aantal aankomende lijst dat in de afspeellijst blijft staan"
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr "Tracks om toe te voegen:"
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr ""
+"Aantal tracks dat na elke afgespeelde track zal worden toegevoegd aan de "
+"afspeellijst"
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "Bestandsnaam"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr "Bestmogelijke overeenkomst selecteren"
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, no-c-format
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "Track"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "DirectoryListBase"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "Scripts"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "Deze scripts zijn op dit moment bekend bij amaroK."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, no-c-format
+msgid "&Install Script"
+msgstr "Script &installeren"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr "Meer scripts &ophalen"
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, no-c-format
+msgid "&Run"
+msgstr "Uitvoe&ren"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, no-c-format
+msgid "&Stop"
+msgstr "&Stoppen"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr "Deïn&stalleren"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr "Draaiende scripts automatisch h&erstarten bij programmastart"
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr ""
+"Indien ingeschakeld zal amaroK automatisch de scripts starten die draaiden op "
+"het moment dat u het programma afsloot."
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+"<p align=\"center\">De blauwe sleeppunten kunnen worden versleept om de "
+"equalizer bij te stellen. Dubbelklik op een lijn om een nieuw sleeppunt toe te "
+"voegen.</p>"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr "<p align=\"center\">Pre-amp</p>"
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "Afspeellijstbalk"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, no-c-format
+msgid "Podcast Configuration"
+msgstr "Podcastconfiguratie"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "&Automatisch ophalen activeren"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr ""
+"Wanneer ingeschakeld zal amaroK automatisch de Podcasts doorzoeken op updates"
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr "URL-adres:"
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr "Locatie van de Podcast"
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, no-c-format
+msgid "Media Download"
+msgstr "Mediadownload"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "Op verzoek &streamen of downloaden"
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+"De media moet worden gedownload, anders zal de Podcast worden afgespeeld vanaf "
+"de externe server."
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, no-c-format
+msgid "Download when a&vailable"
+msgstr "Downloaden &wanneer beschikbaar"
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr "Download de media zodra deze beschikbaar is"
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, no-c-format
+msgid "Save location:"
+msgstr "Locatie opslaan:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr "Aa&ntal items beperken"
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr "Indien ingeschakeld zal amaroK oude Podcasts weggooien"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr "Maximum aanhouden van:"
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, no-c-format
+msgid " Items"
+msgstr " Items"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr "Het maximum aantal Postcastitems om op te slaan"
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "Configuratie-assistent"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>Welkom!</h1>\n"
+"<p>Er zijn tegenwoordig veel mediaspelers verkrijgbaar. Dat is waar, maar wat "
+"bij de meeste spelers ontbreekt is een interface die de gebruiker niet in de "
+"weg zit. Hoeveel knoppen hebt u nodig om media toe te voegen aan de "
+"afspeellijst? amaroK probeert een andere aanpak te gebruiken, door een "
+"eenvoudige interface aan te bieden waar u bestanden naar toe kunt slepen. Dit "
+"maakt het gebruiken van de afspeellijst veel eenvoudiger.</p>\n"
+"<p align=\"right\"><i>\"amaroK is echt super!\"</i> - Uncle Rodney</p>\n"
+"<h2>Configuratie-assistent</h2>\n"
+"<p>Deze assistent zal u helpen bij het installen van amaroK in drie eenvoudige "
+"stappen. Klik op <i>Volgende</i> om te beginnen. Hebt u een hekel aan "
+"assistenten, klik dan op <i>Overslaan</i>.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr "Interface (1 van 3)"
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+"Één venster met speler\n"
+"en afspeellijst gecombineerd\n"
+"(Zoals JuK)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr ""
+"Aparte vensters voor speler en afspeelijst\n"
+"(zoals XMMS of Winamp)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p> Met amaroK kunt u de vensterindeling gebruiken die u het meest comfortabel "
+"vindt.</p>\n"
+"<p> U kunt deze instellingen op een later moment veranderen in de "
+"configuratiedialoog van amaroK.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "Collectie (2 van 3)"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+"<p>Selecteer rechts de mappen waarin uw muziek is opgeslagen.</p> \n"
+"<p>Wij bevelen dit ten zeerste aan omdat het de beschikbare functies van het "
+"programma sterk verbetert.</p>\n"
+"<p>Als u wilt kunt u amaroK opdragen deze mappen te volgen op nieuwe bestanden "
+"en deze automatisch aan de collectie toe te voegen.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, no-c-format
+msgid "Database (3 of 3)"
+msgstr "Databas (3 van 3)"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+"amaroK maakt gebruik van een database om de informatie over uw muziekcollectie "
+"te beheren.Als u niet weet welke u moet gebruiken, klik dan op 'Volgende'.\n"
+"<p><b>MySQL</b> of <b>PostgreSQL</b> zijn sneller dan <b>SQlite</b>"
+", maar vereisen aanvullende instellingen.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/MySQL_HowTo\">"
+"Hier vindt u instructies voor het instellen van MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/wiki/index.php/Postgresql_HowTo\">"
+"Hier vindt u instructies voor het instellen van PostgreSQL</a>.</li>\n"
+"</ul>"
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>Gefeliciteerd!</h1>\n"
+"<p>amaroK is nu klaar voor gebruik! Nadat u op 'Voltooien' hebt geklikt zal "
+"amaroK worden geopend en worden de mappen in uw collectie doorzocht op "
+"muziekbestanden.</p>\n"
+"<p>De afspeellijst zal uw <b>collectie</b> links tonen, en de <b>"
+"afspeellijst</b> rechts. Versleep muziek van de collectie naar de afspeellijst "
+"en klik op <b>Afspelen</b>.</p>\n"
+"<p>Voor meer informatie verwijzen we u graag naar <a href=\"help:/amarok\">"
+"het handboek van amaroK</a>. We hopen dat u veel plezier beleeft bij het "
+"gebruik van amaroK.</p>\n"
+"<p align=\"right\">De ontwikkelaars van amaroK</p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "Database-instellingen"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, no-c-format
+msgid "Database:"
+msgstr "Database:"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, no-c-format
+msgid "Postgresql Configuration"
+msgstr "PostgreSQL-configuratie"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr "Verbin.info:"
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "Parameters die nodig zijn voor de verbinding met de database."
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "MySQL-configuratie"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "Hostnaam:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "Naam:"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr "Met welke poort MySQL verbinding moet maken."
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "Poort:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr "Hostnaam waar de database onder valt."
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr "Naam van de database."
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "Gebruiker:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr "Gebruikersnaam waarmee verbinding wordt gemaakt."
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr "Wachtwoord dat nodig is voor de verbinding."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "Te gebruiken geluidsuitvoermethode"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+"Selecteer de geluidsuitvoerplugin (\"sink\"). De beschikbaarheid ervan is "
+"afhankelijk van uw systeemconfiguratie."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "Het automatisch gevonden audiosinkgeluidsapparaat niet gebruiken"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr ""
+"Indien aangezet kunt u uw eigen geluidsapparaat voor audiosink opgeven."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "Te gebruiken geluidsuitvoerapparaat"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+"Selecteer het geluidsuitvoerapparaat. Dit is bruikbaar voor "
+"gstreamerenginesinks."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "Aangepaste parameters voor uitvoersink gebruiken."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "De aangepaste sinkparameters."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "Duur van Fade-out bij einde van track"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "GStreamerengine instellen - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "Ander geluidsapparaat. Voorbeeld: /dev/dsp2"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " msec"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr "A&pparaat:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "Ander geluidsapparaat gebruiken"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, no-c-format
+msgid "&Fade-out:"
+msgstr "&Uitvagen:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, no-c-format
+msgid "&Output plugin:"
+msgstr "&Uitvoerplugin:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "GStreamer sink"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "Aangepaste parameters. Voorbeeld: sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, no-c-format
+msgid "&Parameters:"
+msgstr "&Parameters:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "Aangepaste sinkparameters gebruiken"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr "Selecteer de geluidsuitvoerplugin."
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, no-c-format
+msgid "Enable a custom device"
+msgstr "Aangepast apparaat activeren"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+"Indien ingeschakeld activeert het de instelling van een aangepast "
+"audioapparaat. Anders wordt de standaard gebruikt."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, no-c-format
+msgid "Xine Configure"
+msgstr "Xine instellen"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr ""
+"Het geluidsapparaat kan worden gewijzigd nadat de uitvoerplugin is veranderd in "
+"ALSA of OSS."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "Configuratie ALSA-apparaat"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr "&Mono:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, no-c-format
+msgid "&Stereo:"
+msgstr "&Stereo:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr "&4-kanaals:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr "&5-kanaals:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, no-c-format
+msgid "OSS Device Configuration"
+msgstr "Configuratie OSS-apparaat"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr "Opstelling l&uidsprekers:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr "HTTP-proxy voor streaming"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, no-c-format
+msgid "&Host:"
+msgstr "&Host:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, no-c-format
+msgid "&User:"
+msgstr "Gebr&uiker:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, no-c-format
+msgid "&Password:"
+msgstr "&Wachtwoord:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, no-c-format
+msgid "Output plugin"
+msgstr "Uitvoerplugin"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr "OSS vs ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, no-c-format
+msgid "Device"
+msgstr "Apparaat"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, no-c-format
+msgid "ALSA Device"
+msgstr "ALSA-apparaat"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr "ApparaatActief"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr "Is het apparaat geselecteerd"
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, no-c-format
+msgid "Track Information"
+msgstr "Trackinformatie"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "V&olgende"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, no-c-format
+msgid "Sa&ve && Close"
+msgstr "Op&slaan && sluiten"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "Al&bum:"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "Samplerate:"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "&Artiest:"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "&Genre:"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "Lengte:"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "&Jaar:"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, no-c-format
+msgid "&Score:"
+msgstr "&Score:"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "Bitrate:"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "Tra&ck:"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "&Titel:"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, no-c-format
+msgid "Playcount:"
+msgstr "Afspeelteller:"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "Tags inv&ullen met behulp van MusicBrainz"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "Metadata van vingerafdruk detecteren."
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "&Toelichting:"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "Locatie:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "Algemene opties"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "Opstartscherm tijdens &opstarten"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr ""
+"Selecteer dit om een opstartscherm tijdens het opstarten van amaroK te laten "
+"tonen."
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "Systeemvakpictogram &tonen"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "Selecteer dit om het systeemvakpictogram te activeren."
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr "Bewegend systeemvakpictogram tijdens a&fspelen"
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr "Selecteer dit voor een bewegend systeemvakpictogram."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "Afspelervenster tonen (zoals &XMMS)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "Selecteer dit om een extra spelervenster te activeren."
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "Standaardgrootte &voor hoesvoorbeelden:"
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "De grootte in pixels van de hoesafbeelding in de contextbrowser."
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr "px"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr "De grootte in pixels van de hoesafbeeldingen in de contextbrowser."
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "Opties voor afspeellijstvenster"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "Huidige afspeellijst ont&houden bij afsluiten"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"Indien geselecteerd zal amaroK de huidige afspeellijst bewaren bij het "
+"afsluiten en weer herstellen bij de volgende start."
+"<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"Indien geselecteerd zal amaroK de huidige afspeellijst bewaren bij het "
+"\\nafsluiten en weer herstellen bij de volgende start."
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr "Hand&matig opgeslagen afspeellijsten gebruiken relatieve paden"
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+"Indien ingeschakeld gebruikt amaroK relatieve paden voor de tracks in handmatig "
+"opgeslagen afspeellijsten"
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr "Actieve trac&k zichtbaar houden bij trackwijzigingen"
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"Indien geselecteerd schuift de afspeellijst tijdens het wisselen van track naar "
+"de volgende track zodat deze zichtbaar wordt."
+"<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"Indien geselecteerd schuift de afspeellijst tijdens het wisselen van track naar "
+"de volgende track."
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "Naar contextbrowser gaan bij tr&ackwisseling"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr "Open de contextbrowser zodra er een track wordt afgespeeld.<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "Open de contextbrowser zodra er een track wordt afgespeeld."
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, no-c-format
+msgid "Show s&tatusbar"
+msgstr "S&tatusbalk tonen"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr ""
+"Selecteer dit om de statusbalk in het afspeellijstvenster te activeren."
+"<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "Selecteer dit om de statusbalk in de afspeellijstvenster te activeren."
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "Statistieken op a&lbum tonen"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "Toon de statistieken in de contextbrowser op album.<br>"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "Toon de statistieken in de contextbrowser op album."
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "Coderingen"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "Het volgende niet als latin1 decoderen:"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "ID&3v1-tags"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+"Decodeer ID3v1-tags (die sommige MP3-bestanden gebruiken) met behulp van de "
+"hieronder opgegeven tekenset."
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "&Shoutcastmetadata"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+"Decodeer de titel- en artiestinformatie van Shoutcastmuziekstreams met behulp "
+"van de hieronder opgegeven tekenset."
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "In plaats van &decoderen deze tekenset gebruiken:"
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+"Als ID3v1- of Shoutcastmetadata is geactiveerd, dan zullen die worden "
+"gedecodeerd met behulp van deze tekenset."
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "Eigen lettertypen gebr&uiken"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "Selecteer dit om uw eigen lettertypen te gebruiken."
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "Lettertype voor afspelervenster:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "Lettertype voor afspelervenster."
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "Lettertype voor afspeellijstvenster:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "Het lettertype dat zal worden gebruikt in het afspelervenster."
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "Lettertype voor contextbrowser:"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "Lettertype voor de contextbrowser."
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "Gebruikergedefinieerd kleurens&chema"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen uw kleuren worden gebruikt in de afspeellijst."
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "Voo&rgrond:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "Selecteert de kleur voor de voorgrond in de afspeellijst."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr ""
+"Klik om de kleur te selecteren voor de voorgrond (tekst) in het "
+"afspeellijstvenster."
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "Selecteert de kleur voor de voorgrond (tekst) in de afspeellijst."
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "&Achtergrond:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "Selecteert de kleur voor de achtergrond van de afspeellijst."
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "Klik om de achtergrondkleur van de afspeellijst te kiezen."
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "Het huidige kleurenschema van &KDE"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen de standaardkleuren van KDE worden gebruikt in de "
+"afspeellijst."
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "Het klassieke &amaroKthema \"funky monkey\""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen de standaardkleuren van amaroK worden gebruikt in de "
+"afspeellijst."
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "Stijl voor contextbrowser"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "Selecteer een stijl:"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "Selecteer de stijl voor de contextbrowser."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, no-c-format
+msgid "Install New Style..."
+msgstr "Nieuwe stijl installeren..."
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+"Klik om een nieuwe stijl voor de ContextBrowser te installeren. "
+"<br>Tip: meer stijlen zijn te vinden op de website <a "
+"href=\"http://kde-look.org\">http://kde-look.org</a>."
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr "Selecteer en installeer een nieuwe stijl voor de ContextBrowser."
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr "Stijlen downloaden..."
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "Klik om nieuwe stijlen voor de ContextBrowser te downloaden."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "Selecteer en download nieuwe stijlen voor de ContextBrowser."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "overgan&gsinstellingen"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>Overgangsgedrag</b>\n"
+"<p>Tijdens het afspelen, als amaroK naar een andere track overgaat, dan kan het "
+"programma meteen overgaan naar de volgende track (met instelbare pauze), of de "
+"huidige track zachter maken, en de volgende track van zacht naar luid laten "
+"lopen.</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "Gee&n vloeiende overgang"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr ""
+"Normale trackovergang activeren. U kunt een stilte tussen de tracks voegen."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "Pauze invoe&gen:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " ms"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "De pauze tussen tracks, in milliseconden."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "Vloeien&de overgang"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"U kunt de tracks in elkaar laten overgaan, door de vorige track te vervagen en "
+"de volgende track langzaam te versterken tot de normale volume. Deze instelling "
+"is ook van toepassing als u bijvoorbeeld op stop drukt."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "Overgang&periode:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "De lengte van de overgang tussen de tracks, in milliseconden."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "Afspelen voo&rtzetten bij start"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"Indien geselecteerd zal amaroK"
+"<br> verder gaan met afspelen vanaf de positie waar het bij de vorige sessie "
+"gebleven was. Net zoals bij een cassetterecorder."
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "On-Screen-Display gebr&uiken"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"Selecteer dit om On-Screen-Display te activeren."
+"<br> Als een nieuwe track wordt afgespeeld zal informatie over deze track "
+"worden getoond op uw scherm."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"Selecteer dit om On-Screen-Display te activeren. Als een nieuwe track wordt "
+"afgespeeld zal informatie over deze track worden getoond op uw scherm."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "&Lettertype"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "Het lettertype voor On-Screen-Display."
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, no-c-format
+msgid "Draw &shadow"
+msgstr "&Schaduw tonen"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "Kle&uren"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "Eigen kleuren gebr&uiken"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr ""
+"Selecteer dit om uw eigen kleuren in te stellen voor de On-Screen-Display."
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "Achtergrondkleur:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "De achtergrond kleur voor On-Screen-Display."
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "Klik om de tekst voor de On-Screen-Display te kiezen."
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "De kleur van de tekst voor On-Screen-Display"
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr ""
+"Klik om de kleur voor de achtergrond van de On-Screen-Display te kiezen."
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "Tekstkleur:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr "Achtergrond &doorschijnend maken"
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "&Tekst"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "Dezelfde informatie tonen als de kolommen in de afspeellijst"
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, no-c-format
+msgid "&Duration:"
+msgstr "&Duur:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "Altijd"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"De tijd in milliseconden dat de On-Screen-Display zichtbaar zal zijn. De waarde "
+"dient te liggen tussen 500ms en 10000 ms."
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "Het scherm waarop de On-Screen-Display zichtbaar zal zijn."
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, no-c-format
+msgid "Sc&reen:"
+msgstr "Sche&rm:"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySQL"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "Collectiemappen"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "Collectiedatabase"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"amaroK kan de naam van elk nummer dat u afspeelt sturen naar last.fm. Dit "
+"systeem koppelt u automatisch aan gebruikers met dezelfde muzieksmaak en "
+"genereert persoonlijke aanbevelingen. <A href=\"http://www.last.fm\">"
+"Bezoek de webpagina van last.fm</A> voor meer informatie."
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr "last.fm-profiel"
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<P>Om last.fm met amaroK te kunnen gebruiken hebt u een <A "
+"href=\"http://www.last.fm:80/signup.php\">last.fm-profiel</A> nodig."
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, no-c-format
+msgid "&Username:"
+msgstr "Gebr&uiker:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr "last.fm-diensten"
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+"Eenmaal geregistreerd kan amaroK de last.fm-dienst informeren over uw "
+"luistergewoontes. Uw profiel kan dan statistieken en aanbevelingen aanleveren. "
+"Een profiel is niet nodig voor de suggesties van vergelijkbare artiesten in de "
+"ContextBrowser."
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "Mijn profiel verbeteren door de tracks die ik afspeel &in te dienen"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "Vergelijkba&re artiesten ophalen"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"Waarom wordt u geen lid van de <A "
+"href=\"http://www.last.fm:80/group/amaroK+users\">amaroK last.fm Group</A> "
+"en deelt u uw muzikale smaak met andere amaroKgebruikers?"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "amaroKversie"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr ""
+"amaroKversietekst, gebruikt voor het herstarten van aRts bij nieuwe "
+"installaties."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "Positie van afspelervenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr ""
+"De positie van het afspelervenster van amaroK als het programma wordt gestart."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "Positie van het afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "De positie van het afspeellijstvenster als amaroK wordt gestart."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "Grootte van afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "De grootte van het afspeellijstvenster als amaroK wordt gestart."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr ""
+"Of de afspeellijst wordt opgeslagen bij het afsluiten van het programma"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"Indien geselecteerd zal amaroK de huidige afspeellijst bewaren bij het "
+"afsluiten en weer herstellen bij de volgende start."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+"Of symbolische koppelingen gevolgd zullen worden tijdens het recursief "
+"toevoegen van items aan de afspeellijst"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"Indien aangezet zal amaroK de symbolische koppelingen volgen tijdens het "
+"toevoegen van bestanden of mappen aan de afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "Of de resterende afspeeltijd getoond wordt"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+"Zet dit aan om de resterende tracktijd te tonen, in plaats van de verstreken "
+"tracktijd, in het afspelervenster."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "Of een track herhaaldelijk zal worden afgespeeld"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr ""
+"Indien geselecteerd zal amaroK de huidige track oneindig vaak herhalen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "Of de hele afspeellijst herhaaldelijk zal worden afgespeeld"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr "Indien geselecteerd zal amaroK de afspeellijst oneindig vaak herhalen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "Of de tracks in een willekeurige volgorde zullen worden afgespeeld"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr ""
+"Indien geselecteerd zal amaroK de tracks in de afspeellijst in willekeurige "
+"volgorde afspelen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "Speelt een dynamische afspeellijst af"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr ""
+"Dynamische afspeellijst, die de afgespeelde track uit de lijst verwijdert en "
+"een andere track toevoegt."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr "Toont hulp"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "Of het dynamische informatievenster zal worden weergegeven."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr "Dit type muziek toevoegen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr ""
+"De dynamische modus zal dit type muziek aan het einde van de afspeellijst "
+"toevoegen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr ""
+"Lijst met intelligente afspeellijsten om in de dynamische modus toe te voegen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr "Aantal aankomende tracks om te tonen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Aantal aankomende tracks dat in de dynamische modus in de afspeellijst zal  "
+"worden getoond."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr "Aantal tracks in geschiedenis"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Het aantal eerder afgespeelde tracks om in de dynamische modus te tonen in de "
+"afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr "Aantal tracks om toe te voegen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr ""
+"Aantal tracks om toe te voegen aan de afspeellijst in de dynamische modus."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, no-c-format
+msgid "Cycle Tracks"
+msgstr "Tracks doorlopen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "Of het eerste item uit de afspeellijst verwijderd dient te worden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr "Geschiedenis markeren"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr ""
+"Of de items wanneer ze éénmaal zijn afgespeeld als geschiedenis zullen worden "
+"gemarkeerd."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "Of er een pictogram in het systeemvak wordt geplaatst"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "Activeer/deactiveer het systeemvakpictogram van amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "Of het systeemvakpictogram kan bewegen of niet"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "Activeer/deactiveer de animatie van het systeemvakpictogram."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "Of het afspelervenster getoond zal worden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+"Laat amaroK meer lijken op XMMS en andere Winampklonen met een aparte speler en "
+"afspeellijstvensters."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "Of de werkbalk zal worden weergegeven in het afspeellijstvenster."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr ""
+"De grootte van de hoesvoorbeelden in de contextbrowser en de hoesbeheerder"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "Of de statusbalk van de afspeellijst getoond zal worden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "Bekijk de statusinformatie van de afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "Of mappen recursief aan de afspeellijst toegevoegd zullen worden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr ""
+"Activeer/deactiveer het recursief toevoegen van mappen aan de afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "De pauze tussen tracks, in milliseconden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "De pauze tussen tracks, in milliseconden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "Of het afspelervenster zichtbaar zal zijn"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+"Activeer/deactiveer het afspeellijstvenster. Dit is te vergelijken met het "
+"klikken op de knop PL in het afspeellijstvenster."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "Aantal handelingen dat u ongedaan kunt maken in de afspeellijst"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "Het aantal handelingen dat u ongedaan kunt maken in de afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "Index van de huidige visuele analyse"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "De ID van de visuele analyse om te weergeven."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "Index van ontleder weergegeven in het afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr ""
+"De ID van de visuele analyse om te weergeven in het afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "Positie van afspeellijstsplitser"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "Vooralsnog ongebruikt"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr "Of de afspeellijst zal schuiven naar de actieve track"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"Indien geselecteerd schuift de afspeellijst tijdens het wisselen van track naar "
+"de volgende track."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "Of er een welkomstscherm getoond zal worden tijdens het opstarten"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr ""
+"Activeer/deactiveer het welkomstscherm tijdens het opstarten van amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr ""
+"Of de contextbrowser geactiveerd zal worden als het afspelen van een track "
+"begint"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr ""
+"Opent automatisch de contextbrowser als het afspelen van een track begint."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr ""
+"Of de contextbrowser wanneer mogelijk de statistieken op album dient te tonen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr "Statistieken in ContextBrowser op album tonen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr ""
+"Geef het CSS-stijlblad op dat wordt gebruikt voor het weergeven van de "
+"contextbrowser"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "Zet dit op de stijlmap die u wilt gebruiken."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "Of de menubalk getoond zal worden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr ""
+"Indien geselecteerd zal amaroK een menubalk bovenlangs het programmavenster "
+"tonen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "Of afspeellijsten relatieve paden gebruiken"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+"Indien geselecteerd zullen de door amaroK handmatig opgeslagen afspeellijsten "
+"een relatief pad naar de tracks bevatten, in plaats van een absoluut pad."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "Hoofdvolume"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr "Het hoofdvolume van amaroK, een waarde tussen 0 (gedempt) en 100."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "Of er een zachte overgang tussen de tracks zal zitten"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "Activeer/deactiveer de zachte overgang tussen tracks."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "Lengte van de zachte overgang, in milliseconden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "De lengte van de overgang, in milliseconden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "Te gebruiken geluidssysteem"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"Selecteer het geluidssysteem dat u wilt gebruiken. amaroK biedt momenteel "
+"ondersteuning voor aRts, GStreamer, xine en NMM. De beschikbaarheid van deze "
+"systemen is afhankelijk van de configuratie die tijdens het compileren is "
+"gebruikt."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "Activeert de equalizerplugin"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "Indien geactiveerd filtert een equalizerplugin de geluidsstroom."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr ""
+"De voorversterkwaarde van de equalizer, bereik -100..100, 0 is normaal."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr "Kanalen voor de equalizer, 10 waarden, bereik -100..100, 0 is normaal."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, no-c-format
+msgid "Equalizer preset name."
+msgstr "Naam voorinstelling equalizer:"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "Amazonlocatie voor het ophalen van albumhoezen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr ""
+"Bepaalt vanaf welke Amazonserver de hoesafbeeldingen gehaald zullen worden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "Lokaliteit van Wikipedia voor het ophalen van informatie"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr ""
+"Bepaalt in welke taal de informatie uit de Wikipedia zal worden gehaald."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "On-Screen-Display gebruiken"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "Activeert/deactiveert de On-Screen-Display."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr "Dezelfde informatie in de OSD tonen als in de afspeellijstkolommen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+"Indien ingeschakeld zal de On Screen Display dezelfde informatie tonen als in "
+"de kolommen van de afspeellijst. Bovendien wordt dezelfde volgorde aangehouden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "De OSD-tekst om te tonen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, no-c-format
+msgid "Customize the OSD display text."
+msgstr "Stel de OSD-tekst in."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "Lettertype voor On-Screen-Display"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "Teken een schaduw rond te tekst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "Tekent een schaduw rond de OSD-tekst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr "Neptransparantie aan/uit"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr "Achtergrond van OSD nepdoorschijnend maken."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "Of u uw eigen kleuren wilt gebruiken voor de On-Screen-Display"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr ""
+"U kunt uw eigen kleuren gebruiken voor de OSD als u deze optie activeert."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "Tekenkleur voor On-Screen-Display"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+"De kleur van de OSD-tekst. De kleur is gespecificeerd in RGB, een door komma's "
+"gescheiden lijst met drie hele getallen tussen 0 en 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "De achtergrondkleur voor On-Screen-Display"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"De kleur voor de achtergrond van OSD. De kleur is gespecificeerd in RGB, een "
+"door komma's gescheiden lijst met drie hele getallen tussen 0 en 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "Gedurende hoeveel millisecondes de tekst zal worden weergegeven"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"De tijd in milliseconden dat de On-Screen-Display zichtbaar zal zijn. ) "
+"betekent nooit verbergen. Standaard is 5000 ms."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "Tussenruimte van verticale positie"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"De verticale positie van de OSD, relatief aan het gekozen scherm en de "
+"uitlijning van OSD. Als boven uitlijnen is gekozen is de verticale tussenruimte "
+"de ruimte tussen het bovenste gedeelte van de OSD en de bovenkant van het "
+"scherm. Als onder uitlijnen is gekozen is de tussenruimte de ruimte tussen het "
+"onderste deel van de OSD en de onderkant van het scherm."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "OSD-scherm"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr ""
+"De scherm waarop de OSD zal worden weergegeven. Voor computers met 1 "
+"beeldscherm dient deze instelling op 0 te staan."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "Of de albumhoes weergegeven zal worden"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "Indien actief zal de albumhoes in de OSD worden weergegeven."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "OSD uitlijnen op"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr ""
+"De relatieve positie van de OSD. Mogelijke keuzes zijn links, midden, rechts en "
+"centrum."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "Of u uw eigen lettertypen wilt gebruiken"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "Activeert/deactiveert het gebruik van eigen lettertypen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "Lettertype in afspelervenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "Lettertype voor afspelervenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "Lettertype voor contextbrowser"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "ID3v1-tags opnieuw coderen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr ""
+"Indien ingesteld zullen de ID3v1-tags opnieuw worden gecodeerd met de gekozen "
+"codering."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "Shoutcastmetadata opnieuw coderen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "Indien ingeschakeld zal de Shoutcastmetadata opnieuw worden gecodeerd."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "Tekenset voor hercoderen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr ""
+"De tekenset die zal worden gebruikt om de bovengenoemde tekstgegevens te "
+"decoderen."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr "Of amaroK standaardkleuren in het afspeellijst venster zal gebruiken"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen de standaardkleuren van amaroK worden gebruikt in de "
+"afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr ""
+"Of de globale KDE-kleuren zullen worden gebruikt in het afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen de standaardkleuren van KDE worden gebruikt in de "
+"afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr ""
+"Of gebruikergedefinieerde kleuren zullen worden gebruikt in het "
+"afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Indien geselecteerd zullen uw kleuren worden gebruikt in de afspeellijst."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "Voorgrondkleur van afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"De kleur die zal worden gebruikt als voorgrondkleur in de afspeellijst. De "
+"voorgrondkleur is gespecificeerd in RGB, een door komma's gescheiden lijst met "
+"drie hele getallen tussen de 0 en 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "Achtergrondkleur van afspeellijstvenster"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"De kleur die zal worden gebruikt als achtergrondkleur in de afspeellijst. De "
+"voorgrondkleur is gespecificeerd in RGB, een door komma's gescheiden lijst met "
+"drie hele getallen tussen de 0 en 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "Afspelen van laatstgespeelde track hervatten bij opstarten"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr ""
+"Indien geselecteerd zal amaroK doorgaan met het afspelen van de laatstgespeelde "
+"track bij het opstarten."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "URL-adres van track om te hervatten bij opstarten"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr "Intern: URL-adres van de tracks om te hervatten bij het opstarten."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "Tijd in milliseconden om op te hervatten"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr "Intern: afspeelpositie in de track om te hervatten bij het opstarten."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "Database-engine"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr ""
+"De database-engine die zal worden gebruikt voor het opslaan van de collectie"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr "Of de collectiemappen recursief zullen worden doorzocht"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "Of de collectiemappen opnieuw worden doorzocht op wijzigingen"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "Of afspeellijsten zullen worden toegevoegd tijdens het doorzoeken"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "Lijst met mappen in de collectie"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "Host"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "De host waarop de MySQL-server draait"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "Poort"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "De poort waarop de MySQL-server draait"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "Databasenaam"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "De naam van de database"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "Gebruiker"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "De gebruikersnaam om te gebruiken voor de verbinding naar MySQL"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "Wachtwoord"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "Het wachtwoord van de gebruiker"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr "Verbin.info"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr "De verbindingsinformatie voor het PostgreSQL-stuurprogramma"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "SubmitPlayedSongs"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "Of afgespeelde tracks zullen worden ingediend bij Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "De gebruikersnaam om te gebruiken bij het verbinden met Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "Het wachtwoord om te gebruiken bij het verbinden met Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "RetrieveSimilarArtists"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "Of vergelijkbare tracks worden opgehaald bij Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, no-c-format
+msgid "MountCommand"
+msgstr "Aankoppelcommando"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr "Het commando dat wordt gebruikt om het media-apparaat te verbinden."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, no-c-format
+msgid "UmountCommand"
+msgstr "Afkoppelcommando"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr "Het commando om de verbinding met het media-apparaat te verbreken."
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr "Er kon geen verbinding worden gemaakt met deze streamserver."
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "Intelligente afspeellijst aanmaken"
+
+#: smartplaylisteditor.cpp:45
+msgid "Edit Smart Playlist"
+msgstr "Intelligente afspeellijst bewerken"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "Lengte"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "Track #"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "Toelichting"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "Afspeelteller"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "Score"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "Eerst afgespeeld"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "Laatst afgespeeld"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "Datum van wijziging"
+
+#: smartplaylisteditor.cpp:109
+msgid "File Path"
+msgstr "Bestandspad"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "Afspeellijstnaam:"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "Overeenkomen met de volgende conditie"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "Alles"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "Welke dan ook"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr " van de volgende condities"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "Ordenen"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "Willekeurig"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "Beperken tot"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "tracks"
+
+#: smartplaylisteditor.cpp:172
+msgid "Expand by"
+msgstr "Uitvouwen op"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "Volledig willekeurig"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "Scoregebaseerd"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "Aflopend"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "Overeenkomst"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "Overeenkomend met de volgende condities"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "is tussen"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "is in de laatste"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+msgid "is not in the last"
+msgstr "is in de laatste"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "bevat"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "bevat niet"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "is"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "is niet"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "begint met"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "eindigt met"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "is groter dan"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "is na"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "is kleiner dan"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "is voor"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "en"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "Dagen"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "Maanden"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "Jaren"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "Stijlpakketten (*.tar, *.tar.bz2, *.tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "Stijlpakket selecteren"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "Liedteksten toevoegen"
+
+#: contextbrowser.cpp:118
+msgid "Search For Lyrics"
+msgstr "Liedteksten opzoeken"
+
+#: contextbrowser.cpp:119
+msgid "Refresh"
+msgstr "Verversen"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+msgid "Open in external browser"
+msgstr "In externe browser openen"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr "Vooruit"
+
+#: contextbrowser.cpp:135
+msgid "Artist Page"
+msgstr "Artiestpagina"
+
+#: contextbrowser.cpp:136
+msgid "Album Page"
+msgstr "Albumpagina"
+
+#: contextbrowser.cpp:137
+msgid "Title Page"
+msgstr "Titelpagina"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "Begin"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "Huidige"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "Liedtekst"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr ""
+"<p>Er is geen productinformatie beschikbaar voor deze afbeelding."
+"<p>Klik met de rechter muisknop op de afbeelding om het menu te openen.</p>"
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "Eigen &hoes instellen"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "Hoes &uitzetten"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+msgid "Edit Album &Information..."
+msgstr "Album&informatie bewerken..."
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+msgid "&Queue Album"
+msgstr "&Album in wachtrij"
+
+#: contextbrowser.cpp:675
+msgid "Compilation"
+msgstr "Compilatie"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "Wilt u werkelijk deze hoes uit de collectie verwijderen?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr "%1 %2"
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr ""
+"Een week geleden\n"
+"%n weken geleden"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr ""
+"Een dag geleden\n"
+"%n dagen geleden"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr ""
+"Een uur geleden\n"
+"%n uren geleden"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr ""
+"Een minuut geleden\n"
+"%n minuten geleden"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "In de afgelopen minuut"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "De toekomst"
+
+#: contextbrowser.cpp:879
+msgid "Unknown album"
+msgstr "Onbekend album"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr "Klik voor informatie van amazon.com, rechtsklik voor het menu."
+
+#: contextbrowser.cpp:905
+msgid "Unknown artist"
+msgstr "Onbekende artiest"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr ""
+"Single\n"
+"%n tracks"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "Laatst afgespeeld: %1"
+
+#: contextbrowser.cpp:1116
+msgid "Recently Played Tracks"
+msgstr "Recentelijk afgespeelde tracks"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+"Zodra u enkele nummers hebt afgespeeld verschijnt hier een lijst met "
+"recentelijk afgespeelde tracks."
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr "&#xa0;&#8211 "
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "Uw favoriete tracks"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Een lijst met uw favoriete tracks verschijnt hier zodra u er enkele hebt "
+"afgespeeld."
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr "&#xa0;&#8211; "
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "Uw nieuwste tracks"
+
+#: contextbrowser.cpp:1329
+msgid "Favorite Albums"
+msgstr "Favoriete albums"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Een lijst met uw favoriete tracks verschijnt hier zodra u er enkele hebt "
+"afgespeeld."
+
+#: contextbrowser.cpp:1354
+msgid "Your Newest Albums"
+msgstr "Uw nieuwste albums"
+
+#: contextbrowser.cpp:1371
+msgid "Least Played Albums"
+msgstr "Laatst afgespeelde albums"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr ""
+"Een lijst met albums die u al een tijd niet hebt afgespeeld verschijnt hier."
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "Streamdetails"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "Metadatageschiedenis"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr "Klik om de hoes op te halen van amazon.%1, rechtsklik voor het menu."
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr "Klik voor informatie van amazon.%1, rechtsklik voor het menu."
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "Deze track opzoeken op musicbrainz.org"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr ""
+"Track eenmaal afgespeeld\n"
+"Track %n maal afgespeeld"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "Eerst afgespeeld: %1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "Nooit eerder afgespeeld"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "Dit bestand bevindt zich niet in uw collectie."
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr ""
+"Als u meer informatie over dit nummer wilt bekijken, voeg het dan eerst toe aan "
+"uw collectie."
+
+#: contextbrowser.cpp:1677
+msgid "Change Collection Setup..."
+msgstr "Collectie-instellingen wijzigen..."
+
+#: contextbrowser.cpp:1690
+msgid "Cue File"
+msgstr "Cue-bestand"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "Deze artiest"
+
+#: contextbrowser.cpp:1818
+#, c-format
+msgid "Favorite Tracks by %1"
+msgstr "Favoriete tracks van %1"
+
+#: contextbrowser.cpp:1869
+#, c-format
+msgid "Albums by %1"
+msgstr "Album van %1"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "Compilaties met %1"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "Hallo amaroKgebruiker!"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+"Dit is de contextbrowser. Deze toont u contextinformatie over de track die op "
+"dit moment wordt afgespeeld. Om deze functie te kunnen gebruiken dient u een "
+"collectie aan te maken."
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "Collectie opbouwen..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "Collectiedatabase wordt opgebouwd..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+"Wacht even terwijl amaroK uw muziekcollectie doorzoekt. U kunt de voortgang "
+"volgen in de statusbalk."
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "live"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "akoestisch"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "hoes"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "mix"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "edit"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "medley"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "unplugged"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "bonus"
+
+#: contextbrowser.cpp:2452
+msgid "Cached Lyrics"
+msgstr "Bewaarde liedteksten"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+msgid "Fetching Lyrics"
+msgstr "Liedteksten worden opgehaald"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr ""
+"De liedteksten konden niet worden opgehaald: de server is onbereikbaar."
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "Geen liedtekst gevonden."
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr ""
+"De liedtekst voor deze track is niet gevonden. Hier zijn enkele suggesties:"
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+msgid "Fetching Wikipedia Information"
+msgstr "Wikipedia-informatie wordt opgehaald"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+"De artiestinformatie kon niet worden opgehaald: de server is onbereikbaar."
+
+#: contextbrowser.cpp:2939
+msgid "Wikipedia Information"
+msgstr "Wikipedia-informatie"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr "Wikipedia in andere talen"
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr "MySQL gaf de volgende foutmelding:<br>"
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>U kunt MySQL instellen bij de sectie Collectie via menuoptie 'Instellingen->"
+"amaroK instellen.</p>"
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr "PostgreSQL gaf de volgende foutmelding:<br>"
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>U kunt PostgreSQL instellen bij de sectie Collectie via menuoptie "
+"'Instellingen->amaroK instellen.</p>"
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "Framerate"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "Klikken voor ontleders"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<h3>Informatie getoond in OSD</h3>Beschikbare plaatshouders:"
+"<ul>"
+"<li>Titel -%1"
+"<li>Album - %2"
+"<li>Artiest - %3"
+"<li> Genre - %4"
+"<li>Bitrate - %5"
+"<li>Jaar - %6"
+"<li>Tracklengte - %7"
+"<li>Tracknummer - %8 "
+"<li>Bestandsnaam - %9 "
+"<li>Map - %10 "
+"<li>Type - %11"
+"<li>Commentaar - %12 "
+"<li>Score - %13 "
+"<li>Afspeeltelling - %14</ul> Accolades { } kunnen om één van bovenstaande "
+"plaatshouders worden geplaatst. Deze zal dan alleen worden getoond als het "
+"bijhorende element in de track voorkomt. Voorbeeld: "
+"<pre>%11</pre> zal <b>Score: <i>%score</i></b> niet tonen als de track geen "
+"score bevat."
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "Map"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr "Type"
+
+#: playlist.cpp:244
+msgid "Playcount"
+msgstr "Afspeelteller"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "Door el&kaar"
+
+#: playlist.cpp:295
+msgid "&Goto Current Track"
+msgstr "&Ga naar huidige track"
+
+#: playlist.cpp:296
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "Dubbelen && ontb&rekenden verwijderen"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+msgid "&Queue Selected Tracks"
+msgstr "Geselecteerde tracks in &wachtrij plaatsen"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr "U probeerde om niets aan de afspeellijst toe te voegen."
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr "Er zijn geen tracks teruggegeven om in te voegen."
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr "Geen geldige bronnen ingesteld voor deze dynamische afspeellijst."
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Waarschuwing</b></div> De intelligente afspeellijst "
+"genaamd <i>%1</i> bevat geen tracks. "
+"<br>"
+"<br>Pas uw intelligente afspeellijst aan of kies een andere bron."
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Waarschuwing</b></div> De intelligente afspeellijst "
+"genaamd <i>%1</i> bevat geen tracks. "
+"<br>"
+"<br>Pas uw intelligente afspeellijst aan of kies een andere bron."
+
+#: playlist.cpp:1179
+msgid "Playlist finished"
+msgstr "Afspeellijst voltooid"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>De afspeellijst</h3>Dit is de afspeellijst. Om een lijst aan te maken, <b>"
+"sleep</b> tracks vanuit de browserpanelen links en <b>laat ze hier los</b>. <b>"
+"Dubbelklik</b> op een track om het afspelen te starten.</div>"
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+"<div align=\"center\"> "
+"<h3>De browsers</h3>De browsers zijn de toegang tot al uw muziek. De "
+"collectiebrowser bevat uw collectie. De afspeellijstbrowser bevat uw "
+"vooringestelde afspeellijsten. De bestandsbrowser toont een venster waarin u op "
+"uw computer kunt bladeren naar muziekbestanden. </div>"
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "Deze &kolom verbergen"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "Afspeellijstkolommen"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>U hebt bestand  <i>'%1'</i> geselecteerd om <b>permanent</b> te verwijderen."
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>U hebt 1 bestand geselecteerd om <b>permanent</b> te verwijderen.\n"
+"<p>U hebt %n bestanden geselecteerd om <b>permanent</b> te verwijderen."
+
+#: playlist.cpp:2629
+msgid "Deleting files"
+msgstr "Bestanden verwijderen"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "Gekopieerd: %1"
+
+#: playlist.cpp:3049
+msgid "Load Dynamic Playlist"
+msgstr "Dynamische afspeellijst laden"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "He&rstarten"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+msgid "&Dequeue Track"
+msgstr "Trac&k uit wachtrij"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+"&Wachtrijstatus aan/uit (1 track)\n"
+"&Wachtrijstatus aan/uit (%n tracks)"
+
+#: playlist.cpp:3118
+msgid "&Dequeue Selected Tracks"
+msgstr "Geselecteerde tracks uit &wachtrij halen"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "&Stoppen met spelen na track"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "Tag '%1' b&ewerken"
+
+#: playlist.cpp:3135
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "Tag '%1' voor de geselecteerde tracks b&ewerken"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "Tracknummers her&halend toewijzen"
+
+#: playlist.cpp:3140
+msgid "Write '%1' for Selected Tracks"
+msgstr "'%1' voor geselecteerde tracks schrijven"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr "Tags naar klembord &kopiëren"
+
+#: playlist.cpp:3149
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr ""
+"Deze track\n"
+"Geselecteerde tracks"
+
+#: playlist.cpp:3151
+#, c-format
+msgid "This Album: %1"
+msgstr "Dit album: %1"
+
+#: playlist.cpp:3153
+#, c-format
+msgid "All Tracks by %1"
+msgstr "Alle tracks van %1"
+
+#: playlist.cpp:3159
+msgid "Set as Playlist (Crop)"
+msgstr "Instellen als afspeellijst (afbreken)"
+
+#: playlist.cpp:3160
+msgid "Save as Playlist..."
+msgstr "Opslaan als afspeellijst..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "Uit afspeellijst &halen"
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "Bestan&d verwijderen"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "Geselecteerde bestan&den verwijderen"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "Tag wordt geschreven..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "Dit bestand bestaat niet:"
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>U kunt een eigen kolom aanmaken dat een shellcommando uitvoert tegen elk "
+"item in de afspeellijst. Het shellcommando wordt uit veiligheidsoverwegingen "
+"gedraaid als de gebruiker <b>nobody</b>.\n"
+"<p>U kunt vooralsnog alleen de commando's tegen lokale bestanden draaien. Het "
+"volledige pad wordt ingevoegd op positie <b>%f</b> in de tekenreeks. Als u geen "
+"<b>%f</b> hebt opgegeven wordt deze automatisch toegevoegd."
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr "Kolom&naam:"
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "&Commando:"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "Eigen kolom toevoegen"
+
+#: app.cpp:284
+msgid "Files/URLs to open"
+msgstr "Bestanden/URL-adressen om te openen"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "Terug in afspeellijst"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "Huidige afspeellijst afspelen"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "Afspelen indien gestopt, pauzeren indien afgespeeld"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "Afspelen pauzeren"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "Afspelen stoppen"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "Vooruit in afspeellijst"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "Additionele opties:"
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "Bestanden/adressen aan afspeellijst toevoegen"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr "Zie bijlagen, beschikbaar voor neerwaartse compatibiliteit"
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "Adressen in wachtrij plaatsen na huidige afgespeelde track"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "Afspeellijstvenster aan/uit"
+
+#: app.cpp:304
+msgid "Run first-run wizard"
+msgstr "Configuratie-assistent opstarten"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "Gebruik de engine <name>"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr "Basis voor relatieve bestandsnamen/URL-adressen"
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "Volume versterken"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "Volume verzwakken"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr "Vooruit zoeken"
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr "Achteruit zoeken"
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "Medium toevoegen..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "Afspelervenster aan/uit"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "On-Screen-Display tonen"
+
+#: app.cpp:348
+msgid "Mute Volume"
+msgstr "Volume dempen"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>U gebruikt een processor met de functie <i>HyperThreading</i> "
+"geactiveerd. Deze functie kan amaroK instabiel maken.</p> "
+"<p>Als u problemen ondervindt, gebruik dan de Linuxkerneloptie 'NOHT' of "
+"schakel <i>HyperThreading</i> uit in uw biosinstellingen.</p> "
+"<p>Meer informatie vindt u in het README-bestand. Voor meer hulp kunt u bij ons "
+"terecht op het IRC-kanaal #amarok op irc.freenode.net.</p>"
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "Afspeellijst"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "Toevoegen en afs&pelen"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>Als u het hoofdvenster afsluit, blijft amaroK draaien in het systeemvak. "
+"Gebruik <B>Afsluiten</B> in het contextmenu om de toepassing te beëindigen.</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "Naar systeemvak"
+
+#: app.cpp:853
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "Volume: %1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr "Dempen"
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "Tijdweergave"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "Normaal"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "Resterend"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr "Alle achtergrondoperaties afbreken"
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr "Voortgang tonen"
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr "Meerdere achtergrondtaken lopen"
+
+#: statusbar/statusBarBase.cpp:422
+msgid "Aborting all jobs..."
+msgstr "Alle taken worden afgebroken..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "amaroK is gepauzeerd"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+"<p>Een van Mike Oldfield's beste muziekstukken, Amarok, is de inspiratie achter "
+"de naam van de audiospeler die u op het moment gebruikt. Bedankt voor het "
+"kiezen van amarok!</p><p align=\"right\">Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser "
+"<br>De vele personen die hebben meegeholpen bij het maken van wat amaroK nu "
+"is</p>"
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> van <b>%2</b> op <b>%3</b>"
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> van <b>%2</b>"
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> op <b>%2</b>"
+
+#: statusbar/statusbar.cpp:178
+msgid "Unknown track"
+msgstr "Onbekende track"
+
+#: statusbar/statusbar.cpp:187
+#, c-format
+msgid "Playing: %1"
+msgstr "Speelt af: %1"
+
+#: statusbar/statusbar.cpp:201
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "%1 van %2 zichtbaar van %3 tracks  geselecteerd"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr "0 van 1 track zichtbaar"
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr "%1 van %2 tracks zichtbaar"
+
+#: statusbar/statusbar.cpp:205
+msgid "%1 selected of %2 tracks"
+msgstr "%1 van %2 tracks geselecteerd"
+
+#: statusbar/statusbar.cpp:206
+#, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr ""
+"1 track\n"
+"%n tracks"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr " - [ %1 / %2 / %3 ]"
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr " - [ %1 / %2 ]"
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr " - [ %1 ]"
+
+#: statusbar/queueLabel.cpp:169
+#, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr ""
+"1 track in wachtrij\n"
+"%n tracks in wachtrij"
+
+#: statusbar/queueLabel.cpp:172
+msgid "Dequeue All Tracks"
+msgstr "Alle tracks uit wachtrij"
+
+#: statusbar/queueLabel.cpp:183
+msgid "%1. %2"
+msgstr "%1. %2"
+
+#: statusbar/queueLabel.cpp:189
+#, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr ""
+"Nog 1 track\n"
+"Nog %n tracks"
+
+#: statusbar/queueLabel.cpp:244
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr ""
+"1 track in wachtrij: %1\n"
+"%n tracks in wachtrij, volgende is %1"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "Gereed"
+
+#: statusbar/progressBar.cpp:96
+msgid "Aborted"
+msgstr "Afgebroken"
+
+#: statusbar/progressBar.cpp:106
+msgid "Aborting..."
+msgstr "Bezig met afbreken..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr "%1: aan"
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: off"
+msgstr "%1: uit"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr "&nbsp;<br>&nbsp;<i>Uitgeschakeld</i>"
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "OSD-voorbeeld - sleep naar juiste positie"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr "Er wordt geen track afgespeeld"
+
+#: osd.cpp:556
+msgid "No information available for this track"
+msgstr "Er is geen informatie beschikbaar voor deze track"
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "disc"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "disk"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "remaster"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "cd"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "single"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "soundtrack"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "part"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr "Geen hoes gevonden"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr "De XML die Amazon verstuurde is ongeldig."
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr "De hoes kon niet worden opgehaald."
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr "De hoesdata leverde een ongeldige afbeelding op."
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+"U hebt inmiddels alle hoezen bekeken die Amazon aan de hand van onderstaande "
+"opdracht kon vinden. Mogelijk kunt u uw zoekopdracht verfijnen:"
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr "Amazonzoekopdracht bewerken"
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "&Zoeken"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr "Met deze opdracht Amazon verzoeken om hoezen:"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+msgid "Aborted."
+msgstr "Afgebroken."
+
+#: coverfetcher.cpp:379
+msgid "New &Search..."
+msgstr "Nieuwe &zoekopdracht..."
+
+#: coverfetcher.cpp:380
+msgid "Next &Cover"
+msgstr "&Volgende hoes"
+
+#: coverfetcher.cpp:390
+msgid "Cover Found"
+msgstr "Hoes gevonden"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "Een muziekafspeler voor KDE"
+
+#: amarokcore/main.cpp:29
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(c) 2002-2003, Mark Kretschmann\n"
+"(c) 2003-2006, het team van amaroKontwikkelaars"
+
+#: amarokcore/main.cpp:30
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"server: irc.freenode.net / kanalen: #amarok #amarok.de\n"
+"\n"
+"E-mail:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr "Babemagneet"
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "Hunk (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "ontwikkelaar, 733t-code, OSD-verbeteringen, patches (Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr "Het is goed, maar het is geen irssi"
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "Projectstichter (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr "Turtle-Power'"
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr "Cowboy mxcl"
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr "Purple is niet girly!"
+
+#: amarokcore/main.cpp:45
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "DCOP, verbeteringen, D i e r b a r e handboekonderhouder (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr "Spaghetti Coder"
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "Afspeellijstbrowser, hoesbeheerder (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr "And God said, let there be Mac"
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "amaroKlogo, pictogrammen, opstartlogo"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr "Surft down under"
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr "Afspeellijstbrowser, dynamische modus, wachtrijbeheerder (sebr)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr "All you need is DCOP"
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "DCOP, verbeteringen, opschoningen, i18n (berkus)"
+
+#: amarokcore/main.cpp:56
+msgid "Analyzers, patches"
+msgstr "Ontleders, patches"
+
+#: amarokcore/main.cpp:57
+msgid "Patches"
+msgstr "Patches"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr "Verbeteringen, bugreparaties"
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "MySQL-ondersteuning"
+
+#: amarokcore/main.cpp:60
+msgid "Postgresql support"
+msgstr "PostgreSQL-ondersteuning"
+
+#: amarokcore/main.cpp:61
+msgid "First-run wizard, usability"
+msgstr "Configuratie-assistent, usability"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr "Ontleders, Contextbrowser en oogstreling voor het systeemvak"
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr "Programmapictogram 'Blue Wolf' voor amaroK"
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr "pictogrammen en afbeeldingen"
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr "Fantastische hulp bij het doorspitten van de pre 1.2 buglawine"
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr ""
+"verbeteringen in het handboek, vertalingen, bugreparaties, schermafdrukken "
+"(apachelogger)"
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr "Patches, sjabloon voor Rubyscript (eean)"
+
+#: amarokcore/main.cpp:68
+msgid "Tester, IRC channel operator, whipping"
+msgstr "Tester, irc-kanaaloperator, aanjager"
+
+#: amarokcore/main.cpp:69
+msgid "Icons"
+msgstr "Pictogrammen"
+
+#: amarokcore/main.cpp:70
+msgid "amaroK webmaster"
+msgstr "amaroKwebmaster"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr "Konquerorzijbalk, enkele DCOP-methoden"
+
+#: amarokcore/main.cpp:72
+msgid "FHT routine, bugfixes"
+msgstr "FHT-routine, bugreparaties"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "K3b exportcode"
+
+#: amarokcore/main.cpp:74
+msgid "Splash screen"
+msgstr "Opstartscherm"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr "Websitehosting"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr "HelixPlayerengine"
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr "Ondersteuning voor Wikipedia, patches"
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "MAS-engine"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "Audioscrobblerondersteuning"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "Taglib- & ktrm-code"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr "Heel veel"
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr "Patches, bugfixes"
+
+#: amarokcore/main.cpp:83
+msgid "Tester, patches"
+msgstr "Tester, patches"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+"amaroK is vastgelopen! Onze excuses hiervoor.\n"
+"\n"
+"Maar nog niet alles is verloren. U kunt ons in principe helpen om dit in de "
+"toekomst te voorkomen. amaroK heeft een backtrace aangemaakt dat de crash "
+"beschrijft. Klik \"E-mail verzenden\" om deze backtrace te verzenden en, als u "
+"tijd over hebt, schrijf een korte beschrijving van wat u aan het doen was toen "
+"het programma vastliep.\n"
+"\n"
+"Alvast bedankt voor uw moeite.\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"De informatie hieronder wordt door de ontwikkelaars gebruikt om het probleem te "
+"identificeren. Breng hier a.u.b. geen wijzigingen in aan.\n"
+"\n"
+"\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:249
+msgid "Send Email"
+msgstr "E-mail verzenden"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr "Programma is vastgelopen"
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "Bezig met laden..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr " - [%2]"
+
+#: playlistbrowseritem.cpp:882
+msgid "Add Radio Stream"
+msgstr "Radiostream toevoegen"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+msgid "&Name:"
+msgstr "&Naam:"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr "&URL-adres:"
+
+#: playlistbrowseritem.cpp:903
+msgid "Edit Radio Stream"
+msgstr "Radiostream bewerken"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+msgid "Retrieving Podcast..."
+msgstr "Podcast wordt ontvangen..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+msgid "Moving Podcasts"
+msgstr "Podcasts worden verplaatst"
+
+#: playlistbrowseritem.cpp:1223
+msgid "Fetching Podcast"
+msgstr "Podcast wordt opgehaald"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr "Er kon geen verbinding worden gemaakt met de Podcastserver."
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr "Podcast gaf ongeldige data terug."
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr "Helaas, alleen RSS 2.0-feeds voor podcasts zijn mogeiljk."
+
+#: playlistbrowseritem.cpp:1405
+msgid "Url"
+msgstr "URL-adres"
+
+#: playlistbrowseritem.cpp:1406
+msgid "Website"
+msgstr "Website"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr "Copyright"
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr "Beschrijving"
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+msgid "Podcast Information"
+msgstr "Podcastinformatie"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr "De nieuwe Podcasts zijn opgehaald."
+
+#: playlistbrowseritem.cpp:1723
+msgid "Downloading Media..."
+msgstr "Media downloaden..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr "Podcastmedia downloaden"
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr ""
+"Downloaden van media is afgebroken. Er kon geen verbinding worden gemaakt met "
+"de server."
+
+#: playlistbrowseritem.cpp:1831
+msgid "Author"
+msgstr "Auteur"
+
+#: playlistbrowseritem.cpp:1832
+msgid "Date"
+msgstr "Datum"
+
+#: filebrowser.cpp:132
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr ""
+"Voer door spaties gescheiden termen in om de mappenweergave te filteren"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "Alle bestanden &selecteren"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+"<div align=\"center\">Voer hierboven een zoekterm in; u kunt gebruik maken van "
+"jokertekens, zoals * en ?</div>"
+
+#: filebrowser.cpp:476
+msgid "Search here..."
+msgstr "Zoek hier..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr "Zoekpaneel &tonen"
+
+#: filebrowser.cpp:532
+msgid "Searching..."
+msgstr "Zoekt..."
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "Over&slaan"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "Effecten"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "Beschikbare effecten"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "Actieve effecten"

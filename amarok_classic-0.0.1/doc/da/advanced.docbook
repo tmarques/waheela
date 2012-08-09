@@ -1,0 +1,1706 @@
+<chapter id="advanced-features">
+<title
+>Avancerede amaroK-funktioner</title>
+
+
+<sect1 id="keybd-shortcuts">
+<title
+>Genvejstaster</title>
+
+<para
+>&amarok; bruger tastaturgenveje ligesom de fleste andre programmer. Nedenfor er der en liste af disse genveje og deres respektive handlinger. De globale genveje kan indstilles ved at højreklikke i afspillervinduet og vælge <guimenuitem
+>Indstil globale genveje...</guimenuitem
+> &amarok;'s genveje kan indstilles ved at højreklikke i afspillerevinduet og vælge <guimenuitem
+>Indstil genveje...</guimenuitem
+></para>
+
+<tip
+><para
+>Du kan knytte dine multimedie-taster til at virke som genveje for &amarok; og derved gøre dit tastatur til et kontrolcenter for &amarok;.</para
+></tip>
+
+<para
+>De globale genveje er:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tastekombination</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>X</keycap
+></keycombo
+></entry>
+<entry
+>Spil</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Pause</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>V</keycap
+></keycombo
+></entry>
+<entry
+>Stop</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>B</keycap
+></keycombo
+></entry>
+<entry
+>Næste spor</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Forrige spor</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Add</keycap
+></keycombo
+></entry>
+<entry
+>Højere lydstyrke</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Subtract</keycap
+></keycombo
+></entry>
+<entry
+>Lavere lydstyrke</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Shift</keycap
+><keycap
+>KP_Add</keycap
+></keycombo
+></entry>
+<entry
+>Søg fremad</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Shift</keycap
+><keycap
+>KP_Subtract</keycap
+></keycombo
+></entry>
+<entry
+>Søg tilbage</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Tilføj medie</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>P</keycap
+></keycombo
+></entry>
+<entry
+>Slå spilleliste til og fra</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>O</keycap
+></keycombo
+></entry>
+<entry
+>Vis OSD</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>M</keycap
+></keycombo
+></entry>
+<entry
+>Slå lyd fra</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>&amarok;'s genveje er:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tastekombination</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Kopiér</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>KP_Enter</keycap
+></keycombo
+></entry>
+<entry
+>Gå til nuværende</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>D</keycap
+></keycombo
+></entry>
+<entry
+>Sæt markerede spor i kø</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Q</keycap
+></keycombo
+></entry>
+<entry
+>Afslut</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Shift</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Annullér fortryd</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>S</keycap
+></keycombo
+></entry>
+<entry
+>Gem spilleliste</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Markér alle</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>M</keycap
+></keycombo
+></entry>
+<entry
+>Vis menulinje</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>H</keycap
+></keycombo
+></entry>
+<entry
+>Bland</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Fortryd</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+<para
+>Spilleliste-browserens genveje er:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tastekombination</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycap
+>Mellemrum</keycap
+></entry>
+<entry
+>Indlæs spilleliste</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>F2</keycap
+></entry>
+<entry
+>Omdøb spilleliste</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>Backspace</keycap
+></entry>
+<entry
+>Fjern spilleliste</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+<sect1 id="the-dcop-interface">
+<title
+>DCOP-Grænsefladen</title>
+
+<para
+>amaroK's DCOP-grænseflade giver dig en nem måde at kontrollere amaroK med dine hjemmelavede scripter.</para>
+
+<para
+>DCOP-grænsefladen i amaroK har mange generiske funktioner som også findes i andre KDE-programmer. Dette afsnit er opdelt i fire tabeller og er beregnet til at beskrive DCOP-kald for samlingen, afspilleren, spillelisten og scripter. Et eksempel på DCOP-funktionen <quote
+>pause</quote
+> vil se sådan  her ud:</para>
+
+<para
+><prompt
+>&percnt;</prompt
+>dcop amarok player pause</para>
+
+<sect2 id="dcop-collection">
+<title
+>dcop amarok-samling</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP-kald</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>forespørgsel</entry>
+<entry
+>Funktionen <quote
+>query</quote
+> lader dig sende direkte databaseforespørgsler til &amarok;s samling.</entry>
+</row>
+
+<row>
+<entry
+>scanCollection</entry>
+<entry
+>Funktionen <quote
+>scanCollection</quote
+> udfører en manuel gennemsøgning af din samling.</entry>
+</row>
+
+<row>
+<entry
+>scanCollectionChanges</entry>
+<entry
+>Funktionen <quote
+>scanCollectionChanges</quote
+> udfører en manuel gennemsøgning af ændringer i din samling.</entry>
+</row>
+
+<row>
+<entry
+>similarArtists</entry>
+<entry
+>Funktionen <quote
+>similarArtists</quote
+> returnerer lignende kunstnere for sporet som for øjeblikket spilles. Resultatet er begrænset til en heltalsværdi af <quote
+>kunstnere</quote
+>.</entry>
+</row>
+
+<row>
+<entry
+>totalAlbums</entry>
+<entry
+>Funktionen <quote
+>totalAlbums</quote
+> returnerer det totale antal albummer i din samling.</entry>
+</row>
+
+<row>
+<entry
+>totalArtists</entry>
+<entry
+>Funktionen <quote
+>totalArtists</quote
+> returnerer det totale antal kunstnere i din samling.</entry>
+</row>
+
+<row>
+<entry
+>totalCompilations</entry>
+<entry
+>Funktionen <quote
+>totalCompilations</quote
+> returnerer det totale antal samlingsalbummer i din samling.</entry>
+</row>
+
+<row>
+<entry
+>totalGenres</entry>
+<entry
+>Funktionen <quote
+>totalGenres</quote
+> returnerer det totale antal genrer i din samling.</entry>
+</row>
+
+<row>
+<entry
+>totalTracks</entry>
+<entry
+>Funktionen <quote
+>totalTracks</quote
+> returnerer det totale antal spor i din samling.</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-player">
+<title
+>dcop amarok player</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP-kald</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>album</entry>
+<entry
+>Funktionen <quote
+>album</quote
+> returnerer albummet for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>artist</entry>
+<entry
+>Funktionen <quote
+>artist</quote
+> returnerer kunstneren for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>bitrate</entry>
+<entry
+>Funktionen <quote
+>bitrate</quote
+> returnerer bithastigheden for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>comment</entry>
+<entry
+>Funktionen <quote
+>comment</quote
+> returnerer kommentaren for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>coverImage</entry>
+<entry
+>Funktionen <quote
+>coverImage</quote
+> returnerer orl'en for nuværende spors omslag.</entry>
+</row>
+
+<row>
+<entry
+>currentTime</entry>
+<entry
+>Funktionen <quote
+>currentTime</quote
+> returnerer positionen (mm:ss) for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>encodedURL</entry>
+<entry
+>Funktionen <quote
+>encodedURL</quote
+> returnerer url'en for nuværende spor med mellemrum kodede.</entry>
+</row>
+
+<row>
+<entry
+>engine</entry>
+<entry
+>Funktionen <quote
+>engine</quote
+> returnerer nuværende lydgrænseflade.</entry>
+</row>
+
+<row>
+<entry
+>genre</entry>
+<entry
+>Funktionen <quote
+>genre</quote
+> returnerer genren for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>lyrics</entry>
+<entry
+>Funktionen <quote
+>lyrics</quote
+> returnerer cachet sangtekst for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>lyricsByPath</entry>
+<entry
+>Funktionen <quote
+>lyricsByPath</quote
+> returnerer cachet sangtekst for et spor som angivet ved sin søgesti.</entry>
+</row>
+
+<row>
+<entry
+>nowPlaying</entry>
+<entry
+>Funktionen <quote
+>nowPlaying</quote
+> returnerer <quote
+>Kunstner - Titel</quote
+> for sporet som for øjeblikket spilles. Hvis et af de to ID3-mærker er tomt, vises kun <quote
+>Kunstner</quote
+> eller <quote
+>Titel</quote
+> (uden <quote
+>-</quote
+>).</entry>
+</row>
+
+<row>
+<entry
+>path</entry>
+<entry
+>Funktionen <quote
+>path</quote
+> returnerer filsystemets søgesti til nuværende spor.</entry>
+</row>
+
+<row>
+<entry
+>setContextStyle</entry>
+<entry
+>Funktionen <quote
+>setContextStyle</quote
+> indstiller sammenhængsbladrerens CSS-tema som angives ved sit navn.</entry>
+</row>
+
+<row>
+<entry
+>title</entry>
+<entry
+>Funktionen <quote
+>title</quote
+> returnerer titlen for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>totalTime</entry>
+<entry
+>Funktionen <quote
+>totalTime</quote
+> returnerer den totale tid (mm:ss) for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>track</entry>
+<entry
+>Funktionen <quote
+>track</quote
+> returnerer spornummer for nuværende spor.</entry>
+</row>
+
+<row>
+<entry
+>year</entry>
+<entry
+>Funktionen <quote
+>year</quote
+> returnerer året for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>dynamicModeStatus</entry>
+<entry
+>Funktionen <quote
+>dynamicModeStatus</quote
+> returnerer en værdi som er sand eller falsk for at angive om dynamisk tilstand er aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>equalizerEnabled</entry>
+<entry
+>Funktionen <quote
+>equalizerEnabled</quote
+> returnerer en værdi som er sand eller falsk for at angive om equalizern er aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>isPlaying</entry>
+<entry
+>Funktionen <quote
+>isPlaying</quote
+> returnerer en værdi som er sand eller falsk for at angive om afspilleren spiller noget eller ej.</entry>
+</row>
+
+<row>
+<entry
+>randomModeStatus</entry>
+<entry
+>Funktionen <quote
+>randomModeStatus</quote
+> returnerer status for tilfældig tilstand med værdien sand eller falsk.</entry>
+</row>
+
+<row>
+<entry
+>repeatPlaylistStatus</entry>
+<entry
+>Funktionen <quote
+>repeatPlaylistStatus</quote
+> returnerer status for gentagelse af spilleliste med værdien sand eller falsk.</entry>
+</row>
+
+<row>
+<entry
+>repeatTrackStatus</entry>
+<entry
+>Funktionen <quote
+>repeatTrackStatus</quote
+> returnerer status for gentagelse af spor med værdien sand eller falsk.</entry>
+</row>
+
+<row>
+<entry
+>getVolume</entry>
+<entry
+>Funktionen <quote
+>getVolume</quote
+> returnerer en værdi af lydstyrken som angives med en værdi fra 0 til 100.</entry>
+</row>
+
+<row>
+<entry
+>sampleRate</entry>
+<entry
+>Funktionen <quote
+>sampleRate</quote
+> returnerer samplingsfrekvensen for nuværende spor.</entry>
+</row>
+
+<row>
+<entry
+>scoring</entry>
+<entry
+>Funktionen <quote
+>score</quote
+> returnerer nuværende spors scoring.</entry>
+</row>
+
+<row>
+<entry
+>setLyricsByPath</entry>
+<entry
+>Funktionen <quote
+>setLyricsByPath</quote
+> indstiller et spors sangtekst som angives med søgesti. Brug funktionen <quote
+>lyrics</quote
+> til at se eksempler på rigtig formatering af HTML.</entry>
+</row>
+
+<row>
+<entry
+>status</entry>
+<entry
+>Funktionen <quote
+>status</quote
+> returnerer en værdi for grænsefladens status. Afspilning angives med 2, pause angives med 1 og tomgang angives med 0.</entry>
+</row>
+
+<row>
+<entry
+>trackCurrentTime</entry>
+<entry
+>Funktionen <quote
+>trackCurrentTime</quote
+> returnerer en værdi på nuværende gået tid i sekunder.</entry>
+</row>
+
+<row>
+<entry
+>trackPlayCounter</entry>
+<entry
+>Funktionen <quote
+>trackPlayCounter</quote
+> returnerer antal gang nuværende spor har været spillet.</entry>
+</row>
+
+<row>
+<entry
+>trackTotalTime</entry>
+<entry
+>Funktionen <quote
+>trackTotalTime</quote
+> returnerer en værdi for nuværende spors totale tid i sekunder.</entry>
+</row>
+
+<row>
+<entry
+>configEqualizer</entry>
+<entry
+>Funktionen <quote
+>configEqualizer</quote
+> viser indstillingsvinduet for equalizeren.</entry>
+</row>
+
+<row>
+<entry
+>enableDynamicMode</entry>
+<entry
+>Funktionen <quote
+>enableDynamicMode</quote
+> bruges til at skifte dynamisk tilstand med værdien 0 for deaktiveret og 1 for aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>enableOSD</entry>
+<entry
+>Funktionen <quote
+>enableOSD</quote
+> lader dig skifte skærmvisningen med en sand eller falsk værdi.</entry>
+</row>
+
+<row>
+<entry
+>enableRandomMode</entry>
+<entry
+>Funktionen <quote
+>enableRandomMode</quote
+> bruges til at skifte tilfældig tilstand med værdien 0 for deaktiveret og 1 for aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>enableRepeatPlaylist</entry>
+<entry
+>Funktionen <quote
+>enableRepeatPlaylist</quote
+> bruges for at skifte tilstanden for at gentage spillelisten med værdien 0 for deaktiveret og 1 for aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>enableRepeatTrack</entry>
+<entry
+>Funktionen <quote
+>enableRepeatTrack</quote
+> bruges til at skifte tilstanden for at gentage spor med værdien 0 for deaktiveret og 1 for aktiveret.</entry>
+</row>
+
+<row>
+<entry
+>mute</entry>
+<entry
+>Funktionen <quote
+>mute</quote
+> lader dig slå fra og til for lyd for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>next</entry>
+<entry
+>Funktionen <quote
+>next</quote
+> går et spor fremad i afspilleren.</entry>
+</row>
+
+<row>
+<entry
+>pause</entry>
+<entry
+>Funktionen <quote
+>pause</quote
+> holder pause for sporet som for øjeblikket spilles.</entry>
+</row>
+
+<row>
+<entry
+>play</entry>
+<entry
+>Funktionen <quote
+>play</quote
+> starter afspilleren hvor den senest stoppede.</entry>
+</row>
+
+<row>
+<entry
+>playPause</entry>
+<entry
+>Funktionen <quote
+>playPause</quote
+> starter afspilleren hvis den for øjeblikket er i tilstanden stop eller pause. Funktionen holder også pause hvis afspilleren for øjeblikket spiller et spor.</entry>
+</row>
+
+<row>
+<entry
+>prev</entry>
+<entry
+>Funktionen <quote
+>prev</quote
+> går et spor tilbage i afspilleren.</entry>
+</row>
+
+<row>
+<entry
+>seek</entry>
+<entry
+>Funktionen <quote
+>seek</quote
+> bruges til at søge til en bestemt position i et spor med en værdi som angives i sekunder.</entry>
+</row>
+
+<row>
+<entry
+>seekRelative</entry>
+<entry
+>Funktionen <quote
+>seekRelative</quote
+> bruges til at søge til en position relativt til sporets nuværende position med en værdi som angives i sekunder.</entry>
+</row>
+
+<row>
+<entry
+>setEqualizer</entry>
+<entry
+>Funktionen <quote
+>setEqualizer</quote
+> bruger elleve heltal afgrænsede med mellemrum for at indstille equalizerens værdier. Skyderens værdier går fra -255 som mindste værdi til 255 som største. Det første heltal bruges til at indstille forforstærkerens værdi, og de tilbageværende heltal indstiller  værdier på forforstærkerens frekvensværdier fra 60 Hz til 16 kHz.</entry>
+</row>
+
+<row>
+<entry
+>setEqualizerEnabled</entry>
+<entry
+>Funktionen <quote
+>setEqualizerEnabled</quote
+> bruges til at aktivere equalizeren med en sand eller falsk værdi.</entry>
+</row>
+
+<row>
+<entry
+>setScore</entry>
+<entry
+>Funktionen <quote
+>setScore</quote
+> indstiller  nuværende spors scoring som angives med en værdi fra 0 til 100.</entry>
+</row>
+
+<row>
+<entry
+>setScoreByPath</entry>
+<entry
+>Funktionen <quote
+>setScoreByPath</quote
+> indstiller scoring for et spor som angives med søgesti, fulgt af scoring angivet som et tal fra 0 til 100.</entry>
+</row>
+
+<row>
+<entry
+>setVolume</entry>
+<entry
+>Funktionen <quote
+>setVolume</quote
+> justerer lydstyrken til et niveau som angives med en værdi fra 0 til 100.</entry>
+</row>
+
+<row>
+<entry
+>showBrowser</entry>
+<entry
+>Funktionen <quote
+>showBrowser</quote
+> viser en browser i spillelistens vindue. Gyldige værdier for browseren er context, collection, playlist, media og file.</entry>
+</row>
+
+<row>
+<entry
+>showOSD</entry>
+<entry
+>Funktionen <quote
+>showOSD</quote
+> aktiverer skærmvisningen for at vise information om nuværende spor.</entry>
+</row>
+
+<row>
+<entry
+>stop</entry>
+<entry
+>Funktionen <quote
+>stop</quote
+> stopper afspilleren hvis den for øjeblikket afspiller noget.</entry>
+</row>
+
+<row>
+<entry
+>volumeDown</entry>
+<entry
+>Funktionen <quote
+>volumeDown</quote
+> justerer lydstyrken nedad et skridt.</entry>
+</row>
+
+<row>
+<entry
+>volumeUp</entry>
+<entry
+>Funktionen <quote
+>volumeUp</quote
+> justerer lydstyrken opad et skridt.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-playlist">
+<title
+>dcop amarok playlist</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP-kald</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>saveCurrentPlaylist</entry>
+<entry
+>Funktionen <quote
+>saveCurrentPlaylist</quote
+> gemmer den nuværende spilleliste som ~/.kde/share/apps/amarok/current.xml.</entry>
+</row>
+
+<row>
+<entry
+>getActiveIndex</entry>
+<entry
+>Funktionen <quote
+>getActiveIndex</quote
+>  returnerer en heltalsværdi for nuværende spors position i spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>getTotalTrackCount</entry>
+<entry
+>Funktionen <quote
+>getTotalTrackCount</quote
+> returnerer det totale antal spor i spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>addMedia</entry>
+<entry
+>Funktionen <quote
+>addMedia</quote
+> bruges til at tilføje enkelte filer i spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>addMediaList</entry>
+<entry
+>Funktionen <quote
+>addMediaList</quote
+> bruges til at tilføje flere filer i spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>clearPlaylist</entry>
+<entry
+>Funktionen <quote
+>clearPlaylist</quote
+> bruges til at rydde hele spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>playByIndex</entry>
+<entry
+>Funktionen <quote
+>playByIndex</quote
+> starter afspilning af et spor med dets position i spillelisten. </entry>
+</row>
+
+<row>
+<entry
+>playMedia</entry>
+<entry
+>Funktionen <quote
+>playMEDIA</quote
+> starter afspilning af et spor som angives af en url.</entry>
+</row>
+
+<row>
+<entry
+>popupMessage</entry>
+<entry
+>Funktionen <quote
+>popupMessage</quote
+> viser en meddelelse i spillelistens vindue. Meddelelsen angives med en QString.</entry>
+</row>
+
+<row>
+<entry
+>repopulate</entry>
+<entry
+>Funktionen <quote
+>repopulate</quote
+> fylder spillelisten med spor fra dynamisk tilstand igen.</entry>
+</row>
+
+<row>
+<entry
+>removeCurrentTrack</entry>
+<entry
+>Funktionen <quote
+>removeCurrentTrack</quote
+> fjerner nuværende spor fra spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>saveM3u</entry>
+<entry
+>Funktionen <quote
+>saveM3u</quote
+> gemmer nuværende spilleliste med formatet M3U. Du skal angive søgestien som filen skal gemmes som, og inkludere værdien 0 eller 1 for at angive om relative søgestier skal skrives eller ej.</entry>
+</row>
+
+<row>
+<entry
+>setStopAfterCurrent</entry>
+<entry
+>Funktionen <quote
+>setStopAfterCurrent</quote
+> stopper afspilning af spillelisten efter det nuværende spor er færdigt.</entry>
+</row>
+
+<row>
+<entry
+>shortStatusMessage</entry>
+<entry
+>Funktionen <quote
+>shortStatusMessage</quote
+> viser en tekststreng som en meddelelse i statuslinjen.</entry>
+</row>
+
+<row>
+<entry
+>shufflePlaylist</entry>
+<entry
+>Funktionen <quote
+>shufflePlaylist</quote
+> gør rækkefølgen af spor i spillelisten tilfældig.</entry>
+</row>
+
+<row>
+<entry
+>togglePlaylist</entry>
+<entry
+>Funktionen <quote
+>togglePlaylist</quote
+> ændrer visning af spillelistevinduet, enten til eller fra.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-script">
+<title
+>dcop amarok script</title>
+
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>DCOP-kald</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>listRunningScripts</entry>
+<entry
+>Funktionen <quote
+>listRunningScripts</quote
+> lister alle scripter som kører i &amarok;.</entry>
+</row>
+
+<row>
+<entry
+>runScript</entry>
+<entry
+>Funktionen <quote
+>runScript</quote
+> starter et script i &amarok; som angivet ved sit navn.</entry>
+</row>
+
+<row>
+<entry
+>stopScript</entry>
+<entry
+>Funktionen <quote
+>stopScript</quote
+> stopper et script i &amarok; som angivet ved sit navn.</entry>
+</row>
+
+<row>
+<entry
+>addCustomMenuItem</entry>
+<entry
+>Funktionen <quote
+>addCustomMenuItem</quote
+> tilføjer et menupunkt til spillelistens den sammenhængsafhængige menu. Kaldet kræver to QString-parametre, den første for undermenuens navn og den anden for punktets navn i undermenuen. Begge parametre returneres i scripthåndteringens underretningssystem.</entry>
+</row>
+
+<row>
+<entry
+>removeCustomMenuItem</entry>
+<entry
+>Funktionen <quote
+>removeCustomMenuItem</quote
+> fjerner menupunkter som blev tilføjet til spillelistens sammenhængsafhængige menu med funktionen addCustomMenuItem. Kaldet bruger samme QString-parametre som addCustomMenuItem.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="cmd-line-options">
+<title
+>Kommandolinje-tilvalg</title>
+
+<para
+>amaroK understøtter brugen Qt's og kde's standard kommandolinjeflag. amaroK har også sine egne programspecifikke flag.</para>
+
+<para
+>Qt og kde flag:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tilvalg</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>--help</entry>
+<entry
+>Vis hjælp om flag.</entry>
+</row>
+
+<row>
+<entry
+>--help-qt</entry>
+<entry
+>Vis Qt-specifikke flag.</entry>
+</row>
+
+<row>
+<entry
+>--help-kde</entry>
+<entry
+>Vis KDE-specifikke flag.</entry>
+</row>
+
+<row>
+<entry
+>--help-all</entry>
+<entry
+>is alle flag.</entry>
+</row>
+
+<row>
+<entry
+>--author</entry>
+<entry
+>Vis udviklerinformation.</entry>
+</row>
+
+<row>
+<entry
+>-v, --version</entry>
+<entry
+>Vis versionsinformation.</entry>
+</row>
+
+<row>
+<entry
+>--license</entry>
+<entry
+>Vis licensinformation.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>amaroK-tilvalg:</para>
+
+<note
+><para
+>amarok's flag er designet til at blive brugt mens amaroK kører.</para
+></note>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tilvalg</entry>
+<entry
+>Handling</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>-r, --previous</entry>
+<entry
+>Spring over forrige spor på spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>-p, --play</entry>
+<entry
+>Start med af spille den nuværende spilleliste.</entry>
+</row>
+
+<row>
+<entry
+>-s, --stop</entry>
+<entry
+>Stop afspilning.</entry>
+</row>
+
+<row>
+<entry
+>--pause</entry>
+<entry
+>Hold pause i afspilning.</entry>
+</row>
+
+<row>
+<entry
+>-f, --next</entry>
+<entry
+>Spring over det næste spor på spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>-a, --append</entry>
+<entry
+>Vedlæg filer/URL'er i spillelisten.</entry>
+</row>
+
+<row>
+<entry
+>-e, --enqueue</entry>
+<entry
+>Se append, tilgængelig for bagudkompatibilitet.</entry>
+</row>
+
+<row>
+<entry
+>--queue</entry>
+<entry
+>Sætter filer/URL'er i kø efter det spor der afspilles nu.</entry>
+</row
+> 
+
+<row>
+<entry
+>-m, --toggle-playlist-window</entry>
+<entry
+>Slå spillelistens vindue til og fra.</entry>
+</row>
+
+<row>
+<entry
+>--wizard</entry>
+<entry
+>Start førstekørselsguide.</entry>
+</row>
+
+<row>
+<entry
+>--engine "navn"</entry>
+<entry
+>Start &amarok; med "navn"-motoren.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+
+<sect1 id="script-writing">
+<title
+>Skrive scripter</title>
+
+<para
+>At skrive scripter tillader dig nemt at udvide &amarok; uden at ændre den egentlige kodebase. Scripter ligner plugin, men i stedet for en særlig programmeringsgrænseflade bruger de &amarok;s DCOP-grænseflade til kommunikation. Det gør det muligt at skrive scripter i næsten hvilket som helst programsprog, såsom Ruby, Python eller PHP. Du kan ikke kun oprette scripter med klassiske scriptsprog, men også med kompilerede sprog såsom C++ eller almindelig C. Desuden kan &amarok; underrette scripter om særlige begivenheder og få dem til at reagere i overensstemmelse med dem. Systemet med underretninger forklares senere i afsnittet.</para>
+
+<sect2 id="script-bindings">
+<title
+>Bindinger</title>
+
+<para
+>Det er muligt at skrive enkle scripter som ikke kræver indblanding af brugeren, og det er også muligt at oprette scripter med bekvemme grafiske grænseflader som fungerer som små program i sig selv. For programmering af den grafiske grænseflade kan en af de mange bindinger som KDE sørger for bruges, for eksempel RubyQt, en binding til Qt-biblioteket for Ruby. Det er dog værd at notere at ikke alle brugere har installeret alle tilgængelige bindinger. Hvis du bestemmer dig for at bruge en binding, så forsøg at bruge en af dem som er relativt udbredte (f.eks. RubyQt eller PyQt).</para>
+
+<para
+>For at give nogen tilbagemelding når et script mislykkes at køre på grund af en afhængighed som mangler, skal du kontrollere i scriptet om modulet du vil inkludere virkelig findes. Hvis afhængigheder mangler, bør du fange fejlen og vise en informationsdialog med kommandolinjeværktøjet "kdialog", så brugeren får rede på hvorfor scriptet mislykkes at køre.</para>
+
+<para
+>Følgende eksempel viser hvordan en afhængighed som mangler kan fanges i Ruby:</para>
+
+<programlisting
+>begin
+       require 'Korundum'
+rescue LoadError
+       error = 'Korundum (KDE-bindinger for Ruby) fra kdebindings v3.4 kræves af dette script.'
+       `kdialog --sorry '#{error}'`
+       exit
+end
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-templates">
+<title
+>Kom i gang: Skabelonerne</title>
+
+<para
+>&amarok; sørger for skabelonscripter for flere sprog i mappen <filename class="directory"
+>scripts/templates/</filename
+>. Du kan bruge disse scripter som en basis for dine egne, og udvide dem med funktioner du behøver. Du vil bemærke at det i virkeligheden er ganske ligetil at skrive scripter. Hvis du for eksempel véd en del om hvordan man programmerer i Python, tager det ikke lang tid at oprette dit eget script.</para>
+
+</sect2>
+
+<sect2 id="script-controlling-amarok">
+<title
+>Kontrollér &amarok; med DCOP</title>
+
+<para
+>Scripter kan styre amaroK ved at kalde visse af dets DCOP-funktioner. Den enkleste måde at udføre en DCOP-funktion er ved at bruge kommandolinjeværktøjet "dcop", som indgår i alle distributioner af KDE.</para>
+
+<para
+>Her er et eksempel på hvordan hovedlydstyrken øges:</para>
+
+<programlisting
+>dcop amarok player volumeUp</programlisting>
+
+<para
+>De fleste scriptsprog tillader at eksterne programmer køres, med en funktion såsom exec(). På den måde kan værktøjet "dcop" nemt kaldes. Her er et enkelt eksempel i Python:</para>
+
+<programlisting
+>import os
+ os.system("dcop amarok player volumeDown")
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-notifications">
+<title
+>Underretninger</title>
+
+<para
+>&amarok; sender underretninger til alle scripter som kører ved at skrive strenge til deres standardindtastning. Scripterne bør derfor hele tiden overvåge standardindtastningen og reagere på passende måde på hver af de mulige begivenheder. Scripter kan også vælge at ignorere alle begivenheder de ikke har nogen nytte af.</para>
+
+<para
+>Følgende underretninger sendes af &amarok;:</para>
+
+<programlisting
+><cmdsynopsis
+><command
+>configure</command
+></cmdsynopsis>
+Fortæller scriptet at dets indstillingsdialog skal vises. Scriptet
+skal håndtere opbevaring og indlæsning af indstillingstilvalg selv.
+Når et script startes, indstiller amaroK dets arbejdsmappe til mappen
+hvor al data skal opbevares.
+</programlisting>
+
+<programlisting
+><cmdsynopsis
+><command
+>engineStateChange:</command
+><arg
+>empty|idle|paused|playing</arg
+></cmdsynopsis>
+Signalerer en ændring af grænsefladens tilstand.
+</programlisting>
+
+<programlisting
+><cmdsynopsis
+><command
+>trackChange</command
+></cmdsynopsis>
+Signalerer start af et nyt spor. Scriptet kan derefter bruge DCOP-funktioner
+til at spørge efter yderligere information om sporet, f.eks. metadata og længde.
+</programlisting>
+
+<programlisting
+><cmdsynopsis
+><command
+>volumeChange</command
+><arg
+>ny-volym</arg
+></cmdsynopsis>
+Signalerer en ændring af hovedlydstyrken. Lydstyrken er et heltal i
+intervallet 0-100.
+</programlisting>
+
+<programlisting
+><cmdsynopsis
+><command
+>customMenuClicked:</command
+><arg
+>undermenu objektnavn søgestier</arg
+></cmdsynopsis>
+Returnerer søgestier til markerede filer i spillelisten når det egne tilvalg
+i spillelistens sammenhængsafhængige menu klikkes. Undermenuen og objektnavnet returneres
+også til identifikationsformål i tilfældet hvor et script lytter efter flere underretninger.
+Brug DCOP-kaldet 'dcop amarok script addCustomMenuItem( undermenu objektnavn )'
+til at indsætte et objekt i den sammenhængsafhængige menuen. Brug
+DCOP-kaldet 'dcop amarok script removeCustomMenuItem( undermenu objektnavn )'
+til at fjerne et objekt fra den sammenhængsafhængige menu.
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-termination">
+<title
+>Afslutning af script</title>
+
+<para
+>Inden &amarok; afsluttes, eller når brugeren stopper et script i scripthåndteringen, sender &amarok; signalet SIGTERM til scriptet. Signalet kan indfanges for at udføre oprensningsarbejde, såsom at gemme data eller indstillinger.</para>
+
+</sect2>
+
+<sect2 id="script-packaging">
+<title
+>Pakning</title>
+
+<para
+>Scripthåndteringen i &amarok; kan installere scriptpakker som brugeren har hentet fra internettet. Pakker er blot normale arkiver (.tar), valgfrit komprimerede med bzip2 (.bz2). Vi anbefaler stærkt at bruge et filnavn såsom mit-script.amarokscript.tar.bz2, så brugeren let kan identificere pakken som et script for amaroK.</para>
+
+<note
+><para
+>&amarok; 1.3 accepterer kun scriptpakker med filendelsen amarokscript, det er altså bedre at bruge det lige fra begyndelsen.</para
+></note>
+
+<para
+>Filens indhold skal være organiseret på følgende vis:</para>
+
+<programlisting
+>mit-script/
+   README
+   mit-script.py (kørbar fil)
+   en-modul.py
+   fil.data
+   ...
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-permissions">
+<title
+>Filrettigheder</title>
+
+<para
+>Hovedscriptet skal have kørerettigheder (+x) indstillede,mens yderligere moduler som scriptet indlæser ikke skal have kørerettigheder. For at bevare filrettigheder i arkivet, skal du bruge tar med flaget -p.</para>
+
+<programlisting
+>tar -cf mitt-script.amarokscript.tar -p mit-script</programlisting>
+
+<note
+><para
+>&amarok; kan ikke installere scriptet hvis filrettighederne ikke er rigtigt indstillede.</para
+></note>
+
+</sect2>
+
+<sect2 id="script-distributing">
+<title
+>Distribution</title>
+
+<para
+>Når pakken er klar, kan du overføre den til <ulink url="http://www.kde-apps.org"
+>www.kde-apps.org</ulink
+> og tilføje linket på &amarok;s <ulink url="http://amarok.kde.org/amarokwiki/index.php/Scripts"
+>Wiki scriptside</ulink
+>. For indgangen i kde-apps skal du bruge kategorien <ulink url="http://kde-apps.org/index.php?xcontentmode=56"
+>&amarok; Scripter</ulink
+>.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>
+

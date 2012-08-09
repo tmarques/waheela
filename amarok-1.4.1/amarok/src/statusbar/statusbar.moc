@@ -1,0 +1,123 @@
+/****************************************************************************
+** amaroK::StatusBar meta object code from reading C++ file 'statusbar.h'
+**
+** Created: Fri Mar 23 10:51:12 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "statusbar.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *amaroK::StatusBar::className() const
+{
+    return "amaroK::StatusBar";
+}
+
+QMetaObject *amaroK::StatusBar::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__StatusBar( "amaroK::StatusBar", &amaroK::StatusBar::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::StatusBar::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::StatusBar", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::StatusBar::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::StatusBar", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::StatusBar::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDE::StatusBar::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "newCount", &static_QUType_int, 0, QUParameter::In },
+	{ "newLength", &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotItemCountChanged", 6, param_slot_0 };
+    static const QUMethod slot_1 = {"updateQueueLabel", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "position", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"drawTimeDisplay", 1, param_slot_2 };
+    static const QUMethod slot_3 = {"slotPauseTimer", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotItemCountChanged(int,int,int,int,int,int)", &slot_0, QMetaData::Public },
+	{ "updateQueueLabel()", &slot_1, QMetaData::Public },
+	{ "drawTimeDisplay(int)", &slot_2, QMetaData::Public },
+	{ "slotPauseTimer()", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::StatusBar", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__StatusBar.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::StatusBar::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::StatusBar" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return KDE::StatusBar::qt_cast( clname );
+}
+
+bool amaroK::StatusBar::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotItemCountChanged((int)static_QUType_int.get(_o+1),(int)static_QUType_int.get(_o+2),(int)static_QUType_int.get(_o+3),(int)static_QUType_int.get(_o+4),(int)static_QUType_int.get(_o+5),(int)static_QUType_int.get(_o+6)); break;
+    case 1: updateQueueLabel(); break;
+    case 2: drawTimeDisplay((int)static_QUType_int.get(_o+1)); break;
+    case 3: slotPauseTimer(); break;
+    default:
+	return KDE::StatusBar::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::StatusBar::qt_emit( int _id, QUObject* _o )
+{
+    return KDE::StatusBar::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::StatusBar::qt_property( int id, int f, QVariant* v)
+{
+    return KDE::StatusBar::qt_property( id, f, v);
+}
+
+bool amaroK::StatusBar::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

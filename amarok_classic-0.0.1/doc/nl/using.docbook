@@ -1,0 +1,1963 @@
+<chapter id="using-kapp">
+<title
+>&amarok; gebruiken</title>
+
+<para
+>&amarok; is een veelzijdige audiospeler waarmee u op verschillende manieren uw muziekcollectie kunt beheren. Net zoals een gewone audiospeler heeft &amarok; een afspelervenster waarin u de basisfuncties kunt besturen. &amarok; heeft ook een afspeellijst die geen gelijke kent. Het afspeellijstvenster heeft meerdere browsers waarmee u door uw volledige audiocollectie kunt bladeren.</para>
+
+<para
+>In dit hoofdstuk behandelen we alle mogelijkheden van &amarok;, inclusief het aanmaken van een collectie en een afspeellijst.</para>
+
+<sect1 id="player-window">
+<title
+>Het afspelervenster</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van het afspelervenster</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="player_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Het afspelervenster is &amarok; speler. Bovenlangs de speler ziet u een verschuivend display dat de huidige afgespeelde track of stream toont. Vlak daaronder wordt de afspeeltijd, bitrate en sample rate van de huidige track getoond. Klik in dit gebied om de tracktijd te wijzigen van totaal afgespeeld naar totaal resterend.</para>
+
+<para
+>Het afspelervenster kent ook een visualisatie van de huidige track in de vorm van een ontleder. Klik er met de linker muisknop op om een ander thema hiervoor te kiezen.</para>
+
+<anchor id="analyzer-tip"/>
+
+<tip>
+
+<screenshot>
+	<screeninfo
+>Ontleder-tip</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="analyzer.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De ontleder-visualisatie kan losgemaakt worden van &amarok;'s afspelervenster. Druk op de toets <keycap
+>d</keycap
+> op uw toetsenbord om de ontleder in zijn eigen venster te openen.</para>
+</tip>
+
+<para
+>Onder de verschuivende display ziet u ook de knoppen <guibutton
+>PL</guibutton
+> en <guibutton
+>EQ</guibutton
+>. De knop <guibutton
+>PL</guibutton
+> opent of sluit het afspeellijstvenster en de knop <guibutton
+>EQ</guibutton
+> wordt gebruikt equalizer aan of uit te zetten (mits uw engine dit ondersteund).</para>
+
+<para
+>Het resterende gedeelte bestaat uit de afspeelknoppen en de schuifregelaars voor volume en trackpositie. Gebruik de schuifregelaars om het volume of de afspeelpositie in de track te veranderen. Gebruik de afspeelknoppen om het afspelen van de huidige track te regelen, of om voor- achteruit door uw tracks te lopen.</para>
+
+</sect1>
+
+<sect1 id="equalizer">
+<title
+>Het equalizervenster</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de equalizer</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="equalizer.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De equalizer is hetzelfde als de equalizers die u in andere mediaspelers vindt. Het keuzevakje <guilabel
+>Equalizer activeren</guilabel
+> zet de equalizer aan en activeert de schuifregelaars waarmee u de equalizer kunt bijstellen.</para>
+
+<para
+>U kunt de equalizer openen via het <link linkend="rmb-menu"
+>contextmenu</link
+> onder de rechter muisknop of op de <link linkend="menubar"
+>menubalk</link
+>, menuoptie <menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Equalizer</guimenuitem
+></menuchoice
+>.</para>
+
+</sect1>
+
+<sect1 id="playlist-window">
+<title
+>Het afspeellijstvenster</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van het afspeellijstvenster</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="playlist_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De afspeellijst van &amarok; is de meest uitgebreide van heel &kde;. De afspeellijst biedt veel functies die in geen enkele andere speler te vinden zijn. Voel u niet geïntimideerd door de kracht van de afspeellijst: hij is nog steeds zeer eenvoudig in gebruik.</para>
+
+<para
+>Het afspeellijstvenster is onderverdeeld in twee hoofddelen. Links ziet u de zijbalk. Deze bevat enkele excellente mogelijkheden, zoals de <link linkend="context-browser"
+>Contextbrowser</link
+>. Rechts ziet u de afspeellijst zelf. Deze is eenvoudig qua opmaak, maar toch krachtig genoeg voor de ervaren gebruiker.</para>
+</sect1>
+
+
+<sect1 id="playlist-browsers">
+<title
+>De zijbalkbrowsers</title>
+
+<para
+>Met de zijbalkbrowsers verandert u &amarok;'s afspeellijst in compleet mediabeheerprogramma. Van het toevoegen van media aan uw collectie tot het suggesties geven voor andere tracks om naar te luisteren, de zijbalkbrowsers kunnen het allemaal. U vindt er ook volledige iPod-ondersteuning, samen met browsers voor het afhandelen van afspeellijsten en het bladeren door uw bestandssysteem.</para>
+
+<para
+>In deze sectie kunt u alle informatie vinden om het meeste uit de zijbalkbrowsers te halen. Zoals u zult zien zorgen de browsers voor een geheel nieuwe manier van naar muziek luisteren.</para>
+
+<sect2 id="context-browser">
+<title
+>Contextbrowser</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Contextbrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="context.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Contextbrowser bevat enkele tabbladen die verschillende soorten informatie aanbieden over de track die op dat moment wordt afgespeeld, en uw muziekcollectie in het algemeen.</para>
+
+<sect3 id="home-tab">
+<title
+>Tabblad Begin</title>
+
+<para
+>Tabblad <guilabel
+>Begin</guilabel
+> geeft informatie over uw volledige muziekcollectie. In dit tabblad zult u <guilabel
+>Uw favoriete tracks</guilabel
+> vinden, alsook <guilabel
+>Uw nieuwste tracks</guilabel
+> en de <guilabel
+>Minst afgespeelde tracks</guilabel
+>.</para>
+
+<para
+><guilabel
+>Uw favoriete tracks</guilabel
+> is een lijst van de tracks uit uw collectie die het vaakst zijn afgespeeld.</para>
+
+<para
+><guilabel
+>Uw nieuwste tracks</guilabel
+> is een lijst met de vijf tracks die het laatst aan uw collectie zijn toegevoegd.</para>
+
+<para
+><guilabel
+>Minst beluisterde tracks</guilabel
+> bevat de vijf tracks waarna het minst is geluisterd. Deze tracks zijn al eens eerder afgespeeld, maar dat is inmiddels al een tijd geleden.</para>
+
+<note
+><para
+>Klik op een item uit deze lijsten om die track af te spelen.</para
+></note>
+
+</sect3>
+
+
+<sect3 id="current-track-tab">
+<title
+>Tabblad Huidige track</title>
+
+<para
+>Tabblad <guilabel
+>Huidige track</guilabel
+> bevat informatie over de track die momenteel wordt afgespeeld, samen met informatie over de artiest en het album.</para>
+
+<para
+>Het eerste deel van dit tabblad bevat de informatie over te track. In de titel van het gedeelte staat de tracknaam, artiest en album. Naast de afbeelding vindt u een <ulink url="http://www.musicbrainz.org/"
+>MusicBrainz</ulink
+>-pictogram. <inlinemediaobject
+><imageobject
+><imagedata fileref="musicbrainz.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Klik op dit pictogram om informatie over de track op te zoeken op de site van MusicBrainz.</para>
+
+<para
+>Ander het MusicBrainz-pictogram vindt u meer informatie over de huidige track, zoals het aantal maal dat de track is afgespeeld, de huidige score van de track, en wanneer de track de eerste en laatste keer is afgespeeld.</para>
+
+<tip
+><para
+>Om de albumhoezen te kunnen afbeelden in de contextbrowser dient u de albumafbeelding in dezelfde map te plaatsen als waar de track waarnaar u luistert staat. De afbeelding mag .jpg, .jpeg, .gif of .png als extensie hebben. De afbeeldingnaam is niet belangrijk, maar afbeeldingen met de term <quote
+>front</quote
+> in hun naam hebben de voorkeur. De contextbrowser gebruikt ook de hoesafbeeldingen u vanuit &amarok; hebt gedownload, of afbeeldingen die zijn ingebed in de ID3v2tags.</para
+></tip>
+
+<para
+>De volgende lijst, <guilabel
+>Voorgestelde nummers</guilabel
+>, bevat enkele suggesties om af te spelen. Klik op een van de suggesties om het afspelen ervan te starten.</para>
+
+<para
+>Onder de <guilabel
+>Voorgestelde nummers</guilabel
+> vindt u de lijst <guilabel
+>Favoriete tracks van 'artiest'</guilabel
+>. Deze lijst bevat de vijf tracks met de hoogste score van de huidige artiest.</para>
+
+<para
+>De laatste lijst, <guilabel
+>Albums van 'artiest'</guilabel
+> bevat alle albums die u van de huidige artiest in uw collectie hebt. Klik op een album in deze lijst om de inhoud ervan te laten weergeven.</para>
+
+<tip
+><para
+>Door te klikken op tracks in een van de lijsten start u het afspelen ervan. U kunt ook met de rechter muisknop op albums en tracks klikken om een contextmenu te openen waarin u op verschillende manieren de track of album aan de afspeellijst kunt toevoegen.</para
+></tip>
+
+</sect3>
+
+
+<sect3 id="lyrics">
+<title
+>Tabblad Liedteksten</title>
+
+<para
+>Op tabblad <guilabel
+>Liedteksten</guilabel
+> wordt de tekst van het huidige nummer weergegeven als deze beschikbaar is.</para>
+
+</sect3>
+
+<sect3 id="wiki">
+<title
+>Tabblad Wiki</title>
+
+<para
+>Dit tabblad is nog niet gedocumenteerd.</para>
+
+</sect3>
+
+
+</sect2>
+
+
+
+<sect2 id="collection-browser">
+<title
+>Collectiebrowser</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Collectiebrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>In de Collectiebrowser kunt u uw muziekcollectie in een boomstructuurweergave bekijken. Om de Collectiebrowser te kunnen gebruiken dient u de mappen op te geven die voor uw collectie gebruikt zullen worden.  Klik op de knop <guibutton
+>Mappen instellen...</guibutton
+> in de Collectiebrowser om de dialoog waarin u de mappen voor uw collectie kunt selecteren te openen.</para>
+
+<note
+><para
+>Als u het keuzevakje <guilabel
+>Mappen op wijzigingen observeren</guilabel
+> hebt geselecteerd in de dialoog <guilabel
+>Collectie instellen</guilabel
+> zal het programma om de 30 seconden de lijst bijwerken.</para
+></note>
+
+<para
+>Zodra uw mappen zijn doorzocht zult u uw collectie in de boomstructuur terugzien. De boomstructuur kan 3 vertakkingen hebben, aangeduid met <guimenuitem
+>Eerste niveau</guimenuitem
+>, <guimenuitem
+>Tweede niveau</guimenuitem
+>, en <guimenuitem
+>Derde niveau</guimenuitem
+>. U kunt hiermee uw collectie laten vertakken op albums, artiest, genre of jaar. Met de knop <guilabel
+>Groeperen op</guilabel
+> kunt u de niveaus instellen.</para>
+
+<note
+><para
+>De Collectiebrowser bevat ook een vlakke weergave. U kunt deze selecteren door op de knop <guibutton
+>Vlakke weergave</guibutton
+> op de werkbalk van de Collectiebrowser te klikken. In de vlakke weergave is uw collectie in eerste instantie leeg. U vult de collectieweergave door tekst in te typen in het filterveld. Nadat u drie of meer tekens hebt ingevoerd zult u het resultaat zien in de vlakke weergave. Voor een nieuwe filteropdracht, klik op de knop <guibutton
+>Filter wissen</guibutton
+> links van het filterveld om deze leeg te maken en voer een nieuwe tekst in.</para
+></note>
+
+<para
+>Bovenin de Collectiebrowser ziet u een filterbalk. Typ hier de naam in van de track die u zoekt, of een gedeelte ervan. Zodra u begint te typen start de Collectiebrowser met het filteren op de door u ingevoerde tekst. Alleen tracks die deze tekst bevatten worden getoond. Als u klaar bent met zoeken kunt u op het zwarte pijltje met het witte kruis links ervan klikken om het zoekveld te wissen.</para>
+
+<para
+>U kunt met de Collectiebrowser ook albumhoezen downloaden. Klik met de rechter muisknop op een item in de Collectiebrowser, en selecteer in het contextmenu de optie <guimenuitem
+>Hoesafbeelding ophalen</guimenuitem
+>. In een nieuw venster wordt de opgehaalde afbeelding getoond. Vanuit dat venster kunt u de afbeelding opslaan, of een nieuwe zoekopdracht uitvoeren met een preciezere zoekterm, in het geval de verkeerde afbeelding is gedownload.</para>
+
+<para
+>In de Collectiebrowser vindt u ook de <link linkend="cover-manager"
+>Hoesbeheerder</link
+>. Selecteer menuoptie <menuchoice
+><guimenu
+>Acties</guimenu
+><guimenuitem
+>Hoesbeheerder</guimenuitem
+></menuchoice
+> om deze te openen.</para>
+</sect2>
+
+
+<sect2 id="playlist-browser">
+<title
+>Afspeellijstbrowser</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Afspeellijstbrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Afspeellijstbrowser wordt gebruikt voor het organiseren van uw afspeellijsten. U kunt bijvoorbeeld intelligente afspeellijsten aanmaken. Dit maakt het een van de slimste afspeellijstbrowsers die er is.</para>
+
+<para
+>De Afspeellijstbrowser is opgedeeld in twee secties, Afspeellijsten en Intelligente afspeellijsten. De sectie Afspeellijsten is voor uw eigen afspeellijsten. U kunt de inhoud van uw afspeellijsten in een lijstweergave bekijken door op het <quote
+>+</quote
+> teken naast elke afspeellijst te klikken. Als u een afspeellijst hebt geopend kunt u nieuwe tracks toevoegen door ze naar de lijst te slepen. Als u een afspeellijst wilt laden dubbelklikt u op de naam ervan, of drukt u op de <keycap
+>spatiebalk</keycap
+> van uw toetsenbord. Kijk voor meer sneltoetsen in het <link linkend="keybd-shortcuts"
+>bijhorende hoofdstuk</link
+>.</para>
+
+<tip
+><para
+>Als u in het afspeellijstvenster een nieuwe afspeellijst opslaat wordt deze automatisch toegevoegd aan de afspeellijstsectie.</para
+></tip>
+
+<para
+>Het onderste gedeelte van de Afspeellijstbrowser bevat de intelligente afspeellijsten. De intelligente afspeellijsten gebruiken &amarok;'s ingebouwde database om enkele handige afspeellijsten samen te stellen. U ziet de volgende intelligente afspeellijsten:</para>
+
+<para
+>Alle collecties: een afspeellijst met alle tracks uit uw collectie.</para>
+
+<para
+>Favoriete tracks: meerdere afspeellijsten, elk met vijftien tracks met de hoogste waardering, gesorteerd op artiest.</para>
+
+<para
+>Meest afgespeeld: meerdere afspeellijsten, elk met de vijftien meestgedraaide tracks per artiest.</para>
+
+<para
+>Nieuwste tracks: meerdere afspeellijsten met de vijftien nieuwste tracks per artiest.</para>
+
+<para
+>Laatst afgespeeld: een afspeellijst met de vijftien laatst afgespeelde tracks uit uw collectie.</para>
+
+<para
+>Nooit afgespeeld: een lijst met alle tracks uit uw collectie die nog nooit zijn afgespeeld.</para>
+
+<para
+>Genres: meerdere afspeellijsten, voor elk genre een.</para>
+
+<para
+>U kunt ook uw eigen intelligente afspeellijsten aanmaken. Klik op de knop <guimenuitem
+>Intelligente afspeellijst aanmaken</guimenuitem
+> om een intelligente afspeellijst aan te maken, gebaseerd op uw eigen criteria.</para>
+
+</sect2>
+
+
+<sect2 id="media-device-browser">
+<title
+>Mediastationbrowser</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van Media-apparaatbrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="media_device.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Het paneel Media-apparaat wordt gebruikt om verbinding te maken tussen uw iPod en &amarok;. Om uw iPod te kunnen gebruiken met de Media-apparaat-browser dient de iPod te zijn aangekoppeld op /mnt/ipod voordat &amarok; wordt gestart. Als &amarok; eenmaal is opgestart zult u de tracks op uw iPod geordend op artiest vinden in het bovenste gedeelte van de browser.</para>
+
+<para
+>Om tracks aan uw iPod toe te voegen, sleep de track die u wilt toevoegen vanuit de afspeellijst naar de lijstweergave Artiest. Als u klaar bent met het toevoegen van tracks aan de lijst klikt u op de knop <guibutton
+>Verzenden</guibutton
+> om ze te uploaden naar uw iPod. Nadat de overdracht voltooid is sluit u &amarok; en koppelt u uw iPod af (dmv umount).</para>
+
+</sect2>
+
+<sect2 id="file-browser">
+<title
+>Bestandsbrowser</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Bestandsbrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="file_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Bestandsbrowser is als een mini-Konqueror ingebed in de afspeellijst. U kunt de Bestandsbrowser gebruiken om uw bestandssystemen af te zoeken naar audiobestanden die u wilt toevoegen aan de afspeellijst. Bovenlangs de Bestandsbrowser ziet u een werkbalk met knoppen waarmee u omhoog, terug en verder kunt bladeren door uw bestandssysteem. De werkbalk heeft ook knoppen voor de persoonlijke map, beknopte en gedetailleerde weergave en een bladwijzerknop waarmee u uw favoriete mappen kunt onthouden.</para>
+
+<para
+>Onder de werkbalk bevindt zich een handige zoekbalk om te zoeken op bestandsnaam Deze kunt u gebruiken om naar muziekbestanden te zoeken in mappen met veel bestanden. De zoekbalk zorgt ervoor dat de Bestandsbrowser alleen bestanden toont waarin de door u ingevoerde zoekterm voorkomt.</para>
+
+<para
+>Onderlangs de Bestandsbrowser loopt een adresbalk waarin u URL-adressen kunt invoeren. Met bijvoorbeeld <filename class="directory"
+>tar:/home/rinse/muziek.tar.gz</filename
+> opent u een Tar-archief. U kunt vervolgens de muziekbestanden uit dit archief verslepen naar de afspeellijst. Kijk voor beschikbare URL-adressen en verdere informatie in het KDE Informatiecentrum (kinfocenter), sectie Protocollen.</para>
+
+<tip
+><para
+>Als de afspeellijst groter is dan uw beeldscherm, dan wordt het lastig om muziek toe te voegen door de tracks naar de lijst te slepen. Houd in dat geval de toets <keycap
+>Shift</keycap
+> ingedrukt terwijl u de bestanden naar de lijst sleep. De tracks zullen dan aan het einde van de afspeellijst worden toegevoegd, ipv op de positie waar u ze naar toe sleepte.</para
+></tip>
+
+</sect2>
+
+</sect1>
+
+
+<sect1 id="playlist">
+<title
+>De afspeellijst</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de afspeellijst</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Afspeellijst bevat alle tracks die u wilt afspelen. U kunt de volgorde wijzigen door de tracks met de muis te verslepen naar de juiste positie. Bovenlangs de afspeellijst loopt een filterbalk waarin u zoektermen kunt invoeren. Zodra u begint met het invoeren van tekst begint de afspeellijst met het wegfilteren van alle tracks die de ingevoerde term niet bevatten. Om het filteren te stoppen wist u de inhoud van de zoekbalk door te klikken op de zwarte pijl met het witte kruisje links ervan, of gebruik de toets <keycap
+>Backspace</keycap
+> om de tekst handmatig te wissen.</para>
+
+<tip
+><para
+>Geavanceerde, Google-achtige syntaxis is ook mogelijk.</para>
+
+<para
+>Standaard, als u termen invoert met spaties ertussen, dan zal er worden gezocht naar items die alle zoektermen bevatten. Bijvoorbeeld: een twee drie, zoekt naar alle tracks die een, twee en drie bevatten.</para>
+
+<para
+>Maar u kunt ook OR tussen de termen plaatsen om te zoeken naar items die één van de termen bevatten. Bijvoorbeeld: een OR twee OR drie. Op die manier wordt er gezocht naar tracks die of een, of twee of drie bevatten (of een combinatie van deze).</para>
+
+<para
+>U kunt ook gebruik maken van dubbele aanhalingstekens om te zoeken naar termen die spaties bevatten: "Prince and The Revolution". Nu wordt gezocht naar items die Prince and The Revolution bevatten, maar niet naar Prince &amp; The Revolution. </para>
+
+<para
+>Standaard wordt er gezocht in alle kolommen van de afspeellijst die op dat moment zichtbaar zijn. Maar u kunt ook door middel van kolom:term in een specifieke kolom zoeken: titel:amarok (dit kan ook een kolom zijn die niet zichtbaar is). Op die manier zoekt u naar tracks die het woord 'amarok' in de titel hebben, en niet, bijvoorbeeld, in het album.</para>
+
+<para
+>Als u een specifieke kolom om in te zoeken opgeeft, dan kunt u ook zoeken naar items groter of kleiner dan een term. Bijvoorbeeld: score:
+>50 zal zoeken naar items met een score hoger dan 50.</para>
+
+<para
+>Om een term op te geven die niet mag voorkomen in het zoekresultaat kunt u een minteken (-) ervoor zetten: -ding zoekt naar alles dat geen ding bevat.</para>
+
+<para
+>U kunt bovenstaande mogelijkheden met elkaar combineren. Bijvoorbeeld: "Prince and The Revolution" OR score:
+>50 -comment:bad. Dit zoekt naar alles dat Prince and The Revolution bevat, of een hogere score dan 50 heeft, maar sluit tracks uit die "bad" in hun commentaar hebben staan.</para
+></tip>
+
+<tip>
+
+<screenshot>
+	<screeninfo
+>Tip</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="pl_tip1.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>U kunt de tracks in een specifieke volgorde laten afspelen door met de &RMB; te klikken op de tracks in de volgorde die u wilt, terwijl u de toets <keycap
+>Control</keycap
+> ingedrukt houdt. Druk vervolgens op <keycap
+>Enter</keycap
+> om het afspelen in die volgorde te starten.</para>
+
+</tip>
+
+</sect1>
+
+<sect1 id="menubar">
+<title
+>De Afspeellijst-menubalk</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Afspeellijst-menubalk</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<sect2 id="actions-menu">
+<title
+>Het menu Acties</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Acties</guimenu
+> <guimenuitem
+>Medium afspelen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarmee u een URL-adres kunt invoeren.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Acties</guimenu
+> <guimenuitem
+>Audio-cd afspelen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Hiermee kunt u een audio-cd openen en afspelen via de kio-slave audiocd:/.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Acties</guimenu
+> <guimenuitem
+>Vorige track</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Gaat naar de vorige track in de afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Acties</guimenu
+> <guimenuitem
+>Pauze</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Pauzeert het afspelen van de huidige track.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Acties</guimenu
+> <guimenuitem
+>Stoppen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Stopt het afspelen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Acties</guimenu
+> <guimenuitem
+>Volgende Track</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Gaat naar de volgende track in de afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Q</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Acties</guimenu
+> <guimenuitem
+>Afsluiten</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Beëindigt &amarok;</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+<sect2 id="playlist-menu">
+<title
+>Het menu Afspeellijst</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>O</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Medium toevoegen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarmee u een medium (bijv. een map) kunt toevoegen aan de huidige afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>S</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Afspeellijst opslaan als...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarmee u de huidige afspeellijst kunt opslaan.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Z</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Ongedaan maken</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Maakt de laatste wijziging in de afspeellijst ongedaan.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Shift</keycap
+><keycap
+>S</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Opnieuw</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Voert de laatste ongedaan gemaakte wijziging opnieuw uit.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Wissen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Wist de inhoud van de huidige afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>H</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Schudden</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Schudt de volgorde van de tracks in de huidige afspeellijst door elkaar.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Enter</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Ga naar huidige track</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Gaat in de afspeellijst naar de track die momenteel wordt afgespeeld.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>D</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Geselecteerde tracks in wachtrij plaatsen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Maakt een wachtrij aan van de geselecteerde tracks in de afspeellijst, door ze van een nummer te voorzien.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Dubbelen/ontbrekenden verwijderen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Verwijdert alle dubbele of ontbrekende tracks uit de huidige afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>A</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Afspeellijst</guimenu
+> <guimenuitem
+>Alles selecteren</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Selecteert alle tracks in de huidige afspeellijst.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+
+<sect2 id="tools-menu">
+<title
+>Het menu Hulpmiddelen</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Hoesbeheerder</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent de <link linkend="cover-manager"
+>Hoesbeheerder</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Wachtrijbeheerder</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent de <link linkend="queue_manager"
+>Wachtrijbeheerder</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Configuratie-assistent</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent de Configuratie-assistent.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Visualisaties</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent de dialoog met <link linkend="visualizations"
+>visualisaties</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Equalizer</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent het <link linkend="equalizer"
+>Equalizervenster</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Scripts</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent de <link linkend="script_manager"
+>Hoesbeheerder</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+> <guimenuitem
+>Collectie opnieuw doorzoeken</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Start een handmatige scan voor uw collectiemappen.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+<sect2 id="settings-menu">
+<title
+>Het menu Instellingen</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>M</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Menubalk tonen/verbergen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Toont of verbergt de <link linkend="menubar"
+>menubalk</link
+> van de afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Werkbalk tonen/verbergen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Toont of verbergt de <link linkend="toolbar"
+>werkbalk</link
+> van het afspeelvenster.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Afspelervenster tonen/verbergen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Toont of verbergt het <link linkend="player-window"
+>Afspelervenster</link
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Track herhalen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Herhaalt het afspelen van de huidige track.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Afspeellijst herhalen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Herhaalt het afspelen van de huidige afspeellijst.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Willekeurig</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Speelt de tracks in de afspeellijst op een willekeurige volgorde af.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Dynamische modus</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Start de modus Dynamische afspeellijst</para
+></listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Globale sneltoetsen instellen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarin u de globale sneltoetsen kunt instellen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Sneltoetsen instellen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarin u de sneltoetsen van &amarok; kunt instellen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Werkbalken instellen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarin u de werkbalken van &amarok; kunt instellen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>amaroK instellen...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog waarin u &amarok; kunt instellen</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+
+<sect2 id="help-menu">
+<title
+>Het menu Help</title>
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>F1</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Help</guimenu
+> <guimenuitem
+>amaroK handboek</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent deze documentatie.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo
+><keycap
+>Shift</keycap
+><keycap
+>F1</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Help</guimenu
+> <guimenuitem
+>Wat is dit</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Activeert de 'Wat-is-dit" muisaanwijzer. Klik ermee op programmaonderdelen waarvan u wilt weten wat ze doen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Help</guimenu
+> <guimenuitem
+>Bug rapporteren...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Start een dialoog waarmee u bugs (programmafouten) kunt melden.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Help</guimenu
+> <guimenuitem
+>Info over amaroK</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog met informatie over amaroK.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Help</guimenu
+> <guimenuitem
+>Info over KDE</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Opent een dialoog met informatie over KDE.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="toolbar">
+<title
+>De Afspeellijst-werkbalk</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Afspeellijst-werkbalk</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="buttons.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Afspeellijst-werkbalk bevindt zich onderin het afspeellijstvenster. De werkbalk bevat enkele knoppen waarmee u de meestgebruikte afspeellijstacties kunt bedienen. Links van de werkbalk ziet u de knop <guimenuitem
+>Medium toevoegen</guimenuitem
+>. Klik hierop om een bestandsdialoog te openen waarmee u muziekbestanden kunt toevoegen aan de afspeellijst. Naast de knop <guimenuitem
+>Medium toevoegen</guimenuitem
+> vindt u de knoppen <guimenuitem
+>Afspeellijst opslaan als</guimenuitem
+>, <guimenuitem
+>Wissen</guimenuitem
+> en <guimenuitem
+>Verversen</guimenuitem
+>. U kunt deze knoppen gebruiken om de huidige afspeellijst mee te bedienen.</para>
+
+<para
+>De volgende reeks knoppen zijn <guimenuitem
+>Ongedaan maken</guimenuitem
+> en <guimenuitem
+>Opnieuw</guimenuitem
+>. U kunt deze gebruiken om de wijzigingen die u in de afspeellijst hebt aangebracht ongedaan te maken, of opnieuw uit te voeren.</para>
+
+<para
+>In het midden van de werkbalk bevindt zich een ontleder. U kunt de verversingstijd ervan wijzigen door er met de &RMB; op te klikken en de gewenste frame rate te kiezen. Daarnaast volgen 5 knoppen waarmee u het afspelen van de afspeelijst kunt bepalen: Vorige track, Afspelen, Pauze, Stoppen en Volgende track.</para>
+
+<para
+>Nu volgt de volumeregelaar, waarmee u het volume kunt instellen. De laatste knop in de werkbalk is de <guimenuitem
+>Menu</guimenuitem
+>-knop. De <guimenuitem
+>Menu</guimenuitem
+>-knop opent hetzelfde menu als wanneer u met de &RMB; in het afspelervenster klikt. U kunt dit menu gebruiken om &amarok;'s configuratiedialogen te openen.</para>
+
+<tip
+><para
+>Er zijn nog enkele andere knoppen beschikbaar voor de werkbalk. U kunt knoppen toevoegen aan of verwijderen uit de werkbalk door op de knop <guibutton
+>Menu</guibutton
+> te klikken en menuoptie <guimenuitem
+>Werkbalken instellen...</guimenuitem
+> te selecteren. </para
+></tip>
+
+</sect1>
+
+<sect1 id="statusbar">
+<title
+>De statusbalk van de afspeellijst</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de statusbalk</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="status_bar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De statusbalk geeft informatie over de afspeellijst. De statusbalk toont de titel van de huidige track, het aantal tracks in de afspeellijst en de totale afspeeltijd van de lijst. Verder ziet u de status van het willekeurig en herhaald afspelen, een schuifregelaar die de trackpositie weergeeft, en de afspeeltijd van de huidige track. Dubbelklik op de Willekeurig- en Herhaal-status om ze te wijzigen, en klik op de afspeeltijd om de resterende tijd te laten weergeven.</para>
+
+<para
+>U kunt de statusbalk ook verbergen. Deselecteer het keuzevakje <guilabel
+>Statusbalk tonen</guilabel
+> in &amarok;'s configuratiedialoog, sectie <link linkend="general-options"
+>Algemeen</link
+>.</para>
+
+</sect1>
+
+<sect1 id="rmb-menu">
+<title
+>Het contextmenu</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van het contextmenu</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="rmb_menu.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Het contextmenu wordt geopend als u met de &RMB; klikt in het afspeellijstvenster. Dit menu is hetzelfde als wanneer u op de knop <guibutton
+>Menu</guibutton
+> rechtsonder in het afspeellijstvenster klikt. Het contextmenu geeft u toegang tot alle opties van &amarok;.</para>
+
+<variablelist>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Track herhalen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Deze optie zorgt ervoor dat het afspelen van de huidige track wordt herhaald.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Afspeellijst herhalen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Deze optie zorgt ervoor dat het afspelen van de hele afspeellijst wordt herhaald.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Willekeurig</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Deze optie zorgt ervoor dat de tracks in de afspeellijst op een willekeurige volgorde worden afgespeeld.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Suggesties toevoegen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Voegt de voorgestelde nummers in de Contextbrowser toe aan de huidige afspeellijst.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Hoesbeheerder</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Opent de <link linkend="cover-manager"
+>Hoesbeheerder</link
+>.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configuratie-assistent</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze menuoptie om de 'Configuratie-assistent' te starten. Met deze assistent kunt u de basisconfiguratie van &amarok; wijzigen.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Visualisaties...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze menuoptie om het <link linkend="visualizations"
+>Visualisatievenster</link
+> te openen, waarin u enkele visualisaties voor &amarok; kunt kiezen.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Equalizer</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Opent het <link linkend="equalizer"
+>Equalizervenster</link
+>.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Scriptbeheerder</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Opent de dialoog van de Scriptbeheerder.</para>
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Werkbalken instellen...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze menuoptie om de <link linkend="toolbar"
+>Afspeellijst-werkbalk</link
+> in te stellen.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Sneltoetsen instellen...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze knop om de <link linkend="keybd-shortcuts"
+>sneltoetsen van &amarok;</link
+> in te stellen.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Globale sneltoetsen instellen...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze menuoptie om de <link linkend="keybd-shortcuts"
+>globale sneltoetsen van &amarok;</link
+> in te stellen.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>amaroK instellen...</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Klik op deze menuoptie om de <link linkend="configuring-kapp"
+>configuratiedialoog van &amarok;</link
+> te openen.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Help</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Deze menuoptie biedt een submenu waarin u koppelingen naar dit document en andere informatie over &amarok; kunt vinden.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Afsluiten</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Deze menuoptie beëindigt &amarok;.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+<sect1 id="cover-manager">
+<title
+>Hoesbeheerder</title>
+
+<screenshot>
+	<screeninfo
+>Hoesbeheerder</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="coverman.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De Hoesbeheerder is een hulpprogramma waarmee u uw albumhoezen kunt beheren. U start de Hoesbeheerder door menuoptie <menuchoice
+><guimenu
+>Acties</guimenu
+><guimenuitem
+>Hoesbeheerder</guimenuitem
+></menuchoice
+> in de Collectiebrowser te selecteren.</para>
+
+<para
+>De hoesbeheerder geeft een overzicht van alle albums in uw collectie. In de lijst links ervan kunt u een artiest aanklikken om alleen de albums van deze artiest te laten weergeven.</para>
+
+<para
+>In de hoesbeheerder bevindt zich een zoekbalk waarmee u in uw albumhoezen kunt zoeken. De hoesbeheerder zal alleen de albums tonen die overeenkomen met de criteria die u in de zoekbalk ingevoerd hebt.</para>
+
+<para
+>In menu <guimenuitem
+>Beeld</guimenuitem
+> kunt u kiezen wat u wilt laten weergeven in de hoesbeheerder. U kunt kiezen uit:</para>
+
+<para
+><guimenuitem
+>Alle albums</guimenuitem
+>, alle albums uit uw collectie worden getoond.</para>
+
+<para
+><guimenuitem
+>Albums met hoes</guimenuitem
+> toont alleen de albums waarvan een hoesafbeelding beschikbaar is.</para>
+
+<para
+><guimenuitem
+>Albums zonder hoes</guimenuitem
+> toont alleen de albums waarvan geen hoesafbeelding beschikbaar is.</para>
+
+<para
+>Klik op de knop <guimenuitem
+>Ontbrekende hoezen ophalen</guimenuitem
+> om hoesafbeeldingen op te halen voor de albums die er nog geen hebben.</para>
+</sect1>
+
+<sect1 id="queue_manager">
+<title
+>De wachtrijbeheerder</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de wachtrijbeheerder</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="queue_manager.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De wachtrijbeheerder maakt zijn debuut in &amarok; 1.3. Deze functie is ontwikkeld om de gebruikers nog meer controle te geven over hun afspeellijsten. Na het aanmaken van de wachtrij zal er in de Wachtrijbeheerder een nummer worden getoond naast de tracks. Dit nummer geeft de volgorde aan waarin &amarok; de tracks zal afspelen, 1 is de eerste track, 2 de tweede, etc. </para>
+
+<para
+>U kunt de Wachtrijbeheerder openen via menuoptie <menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+><guimenuitem
+> Wachtrijbeheerder</guimenuitem
+></menuchoice
+>. Selecteer een track en klik op de pictogram <guibutton
+>+</guibutton
+> in de wachtrijbeheerder om deze aan de wachtrij toe te voegen. U kunt ook tracks naar de wachtrijbeheerder toe slepen om een wachtrij aan te maken. Daarnaast kun u het contextmenu van de afspeellijst gebruiken om de wachtrijbeheerder te openen.</para>
+
+</sect1>
+
+<sect1 id="dynamic_mode">
+<title
+>De dynamische modus</title>
+
+<para
+>De dynamische modus is een nieuwe functie in de 1.3-uitgave. In deze modus is het mogeljk om &amarok; tracks aan de afspeellijst te laten toevoegen, gebaseerd op een aantal criteria. Activeer de dynamische modus met menuoptie <menuchoice
+><guimenu
+>Instellingen</guimenu
+> <guimenuitem
+>Dynamische modus</guimenuitem
+></menuchoice
+>. U kunt ook naar tabblad Afspeellijsten gaan en op de knop <guibutton
+>Dynamische modus activeren</guibutton
+> klikken. Tot slot kunt u ook op het laatste pictogram op de statusbalk klikken. Eenmaal geactiveerd in &amarok; kunt u naar het afspeellijst-tabblad gaan en instelen hoe dynamisch uw afspeelijst zal worden. </para>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van het dynamische modus</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="dynamic_mode1.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<sect2>
+<title
+>Knoppen, waar zijn ze voor?</title>
+<para
+>U kunt meer aanpassingen uitvoeren dan alleen welk type afspeelijst er zal worden aangemaakt. (Bovenstaande afbeelding met dynamische modus en zaken en nummers om naar ze te refereren.) </para>
+
+<orderedlist>
+<listitem
+><para
+>Het keuzevakje <guibutton
+>Dynamische modus activeren</guibutton
+> is waar alle magie begint. Klik hierop om het "feest te beginnen" en u kunt veilig weglopen met de kennis dat alles goed zal komen.</para
+></listitem>
+
+<listitem
+><para
+>De knop <guibutton
+>Opties tonen</guibutton
+> schakelt de optieweergave van de dynamische modus aan of uit. Hierin kunt u de volgende items aanpassen om een dynamische afspeellijst naar eigen inzicht aan te maken.</para
+></listitem>
+
+<listitem
+><para
+>In het uitvouwveld <guilabel
+>Type muziek om aan afspeellijst toe te voegen</guilabel
+> kunt u de verschillende modi voor het afspelen selecteren. Ze worden in de volgende sectie uitgelegd.</para
+></listitem>
+
+<listitem
+><para
+>De optie <guilabel
+>Tracks doorlopen</guilabel
+> verwijdert tracks aan het begin van de afspeellijst. Deze optie kan verder worden ingesteld bij de optie <guilabel
+>Maximale geschiedenis om te tonen</guilabel
+>.</para
+></listitem>
+
+<listitem
+><para
+>Selecteer <guilabel
+>Geschiedenis markeren</guilabel
+> om de reeds afgespeelde tracks grijs te maken.</para
+></listitem>
+
+<listitem
+><para
+>Met de optie <guilabel
+>Afgespeelde tracks om te tonen</guilabel
+> kunt u bepalen hoeveel reeds afgespeelde tracks in de afspeellijst blijven staan.</para
+></listitem>
+
+<listitem
+><para
+>Met de optie <guilabel
+>Aankomende tracks</guilabel
+> kunt u aangeven hoeveel aankomende tracks er telkens toegevoegd zullen worden. De knop <guibutton
+>Opnieuw vullen</guibutton
+> voegt dit aantal tracks aan de afspeellijst.</para
+></listitem>
+
+<listitem
+><para
+><guilabel
+>Tracks om toe te voegen</guilabel
+> definieert hoeveel tracks er worden toegevoegd aan de afspeellijst, telkens als er een track wordt afgespeeld. Wijzig deze naar believen.</para
+></listitem>
+
+<listitem
+><para
+>Met de knop <guibutton
+>Opnieuw vullen</guibutton
+> kunt u de afspeellijst herstarten of de afspeellijst beginnen als er momenteel niets is toegevoegd.</para
+></listitem>
+</orderedlist>
+
+</sect2>
+
+<sect2>
+<title
+>Afspeelmodi</title>
+<para
+>Er zijn momenteel drie typen afspeellijsten die kunnen worden gegenereerd met de dynamische modus: </para>
+
+<orderedlist>
+<listitem
+><para
+>Willekeurige track</para
+></listitem>
+<listitem
+><para
+>Voorgestelde track</para
+></listitem>
+<listitem
+><para
+>Afspeellijst door elkaar</para
+></listitem>
+</orderedlist>
+
+<para
+>Bij willekeurige tracks worden de tracks uit de hele collectie toegevoegd aan de afspeellijst. Het toevoegen gebeurt volledig willekeurig.</para>
+
+<para
+>Bij willekeurige tracks worden de tracks uit de database van <link linkend="configure-scrobbler"
+>audioscrobbler</link
+> gehaald. Hiermee kunt u de afspeellijst afstemmen op bepaalde genres, zodat er telkens hetzelfde type tracks wordt afgespeeld.</para>
+
+<para
+>De afspeellijst door elkaar doet verder helemaal niets. OK, dat is niet helemaal waar. Als u deze methode kiest, dan moet u ook enkele afspeellijsten kiezen die &amarok; door elkaar kan gooien. Nadat u de afspeellijsten hebt gekozen zullen tracks willekeurig uit deze afspeellijsten worden toegevoegd.</para>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van dyamische modus met afspeellijst door elkaar</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="dynamic_mode2.png" format="PNG"/>
+	</imageobject>
+	<textobject>
+	<phrase
+>Afspeellijst door elkaar met geselecteerde afspeellijsten</phrase>
+	</textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Dat was dan de inleiding tot de dynamische modus, mensen, nu is het tijd voor 'roK'.</para>
+</sect2>
+</sect1>
+
+<sect1 id="script_manager">
+<title
+>De scriptbeheerder</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de scriptbeheerder</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="script_manager.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>De scriptinterface levert een eenvoudige manier om de functionaliteit van &amarok; uit te breiden. Om een&amarok;-script te draaien, start de scriptbeheerder via menuoptie <menuchoice
+><guimenu
+>Hulpmiddelen</guimenu
+><guimenuitem
+>Scriptbeheerder</guimenuitem
+></menuchoice
+> in de menubalk van &amarok;. In de scriptbeheerder ziet u een lijst met de geïnstalleerde scripts. Seleteer een script en klik op de knop <guibutton
+>Uitvoeren</guibutton
+> om het script te starten. Het &amarok;-script blijft draaien tot het voltooid is, of totdat u het handmatig stopt door het script in de scriptbeheerder te selecteren en op de knop <guibutton
+>Stoppen</guibutton
+> te klikken.</para>
+
+<tip
+><para
+>Sommige scripts leveren speciale configuratieopties. Om deze opties te openen voert u eerst het script uit en klikt u daarna op de knop <guibutton
+>Instellen</guibutton
+>. De cofiguratiedialoog van het script wordt dan geopend.</para
+></tip>
+
+<para
+>Om nieuwe &amarok;-te installeren klikt u op de knop <guibutton
+>Script installeren</guibutton
+> in de scriptbeheerder. Er wordt dan een nieuw dialoog geopend waarin u kunt bladeren naar het &amarok;-scriptpakket. Na het selecteren van het te installeren script verschijnt er een nieuw item in de scriptlijst. U kunt ook nieuwe scripts installeren door te klikken op de knop <guibutton
+>Meer scripts ophalen</guibutton
+>. Er wordt dan een dialoog geopend waarmee u automatisch scripts van internet kunt downloaden en installeren.</para>
+
+<para
+>U vindt mogelijk ook scripts die u niet langer gebruikt. Om een script te verwijderen selecteert u het script in de scriptbeheerder en klikt u op de knop <guibutton
+>Deïnstalleren</guibutton
+>.</para>
+
+<note
+><para
+>Als u meer informatie wilt over het schrijven van een &amarok;-script, lees dan de sectie <link linkend="script-writing"
+>Scripts schrijven</link
+> van dit document.</para
+></note>
+
+</sect1>
+
+<sect1 id="visualizations">
+<title
+>De visualisaties</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de visualisaties</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="vis_window.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Het visualisatievenster kunt u gebruiken om de in &amarok; beschikbare visualisaties te activeren. Het venster toont een lijst met beschikbare visualisaties. U activeert een visualisatie door het keuzevakje ervoor te selecteren.</para>
+
+</sect1>
+
+
+</chapter>

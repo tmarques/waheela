@@ -1,0 +1,312 @@
+/****************************************************************************
+** PlaylistWindow meta object code from reading C++ file 'playlistwindow.h'
+**
+** Created: Fri Mar 23 10:41:04 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playlistwindow.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *PlaylistWindow::className() const
+{
+    return "PlaylistWindow";
+}
+
+QMetaObject *PlaylistWindow::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlaylistWindow( "PlaylistWindow", &PlaylistWindow::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlaylistWindow::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistWindow", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlaylistWindow::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistWindow", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlaylistWindow::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"showHide", 0, 0 };
+    static const QUMethod slot_1 = {"savePlaylist", 0, 0 };
+    static const QUMethod slot_2 = {"slotPlayMedia", 0, 0 };
+    static const QUMethod slot_3 = {"slotAddLocation", 0, 0 };
+    static const QUParameter param_slot_4[] = {
+	{ "directPlay", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"slotAddLocation", 1, param_slot_4 };
+    static const QUMethod slot_5 = {"playAudioCD", 0, 0 };
+    static const QUMethod slot_6 = {"showQueueManager", 0, 0 };
+    static const QUMethod slot_7 = {"showScriptSelector", 0, 0 };
+    static const QUMethod slot_8 = {"showStatistics", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"slotMenuActivated", 1, param_slot_9 };
+    static const QUMethod slot_10 = {"actionsMenuAboutToShow", 0, 0 };
+    static const QUMethod slot_11 = {"toolsMenuAboutToShow", 0, 0 };
+    static const QUMethod slot_12 = {"slotToggleMenu", 0, 0 };
+    static const QUMethod slot_13 = {"slotToggleFocus", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "showHide()", &slot_0, QMetaData::Public },
+	{ "savePlaylist()", &slot_1, QMetaData::Private },
+	{ "slotPlayMedia()", &slot_2, QMetaData::Private },
+	{ "slotAddLocation()", &slot_3, QMetaData::Private },
+	{ "slotAddLocation(bool)", &slot_4, QMetaData::Private },
+	{ "playAudioCD()", &slot_5, QMetaData::Private },
+	{ "showQueueManager()", &slot_6, QMetaData::Private },
+	{ "showScriptSelector()", &slot_7, QMetaData::Private },
+	{ "showStatistics()", &slot_8, QMetaData::Private },
+	{ "slotMenuActivated(int)", &slot_9, QMetaData::Private },
+	{ "actionsMenuAboutToShow()", &slot_10, QMetaData::Private },
+	{ "toolsMenuAboutToShow()", &slot_11, QMetaData::Private },
+	{ "slotToggleMenu()", &slot_12, QMetaData::Private },
+	{ "slotToggleFocus()", &slot_13, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlaylistWindow", parentObject,
+	slot_tbl, 14,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlaylistWindow.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlaylistWindow::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlaylistWindow" ) )
+	return this;
+    if ( !qstrcmp( clname, "KXMLGUIClient" ) )
+	return (KXMLGUIClient*)this;
+    return QWidget::qt_cast( clname );
+}
+
+bool PlaylistWindow::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: showHide(); break;
+    case 1: savePlaylist(); break;
+    case 2: slotPlayMedia(); break;
+    case 3: slotAddLocation(); break;
+    case 4: slotAddLocation((bool)static_QUType_bool.get(_o+1)); break;
+    case 5: playAudioCD(); break;
+    case 6: showQueueManager(); break;
+    case 7: showScriptSelector(); break;
+    case 8: showStatistics(); break;
+    case 9: slotMenuActivated((int)static_QUType_int.get(_o+1)); break;
+    case 10: actionsMenuAboutToShow(); break;
+    case 11: toolsMenuAboutToShow(); break;
+    case 12: slotToggleMenu(); break;
+    case 13: slotToggleFocus(); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlaylistWindow::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlaylistWindow::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool PlaylistWindow::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *DynamicTitle::className() const
+{
+    return "DynamicTitle";
+}
+
+QMetaObject *DynamicTitle::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_DynamicTitle( "DynamicTitle", &DynamicTitle::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString DynamicTitle::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DynamicTitle", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString DynamicTitle::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DynamicTitle", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* DynamicTitle::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"DynamicTitle", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_DynamicTitle.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* DynamicTitle::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "DynamicTitle" ) )
+	return this;
+    return QWidget::qt_cast( clname );
+}
+
+bool DynamicTitle::qt_invoke( int _id, QUObject* _o )
+{
+    return QWidget::qt_invoke(_id,_o);
+}
+
+bool DynamicTitle::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool DynamicTitle::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool DynamicTitle::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *DynamicBar::className() const
+{
+    return "DynamicBar";
+}
+
+QMetaObject *DynamicBar::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_DynamicBar( "DynamicBar", &DynamicBar::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString DynamicBar::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DynamicBar", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString DynamicBar::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "DynamicBar", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* DynamicBar::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QHBox::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "mode", &static_QUType_ptr, "DynamicMode", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotNewDynamicMode", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "title", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"changeTitle", 1, param_slot_1 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotNewDynamicMode(const DynamicMode*)", &slot_0, QMetaData::Public },
+	{ "changeTitle(const QString&)", &slot_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"DynamicBar", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_DynamicBar.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* DynamicBar::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "DynamicBar" ) )
+	return this;
+    return QHBox::qt_cast( clname );
+}
+
+bool DynamicBar::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotNewDynamicMode((const DynamicMode*)static_QUType_ptr.get(_o+1)); break;
+    case 1: changeTitle((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return QHBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool DynamicBar::qt_emit( int _id, QUObject* _o )
+{
+    return QHBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool DynamicBar::qt_property( int id, int f, QVariant* v)
+{
+    return QHBox::qt_property( id, f, v);
+}
+
+bool DynamicBar::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

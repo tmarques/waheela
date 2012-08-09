@@ -1,0 +1,633 @@
+<chapter id="configuring-kapp">
+<title
+>Anpassa &amarok;</title>
+
+
+<para
+>&amarok; kan enkelt ställas in från inställningsdialogrutan. Inställningsdialogrutan har flera flikar för att anpassa olika funktioner i &amarok;.</para>
+
+<para
+>Inställningsdialogrutan visas genom att välja <guimenuitem
+>Anpassa &amarok;</guimenuitem
+> i spelarfönstrets <link linkend="rmb-menu"
+>sammanhangsberoende meny</link
+>.</para>
+
+
+<sect1 id="general-options">
+<title
+>Allmänna inställningar</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Allmänna inställningar</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Fliken Allmänna inställningar är uppdelad i två delar, <guimenuitem
+>Allmänna inställningar</guimenuitem
+> och <guimenuitem
+>Inställningar av spellista</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Allmänna inställningar</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Under allmänna Inställningar kan du anpassa några grundläggande alternativ i &amarok;.</para>
+
+<para
+>Alternativet <guilabel
+>Visa startskärm</guilabel
+> används för att aktivera användning av startskärmen när du startar &amarok;.</para>
+
+<para
+>Efter startskärmen finns alternativet <guilabel
+>Visa ikon i systembrickan</guilabel
+> som låter dig aktivera eller inaktivera systembrickans ikon.</para>
+ 
+<para
+>Alternativet <guilabel
+>Animera ikon i systembrickan</guilabel
+> används för att aktivera eller inaktivera statusanimeringen av systembrickans ikon.</para>
+
+<para
+>Därefter kommer <guilabel
+>Visa spelarens fönster</guilabel
+>. Markeras alternativet visas <link linkend="player-window"
+>spelarens fönster</link
+> samtidigt med <link linkend="playlist-window"
+>spellistans fönster</link
+> på liknande sätt som för XMMS. Avmarkeras alternativet aktiveras bara spellistan på ett liknande sätt som JUK.</para>
+
+<para
+>Det sista alternativet, <guilabel
+>Förvald storlek för förhandsgranskning av omslagsbilder</guilabel
+> är en nummerinmatningsruta för att justera storleken på skivomslagsbilderna i sammanhangsbläddraren för <guilabel
+>Spelar nu</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Alternativ för spellista</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Under Inställningar av spellista kan du anpassa spellistans beteende.</para>
+
+<para
+>Det första alternativet <guilabel
+>Kom ihåg nuvarande spellista vid avslutning</guilabel
+> är för att spara spellistan när du avslutar &amarok;. Markera det om du vill spara din nuvarande spellista när du avslutar &amarok;.</para>
+
+<para
+>När alternativet <guilabel
+>Dölj spellista med huvudfönster</guilabel
+> är markerat, döljs <link linkend="playlist-window"
+>spelarens fönster</link
+> när <link linkend="player-window"
+>spellistans fönster</link
+> döljs. Genom att avmarkera alternativet kan du enbart dölja <link linkend="player-window"
+>spelarens fönster</link
+>, så att du kan styra &amarok; helt från <link linkend="playlist-window"
+>spellistans fönster</link
+>.</para>
+
+<para
+>Alternativet <guilabel
+>Spellistan rullar med aktiv sång</guilabel
+> rullar automatiskt <link linkend="playlist"
+>spellistan</link
+> för att visa sången som för närvarande spelas.</para>
+
+<para
+>Alternativet <guilabel
+>Lägg till kataloger rekursivt</guilabel
+> är praktiskt när du vill lägga till media från en katalog och alla dess underkataloger på en gång.</para>
+
+<para
+>Alternativet <guilabel
+>Visa statusrad</guilabel
+> används för att visa eller dölja <link linkend="statusbar"
+>statusraden</link
+> i <link linkend="playlist-window"
+>spellistans fönster</link
+>.</para>
+
+<para
+>Till sist, används alternativet <guilabel
+>Visa sammanhangsbläddrare automatiskt</guilabel
+> för att aktivera ammanhangsbläddraren automatiskt när du startar uppspelning.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Anpassa utseende</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa utseende</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fliken utseende låter dig anpassa hur &amarok; ser ut. Fliken är uppdelad i tre rutor.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Teckensnitt</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Rutan för teckensnitts används för att välja teckensnitten som ska användas med &amarok;. Att markera kryssrutan <guilabel
+>Använd egna teckensnitt</guilabel
+> aktiverar val av teckensnitt för &amarok;. Tillgängliga val gäller <link linkend="player-window"
+>spelarfönstret</link
+>, <link linkend="playlist-window"
+>bläddringsfönstret</link
+> och sammanhangsbläddraren. Genom att klicka på knappen <guibutton
+>Välj</guibutton
+> kan du välja ett teckensnitt i dialogrutan Välj teckensnitt.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Färgschema</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Rutan för färgschema används för att välja färgschemat för &amarok;. <guilabel
+>Aktuellt KDE-färgschema</guilabel
+> gör att &amarok; följer de nuvarande KDE-färgerna. <guilabel
+>Det klassiska amaroK-temat</guilabel
+> gör att &amarok; följer de ursprungliga färgerna för &amarok;. Till sist, genom att välja <guilabel
+>Eget färgschema</guilabel
+> aktiveras färgväljare för att välja ett eget färgschema för &amarok;.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Taggar</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Taggrutan är till för att välja en kodning för dina ID3v1-taggar. Att aktivera kryssrutan <guilabel
+>Koda om ID3v1-taggar</guilabel
+> aktiverar en kombinationsruta för att välja teckenuppsättningen du vill använda.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Anpassa uppspelning</title>
+
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa uppspelning</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fliken Anpassa uppspelning tillhandahåller ett gränssnitt för att anpassa karaktäristiken hos ljuduppspelningen.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Övergångsbeteende</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Du kan anpassa hur &amarok; gör övergångar från en sång till nästa. <guilabel
+>Ingen övertoning</guilabel
+> tillhandahåller ett tyst gap som anges i millisekunder. <guilabel
+>Övertoning</guilabel
+> tillhandahåller en trevlig toningseffekt, med en övertoningsperiod som också anges i millisekunder.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Återstående alternativ</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Återstående inställningar under uppspelningsfliken innehåller flera kryssrutor för att anpassa följande alternativ:</para>
+
+<para
+><guilabel
+>Återuppta uppspelning vid start</guilabel
+> låter dig återuppta den sista sången som spelades när &amarok; senast stängdes vid start. </para>
+
+<para
+><guilabel
+>Använd volymmixer i hårdvara</guilabel
+> anpassar &amarok;s volymreglage så att det justerar ljudkortets mixer för att styra volymnivån.</para>
+
+<para
+><guilabel
+>Kom ihåg effekter</guilabel
+> sparar dina ljudservereffekter, som ställs in med knappen <guibutton
+>FX</guibutton
+> i <link linkend="player-window"
+>spelarens fönster</link
+>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>Anpassa skärmvisning</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa skärmvisning</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Anpassa skärmvisning</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Fliken <guilabel
+>Anpassa skärmvisning</guilabel
+> låter dig aktivera skärmvisningen. Om kryssrutan för skärmvisning är markerad, aktiveras en ruta för att anpassa visningens utseende. När skärmvisningen är aktiverad visas också en förhandsgranskningskomponent, som låter dig se effekterna för dina ändringar av skärmvisningens utseende.</para>
+
+<para
+>Det första alternativet för skärmvisningen är teckensnittet. Genom att klicka på knappen <guibutton
+>Välj...</guibutton
+> visas en dialogruta för att välja teckensnitt, som låter dig välja teckensnittet som används för skärmvisningen. Det finns också en kryssruta som heter <guilabel
+>Rita skugga</guilabel
+>, för att aktivera eller inaktivera användning av skuggad text i skärmvisningen.</para>
+
+<para
+>Nästa alternativ gäller skärmvisningens färger. Genom att markera kryssrutan <guilabel
+>Använd egna färger</guilabel
+> aktiveras knapparna <guibutton
+>Textfärg:</guibutton
+> och <guibutton
+>Bakgrundsfärg:</guibutton
+>. Genom att klicka på knapparna visas en dialogruta för att välja färgen för skärmvisningens text eller bakgrund. Om kryssrutan <guilabel
+>Använd egna färger</guilabel
+> inte är markerad, använder skärmvisningen det nuvarande färgschemat i &kde;.</para>
+
+<para
+>Textinmatningsrutan <guilabel
+>Visa text</guilabel
+> används för att anpassa texten som visas med skärmvisningen. Genom att tilldela variabler kan du anpassa skärmvisningen för att passa dina behov. Nedan finns en lista med variablerna och den text de motsvarar.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Text</entry>
+<entry
+>Variabel</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Titel</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Album</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Artist</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Genre</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Bithastighet</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>År</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Spårlängd</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Spårnummer</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Filnamn</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Kommentar</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Betyg</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Uppspelningsantal</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Rutan <guilabel
+>Tid</guilabel
+> används för att justera tiden i millisekunder som skärmvisningen syns på skrivbordet.</para>
+
+<para
+>Alternativet <guilabel
+>Skärm</guilabel
+> är bara till för användare av Xinerama. Alternativet används för att avgöra vilken skärm som används för att visa skärmvisningen när det finns flera bildskärmar.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Anpassa gränssnitt</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa gränssnitt</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fliken anpassa gränssnitt låter dig välja ett ljudgränssnitt från listan i kombinationsrutan. Vissa gränssnitt aktiverar fler alternativ under fliken och de beror på gränssnittet du väljer.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Anpassa Samling</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa samling</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fliken Anpassa samling används för att ställa in alla samlingsalternativ. De omfattar katalogerna som används i din samling, och typ av databas som används för samlingen. Dialogrutan är uppdelad i två delar, Samlingskataloger och Samlingsdatabas.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Samlingskataloger</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+><guilabel
+>Samlingskataloger</guilabel
+> gör det möjligt att välja kataloger som används i din samling genom att visa filsystemet i en trädvy. Rutan <guilabel
+>Samlingskataloger</guilabel
+> har också flera kryssrutor för att anpassa hur samlingen använder valda kataloger.</para>
+
+<para
+>Aktivera kryssrutan <guilabel
+>Sök rekursivt i kataloger</guilabel
+> om du vill att samlingen ska söka i valda kataloger och alla deras underkataloger. Om du vill att samlingen ska bevaka ändringar som görs i filsystemet, aktivera kryssrutan <guilabel
+>Bevaka katalog efter ändringar</guilabel
+>. Till sist, om du vill importera eventuella spellistor som finns i din samling, aktivera kryssrutan <guilabel
+>Importera spellistor</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Samlingsdatabas</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Rutan <guilabel
+>Samlingsdatabas</guilabel
+> används för att välja en databas att använda för samlingen. Använd kombinationsrutan <guilabel
+>Gränssnitt:</guilabel
+> för att välja antingen Sqlite eller MySQL. Om MySQL väljes, krävs ytterligare inställning på sidan <guilabel
+>Anpassa MySQL</guilabel
+>.</para>
+
+<para
+>Rutan <guilabel
+>Inställning av MySql</guilabel
+> är till för att anpassa vilken databas &amarok; använder, och var den finns. Först kommer <guilabel
+>Värddator:</guilabel
+>, vilket är platsen där MySql-databasen finns. Därefter kommer <guilabel
+>Port:</guilabel
+>, vilket är nätverksporten som används vid anslutning till databasen. Det sista alternativet <guilabel
+>Namn:</guilabel
+>, är själva databasen som ska anslutas till.</para>
+
+<para
+>Använd textinmatningsrutorna <guilabel
+>Användare:</guilabel
+> och <guilabel
+>Lösenord:</guilabel
+> för att ange användarnamn och lösenord som används för att ansluta till MySql-databasen.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Anpassa Scrobbler</title>
+
+<screenshot>
+	<screeninfo
+>Skärmbild av Anpassa Scrobbler</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fliken Scrobbler anpassar stödet för Audioscrobbler i &amarok;. Audioscrobbler skickar in spår du spelar och matchar din profil med andra som har samma musiksmak och skapar rekommendationer baserat på din profil.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Profil för Audioscrobbler</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Här fyller du i <guilabel
+>Användarnamn:</guilabel
+> och <guilabel
+>Lösenord:</guilabel
+> för din Audioscrobbler-profil. Om du inte har en Audioscrobbler-profil kan du <ulink url="http://www.audioscrobbler.com:80/signup.php"
+>registrera dig gär</ulink
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Skicka in spår</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Genom att skicka in spår du spelar kan &amarok; föreslå ny musik att lyssna på i sammanhangsbläddraren. Att markera kryssrutan <guilabel
+>Skicka in spelade spår</guilabel
+> aktiverar funktionen och skickar in spåren du spelar till din Audioscrobbler-profil.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

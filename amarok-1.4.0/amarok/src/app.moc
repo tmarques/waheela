@@ -1,0 +1,218 @@
+/****************************************************************************
+** App meta object code from reading C++ file 'app.h'
+**
+** Created: Fri Mar 23 10:37:33 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "app.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *App::className() const
+{
+    return "App";
+}
+
+QMetaObject *App::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_App( "App", &App::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString App::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "App", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString App::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "App", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* App::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KApplication::staticMetaObject();
+    static const QUMethod slot_0 = {"showHyperThreadingWarning", 0, 0 };
+    static const QUMethod slot_1 = {"setRating1", 0, 0 };
+    static const QUMethod slot_2 = {"setRating2", 0, 0 };
+    static const QUMethod slot_3 = {"setRating3", 0, 0 };
+    static const QUMethod slot_4 = {"setRating4", 0, 0 };
+    static const QUMethod slot_5 = {"setRating5", 0, 0 };
+    static const QUMethod slot_6 = {"applySettings", 0, 0 };
+    static const QUParameter param_slot_7[] = {
+	{ "firstTime", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"applySettings", 1, param_slot_7 };
+    static const QUMethod slot_8 = {"slotConfigAmarok", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ "page", &static_QUType_varptr, "\x14", QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"slotConfigAmarok", 1, param_slot_9 };
+    static const QUMethod slot_10 = {"slotConfigShortcuts", 0, 0 };
+    static const QUMethod slot_11 = {"slotConfigGlobalShortcuts", 0, 0 };
+    static const QUMethod slot_12 = {"slotConfigToolBars", 0, 0 };
+    static const QUMethod slot_13 = {"slotConfigEqualizer", 0, 0 };
+    static const QUMethod slot_14 = {"firstRunWizard", 0, 0 };
+    static const QUParameter param_slot_15[] = {
+	{ "use", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"setUseScores", 1, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ "use", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"setUseRatings", 1, param_slot_16 };
+    static const QUParameter param_slot_17[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::Out },
+	{ "files", &static_QUType_ptr, "KURL::List", QUParameter::In }
+    };
+    static const QUMethod slot_17 = {"trashFiles", 2, param_slot_17 };
+    static const QUMethod slot_18 = {"quit", 0, 0 };
+    static const QUParameter param_slot_19[] = {
+	{ "job", &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_19 = {"slotTrashResult", 1, param_slot_19 };
+    static const QMetaData slot_tbl[] = {
+	{ "showHyperThreadingWarning()", &slot_0, QMetaData::Private },
+	{ "setRating1()", &slot_1, QMetaData::Private },
+	{ "setRating2()", &slot_2, QMetaData::Private },
+	{ "setRating3()", &slot_3, QMetaData::Private },
+	{ "setRating4()", &slot_4, QMetaData::Private },
+	{ "setRating5()", &slot_5, QMetaData::Private },
+	{ "applySettings()", &slot_6, QMetaData::Public },
+	{ "applySettings(bool)", &slot_7, QMetaData::Public },
+	{ "slotConfigAmarok()", &slot_8, QMetaData::Public },
+	{ "slotConfigAmarok(const QCString&)", &slot_9, QMetaData::Public },
+	{ "slotConfigShortcuts()", &slot_10, QMetaData::Public },
+	{ "slotConfigGlobalShortcuts()", &slot_11, QMetaData::Public },
+	{ "slotConfigToolBars()", &slot_12, QMetaData::Public },
+	{ "slotConfigEqualizer()", &slot_13, QMetaData::Public },
+	{ "firstRunWizard()", &slot_14, QMetaData::Public },
+	{ "setUseScores(bool)", &slot_15, QMetaData::Public },
+	{ "setUseRatings(bool)", &slot_16, QMetaData::Public },
+	{ "trashFiles(const KURL::List&)", &slot_17, QMetaData::Public },
+	{ "quit()", &slot_18, QMetaData::Public },
+	{ "slotTrashResult(KIO::Job*)", &slot_19, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "use", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"useScores", 1, param_signal_0 };
+    static const QUParameter param_signal_1[] = {
+	{ "use", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"useRatings", 1, param_signal_1 };
+    static const QUMethod signal_2 = {"prepareToQuit", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "useScores(bool)", &signal_0, QMetaData::Public },
+	{ "useRatings(bool)", &signal_1, QMetaData::Public },
+	{ "prepareToQuit()", &signal_2, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"App", parentObject,
+	slot_tbl, 20,
+	signal_tbl, 3,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_App.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* App::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "App" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return KApplication::qt_cast( clname );
+}
+
+// SIGNAL useScores
+void App::useScores( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+// SIGNAL useRatings
+void App::useRatings( bool t0 )
+{
+    activate_signal_bool( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+// SIGNAL prepareToQuit
+void App::prepareToQuit()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 2 );
+}
+
+bool App::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: showHyperThreadingWarning(); break;
+    case 1: setRating1(); break;
+    case 2: setRating2(); break;
+    case 3: setRating3(); break;
+    case 4: setRating4(); break;
+    case 5: setRating5(); break;
+    case 6: applySettings(); break;
+    case 7: applySettings((bool)static_QUType_bool.get(_o+1)); break;
+    case 8: slotConfigAmarok(); break;
+    case 9: slotConfigAmarok((const QCString&)*((const QCString*)static_QUType_ptr.get(_o+1))); break;
+    case 10: slotConfigShortcuts(); break;
+    case 11: slotConfigGlobalShortcuts(); break;
+    case 12: slotConfigToolBars(); break;
+    case 13: slotConfigEqualizer(); break;
+    case 14: firstRunWizard(); break;
+    case 15: setUseScores((bool)static_QUType_bool.get(_o+1)); break;
+    case 16: setUseRatings((bool)static_QUType_bool.get(_o+1)); break;
+    case 17: static_QUType_ptr.set(_o,trashFiles((const KURL::List&)*((const KURL::List*)static_QUType_ptr.get(_o+1)))); break;
+    case 18: quit(); break;
+    case 19: slotTrashResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return KApplication::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool App::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: useScores((bool)static_QUType_bool.get(_o+1)); break;
+    case 1: useRatings((bool)static_QUType_bool.get(_o+1)); break;
+    case 2: prepareToQuit(); break;
+    default:
+	return KApplication::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool App::qt_property( int id, int f, QVariant* v)
+{
+    return KApplication::qt_property( id, f, v);
+}
+
+bool App::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

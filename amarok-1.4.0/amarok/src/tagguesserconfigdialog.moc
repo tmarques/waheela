@@ -1,0 +1,136 @@
+/****************************************************************************
+** TagGuesserConfigDialog meta object code from reading C++ file 'tagguesserconfigdialog.h'
+**
+** Created: Fri Mar 23 10:42:55 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "tagguesserconfigdialog.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *TagGuesserConfigDialog::className() const
+{
+    return "TagGuesserConfigDialog";
+}
+
+QMetaObject *TagGuesserConfigDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_TagGuesserConfigDialog( "TagGuesserConfigDialog", &TagGuesserConfigDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString TagGuesserConfigDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "TagGuesserConfigDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString TagGuesserConfigDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "TagGuesserConfigDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* TagGuesserConfigDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialog::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotCurrentChanged", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"accept", 0, 0 };
+    static const QUMethod slot_2 = {"reject", 0, 0 };
+    static const QUParameter param_slot_3[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ "c", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"slotRenameItem", 3, param_slot_3 };
+    static const QUMethod slot_4 = {"slotMoveUpClicked", 0, 0 };
+    static const QUMethod slot_5 = {"slotMoveDownClicked", 0, 0 };
+    static const QUMethod slot_6 = {"slotAddClicked", 0, 0 };
+    static const QUMethod slot_7 = {"slotModifyClicked", 0, 0 };
+    static const QUMethod slot_8 = {"slotRemoveClicked", 0, 0 };
+    static const QUMethod slot_9 = {"languageChange", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotCurrentChanged(QListViewItem*)", &slot_0, QMetaData::Public },
+	{ "accept()", &slot_1, QMetaData::Public },
+	{ "reject()", &slot_2, QMetaData::Public },
+	{ "slotRenameItem(QListViewItem*,const QPoint&,int)", &slot_3, QMetaData::Public },
+	{ "slotMoveUpClicked()", &slot_4, QMetaData::Public },
+	{ "slotMoveDownClicked()", &slot_5, QMetaData::Public },
+	{ "slotAddClicked()", &slot_6, QMetaData::Public },
+	{ "slotModifyClicked()", &slot_7, QMetaData::Public },
+	{ "slotRemoveClicked()", &slot_8, QMetaData::Public },
+	{ "languageChange()", &slot_9, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"TagGuesserConfigDialog", parentObject,
+	slot_tbl, 10,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_TagGuesserConfigDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* TagGuesserConfigDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "TagGuesserConfigDialog" ) )
+	return this;
+    return KDialog::qt_cast( clname );
+}
+
+bool TagGuesserConfigDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotCurrentChanged((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 1: accept(); break;
+    case 2: reject(); break;
+    case 3: slotRenameItem((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 4: slotMoveUpClicked(); break;
+    case 5: slotMoveDownClicked(); break;
+    case 6: slotAddClicked(); break;
+    case 7: slotModifyClicked(); break;
+    case 8: slotRemoveClicked(); break;
+    case 9: languageChange(); break;
+    default:
+	return KDialog::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool TagGuesserConfigDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KDialog::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool TagGuesserConfigDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KDialog::qt_property( id, f, v);
+}
+
+bool TagGuesserConfigDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

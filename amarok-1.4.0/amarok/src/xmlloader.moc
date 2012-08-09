@@ -1,0 +1,136 @@
+/****************************************************************************
+** MetaBundle::XmlLoader meta object code from reading C++ file 'xmlloader.h'
+**
+** Created: Fri Mar 23 10:42:17 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "xmlloader.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MetaBundle::XmlLoader::className() const
+{
+    return "MetaBundle::XmlLoader";
+}
+
+QMetaObject *MetaBundle::XmlLoader::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MetaBundle__XmlLoader( "MetaBundle::XmlLoader", &MetaBundle::XmlLoader::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MetaBundle::XmlLoader::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MetaBundle::XmlLoader", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MetaBundle::XmlLoader::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MetaBundle::XmlLoader", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MetaBundle::XmlLoader::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_signal_0[] = {
+	{ "bundle", &static_QUType_ptr, "MetaBundle", QUParameter::In },
+	{ "extraAttributes", &static_QUType_ptr, "XmlAttributeList", QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"newBundle", 2, param_signal_0 };
+    static const QUParameter param_signal_1[] = {
+	{ "errorMessage", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"error", 1, param_signal_1 };
+    static const QMetaData signal_tbl[] = {
+	{ "newBundle(const MetaBundle&,const XmlAttributeList&)", &signal_0, QMetaData::Public },
+	{ "error(const QString&)", &signal_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MetaBundle::XmlLoader", parentObject,
+	0, 0,
+	signal_tbl, 2,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MetaBundle__XmlLoader.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MetaBundle::XmlLoader::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MetaBundle::XmlLoader" ) )
+	return this;
+    if ( !qstrcmp( clname, "QXmlDefaultHandler" ) )
+	return (QXmlDefaultHandler*)this;
+    return QObject::qt_cast( clname );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL newBundle
+void MetaBundle::XmlLoader::newBundle( const MetaBundle& t0, const XmlAttributeList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_ptr.set(o+1,&t0);
+    static_QUType_ptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL error
+void MetaBundle::XmlLoader::error( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+bool MetaBundle::XmlLoader::qt_invoke( int _id, QUObject* _o )
+{
+    return QObject::qt_invoke(_id,_o);
+}
+
+bool MetaBundle::XmlLoader::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: newBundle((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1)),(const XmlAttributeList&)*((const XmlAttributeList*)static_QUType_ptr.get(_o+2))); break;
+    case 1: error((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MetaBundle::XmlLoader::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool MetaBundle::XmlLoader::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

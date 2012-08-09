@@ -1,0 +1,625 @@
+<chapter id="configuring-kapp">
+<title
+>&amarok; instellen</title>
+
+
+<para
+>&amarok; kunt u vanuit de configuratiedialoog op eenvoudige wijze instellen. Dit dialoog heeft meerdere secties voor het instellen van de verschillende functies van &amarok;.</para>
+
+<para
+>U kunt de configuratiedialoog openen via menuoptie <guimenuitem
+>&amarok; instellen</guimenuitem
+> in het <link linkend="rmb-menu"
+>contextmenu</link
+> van het afspelervenster.</para>
+
+
+<sect1 id="general-options">
+<title
+>Algemene opties</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van algemene opties</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Sectie Algemene opties is ingedeeld in twee onderdelen: <guimenuitem
+>Algemene opties</guimenuitem
+> en <guimenuitem
+>Opties voor afspeellijst</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Algemene opties</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>In dit gedeelte kunt u enkele basisinstellingen van &amarok; aanpassen.</para>
+
+<para
+>Met het eerste keuzevakje, <guilabel
+>Opstartscherm tonen tijdens opstarten</guilabel
+>, kunt u bepalen of er een opstartscherm wordt getoond tijdens het starten van &amarok;.</para>
+
+<para
+>Het volgende keuzevakje, <guilabel
+>Systeemvakpictogram tonen</guilabel
+>, bepaalt of er een pictogram in het systeemvak van KDE wordt geplaatst.</para>
+ 
+<para
+>Het keuzevakje <guilabel
+>Bewegend systeemvakpictogram</guilabel
+> bepaalt of het pictogram met behulp van animaties de status van het programma weergeeft.</para>
+
+<para
+>Het daaropvolgende keuzevakje is <guilabel
+>Afspelervenster tonen (zoals XMMS)</guilabel
+>. Selecteer deze optie als u een <link linkend="player-window"
+>aparte speler</link
+> wilt gebruiken naast de <link linkend="playlist-window"
+>afspeellijst</link
+>. Dit is te vergelijken met andere audiospelers, zoals XMMS of Noatun. Als het keuzevakje niet is geselecteerd wordt alleen het afspeellijstvenster gebruikt. Dit gedrag kent u mogelijk van het programma JuK.</para>
+
+<para
+>Tot slot ziet u een draaiveld met de optie <guilabel
+>Standaardgrootte voor hoesvoorbeelden</guilabel
+>. Hiermee kunt u de grootte van de albumhoezen bepalen die zal worden gebruikt in het vak <guilabel
+>Momenteel te beluisteren:</guilabel
+> van de contextbrowser.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Opties voor afspeellijst</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>In dit gedeelte kunt u het gedrag van de afspeellijst instellen.</para>
+
+<para
+>Het eerste keuzevakje, <guilabel
+>Huidige afspeellijst onthouden bij afsluiten</guilabel
+>, bepaalt of de uw afspeellijst zal worden opgeslagen als u &amarok; beëindigt. Selecteer het vakje als u wilt dat uw huidige afspeelijst wordt bewaard.</para>
+
+<para
+>Als het keuzevakje <guilabel
+>Afspeellijst samen met hoofdvenster verbergen</guilabel
+> is geselecteerd zal de <link linkend="playlist-window"
+>afspeellijst</link
+> verborgen worden als u het <link linkend="player-window"
+>afspelervenster</link
+> minimaliseert. Deselecteer deze optie als u wilt dat beide vensters onafhankelijk van elkaar werken.</para>
+
+<para
+>Het keuzevakje <guilabel
+>Afspeellijst schuift naar actieve track</guilabel
+> verschuift de afspeellijst automatisch om de track die momenteel wordt afgespeeld te kunnen tonen.</para>
+
+<para
+>Het keuzevakje <guilabel
+>Mappen recursief toevoegen</guilabel
+> is handig als u in een keer de muziek uit een map en alle bijhorende submappen wilt toevoegen.</para>
+
+<para
+><guilabel
+>Statusbalk tonen</guilabel
+> kunt u gebruiken om de <link linkend="statusbar"
+>statusbalk</link
+> in het <link linkend="playlist-window"
+>afspeellijstvenster</link
+> te laten weergeven of verbergen.</para>
+
+<para
+>En tot slot, <guilabel
+>Contextbrowser automatisch tonen</guilabel
+> wordt gebruikt om de contextbrowser automatisch te activeren als u het afspelen van een track start.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Uiterlijk instellen</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van Uiterlijk instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Bij tabblad Uiterlijk kunt u bepalen hoe &amarok; er uit ziet. Het tabblad is opgedeeld in drie secties.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>lettertypen</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Bij de sectie Lettertypen kunt u de lettertypen die in &amarok; worden gebruikt instellen. Schakel het keuzevakje <guilabel
+>Aangepaste lettertypen gebruiken</guilabel
+> om de rest van de sectie te activeren. U kunt de lettertypen instellen voor het <link linkend="player-window"
+>Afspelervenster</link
+>, het <link linkend="playlist-window"
+>Afspeellijstvenster</link
+> en de Contextbrowser. Klik op de knop <guibutton
+>Kiezen</guibutton
+> om een lettertype te selecteren.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Kleurenschema</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>In de sectie Kleurenschema kunt u een kleurenschema voor &amarok; kiezen. <guilabel
+>Het huidige kleurenschema van KDE</guilabel
+> zorgt ervoor dat &amarok; dezelfde kleuren gebruikt als de rest van KDE. <guilabel
+>Het klassieke amaroK-thema "funky monkey"</guilabel
+> laat &amarok; zijn eigen kleuren gebruiken. Tot slot, het keuzevakje <guilabel
+>Gebrukergedefinieerd kleurenschema</guilabel
+> maakt het mogelijk om uw eigen kleurenschema voor &amarok; in te stellen.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Tags</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>In de sectie Tags kunt u de tekenset voor uw ID3v1-tags selecteren. Schakel het keuzevakje <guilabel
+>ID3v1-tags opnieuw coderen</guilabel
+> in om de tekenset die u wilt gebruiken te kunnen selecteren.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Afspelen instellen</title>
+
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van afspelen instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>In de sectie Afspelen kunt u enkele opties voor het afspelen van de tracks aanpassen.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Overgangsinstellingen</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>U kunt bepalen hoe &amarok; van de huidige track overgaat naar de volgende track. <guilabel
+>Geen overgang</guilabel
+> geeft een korte stilte die u in milliseconden kunt opgeven. <guilabel
+>Vloeiende overgang</guilabel
+> geeft een mooi overgangseffect, waarbij de vorige track zachtjes verdwijnt, terwijl de volgende track van zacht naar het volledige volume optrekt. De overgangsperiode kunt u ook on milliseconden opgeven.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Overige opties</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>De rest van deze sectie bevat enkele keuzevakjes waarmee u de volgende opties kunt instellen:</para>
+
+<para
+>Met <guilabel
+>Afspelen voortzetten bij start</guilabel
+> kunt u bij het starten van het programma verder gaan met de laatste track die werd afgespeeld toen &amarok; de laatste keer was afgesloten. </para>
+
+<para
+><guilabel
+>Volumemixer van de geluidskaart gebruiken</guilabel
+> vertelt &amarok; dat het programma de volume rechtstreeks met de mixer van uw geluidskaart dient te regelen.</para>
+
+<para
+><guilabel
+>Effecten onthouden</guilabel
+> bewaart de effecten van uw geluidsserver, welke u hebt ingesteld via de knop <guibutton
+>FX</guibutton
+> op de <link linkend="player-window"
+>speler</link
+>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>On Screen Display instellen</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van OSD instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>OSD</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>In de sectie <guilabel
+>OSD</guilabel
+> kunt u de On Screen Display activeren. Selecteer eerst het bovenste keuzevakje om de rest van deze sectie te activeren. U kunt nu het uiterlijk van de display instellen. &amarok; toont een voorbeeld van de display op uw scherm, zodat u meteen het effect van uw wijzigingen kunt bekijken.</para>
+
+<para
+>De eerste optie is het lettertype. Klik op de knop <guibutton
+>Kiezen</guibutton
+> om de dialoog te openen waarin u een ander lettertype kunt kiezen. Met het keuzevakje <guilabel
+>Schaduw tonen</guilabel
+> kunt u bepalen of de tekst voorzien wordt van een schaduw.</para>
+
+<para
+>De volgende optie betreft de kleuren die gebruikt worden. Selecteer eerst het keuzevakje <guilabel
+>Eigen kleuren gebruiken</guilabel
+> om de overige opties te activeren. U kunt dan met behulp van de knoppen rechts van  <guibutton
+>Achtergrondkleur:</guibutton
+> en <guibutton
+>Tekstkleur:</guibutton
+> de bijhorende kleur veranderen. Als het keuzevakje <guilabel
+>Eigen kleuren gebruiken</guilabel
+> is uitgezet, dan worden de kleuren van uw huidige &kde;-kleurenschema gebruikt.</para>
+
+<para
+>Bij <guilabel
+>Tekst</guilabel
+> kunt u de tekst die in de OSD wordt weergegeven instellen. Door variabelen toe te wijzen kunt u de OSD geheel naar uw eigen wensen aanpassen. Hieronder vindt u een lijst met variabelen en de tekst die ze representeren.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tekst</entry>
+<entry
+>Variabele</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Titel</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Album</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Artiest</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Genre</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Bitrate</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>Jaar</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Tracklengte</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Tracknummer</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Bestandsnaam</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Commentaar</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Score</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Aantal maal afgespeeld</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Met het draaiveld <guilabel
+>Duur</guilabel
+> kunt u de tijd dat de OSD op uw scherm wordt getoond instellen in milliseconden.</para>
+
+<para
+>De optie <guilabel
+>Scherm</guilabel
+> is alleen bedoeld voor Xinerama-gebruikers. Deze optie bepaalt op welk scherm de OSD wordt getoond als u meerdere beeldschermen hebt.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Engine instellen</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van Engine instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>In de sectie Engine kunt u in een uitvouwveld het te gebruiken geluidssysteem kiezen. Afhankelijk van uw keuze zal deze sectie aanvullende opties tonen die worden ondersteund door het geluidssysteem.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Collectie</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van Collectie instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>In de sectie Collectie kunt u alle collectieopties instellen. Dit is inclusief de mappen die in uw collectie worden gebruikt en het type database dat u voor de collectie wilt gebruiken. Dit dialoog is opgesplitst in twee gedeeltes: Collectiemappen en Collectiedatabase.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Collectiemappen</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Bij <guilabel
+>Collectiemappen</guilabel
+> kunt u de mappen selecteren die zullen worden gebruikt bij het opbouwen van uw collectie. U ziet hier een boomstructuur met de mappen op uw bestandssysteem. Naast deze mappen ziet u keuzevakjes die u kunt inschakelen om aan te geven dat de map onderdeel is van uw collectie. Als u een submap inschakelt, dan zullen de bovenliggende mappen blauw worden gemarkeerd om aan te geven dat de map een collectiemap bevat.</para>
+
+<para
+>Schakel het keuzevakje <guilabel
+>Mappen recursief doorzoeken</guilabel
+> in als u wilt dat ook de submappen van toegevoegde mappen aan de collectie worden toegevoegd. Als u wilt dat &amarok; wijzigingen in de collectiemappen zal volgen, schakel dan het keuzevakje <guilabel
+>Mappen op wijzigingen observeren</guilabel
+> in. Tot slot, als u afspeellijsten die in uw collectie zijn gevonden wilt importeren, schakel dan het keuzevakje <guilabel
+>Afspeellijsten importeren</guilabel
+> in.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Collectiedatabase</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Het gedeelte <guilabel
+>Collectiedatabase</guilabel
+> wordt gebruikt om het type database dat u voor de collectie wilt gebruiken te selecteren. Gebruik het combinatieveld <guilabel
+>Engine:</guilabel
+> om te kiezen tussen SQLite en MySQL. Als MySQL is gekozen dient u aanvullende opties in te stellen in de sectie <guilabel
+>MySQL-configuratie</guilabel
+>.</para>
+
+<para
+>In de sectie <guilabel
+>MySQL-configuratie</guilabel
+> kunt u bepalen welke database &amarok; zal gebruiken, en waar deze zich bevindt. <guilabel
+>Hostname:</guilabel
+> geeft aan waar de MySQL-database zich bevindt. <guilabel
+>Poort:</guilabel
+> is de netwerkpoort waarop u verbinding maakt met de database. <guilabel
+>Name:</guilabel
+> is de naam van de database waarmee u verbindt.</para>
+
+<para
+>Gebruik de tekstinvoervelden <guilabel
+>Gebruikersnaam:</guilabel
+> en <guilabel
+>Wachtwoord:</guilabel
+> om een gebruikersnaam en wachtwoord op te geven voor het verbinden met de MySQL-database.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Scrobbler</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van Scrobbler instellen</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Bij de sectie Scrobbler kunt u de ondersteuning voor Audioscrobbler in &amarok; in stellen. Audioscrobbler dient de tracks in die u afspeelt en vergelijkt uw profiel met andere gebruikers die dezelfde muzikale smaak hebben en genereert aanbevelingen aan de hand van uw profiel.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Audioscrobbler-profiel</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Hier vult u uw <guilabel
+>gebruikersnaam</guilabel
+> en <guilabel
+>wachtwoord</guilabel
+> van uw Audioscrobbler-profiel in. Als u geen Audioscrobbler-profiel hebt, dan kunt u zich <ulink url="http://www.audioscrobbler.com:80/signup.php"
+>hier registreren</ulink
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Track-indiening</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Door de tracks die u in &amarok; afspeelt in te dienen kan het programma u via de Contextbrowser suggesties geven voor nieuwe muziek om naar te luisteren. Het inschakelen van het keuzevakje <guilabel
+>De tracks die ik afspeel indienen</guilabel
+> zal deze functie activeren en uw afgespeelde tracks indienen bij uw Audioscrobbler-profiel.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

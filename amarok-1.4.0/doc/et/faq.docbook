@@ -1,0 +1,670 @@
+<chapter id="faq">
+<title
+>Küsimused ja vastused</title>
+
+<sect1 id="faq-index">
+<title
+>KKK</title>
+
+<para
+>KKK on jagatud mitmeks osaks, et sul oleks lihtsam leida vastust otsitavale küsimusele. Palun vali mõni järgnevatest oasdest.</para>
+ 
+<para
+><link linkend="general-usage"
+>Üldine kasutamine</link
+>: küsimused &amarok;i kasutamise kohta üldiselt.</para>
+
+<para
+><link linkend="playback"
+>Mängimine</link
+>: küsimused toetatud failitüüpide ja muude taasesitusega seotud probleemide kohta.</para>
+
+<para
+><link linkend="dev-faq"
+>Arendus</link
+>: vead, võimaluste soovid ja muud arendamisega seotud küsimused.</para>
+
+<para
+><link linkend="tips"
+>Nipid ja trikid</link
+>: muud kasulikud võimalused, mis kuhugi mujale ei sobinud.</para>
+
+</sect1>
+
+<sect1 id="general-usage">
+<title
+>Üldine kasutamine</title>
+
+<qandaset id="faq1">
+
+<qandaentry>
+<question>
+<para
+>Kust saada &amarok;i tuge?</para>
+</question>
+<answer>
+<para
+>Arendajatega on võimalik suhelda meie <ulink url="irc://irc.freenode.net/amarok"
+>meie IRC kanalil</ulink
+>. Ootame sind! </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>&amarok;i käivitamisel on lugude nimekiri tühi. Kuidas see palade lisamine õieti käib?</para>
+</question>
+<answer>
+<para
+>See on imelihtne. Liigu vasakul asuvas <link linkend="file-browser"
+>failisirvijas</link
+> vajalikku kataloogi ja seejärel lohista failid paremal paiknevasse <link linkend="playlist"
+>lugude nimekirja</link
+>. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kuidas eemaldada palad lugude nimekirjast?</para>
+</question>
+<answer>
+<para
+>Vali fail või failid, mida soovid eemaldada ja vajuta klahvi <keycap
+>Del</keycap
+> või klõpsa valitud failidel hiire parema nupuga ja vali ilmuvast menüüst <guimenuitem
+>Eemalda valitud</guimenuitem
+>.</para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kuidas lugude nimekiri laadida?</para>
+</question>
+<answer>
+<para
+>Lohista lihtsalt olemasolev lugude nimekirja fail <link linkend="playlist"
+>lugude nimekirja</link
+> aknasse - nii lihtne see ongi!</para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kuidas salvestada lugude nimekiri?</para>
+</question>
+<answer>
+<para
+>Nupp <guibutton
+>Salvesta lugude nimekiri</guibutton
+> on <link linkend="toolbar"
+>lugude nimekirja tööriistaribal</link
+> otse nupu <guibutton
+>Lisa andmekandja</guibutton
+> kõrval. Klõpsa sellele ja ongi kõik! </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Visualiseerimisdialoogis pole ühtegi visualiseerimispluginat. </para>
+</question>
+<answer>
+<para
+>Ilmselt ei ole xmms-config paigaldatud. Paigalda vajalik xmms-devel pakett ja proovi uuesti. Abiks võib olla ka uusima paketi <ulink url="http://libvisual.sf.net"
+>libvisual</ulink
+> paigaldamine, mis pakub mõningaid väga lahedaid visualiseeringuid. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kus on ekvalaiser? </para>
+</question>
+<answer>
+<para
+><link linkend="equalizer"
+>Ekvalaseri akna</link
+> saab avada <link linkend="rmb-menu"
+>hiire parema nupu menüüst</link
+>. Selle leiab ka <link linkend="menubar"
+>menüüribalt</link
+>: <menuchoice
+><guimenu
+>Tööriistad</guimenu
+> <guimenuitem
+>Ekvalaiser</guimenuitem
+></menuchoice
+>. </para>
+</answer>
+</qandaentry>
+
+</qandaset>
+</sect1>
+
+
+<sect1 id="playback">
+<title
+>Taasesitus</title>
+
+<qandaset id="Playback">
+
+<qandaentry>
+<question
+><para
+>Milliseid failitüüpe amaroK toetab?</para
+></question>
+<answer>
+<para
+>Mitte ühtegi. Jah, just nii! Me toetame väga mitmeid taustaprogramme, nii et see küsimus peaks õigupoolest kõlama: "Milliseid failitüüpe toetab GStreamer/xine/aRts/NMM/MAS/KDEmm?" Ja seepärast võime me ka üsna veendunult öelda, et toetatud on enam-vähem kõik vähegi levinumad audiovormingud. GStreamer suudab ju näiteks isegi teksti ja PNG-d dekodeerida! </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Miks amaroK ei mängi MP3?</para>
+</question>
+<answer>
+<para
+>Mängib küll! Selle küsimuse tekkimisel on usutav, et kasutad Fedora/RedHat linuxit, mis patendiprobleemide tõttu ei pane vaikimisi kaasa MP3 dekoodreid. Lahendus: </para>
+<para
+><keycombo
+>&Alt; <keycap
+>F2</keycap
+></keycombo
+>, gg:redhat mp3 kde, <keycap
+>ENTER</keycap
+> </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>GStreameri mootoriga kipub mängimise ajal protsessori kasutus 100% kanti tõusma. Mida selle vastu ette võtta?</para>
+</question>
+<answer>
+<para
+>GStreamerit alsasinkiga kasutades nõuab amaroK seadmelt mikserit. Miksimine võimaldab mitmel rakendusel üheaegselt seadet kasutada ning heli samaaegselt väljastada. Seda on võimalik saavutada kas riistvaralist mikserit pakkuva helikaardiga (nt. SBLive) või samuti riistvaralist miksimist pakkuva alsa pluginaga "dmix". </para>
+<para
+>Dmix plugina paigaldamise ja seadistamise juhised leiab siit: </para>
+<para>
+<ulink url="http://opensrc.org/alsa/index.php?page=DmixPlugin"
+>Alsa dmix KKK</ulink>
+</para>
+<para
+>Pärast paigaldamist tuleb mootoriseadistuste dialoogis määrata heliseadmeks "dmix". </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Mul ei õnnestus amaroKis ühtegi lugu mängida. Mis lahti?</para>
+</question>
+<answer>
+<para
+>Sul tuleks kontrollida heliraamistikku käsureal:</para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>artsplay suvafail.mp3</command
+> </para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>gst-launch filesrc location=/home/sinukodu/suvafail.mp3 ! spider ! audioscale ! audioconvert ! alsasink</command
+> </para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>xine-check</command
+> </para>
+<para
+>Nende käskude väljund peaks lubama tuvastada probleemi ja selle ka parandada. Arvesta, et GStreameri testimiseks võib vajalik olla mõni muu 'sink' (nt. osssink). </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kas amaroK võib saata väljundi otse OSS/ALSA-le? </para>
+</question>
+<answer>
+<para
+>Aga muidugi! Ära ainult unusta, et pala tuleb kõigepealt dekodeerida. MP3 lihtsalt ei saa otse ALSA-le saata, sest nii on tulemuseks ainult müra ja muud ei midagi. Enamasti peaks sobima GStreamer, mis suhteliselt vähese vaevaga loeb faili, dekodeerib ja saadab PCM andmed ALSA-le - täpselt nagu XMMS. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Aga XMMS ju saadab väljundi otse ALSA-le? </para>
+</question>
+<answer>
+<para
+>Jah, aga enne seda see dekodeeritakse. GStreamer võib samahästi väljundi otse ALSA-le saata, rääkimata juba xinest! </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Heli on katkendlik. Kas selle vastu saab midagi ette võtta? </para>
+</question>
+<answer>
+
+<para
+>Kasutada võiks kas GStreameri mootorit (see on suurepärane!) või siis nikerdada veidi aRtsi kallal. Ava <menuchoice
+><guimenu
+>Juhtimiskeskus</guimenu
+><guisubmenu
+>Heli ja multimeedia</guisubmenu
+><guimenuitem
+>Helisüsteem</guimenuitem
+></menuchoice
+>. Lülita sisse võimalus <guimenuitem
+>Töötab suurima võimaliku prioriteediga</guimenuitem
+> ning suurenda <guimenuitem
+>helipuhvri</guimenuitem
+> suurust (ettevaatust: vaata järgmist KKK-d!). Samuti peab artswrapper olema suid:</para>
+
+<para
+><prompt
+>&percnt;</prompt
+><command
+>su</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>chmod a+rsx /kde/bin/artswrapper/asukoht</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>killall -9 artsd</command
+></para>
+
+<para
+>KDE 3.2.x korral on mõningaid probleeme KDEMultimedia koodekitega, mis võivad taasesitust moonutada. Vaata selle kohta vastavat <ulink url="http://bugs.kde.org/show_bug.cgi?id=80497"
+>vearaportit</ulink
+>.</para>
+
+<para
+>Tublisti võib kaasa aidata ka helipuhvri suurendamine alsa konfiguratsioonifailis .asoundrc. </para>
+
+</answer>
+</qandaentry>
+
+
+<qandaentry>
+<question>
+<para
+>Protsessor on tugevasti koormatud. Kas selle vastu saab midagi ette võtta? </para>
+</question>
+<answer>
+<para
+>Ära kasuta aRtsi, vaid GStreameri või xine mootorit või siis paigalda kogu KDEMultimedia, mis annab sinu käsutusse kiiremad aRtsi koodekid (nt. libarts_mpeglib.so jne.).</para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>amaroKi analüsaatorid ei reageeri üldse millelegi! </para>
+</question>
+<answer>
+<para
+>Tõenäoliselt kasutad aRts mootorit. Kasuta mõnda muud mootorit (näiteks xine mootorit on tublisti parandatud just selle sihiga, et analüsaatorid täiuslikult sünkroonis oleks) või vähenda aRts puhvri suurust (KDE juhtimiskeskus, helisüsteem). Mida väiksem puhver, seda parem visuaalne reageerimine. Jah, see on tõesti viga! Palun aita meil see parandada! </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Mul on GStreamer paigaldatud, aga kui ma püüan valida GStreameri mootorit, tabab &amarok;ki krahh. Mida nüüd teha? </para>
+</question>
+<answer>
+<para
+>Pärast GStreameri paigaldamist tuleb selle komponendid registreerida, sellega peaks hakkama saama käsk 'su -c gst-register'. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Andsin käsu 'gst-register', aga ikka on GStreameriga probleeme. Mida teha?</para>
+</question>
+<answer>
+<para
+>Võiksid uurida <ulink url="http://gstreamer.freedesktop.org/data/doc/gstreamer/head/faq/html/chapter-using.html"
+>GStreameri KKK-d</ulink
+> (paraku küll inglise keeles). Kui mitte miski ei paista aitavat, võib pöörduda otse teadjamate poole <ulink url="irc://irc.freenode.net/gstreamer"
+>IRC kanalil #gstreamer</ulink
+>.</para>
+</answer>
+</qandaentry>
+
+
+</qandaset>
+</sect1>
+
+
+<sect1 id="dev-faq">
+<title
+>Arendus</title>
+
+<qandaset id="development">
+
+<qandaentry>
+<question>
+<para
+>How do I get a svn version of &amarok;? </para>
+</question>
+<answer>
+<para
+>Here is a little tutorial by Christian Muehlhaeuser and Harald Sitter.</para>
+
+<para
+>Create some new directory on your hdd, like "kde-svn":</para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>mkdir kde-svn</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>cd kde-svn </command
+></para>
+
+<para
+>Paneme siia kogu lähteteksti:</para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>svn co -N svn://anonsvn.kde.org/home/kde/trunk/extragear/multimedia</command
+> </para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>cd multimedia</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>svn co svn://anonsvn.kde.org/home/kde/trunk/KDE/kde-common/admin</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>svn up amarok</command
+></para>
+
+<para
+>Ja nüüd kompileerime kogu värgi!</para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>make -f Makefile.cvs</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>./configure --enable-debug=full --prefix=`kde-config --prefix`</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>make</command
+></para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>su -c "make install"</command
+></para>
+
+<para
+>Ja asi ants! Pea meeles, et "make install" võiks anda regulaarselt, kui soovid saada pluginate uusimate muudatustega.</para>
+</answer>
+</qandaentry>
+
+
+<qandaentry>
+<question>
+<para
+>Kuidas pärast krahhi teada saada, mis juhtus? </para>
+</question>
+
+<answer>
+<para
+>Kõige kindlam viis on ehitada amarok vätmega --enable-debug=full ning pruukida siis GNU silurit gdb:</para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>gdb amarokapp</command
+></para>
+<para
+><prompt
+>(gdb) </prompt
+><command
+>run</command
+></para>
+<para
+><prompt
+>(gdb) </prompt
+><command
+>[wait for crash..]</command
+></para>
+<para
+><prompt
+>(gdb) </prompt
+><command
+>bt</command
+></para>
+<para
+>Kui soovid nüüd seda tagasijälitust <ulink url="irc://irc.freenode.net/amarok"
+>meie IRC kanalile</ulink
+> saata, kasuta palun imelisi võimalusi, mida pakub <ulink url="http://nopaste.php.cd"
+>http://nopaste.php.cd</ulink
+>. Täname! </para>
+</answer>
+</qandaentry>
+
+
+<qandaentry>
+<question>
+<para
+>Ma leidsin vea / Mul on suurepärane idee amaroKi jaoks! </para>
+</question>
+<answer>
+<para
+>Palun anna sellest teada aadressil <ulink url="http://bugs.kde.org"
+></ulink
+> või kui sul on terve rida ettepanekuid ja soove, siis saada need meie meililisti: <email
+>amarok-devel@lists.sourceforge.net</email
+>. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kas paiku võib saata? </para>
+</question>
+<answer>
+<para
+>Happily! Your best course of action is to let us know what you plan to do before you do any work so we can discuss it, but don't fret we haven't turned down a patch yet! Discussion is mostly to help you patch the correct bits of amaroK. Then either submit a patch to the mailing list, or commit if you have svn access. However, please let us know before you commit new features to cvs! If you have a bug fix then just go ahead, this is open source after all :) </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Mida tähendab &amarok;? </para>
+</question>
+<answer>
+<para
+>&amarok; on Briti muusiku Mike Oldfieldi ühe albumi nimi. Mulle meeldib see väga ja ma arvasin, et see on just sobiv nimi ühele meediamängijale. No ja <quote
+>K</quote
+> on ju teadagi mispärast... </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Kas see on &amarok;, AmaroK või Amarok? </para>
+</question>
+<answer>
+<para
+>Kohe täiesti kindlasti <quote
+>&amarok;</quote
+>! Aga me saame muidugi aru, et see on veidi ebatavaline... :-) </para>
+</answer>
+</qandaentry>
+
+</qandaset>
+</sect1>
+
+<sect1 id="tips">
+<title
+>Nipid ja trikid</title>
+
+<qandaset id="tricks">
+
+<qandaentry>
+<question>
+<para
+>Kuidas kasutada &amarok;ki äratuskellana? </para>
+</question>
+<answer>
+<para
+>Jah, tänu imelisele DCOP-ile on see tõesti võimalik! Määra lihtsalt vajalik häire oma lemmikust kalendrirakenduses ja lase sel käivitada järgmine käsk: </para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>dcop amarok player play</command
+></para>
+<para
+>See annab &amarok;ile korralduse alustada mängimist. Kontrolli enne magamaminemist, et &amarok; töötab, ning hommikul äratab sind seesama sulnis viis, mille enne voodisseminekut peatasid. </para>
+</answer>
+</qandaentry>
+
+
+<qandaentry>
+<question>
+<para
+>Kuidas saada teada, mida &amarok; mängib, kui ma ise olen teise arvuti taga? </para>
+</question>
+<answer>
+<para
+>Kui oled korrektselt seadistanud SSH-keskkonna, ei tohiks see raskusi valmistada. Järgmine käsk tagastab "praegu mängitakse" info: </para>
+<para
+><prompt
+>&percnt;</prompt
+><command
+>ssh -i ~/.ssh/id_rsa sinuIP dcop --user sinukasutajanimi amarok player nowPlaying</command
+></para>
+<para
+>Pane tähele, et sinuIP asemel peabki seisma sinu IP ja sinukasutajanimi asemel sinu kasutajanimi. Pane tähele ka seda, et see käsk eeldab, et sinu identifitseerimisinfo leidub failis ~/.ssh/id_rsa. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Mida huvitavat saab ette võtta <link linkend="player-window"
+>mängija aknaga</link
+>? </para>
+</question>
+<answer>
+<para
+>&amarok;i mängija analüsaatoreid saab <link linkend="player-window"
+>mängija aknast</link
+> eraldada. Vajutades klaviatuuril <keycap
+>d</keycap
+>, avatakse aktiivne analüsaator iseseisvas, muudetava suurusega aknas. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Mida huvitavat saab ette võtta <link linkend="playlist-window"
+>lugude nimekirja aknaga</link
+>?</para>
+</question>
+<answer>
+<para
+>Klahvi <keycap
+>Control</keycap
+> all hoides ja &HPN;ga klõpsates saad seada failid järjekorda just selles järjekorras, nagu sa neil klõpsad. </para>
+
+<para
+>Pärast lugude nimekirjas otsimist klahvi <keycap
+>Enter</keycap
+> vajutades saab esitada esimese leitud pala ning ühtlasi otsingu puhastada. </para>
+</answer>
+</qandaentry>
+
+<qandaentry>
+<question>
+<para
+>Ahaa! <link linkend="player-window"
+>Mängija aknal</link
+> ja <link linkend="playlist-window"
+>lugude nimekirja aknal</link
+> on niisiis mõned vahvad omadused, aga süsteemse salve ikoonil? </para>
+</question>
+<answer>
+
+<para
+>Klõps ikoonile hiire keskmise nupuga mängib või peatab aktiivse pala. </para>
+
+<para
+>Klahvi <keycap
+>Shift</keycap
+> all hoides ja hiirerattaga kerides saab aktiivses palas positsiooni vahetada. </para>
+
+<para
+>Klahvi <keycap
+>Control</keycap
+> all hoides ja hiirerattaga kerides saab lugude nimekirjas palalt palale liikuda. </para>
+
+<para
+>Elementide lohistamine süsteemse salve ikoonile avab hüpikmenüü, mis võimaldab valida kolme valiku vahel: lisamine lugude nimekirja, lisamine ja mängimine ning lisamine järjekorda aktiivse pala järele. </para>
+
+</answer>
+</qandaentry>
+
+
+</qandaset>
+</sect1>
+</chapter>

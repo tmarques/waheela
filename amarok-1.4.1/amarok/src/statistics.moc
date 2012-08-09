@@ -1,0 +1,290 @@
+/****************************************************************************
+** Statistics meta object code from reading C++ file 'statistics.h'
+**
+** Created: Fri Mar 23 10:55:55 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "statistics.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Statistics::className() const
+{
+    return "Statistics";
+}
+
+QMetaObject *Statistics::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Statistics( "Statistics", &Statistics::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Statistics::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Statistics", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Statistics::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Statistics", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Statistics::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotSetFilter", 0, 0 };
+    static const QUMethod slot_1 = {"slotSetFilterTimeout", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotSetFilter()", &slot_0, QMetaData::Private },
+	{ "slotSetFilterTimeout()", &slot_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Statistics", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Statistics.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Statistics::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Statistics" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool Statistics::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotSetFilter(); break;
+    case 1: slotSetFilterTimeout(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Statistics::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Statistics::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool Statistics::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *StatisticsList::className() const
+{
+    return "StatisticsList";
+}
+
+QMetaObject *StatisticsList::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_StatisticsList( "StatisticsList", &StatisticsList::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString StatisticsList::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "StatisticsList", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString StatisticsList::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "StatisticsList", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* StatisticsList::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUMethod slot_0 = {"clearHover", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"itemClicked", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ "p", &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"showContextMenu", 3, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"startHover", 1, param_slot_3 };
+    static const QMetaData slot_tbl[] = {
+	{ "clearHover()", &slot_0, QMetaData::Private },
+	{ "itemClicked(QListViewItem*)", &slot_1, QMetaData::Private },
+	{ "showContextMenu(QListViewItem*,const QPoint&,int)", &slot_2, QMetaData::Private },
+	{ "startHover(QListViewItem*)", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"StatisticsList", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_StatisticsList.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* StatisticsList::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "StatisticsList" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool StatisticsList::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: clearHover(); break;
+    case 1: itemClicked((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: showContextMenu((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 3: startHover((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool StatisticsList::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool StatisticsList::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool StatisticsList::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *StatisticsItem::className() const
+{
+    return "StatisticsItem";
+}
+
+QMetaObject *StatisticsItem::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_StatisticsItem( "StatisticsItem", &StatisticsItem::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString StatisticsItem::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "StatisticsItem", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString StatisticsItem::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "StatisticsItem", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* StatisticsItem::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"slotAnimTimer", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotAnimTimer()", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"StatisticsItem", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_StatisticsItem.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* StatisticsItem::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "StatisticsItem" ) )
+	return this;
+    if ( !qstrcmp( clname, "KListViewItem" ) )
+	return (KListViewItem*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool StatisticsItem::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotAnimTimer(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool StatisticsItem::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool StatisticsItem::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool StatisticsItem::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

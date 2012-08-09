@@ -1,0 +1,631 @@
+<chapter id="configuring-kapp">
+<title
+>Configurare &amarok;</title>
+
+
+<para
+>&amarok; si configura facilmente dalla finestra di dialogo che ha schede multiple per configurare funzionalità differenti.</para>
+
+<para
+>La finestra di configurazione si trova selezionando <guimenuitem
+>Configura &amarok;</guimenuitem
+> nel <link linkend="rmb-menu"
+>menu &RMB;</link
+> del lettore.</para>
+
+
+<sect1 id="general-options">
+<title
+>Opzioni generali</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Opzioni generali</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>La scheda delle opzioni generali è divisa in due parti, <guimenuitem
+>Opzioni generali</guimenuitem
+> e <guimenuitem
+>Opzioni playlist</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Opzioni generali</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Nella sezione delle Opzioni generali si possono configurare alcune opzioni di base di &amarok;.</para>
+
+<para
+>La prima opzione, <guilabel
+>Mostra la schermata iniziale all'avvio</guilabel
+> è utilizzata per abilitare la schermata iniziale all'avvio di &amarok;.</para>
+
+<para
+>Dopo la schermata iniziale c'è l'opzione <guilabel
+>Mostra l'icona nel vassoio di sistema</guilabel
+> che permette di attivare o meno l'icona nel vassoio di sistema.</para>
+ 
+<para
+>L'opzione <guilabel
+>Icona animata nel vassoio</guilabel
+> è utilizzata per abilitare o meno l'animazione dell'icona nel vassoio.</para>
+
+<para
+>La prossima opzione è <guilabel
+>Mostra la finestra del lettore</guilabel
+>. Selezionandola, verrà mostrata la <link linkend="player-window"
+>Finestra del lettore</link
+> assieme a quella della <link linkend="playlist-window"
+>Playlist</link
+> come con XMMS. Deselezionandola, si attiverà solo la finestra della playlist in una configurazione più simile a JUK.</para>
+
+<para
+>L'ultima opzione, <guilabel
+>Dimensione predefinita dell'anteprima delle copertine</guilabel
+>, permette di modificare la dimensione dell'immagine della copertina dell'album nel navigatore per contesti per <guilabel
+>Attualmente in riproduzione:</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Opzioni playlist</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Nella sezione delle opzioni della playlist si può configurare il comportamento della playlist.</para>
+
+<para
+>La prima opzione <guilabel
+>Ricorda la playlist attuale all'uscita</guilabel
+> serve per salvare la playlist prima di chiudere &amarok;. Spuntarla se si vuole che ciò accada.</para>
+
+<para
+>L'opzione <guilabel
+>Nascondi la playlist con la finestra principale</guilabel
+> se spuntata nasconde la <link linkend="playlist-window"
+>finestra della playlist</link
+> quando si nasconde quella del <link linkend="player-window"
+>lettore</link
+>. Deselezionandola si potrà nascondere solo la <link linkend="player-window"
+>finestra del lettore</link
+> in modo da controllare &amarok; completamente da quella della <link linkend="playlist-window"
+>playlist</link
+>.</para>
+
+<para
+>L'opzione <guilabel
+>La playlist scorre con il brano attivo</guilabel
+> fa avanzare automaticamente lo scorrimento della <link linkend="playlist"
+>playlist</link
+> per mostrare il brano in riproduzione.</para>
+
+<para
+>L'opzione <guilabel
+>Aggiungi cartelle ricorsivamente</guilabel
+> è comoda quando si vuole aggiungere file da una cartella e tutte le sue sotto cartelle in una volta sola.</para>
+
+<para
+>L'opzione <guilabel
+>Mostra la barra di stato</guilabel
+> è utilizzata per abilitare o meno la <link linkend="statusbar"
+>barra di stato</link
+> nella <link linkend="playlist-window"
+>finestra della playlist</link
+>.</para>
+
+<para
+>In ultimo, l'opzione <guilabel
+>Mostra automaticamente il navigatore per contesti</guilabel
+> serve ad avviare automaticamente il navigatore per contesti quando si avvia la riproduzione.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Configura l'aspetto</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura l'aspetto</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>La scheda Aspetto permette di configurare l'immagine di &amarok;. È divisa in tre sezioni.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Caratteri</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>La sezione caratteri è usata per selezionare i caratteri da usare in &amarok;. Spuntando la casella <guilabel
+>Usa caratteri personalizzati</guilabel
+> si abiliterà la scelta dei caratteri. Si potrà scegliere i caratteri per la <link linkend="player-window"
+>finestra del lettore</link
+>, la <link linkend="playlist-window"
+>finestra della playlist</link
+> e per il navigatore per contesti. Premendo il pulsante <guibutton
+>Scegli</guibutton
+> si potrà scegliere un carattere dalla lista.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Schema di colore</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>La sezione schema di colore è usata per scegliere lo schema di colore per &amarok;. La selezione <guilabel
+>Schema colore attuale di KDE</guilabel
+> fa seguire ad &amarok; i colori usati in KDE. La selezione <guilabel
+>Tema classico di amaroK "funky-monkey"</guilabel
+> fa seguire ad &amarok; i colori della versione originale. Infine, scegliendo <guilabel
+>Schema di colore personalizzato</guilabel
+> verrà abilita la possibilità di personalizzare i colori.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Tag</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>La sezione tag serve a scegliere un codifica per i tag ID3v1. Spuntando la casella <guilabel
+>Ricodifica i tag ID3v1</guilabel
+> si abiliterà una casella in cui scegliere la codifica da usare.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Configura riproduzione</title>
+
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura riproduzione</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>La scheda Configura riproduzione fornisce una interfaccia per configurare le caratteristiche della riproduzione audio.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Comportamento di transizione</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Si può configurare il comportamento di &amarok; nel passare da un brano al successivo. <guilabel
+>Nessuna dissolvenza</guilabel
+> imposta un silenzio specificato in millisecondi. <guilabel
+>Dissolvenza</guilabel
+> imposta un bell'effetto di dissolvenza, sempre specificato in millisecondi.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Rimanenti opzioni</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Il resto della scheda Riproduzione contiene parecchie caselle per configurare le seguenti opzioni:</para>
+
+<para
+><guilabel
+>Riprendi la riproduzione all'avvio</guilabel
+> permette di recuperare al riavvio l'ultimo brano che era in riproduzione quando &amarok; è stato chiuso. </para>
+
+<para
+><guilabel
+>Usa volume del mixer hardware</guilabel
+> configura  il cursore del volume per regolare il mixer della scheda sonora in modo da controllare il livello del volume.</para>
+
+<para
+><guilabel
+>Ricorda effetti</guilabel
+> salva gli effetti del sistema sonoro, configurati con il pulsante <guibutton
+>FX</guibutton
+> nella <link linkend="player-window"
+>finestra del lettore</link
+>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>Configura On-Screen-Display</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura On-Screen-Display</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configura On-Screen-Display</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>La scheda <guilabel
+>Configura On-Screen-Display</guilabel
+> ti permete di attivare l'On-Screen-Display. Se la casella On-Screen-Display è selezionata verrà attivata un'area per configurarne l'aspetto. Quando l'On-Screen-Display è attivato, un'anteprima mostrerà gli effetti delle modifiche al suo aspetto.</para>
+
+<para
+>La prima opzione per l'OSD è Carattere. Premendo il pulsante <guibutton
+>Scegli</guibutton
+> si aprirà una finestra di selezione caratteri in cui scegliere il carattere da usare nell'OSD. C'è anche una casella di selezione <guilabel
+>Disegna ombra</guilabel
+> per abilitare o meno l'uso di testo ombreggiato nell'OSD.</para>
+
+<para
+>La prossima opzione riguarda i colori dell'OSD. Spuntando la casella <guilabel
+>Usa colori personalizzati</guilabel
+> si abiliteranno i pulsanti <guibutton
+>Colore del testo:</guibutton
+> e <guibutton
+>Colore di sfondo:</guibutton
+>. Facendo clic su questi pulsanti, si aprirà una finestra di dialogo in cui scegliere i colori per il testo o per lo sfondo dell'OSD. Se la casella <guilabel
+>Usa colori personalizzati</guilabel
+> è disabilitata l'OSD seguirà l'attuale schema colore di &kde;.</para>
+
+<para
+>La casella di immissione testo <guilabel
+>Testo display</guilabel
+> è utilizzata per configurare il testo mostrato nell'OSD. Assegnando variabili, si può personalizzare l'OSD. A seguire, una lista delle variabili e del testo che rappresentano.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Testo</entry>
+<entry
+>Variabile</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Titolo</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Album</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Artista</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Genere</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Bitrate</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>Anno</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Lunghezza traccia</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Numero traccia</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Nome file</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Commento</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Punteggio</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Conteggio riproduzione</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>La casella <guilabel
+>Durata</guilabel
+> serve ad impostare il tempo, in millisecondi, di visualizzazione dell'OSD sul desktop.</para>
+
+<para
+>L'opzione <guilabel
+>Schermo</guilabel
+> serve solo agli utenti xinerama. Serve per determinare in quale schermo verrà mostrato l'OSD in una configurazione multi-monitor.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Configura motore</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura motore</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>La scheda Configura il motore permette di scegliere un motore sonoro da una lista in un menu. Alcuni motori possono abilitare ulteriori opzioni nella scheda a seconda del motore scelto.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Configura collezione</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura collezione</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>La scheda Configura collezione è usata per configurare tutte le opzioni della collezione. Queste includono le cartelle usate nella collezione ed il tipo di database utilizzato. La finestra è divise in due sezioni, Cartelle collezione e Database collezione.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Cartelle collezione</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>La sezione <guilabel
+>Cartelle collezione</guilabel
+> permette di selezionare le cartelle usate nella collezione per mostrare il filesystem in una vista ad albero. Questa sezione ha anche numerose caselle per configurare come la collezione usa le cartelle selezionate.</para>
+
+<para
+>Abilitare la casella <guilabel
+>Analizza ricorsivamente le cartelle</guilabel
+> se si vuole che la collezione analizzii le cartelle selezionate e tutte le sotto-cartelle. Se si vuole che la collezione si accorga dei cambiamenti intervenuti sul filesystem, abilitare la casella <guilabel
+>Controlla cambiamenti cartelle</guilabel
+>. Infine, se si vuole importare qualsiasi playlist trovata nella collezione, abilitare la casella <guilabel
+>Importa playlist</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Database collezione</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>La sezione <guilabel
+>Database collezione</guilabel
+> è usata per selezionare il database da usare per la collezione. Usa la casella combinata <guilabel
+>Motore:</guilabel
+> per selezionare quale tra Sqlite o MySql. Se si seleziona MySql, saranno necessarie altre configurazioni nella sezione <guilabel
+>Configurazione MySql</guilabel
+>.</para>
+
+<para
+>La sezione <guilabel
+>Configurazione MySql</guilabel
+> serve a configurare quale database &amarok; userà e dove sia localizzato. Prima c'è l'opzione <guilabel
+>Hostname:</guilabel
+> (nome della macchina), che specifica dove è localizzato il database MySql. Poi c'è l'opzione <guilabel
+>Porta:</guilabel
+>, che specifica la porta di rete usata per collegarsi al database. L'opzione <guilabel
+>Nome:</guilabel
+>, è l'attuale database a cui collegarsi.</para>
+
+<para
+>Usare le caselle di immissione testo <guilabel
+>Nome utente:</guilabel
+> e <guilabel
+>Password:</guilabel
+>per specificare il nome utente e la password utilizzati per collegarsi al database MySql.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Configura Scrobbler</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di Configura Scrobbler</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>La scheda Scrobbler configura il supporto Audioscrobbler in &amarok;. Audioscrobbler analizza le tracce riprodotte, raffronta il proprio profilo con quello di altre persone che hanno gusti musicali simili e genera suggerimenti basati sul proprio profilo.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Profilo Audioscrobbler</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Qui si può inserire il <guilabel
+>Nome utente:</guilabel
+> e la <guilabel
+>Password:</guilabel
+> del profilo Audioscrobbler. Se ne hai uno, puoi registrarti <ulink url="http://www.audioscrobbler.com:80/signup.php"
+>qui</ulink
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Invio traccia</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Inviando le tracce riprodotte, &amarok; potrà suggerire nuova musica da ascoltare nel navigatore per contesti. Spuntando la casella<guilabel
+>Sottoponi le tracce che ascolto</guilabel
+> verrà abilitata questa caratteristica e le tracce ascoltate verranno inviate al proprio profilo Audioscrobbler.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

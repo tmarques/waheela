@@ -1,0 +1,380 @@
+/****************************************************************************
+** OSDWidget meta object code from reading C++ file 'osd.h'
+**
+** Created: Tue Feb 19 15:59:42 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "osd.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *OSDWidget::className() const
+{
+    return "OSDWidget";
+}
+
+QMetaObject *OSDWidget::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_OSDWidget( "OSDWidget", &OSDWidget::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString OSDWidget::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OSDWidget", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString OSDWidget::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OSDWidget", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* OSDWidget::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"show", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In },
+	{ "newImage", &static_QUType_varptr, "\x0f", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"show", 2, param_slot_1 };
+    static const QUMethod slot_2 = {"show", 0, 0 };
+    static const QUParameter param_slot_3[] = {
+	{ "ms", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"setDuration", 1, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ "color", &static_QUType_varptr, "\x0a", QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"setTextColor", 1, param_slot_4 };
+    static const QUParameter param_slot_5[] = {
+	{ "color", &static_QUType_varptr, "\x0a", QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"setBackgroundColor", 1, param_slot_5 };
+    static const QUParameter param_slot_6[] = {
+	{ "y", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"setOffset", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "alignment", &static_QUType_ptr, "Alignment", QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"setAlignment", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "image", &static_QUType_varptr, "\x0f", QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"setImage", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ "screen", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"setScreen", 1, param_slot_9 };
+    static const QUParameter param_slot_10[] = {
+	{ "text", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_10 = {"setText", 1, param_slot_10 };
+    static const QUParameter param_slot_11[] = {
+	{ "b", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"setDrawShadow", 1, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "b", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"setTranslucency", 1, param_slot_12 };
+    static const QMetaData slot_tbl[] = {
+	{ "show(const QString&)", &slot_0, QMetaData::Public },
+	{ "show(const QString&,QImage)", &slot_1, QMetaData::Public },
+	{ "show()", &slot_2, QMetaData::Public },
+	{ "setDuration(int)", &slot_3, QMetaData::Public },
+	{ "setTextColor(const QColor&)", &slot_4, QMetaData::Public },
+	{ "setBackgroundColor(const QColor&)", &slot_5, QMetaData::Public },
+	{ "setOffset(int)", &slot_6, QMetaData::Public },
+	{ "setAlignment(Alignment)", &slot_7, QMetaData::Public },
+	{ "setImage(const QImage&)", &slot_8, QMetaData::Public },
+	{ "setScreen(int)", &slot_9, QMetaData::Public },
+	{ "setText(const QString&)", &slot_10, QMetaData::Public },
+	{ "setDrawShadow(bool)", &slot_11, QMetaData::Public },
+	{ "setTranslucency(bool)", &slot_12, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"OSDWidget", parentObject,
+	slot_tbl, 13,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_OSDWidget.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* OSDWidget::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "OSDWidget" ) )
+	return this;
+    return QWidget::qt_cast( clname );
+}
+
+bool OSDWidget::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: show((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 1: show((const QString&)static_QUType_QString.get(_o+1),(QImage)(*((QImage*)static_QUType_ptr.get(_o+2)))); break;
+    case 2: show(); break;
+    case 3: setDuration((int)static_QUType_int.get(_o+1)); break;
+    case 4: setTextColor((const QColor&)*((const QColor*)static_QUType_ptr.get(_o+1))); break;
+    case 5: setBackgroundColor((const QColor&)*((const QColor*)static_QUType_ptr.get(_o+1))); break;
+    case 6: setOffset((int)static_QUType_int.get(_o+1)); break;
+    case 7: setAlignment((Alignment)(*((Alignment*)static_QUType_ptr.get(_o+1)))); break;
+    case 8: setImage((const QImage&)*((const QImage*)static_QUType_ptr.get(_o+1))); break;
+    case 9: setScreen((int)static_QUType_int.get(_o+1)); break;
+    case 10: setText((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 11: setDrawShadow((bool)static_QUType_bool.get(_o+1)); break;
+    case 12: setTranslucency((bool)static_QUType_bool.get(_o+1)); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool OSDWidget::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool OSDWidget::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool OSDWidget::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *OSDPreviewWidget::className() const
+{
+    return "OSDPreviewWidget";
+}
+
+QMetaObject *OSDPreviewWidget::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_OSDPreviewWidget( "OSDPreviewWidget", &OSDPreviewWidget::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString OSDPreviewWidget::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OSDPreviewWidget", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString OSDPreviewWidget::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "OSDPreviewWidget", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* OSDPreviewWidget::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = OSDWidget::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "color", &static_QUType_varptr, "\x0a", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setTextColor", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "color", &static_QUType_varptr, "\x0a", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"setBackgroundColor", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "b", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"setDrawShadow", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "font", &static_QUType_varptr, "\x05", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"setFont", 1, param_slot_3 };
+    static const QUParameter param_slot_4[] = {
+	{ "screen", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_4 = {"setScreen", 1, param_slot_4 };
+    static const QMetaData slot_tbl[] = {
+	{ "setTextColor(const QColor&)", &slot_0, QMetaData::Public },
+	{ "setBackgroundColor(const QColor&)", &slot_1, QMetaData::Public },
+	{ "setDrawShadow(bool)", &slot_2, QMetaData::Public },
+	{ "setFont(const QFont&)", &slot_3, QMetaData::Public },
+	{ "setScreen(int)", &slot_4, QMetaData::Public }
+    };
+    static const QUMethod signal_0 = {"positionChanged", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "positionChanged()", &signal_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"OSDPreviewWidget", parentObject,
+	slot_tbl, 5,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_OSDPreviewWidget.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* OSDPreviewWidget::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "OSDPreviewWidget" ) )
+	return this;
+    return OSDWidget::qt_cast( clname );
+}
+
+// SIGNAL positionChanged
+void OSDPreviewWidget::positionChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool OSDPreviewWidget::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setTextColor((const QColor&)*((const QColor*)static_QUType_ptr.get(_o+1))); break;
+    case 1: setBackgroundColor((const QColor&)*((const QColor*)static_QUType_ptr.get(_o+1))); break;
+    case 2: setDrawShadow((bool)static_QUType_bool.get(_o+1)); break;
+    case 3: setFont((const QFont&)*((const QFont*)static_QUType_ptr.get(_o+1))); break;
+    case 4: setScreen((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return OSDWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool OSDPreviewWidget::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: positionChanged(); break;
+    default:
+	return OSDWidget::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool OSDPreviewWidget::qt_property( int id, int f, QVariant* v)
+{
+    return OSDWidget::qt_property( id, f, v);
+}
+
+bool OSDPreviewWidget::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::OSD::className() const
+{
+    return "amaroK::OSD";
+}
+
+QMetaObject *amaroK::OSD::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__OSD( "amaroK::OSD", &amaroK::OSD::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::OSD::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::OSD", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::OSD::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::OSD", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::OSD::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = OSDWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"forceToggleOSD", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "forceToggleOSD()", &slot_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::OSD", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__OSD.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::OSD::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::OSD" ) )
+	return this;
+    return OSDWidget::qt_cast( clname );
+}
+
+bool amaroK::OSD::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: forceToggleOSD(); break;
+    default:
+	return OSDWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::OSD::qt_emit( int _id, QUObject* _o )
+{
+    return OSDWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::OSD::qt_property( int id, int f, QVariant* v)
+{
+    return OSDWidget::qt_property( id, f, v);
+}
+
+bool amaroK::OSD::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

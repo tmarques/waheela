@@ -1,0 +1,6812 @@
+# translation of amarok.po to
+# Igal <koala@linux.net>, 2004.
+# Diego Iastrubni <elcuco@kdemail.net>, 2004.
+# Assaf Gillat <gillata@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2006-03-25 03:24+0200\n"
+"Last-Translator: kde\n"
+"Language-Team:  <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "לא ידוע "
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr "גלה את המוזיקה - amaroK"
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "רשימת השמעה..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "שידור רדיו זורם..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "רשימת השמעה חכמה..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "פוד־קסט..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "רשימת השמעה נוכחית..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "רשימת השמעה דינמית..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "שנה שם"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "תצוגה מפורטת"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "תצוגת רשימה"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "לא ממוין"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "מיון לפי סדר עולה"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "מיון לפי סדר יורד"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "שידורי רדיו זורמים"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "שידורים מגניבים זורמים"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "רשימות השמעה חכמות"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "אוסף"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "אוסף שלם"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "הרצועות המועדפות"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "של %1 "
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "מושמע ביותר"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "הרצועות החדשות ביותר"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "הושמע לאחרונה"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "לא הושמע מעולם"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "הושמע לפחות פעם אחת"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "סגנונות"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 רצועות אקראיות"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "שמור רשימת השמעה דינמית"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "הכנס שם של רשימת השמעה:"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "רשימות השמעה דינמיות"
+
+#: playlistbrowser.cpp:752
+msgid "Random Mix"
+msgstr "ערבוב אקראי"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "שירים מומלצים"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "פוד־קסטים"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "הוסף פוד־קסט"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "הכנס כתובת פוד־קסט:"
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "משך זמן ההורדה"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "משך זמן הסריקה (שעות):"
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+"<p>בחרת פוד־קסט אחד למחיקה <b>לא ניתנת לשחזור</b>. כל הפרקים שירדו ימחקו גם "
+"כן.\n"
+"<p>בחרת %n פוד־קסטים למחיקה <b>לא ניתנת לשחזור</b>. כל הפרקים שירדו ימחקו גם "
+"כן."
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "רשימות השמעה"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr "לא יכול לכתוב רשימת השמעה (%1)."
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "קבצי רשימות השמעה"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "הוסף רשימות השמעה"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>בחרת רשימת השמעה אחת למחיקה <b>לא ניתנת לשחזור</b>.\n"
+"<p>בחרת %n רשימות השמעה למחיקה <b>לא ניתנת לשחזור</b>."
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "שגיאה בעת שינוי שם הקובץ."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "&טען"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "&הוסף לרשימת השמעה"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+msgid "Remove From Dynamic Mode"
+msgstr "הסר ממצב דינמי"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "הוסף למצב דינמי"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "שח&זר"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "&שנה שם"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "&ערוך..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "ה&סר"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "&ערוך"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+msgid "Show &Information"
+msgstr "הצג &מידע"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "בדוק &עדכונים"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "ה&גדר..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "&נגן"
+
+#: playlistbrowser.cpp:2239
+msgid "&Queue"
+msgstr "&הכנס לתור"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "&הורד מדיה"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr "הוסף לתור הה&עברה של התקן המדיה"
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "הוסף רשימת השמעה..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "הוסף רשימת השמעה חכמה..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "הוסף שידור רדיו זורם..."
+
+#: playlistbrowser.cpp:2306
+msgid "Save Dynamic Configuration..."
+msgstr "שמור הגדרות של רשימות דינמיות..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "רענן את כל הפוד־קסטים"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "הוסף פוד־קסט..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "מרווח הסריקה..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "צור תיקיית משנה"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "תיקייה"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "תיקייה %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "&הכנס רצועה לתור"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "&צור רשימת השמעה"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "צרוב לתקליטור כמידע"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "צרוב לתקליטור כשמע"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "עריכת &מידע רצועה..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr "מידע רצועה לא זמין עבור מדיה מרוחקת."
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "הקובץ אינו קיים: %1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "&שחזר"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "שמור רשימת השמעה"
+
+#: playlistbrowser.cpp:2858
+msgid "Save to location..."
+msgstr "שמור למיקום..."
+
+#: playlistbrowser.cpp:2862
+msgid "&Enter a name for the playlist:"
+msgstr "ה&כנס שם עבור רשימת ההשמעה:"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr "רשימת השמעה בשם \"%1\" כבר קיימת. האם אתה רוצה לשכתב אותה?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite Playlist?"
+msgstr "שכתב רשימת השמעה?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite"
+msgstr "שכתב"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "הייתה שגיאת התחברות לאתר Amazon."
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr "מצטערים, אין אפשרות לטעון את \"%1\", במקום זאת טענו את \"%2\"."
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p dir=rtl > ל־amaroK לא הייתה אפשרות למצוא תוספי מנועי השמעה. היישום amaroK "
+"מעדכן כעת את הגדרות מסד הנתונים של KDE. אנא המתן מספר דקות, והפעל את amaroK "
+"מחדש.</p> <p dir=rtl> אם זה לא עוזר, כנראה ש־amaroK הותקן תחת הפניה שגויה, אנא "
+"תקן את ההתקנה על ידי: "
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre> מידע נוסף נמצא בקובץ README. לסיוע מורחב הצטרף אלינו בערוץ "
+"amarok# ב־irc.freenode.net. </p>"
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+"<p>המנוע %1 טוען <b>שאין ביכולתו</b> להשמיע קבצי MP3."
+"<p> אתה יכול לבחור מנוע השמעה אחר מ <i>תיבת דו־שיח של ההגדרות</i>"
+", או לחלופין לבחון את ההתקנה של מסגרת המולטימדיה שמנוע ההשמעה הנוכחי משתמש בה. "
+"<p> תוכל למצוא מידע מועיל בחלק ה <i>FAQ</i> אשר ממוקם ב <i>"
+"ספר ההדרכה של amaroK </i>."
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "מתחבר למקור השידור הזורם..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "הקובץ המקומי אינו קיים."
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "מנהל תסריטים"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"חבילות תסריטים (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "בחר חבילת תסריטים"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "לא יכול לקרוא את החבילה."
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr "תסריט עם השם \"%1\" כבר מותקן. אנא, הסר אותו קודם."
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "התסריט הותקן בהצלחה."
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+"<p>התקנת התסריט נכשלה.</p>"
+"<p>החבילה לא הכילה שום קובץ ריצה אנא הודע למתחזק החבילה על שגיאה זו.</p>"
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "האם הנך בטוח שברצונך למחוק את תסריט \"%1\"? "
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "הסר התקנת תסריט"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "הסר התקנה"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+"<p>לא יכול להסיר את התקנת התסריט</p>"
+"<p>מנהל התסריטים יכול רק להסיר תסריטים שהוספו כחבילות.</p>"
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+"<p>לא יכול להפעיל את התסריט <i>%1</i>.</p>"
+"<p>אנא וודא שלקובץ יש הרשאות ריצה (+x).</p>"
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "אין מידע זמין עבור תסריט זה."
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "אודות %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr "%1 תסריט של amaroK"
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr "רישיון"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "חיפוש באגים"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "הראה את הפלט של ה&יומן "
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "פלט היומן של %1"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "התסריט \"%1\" הסתיים עם קוד שגיאה: %2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "ממלא רשימת השמעה"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "מכין"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "אין אפשרות לטעון חלק מהמדיות (לא ניתנות להשמעה)."
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "המדיות הבאות לא ניתנות לטעינה לתוך רשימת ההשמעה: "
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+"מבנה ה־XML של רשימת ההשמעה לא תקין. אנא דווח על זה כבאג לצוות המפתחים של "
+"amaroK. תודה."
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "ל־amaroK הייתה בעיה בפתיחת הקובץ."
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr "רכיב זה של amaroK לא יכול להמיר רשימות השמעה בתבנית XML."
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "התבנית של רשימת השמעה זו לא נתמכת על ידי amaroK."
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr "רשימת השמעה זו לא מכילה קישורים לקבצים."
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "מאחזר רשימת השמעה"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr "תיקיות אלו יעברו סריקת מדיה בכדי להרכיב את האוסף שלך."
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "&סרוק תיקיות בצורה רקורסיבית"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "&נטר את התיקיות לשינויים"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "&ייבא רשימות השמעה"
+
+#: directorylist.cpp:45
+msgid "If selected, amaroK will read all subfolders."
+msgstr "אם סומן, amaroK תקרא את כל תיקיות המשנה."
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"אם סומן, התיקיות יסרקו אוטומטית כאשר התוכן בהן ישתנה, כלומר כאשר יתווסף קובץ "
+"חדש."
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+"אם סומן, קבצי רשימות השמעה (m3u.) יתווספו אוטומטית לסייר רשימות ההשמעה."
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "מלא מחדש"
+
+#: party.cpp:78
+msgid "Enable dynamic mode"
+msgstr "הפעל מצב דינמי"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "הצג אפשרויות"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+"<p align=\"center\"><b>מצב דינמי</b></p>\n"
+"מצב דינמי הוא שיטה חזקה לארגון רשימת ההשמעה שלך. amaroK יכול להסיר אוטומטית "
+"רצועות שנוגנו ולהכניס חדשות על מנת להתאים לטעם האישי שלך!\n"
+"<br> "
+"<br> אם תבחר <i>ערבוב רשימת השמעה</i>, שים לב שצריך לבחור מספר רשימות השמעה או "
+"רשימות השמעה חכמות על ידי לחיצה ימנית על הרצועות בסייר רשימת ההשמעה"
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "היכרות עם מצב דינמי"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "מנהל עטיפות"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "כותרים של"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "כל הכותרים"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "אמנים שונים"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "סנן כאן..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "נקה מסנן"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "הכנס מונחים המופרדים על ידי מקש ה־space על מנת לסנן כותרים"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "כותרים עם עטיפה"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "כותרים ללא עטיפה"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "רב־לאומי"
+
+#: covermanager.cpp:140
+msgid "Canada"
+msgstr "קנדה"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "צרפת"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "גרמניה"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "יפן"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "אנגליה"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "מקומי של Amazon"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "הבא עטיפות חסרות"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "בטל"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "טוען תמונות מוקטנות..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "תמונת עטיפה"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "ה&בא עטיפות נבחרות"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "קבע עטיפה &מותאמת אישית לכותרים נבחרים"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "ב&טל קביעה של עטיפות נבחרות"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "הצג בגודל מ&לא"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "הבא מ&תוך amazon.%1"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "&קבע תמונה מותאמת אישית"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "קבע &תמונת עטיפה"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "ב&טל קביעת תמונת עטיפה"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "בחר קובץ תמונת עטיפה"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr ""
+"האם הנך בטוח שברצונך למחוק עטיפה זו מהאוסף?\n"
+"האם הנך בטוח שברצונך למחוק את %n העטיפות האלו מהאוסף?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "הסתיים."
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr ""
+" עטיפה לא נמצאה\n"
+" לא נמצאו <b>%n</b> עטיפות"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "מביא עטיפה עבור"
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr ""
+"מביא עטיפה אחת: \n"
+"מביא <b>%n</b> עטיפות... : "
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr ""
+"הושגה אחת \n"
+"הושגו %n"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr ""
+"לא נמצאה אחת\n"
+"לא נמצאו %n"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "מתחבר..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr ""
+" תוצאה אחת עבור \"%1\" \n"
+"%n תוצאות עבור\"%1\""
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr ""
+"כותר אחד \n"
+"%n כותרים"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " של "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> ללא עטיפה )"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "האם הנך בטוח שברצונך לשכתב עטיפה זו?"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "וידוא שכתוב"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "&שכתב"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr "אנא דווח הודעה זו אל amarok-devel@lists.sf.net, תודה!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "ברוך בואך אל amaroK"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "מאבחן"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr "לחץ למאבחנים נוספים, לחץ \"d\" לניתוק."
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "האקולייזר לא זמין עם מנוע זה."
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "אפקטים חזותיים"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "לחץ לחיצה ימנית על פריט לפתיחת תפריט ההקשר"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "מסך מלא"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>לא נמצאו אפקטים חזותיים</h3>סיבות אפשריות:"
+"<ul>"
+"<li>לא מותקן libvisual</li>"
+"<li>לא מותקנים תוספים של libvisual</li></ul>אנא בדוק אפשרויות אלו והפעל את "
+"amaroK מחדש.</div>"
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "הכנס מונחים המופרדים על ידי רווח על מנת לסנן את האוסף"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "עדכון"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "הגדר תיקיות"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "תצוגת עץ"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "תצוגה שטוחה"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "קבץ לפי"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "אמן"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "אמן / כותר"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "שנה"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "כותר"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "סגנון / אמן"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "סגנון / אמן / כותר"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "רמה &ראשונה"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "רמה &שנייה"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "רמה ש&לישית"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "&כותר"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr "(ש&נה) - כותר"
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "&אמן"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "&סגנון"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "&שנה"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "&ללא"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "&כותר"
+
+#: collectionbrowser.cpp:207
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"אמן 1\n"
+"%n אמנים"
+
+#: collectionbrowser.cpp:212
+#, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"כותר 1 \n"
+"%n כותרים"
+
+#: collectionbrowser.cpp:217
+#, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"סגנון 1\n"
+"%n סגנונות"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"רצועה מס' \n"
+"%n רצועות"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "הגדר אוסף"
+
+#: collectionbrowser.cpp:1185
+msgid "&Queue Tracks"
+msgstr "הכנס רצועות ל&תור"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+msgid "&Save as Playlist..."
+msgstr "&שמור רשימת השמעה בשם..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "צרוב את כל הרצועות של אמן זה"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "צרוב כותר זה"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+msgid "Burn to CD"
+msgstr "צרוב לתקליטור"
+
+#: collectionbrowser.cpp:1214
+msgid "&Fetch Cover Image"
+msgstr "&הבא את תמונת העטיפה"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+"ערוך &מידע רצועה...\n"
+"ערוך &מידע עבור %n רצועות..."
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr "&סמן כיצירה של תקליטור לצריבה"
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr "ב&טל סימון כיצירת של תקליטור לצריבה"
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "שם הרצועה"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "סגנון"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>מצב תצוגה שטוחה</h3>על מנת לאפשר מצב תצוגה שטוחה, אנא הכנס מונח חיפוש בשורת "
+"המסנן למעלה.</div>"
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "תפריט amaroK"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "תפריט"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "מ&נהל עטיפות"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "א&פקטים חזותיים"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "א&קולייזר"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "אשף ה&פעלה ראשונה"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "&סרוק את האוסף מחדש"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "נגן/השהה"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "השהה"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "נגן"
+
+#: actionclasses.cpp:278
+msgid "Click for more analyzers"
+msgstr "לחץ למאבחנים נוספים"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "עוצמת קול"
+
+#: actionclasses.cpp:338
+msgid "Volume control"
+msgstr "בקרת עוצמת קול"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "&מצב אקראי"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "חזור על &רצועה"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "חזור על רשימת הה&שמעה"
+
+#: actionclasses.cpp:391
+msgid "&Dynamic Mode"
+msgstr "מצב &דינמי"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "צרוב"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "רשימת השמעה נוכחית"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "רצועות מסומנות"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr "עכשיו"
+
+#: actionclasses.cpp:505
+msgid "After Current Track"
+msgstr "אחרי הרצועה הנוכחית"
+
+#: actionclasses.cpp:506
+msgid "After Queue"
+msgstr "אחרי התור"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p dir=\"rtl\"> ל־KLibLoader לא הייתה אפשרות לטעון את התוסף: "
+"<br/><i>%1</i></p>"
+"<p>שגיאה הודעה:"
+"<br/><i>%2</i> </p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "שם"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "ספרייה"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "יוצרים"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "דוא\"ל"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "גרסה"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "גרסת מסגרת"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "מידע אודות התוסף"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr "אקולייזר של amaroK המשתמש בגרף קווים"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "אקולייזר המורכב מגרף"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "אקולייזר"
+
+#: equalizersetup.cpp:73
+msgid "Presets:"
+msgstr "אפשרויות קבועות:"
+
+#: equalizersetup.cpp:80
+msgid "Add new preset"
+msgstr "הוסף אפשרויות קבועות חדשות לאקולייזר"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr "נהל אפשרויות קבועות"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "אפשר אקולייזר"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "קדם־הגבר"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+msgid "Manual"
+msgstr "ידני"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr "איפוס"
+
+#: equalizersetup.cpp:361
+msgid "Add Equalizer Preset"
+msgstr "הוסף אפשרות קבועה לאקולייזר"
+
+#: equalizersetup.cpp:362
+msgid "Enter preset name:"
+msgstr "הכנס שם של אפשרות קבועה:"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr "אפשרות קבועה עם שם %1 כבר קיימת. שכתב?"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "צוות התרגום של KDE לעברית, Koala, Assaf Gillat"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "kde-il@yahoogroups.com,  koala@linux.net, gillata@gmail.com"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>סייר התקני מדיה</h3>לחץ על כפתור החיבור לגישה אל ה iPod המעוגן שלך. גרור "
+"ושחרר קבצים על מנת להכניס אותם לתור עבור העברה.</div>"
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "מחק קובץ"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "כתובת"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr ""
+"יש רצועה אחת בתור\n"
+"יש %n רצועות בתור"
+
+#: mediabrowser.cpp:414
+msgid "Connect"
+msgstr "התחבר"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "העבר"
+
+#: mediabrowser.cpp:419
+msgid "Connect media device"
+msgstr "התחבר אל התקן המדיה"
+
+#: mediabrowser.cpp:420
+msgid "Transfer tracks to media device"
+msgstr "העבר רצועות להתקן המדיה"
+
+#: mediabrowser.cpp:421
+msgid "Configure mount commands"
+msgstr "הגדר פקודות עגינה"
+
+#: mediabrowser.cpp:445
+msgid "&Remove From Queue"
+msgstr "&הסר מתוך התור"
+
+#: mediabrowser.cpp:446
+msgid "&Clear Queue"
+msgstr "&נקה תור"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr "0 רצועות בתור"
+
+#: mediabrowser.cpp:663
+msgid "Configure Media Device"
+msgstr "הגדר התקן מדיה"
+
+#: mediabrowser.cpp:668
+msgid "&Mount command:"
+msgstr "פקודת &עגינה:"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr "קבע את הפקודה לעגינת ההתקן שלך כאן, פקודות ריקות לא יבוצעו."
+
+#: mediabrowser.cpp:674
+msgid "&Unmount command:"
+msgstr "פקודת &ביטול עגינה:"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr "קבע את הפקודה לביטול עגינת ההתקן שלך כאן, פקודות ריקות לא יבוצעו."
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr "לא יכול לבצע את %1"
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>בחרת למחוק קובץ אחד <b>בצורה לא הפיכה</b>.\n"
+"<p>בחרת למחוק %n קבצים <b>בצורה לא הפיכה</b>."
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr "לא יכול למצוא התקן, אנא עגון אותו ונסה שנית."
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+msgid "Media Device Browser"
+msgstr "סייר התקן מדיה"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr "יש רצועות להעברה בתור. האם אתה רוצה להעביר אותם לפני הניתוק?"
+
+#: mediabrowser.cpp:954
+msgid "&Transfer"
+msgstr "הע&בר"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr "ההתקן שלך עכשיו מסונכרן, אנא בטל את העגינה שלו ונתק עכשיו."
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr "ההתקן שלך עכשיו מסונכרן, אתה יכול לנתק אותו."
+
+#: podcastsettings.cpp:20
+msgid "Configure Podcast Stream"
+msgstr "הגדר שידור זורם של פוד־קסט"
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr "החל על כל הפוד־קסטים"
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr "<p>זה יקבע את אפשרויות הפוד־קסט על כל הפוד־קסטים. האם אתה בטוח?"
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+msgid "Presets"
+msgstr "אפשרויות קבועות"
+
+#: equalizerpresetmanager.cpp:100
+msgid "Rename Equalizer Preset"
+msgstr "שנה שם לאפשרות קבועה באקולייזר"
+
+#: equalizerpresetmanager.cpp:101
+msgid "Enter new preset name:"
+msgstr "הכנס שם חדש לאפשרות קבועה:"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr "כל האפשרויות הקבועות ימחקו וברירות המחדל ישוחזרו. האם אתה בטוח?"
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>מנהל התורים</h3>על מנת ליצור תור, <b>גרור</b> רצועות מרשימת ההשמעה,  <b>"
+"ושחרר</b> אותן כאן."
+"<br>"
+"<br>גרור ושחרר רצועות מתוך המנהל על מנת למיין מחדש את סדר התורים.</div>"
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+msgid "Queue Manager"
+msgstr "מנהל תורים"
+
+#: queuemanager.cpp:276
+msgid "Move up"
+msgstr "העלה"
+
+#: queuemanager.cpp:277
+msgid "Move down"
+msgstr "הורד"
+
+#: queuemanager.cpp:279
+msgid "Enqueue track"
+msgstr "הכנס רצועה לתור"
+
+#: queuemanager.cpp:280
+msgid "Clear queue"
+msgstr "נקה תור"
+
+#: tagdialog.cpp:59
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr ""
+"רצועה 1\n"
+"מידע עבור %n רצועות"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "יוצר טביעות אצבע לשמע..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "הרצועה לא נמצאה במסד הנתונים של MusicBrainz."
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr "אנא התקן MusicBrainz כדי לאפשר תפקודיות זו"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "מצטערים, אין אפשרות לשנות את התגית %1."
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr "לטענת TagLib הקובץ %1 אינו ניתן לכתיבה."
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "&הוסף מדיה..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "&שמור רשימת השמעה בשם..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "נגן מדיה..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "נגן תקליטור שמע"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "הגדר קיצורי דרך &כלליים..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "הרצועה הקודמת"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "הרצועה הבאה"
+
+#: playlistwindow.cpp:186
+msgid "S&earch:"
+msgstr "&חיפוש:"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+"הכנס מונחים המופרדים על ידי רווחים על מנת לסנן את רשימת ההשמעה\n"
+"\n"
+"מתקדם: תבניות של Google גם כן מתקבלות;\n"
+"ראה ספר ההדרכה (חלק \"רשימות ההשמעה\" של פרק 4) לקבלת הסבר נוסף."
+
+#: playlistwindow.cpp:257
+msgid "&Cover Manager"
+msgstr "מ&נהל עטיפות"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+msgid "&Equalizer"
+msgstr "&אקולייזר"
+
+#: playlistwindow.cpp:263
+msgid "&First-Run Wizard"
+msgstr "אשף ה&פעלה ראשונה"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "הסתר סרגל כלים"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "הצג סרגל כלים"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "ה&סתר את חלון הנגן"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "ה&צג את חלון הנגן"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "&פעולות"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "&רשימת השמעה"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "הקשר"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "התקן מדיה"
+
+#: playlistwindow.cpp:662
+msgid "Play Media"
+msgstr "נגן מדיה"
+
+#: playlistwindow.cpp:662
+msgid "Add Media"
+msgstr "הוסף מדיה"
+
+#: collectionreader.cpp:37
+msgid "Building Collection"
+msgstr "בונה אוסף"
+
+#: collectionreader.cpp:67
+msgid "Updating Collection"
+msgstr "מעדכן אוסף"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "מעדכן אוסף..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr "דווח על קובץ זה אם amaroK קורס בזמן בניית האוסף."
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "קורא מבנה תיקיות"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "קורא מידע תג"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>אין אפשרות לאתחל את GStreamer.</h3> <p dir=\"rtl\"> "
+"אנא וודא כי התקנת את כל התוספים הדרושים ל-GStreamer (למשל OGG ו-MP3), והרץ <i>"
+"\"gst-register\"</i> לאחר מכן. </p> <p dir=\"rtl\"> למידע נוסף היעזר בספר הדרכה "
+"של GStreamer והצטרף לערוץ gstreamer# ב־irc.freenode.net. </p>"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>חסר רישום ל־GStreamer.</h3> <p dir=\"rtl\"> אנא וודא כי התקנת את כל התוספים "
+"הדרושים ל־GStreamer (למשל OGG ו־MP3), והרץ <i>\"gst-register\"</i> "
+"לאחר מכן. </p> <p dir=\"rtl\"> למידע נוסף היעזר בספר הדרכה של GStreamer והצטרף "
+"לערוץ gstreamer# ב־irc.freenode.net. </p>"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+"<p dir=\"rtl\"> אנא בחר <u>תוסף פלט</u> ל־GStreamer בחלון ההגדרות של מנוע "
+"ההשמעה. </p>"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>אין אפשרות ליצור את האלמנט של GStreamer: <i>%1</i></h3> "
+"<p> וודא שהתקנת את כל התוספים של GStreamer (e.g. OGG ו MP3), והרץ את <i>"
+"\"gst-register\"</i> אחר כך. </p>"
+"<p> לעזרה נוספת היעזר בספר ההדרכה של GStreamer, והצטרף אל #gstreamer בשרת "
+"irc.freenode.net. </p>"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "מבצע חציצה.. %1%"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+"<h3> ל־amaroK לא הייתה אפשרות לאתחל את MAS.</h3> <p dir=\"rtl\">"
+"בדוק כי שרות ה־MAS פועל. </p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>תוכנת השרת artsd לא רצה עם <b>עדיפות זמן אמת</b> דבר היכול לגרום ל\"קפיצות\" "
+"ורעשים בזמן ההשמעה."
+"<p>"
+"<p>על מנת להשתמש בעדיפות זמן אמת, פתח את מרכז הבקרה של KDE ואפשר את האפשרות "
+"\"הפעל את שרת הצליל עם עדיפות זמן אמת\", תחת <i>שרת הצליל</i> בתפריט <i>"
+"צליל ומולטימדיה.</i> חלק מהאנשים יצטרכו בנוסף לבדוק "
+"ש:\"$KDEDIR/bin/artswrapper\" מסומן כ: <b>suid</b> (chmod +s).</p>"
+"<p>אתה אולי תראה, למרות זאת שההשמעה בסדר ללא העלאת העדיפות של artsd.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "בעיית aRts"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr "אין אפשרות להפעיל aRts. עליך להשתמש במנוע אחר."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "שגיאה קטלנית"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p dir=\"rtl\"> התרחשה שגיאה בעת טעינת libamarokarts. קודם כל נסה "
+"<pre>killall -9 artsd && amarok</pre> במידה וזה לא עוזר, כנראה amaroK הותקן עם "
+"הפניה שגוייה, אנא התקן מחדש בעזרת: "
+"<pre>  ./configure --prefix=`kde-config --prefix` && su -c \"make install\" "
+"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "שגיאת amaroK"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr "שגיאה: לא נטען מנוע השמעה, אין אפשרות להתחיל השמעה."
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr "זיהוי אוטומטי"
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "היישום amaroK לא הצליח לאתחל את xine."
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "הספרייה xine לא הצליחה לאתחל אף אחד ממנהלי התקן השמע."
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "היישום amaroK לא הצליח לפתוח תהליך ניגון חדש של xine."
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+msgid "Radio Stream"
+msgstr "שידור רדיו זורם"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "אין תוסף קלט זמין, בדוק את ההתקנה שלך."
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "אין תוסף פענוח לסוג זה, בדוק את ההתקנה שלך."
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "הפענוח נכשל, בדוק את ההתקנה שלך."
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "שגיאה פנימית, בדוק את ההתקנה שלך."
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr "מפנה אל: "
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "המארח לכתובת <i>%1</i> אינו ידוע "
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "שם ההתקן שהוגדר על ידך לא תקין."
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "הרשת כנראה אינה זמינה."
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "פלט שמע אינו זמין, ההתקן תפוס."
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "החיבור לכתובת <i>%1</i> נדחה "
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "אין ל־xine אפשרות למצוא את הכתובת: <i>%1</i> "
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "הגישה לכתובת <i>%1</i> נדחתה "
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "המקור אינו ניתן לקריאה מתוך הכתובת: <i>%1</i> "
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr "התרחשה שגיאה במהלך טעינת ספרייה או מקודד."
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "אזהרה כללית"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "אזהרת אבטחה"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "שגיאה לא ידועה"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "מצטערים, אין מידע זמין נוסף."
+
+#: engine/helix/helix-engine.cpp:122
+msgid "Contacting: "
+msgstr "יוצר קשר: "
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr "מבצע חציצה %1%"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+"ספריית ה־helix שיש ברשותך, לא מוגדרת לעבודה עם תמיה ב־ALSA, ולכן המנוע של helix "
+"ישתמש ב־OSS"
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+"היישום amaroK לא הצליח לאתחל את מנוע ההשמעה helix. אנא בדוק את הנתיבים "
+"ב־\"הגדרות amaroK\" -> \"מנועי השמעה\""
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr "לא נמצא תוסף לתבנית %1"
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "תוסף פלט:"
+
+#: engine/helix/helix-configdialog.cpp:133
+msgid "Device:"
+msgstr "התקן:"
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr "ראשי"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr "תיקיית הליבה של Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr "זוהי התיקייה שבה clntcore.so ממוקם"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr "תיקיית התוספים של Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr "זוהי לדוגמה התיקייה שבה vorbisrend.so ממוקם"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr "תיקיית המקודדים של Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr "זוהי לדוגמה התיקייה שבה cvt1.so ממוקם"
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr "תוספים"
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "אין אפשרות להפעיל את K3b."
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "הייתה שגיאת התחברות של DCOP עם K3b."
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+"האם ליצור תקליטור שמע המותאם לנגני תקליטורים, או תקליטור נתונים המתאים למחשבים "
+"ונגני מוזיקה דיגיטליים אחרים?"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "צור פרויקט K3b"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "מצב שמע"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "מצב נתונים"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "מערכת קול"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "לחץ לבחירת מערכת קול להשמעה."
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "לחץ לקבלת מידע תוספים."
+
+#: configdialog.cpp:102
+msgid "Locale Encoding"
+msgstr "הקידוד של המערכת המקומית"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "כללי"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "הגדר אפשרויות כלליות"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "הגדר את המראה של amaroK"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "השמעה"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "הגדר השמעה"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "תצוגה על המסך"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "הגדר תצוגה על המסך"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "מנוע השמעה"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "הגדר מנוע השמעה"
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr "last.fm"
+
+#: configdialog.cpp:129
+msgid "Configure last.fm Support"
+msgstr "הגדר תמיכה ב־last.fm"
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "הגדר %1"
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr "100%"
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr "40%"
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr "20%"
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr "0%"
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+msgid "%1 by %2"
+msgstr "%1 על %2"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr ""
+"קצב סיביות\n"
+"%1 kbps"
+
+#: metabundle.h:106
+msgid "Stream"
+msgstr "שידור זורם"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr ""
+"קצב דגימה\n"
+"%1 kHz"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr ""
+"קצב דגימה\n"
+"%1 Hz"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "התוצאות של MusicBrainz"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr "שולח אל last.fm"
+
+#: scrobbler.cpp:939
+msgid "'%1' submitted to last.fm"
+msgstr "נשלחו \"%1\" אל last.fm"
+
+#: scrobbler.cpp:942
+msgid "Several tracks submitted to last.fm"
+msgstr "מספר רצועות נשלחו אל last.fm"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr ""
+"נשלחה \"%1\" ורצועה אחת נוספת\n"
+"נשלחו \"%1\" ו־%n רצועות נוספות"
+
+#: scrobbler.cpp:953
+msgid "Failed to submit '%1' to last.fm"
+msgstr "כישלון בשליחת \"%1\" אל last.fm"
+
+#: scrobbler.cpp:956
+msgid "Failed to submit several tracks to last.fm"
+msgstr "כישלון בשליחת מספר רצועות אל last.fm"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr ""
+"כישלון בשליחת \"%1\" ורצועה אחת נוספת\n"
+"כישלון בשליחת \"%1\" ו־%n רצועות נוספות"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr ""
+"רצועה אחת עדיין בתור\n"
+"%n רצועות עדיין בתור"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr "דו־שיח מסיבה"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "סוג השיר להוספה לרשימת השמעה"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, no-c-format
+msgid "Random Song"
+msgstr "שיר אקראי"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, no-c-format
+msgid "Suggested Song"
+msgstr "שיר מומלץ"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, no-c-format
+msgid "Playlist Shuffle"
+msgstr "ערבוב רשימת השמעה"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr "בחר איזה סוג שיר אתה רוצה להוסיף לרשימת ההשמעה"
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, no-c-format
+msgid "&Remove played tracks"
+msgstr "&מחק רצועות שהושמעו"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr "הסר אוטומטית רצועות מושמעות מרשימת ההשמעה"
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr "ס&מן היסטוריה"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr "ברגע שהושמעו, הרצועות יהפכו לאפורות"
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr "הרצועות שהושמעו שיוצגו:"
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr "כמה פריטים מושמעים להציג לפני הסרה"
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, no-c-format
+msgid "Upcoming tracks:"
+msgstr "הרצועות הבאות:"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr "המספר המינימלי של הרצועות הבאות לשמירה ברשימת ההשמעה"
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr "רצועות להוספה:"
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr "מספר הרצועות להוספה לרשימת ההשמעה אחרי כל שיר"
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "דו־שיח בוחר רצועות"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "שם קובץ"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr "בחר את התאמה הטובה ביותר"
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, no-c-format
+msgid "Filename"
+msgstr "שם קובץ"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "רצועה"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "תיקיית רשימת הבסיס"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "תסריטים"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "תסריטים אלו כרגע מוכרים ל־amaroK."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, no-c-format
+msgid "&Install Script"
+msgstr "התקן &תסריטים"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr "ה&שג עוד תסריטים"
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, no-c-format
+msgid "&Run"
+msgstr "ה&רץ"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, no-c-format
+msgid "&Stop"
+msgstr "&עצור"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr "ה&סר התקנה"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr "&הרץ תסריטים בהתחלת היישום"
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr "אם סומן, amaroK יפעיל אוטומטית את התסריטים שרצו בזמן שיצאת מהיישום."
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+"<p align=\"center\">הנקודות הכחולות ניתנות לשימוש בגרירה על מנת לכוון את "
+"האקולייזר. לחץ לחיצה כפולה על הקו על מנת להוסיף נקודת גרירה חדשה.</p>"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr "<p align=\"center\">קדם־הגבר</p>"
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "סרגל כלים של רשימת השמעה"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, no-c-format
+msgid "Podcast Configuration"
+msgstr "הגדרות פוד־קסט"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "אפשר &הבאה אוטומטית"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr "אם סומן, amaroK יסרוק אוטומטית את הפוד־קסטים לעדכונים"
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr "כתובת:"
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr "מיקום הפוד־קסט"
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, no-c-format
+msgid "Media Download"
+msgstr "הורדת מדיה"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "שידור זורם או הורדה על פי &דרישה"
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr "חייבים להוריד את המדיה, אחרת הפוד־קסט יושמע משרת מרוחק."
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, no-c-format
+msgid "Download when a&vailable"
+msgstr "הורד כאשר &זמין"
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr "הורד מדיה ברגע שהיא תהיה זמינה"
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, no-c-format
+msgid "Save location:"
+msgstr "שמור מיקום:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr "הגבל את &מספר הפריטים"
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr "אם סומן, amaroK יזרוק את הפוד־קסטים הישנים"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr "השאר מספר מרבי של:"
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, no-c-format
+msgid " Items"
+msgstr " פריטים"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr "המספר המרבי של הפוד־קסטים לשמירה"
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "אשף הפעלה ראשונה"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>ברוך בואך!</h1>\n"
+"<p dir=\"rtl\"> ישנם נגני מדיה רבים בימינו, זה נכון. אך מה שחסר לרובם זה ממשק "
+"שזורם עם המשתמש. כמה כפתורים עליך ללחוץ כדי פשוט להוסיף מדיה לרשימת ההשמעה? "
+"amaroK משתדלת להיות שונה, ומספקת ממשק \"גרור־השלך\" פשוט שהופך יצירת רשימת "
+"השמעה למשימה קלה ביותר. </p>\n"
+"<p align=\"right\"> <i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>אשף הפעלה ראשונה </h2>\n"
+"<p dir=\"rtl\"> אשף זה יעזור לך להגדיר את amaroK בשלושה צעדים פשוטים. לחץ <i>"
+"הבא </i>כדי להתחיל, או אם אינך אוהב אשפים, לחץ <i>דלג </i>. </p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr "ממשק (1 מתוך 3)"
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr "חלון יחיד עם נגן ורשימת השמעה, תפקודיות משולבת (כמו Juk)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr "הפרד בין הנגן לחלון רשימת ההשמעה (בדומה ל־XMMS או Winamp)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p dir=\"rtl\">  עם amaroK הנך יכול להשתמש בפריסת החלון שאתה מוצא שהיא הכי נוחה "
+"בשבילך. </p>   \n"
+"<p dir=\"rtl\"> אפשרותך לשנות הגדרות אלו מאוחר יותר על ידי שימוש בחלון ההגדרות. "
+"</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "אוסף (2 מתוך 3)"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+"<p>אנא בחר את התיקיות מימין איפה שקבצי המוזיקה נשמרים.</p>\n"
+"<p>זה מאוד מומלץ לעשות זאת, וזה ירחיב את האפשרויות הזמינות לך.</p>\n"
+"<p>אם תרצה, amaroK יכול לעקוב אחר תיקיות אלו בשביל למצוא קבצים חדשים ויכול "
+"בצורה אוטומטית להוסיף אותם לאוסף.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, no-c-format
+msgid "Database (3 of 3)"
+msgstr "מסד נתונים (3 מתוך 3)"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+"היישום amaroK משתמש במסד נתונים לשמירת מידע אודות המוזיקה שלך. אם אתה לא בטוח "
+"במה להשתמש לחץ על \"הבא\".\n"
+"<p><b>MySQL</b> או <b>Postgresql</b> הם מהירים יחסית ל <b>sqlite</b>"
+", אבל דורשים הגדרות נוספות.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"הוראות להגדרת  MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"הוראות להגדרת Postgresql</a>.</li>\n"
+"</ul>"
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>ברכות!</h1>\n"
+"<p dir=\"rtl\"> נגן amaroK מוכן לשימוש! כאשר תלחץ \"סיום\" amaroK יפעל ויסרוק "
+"את התיקיות באוסף שלך. </p>\n"
+"<p dir=\"rtl\"> חלון רשימת השמעה של amaroK יציג את <b>האוסף </b> שלך משמאל ו <b>"
+"רשימת השמעה </b>מימין. גרור והשלך מוזיקה מתוך האוסף אל רשימת ההשמעה ולחץ <b>"
+"נגן.</b> </p>\n"
+"<p dir=\"rtl\"> אם ברצונך לקבל עזרה נוספת או הדרכה, אנא בדוק את <a "
+"href=\"help:/amarok\">ספר ההדרכה של amaroK </a>. אנו מקווים שתהנה להשתמש "
+"ב־amaroK. </p>\n"
+"<p align=\"right\" > מפתחי amaroK </p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "הגדרות התצורה של מסד הנתונים"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, no-c-format
+msgid "Database:"
+msgstr "מסד הנתונים:"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, no-c-format
+msgid "Postgresql Configuration"
+msgstr "הגדרות Postsresql"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr "מידע חיבור:"
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "הפרמטרים להתחברות למסד הנתונים."
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "הגדרות MySQL"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "שם שרת:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "שם:"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr "לאיזה יציאה mysql צריך להתחבר."
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "יציאה:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr "שם השרת שבו נמצא מסד הנתונים."
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr "שם מסד הנתונים."
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "שם משתמש:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr "שם המשתמש שאתו נוכל להתחבר."
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "ססמה:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr "הססמה שאתה נוכל להתחבר."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "השיטה לשימוש ביציאת הקול"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+"בחר את תוסף הקול של הפלט (\"פולט\"). הזמינות של התוספים תלויה בהגדרות המערכת."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "אל תשתמש בזיהוי אוטומטי של התקן הקול"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr "אם מסומן, השתמש בהתקן שהוגדר על ידי המשתמש עבור יציאת קולט קול."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "התקן יציאת קול לשימוש"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+"בחר את התקן יציאת הקול, זה מועיל עבור יציאות הקולט של מנוע ההשמעה של gstreamer."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "השתמש בערכי יציאת קולט המותאמים אישית."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "הערכים המוגדרים אישית של הקולט."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "משך העמעום ביציאה (הנמכת עוצמת הקול) בזמן סיום הרצועה"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "הגדרות מנוע ההשמעה של GStreamer - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "התקן מותאם אישית. למשל: dev/dsp2/"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " אלפיות שנייה"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr "ה&תקן:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "השתמש בהתקן קול מותאם אישית"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, no-c-format
+msgid "&Fade-out:"
+msgstr "עמעום ב&יציאה:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, no-c-format
+msgid "&Output plugin:"
+msgstr "תוסף &פלט:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "קולט GStreamer"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "ערכים מותאמים אישית. למשל: sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, no-c-format
+msgid "&Parameters:"
+msgstr "&ערכים:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "השתמש בערכי קולט המותאמים אישית"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr "בחר את תוסף יציאת הקול."
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, no-c-format
+msgid "Enable a custom device"
+msgstr "השתמש בהתקן מותאם אישית"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+"אם סומן, הפעל את האפשרויות המותאמות אישית להתקן השמע. אחרת יעשה שימוש בברירת "
+"המחדל."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, no-c-format
+msgid "Xine Configure"
+msgstr "הגדר את Xine"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr "התקן שמע יכול להשתנות אחרי שתוסף הפלט ישונה ל־ALSA או ל־OSS."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "הגדרות התקן ALSA"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr "&מונו:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, no-c-format
+msgid "&Stereo:"
+msgstr "&סטריאו:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr "&4 ערוצים:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr "&6 ערוצים:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, no-c-format
+msgid "OSS Device Configuration"
+msgstr "הגדרות התקן OSS"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr "&סידור רמקולים:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr "מתווך HTTP עבור שידור זורם"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, no-c-format
+msgid "&Host:"
+msgstr "&שרת מארח:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, no-c-format
+msgid "&User:"
+msgstr "שם &משתמש:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, no-c-format
+msgid "&Password:"
+msgstr "&ססמה:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, no-c-format
+msgid "Output plugin"
+msgstr "תוסף פלט"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr "OSS מול ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, no-c-format
+msgid "Device"
+msgstr "התקן"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, no-c-format
+msgid "ALSA Device"
+msgstr "התקן ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr "DeviceEnabled"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr "האם ההתקן נבחר"
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, no-c-format
+msgid "Track Information"
+msgstr "מידע רצועה"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "ה&בא"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, no-c-format
+msgid "Sa&ve && Close"
+msgstr "&שמור וסגור"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "&כותר:"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "קצב דגימה:"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "&אמן:"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "&סגנון:"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "אורך:"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "&שנה:"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, no-c-format
+msgid "&Score:"
+msgstr "&ניקוד:"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "קצב סיביות:"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "רצ&ועה:"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "&שם הרצועה:"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, no-c-format
+msgid "Playcount:"
+msgstr "מספור השמעות:"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "&מלא תגיות תוך שימוש ב־MusicBrainz"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "גלה מידע תג מטביעות אצבע."
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "&הערה:"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "מיקום:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "אפשרויות כלליות"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "&הצג מסך פתיחה בהפעלה"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr "סמן כדי לאפשר מסך פתיחה בעת הפעלת amaroK."
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "&הצג סמל במגש המערכת"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "סמן כדי לאפשר סמל amaroK במגש המערכת."
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr "ה&נפש סמל במגש מערכת בזמן ההשמעה"
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr "סמן כדי להנפיש את סמל amaroK במגש המערכת."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "ה&צג חלון הנגן (בדומה ל־XMMS) "
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "סמן כדי לאפשר חלון נגן נוסף."
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "גודל ברירת המחדל לתצוגה מקדימה של &עטיפות:"
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "הגודל של תמונת העטיפה במציג התוכן בפיקסלים."
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr " פיקסלים"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr "הגודל של תמונות העטיפות במציג התוכן בפיקסלים."
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "אפשרויות חלון רשימת ההשמעה"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "&זכור את רשימת ההשמעה הנוכחית ביציאה"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"אם סומן, amaroK ישמור את רשימת ההשמעה הנוכחית ביציאה וישחזר אותה בהפעלה הבאה."
+"<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"אם סומן, amaroK ישמור את רשימת ההשמעה הנוכחית ביציאה וישחזר אותה בהפעלה הבאה."
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr "שמור רשימות השמעה י&דנית תוך שימוש בנתיב יחסי"
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+"אם סומן, amaroK ישתמש בנתיב יחסי עבור רצועות ברשימות השמעה שנשמרו ידנית"
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr "שמור את השיר הפעיל &גלוי בזמן שינוי רצועה"
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"אם סומן, רשימת ההשמעה תגלול בזמן שינוי שיר על מנת להפוך את השיר הפעיל לגלוי. "
+"ינקטו צעדים על מנת לא לגלול אם זה לא ראוי."
+"<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"אם סומן, רשימת ההשמעה תגלול בזמן שינוי שיר על מנת להפוך את השיר הפעיל לגלוי. "
+"ינקטו צעדים על מנת לא לגלול אם זה לא ראוי."
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "החלף לסייר ההקשר בזמן שינוי ר&צועה"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr "החלף לסייר ההקשר, בזמן השמעת רצועה.<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "החלף לסייר ההקשר, בזמן השמעת רצועה."
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, no-c-format
+msgid "Show s&tatusbar"
+msgstr "הצג שורת &מצב"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr "סמן על מנת לאפשר את שורת המצב בחלון רשימת ההשמעה.<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "סמן על מנת לאפשר את שורת המצב בחלון רשימת ההשמעה."
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "הצג סטטיסטיקה לפי &כותר"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "הצג סטטיסטיקה לפי כותר בסייר ההקשר.<br>"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "הצג סטטיסטיקה לפי כותר בסייר ההקשר."
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "קידודים"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "אל תפענח את הבאים בתור latin1:"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "תגיות ID&3v1"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+"פענח תגיות ID3v1 (הקיימות במספר קבצי MP3) תוך שימוש בערכת התווים המצוינת למטה."
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "&מידע תג של Shoutcast"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+"פענח את מידע שם הרצועה ואת האמן של שידורים זורמים של Shoutcast תוך שימוש בערכת "
+"התווים המצוינת למטה."
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "במקום זאת &פענח תוך שימוש בערכת התווים הזאת:"
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+"אם סומנו ID3v1 או מידע תג Shoutcast, הפענוח של המידע יתבצע תוך שימוש בקידוד "
+"ערכת התווים הזאת."
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "&השתמש בגופנים מותאמים אישית "
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "סמן כדי לאפשר גופנים מותאמים אישית."
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "גופן חלון הנגן:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "הגופן לשימוש בחלון הנגן."
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "גופן חלון רשימת ההשמעה:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "הגופן לשימוש בחלון רשימת ההשמעה."
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "גופן סייר ההקשר:"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "הגופן לשימוש בחלון סייר ההקשר."
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "ערכת הצבעים"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "&ערכת הצבעים המותאמים אישית"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr "אם סומן, amaroK ישתמש ברשימת ההשמעה בצבעים המוגדרים על ידי המשתמש."
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "&חזית:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "בחר צבע לשימוש כצבע החזית (טקסט) ברשימת השמעה."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr "לחץ לבחירת הצבע לשימוש כצבע החזית (טקסט) של חלון רשימת השמעה."
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "בחר צבע לשימוש כצבע החזית (טקסט) ברשימת השמעה."
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "&רקע:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "בחר צבע לשימוש כרקע רשימת ההשמעה."
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "לחץ לבחירת צבע לשימוש כרקע חלון רשימת ההשמעה."
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "&ערכת הצבעים הנוכחית של KDE"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr "אם סומן, amaroK ישתמש בצבעים הרגילים של KDE ברשימת ההשמעה."
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "ערכת הנושא ה&קלסית של amaroK בשם \"funkey-monkey\""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr "אם סומן, amaroK ישתמש בצבעים רגילים ברשימת ההשמעה."
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "גופן סייר ההקשר"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "בחר סגנון:"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "בחר את הסגנון של סייר ההקשר."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, no-c-format
+msgid "Install New Style..."
+msgstr "התקן סגנון חדש..."
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+"לחץ על מנת להתקין סגנון חדש של סייר ההקשר."
+"<br> עצה: סגנונות נוספים אפשר למצוא ב־ <a href=\"http://kde-look.org\">"
+"http://kde-look.org</a>"
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr "בחר והתקן סגנון חדש של סייר הקשר."
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr "מוריד סגנונות..."
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "לחץ להורדת סגנון חדש של סייר הקשר."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "בחר והורד סגנון חדש של סייר הקשר."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "התנהגות בעת מ&עבר רצועות"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>התנהגות בעת מעבר רצועות</b>\n"
+"<p>בזמן השמעה, כאשר amaroK עובר בין רצועות, הוא יכול או להמשיך לרצועה הבאה "
+"מידית (עם רווח ניתן לכיוון), או יכול להפעיל עמעום מוצלב (אם עמעום ניתן "
+"לכיוון).</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "&ללא עמעום מוצלב"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr "מאפשר מעבר תקין בין רצועות. באפשרותך להכניס רווח של שקט בין הרצועות."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "הכנס &רווח:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " אלפיות־שנייה"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "שקט בין הרצועות באלפיות־שנייה."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "&עמעום מוצלב"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"מאפשר עמעום קול בין רצועות. בנוסף, תכונה זו מאפשרת עמעום אל או מתוך שקט, למשל "
+"בלחיצה על מקש העצירה."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "&משך העמעום:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "אורך העמעום המוצלב בין הרצועות, באלפיות שנייה."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "&חדש השמעה בהפעלה"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"אם סומן, amaroK יחזור לנגן מאותו מקום שהופסק בהפעלה הקודמת - בדומה לנגן סרט "
+"מגנטי."
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "&השתמש בתצוגה על המסך"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"סמן כדי לאפשר תצוגה על המסך. "
+"<br>התצוגה מראה לזמן קצר את פרטי הרצועה המתנגנת בזמן שרצועה חדשה מנוגנת."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"סמן כדי לאפשר תצוגה על המסך, המציגה לזמן קצר את פרטי הרצועה המתנגנת בתחילת "
+"הרצועה."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "&גופן"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "הגופן לשימוש בתצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, no-c-format
+msgid "Draw &shadow"
+msgstr "הצג ה&צללה"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "צ&בעים"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "&השתמש בגופנים המותאמים אישית "
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr "סמן לאפשור צבעים מותאמים אישית בתצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "צבע רקע:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "צבע הרקע בתצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "לחץ לבחירת צבע הטקסט בתצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "צבע הטקסט בתצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "לחץ לבחירת צבע לרקע התצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "צבע טקסט:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr "הפוך את ה&רקע לשקוף"
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "הצג &טקסט"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "הצג את אותו המידע כמו בעמודות שברשימת ההשמעה"
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, no-c-format
+msgid "&Duration:"
+msgstr "&משך זמן:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "לתמיד"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"משך הזמן של להצגת התצוגה על המסך. הערך חייב להיות בין 500 מילי־שניות ל 10000 "
+"מילי־שניות."
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "המסך שיציג את התצוגה על המסך."
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, no-c-format
+msgid "Sc&reen:"
+msgstr "&מסך:"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySql"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "התיקיות של האוסף"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "מסד הנתונים של האוסף"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"היישום amaroK יכול לשלוח את השם של כל שיר שאתה משמיע אל last.fm. המערכת "
+"אוטומטית משווה בינך לאנשים אחרים עם טעם מוזיקלי דומה ויוצרת המלצות אישיות. על "
+"מנת ללמוד יותר על last.fm,  <A href=\"http://www.last.fm\">בקר באתר</A>."
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr "הפרופיל של last.fm"
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<P> על מנת להשתמש ב־last.fm עם amarok יש להגדיר <A "
+"href=\"http://www.last.fm:80/signup.php\">פרופיל last.fm</A>."
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, no-c-format
+msgid "&Username:"
+msgstr "שם &משתמש:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr "השרותים של last.fm"
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+"כאשר תירשם, amaroK יוכל להעביר אל last.fm רמזים על העדפות ההאזנה שלך. הפרופיל "
+"שלך יוכל אז לספק סטטיסטיקה והצעות. הפרופיל אינו דרוש על מנת להציג אמן דומה "
+"בסייר ההקשר."
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "שפר את הפרופיל ש&לי על ידי שליחת הרצועות שאני מנגן"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "א&חזר אמנים דומים"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"למה לא להצטרף אל <A href=\"http://www.last.fm:80/group/amaroK+users\">"
+"amaroK last.fm group</A> ולשתף את הטעם המוזיקלי שלך עם משתמשי amaroK אחרים?"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "גרסת amaroK"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr ""
+"מחרוזת הגרסה של amaroK, נעשה בה שימוש על מנת להפעיל את aRts בהתקנות חדשות."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "מיקום חלון הנגן"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr "המיקום של החלון המרכזי של amaroK בזמן תחילת amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "מיקום חלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "המיקום של חלון רשימת ההשמעה בזמן תחילת amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "גודל חלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "גודל החלון של רשימת ההשמעה בזמן הפעלת amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "האם לזכור את רשימת ההשמעה ביציאה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"אם סומן, amaroK ישמור את רשימת ההשמעה הנוכחית ביציאה וישחזר אותה בהפעלה הבאה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+"האם לעקוב אחרי קישורים סימבוליים בזמן הוספה רקורסיבית של רצועות לרשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"אם סומן, amaroK יעקוב אחרי קישורים סימבוליים בזמן הוספת קבצים או תיקיות לרשימת "
+"ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "האם להציג את הזמן הנותר לרצועה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+"סמן את זה על מנת להציג את הזמן הנותר לרצועה במקום את הזמן שעבר בחלון הניגון."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "האם לנגן רצועות ללא הפסקה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr "אם סומן, amaroK יחזור על הרצועה הנוכחית ללא הפסקה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "האם לנגן את כל רשימת ההשמעה ללא הפסקה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr "אם סומן, amaroK יחזור על רשימת ההשמעה ללא הפסקה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "האם לנגן את הרצועות בסדר אקראי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr "אם סומן, amaroK ינגן את הרצועות ברשימת ההשמעה בסדר אקראי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "נגן רשימת השמעה דינמית"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr "רשימת השמעה דינמית המסירה את הרצועה המנוגנת מהרשימה ומוסיפה שיר אחר."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr "הראה עזרה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "האם להציג או להסתיר את חלון דו־שיח המידע הדינמי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr "הוסף סוג שיר זה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr "מצב דינמי יוסיף סוג זה של שיר לסוף רשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr "רשימה של רשימות השמעה חכמות שיתווספו במצב דינמי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr "מספר השירים הבאים להצגה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr "מספר השירים הבאים להצגה ברשימת ההשמעה עבור מצב דינמי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr "ההיסטוריה של ספירת השירים"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr "מספר השירים שהושמעו מקודם להצגה ברשימת ההשמעה עבור מצב דינמי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr "מספר הרצועות להוספה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr "מספר הרצועות להוספה לרשימת ההשמעה במצב דינמי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, no-c-format
+msgid "Cycle Tracks"
+msgstr "סובב רצועות"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "האם להסיר את הפריט הראשון ברשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr "סמן היסטוריה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr "האם לסמן את הפריטים ברשימת ההשמעה בהיסטוריה ככאלו שהושמעו פעם."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "האם להציג את הסמל במגש המערכת"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "הפעל/בטל את הסמל במגש המערכת עבור amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "האם להנפיש את הסמל במגש המערכת"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "הפעל/בטל את האנימציה של הסמל במגש המערכת."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "האם להציג את חלון הנגן"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+"הופך את amaroK לתואם XMMS ושכפולים של Winamp עם נגן נפרד וחלון רשימת השמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "האם להציג את סרגל הכלים בחלון רשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr "גודל התצוגה של תמונות העטיפה בסייר ההקשר ובמנהל העטיפות"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "האם להציג את שורת המצב של רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "הצג מספר נתוני מצב על רשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "האם להוסיף תיקיות לרשימת ההשמעה בצורה רקורסיבית"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr "הפעל/בטל הוספה של תיקיות בצורה רקורסיבית לרשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "השקט בין הרצועות באלפיות שנייה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "השקט בין הרצועות באלפיות שנייה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "האם חלון רשימת ההשמעה הוא גלוי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+"הפעל/בטל את חלון רשימת ההשמעה. זהה לפעולה של בחירת כפתור רשימת השמעה החלון "
+"הנגן."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "מספר רמות הביטול ברשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "מספר רמות הביטול ברשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "האינדקס של המאבחן החזותי הנוכחי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "המזהה של המאבחן החזותי להצגה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "האינדקס של המאבחן המוצג בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr "המזהה של המאבחן החזותי להצגה בחלון הנגן."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "מיקומי המפצלים בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "לא בשימוש כרגע"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr "האם רשימת ההשמעה צריכה לגלול ביחד עם הפריט הפעיל ברשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"אם סומן, רשימת ההשמעה תגלול בזמן החלפת שיר על מנת שהשיר המתנגן כרגע יהיה גלוי. "
+"צעדים ננקטים על מנת שלא לגלול אם זה לא רצוי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "האם מסך הפתיחה יוצג בהפעלה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr "הצג/בטל הצגת מסך פתיחה בעת הפעלת amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr "האם סייר ההקשר יעשה פעיל בזמן תחילת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr "מחליף אוטומטית לסייר ההקשר בזמן תחילת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr "האם סייר ההקשר יציג סטטיסטיקה על הכותרים כאשר זה אפשרי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr "הצג סטטיסטיקה לפי כותרים בסייר ההקשר."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr "קבע דף סגנון CSS אשר יגדיר אישית את תצוגת סייר ההקשר"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "קבע את זה לתיקיית הסגנון שברצונך להשתמש בה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "האם סרגל התפריטים יוצג"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr "אם סומן, amaroK יציג את סרגל התפריטים ביישום."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "האם רשימות ההשמעה ישמרו כנתיב יחסי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+"אם סומן, רשימות השמעה הנשמרות ידניות של amaroK יכילו נתיב יחסי אל הרצועות, לא "
+"נתיב מלא."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "עוצמת קול ראשית"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr "עוצמת הקול הראשית של amaroK, ערך בין 0 (מושתק) ל־100."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "האם לעמעם בהצלבה בין רצועות"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "הפעל/בטל עמעום בהצלבה בזמן החלפת רצועות."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "אורך העמעום בין הרצועות באלפיות שנייה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "אורך העמעום בין הרצועות באלפיות שנייה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "מערכת הקול לשימוש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"בחר את מערכת הקול שיעשה בה שימוש לניגון מדיה. amaroK כרגע תומכת ב: aRts, "
+"GStreamer, xine ו MMM. למרות זאת, הזמינות שלהן תלויה בהגדרות שלהן בזמן ההידור."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "הפעל את תוסף האקולייזר"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "אם סומן, תוסף האקולייזר יסנן את שידור השמע."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr ""
+"ערך קדם־הגבר של האקולייזר, הערך הוא בין 100 - ובין 100,כאשר 0 הוא הערך הנורמלי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr ""
+"הגבר הערוצים לאקולייזר, 10 ערכים, טווח בין 100 - לבין 100, כאשר 0 הוא ערך "
+"הנורמלי."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, no-c-format
+msgid "Equalizer preset name."
+msgstr "שם אפשרות קבועה של האקולייזר."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "השפה של Amazon עבור משיכת העטיפות"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr "קובע מאיזה שרת של Amazon יילקחו עטיפות הכותרים."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "השפה של וויקיפדיה עבור משיכת המידע"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr "קובע באיזה שפה המידע יימשך מוויקיפדיה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "השתמש בתצוגה על המסך "
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "הפעל/בטל את התצוגה על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr "הצג את אותו המידע בתצוגה על המסך כמו בעמודות של רשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+"אם סומן, התצוגה על המסך תציג את אותו המידע ובאותו סדר כמו העמודות ברשימת "
+"ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "טקסט התצוגה על המסך שיש להציג"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, no-c-format
+msgid "Customize the OSD display text."
+msgstr "התאם אישית את הטקסט שיוצג על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "הגופן עבור התצוגה על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "צייר צללית מסביב לטקסט."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "מצייר צללית מסביב לטקסט התצוגה על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr "הפעלה/כיבוי של שקיפות מדומה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr "השתמש בשקיפות מדומה בתור רקע של התצוגה על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "האם להשתמש בצבעים מותאמים אישית עבור תצוגה על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr ""
+"אם תסמן אפשרות זו, תוכל להשתמש בצבעים מותאמים אישית עבור התצוגה על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "צבע גופן לשימוש בתצוגה על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+"הצבע של התצוגה על המסך. הצבע יצוין בקידוד RGB, רשימת מופרדת פסיקים המכילה שלושה "
+"מספרים שלמים בין 0 לבין 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "צבע רקע לשימוש בתצוגה על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"צבע הרקע של התצוגה על המסך. הצבע יצוין  בקידוד RGB, רשימת מופרדת פסיקים המכילה "
+"שלושה מספרים שלמים בין 0 לבין 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "לכמה אלפיות שנייה הטקסט יוצג על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"משך הזמן שבו תופיע התצוגה על המסך. הערך 0 אומר להציג ללא הפסקה. ערך ברירת המחדל "
+"הוא 5000 אלפיות שנייה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "המיקום בציר Y"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"המיקום בציר ה־Y של התצוגה על המסך יחסית למסך הנבחר וליישור התצוגה על המסך. אם "
+"נבחר יישור לחלק העליון המיקום של ציר ה־Y הוא הרווח בין החלק העליון של התצוגה על "
+"המסך והחלק העליון של המסך. אם נבחר יישור לחלק התחתון המיקום של ציר ה־Y הוא "
+"הרווח בין החלק התחתון של התצוגה על המסך והחלק התחתון של המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "מסך שבו תוצג התצוגה על המסך"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr "מסך שבו תוצג התצוגה על המסך. עבור סביבה חד־מסכית הערך צריך להיות 0."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "האם להציג את עטיפת הכותר"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "אם סומן, הצג את עטיפת הכותר בתצוגה על המסך."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "ישר תצוגה על המסך אל"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr "המיקום היחסי של התצוגה על המסך. האפשרויות הן ימין, אמצע, שמאל, ומרכז."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "האם להשתמש בגופנים מותאמים אישית"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "אפשר/בטל גופנים מותאמים אישית."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "הגופן לשימוש בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "הגופן לשימוש בחלון הנגן"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "הגופן לשימוש בחלון סייר ההקשר"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "קודד מחדש תגיות ID3v1"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr "אם סומן, תגיות ID3v1 יקודדו מחדש עם הקידוד הנבחר."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "קודד מחדש מידע של Shoutcast"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "אם סומן, המידע Shoutcast יקודד מחדש."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "ערכת התווים של הקידוד מחדש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr "ערכת התווים שבה נקודד מחדש את נתונים המחרוזת המוצגים למעלה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr "האם להשתמש בצבעים הרגילים של amaroK בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr "אם סומן, amaroK תשתמש בצבעים הרגילים שלה ברשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr "האם להשתמש בצבעים הרגילים של KDE בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr "אם סומן, amaroK תשתמש בצבעים הרגילים של KDE ברשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr "האם להשתמש בצבעים המוגדרים על ידי המשתמש בחלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr "אם סומן, amaroK תשתמש בצבעים המוגדרים על ידי המשתמש ברשימת ההשמעה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "צבע החזית של חלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"הצבע שיעשה בו שימוש בחזית של רשימת ההשמעה. הצבע מצוין ב־RGB, זוהי רשימה מופרדת "
+"פסיקים המכילה שלושה שלמים בין 0 לבין 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "צבע הרקע של חלון רשימת ההשמעה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"הצבע שיעשה בו שימוש ברקע של רשימת ההשמעה. הצבע מצוין ב־RGB, זוהי רשימה מופרדת "
+"פסיקים המכילה שלושה שלמים בין 0 לבין 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "חדש השמעה של רצועה מושמעת אחרונה בהפעלה חדשה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr "אם סומן, amaroK יחדש השמעה של הרצועה האחרונה בהפעלה מחדש."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "כתובת הרצועה עבור חידוש ההשמעה בעת הפעלה מחדש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr "פנימי: כתובת הרצועה עבור חידוש ההשמעה בעת הפעלה חדשה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "הזמן שבו תחודש ההשמעה, באלפיות שנייה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr "פנימי: המיקום ברצועה שבה תחודש ההשמעה בהפעלה מחדש."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "מנוע מסד הנתונים"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr "מנוע מסד הנתונים שנועד לשמירת האוסף"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr "האם תיקיות האוסף יסרקו באופן רקורסיבי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "האם רצועות האוסף יסרקו בעת שינוי"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "האם רשימות ההשמעה יוספו בעת סריקה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "רשימת התיקיות באוסף"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "שרת מארח"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "שם השרת המארח שעליו מופעל שרת MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "יציאה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "היציאה שעליה מאזין שרת MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "שם מסד הנתונים"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "שמו של מסד הנתונים"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "שם משתמש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "שם המשתמש עבור חיבור לשרת MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "ססמה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "הססמה של המשתמש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr "מידע חיבור"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr "מידע החיבור של שרת Postgresql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "שלח שירים שנוגנו"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "האם שירים שהושמעו נשלחים ל-Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "שם משתמש"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "שם המשתמש עבור חיבור ל-Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "הססמה עבור חיבור ל-Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "אחזור אמנים דומים"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "האם שירים דומים יאוחזרו מ-Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, no-c-format
+msgid "MountCommand"
+msgstr "פקודת עגינה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr "פקודת העגינה בשימוש עבור חיבור התקן מדיה."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, no-c-format
+msgid "UmountCommand"
+msgstr "פקודת ביטול עגינה"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr "פקודת ביטול העגינה בשימוש עבור חיבור התקן מדיה."
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr "לא יכול להתחבר לשרת השידור הזורם הזה."
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "צור רשימת השמעה חכמה"
+
+#: smartplaylisteditor.cpp:45
+msgid "Edit Smart Playlist"
+msgstr "ערוך רשימת השמעה חכמה"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "אורך"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "רצועה #"
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "הערה"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "מונה השמעות"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "ניקוד"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "הושמע לראשונה"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "הושמע לאחרונה"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "תאריך שינוי"
+
+#: smartplaylisteditor.cpp:109
+msgid "File Path"
+msgstr "נתיב קובץ"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "שם רשימת ההשמעה:"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "התאם את התנאי הבא"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "הכל"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "כל"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr " מהתנאים הבאים"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "מסודר על פי"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "אקראי"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "הגבל ל־"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "רצועות"
+
+#: smartplaylisteditor.cpp:172
+msgid "Expand by"
+msgstr "הרחב לפי"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "אקראי לגמרי"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "ניקוד לפי משקלים"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "סדר עולה"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "סדר יורד"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "התאם"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "התאם את התנאי הבא"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "בין"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "בסוף"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+msgid "is not in the last"
+msgstr "לא בסוף"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "כולל"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "אינו כולל"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "הינו"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "אינו"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "מתחיל ב־"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "מסתיים ב־"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "גדול מ־"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "אחרי"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "קטן מ־"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "לפני"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "ו"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "ימים"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "חודשים"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "שנים"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "חבילות סגנון (tar , tar.bz2 , tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "בחר חבילת סגנון"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "הוסף מילים לשיר"
+
+#: contextbrowser.cpp:118
+msgid "Search For Lyrics"
+msgstr "חפש מילים לשיר"
+
+#: contextbrowser.cpp:119
+msgid "Refresh"
+msgstr "רענן"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+msgid "Open in external browser"
+msgstr "פתח בסייר חיצוני"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr "קדימה"
+
+#: contextbrowser.cpp:135
+msgid "Artist Page"
+msgstr "העמוד של האמן"
+
+#: contextbrowser.cpp:136
+msgid "Album Page"
+msgstr "העמוד של הכותר"
+
+#: contextbrowser.cpp:137
+msgid "Title Page"
+msgstr "העמוד של שם הרצועה"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "בית"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "נוכחי"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "מילים לשירים"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr "<p>אין מידע מוצר זמין לתמונה זו.<p>לחץ לחיצה ימנית על התמונה לתפריט."
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "קבע עטיפה &מותאמת אישית"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "ב&טל קביעת עטיפה"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+msgid "Edit Album &Information..."
+msgstr "ערוך מידע &כותר..."
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+msgid "&Queue Album"
+msgstr "&הכנס כותר לתור"
+
+#: contextbrowser.cpp:675
+msgid "Compilation"
+msgstr "יצירה של תקליטור"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "האם הנך בטוח שברצונך למחוק את עטיפה זו מהאוסף?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr "%1 %2"
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr ""
+"לפני שבוע\n"
+"לפני %n שבועות"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr ""
+"לפני יום\n"
+"לפני %n ימים"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr ""
+"לפני שעה\n"
+"לפני %n שעות"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr ""
+"לפני דקה אחת\n"
+"לפני %n דקות"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "בדקה האחרונה"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "העתיד"
+
+#: contextbrowser.cpp:879
+msgid "Unknown album"
+msgstr "כותר לא ידוע "
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr "לחיצה למידע מ־ amazon.com ,לחיצה ימנית לתפריט."
+
+#: contextbrowser.cpp:905
+msgid "Unknown artist"
+msgstr "אמן לא ידוע"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr ""
+"בודד\n"
+"%n רצועות"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "הושמע לאחרונה: %1"
+
+#: contextbrowser.cpp:1116
+msgid "Recently Played Tracks"
+msgstr "רצועות שהושמעו לאחרונה"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+"רשימה של הרצועות שהושמעו לאחרונה תופיע כאן, ברגע שתשמיע מספר שירים שלך."
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr "&#xa0;&#8211 "
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "הרצועות המועדפות עליך"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr "ברגע שתשמיע מספר רצועות, תופיע כאן רשימה של השירים המועדפים עליך."
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr "&#xa0;&#8211; "
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "הרצועות החדשות ביותר שלך"
+
+#: contextbrowser.cpp:1329
+msgid "Favorite Albums"
+msgstr "הכותרים המועדפים"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr "רשימת הכותרים המועדפים שלך תופיע כאן, ברגע שתשמיע כמה שירים שלך."
+
+#: contextbrowser.cpp:1354
+msgid "Your Newest Albums"
+msgstr "הכותרים החדשים ביותר שלך"
+
+#: contextbrowser.cpp:1371
+msgid "Least Played Albums"
+msgstr "הכותרים שהושמעו הכי מעט"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr "רשימת הכותרים שלא הושמעו כבר תקופה ארוכה, יופיעו כאן."
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "פירוט השידור הזורם"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "היסטורית מידע התג"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr "לחיצה להבאת עטיפה מאתר amazon.%1, לחיצה ימנית לתפריט."
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr "לחיצה למידע מאתר amazon.%1, לחיצה ימנית לתפריט."
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "חפש רצועה זו באתר musicbrainz.org"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr ""
+"רצועה הושמעה פעם אחת\n"
+"רצועה הושמעה %n פעמים"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "הושמע לראשונה: %1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "לא הושמע מעולם"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "הקובץ לא נמצא באוסף שלך!"
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr "אם ברצונך לראות מידע הקשור לרצועה זו, עליך להוסיף זאת לאוסף שלך."
+
+#: contextbrowser.cpp:1677
+msgid "Change Collection Setup..."
+msgstr "שנה את ההגדרות של האוסף שלך..."
+
+#: contextbrowser.cpp:1690
+msgid "Cue File"
+msgstr "קובץ Cue"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "האמן הזה"
+
+#: contextbrowser.cpp:1818
+#, c-format
+msgid "Favorite Tracks by %1"
+msgstr "רצועה מועדפת של %1"
+
+#: contextbrowser.cpp:1869
+#, c-format
+msgid "Albums by %1"
+msgstr "כותרים של %1"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "יצירות של תקליטור עם %1"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "<div dir=\"rtl\"> שלום, משתמש amaroK! </div>"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+"<div dir=\"rtl\"> זהו סייר ההקשר (התוכן). הוא מציג לך מידע רלוונטי אודות הרצועה "
+"המתנגנת כעת. כדי להשתמש באפשרות זאת של amaroK הנך צריך לבנות אוסף. </div>"
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "בנה אוסף..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "בונה את מסד הנתונים של האוסף..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+"אנא היה סבלני בזמן ש־amaroK סורק את אוסף המוזיקה שלך. אתה יכול לצפות בפעילות "
+"בסרגל המצב."
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "חי"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "אקוסטי"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "עטיפה"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "ערבול"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "עריכה"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "מגוון"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "אנ־פלאג"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "הטבה"
+
+#: contextbrowser.cpp:2452
+msgid "Cached Lyrics"
+msgstr "המילים לשירים שבמטמון"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+msgid "Fetching Lyrics"
+msgstr "משיג מילים לשירים"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr "אי אפשר היה לאחזר מילים כי השרת לא ניתן להשגה."
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "<p dir=\"rtl\"> לא נמצאו מילים לשירים. </p>"
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr "לא נמצאו מילים לרצועות, להלן כמה הצעות:"
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr "וויקיפדיה"
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+msgid "Fetching Wikipedia Information"
+msgstr "משיג מידע מוויקיפדיה"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr "אי אפשר היה לאחזר מידע אמן כי השרת לא היה ניתן להשגה."
+
+#: contextbrowser.cpp:2939
+msgid "Wikipedia Information"
+msgstr "מידע וויקיפדיה"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr "שפות אחרות של וויקיפדיה"
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr "השרת MySql דיווח על השגיאה הבאה:<br>"
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr "<p> תוכל להגדיר את MySQL בחלק של האוסף תחת הגדרות->הגדרת amaroK </p>"
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr "השרת Postgresql דיווח על השגיאה הבאה:<br>"
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p> תוכל להגדיר את Postgresql בחלק של האוסף תחת הגדרות->הגדרת amaroK  </p>"
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "קצב מסגרות"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 fps"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "לחץ למאבחנים"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<h3>תגיות מוצגות על המסך</h3>השתמש באסימונים הבאים:"
+"<ul>"
+"<li>שם הרצועה - %1"
+"<li>כותר - %2"
+"<li>אמן - %3"
+"<li>סגנון - %4"
+"<li>קצב דגימה - %5"
+"<li>שנה - %6"
+"<li>אורך רצועה - %7"
+"<li>מספר רצועה - %8"
+"<li>שם קובץ - %9"
+"<li>תיקייה - %10"
+"<li>סוג - %11 "
+"<li>הערה - %12"
+"<li>ניקוד - %13"
+"<li>מספור השמעה - %14</ul>אם תעטוף את הקטע הטקסט שמכיל את האסימון בסוגריים "
+"מסולסלות, דוגמה:"
+"<pre>%11</pre>לא תראה <b>תוצאה: <i>%score</i></b> אם לרצועה אין ניקוד."
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "תיקייה"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "קצב סיביות"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr "סוג"
+
+#: playlist.cpp:244
+msgid "Playcount"
+msgstr "מספור השמעות"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "ע&רבב"
+
+#: playlist.cpp:295
+msgid "&Goto Current Track"
+msgstr "&עבור לרצועה נוכחית"
+
+#: playlist.cpp:296
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "&הסר רשומות כפולות ומתות"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+msgid "&Queue Selected Tracks"
+msgstr "הכנס רצועות מסומנות ל&תור"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr "ניסיון להכניס שום דבר אל רשימת ההשמעה."
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr "לא הוחזרו רצועות להכנסה."
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr "אין מקורות תקינים עבור רשימת ההשמעה הדינמית."
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>אזהרה</b></div>רשימת ההשמעה המכונה <i>%1</i> "
+"לא מכילה רצועות."
+"<br>"
+"<br>אנא שנה את רשימת ההשמעה או בחר מקור אחר."
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>אזהרה</b></div>רשימת ההשמעה החכמה המכונה <i>%1</i> "
+"לא מכילה רצועות."
+"<br>"
+"<br>אנא שנה את רשימת ההשמעה החכמה או בחר מקור אחר."
+
+#: playlist.cpp:1179
+msgid "Playlist finished"
+msgstr "רשימת ההשמעה הסתיימה"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>רשימת ההשמעה</h3> זוהי רשימת ההשמעה. על מנת ליצור רשימה, <b>גרור</b> "
+"רצועות מלוח הסייר השמאלי, <b>ושחרר</b> אותן כאן ואז n <b>לחץ לחיצה כפולה</b> "
+"עליהן על מנת להתחיל השמעה. </div>"
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+"<div align=center>"
+"<h3>הסיירים</h3>הסיירים הם מקור המוזיקה שלך. סייר האוסף מכיל את האוסף שלך. סייר "
+"רשימת ההשמעה מכיל את רשימות ההשמעה הקבועות שלך. סייר הקבצים מציג בוחר קבצים "
+"שאפשר להשתמש בו על מנת לגשת לכל המוזיקה על המחשב שלך. </div>"
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "&הסתר עמודה זו"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "עמודות רשימת השמעה"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr "<p dir=\"rtl\"> בחרת למחוק את הקובץ %1 באופן <b>בלתי הפיך</b>."
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p dir=\"rtl\">בחרת למחוק קובץ אחד באופן <b>בלתי הפיך </b>.\n"
+"<p dir=\"rtl\">בחרת למחוק %n קבצים באופן <b>בלתי הפיך </b>."
+
+#: playlist.cpp:2629
+msgid "Deleting files"
+msgstr "מוחק קבצים"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "הועתק: %1"
+
+#: playlist.cpp:3049
+msgid "Load Dynamic Playlist"
+msgstr "טען רשימת השמעה דינמית"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "&הפעל מחדש"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+msgid "&Dequeue Track"
+msgstr "הו&צא את הרצועה מהתור"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+"החלף את &מצב התור (רצועה אחת)\n"
+"החלף את &מצב התור (%n רצועות)"
+
+#: playlist.cpp:3118
+msgid "&Dequeue Selected Tracks"
+msgstr "הוצא את הרצועות ה&מסומנות מהתור"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "&עצור השמעה אחרי רצועה"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "&ערוך תגית: \"%1\""
+
+#: playlist.cpp:3135
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "&ערוך את התגית \"%1\" עבור הרצועות המסומנות"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "הוסף מספרי רצועות בצורה &חוזרת על עצמה"
+
+#: playlist.cpp:3140
+msgid "Write '%1' for Selected Tracks"
+msgstr "כתוב \"%1\" לרצועות מסומנות"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr "ה&עתק תגיות אל לוח העריכה"
+
+#: playlist.cpp:3149
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr ""
+"רצועה זו\n"
+"רצועות נבחרות"
+
+#: playlist.cpp:3151
+#, c-format
+msgid "This Album: %1"
+msgstr "כותר זה: %1"
+
+#: playlist.cpp:3153
+#, c-format
+msgid "All Tracks by %1"
+msgstr "כל הרצועות של %1"
+
+#: playlist.cpp:3159
+msgid "Set as Playlist (Crop)"
+msgstr "קבע כרשימת השמעה (חתוך)"
+
+#: playlist.cpp:3160
+msgid "Save as Playlist..."
+msgstr "שמור רשימת השמעה בשם..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "&הסר מתוך רשימת ההשמעה "
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "מ&חק קובץ"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "מח&ק קבצים מסומנים"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "כותב תגית..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "הקובץ הזה אינו קיים:"
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>אתה יכול ליצור עמודה מותאמת אישית שתריץ תסריט ריצה כנגד כל פריט ברשימת "
+"ההשמעה. התסריט ירוץ תחת שם המשתמש <b>nobody</b>,עקב בעיות אבטחה.\n"
+"<p>תוכל להריץ את הקובץ רק כנגד קבצים מקומיים כרגע. הנתיב המלא מוכנס במיקום <b>"
+"%f</b> במחרוזת. אם לא תציין <b>%f</b> זה יוסף לנתיב."
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr "&שם העמודה:"
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "&פקודה:"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "דוגמאות"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "הוסף עמודה מותאמת אישית"
+
+#: app.cpp:284
+msgid "Files/URLs to open"
+msgstr "קבצים/כתובות לפתיחה"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "דלג אחורה ברשימת ההשמעה"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "התחל לנגן את רשימת ההשמעה הנוכחית"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "נגן במידה שעצר, השהה במידה שמנגן"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "השהה את הניגון"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "עצור את הניגון"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "דלג קדימה ברשימת ההשמעה"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "אפשרויות נוספות:"
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "הוסף קבצים/כתובות אל רשימת ההשמעה"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr "ראה הוספה, קיים עבור התאמה אחורנית לגרסאות קודמות"
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "הכנס כתובות לתור לאחר הרצועה הנוכחית המתנגנת"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "החלף מצב חלון רשימת השמעה "
+
+#: app.cpp:304
+msgid "Run first-run wizard"
+msgstr "הפעל אשף הפעלה ראשונה"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "השתמש במנוע <name>"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr "הבסיס עבור קבצים/כתובות יחסיים"
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "הגבר עצמת קול"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "הפחת עצמת קול"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr "סרוק קדימה"
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr "סרוק אחורה"
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "הוסף מדיה..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "החלף מצב חלון רשימת השמעה"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "הצג תצוגה על המסך"
+
+#: app.cpp:348
+msgid "Mute Volume"
+msgstr "השתק קול"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>אתה משתמש במעבד בעל אפשרות <i>HyperThreading</i> מופעלת. היה מודע לעובדה "
+"ש-amaroK עשוי להיות לא יציב עם תצורה זו.</p>"
+"<p>אם אתה נתקל בבעיות, השתמש בליבה של לינוקס עם אפשרות 'NOHT', או בטל את "
+"האפשרות <i>HyperThreading</i> בתצורה של ה-BIOS שלך.</p>"
+"<p>למידע נוסף הסתכל בקובץ ה-README. לעזרה נוספת הצטרך לקבוצה #amarok "
+"ב-irc.freenode.net.</p>"
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "רשימת השמעה"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "הוסף &ונגן"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt> סגירת החלון הראשי תשאיר את amaroK פועל במגש המערכת. השתמש ב־<B>יציאה</B> "
+"מתוך התפריט או בסמל של  amaroK במגש המערכת כדי לסגור את התכנה. </qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "ממזער למגש המערכת"
+
+#: app.cpp:853
+msgid "Paused"
+msgstr "מושהה"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "עצמת קול: %1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr "מושתק"
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "תצוגת זמן"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "רגיל"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "נותר"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr "בטל את כל פעולות הרקע"
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr "הצג פרטי התקדמות"
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr "עבודות מרובות רצות ברקע"
+
+#: statusbar/statusBarBase.cpp:422
+msgid "Aborting all jobs..."
+msgstr "מבטל את כל העבודות..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "amaroK הושהתה"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+"<p>אחת מיצירות המופת של Mike Oldfield's, Amarok, נתנה השראה לשם מאחורי נגן־הקול "
+"שאתה משתמש בו כעת. תודה שבחרת ב־amaroK!</p><p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>וכל האנשים הרבים שעזרו לעשות את amaroK למה שהיא</p>"
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> של <b>%2</b> מתוך <b>%3</b>"
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> של <b>%2</b>"
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> מתוך <b>%2</b>"
+
+#: statusbar/statusbar.cpp:178
+msgid "Unknown track"
+msgstr "רצועה לא ידועה"
+
+#: statusbar/statusbar.cpp:187
+#, c-format
+msgid "Playing: %1"
+msgstr "משמיע: %1"
+
+#: statusbar/statusbar.cpp:201
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "נבחרו %1 מתוך %3 רצועות שמתוכם %2 גלויות"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr "גלויים 0 מתוך רצועה אחת"
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr "גלויים %1 מתוך %2 רצועות"
+
+#: statusbar/statusbar.cpp:205
+msgid "%1 selected of %2 tracks"
+msgstr "נבחרו %1 מתוך %2 רצועות"
+
+#: statusbar/statusbar.cpp:206
+#, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr ""
+"רצועה 1 \n"
+"%n רצועות"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr " - [ %1 / %2 / %3 ]"
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr " - [ %1 / %2 ]"
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr " - [ %1 ]"
+
+#: statusbar/queueLabel.cpp:169
+#, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr ""
+"רצועה 1 בתור\n"
+"%n רצועות בתור"
+
+#: statusbar/queueLabel.cpp:172
+msgid "Dequeue All Tracks"
+msgstr "הוצא את כל הרצועות מהתור"
+
+#: statusbar/queueLabel.cpp:183
+msgid "%1. %2"
+msgstr "%1. %2"
+
+#: statusbar/queueLabel.cpp:189
+#, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr ""
+"רצועה 1 נוספת\n"
+"%n רצועות נוספות"
+
+#: statusbar/queueLabel.cpp:244
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr ""
+"יש רצועה אחת בתור : %1\n"
+"יש %n רצועות בתור, הבאה היא : %1"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "הסתיים"
+
+#: statusbar/progressBar.cpp:96
+msgid "Aborted"
+msgstr "בוטלו"
+
+#: statusbar/progressBar.cpp:106
+msgid "Aborting..."
+msgstr "מבטל..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr "%1: פעיל"
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: off"
+msgstr "%1: לא פעיל"
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr "&nbsp;<br>&nbsp;<i>לא פעיל</i>"
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "תצוגה על מסך - גרור למיקום מחדש"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr "רצועות לא מושמעות"
+
+#: osd.cpp:556
+msgid "No information available for this track"
+msgstr "אין מידע זמין עבור רצועה זאת"
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "דיסק"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "דיסק קשיח"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "ראשי מחדש"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "דיסק"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "סינגל"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "פסקול"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "חלק"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr "לא נמצאה רצועה"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr "מבנה ה־XML שהושג מאתר Amazon הוא לא תקין."
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr "העטיפה לא הובאה בהצלחה."
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr "מידע העטיפה יצר תמונה לא תקינה."
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+"ראית את כל העטיפות שאתר Amazon החזיר תוך שימוש בשאילתה למטה. אולי תוכל לעדן "
+"אותה:"
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr "עורך שאילתות של Amazon"
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "&חפש"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr "בקש מאתר Amazon עטיפות תוך שימוש בשאילתה הבאה:"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+msgid "Aborted."
+msgstr "בוטל."
+
+#: coverfetcher.cpp:379
+msgid "New &Search..."
+msgstr "חיפוש &חדש..."
+
+#: coverfetcher.cpp:380
+msgid "Next &Cover"
+msgstr "ה&עטיפה הבאה"
+
+#: coverfetcher.cpp:390
+msgid "Cover Found"
+msgstr "נמצאה עטיפה"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "נגן השמע של KDE "
+
+#: amarokcore/main.cpp:29
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, amaroK צוות הפיתוח של  "
+
+#: amarokcore/main.cpp:30
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"שרת: irc.freenode.net ערוצים: #amarok #amarok.de\n"
+"\n"
+"הערות:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr "מושך בחורות"
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "חתיך (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "קוד 733t, שיפורי תצוגה על המסך, טלאים (Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr "זה טוב, אבל זה לא irssi"
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "מייסד הפרויקט (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr "Turtle-Power'"
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr "Cowboy mxcl"
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr "סגול זה לא נשי!"
+
+#: amarokcore/main.cpp:45
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "שיפורים, DCOP, חוברת הסבר יקרה מפז מתחזק (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr "מתכנת spaghetti"
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "סייר רשימת ההשמעה, מנהל עטיפות (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr "והאלוהים אמר, מי ייתן ויהיה Mac"
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "הלוגו של amaroK, מסך פתיחה, סמלים"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr "גלישה שם למטה"
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr "סייר רשימת ההשמעה, מצב דינמי, מנהל תורים (sebr)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr "כל מה שאתה צריך הוא DCOP"
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "שיפורים, DCOP, ניקיונות, i18n"
+
+#: amarokcore/main.cpp:56
+msgid "Analyzers, patches"
+msgstr "מאבחנים, טלאים"
+
+#: amarokcore/main.cpp:57
+msgid "Patches"
+msgstr "טלאים"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr "שיפורים, תיקוני באגים"
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "תמיכה ב־MySql"
+
+#: amarokcore/main.cpp:60
+msgid "Postgresql support"
+msgstr "תמיכה ב־Postgresql"
+
+#: amarokcore/main.cpp:61
+msgid "First-run wizard, usability"
+msgstr "אשף הפעלה ראשונה, תפקודיות"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr "מאבחנים, סייר הקשר והסמל מושך העין במגש המערכת"
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr "הסמל זאב כחול של amaroK"
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr "סמלים ותמונות"
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr "עזרה מדהימה עם מפולת הבאגים של קדם גרסה 1.2"
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr "שיפורי מדריך־יד, תרגומים, תיקוני באגים, צילומי מסך (apachelogger)"
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr "טלאים, תבניות תסריטי Ruby"
+
+#: amarokcore/main.cpp:68
+msgid "Tester, IRC channel operator, whipping"
+msgstr "בודק, מפעיל ערוץ IRC, מצליף"
+
+#: amarokcore/main.cpp:69
+msgid "Icons"
+msgstr "סמלים"
+
+#: amarokcore/main.cpp:70
+msgid "amaroK webmaster"
+msgstr "מתחזק האתר של amaroK"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr "סרגל צד של Konqueror, כמה שיטות של DCOP"
+
+#: amarokcore/main.cpp:72
+msgid "FHT routine, bugfixes"
+msgstr "רוטינות FHT, תיקוני באגים"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "קוד תמיכה ב־K3B"
+
+#: amarokcore/main.cpp:74
+msgid "Splash screen"
+msgstr "מסך פתיחה"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr "אירוח אתר"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr "מנוע ההשמעה HelixPlayer"
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr "תמיכה בוויקיפדיה, טלאים"
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "מנוע השמעה MAS"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "תמיכה ב-Audioscrobbler"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "ספריית תגיות & קוד של ktrm"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr "הממממון דברים"
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr "טלאים, תיקוני באגים"
+
+#: amarokcore/main.cpp:83
+msgid "Tester, patches"
+msgstr "בוחן, טלאים"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+"היישום amaroK קרס! אנחנו מאוד מצטערים על זה : (\n"
+"\n"
+"אבל לא הכל אבוד! אתה יכול לעזור לנו לתקן את הבעיה. מצורפת ל־amaroK רשימה שמתארת "
+"את רגעי הקריסה, אז רק לחץ על שלח, או אם יש לך זמן, כתוב פירוט קצר של איך הקריסה "
+"אירעה.\n"
+"\n"
+"תודות.\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"המידע למטה הוא בכדי לעזור למפתחים לזהות את הבעיה, אנא אל תשנה אותו.\n"
+"\n"
+"\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:249
+msgid "Send Email"
+msgstr "שלח דוא\"ל"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr "מטפל הקריסות"
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "טוען..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr " - [%2]"
+
+#: playlistbrowseritem.cpp:882
+msgid "Add Radio Stream"
+msgstr "הוסף שידור רדיו זורם"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+msgid "&Name:"
+msgstr "&שם:"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr "&נתיב כתובת:"
+
+#: playlistbrowseritem.cpp:903
+msgid "Edit Radio Stream"
+msgstr "ערוך שידור רדיו זורם"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+msgid "Retrieving Podcast..."
+msgstr "מאחזר פוד־קסט..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+msgid "Moving Podcasts"
+msgstr "מזיז פוד־קסט"
+
+#: playlistbrowseritem.cpp:1223
+msgid "Fetching Podcast"
+msgstr "מביא פוד־קסט"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr "לא יכול להתחבר לשרת הפוד־קסט."
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr "הפוד־קסט החזיר מידע לא תקין."
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr "מצטערים, נחוצים מזיני RSS גרסה 2.0 עבור הפוד־קסטים."
+
+#: playlistbrowseritem.cpp:1405
+msgid "Url"
+msgstr "כתובת"
+
+#: playlistbrowseritem.cpp:1406
+msgid "Website"
+msgstr "אתר אירוח"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr "תיאור"
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+msgid "Podcast Information"
+msgstr "מידע פוד־קסט"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr "הובאו פוד־קסטים חדשים."
+
+#: playlistbrowseritem.cpp:1723
+msgid "Downloading Media..."
+msgstr "מוריד מדיה..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr "מוריד מדיה של פוד־קסט"
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr "הורדת מדיה הופסקה, אין אפשרות להתחבר לשרת."
+
+#: playlistbrowseritem.cpp:1831
+msgid "Author"
+msgstr "יוצר"
+
+#: playlistbrowseritem.cpp:1832
+msgid "Date"
+msgstr "תאריך"
+
+#: filebrowser.cpp:132
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr "מונחים המופרדים על ידי מקש רווח ישמשו לסינון רשימת תיקיות"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "&בחר את כל הקבצים"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+"<div align=center> הכנס מונח חיפוש למעלה; תוכל להשתמש בג'וקרים כגון \"*\" "
+"ו־\"?\" </div>"
+
+#: filebrowser.cpp:476
+msgid "Search here..."
+msgstr "חפש כאן..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr "&הראה לוח חיפוש"
+
+#: filebrowser.cpp:532
+msgid "Searching..."
+msgstr "מחפש..."
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr "לא נמצאו תוצאות"
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "&דלג"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "אפקטים"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "אפקטים זמינים"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "אפקטים פעילים"

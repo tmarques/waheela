@@ -1,0 +1,6965 @@
+# translation of amarok.po to Ukrainian
+#
+# Ivan Petrouchtchak <iip@telus.net>, 2004, 2005.
+# Ivan Petrouchtchak <ivanpetrouchtchak@yahoo.com>, 2005, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: amarok\n"
+"POT-Creation-Date: 2006-03-24 04:07+0100\n"
+"PO-Revision-Date: 2006-03-22 19:16-0700\n"
+"Last-Translator: Ivan Petrouchtchak <ivanpetrouchtchak@yahoo.com>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>"
+"=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: collectionbrowser.cpp:503 collectionbrowser.cpp:518
+#: collectionbrowser.cpp:565 collectionbrowser.cpp:573
+#: collectionbrowser.cpp:953 collectionbrowser.cpp:974
+#: collectionbrowser.cpp:975 collectionbrowser.cpp:2050
+#: collectionbrowser.cpp:2052 collectiondb.cpp:1015 collectiondb.cpp:1032
+#: collectiondb.cpp:1049 collectiondb.cpp:1066 collectiondb.cpp:2979
+#: collectiondb.cpp:3070 collectiondb.cpp:3091 collectiondb.cpp:3113
+#: collectiondb.cpp:3139 collectiondb.cpp:3166 contextbrowser.cpp:897
+#: contextbrowser.cpp:926 contextbrowser.cpp:1273 contextbrowser.cpp:1284
+#: contextbrowser.cpp:1295 contextbrowser.cpp:1932 contextbrowser.cpp:1938
+#: contextbrowser.cpp:2059 contextbrowser.cpp:2064 covermanager.cpp:390
+#: covermanager.cpp:409 ipod/trackmetadata.cpp:90 mediabrowser.cpp:982
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: tracktooltip.cpp:167
+msgid "amaroK - rediscover your music"
+msgstr "amaroK - новий погляд на музику"
+
+#: playlistbrowser.cpp:83
+msgid "Playlist..."
+msgstr "Список композицій..."
+
+#: playlistbrowser.cpp:84
+msgid "Radio Stream..."
+msgstr "Радіо-потік..."
+
+#: playlistbrowser.cpp:85
+msgid "Smart Playlist..."
+msgstr "Кмітливий список композицій..."
+
+#: playlistbrowser.cpp:86
+msgid "Podcast..."
+msgstr "Podcast..."
+
+#: playlistbrowser.cpp:93
+msgid "Current Playlist..."
+msgstr "Поточний список композицій..."
+
+#: playlistbrowser.cpp:94
+msgid "Dynamic Playlist..."
+msgstr "Динамічний список композицій..."
+
+#: playlistbrowser.cpp:97
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: playlistbrowser.cpp:106
+msgid "Detailed View"
+msgstr "Подробиці"
+
+#: playlistbrowser.cpp:107
+msgid "List View"
+msgstr "Список"
+
+#: playlistbrowser.cpp:109
+msgid "Unsorted"
+msgstr "Без впорядкування"
+
+#: playlistbrowser.cpp:110
+msgid "Sort Ascending"
+msgstr "Зростаюче впорядкування"
+
+#: playlistbrowser.cpp:111
+msgid "Sort Descending"
+msgstr "Спадаюче впорядкування"
+
+#: playlistbrowser.cpp:370 playlistbrowser.cpp:376 playlistbrowser.cpp:380
+msgid "Radio Streams"
+msgstr "Радіо-потоки"
+
+#: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
+msgid "Cool-Streams"
+msgstr "Cool-Streams"
+
+#: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
+msgid "Smart Playlists"
+msgstr "Кмітливі списки композицій"
+
+#: configdialog.cpp:128 playlistbrowser.cpp:547 playlistbrowser.cpp:2089
+#: playlistbrowseritem.cpp:209 playlistwindow.cpp:348
+msgid "Collection"
+msgstr "Збірка"
+
+#: playlistbrowser.cpp:555
+msgid "All Collection"
+msgstr "Вся збірка"
+
+#: playlistbrowser.cpp:563
+msgid "Favorite Tracks"
+msgstr "Улюблені доріжки"
+
+#: playlistbrowser.cpp:571 playlistbrowser.cpp:587 playlistbrowser.cpp:603
+#: playlistbrowseritem.cpp:1945
+#, c-format
+msgid "By %1"
+msgstr "Автор: %1"
+
+#: playlistbrowser.cpp:579
+msgid "Most Played"
+msgstr "Найчастіше програються"
+
+#: playlistbrowser.cpp:595
+msgid "Newest Tracks"
+msgstr "Найновіші доріжки"
+
+#: playlistbrowser.cpp:611
+msgid "Last Played"
+msgstr "Востаннє програвались"
+
+#: playlistbrowser.cpp:620
+msgid "Never Played"
+msgstr "Ніколи не програвались"
+
+#: playlistbrowser.cpp:629
+msgid "Ever Played"
+msgstr "Будь-коли програвались"
+
+#: playlistbrowser.cpp:632
+msgid "Genres"
+msgstr "Жанри"
+
+#: playlistbrowser.cpp:641 playlistbrowseritem.cpp:1937
+#: playlistbrowseritem.cpp:1953 playlistbrowseritem.cpp:1961
+#, c-format
+msgid "%1"
+msgstr "%1"
+
+#: playlistbrowser.cpp:648
+msgid "50 Random Tracks"
+msgstr "50 випадкових доріжок"
+
+#: playlistbrowser.cpp:704
+msgid "Save Dynamic Playlist"
+msgstr "Зберегти динамічний список композицій"
+
+#: playlistbrowser.cpp:704
+msgid "Enter playlist name:"
+msgstr "Введіть назву списку композицій:"
+
+#: playlistbrowser.cpp:751 playlistbrowser.cpp:762 playlistbrowser.cpp:766
+msgid "Dynamic Playlists"
+msgstr "Динамічні списки композицій"
+
+#: playlistbrowser.cpp:752
+msgid "Random Mix"
+msgstr "Випадковий Mix"
+
+#: contextbrowser.cpp:1765 playlistbrowser.cpp:754
+msgid "Suggested Songs"
+msgstr "Запропоновані пісні"
+
+#: playlistbrowser.cpp:874 playlistbrowser.cpp:884
+msgid "Podcasts"
+msgstr "Podcast"
+
+#: playlistbrowser.cpp:946
+msgid "Add Podcast"
+msgstr "Додати Podcast"
+
+#: playlistbrowser.cpp:946
+msgid "Enter Podcast URL:"
+msgstr "Введіть URL Podcast:"
+
+#: playlistbrowser.cpp:980
+msgid "Download Interval"
+msgstr "Інтервал між звантаженнями"
+
+#: playlistbrowser.cpp:981
+msgid "Scan interval (hours):"
+msgstr "Інтервал між скануваннями (год.):"
+
+#: playlistbrowser.cpp:1001
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 podcast to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> "
+"deleted. All downloaded episodes will also be deleted."
+msgstr ""
+"<p>Ви вибрали %n podcast для <b>остаточного</b> видалення. Всі звантажені "
+"епізоди буде також видалено.\n"
+"<p>Ви вибрали %n podcast для <b>остаточного</b> видалення. Всі звантажені "
+"епізоди буде також видалено.\n"
+"<p>Ви вибрали %n podcast для <b>остаточного</b> видалення. Всі звантажені "
+"епізоди буде також видалено."
+
+#: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
+#: playlistbrowser.cpp:2446 playlistwindow.cpp:349
+msgid "Playlists"
+msgstr "Списки композицій"
+
+#: playlistbrowser.cpp:1216
+msgid "Cannot write playlist (%1)."
+msgstr "Не вдається зберегти список композицій (%1)."
+
+#: playlistbrowser.cpp:1267
+msgid "Playlist Files"
+msgstr "Файли списку композицій"
+
+#: playlistbrowser.cpp:1267
+msgid "Add Playlists"
+msgstr "Додати списки композицій"
+
+#: playlistbrowser.cpp:1317
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Ви вибрали %n список композицій для <b>остаточного</b> видалення.\n"
+"<p>Ви вибрали %n списки композицій для <b>остаточного</b> видалення.\n"
+"<p>Ви вибрали %n списків композицій для <b>остаточного</b> видалення."
+
+#: playlistbrowser.cpp:1757
+msgid "Error renaming the file."
+msgstr "Помилка перейменування файла."
+
+#: collectionbrowser.cpp:1182 contextbrowser.cpp:628 filebrowser.cpp:178
+#: playlistbrowser.cpp:2019 playlistbrowser.cpp:2076 playlistbrowser.cpp:2122
+#: playlistbrowser.cpp:2151 playlistbrowser.cpp:2173
+msgid "&Load"
+msgstr "&Завантажити"
+
+#: app.cpp:753 collectionbrowser.cpp:1183 contextbrowser.cpp:629
+#: filebrowser.cpp:179 mediabrowser.cpp:331 playlistbrowser.cpp:2020
+#: playlistbrowser.cpp:2077 playlistbrowser.cpp:2123 playlistbrowser.cpp:2174
+#: playlistbrowser.cpp:2387
+msgid "&Append to Playlist"
+msgstr "&Додати до списку композицій"
+
+#: playlistbrowser.cpp:2025 playlistbrowser.cpp:2082
+msgid "Remove From Dynamic Mode"
+msgstr "Вилучити з динамічного режиму"
+
+#: playlistbrowser.cpp:2027 playlistbrowser.cpp:2084
+msgid "Add to Dynamic Mode"
+msgstr "Додати до динамічного режиму"
+
+#: playlistbrowser.cpp:2034
+msgid "Res&tore"
+msgstr "В&ідновити"
+
+#: equalizerpresetmanager.cpp:51 playlistbrowser.cpp:2037
+#: playlistbrowser.cpp:2153 playlistbrowser.cpp:2291
+msgid "&Rename"
+msgstr "&Перейменувати"
+
+#: playlistbrowser.cpp:2092
+msgid "E&dit..."
+msgstr "Реда&гувати..."
+
+#: playlistbrowser.cpp:2093 playlistbrowser.cpp:2129 playlistbrowser.cpp:2154
+#: playlistbrowser.cpp:2292
+msgid "R&emove"
+msgstr "В&илучити"
+
+#: playlistbrowser.cpp:2128
+msgid "E&dit"
+msgstr "Р&едагувати"
+
+#: playlistbrowser.cpp:2177 playlistbrowser.cpp:2241
+msgid "Show &Information"
+msgstr "Показати &інформацію"
+
+#: playlistbrowser.cpp:2178
+msgid "&Check for Updates"
+msgstr "&Перевірити наявність оновлень"
+
+#: playlistbrowser.cpp:2179
+msgid "&Configure..."
+msgstr "&Налаштувати..."
+
+#: playlist.cpp:3088 playlistbrowser.cpp:2238
+msgid "&Play"
+msgstr "&Пуск"
+
+#: playlistbrowser.cpp:2239
+msgid "&Queue"
+msgstr "&Черга"
+
+#: playlistbrowser.cpp:2242
+msgid "&Download Media"
+msgstr "&Звантажити медіа"
+
+#: collectionbrowser.cpp:1193 contextbrowser.cpp:632 filebrowser.cpp:183
+#: playlistbrowser.cpp:2248
+msgid "Add to Media Device &Transfer Queue"
+msgstr "Додати в чергу &перенесення в пристрій мультимедії"
+
+#: playlistbrowser.cpp:2297
+msgid "Add Playlist..."
+msgstr "Додати список композицій..."
+
+#: playlistbrowser.cpp:2300
+msgid "Add Smart-Playlist..."
+msgstr "Додати кмітливий список композицій..."
+
+#: playlistbrowser.cpp:2303
+msgid "Add Radio Stream..."
+msgstr "Додати радіо-потік..."
+
+#: playlistbrowser.cpp:2306
+msgid "Save Dynamic Configuration..."
+msgstr "Зберегти динамічну конфігурацію..."
+
+#: playlistbrowser.cpp:2310
+msgid "Refresh All Podcasts"
+msgstr "Оновити всі Podcasts"
+
+#: playlistbrowser.cpp:2311
+msgid "Add Podcast..."
+msgstr "Додати Podcast..."
+
+#: playlistbrowser.cpp:2313
+msgid "Scan Interval..."
+msgstr "Інтервал між скануваннями..."
+
+#: playlistbrowser.cpp:2317
+msgid "Create Sub-Folder"
+msgstr "Створити підтеку"
+
+#: playlistbrowser.cpp:2361 playlistbrowser.cpp:2366
+msgid "Folder"
+msgstr "Тека"
+
+#: playlistbrowser.cpp:2367
+#, c-format
+msgid "Folder %1"
+msgstr "Тека       %1"
+
+#: app.cpp:755 collectionbrowser.cpp:1184 contextbrowser.cpp:630
+#: mediabrowser.cpp:332 playlist.cpp:3106 playlistbrowser.cpp:2388
+msgid "&Queue Track"
+msgstr "Поставити доріжку в &чергу"
+
+#: mediabrowser.cpp:333 playlistbrowser.cpp:2389
+msgid "&Make Playlist"
+msgstr "&Створити список композицій"
+
+#: mediabrowser.cpp:349 playlistbrowser.cpp:2394
+msgid "Burn to CD as Data"
+msgstr "Записати на КД з даними"
+
+#: mediabrowser.cpp:351 playlistbrowser.cpp:2396
+msgid "Burn to CD as Audio"
+msgstr "Записати на аудіо КД"
+
+#: contextbrowser.cpp:635 playlistbrowser.cpp:2402
+msgid "Edit Track &Information..."
+msgstr "Редагувати &інформацію про доріжку..."
+
+#: playlist.cpp:3736 playlistbrowser.cpp:2424
+msgid "Track information is not available for remote media."
+msgstr "Для віддаленого носія інформація про доріжку недоступна."
+
+#: playlistbrowser.cpp:2429
+#, c-format
+msgid "This file does not exist: %1"
+msgstr "Цей файл не існує: %1"
+
+#: playlistbrowser.cpp:2669
+msgid "&Restore"
+msgstr "&Відновити"
+
+#: playlistbrowser.cpp:2857
+msgid "Save Playlist"
+msgstr "Зберегти список композицій"
+
+#: playlistbrowser.cpp:2858
+msgid "Save to location..."
+msgstr "Зберегти за адресою..."
+
+#: playlistbrowser.cpp:2862
+msgid "&Enter a name for the playlist:"
+msgstr "&Введіть назву списку композицій:"
+
+#: playlistbrowser.cpp:2885
+msgid "A playlist named \"%1\" already exists. Do you want to overwrite it?"
+msgstr "Список композицій з назвою \"%1\" вже існує. Хочете його перезаписати?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite Playlist?"
+msgstr "Перезаписати список композицій?"
+
+#: playlistbrowser.cpp:2886
+msgid "Overwrite"
+msgstr "Перезаписати"
+
+#: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
+msgid "There was an error communicating with Amazon."
+msgstr "Сталася помилка зв'язку з Amazon."
+
+#: enginecontroller.cpp:115
+msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
+msgstr ""
+"Вибачте, але не вдалося завантажити \"%1\", замість цього завантажено\"%2\"."
+
+#: enginecontroller.cpp:186
+msgid ""
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
+"KDE configuration database. Please wait a couple of minutes, then restart "
+"amaroK.</p>"
+"<p>If this does not help, it is likely that amaroK is installed under the wrong "
+"prefix, please fix your installation using:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>More information can be found in the README file. For further "
+"assistance join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>amaroK не зміг знайти жодного втулку звукових систем. Зараз amaroK оновлює "
+"базу даних налаштування KDE. Будь ласка, зачекайте декілька хвилин, а тоді "
+"перезапустіть amaroK.</p>"
+"<p>Якщо це не допоможе, ймовірно, amaroK було встановлено під неправильним "
+"префіксом. Будь ласка, полагодьте вашу інсталяцію таким чином:"
+"<pre>$ cd /path/to/amarok/source-code/"
+"<br>$ su -c \"make uninstall\""
+"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
+"<br>$ kbuildsycoca"
+"<br>$ amarok</pre>Більше інформації можна знайти у файлі README або у каналі "
+"#amarok на irc.freenode.net.</p>"
+
+#: enginecontroller.cpp:241
+msgid ""
+"<p>The %1 claims it <b>cannot</b> play MP3 files."
+"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
+", or examine the installation of the multimedia-framework that the current "
+"engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
+"amaroK HandBook</i>."
+msgstr ""
+"<p>%1 повідомляє, що <b>не може</b> програвати MP3-файли."
+"<p>Спробуйте змінити рушій у <i>Вікні налаштування</i> "
+"або перевірте інсталяцію пакунка, який використовується даним рушієм звукової "
+"системи. "
+"<p>Можливо, ви знайдете корисну інформацію в розділі <i>ЧАП</i> в <i>"
+"Підручнику по amaroK</i>."
+
+#: enginecontroller.cpp:325
+msgid "Connecting to stream source..."
+msgstr "З'єднання з джерелом потоку..."
+
+#: enginecontroller.cpp:333
+msgid "Local file does not exist."
+msgstr "Локальний файл не існує."
+
+#: playlistwindow.cpp:126 scriptmanager.cpp:128
+msgid "Script Manager"
+msgstr "Менеджер скриптів"
+
+#: scriptmanager.cpp:318
+msgid ""
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+msgstr ""
+"Пакунки скриптів (*.amarokscript.tar, *.amarokscript.tar.bz2, "
+"*.amarokscript.tar.gz)"
+
+#: scriptmanager.cpp:320
+msgid "Select Script Package"
+msgstr "Виберіть пакунок скрипту"
+
+#: Options2.ui.h:50 Options2.ui.h:88 scriptmanager.cpp:326
+msgid "Could not read this package."
+msgstr "Не вдалось прочитати цей пакунок."
+
+#: scriptmanager.cpp:336
+msgid ""
+"A script with the name '%1' is already installed. Please uninstall it first."
+msgstr ""
+"Скрипт з назвою \"%1\" вже є встановлений. Будь ласка, спочатку приберіть його."
+
+#: scriptmanager.cpp:346
+msgid "Script successfully installed."
+msgstr "Скрипт успішно встановлено."
+
+#: scriptmanager.cpp:350
+msgid ""
+"<p>Script installation failed.</p>"
+"<p>The package did not contain an executable file. Please inform the package "
+"maintainer about this error.</p>"
+msgstr ""
+"<p>Встановлення скрипту зазнало невдачі.</p>"
+"<p>Пакунок не містить файла програми. Будь ласка, повідомте супроводжувача про "
+"цю помилку.</p>"
+
+#: scriptmanager.cpp:418
+msgid "Are you sure you want to uninstall the script '%1'?"
+msgstr "Ви впевнені, що хочете прибрати скрипт \"%1\"?"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall Script"
+msgstr "Прибрати скрипт"
+
+#: scriptmanager.cpp:418
+msgid "Uninstall"
+msgstr "Прибрати"
+
+#: scriptmanager.cpp:429
+msgid ""
+"<p>Could not uninstall this script.</p>"
+"<p>The ScriptManager can only uninstall scripts which have been installed as "
+"packages.</p>"
+msgstr ""
+"<p>Не вдалось прибрати цей скрипт.</p>"
+"<p>Менеджер скриптів може прибирати тільки скрипти, які були встановлені як "
+"пакунки.</p>"
+
+#: scriptmanager.cpp:478
+msgid ""
+"<p>Could not start the script <i>%1</i>.</p>"
+"<p>Please make sure that the file has execute (+x) permissions.</p>"
+msgstr ""
+"<p>Не вдалось запустити скрипт <i>%1</i>.</p>"
+"<p>Будь ласка, переконайтесь, що файл має права на виконання (+x).</p>"
+
+#: scriptmanager.cpp:545
+msgid "There is no information available for this script."
+msgstr "Для цього скрипту немає інформації."
+
+#: scriptmanager.cpp:553
+#, c-format
+msgid "About %1"
+msgstr "Про %1"
+
+#: scriptmanager.cpp:557
+msgid "%1 amaroK Script"
+msgstr "Скрипт amaroK %1"
+
+#: scriptmanager.cpp:561
+msgid "License"
+msgstr "Ліцензія"
+
+#: scriptmanager.cpp:581
+msgid "Debugging"
+msgstr "Зневадження"
+
+#: scriptmanager.cpp:582
+msgid "Show Output &Log"
+msgstr "Показати &журнал виводу"
+
+#: scriptmanager.cpp:600
+#, c-format
+msgid "Output Log for %1"
+msgstr "Журнал виводу для %1"
+
+#: scriptmanager.cpp:656
+msgid "The script '%1' exited with error code: %2"
+msgstr "Скрипт \"%1\" припинився з кодом помилки: %2"
+
+#: playlistloader.cpp:60
+msgid "Populating playlist"
+msgstr "Наповнення списку композицій"
+
+#: playlistloader.cpp:64
+msgid "Preparing"
+msgstr "Приготування"
+
+#: playlistloader.cpp:324
+msgid "Some media could not be loaded (not playable)."
+msgstr "Не вдалось завантажити деяку медіа (не програється)."
+
+#: playlistloader.cpp:325
+msgid "These media could not be loaded into the playlist: "
+msgstr "Не вдалось завантажити цю медіа у список композицій: "
+
+#: playlistloader.cpp:391
+msgid ""
+"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
+"developers. Thank you."
+msgstr ""
+"Не чинний формат XML в списку композицій. Будь ласка, надішліть розробникам "
+"amaroK звіт про помилку. Дякуємо."
+
+#: playlistloader.cpp:425
+msgid "amaroK could not open the file."
+msgstr "amaroK не зміг відкрити файл."
+
+#: playlistloader.cpp:435
+msgid "This component of amaroK cannot translate XML playlists."
+msgstr "Цей компонент amaroK не може перекладати XML-списки композицій."
+
+#: playlistloader.cpp:440
+msgid "amaroK does not support this playlist format."
+msgstr "amaroK не підтримує такий формат списку композицій."
+
+#: playlistloader.cpp:445
+msgid "The playlist did not contain any references to files."
+msgstr "Список композицій не містить жодних посилань на файли."
+
+#: playlistloader.cpp:669
+msgid "Retrieving Playlist"
+msgstr "Отримання списку композицій"
+
+#: directorylist.cpp:37
+msgid "These folders will be scanned for media to make up your collection."
+msgstr ""
+"В цих теках буде проведено пошук за файлами мультимедії для вашої збірки."
+
+#: directorylist.cpp:41
+msgid "&Scan folders recursively"
+msgstr "&Рекурсивно переглядати теки"
+
+#: directorylist.cpp:42
+msgid "&Watch folders for changes"
+msgstr "&Наглядати за змінами в теках"
+
+#: directorylist.cpp:43
+msgid "&Import playlists"
+msgstr "&Імпортувати списки композицій"
+
+#: directorylist.cpp:45
+msgid "If selected, amaroK will read all subfolders."
+msgstr "Якщо вибрано, amaroK прочитає всі підтекитеки."
+
+#: directorylist.cpp:46
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"Якщо вибрано, то при зміні в теках (тобто, коли був доданий новий файл) вони "
+"будуть автоматично заново переглянуті."
+
+#: directorylist.cpp:47
+msgid ""
+"If selected, playlist files (.m3u) will automatically be added to the "
+"Playlist-Browser."
+msgstr ""
+"Якщо ввімкнено, файли списку композицій (.m3u) будуть автоматично додаватись до "
+"навігатора списку композицій."
+
+#: party.cpp:57 playlist.cpp:3045
+msgid "Repopulate"
+msgstr "Знов наповнити"
+
+#: party.cpp:78
+msgid "Enable dynamic mode"
+msgstr "Увімкнути динамічний режим"
+
+#: party.cpp:79
+msgid "Show Options"
+msgstr "Показати параметри"
+
+#: party.cpp:234
+msgid ""
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
+"manipulate your playlist. amaroK can automatically remove played items and "
+"insert new ones to suit your taste!"
+"<br>"
+"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
+"or smart playlists by right-clicking on the items in the playlist browser"
+msgstr ""
+"<p align=\"center\"><b>Динамічний режим</b></p>Динамічний режим -- це "
+"багатогранний метод маніпулювання списка композицій. amaroK може автоматично "
+"вилучати елементи, які вже відтворено і вставляти нові, які відповідають вашому "
+"смаку!"
+"<br>"
+"<br>Якщо ви виберете <i>Перемішування списку композицій</i>"
+", то обов'язково виберіть якісь списки композицій або кмітливі списки "
+"композицій, клацнувши правою кнопкою мишки на елементах в навігаторі списків "
+"композицій."
+
+#: party.cpp:241
+msgid "Dynamic Mode Introduction"
+msgstr "Вступ в динамічний режим"
+
+#: contextbrowser.cpp:614 covermanager.cpp:78
+msgid "Cover Manager"
+msgstr "Менеджер обкладинок"
+
+#: covermanager.cpp:84
+msgid "Albums By"
+msgstr "Альбоми виконавця"
+
+#: covermanager.cpp:88 covermanager.cpp:130
+msgid "All Albums"
+msgstr "Всі альбоми"
+
+#: collectionbrowser.cpp:606 collectionbrowser.cpp:732
+#: collectionbrowser.cpp:788 collectionbrowser.cpp:862
+#: collectionbrowser.cpp:1467 collectionbrowser.cpp:1540
+#: collectionbrowser.cpp:1644 collectionbrowser.cpp:2044
+#: collectionbrowser.cpp:2046 collectiondb.cpp:1159 covermanager.cpp:102
+#: covermanager.cpp:416 covermanager.cpp:918
+msgid "Various Artists"
+msgstr "Різні виконавці"
+
+#: collectionbrowser.cpp:72 covermanager.cpp:116 filebrowser.cpp:125
+#: mediabrowser.cpp:70 playlistwindow.cpp:187
+msgid "Filter here..."
+msgstr "Фільтрувати тут..."
+
+#: collectionbrowser.cpp:79 covermanager.cpp:122 filebrowser.cpp:131
+#: mediabrowser.cpp:77 playlistwindow.cpp:197
+msgid "Clear filter"
+msgstr "Очистити фільтр"
+
+#: covermanager.cpp:123
+msgid "Enter space-separated terms to filter albums"
+msgstr "Введіть, розділені пропусками, слова для фільтрування альбомів"
+
+#: covermanager.cpp:131
+msgid "Albums With Cover"
+msgstr "Альбоми з обкладинками"
+
+#: covermanager.cpp:132
+msgid "Albums Without Cover"
+msgstr "Альбоми без обкладинок"
+
+#: covermanager.cpp:139
+msgid "International"
+msgstr "Міжнародний"
+
+#: covermanager.cpp:140
+msgid "Canada"
+msgstr "Канада"
+
+#: covermanager.cpp:141
+msgid "France"
+msgstr "Франція"
+
+#: covermanager.cpp:142
+msgid "Germany"
+msgstr "Німеччина"
+
+#: covermanager.cpp:143
+msgid "Japan"
+msgstr "Японія"
+
+#: covermanager.cpp:144
+msgid "United Kingdom"
+msgstr "Об'єднане Королівство"
+
+#: covermanager.cpp:154
+msgid "Amazon Locale"
+msgstr "Локаль Amazon"
+
+#: covermanager.cpp:172
+msgid "Fetch Missing Covers"
+msgstr "Знайти обкладинки, яких бракує"
+
+#: covermanager.cpp:184 statusbar/progressBar.cpp:41
+msgid "Abort"
+msgstr "Перервати"
+
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:517
+#: collectionbrowser.cpp:564 collectionbrowser.cpp:737
+#: collectionbrowser.cpp:800 collectionbrowser.cpp:817
+#: collectionbrowser.cpp:874 collectionbrowser.cpp:897
+#: collectionbrowser.cpp:909 collectionbrowser.cpp:952
+#: collectionbrowser.cpp:974 collectionbrowser.cpp:1251
+#: collectionbrowser.cpp:1334 collectionbrowser.cpp:1483
+#: collectionbrowser.cpp:1557 collectionbrowser.cpp:1579
+#: collectionbrowser.cpp:1661 collectionbrowser.cpp:1682
+#: collectionbrowser.cpp:1701 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1953 collectionbrowser.cpp:1954
+#: collectionbrowser.cpp:2024 collectionbrowser.cpp:2025
+#: contextbrowser.cpp:2087 covermanager.cpp:261 covermanager.cpp:802
+#: covermanager.cpp:811 metabundle.cpp:216 queuemanager.cpp:334
+#: queuemanager.cpp:376 queuemanager.cpp:431
+msgid " - "
+msgstr " - "
+
+#: covermanager.cpp:370
+msgid "Loading Thumbnails..."
+msgstr "Завантаження мініатюр..."
+
+#: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
+#: covermanager.cpp:1002 playlistbrowseritem.cpp:619
+#: playlistbrowseritem.cpp:627 playlistbrowseritem.cpp:846
+#: playlistbrowseritem.cpp:854
+msgid "..."
+msgstr "..."
+
+#: contextbrowser.cpp:605 covermanager.cpp:467
+msgid "Cover Image"
+msgstr "Зображення обкладинки"
+
+#: covermanager.cpp:472
+msgid "&Fetch Selected Covers"
+msgstr "&Отримати вибрані обкладинки"
+
+#: covermanager.cpp:474
+msgid "Set &Custom Cover for Selected Albums"
+msgstr "Встановити &свою обкладинку для вибраних альбомів"
+
+#: covermanager.cpp:475
+msgid "&Unset Selected Covers"
+msgstr "&Відмінити вибрані обкладинки"
+
+#: contextbrowser.cpp:607 covermanager.cpp:478
+msgid "&Show Fullsize"
+msgstr "&Показувати повний розмір"
+
+#: contextbrowser.cpp:608 covermanager.cpp:481
+#, c-format
+msgid "&Fetch From amazon.%1"
+msgstr "&Звантажити з amazon.%1"
+
+#: covermanager.cpp:483
+msgid "Set &Custom Image"
+msgstr "Встановити &своє зображення"
+
+#: covermanager.cpp:485
+msgid "Set &Cover Image"
+msgstr "Встановити зображення &обкладинки"
+
+#: covermanager.cpp:488
+msgid "&Unset Cover Image"
+msgstr "&Відмінити зображення обкладинки"
+
+#: contextbrowser.cpp:762 covermanager.cpp:712
+msgid "Select Cover Image File"
+msgstr "Вибір файла зображення обкладинки"
+
+#: covermanager.cpp:746
+#, c-format
+msgid ""
+"_n: Are you sure you want to remove this cover from the Collection?\n"
+"Are you sure you want to delete these %n covers from the Collection?"
+msgstr ""
+"Ви впевнені, що хочете видалити цю %n обкладинку?\n"
+"Ви впевнені, що хочете видалити ці %n обкладинки?\n"
+"Ви впевнені, що хочете видалити ці %n обкладинок?"
+
+#: covermanager.cpp:787
+msgid "Finished."
+msgstr "Закінчено."
+
+#: covermanager.cpp:789
+#, c-format
+msgid ""
+"_n:  Cover not found\n"
+" <b>%n</b> covers not found"
+msgstr ""
+" <b>%n</b> обкладинку не знайдено\n"
+" <b>%n</b> обкладинки не знайдено\n"
+" <b>%n</b> обкладинок не знайдено"
+
+#: covermanager.cpp:801
+msgid "Fetching cover for "
+msgstr "Отримання обкладинки для "
+
+#: covermanager.cpp:807
+#, c-format
+msgid ""
+"_n: Fetching 1 cover: \n"
+"Fetching <b>%n</b> covers... : "
+msgstr ""
+"Звантаження <b>%n</b> обкладинки... : \n"
+"Звантаження <b>%n</b> обкладинок... : \n"
+"Звантаження <b>%n</b> обкладинок... : "
+
+#: covermanager.cpp:809
+#, c-format
+msgid ""
+"_n: 1 fetched\n"
+"%n fetched"
+msgstr ""
+"%n отримана\n"
+"%n отримані\n"
+"%n отримано"
+
+#: covermanager.cpp:812
+#, c-format
+msgid ""
+"_n: 1 not found\n"
+"%n not found"
+msgstr ""
+"%n не знайдена\n"
+"%n не знайдені\n"
+"%n не знайдено"
+
+#: covermanager.cpp:815
+msgid "Connecting..."
+msgstr "З'єднання..."
+
+#: covermanager.cpp:835
+msgid ""
+"_n: 1 result for \"%1\"\n"
+"%n results for \"%1\""
+msgstr ""
+"%n результат для \"%1\"\n"
+"%n результати для \"%1\"\n"
+"%n результатів для \"%1\""
+
+#: covermanager.cpp:837
+#, c-format
+msgid ""
+"_n: 1 album\n"
+"%n albums"
+msgstr ""
+"%n альбом\n"
+"%n альбоми\n"
+"%n альбомів"
+
+#: covermanager.cpp:839
+msgid " by "
+msgstr " від "
+
+#: covermanager.cpp:843
+msgid " - ( <b>%1</b> without cover )"
+msgstr " - ( <b>%1</b> без обкладинки )"
+
+#: covermanager.cpp:918
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: covermanager.cpp:1024
+msgid "Are you sure you want to overwrite this cover?"
+msgstr "Ви впевнені, що хочете перезаписати цю обкладинку?"
+
+#: covermanager.cpp:1025
+msgid "Overwrite Confirmation"
+msgstr "Підтвердження перезапису"
+
+#: covermanager.cpp:1026
+msgid "&Overwrite"
+msgstr "&Перезаписати"
+
+#: playerwindow.cpp:245
+msgid "Please report this message to amarok-devel@lists.sf.net, thanks!"
+msgstr ""
+"Будь ласка, напишіть звіт про це повідомлення на amarok-devel@lists.sf.net, "
+"дякуємо!"
+
+#: playerwindow.cpp:328
+msgid "Welcome to amaroK"
+msgstr "Ласкаво просимо до amaroK"
+
+#: actionclasses.cpp:244 playerwindow.cpp:541
+msgid "Analyzer"
+msgstr "Аналізатор"
+
+#: playerwindow.cpp:789
+msgid "Click for more analyzers, press 'd' to detach."
+msgstr ""
+"Клацніть, щоб побачити більше аналізаторів, натисніть \"d\", щоб відділити."
+
+#: playerwindow.cpp:818
+msgid "Equalizer is not available with this engine."
+msgstr "З цим рушієм еквалайзер недоступний."
+
+#: socketserver.cpp:177
+msgid "Visualizations"
+msgstr "Візуалізації"
+
+#: socketserver.cpp:185
+msgid "Right-click on item for context menu"
+msgstr "Для контекстного меню натисніть на елемент правою кнопкою мишки"
+
+#: socketserver.cpp:261
+msgid "Fullscreen"
+msgstr "Повний екран"
+
+#: socketserver.cpp:288
+msgid ""
+"<div align=center>"
+"<h3>No Visualizations Found</h3>Possible reasons:"
+"<ul>"
+"<li>libvisual is not installed</li>"
+"<li>No libvisual plugins are installed</li></ul>Please check these "
+"possibilities and restart amaroK.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Не знайдено візуалізації</h3>Можливі причини:"
+"<ul>"
+"<li>Не встановлено libvisual</li>"
+"<li>Не встановлено втулок libvisual</li></ul>Будь ласка, перевірте ці причини і "
+"перезапустіть amaroK.</div>"
+
+#: collectionbrowser.cpp:80 mediabrowser.cpp:78
+msgid "Enter space-separated terms to filter collection"
+msgstr "Введіть, розділені пропусками, слова для фільтрування збірки"
+
+#: collectionbrowser.cpp:84
+msgid "Update"
+msgstr "Оновити"
+
+#: collectionbrowser.cpp:90
+msgid "Configure Folders"
+msgstr "Налаштувати теки"
+
+#: collectionbrowser.cpp:91
+msgid "Tree View"
+msgstr "Вигляд дерева"
+
+#: collectionbrowser.cpp:92
+msgid "Flat View"
+msgstr "Простий вигляд"
+
+#: collectionbrowser.cpp:101
+msgid "Group By"
+msgstr "Згрупувати за"
+
+#. i18n: file ./trackpickerdialogbase.ui line 103
+#: collectionbrowser.cpp:119 collectionbrowser.cpp:121
+#: collectionbrowser.cpp:1828 contextbrowser.cpp:156 mediabrowser.cpp:106
+#: playlist.cpp:233 playlistbrowseritem.cpp:1940 rc.cpp:100
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Artist"
+msgstr "Виконавець"
+
+#: collectionbrowser.cpp:120
+msgid "Artist / Album"
+msgstr "Виконавець / альбом"
+
+#. i18n: file ./trackpickerdialogbase.ui line 136
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:1825
+#: collectionbrowser.cpp:1836 playlist.cpp:235 playlistbrowseritem.cpp:1956
+#: rc.cpp:109 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#: smartplaylisteditor.cpp:753
+#, no-c-format
+msgid "Year"
+msgstr "Рік"
+
+#. i18n: file ./trackpickerdialogbase.ui line 114
+#: collectionbrowser.cpp:121 collectionbrowser.cpp:122
+#: collectionbrowser.cpp:1822 collectionbrowser.cpp:1825
+#: contextbrowser.cpp:655 playlist.cpp:234 playlistbrowseritem.cpp:1948
+#: rc.cpp:103 smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+#, no-c-format
+msgid "Album"
+msgstr "Альбом"
+
+#: collectionbrowser.cpp:123
+msgid "Genre / Artist"
+msgstr "Жанр / Виконавець"
+
+#: collectionbrowser.cpp:124
+msgid "Genre / Artist / Album"
+msgstr "Жанр / Виконавець / Альбом"
+
+#: collectionbrowser.cpp:128
+msgid "&First Level"
+msgstr "&Перший рівень"
+
+#: collectionbrowser.cpp:129
+msgid "&Second Level"
+msgstr "&Другий рівень"
+
+#: collectionbrowser.cpp:130
+msgid "&Third Level"
+msgstr "&Третій рівень"
+
+#: collectionbrowser.cpp:132 collectionbrowser.cpp:140
+msgid "&Album"
+msgstr "&Альбом"
+
+#: collectionbrowser.cpp:133 collectionbrowser.cpp:141
+#: collectionbrowser.cpp:149
+msgid "(Y&ear) - Album"
+msgstr "(&Рік) - Альбом"
+
+#: collectionbrowser.cpp:134 collectionbrowser.cpp:142
+#: collectionbrowser.cpp:150
+msgid "A&rtist"
+msgstr "Ви&конавець"
+
+#: collectionbrowser.cpp:135 collectionbrowser.cpp:143
+#: collectionbrowser.cpp:151
+msgid "&Genre"
+msgstr "&Жанр"
+
+#: collectionbrowser.cpp:136 collectionbrowser.cpp:144
+#: collectionbrowser.cpp:152
+msgid "&Year"
+msgstr "&Рік"
+
+#: collectionbrowser.cpp:138 collectionbrowser.cpp:146
+msgid "&None"
+msgstr "&Нічого"
+
+#: collectionbrowser.cpp:148
+msgid "A&lbum"
+msgstr "А&льбом"
+
+#: collectionbrowser.cpp:207
+#, c-format
+msgid ""
+"_n: 1 Artist\n"
+"%n Artists"
+msgstr ""
+"%n виконавець\n"
+"%n виконавці\n"
+"%n виконавців"
+
+#: collectionbrowser.cpp:212
+#, c-format
+msgid ""
+"_n: 1 Album\n"
+"%n Albums"
+msgstr ""
+"%n альбом\n"
+"%n альбоми\n"
+"%n альбомів"
+
+#: collectionbrowser.cpp:217
+#, c-format
+msgid ""
+"_n: 1 Genre\n"
+"%n Genres"
+msgstr ""
+"%n жанр\n"
+"%n жанри\n"
+"%n жанрів"
+
+#: collectionbrowser.cpp:228 playlistbrowseritem.cpp:644
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"%n Tracks"
+msgstr ""
+"%n доріжка\n"
+"%n доріжки\n"
+"%n доріжок"
+
+#: collectionbrowser.cpp:633 configdialog.cpp:128
+msgid "Configure Collection"
+msgstr "Налаштувати збірку"
+
+#: collectionbrowser.cpp:1185
+msgid "&Queue Tracks"
+msgstr "Поставити доріжки в &чергу"
+
+#: collectionbrowser.cpp:1188 filebrowser.cpp:180
+msgid "&Save as Playlist..."
+msgstr "&Зберегти як список композицій..."
+
+#: collectionbrowser.cpp:1197 mediabrowser.cpp:339
+msgid "Burn All Tracks by This Artist"
+msgstr "Записати на КД всі пісні цього виконавця"
+
+#: collectionbrowser.cpp:1202 mediabrowser.cpp:344
+msgid "Burn This Album"
+msgstr "Записати цей альбом на КД"
+
+#: collectionbrowser.cpp:1207 filebrowser.cpp:184
+msgid "Burn to CD"
+msgstr "Записати на КД"
+
+#: collectionbrowser.cpp:1214
+msgid "&Fetch Cover Image"
+msgstr "&Отримати зображення обкладинки"
+
+#: collectionbrowser.cpp:1218 playlist.cpp:3171
+#, c-format
+msgid ""
+"_n: Edit Track &Information...\n"
+"Edit &Information for %n Tracks..."
+msgstr ""
+"Редагувати &інформацію для %n доріжки...\n"
+"Редагувати &інформацію для %n доріжок...\n"
+"Редагувати &інформацію для %n доріжок..."
+
+#: collectionbrowser.cpp:1224
+msgid "&Mark as Compilation"
+msgstr "&Позначити як збірку"
+
+#: collectionbrowser.cpp:1225
+msgid "&Unmark as Compilation"
+msgstr "&Забрати позначку збірки"
+
+#: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
+#: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
+#: smartplaylisteditor.cpp:107
+msgid "Title"
+msgstr "Заголовок"
+
+#: collectionbrowser.cpp:1832 playlist.cpp:237 playlistbrowseritem.cpp:1932
+#: smartplaylisteditor.cpp:107 smartplaylisteditor.cpp:118
+msgid "Genre"
+msgstr "Жанр"
+
+#: collectionbrowser.cpp:1969
+msgid ""
+"<div align=center>"
+"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
+"in the filter line above.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>У вигляді простого списку</h3>Щоб перейти в режим простого списку, будь "
+"ласка, введіть критерій пошуку у поле фільтра вище.</div>"
+
+#: actionclasses.cpp:53
+msgid "amaroK Menu"
+msgstr "Меню amaroK"
+
+#: actionclasses.cpp:73
+msgid "Menu"
+msgstr "Меню"
+
+#: actionclasses.cpp:99
+msgid "C&over Manager"
+msgstr "Менеджер о&бкладинок"
+
+#: actionclasses.cpp:101 actionclasses.cpp:307 analyzers/blockanalyzer.cpp:442
+#: playlistwindow.cpp:259
+msgid "&Visualizations"
+msgstr "&Візуалізації"
+
+#: actionclasses.cpp:102
+msgid "E&qualizer"
+msgstr "Е&квалайзер"
+
+#: actionclasses.cpp:107
+msgid "First-Run &Wizard"
+msgstr "&Майстер першого запуску"
+
+#: actionclasses.cpp:108 playlistwindow.cpp:264
+msgid "&Rescan Collection"
+msgstr "&Заново переглянути збірку"
+
+#: actionclasses.cpp:194 app.cpp:326
+msgid "Play/Pause"
+msgstr "Пуск/Пауза"
+
+#: actionclasses.cpp:211 actionclasses.cpp:216 app.cpp:324
+#: playlistwindow.cpp:133
+msgid "Pause"
+msgstr "Пауза"
+
+#: actionclasses.cpp:221 app.cpp:322 app.cpp:847 playlistwindow.cpp:132
+msgid "Play"
+msgstr "Пуск"
+
+#: actionclasses.cpp:278
+msgid "Click for more analyzers"
+msgstr "Інші аналізатори"
+
+#: actionclasses.cpp:321 sliderwidget.cpp:295
+msgid "Volume"
+msgstr "Гучність"
+
+#: actionclasses.cpp:338
+msgid "Volume control"
+msgstr "Гучність"
+
+#: actionclasses.cpp:361
+msgid "Random &Mode"
+msgstr "Випадковий &режим"
+
+#: actionclasses.cpp:371
+msgid "Repeat &Track"
+msgstr "Повторювати &доріжку"
+
+#: actionclasses.cpp:381
+msgid "R&epeat Playlist"
+msgstr "Повтор&ювати список композицій"
+
+#: actionclasses.cpp:391
+msgid "&Dynamic Mode"
+msgstr "&Динамічний режим"
+
+#: actionclasses.cpp:401 actionclasses.cpp:417 playlist.cpp:3154
+msgid "Burn"
+msgstr "Записати на КД"
+
+#: actionclasses.cpp:431
+msgid "Current Playlist"
+msgstr "Поточний список композицій"
+
+#: actionclasses.cpp:432
+msgid "Selected Tracks"
+msgstr "Вибрані доріжки"
+
+#: actionclasses.cpp:504
+msgid "Now"
+msgstr "Тепер"
+
+#: actionclasses.cpp:505
+msgid "After Current Track"
+msgstr "Після поточної доріжки"
+
+#: actionclasses.cpp:506
+msgid "After Queue"
+msgstr "Після черги"
+
+#: pluginmanager.cpp:96
+msgid ""
+"<p>KLibLoader could not load the plugin:"
+"<br/><i>%1</i></p>"
+"<p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>KLibLoader не зміг запустити втулок:"
+"<br/><i>%1</i></p>"
+"<p>Повідомлення помилки:"
+"<br/><i>%2</i></p>"
+
+#: pluginmanager.cpp:175 queuemanager.cpp:67
+msgid "Name"
+msgstr "Ім'я"
+
+#: pluginmanager.cpp:176
+msgid "Library"
+msgstr "Бібліотека"
+
+#: pluginmanager.cpp:177
+msgid "Authors"
+msgstr "Автори"
+
+#: pluginmanager.cpp:178
+msgid "Email"
+msgstr "Ел. пошта"
+
+#: pluginmanager.cpp:179
+msgid "Version"
+msgstr "Версія"
+
+#: pluginmanager.cpp:180
+msgid "Framework Version"
+msgstr "Версія основи"
+
+#: pluginmanager.cpp:184
+msgid "Plugin Information"
+msgstr "Інформація про втулок"
+
+#: scripts/graphequalizer/main.cpp:24
+msgid "An amaroK Equalizer using a line graph"
+msgstr "Еквалайзер amaroK Equalizer з використанням лінійного графіка"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 16
+#: rc.cpp:148 scripts/graphequalizer/main.cpp:30
+#, no-c-format
+msgid "Graph Equalizer"
+msgstr "Графічний еквалайзер"
+
+#: equalizersetup.cpp:60
+msgid "Equalizer"
+msgstr "Еквалайзер"
+
+#: equalizersetup.cpp:73
+msgid "Presets:"
+msgstr "Конфігурації:"
+
+#: equalizersetup.cpp:80
+msgid "Add new preset"
+msgstr "Додати нову конфігурацію"
+
+#: equalizersetup.cpp:85
+msgid "Manage presets"
+msgstr "Керування конфігураціями"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 31
+#: equalizersetup.cpp:93 rc.cpp:151
+#, no-c-format
+msgid "Enable Equalizer"
+msgstr "Ввімкнути еквалайзер"
+
+#: equalizersetup.cpp:113
+msgid "Pre-amp"
+msgstr "Підсилення"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:127
+#: equalizerpresetmanager.cpp:136 equalizersetup.cpp:227
+#: equalizersetup.cpp:411 equalizersetup.cpp:486
+msgid "Manual"
+msgstr "Ручне"
+
+#: equalizerpresetmanager.cpp:85 equalizerpresetmanager.cpp:135
+#: equalizersetup.cpp:228 equalizersetup.cpp:295
+msgid "Zero"
+msgstr "Початковий"
+
+#: equalizersetup.cpp:361
+msgid "Add Equalizer Preset"
+msgstr "Додати конфігурацію еквалайзера"
+
+#: equalizersetup.cpp:362
+msgid "Enter preset name:"
+msgstr "Введіть назву конфігурації:"
+
+#: equalizerpresetmanager.cpp:106 equalizersetup.cpp:367
+msgid "A preset with the name %1 already exists. Overwrite?"
+msgstr "Конфігурація з назвою %1 вже існує. Перезаписати?"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Іван Петрущак"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "ivanpetrouchtchak@yahoo.com"
+
+#: mediabrowser.cpp:302
+msgid ""
+"<div align=center>"
+"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
+"iPod. Drag and drop files to enqueue them for transfer.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Навігатор медіа-пристроїв</h3>Натисніть на кнопку \"З'єднатися\", щоб "
+"отримати доступ до вашого змонтованого iPod. Перетягніть і вкиньте файли, щоб "
+"поставити їх в чергу для перенесення.</div>"
+
+#: mediabrowser.cpp:357
+msgid "Delete File"
+msgstr "Видалити файл"
+
+#: mediabrowser.cpp:407
+msgid "URL"
+msgstr "URL"
+
+#: mediabrowser.cpp:409 mediabrowser.cpp:530 mediabrowser.cpp:655
+#: mediabrowser.cpp:1012
+#, c-format
+msgid ""
+"_n: 1 track in queue\n"
+"%n tracks in queue"
+msgstr ""
+"%n доріжка в черзі\n"
+"%n доріжки в черзі\n"
+"%n доріжок в черзі"
+
+#: mediabrowser.cpp:414
+msgid "Connect"
+msgstr "З'єднатися"
+
+#: mediabrowser.cpp:415
+msgid "Transfer"
+msgstr "Перенести"
+
+#: mediabrowser.cpp:419
+msgid "Connect media device"
+msgstr "Приєднати медіа-пристрій"
+
+#: mediabrowser.cpp:420
+msgid "Transfer tracks to media device"
+msgstr "Перенести доріжки до медіа-пристрою"
+
+#: mediabrowser.cpp:421
+msgid "Configure mount commands"
+msgstr "Налаштувати команди монтування"
+
+#: mediabrowser.cpp:445
+msgid "&Remove From Queue"
+msgstr "&Вилучити з черги"
+
+#: mediabrowser.cpp:446
+msgid "&Clear Queue"
+msgstr "&Очистити чергу"
+
+#: mediabrowser.cpp:639
+msgid "0 tracks in queue"
+msgstr "0 доріжок в черзі"
+
+#: mediabrowser.cpp:663
+msgid "Configure Media Device"
+msgstr "Налаштувати медіа-пристрій"
+
+#: mediabrowser.cpp:668
+msgid "&Mount command:"
+msgstr "Команда &монтування:"
+
+#: mediabrowser.cpp:671
+msgid ""
+"Set the command to mount your device here, empty commands are not executed."
+msgstr ""
+"Тут вкажіть команду для монтування вашого пристрою; порожні команди не "
+"виконуються."
+
+#: mediabrowser.cpp:674
+msgid "&Unmount command:"
+msgstr "&Команда демонтування:"
+
+#: mediabrowser.cpp:677
+msgid ""
+"Set the command to unmount your device here, empty commands are not executed."
+msgstr ""
+"Тут вкажіть команду для демонтування вашого пристрою; порожні команди не "
+"виконуються."
+
+#: mediabrowser.cpp:728
+#, c-format
+msgid "could not execute %1"
+msgstr "не вдалось запустити %1"
+
+#: mediabrowser.cpp:818
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Ви хочете видалити %n файл <b>назавжди</b>.\n"
+"<p>Ви хочете видалити %n файли <b>назавжди</b>.\n"
+"<p>Ви хочете видалити %n файлів <b>назавжди</b>."
+
+#: mediabrowser.cpp:942
+msgid "Could not find device, please mount it and try again."
+msgstr ""
+"Не вдалось знайти пристрій; будь ласка, змонтуйте його і спробуйте ще раз."
+
+#: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
+msgid "Media Device Browser"
+msgstr "Навігатор медіа-пристроїв"
+
+#: mediabrowser.cpp:951
+msgid ""
+"There are tracks queued for transfer. Would you like to transfer them before "
+"disconnecting?"
+msgstr ""
+"В черзі є доріжки для перенесення. Хочете перенести їх перед роз'єднанням?"
+
+#: mediabrowser.cpp:954
+msgid "&Transfer"
+msgstr "&Перенесення"
+
+#: mediabrowser.cpp:962
+msgid "Your device is now in sync, please unmount it and disconnect now."
+msgstr ""
+"Ваш пристрій вже синхронізовано; будь ласка, демонтуйте його і від'єднайте "
+"тепер."
+
+#: mediabrowser.cpp:967
+msgid "Your device is now in sync, you can disconnect now."
+msgstr "Ваш пристрій вже синхронізовано; можете вже від'єднати його."
+
+#: podcastsettings.cpp:20
+msgid "Configure Podcast Stream"
+msgstr "Налаштувати потік Podcast"
+
+#: podcastsettings.cpp:23
+msgid "Apply to all Podcasts"
+msgstr "Застосувати до всіх Podcast"
+
+#: podcastsettings.cpp:121
+msgid "<p>This will set podcast settings globally. Are you sure?"
+msgstr "<p>Це встановить глобальні параметри podcast. Ви впевнені?"
+
+#: equalizerpresetmanager.cpp:36 equalizerpresetmanager.cpp:43
+msgid "Presets"
+msgstr "Конфігурації"
+
+#: equalizerpresetmanager.cpp:100
+msgid "Rename Equalizer Preset"
+msgstr "Перейменувати конфігурацію еквалайзера"
+
+#: equalizerpresetmanager.cpp:101
+msgid "Enter new preset name:"
+msgstr "Введіть нову назву конфігурації:"
+
+#: equalizerpresetmanager.cpp:121
+msgid ""
+"All presets will be deleted and defaults will be restored. Are you sure?"
+msgstr ""
+"Всі поточні конфігурації буде видалено, а відновлено типові значення. Ви "
+"впевнені?"
+
+#: queuemanager.cpp:87
+msgid ""
+"<div align=center>"
+"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here."
+"<br>"
+"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Керування чергою</h3>Щоб створити чергу, <b>перетягніть</b> "
+"доріжки зі списку композицій і <b>вкиньте</b> їх сюди."
+"<br>"
+"<br>Перетягуйте і вкидайте доріжки всередині менеджера, щоб впорядкувати "
+"чергу.</div>"
+
+#: playlistwindow.cpp:127 queuemanager.cpp:259
+msgid "Queue Manager"
+msgstr "Керування чергою"
+
+#: queuemanager.cpp:276
+msgid "Move up"
+msgstr "Пересунути вгору"
+
+#: queuemanager.cpp:277
+msgid "Move down"
+msgstr "Пересунути вниз"
+
+#: queuemanager.cpp:279
+msgid "Enqueue track"
+msgstr "Додати в чергу"
+
+#: queuemanager.cpp:280
+msgid "Clear queue"
+msgstr "Очистити чергу"
+
+#: tagdialog.cpp:59
+#, c-format
+msgid ""
+"_n: 1 Track\n"
+"Information for %n Tracks"
+msgstr ""
+"Інформація про %n доріжку\n"
+"Інформація про %n доріжки\n"
+"Інформація про %n доріжок"
+
+#: tagdialog.cpp:174
+msgid "Generating audio fingerprint..."
+msgstr "Створення аудіо відбитка..."
+
+#: tagdialog.cpp:194
+msgid "The track was not found in the MusicBrainz database."
+msgstr "Не вдалося знайти цю доріжку в базі даних MusicBrainz."
+
+#: tagdialog.cpp:310
+msgid "Please install MusicBrainz to enable this functionality"
+msgstr "Щоб здобути цю функціональність, будь ласка, встановіть MusicBrainz"
+
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
+msgid "Sorry, the tag for %1 could not be changed."
+msgstr "Вибачте, але не вдалося змінити мітку для %1."
+
+#: tagdialog.cpp:627
+msgid "TagLib claims %1 file is not writable."
+msgstr "TagLib скаржиться, що у файл %1 неможливий запис."
+
+#: playlistwindow.cpp:120
+msgid "&Add Media..."
+msgstr "&Додати пісні..."
+
+#: playlistwindow.cpp:121
+msgid "&Save Playlist As..."
+msgstr "&Зберегти список композицій як..."
+
+#: playlistwindow.cpp:124
+msgid "Play Media..."
+msgstr "Грати мультимедію..."
+
+#: playlistwindow.cpp:125
+msgid "Play Audio CD"
+msgstr "Грати аудіо КД"
+
+#: playlistwindow.cpp:129
+msgid "Configure &Global Shortcuts..."
+msgstr "Налаштувати &глобальні скорочення..."
+
+#: app.cpp:332 playlistwindow.cpp:131
+msgid "Previous Track"
+msgstr "Попередня доріжка"
+
+#: app.cpp:330 playlistwindow.cpp:134
+msgid "Next Track"
+msgstr "Наступна доріжка"
+
+#: playlistwindow.cpp:186
+msgid "S&earch:"
+msgstr "По&шук:"
+
+#: playlistwindow.cpp:198
+msgid ""
+"Enter space-separated terms to filter the playlist.\n"
+"\n"
+"Advanced, Google-esque syntax is also available;\n"
+"see the handbook (The Playlist section of chapter 4) for details."
+msgstr ""
+"Введіть розділені пробілами терміни для фільтрування списку композицій.\n"
+"\n"
+"Наявний також складний, Google-подібний, синтаксис;\n"
+"для подробиць див. підручник (секція Список композицій в гл. 4)."
+
+#: playlistwindow.cpp:257
+msgid "&Cover Manager"
+msgstr "Менеджер о&бкладинок"
+
+#: playlistwindow.cpp:260 sliderwidget.cpp:306
+msgid "&Equalizer"
+msgstr "&Еквалайзер"
+
+#: playlistwindow.cpp:263
+msgid "&First-Run Wizard"
+msgstr "Майстер пер&шого запуску"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Hide Toolbar"
+msgstr "Сховати пенал"
+
+#: playlistwindow.cpp:281 playlistwindow.cpp:726
+msgid "Show Toolbar"
+msgstr "Показувати пенал"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Hide Player &Window"
+msgstr "Сховати &вікно програвача"
+
+#: playlistwindow.cpp:282 playlistwindow.cpp:730
+msgid "Show Player &Window"
+msgstr "Показувати &вікно програвача"
+
+#: playlistwindow.cpp:298
+msgid "&Actions"
+msgstr "&Дії"
+
+#: playlistwindow.cpp:299
+msgid "&Playlist"
+msgstr "&Список композицій"
+
+#: playlistwindow.cpp:347
+msgid "Context"
+msgstr "Контекст"
+
+#: playlistwindow.cpp:352
+msgid "Media Device"
+msgstr "Пристрій"
+
+#: playlistwindow.cpp:662
+msgid "Play Media"
+msgstr "Грати носій"
+
+#: playlistwindow.cpp:662
+msgid "Add Media"
+msgstr "Додати носій"
+
+#: collectionreader.cpp:37
+msgid "Building Collection"
+msgstr "Створення збірки"
+
+#: collectionreader.cpp:67
+msgid "Updating Collection"
+msgstr "Оновлення збірки"
+
+#: collectionreader.cpp:105
+msgid "Updating Collection..."
+msgstr "Оновлення збірки..."
+
+#: collectionreader.cpp:119
+msgid "Report this file if amaroK crashes when building the Collection."
+msgstr ""
+"Повідомте про цей файл у випадку аварії amaroK під час створення збірки."
+
+#: collectionreader.cpp:138
+msgid "Reading directory structure"
+msgstr "Читання структури каталогів"
+
+#: collectionreader.cpp:143
+msgid "Reading metadata"
+msgstr "Читання метаданих"
+
+#: engine/gst/gstengine.cpp:252
+msgid ""
+"<h3>GStreamer could not be initialized.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Не вдається започаткувати GStreamer.</h3> "
+"<p>Впевніться, що встановлені всі необхідні втулки для GStreamer (тобто OGG і "
+"MP3), а потім виконайте <i>\"gst-register\"</i>.</p>"
+"<p>Для додаткової інформації див. інструкцію GStreamer, а також приєднайтесь до "
+"каналу #gstreamer на irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:264
+msgid ""
+"<h3>GStreamer is missing a registry.</h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Не вдалося знайти реєстр GStreamer.</h3> "
+"<p>Впевніться, що встановлені всі необхідні втулки для GStreamer (тобто OGG і "
+"MP3), а потім виконайте <i>\"gst-register\"</i>.</p>"
+"<p>Для додаткової інформації див. інструкцію GStreamer, а також приєднайтесь до "
+"каналу #gstreamer на irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:747
+msgid ""
+"<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
+"dialog.</p>"
+msgstr ""
+"<p>Будь ласка, виберіть <u>втулок виводу</u> GStreamer у вікні налаштування "
+"рушія.</p>"
+
+#: engine/gst/gstengine.cpp:768
+msgid ""
+"<h3>GStreamer could not create the element: <i>%1</i></h3> "
+"<p>Please make sure that you have installed all necessary GStreamer plugins "
+"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
+"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
+"irc.freenode.net.</p>"
+msgstr ""
+"<h3>Не вдалося створити елемент GStreamer: <i>%1</i></h3> "
+"<p>Впевніться, що встановлені всі необхідні втулки для GStreamer (тобто OGG і "
+"MP3), а потім виконайте <i>\"gst-register\"</i>.</p>"
+"<p>Для додаткової інформації див. інструкцію GStreamer, а також приєднайтесь до "
+"каналу #gstreamer на irc.freenode.net.</p>"
+
+#: engine/gst/gstengine.cpp:913
+msgid "Buffering.. %1%"
+msgstr "Наповнення буферу.. %1%"
+
+#: engine/mas/masengine.cpp:92
+msgid ""
+"<h3>amaroK could not initialise MAS.</h3>"
+"<p>Check for a running mas daemon.</p>"
+msgstr ""
+"<h3>amaroK не зміг започаткувати MAS.</h3>"
+"<p>Перевірте чи запущено даемон mas.</p>"
+
+#: engine/arts/artsengine.cpp:133
+msgid ""
+"<p>artsd is not running with <b>realtime priority</b> "
+"which may cause audio playback to \"skip\" and stutter."
+"<p>"
+"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
+"highest possible priority\", under <i>Sound System</i> in the <i>"
+"Sound & Multimedia</i> branch. Some people may also have to check that "
+"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
+"<p>You may find, however, that playback is fine without increasing the priority "
+"of artsd.</p>"
+msgstr ""
+"<p>artsd не запущено з <b>пріоритетом реального часу</b>"
+", а це може призвести до \"стрибків\" і заїкань в програванні."
+"<p>"
+"<p>Щоб вживати пріоритет реального часу, відкрийте Центр керування KDE і "
+"ввімкніть \"Виконувати з найвищим можливим пріоритетом\", в <i>"
+"Звукова система</i> в гілці <i>Звук та мультимедія</i>"
+". Також впевніться, що \"$KDEDIR/bin/artswrapper\" має <b>set suid</b> "
+"(chmod +s).</p>"
+"<p>Однак, може трапитись, що програвання нормалізується без підвищення "
+"пріоритету звукової системи artsd.</p>"
+
+#: engine/arts/artsengine.cpp:137
+msgid "aRts Problem"
+msgstr "Проблема aRts"
+
+#: engine/arts/artsengine.cpp:198
+msgid "Cannot start aRts. You must use another engine."
+msgstr "Неможливо запустити aRts. Необхідно вживати інший рушій."
+
+#: engine/arts/artsengine.cpp:198
+msgid "Fatal Error"
+msgstr "Критична помилка"
+
+#: engine/arts/artsengine.cpp:214
+msgid ""
+"<p>There was an error loading libamarokarts. First try:"
+"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
+"probably installed with the wrong prefix; please re-configure amaroK using:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+msgstr ""
+"<p>Трапилась помилка при завантаженні libamarokarts. Спочатку спробуйте:"
+"<pre>killall -9 artsd && amarok</pre>Якщо це не допоможе, то amaroK, мабуть, "
+"встановлений у невідповідну теку. Будь ласка, повторіть конфігурацію amaroK:"
+"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+
+#: engine/arts/artsengine.cpp:219
+msgid "amaroK Error"
+msgstr "Помилка amaroK"
+
+#: engine/void/void-engine.cpp:29
+msgid "Error: No engine loaded, cannot start playback."
+msgstr "Помилка: не завантажено рушій, неможливо почати програвання."
+
+#: engine/xine/xine-config.cpp:160
+msgid "Autodetect"
+msgstr "Автовиявлення"
+
+#: engine/xine/xine-engine.cpp:131
+msgid "amaroK could not initialize xine."
+msgstr "amaroK не зміг започаткувати xine."
+
+#: engine/xine/xine-engine.cpp:166
+msgid "xine was unable to initialize any audio-drivers."
+msgstr "xine не зміг започаткувати аудіо-драйвери."
+
+#: engine/xine/xine-engine.cpp:172
+msgid "amaroK could not create a new xine-stream."
+msgstr "amaroK не зміг створити новий xine-stream."
+
+#: engine/xine/xine-engine.cpp:250 playlistbrowseritem.cpp:887
+msgid "Radio Stream"
+msgstr "Радіо-потік"
+
+#: engine/xine/xine-engine.cpp:265
+msgid "No input plugin available; check your installation."
+msgstr "Немає втулку вводу. Перевірте вашу інсталяцію."
+
+#: engine/xine/xine-engine.cpp:268
+msgid "No demux plugin available; check your installation."
+msgstr "Немає втулку демультиплексування. Перевірте вашу інсталяцію."
+
+#: engine/xine/xine-engine.cpp:271
+msgid "Demuxing failed; check your installation."
+msgstr "Демультиплексування зазнало невдачі. Перевірте вашу інсталяцію."
+
+#: engine/xine/xine-engine.cpp:274
+msgid "Internal error; check your installation."
+msgstr "Внутрішня помилка. Перевірте вашу інсталяцію."
+
+#: engine/xine/xine-engine.cpp:593
+msgid "Redirecting to: "
+msgstr "Перенаправлення на: "
+
+#: engine/xine/xine-engine.cpp:714
+msgid "The host is unknown for the URL: <i>%1</i>"
+msgstr "Невідомий вузол для цієї адреси URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:716
+msgid "The device name you specified seems invalid."
+msgstr "Вказана недійсна назва пристрою."
+
+#: engine/xine/xine-engine.cpp:718
+msgid "The network appears unreachable."
+msgstr "Мережа недоступна."
+
+#: engine/xine/xine-engine.cpp:720
+msgid "Audio output unavailable; the device is busy."
+msgstr "Аудіо-вивід відсутній; пристрій зайнятий."
+
+#: engine/xine/xine-engine.cpp:722
+msgid "The connection was refused for the URL: <i>%1</i>"
+msgstr "Було відмовлено у з'єднанні для адреси URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:724
+msgid "xine could not find the URL: <i>%1</i>"
+msgstr "xine не зміг знайти адресу URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:726
+msgid "Access was denied for the URL: <i>%1</i>"
+msgstr "Відмовлено у доступі до адреси URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:728
+msgid "The source cannot be read for the URL: <i>%1</i>"
+msgstr "Неможливо прочитати джерело для адреси URL: <i>%1</i>"
+
+#: engine/xine/xine-engine.cpp:730
+msgid "A problem occurred while loading a library or decoder."
+msgstr "Сталася проблема під час завантаження бібліотеки або декодера."
+
+#: engine/xine/xine-engine.cpp:733
+msgid "General Warning"
+msgstr "Загальне попередження"
+
+#: engine/xine/xine-engine.cpp:735
+msgid "Security Warning"
+msgstr "Попередження безпеки"
+
+#: engine/xine/xine-engine.cpp:737
+msgid "Unknown Error"
+msgstr "Невідома помилка"
+
+#: engine/xine/xine-engine.cpp:783
+msgid "Sorry, no additional information is available."
+msgstr "Вибачте, додаткова інформація відсутня."
+
+#: engine/helix/helix-engine.cpp:122
+msgid "Contacting: "
+msgstr "Встановлення зв'язку: "
+
+#: engine/helix/helix-engine.cpp:128
+msgid "Buffering %1%"
+msgstr "Буферування %1%"
+
+#: engine/helix/helix-engine.cpp:141
+msgid ""
+"The helix library you have configured does not support ALSA, the helix-engine "
+"has fallen back to OSS"
+msgstr ""
+"Бібліотека helix, яку ви налаштували, не підтримує ALSA; helix-рушій вживатиме "
+"OSS"
+
+#: engine/helix/helix-engine.cpp:220
+msgid ""
+"amaroK could not initialize the helix-engine. Please check the paths in "
+"\"amaroK Settings\" -> \"Engine\""
+msgstr ""
+"amaroK не зміг започаткувати helix-рушій. Будь ласка, перевірте шляхи в "
+"\"Параметри amaroK\" -> \"Рушій\""
+
+#: engine/helix/helix-engine.cpp:262
+msgid "No plugin found for the %1 format"
+msgstr "Не знайдено втулок для формату %1"
+
+#: engine/helix/helix-configdialog.cpp:121
+msgid "Output plugin:"
+msgstr "Втулок виводу:"
+
+#: engine/helix/helix-configdialog.cpp:133
+msgid "Device:"
+msgstr "Пристрій:"
+
+#: engine/helix/helix-configdialog.cpp:253
+msgid "Main"
+msgstr "Головний"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 12
+#: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
+#, no-c-format
+msgid "Helix/Realplay core directory"
+msgstr "Головний каталог Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
+#: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
+#, no-c-format
+msgid "This is the directory where clntcore.so is located"
+msgstr "Це каталог, в якому знаходиться clntcore.so"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
+#: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
+#, no-c-format
+msgid "Helix/Realplay plugins directory"
+msgstr "Каталог втулків Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 18
+#: engine/helix/helix-configdialog.cpp:282 rc.cpp:483
+#, no-c-format
+msgid "This is the directory where, for example, vorbisrend.so is located"
+msgstr "Це каталог, в якому знаходиться, напр., vorbisrend.so"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 22
+#: engine/helix/helix-configdialog.cpp:287 rc.cpp:486
+#, no-c-format
+msgid "Helix/Realplay codecs directory"
+msgstr "Каталог кодеків Helix/Realplay"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 23
+#: engine/helix/helix-configdialog.cpp:289 rc.cpp:489
+#, no-c-format
+msgid "This is the directory where, for example, cvt1.so is located"
+msgstr "Це каталог, в якому знаходиться, напр., cvt1.so"
+
+#: engine/helix/helix-configdialog.cpp:331
+msgid "Plugins"
+msgstr "Втулки"
+
+#: k3bexporter.cpp:140
+msgid "Unable to start K3b."
+msgstr "Не вдалось запустити K3b."
+
+#: k3bexporter.cpp:164
+msgid "There was a DCOP communication error with K3b."
+msgstr "Сталася помилка зв'язку DCOP з K3b."
+
+#: k3bexporter.cpp:198
+msgid ""
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
+"computers and other digital music players?"
+msgstr ""
+"Створити аудіо КД для програвання на звичайних програвачах КД, або КД з "
+"музичними файлами для слухання на комп'ютері і цифрових програвачах музики?"
+
+#: k3bexporter.cpp:201
+msgid "Create K3b Project"
+msgstr "Створити проект K3b"
+
+#: k3bexporter.cpp:202
+msgid "Audio Mode"
+msgstr "Аудіо режим"
+
+#: k3bexporter.cpp:203
+msgid "Data Mode"
+msgstr "Режим даних"
+
+#: configdialog.cpp:81
+msgid "Sound System"
+msgstr "Звукова система"
+
+#: configdialog.cpp:86
+msgid "Click to select the sound system to use for playback."
+msgstr "Виберіть звукову систему для програвання."
+
+#: configdialog.cpp:87
+msgid "Click to get the plugin information."
+msgstr "Клацніть для інформації про втулок."
+
+#: configdialog.cpp:102
+msgid "Locale Encoding"
+msgstr "Кодування локалі"
+
+#. i18n: file ./Options1.ui line 24
+#: configdialog.cpp:123 rc.cpp:578
+#, no-c-format
+msgid "General"
+msgstr "Загальне"
+
+#: configdialog.cpp:123
+msgid "Configure General Options"
+msgstr "Налаштувати загальні параметри"
+
+#: configdialog.cpp:124
+msgid "Configure amaroK's Appearance"
+msgstr "Налаштувати вигляд amaroK"
+
+#: configdialog.cpp:125
+msgid "Playback"
+msgstr "Програвання"
+
+#: configdialog.cpp:125
+msgid "Configure Playback"
+msgstr "Налаштувати програвання"
+
+#: configdialog.cpp:126
+msgid "OSD"
+msgstr "Індикатор"
+
+#: configdialog.cpp:126
+msgid "Configure On-Screen-Display"
+msgstr "Налаштувати індикатор"
+
+#: configdialog.cpp:127
+msgid "Engine"
+msgstr "Рушій"
+
+#: configdialog.cpp:127
+msgid "Configure Engine"
+msgstr "Налаштувати рушій"
+
+#: configdialog.cpp:129
+msgid "last.fm"
+msgstr "last.fm"
+
+#: configdialog.cpp:129
+msgid "Configure last.fm Support"
+msgstr "Налаштувати підтримку last.fm"
+
+#: configdialog.cpp:304
+#, c-format
+msgid "Configure %1"
+msgstr "Налаштувати %1"
+
+#: sliderwidget.cpp:296
+#, c-format
+msgid "100%"
+msgstr "100%"
+
+#: sliderwidget.cpp:297
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: sliderwidget.cpp:298
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: sliderwidget.cpp:299
+#, c-format
+msgid "40%"
+msgstr "40%"
+
+#: sliderwidget.cpp:300
+#, c-format
+msgid "20%"
+msgstr "20%"
+
+#: sliderwidget.cpp:301
+#, c-format
+msgid "0%"
+msgstr "0%"
+
+#: metabundle.cpp:231 statusbar/queueLabel.cpp:273
+msgid "%1 by %2"
+msgstr "%1 - %2"
+
+#: metabundle.cpp:315
+msgid ""
+"_: Bitrate\n"
+"%1 kbps"
+msgstr "%1 КБ/с"
+
+#: metabundle.h:106
+msgid "Stream"
+msgstr "Потік"
+
+#: metabundle.h:118
+msgid ""
+"_: SampleRate\n"
+"%1 kHz"
+msgstr "%1 КГц"
+
+#: metabundle.h:120
+msgid ""
+"_: SampleRate\n"
+"%1 Hz"
+msgstr "%1 Гц"
+
+#: trackpickerdialog.cpp:58
+msgid "MusicBrainz Results"
+msgstr "Результати MusicBrainz"
+
+#: scrobbler.cpp:626
+msgid "Submitting to last.fm"
+msgstr "Надсилання до last.fm"
+
+#: scrobbler.cpp:939
+msgid "'%1' submitted to last.fm"
+msgstr "\"%1\" надіслано до last.fm"
+
+#: scrobbler.cpp:942
+msgid "Several tracks submitted to last.fm"
+msgstr "Декілька доріжок надіслано до last.fm"
+
+#: scrobbler.cpp:946
+msgid ""
+"_n: '%1' and one other track submitted\n"
+"'%1' and %n other tracks submitted"
+msgstr ""
+"\"%1\" та %n іншу доріжку передано\n"
+"\"%1\" та %n інші доріжки передано\n"
+"\"%1\" та %n інших доріжок передано"
+
+#: scrobbler.cpp:953
+msgid "Failed to submit '%1' to last.fm"
+msgstr "Не вдалось надіслати \"%1\" до last.fm"
+
+#: scrobbler.cpp:956
+msgid "Failed to submit several tracks to last.fm"
+msgstr "Не вдалось надіслати декілька доріжок до last.fm"
+
+#: scrobbler.cpp:959
+msgid ""
+"_n: Failed to submit '%1' and one other track\n"
+"Failed to submit '%1' and %n other tracks"
+msgstr ""
+"Не вдалось передати \"%1\" та %n іншу доріжку\n"
+"Не вдалось передати \"%1\" та %n інші доріжки\n"
+"Не вдалось передати \"%1\" та %n інших доріжок"
+
+#: scrobbler.cpp:967
+#, c-format
+msgid ""
+"_n: One track still in queue\n"
+"%n tracks still in queue"
+msgstr ""
+"%n доріжка ще в черзі\n"
+"%n доріжки ще в черзі\n"
+"%n доріжок ще в черзі"
+
+#. i18n: file ./partydialogbase.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "partyDialogBase"
+msgstr "partyDialogBase"
+
+#. i18n: file ./partydialogbase.ui line 47
+#: rc.cpp:6
+#, no-c-format
+msgid "Type of Song to Append to Playlist"
+msgstr "Тип пісні для додавання до списку композицій"
+
+#. i18n: file ./partydialogbase.ui line 62
+#: rc.cpp:9
+#, no-c-format
+msgid "Random Song"
+msgstr "Випадкова пісня"
+
+#. i18n: file ./partydialogbase.ui line 67
+#: rc.cpp:12
+#, no-c-format
+msgid "Suggested Song"
+msgstr "Запропонована пісня"
+
+#. i18n: file ./partydialogbase.ui line 72
+#: rc.cpp:15
+#, no-c-format
+msgid "Playlist Shuffle"
+msgstr "Перемішування списку композицій"
+
+#. i18n: file ./partydialogbase.ui line 79
+#: rc.cpp:18 rc.cpp:21
+#, no-c-format
+msgid "Select which type of song you would like to add to the playlist"
+msgstr "Виберіть тип пісень, які ви б хотіли додати до списку композицій"
+
+#. i18n: file ./partydialogbase.ui line 100
+#: rc.cpp:24
+#, no-c-format
+msgid "&Remove played tracks"
+msgstr "&Вилучити програні доріжки"
+
+#. i18n: file ./partydialogbase.ui line 103
+#: rc.cpp:27 rc.cpp:30
+#, no-c-format
+msgid "Automatically remove played tracks to the playlist"
+msgstr "Автоматично вилучати програні доріжки зі списку композицій"
+
+#. i18n: file ./partydialogbase.ui line 131
+#: rc.cpp:33
+#, no-c-format
+msgid "Mar&k history"
+msgstr "&Позначати історію"
+
+#. i18n: file ./partydialogbase.ui line 134
+#: rc.cpp:36 rc.cpp:39
+#, no-c-format
+msgid "Once played, tracks will be greyed out"
+msgstr "Після програвання доріжки будуть виділені сірим"
+
+#. i18n: file ./partydialogbase.ui line 169
+#: rc.cpp:42
+#, no-c-format
+msgid "Played tracks to show:"
+msgstr "Показувати програних доріжок:"
+
+#. i18n: file ./partydialogbase.ui line 172
+#: rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:54
+#, no-c-format
+msgid "How many played items to show before removal"
+msgstr "Скільки програних композицій показувати перед вилученням"
+
+#. i18n: file ./partydialogbase.ui line 230
+#: rc.cpp:57
+#, no-c-format
+msgid "Upcoming tracks:"
+msgstr "Очікувані доріжки:"
+
+#. i18n: file ./partydialogbase.ui line 233
+#: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
+#, no-c-format
+msgid "Minimum number of upcoming tracks to keep in the playlist"
+msgstr ""
+"Мінімальна кількість очікуваних доріжок, які мають бути у списку композицій"
+
+#. i18n: file ./partydialogbase.ui line 291
+#: rc.cpp:72
+#, no-c-format
+msgid "Tracks to append:"
+msgstr "Додати доріжки:"
+
+#. i18n: file ./partydialogbase.ui line 294
+#: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
+#, no-c-format
+msgid "How many tracks to add to the playlist after each song"
+msgstr "Скільки доріжок додати до списку композицій після кожної пісні"
+
+#. i18n: file ./trackpickerdialogbase.ui line 16
+#: rc.cpp:87
+#, no-c-format
+msgid "trackPickerDialogBase"
+msgstr "trackPickerDialogBase"
+
+#. i18n: file ./trackpickerdialogbase.ui line 35
+#: rc.cpp:90
+#, no-c-format
+msgid "File Name"
+msgstr "Назва файла"
+
+#. i18n: file ./trackpickerdialogbase.ui line 80
+#: rc.cpp:94
+#, no-c-format
+msgid "Select Best Possible Match"
+msgstr "Вибрати найкраще співпадання"
+
+#. i18n: file ./trackpickerdialogbase.ui line 92
+#: playlist.cpp:231 rc.cpp:97
+#, no-c-format
+msgid "Filename"
+msgstr "Назва файла"
+
+#. i18n: file ./trackpickerdialogbase.ui line 125
+#: contextbrowser.cpp:627 playlist.cpp:238 rc.cpp:106
+#, no-c-format
+msgid "Track"
+msgstr "Доріжка"
+
+#. i18n: file ./scriptmanagerbase.ui line 16
+#: rc.cpp:112
+#, no-c-format
+msgid "DirectoryListBase"
+msgstr "DirectoryListBase"
+
+#. i18n: file ./scriptmanagerbase.ui line 33
+#: rc.cpp:115
+#, no-c-format
+msgid "Scripts"
+msgstr "Скрипти"
+
+#. i18n: file ./scriptmanagerbase.ui line 46
+#: rc.cpp:118
+#, no-c-format
+msgid "These scripts are currently known to amaroK."
+msgstr "Ці скрипти в даний час доступні для amaroK."
+
+#. i18n: file ./scriptmanagerbase.ui line 70
+#: rc.cpp:121
+#, no-c-format
+msgid "&Install Script"
+msgstr "&Встановити скрипт"
+
+#. i18n: file ./scriptmanagerbase.ui line 78
+#: rc.cpp:124
+#, no-c-format
+msgid "&Get More Scripts"
+msgstr "&Звантажити скрипти"
+
+#. i18n: file ./scriptmanagerbase.ui line 108
+#: rc.cpp:130
+#, no-c-format
+msgid "&Run"
+msgstr "&Виконати"
+
+#. i18n: file ./scriptmanagerbase.ui line 116
+#: rc.cpp:133
+#, no-c-format
+msgid "&Stop"
+msgstr "&Зупинити"
+
+#. i18n: file ./scriptmanagerbase.ui line 132
+#: rc.cpp:139
+#, no-c-format
+msgid "&Uninstall"
+msgstr "&Прибрати"
+
+#. i18n: file ./scriptmanagerbase.ui line 177
+#: rc.cpp:142
+#, no-c-format
+msgid "R&estart running scripts on application startup"
+msgstr "При запуску програми пере&запускати скрипти, які виконуються"
+
+#. i18n: file ./scriptmanagerbase.ui line 180
+#: rc.cpp:145
+#, no-c-format
+msgid ""
+"If enabled, amaroK will automatically restart scripts that were running when "
+"you exited the application."
+msgstr ""
+"Якщо увімкнено, amaroK буде автоматично запускати скрипти, які виконувались "
+"перед попереднім закриттям програми."
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
+#: rc.cpp:154
+#, no-c-format
+msgid ""
+"<p align=\"center\">The blue drag points can be dragged to adjust the "
+"equalizer. Double-click on the line to add a new drag point.</p>"
+msgstr ""
+"<p align=\"center\">Сині точки можна пересувати і, таким чином, налаштовувати "
+"еквалайзер. Клацніть двічі на лінію, щоб додати нову точку.</p>"
+
+#. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
+#: rc.cpp:157
+#, no-c-format
+msgid "<p align=\"center\">Pre-amp</p>"
+msgstr "<p align=\"center\">Підсилення</p>"
+
+#. i18n: file ./amarokui_xmms.rc line 3
+#: rc.cpp:160 rc.cpp:510
+#, no-c-format
+msgid "Playlist Toolbar"
+msgstr "Пенал списку композицій"
+
+#. i18n: file ./podcastsettingsbase.ui line 25
+#: rc.cpp:163
+#, no-c-format
+msgid "Podcast Configuration"
+msgstr "Конфігурація Podcast"
+
+#. i18n: file ./podcastsettingsbase.ui line 44
+#: rc.cpp:166
+#, no-c-format
+msgid "Enable &auto-fetching"
+msgstr "Увімкнути &автозвантаження"
+
+#. i18n: file ./podcastsettingsbase.ui line 47
+#: rc.cpp:169 rc.cpp:172
+#, no-c-format
+msgid "When checked, amaroK will automatically scan the podcast for updates"
+msgstr ""
+"Якщо увімкнено, amaroK автоматично скануватиме podcast на наявність оновлень"
+
+#. i18n: file ./podcastsettingsbase.ui line 76
+#: rc.cpp:175
+#, no-c-format
+msgid "URL:"
+msgstr "URL:"
+
+#. i18n: file ./podcastsettingsbase.ui line 92
+#: rc.cpp:178 rc.cpp:181
+#, no-c-format
+msgid "Location of the podcast"
+msgstr "Адреса podcast"
+
+#. i18n: file ./podcastsettingsbase.ui line 111
+#: rc.cpp:184
+#, no-c-format
+msgid "Media Download"
+msgstr "Звантаження медіа"
+
+#. i18n: file ./podcastsettingsbase.ui line 122
+#: rc.cpp:187
+#, no-c-format
+msgid "Stream or download on re&quest"
+msgstr "По&тік або звантаження на запит"
+
+#. i18n: file ./podcastsettingsbase.ui line 125
+#: rc.cpp:190 rc.cpp:193
+#, no-c-format
+msgid ""
+"Media must be downloaded, otherwise the podcast will be played from the remote "
+"server."
+msgstr ""
+"Необхідно звантажити, інакше podcast буде програватись з віддаленого сервера."
+
+#. i18n: file ./podcastsettingsbase.ui line 136
+#: rc.cpp:196
+#, no-c-format
+msgid "Download when a&vailable"
+msgstr "Звантажувати, коли на&явні"
+
+#. i18n: file ./podcastsettingsbase.ui line 139
+#: rc.cpp:199 rc.cpp:202
+#, no-c-format
+msgid "Download media as soon as it becomes available"
+msgstr "Звантажувати медіа, як тільки буде доступно"
+
+#. i18n: file ./podcastsettingsbase.ui line 160
+#: rc.cpp:205
+#, no-c-format
+msgid "Save location:"
+msgstr "Адреса збереження:"
+
+#. i18n: file ./podcastsettingsbase.ui line 183
+#: rc.cpp:208
+#, no-c-format
+msgid "Limit &number of items"
+msgstr "Обмежити &кількість елементів"
+
+#. i18n: file ./podcastsettingsbase.ui line 186
+#: rc.cpp:211 rc.cpp:214
+#, no-c-format
+msgid "If checked, amaroK will throw away old podcasts"
+msgstr "Якщо увімкнено, amaroK буде очищати старі podcast"
+
+#. i18n: file ./podcastsettingsbase.ui line 214
+#: rc.cpp:217
+#, no-c-format
+msgid "Keep maximum of:"
+msgstr "Максимальна кількість:"
+
+#. i18n: file ./podcastsettingsbase.ui line 222
+#: rc.cpp:220
+#, no-c-format
+msgid " Items"
+msgstr " елементів"
+
+#. i18n: file ./podcastsettingsbase.ui line 228
+#: rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "The maximum number of podcast items to store"
+msgstr "Максимальна кількість елементів podcast, які зберігати"
+
+#. i18n: file ./firstrunwizard.ui line 16
+#: app.cpp:957 rc.cpp:229
+#, no-c-format
+msgid "First-Run Wizard"
+msgstr "Майстер першого запуску"
+
+#. i18n: file ./firstrunwizard.ui line 38
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<h1>Welcome!</h1>\n"
+"<p>There are many media-players around these days, this is true. But what's "
+"missing from most players is an interface that doesn't get in your way. How "
+"many buttons do you have to press when simply adding media to the playlist? "
+"amaroK tries to be a little different, providing a simple drag-and-drop "
+"interface that makes playlist handling really easy.</p>\n"
+"<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
+"<h2>First-run Wizard</h2>\n"
+"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
+"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+msgstr ""
+"<h1>Ласкаво просимо!</h1>\n"
+"<p>Це правда, що в даний час є багато програвачів мультимедії. Але в більшості "
+"з них не мають інтерфейсу, зручного в користуванні. Скільки кнопок приходиться "
+"натискати просто для того, щоб додати пісню до списку композицій? amaroK "
+"намагається дотримуватись іншого підходу і надає простий \"перетягни-і-вкинь\" "
+"інтерфейс, який надзвичайно полегшує працю із списками композицій.</p>\n"
+"<p align=\"right\"><i>\"amaroK справді чудовий!\"</i> - Дядько Родні</p>\n"
+"<h2>Майстер першого запуску</h2>\n"
+"<p>Цей майстер допоможе вам налаштувати amaroK. Натисніть <i>Далі</i>"
+", щоб розпочати, а якщо вам не подобаються майстри, натисніть <i>Пропустити</i>"
+".</p>"
+
+#. i18n: file ./firstrunwizard.ui line 84
+#: rc.cpp:240
+#, no-c-format
+msgid "Interface (1 of 3)"
+msgstr "Інтерфейс (1 з 3)"
+
+#. i18n: file ./firstrunwizard.ui line 132
+#: rc.cpp:244
+#, no-c-format
+msgid ""
+"Single window with player and playlist functionality\n"
+"combined (like JuK)"
+msgstr ""
+"Одне вікно з функціональністю програвача і списку композицій \n"
+"(як в JuK)"
+
+#. i18n: file ./firstrunwizard.ui line 149
+#: rc.cpp:248
+#, no-c-format
+msgid ""
+"Separate player and playlist-windows\n"
+"(like XMMS or Winamp)"
+msgstr ""
+"Окремі вікна програвача і списку композицій\n"
+"(як в XMMS або Winamp)"
+
+#. i18n: file ./firstrunwizard.ui line 182
+#: rc.cpp:252
+#, no-c-format
+msgid ""
+"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
+"\n"
+"<p>You can change these settings at a later time using the configuration "
+"dialog.</p>"
+msgstr ""
+"<p>В amaroK ви можете використовувати розташування вікон, яке для вас "
+"найзручніше.</p>\n"
+"<p>Ви можете змінити ці параметри пізніше у вікні налаштування.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 273
+#: rc.cpp:257
+#, no-c-format
+msgid "Collection (2 of 3)"
+msgstr "Збірка (2 з 3)"
+
+#. i18n: file ./firstrunwizard.ui line 289
+#: rc.cpp:260
+#, no-c-format
+msgid ""
+"<p>Please select the folders on the right where your music files are stored.</p>"
+"\n"
+"<p>Doing so is highly recommended, and will enhance the features available to "
+"you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and can "
+"automatically add them to the collection.</p>"
+msgstr ""
+"<p>Будь ласка, виберіть праворуч теки, в яких зберігаються ваші музичні "
+"файли.</p>\n"
+"<p>Рекомендуємо це зробити, щоб збагатити доступну функціональність.</p>\n"
+"<p>Якщо бажаєте, то, amaroK може слідкувати за цими теками, і якщо "
+"з'являтимуться нові файли, то додаватиме їх до збірки.</p>"
+
+#. i18n: file ./firstrunwizard.ui line 299
+#: rc.cpp:265
+#, no-c-format
+msgid "Database (3 of 3)"
+msgstr "База даних (3 з 3)"
+
+#. i18n: file ./firstrunwizard.ui line 349
+#: rc.cpp:268
+#, no-c-format
+msgid ""
+"amaroK uses a database to store information about your music. If you are not "
+"sure which to use, press Next.\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
+", but require additional setup.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Instructions for configuring Postgresql</a>.</li>\n"
+"</ul>"
+msgstr ""
+"База даних потрібна для amaroK, щоб зберігати інформацію про вашу музику. Якщо "
+"ви не впевнені яку використовувати, то натисніть Далі.\n"
+"<p><b>MySQL</b> або <b>Postgresql</b> швидші за <b>sqlite</b>"
+", але вимагають додаткового налаштування.</p>\n"
+"<ul>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
+"Інструкція для налаштування MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
+"Інструкція для налаштування Postgresql</a>.</li>\n"
+"</ul>"
+
+#. i18n: file ./firstrunwizard.ui line 393
+#: rc.cpp:277
+#, no-c-format
+msgid ""
+"<h1>Congratulations!</h1>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
+"scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> "
+"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
+"Collection to the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a "
+"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p align=\"right\">The amaroK developers</p>"
+msgstr ""
+"<h1>Вітаємо!</h1>\n"
+"<p>amaroK готовий для використання! Коли ви натиснете кнопку \"Закінчити\", "
+"amaroK відкриється і почне сканування тек у вашій збірці.</p>\n"
+"<p>Ліворуч, вікно списку композицій amaroK покаже вашу <b>Збірку</b>"
+", а праворуч - <b>Список композицій</b>. Перетягніть музику із Збірки у Список "
+"композицій і натисніть <b>Пуск</b>.</p>\n"
+"<p>Якщо вам необхідна додаткова допомога або навчальний посібник, зверніться до "
+"<a href=\"help:/amarok\">Підручника по amaroK</a>. Сподіваємось, що вам "
+"сподобається amaroK.</p>\n"
+"<p align=\"right\">Розробники amaroK</p>"
+
+#. i18n: file ./dbsetup.ui line 16
+#: rc.cpp:284
+#, no-c-format
+msgid "Database Setup"
+msgstr "Налаштування бази даних"
+
+#. i18n: file ./dbsetup.ui line 38
+#: rc.cpp:287
+#, no-c-format
+msgid "Database:"
+msgstr "База даних:"
+
+#. i18n: file ./dbsetup.ui line 44
+#: rc.cpp:290
+#, no-c-format
+msgid "SQLite"
+msgstr "SQLite"
+
+#. i18n: file ./dbsetup.ui line 80
+#: rc.cpp:293
+#, no-c-format
+msgid "Postgresql Configuration"
+msgstr "Налаштування Postgresql"
+
+#. i18n: file ./dbsetup.ui line 91
+#: rc.cpp:296
+#, no-c-format
+msgid "Conninfo:"
+msgstr "Інформація про з'єднання:"
+
+#. i18n: file ./dbsetup.ui line 99
+#: rc.cpp:299 rc.cpp:302
+#, no-c-format
+msgid "Parameters to connect to the database."
+msgstr "Параметри для з'єднання базою даних."
+
+#. i18n: file ./dbsetup.ui line 131
+#: rc.cpp:305
+#, no-c-format
+msgid "MySQL Configuration"
+msgstr "Налаштування MySQL"
+
+#. i18n: file ./dbsetup.ui line 142
+#: rc.cpp:308
+#, no-c-format
+msgid "Hostname:"
+msgstr "Назва вузла:"
+
+#. i18n: file ./dbsetup.ui line 150
+#: rc.cpp:311
+#, no-c-format
+msgid "Name:"
+msgstr "Назва:"
+
+#. i18n: file ./dbsetup.ui line 167
+#: rc.cpp:314 rc.cpp:317
+#, no-c-format
+msgid "Which port mysql should connect to."
+msgstr "З яким портом повинна з'єднуватись mysql."
+
+#. i18n: file ./dbsetup.ui line 178
+#: rc.cpp:320
+#, no-c-format
+msgid "Port:"
+msgstr "Порт:"
+
+#. i18n: file ./dbsetup.ui line 186
+#: rc.cpp:323 rc.cpp:326
+#, no-c-format
+msgid "Hostname where database lives."
+msgstr "Назва вузла, де перебуває база даних."
+
+#. i18n: file ./dbsetup.ui line 197
+#: rc.cpp:329 rc.cpp:332
+#, no-c-format
+msgid "Name of the database."
+msgstr "Назва бази даних."
+
+#. i18n: file ./dbsetup.ui line 230
+#: rc.cpp:335
+#, no-c-format
+msgid "Username:"
+msgstr "Користувач:"
+
+#. i18n: file ./dbsetup.ui line 238
+#: rc.cpp:338 rc.cpp:341
+#, no-c-format
+msgid "Username with which to connect to."
+msgstr "Ім'я користувача, яке вживається для з'єднання."
+
+#. i18n: file ./dbsetup.ui line 249
+#: rc.cpp:344
+#, no-c-format
+msgid "Password:"
+msgstr "Пароль:"
+
+#. i18n: file ./dbsetup.ui line 260
+#: rc.cpp:347 rc.cpp:350
+#, no-c-format
+msgid "Password with which to connect to."
+msgstr "Пароль, який вживається для з'єднання."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 11
+#: rc.cpp:353 rc.cpp:416
+#, no-c-format
+msgid "Sound output method to use"
+msgstr "Метод виводу звуку"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
+#: rc.cpp:356
+#, no-c-format
+msgid ""
+"Select the sound output plugin (\"sink\"). Their availability depends on the "
+"system configuration."
+msgstr ""
+"Виберіть втулок виводу звуку (\"sink\"). Їхня доступність залежить від "
+"конфігурації системи."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
+#: rc.cpp:359
+#, no-c-format
+msgid "Do not use the autodetected audiosink sound device"
+msgstr "Не використовувати автоматично виявлений звуковий пристрій audiosink"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
+#: rc.cpp:362
+#, no-c-format
+msgid "When enabled, uses user-specified sound device for audiosink."
+msgstr ""
+"Якщо увімкнено, то для audiosink використовується звуковий пристрій вказаний "
+"користувачем."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
+#: rc.cpp:365
+#, no-c-format
+msgid "Sound output device to use"
+msgstr "Пристрій для виводу звуку"
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 22
+#: rc.cpp:368
+#, no-c-format
+msgid ""
+"Select the sound output device; this is useful for gstreamer engine sinks."
+msgstr ""
+"Виберіть пристрій для виводу звуку. Придатне для sinks рушія gstreamer."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
+#: rc.cpp:371
+#, no-c-format
+msgid "Use custom parameters for output sink."
+msgstr "Використовувати свої параметри для виводу sink."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
+#: rc.cpp:374
+#, no-c-format
+msgid "The custom sink parameters."
+msgstr "Нетипові параметри sink."
+
+#. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
+#: rc.cpp:377
+#, no-c-format
+msgid "Duration of Fade-out at trackend"
+msgstr "Тривалість поступового зменшення гучності в кінці доріжки"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
+#: rc.cpp:380
+#, no-c-format
+msgid "GStreamer Engine Configuration - amaroK"
+msgstr "Налаштування рушія GStreamer - amaroK"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 88
+#: rc.cpp:385
+#, no-c-format
+msgid "Custom sound device. Example: /dev/dsp2"
+msgstr "Інший звуковий пристрій. Наприклад: /dev/dsp2"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 104
+#: rc.cpp:388
+#, no-c-format
+msgid " msec"
+msgstr " мс"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 143
+#: rc.cpp:391 rc.cpp:456
+#, no-c-format
+msgid "&Device:"
+msgstr "&Пристрій:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 146
+#: rc.cpp:394
+#, no-c-format
+msgid "Use custom sound device"
+msgstr "Вживати інший звуковий пристрій"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 162
+#: rc.cpp:397
+#, no-c-format
+msgid "&Fade-out:"
+msgstr "Поступове з&меншення гучності:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
+#: rc.cpp:400 rc.cpp:432
+#, no-c-format
+msgid "&Output plugin:"
+msgstr "Втулок &виводу:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 195
+#: rc.cpp:404
+#, no-c-format
+msgid "GStreamer sink"
+msgstr "GStreamer sink"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
+#: rc.cpp:407
+#, no-c-format
+msgid "Custom parameters. Example: sync=true host=95.25.2.1"
+msgstr "Свої параметри. Наприклад: sync=true host=95.25.2.1"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
+#: rc.cpp:410
+#, no-c-format
+msgid "&Parameters:"
+msgstr "&Параметри:"
+
+#. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
+#: rc.cpp:413
+#, no-c-format
+msgid "Use custom sink parameters"
+msgstr "Вживати свої параметри sink"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 12
+#: rc.cpp:419
+#, no-c-format
+msgid "Select the sound output plugin."
+msgstr "Виберіть втулок звукового виводу."
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 16
+#: rc.cpp:422
+#, no-c-format
+msgid "Enable a custom device"
+msgstr "Увімкнути нетиповий пристрій"
+
+#. i18n: file ./engine/xine/xinecfg.kcfg line 17
+#: rc.cpp:425
+#, no-c-format
+msgid ""
+"If selected, enables the setting of a custom audio device. Otherwise the "
+"default is used."
+msgstr ""
+"Якщо увімкнено, дає змогу вказувати нетиповий аудіо-пристрій. Інакше, "
+"вживається типовий."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 24
+#: rc.cpp:428
+#, no-c-format
+msgid "Xine Configure"
+msgstr "Налаштування Xine"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 103
+#: rc.cpp:435
+#, no-c-format
+msgid ""
+"Sound device may be modified after the output plugin has been changed to ALSA "
+"or OSS."
+msgstr ""
+"Можна модифікувати звуковий пристрій після зміни втулки виводу на ALSA або OSS."
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 114
+#: rc.cpp:438
+#, no-c-format
+msgid "ALSA Device Configuration"
+msgstr "Налаштування пристрою ALSA"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 125
+#: rc.cpp:441
+#, no-c-format
+msgid "&Mono:"
+msgstr "&Моно:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 136
+#: rc.cpp:444
+#, no-c-format
+msgid "&Stereo:"
+msgstr "&Стерео:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 147
+#: rc.cpp:447
+#, no-c-format
+msgid "&4 Channels:"
+msgstr "&4 канали:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 173
+#: rc.cpp:450
+#, no-c-format
+msgid "&6 Channels:"
+msgstr "&6 каналів:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 191
+#: rc.cpp:453
+#, no-c-format
+msgid "OSS Device Configuration"
+msgstr "Налаштування пристрою OSS"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 228
+#: rc.cpp:459
+#, no-c-format
+msgid "Speaker &arrangement:"
+msgstr "&Розташування колонок:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 246
+#: rc.cpp:462
+#, no-c-format
+msgid "HTTP Proxy for Streaming"
+msgstr "HTTP-проксі для потокового програвання"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 265
+#: rc.cpp:465
+#, no-c-format
+msgid "&Host:"
+msgstr "&Вузол:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 305
+#: rc.cpp:468
+#, no-c-format
+msgid "&User:"
+msgstr "&Користувач:"
+
+#. i18n: file ./engine/xine/xineconfigbase.ui line 321
+#: rc.cpp:471 rc.cpp:1032
+#, no-c-format
+msgid "&Password:"
+msgstr "&Пароль:"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 27
+#: rc.cpp:492
+#, no-c-format
+msgid "Output plugin"
+msgstr "Втулок виводу"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 28
+#: rc.cpp:495
+#, no-c-format
+msgid "OSS vs ALSA"
+msgstr "OSS чи ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 32
+#: rc.cpp:498
+#, no-c-format
+msgid "Device"
+msgstr "Пристрій"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 33
+#: rc.cpp:501
+#, no-c-format
+msgid "ALSA Device"
+msgstr "Пристрій ALSA"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 37
+#: rc.cpp:504
+#, no-c-format
+msgid "DeviceEnabled"
+msgstr "Пристрій увімкнено"
+
+#. i18n: file ./engine/helix/config/helixconfig.kcfg line 38
+#: rc.cpp:507
+#, no-c-format
+msgid "Is the device selected"
+msgstr "Пристрій вибрано"
+
+#. i18n: file ./tagdialogbase.ui line 16
+#: rc.cpp:513
+#, no-c-format
+msgid "Track Information"
+msgstr "Інформація про доріжку"
+
+#. i18n: file ./tagdialogbase.ui line 60
+#: rc.cpp:519
+#, no-c-format
+msgid "&Next"
+msgstr "&Наступне"
+
+#. i18n: file ./tagdialogbase.ui line 85
+#: rc.cpp:522
+#, no-c-format
+msgid "Sa&ve && Close"
+msgstr "З&берегти і вийти"
+
+#. i18n: file ./tagdialogbase.ui line 129
+#: rc.cpp:528
+#, no-c-format
+msgid "Al&bum:"
+msgstr "Аль&бом:"
+
+#. i18n: file ./tagdialogbase.ui line 156
+#: rc.cpp:531
+#, no-c-format
+msgid "Samplerate:"
+msgstr "Частота вибірки:"
+
+#. i18n: file ./tagdialogbase.ui line 179
+#: rc.cpp:534
+#, no-c-format
+msgid "&Artist:"
+msgstr "&Виконавець:"
+
+#. i18n: file ./tagdialogbase.ui line 274
+#: rc.cpp:538
+#, no-c-format
+msgid "&Genre:"
+msgstr "&Жанр:"
+
+#. i18n: file ./tagdialogbase.ui line 285
+#: rc.cpp:541
+#, no-c-format
+msgid "Length:"
+msgstr "Тривалість:"
+
+#. i18n: file ./tagdialogbase.ui line 323
+#: rc.cpp:545
+#, no-c-format
+msgid "&Year:"
+msgstr "&Рік:"
+
+#. i18n: file ./tagdialogbase.ui line 356
+#: rc.cpp:549
+#, no-c-format
+msgid "&Score:"
+msgstr "&Рахунок:"
+
+#. i18n: file ./tagdialogbase.ui line 415
+#: rc.cpp:553
+#, no-c-format
+msgid "Bitrate:"
+msgstr "Частота:"
+
+#. i18n: file ./tagdialogbase.ui line 423
+#: rc.cpp:556
+#, no-c-format
+msgid "Trac&k:"
+msgstr "Дорі&жка:"
+
+#. i18n: file ./tagdialogbase.ui line 469
+#: rc.cpp:560
+#, no-c-format
+msgid "&Title:"
+msgstr "&Заголовок:"
+
+#. i18n: file ./tagdialogbase.ui line 507
+#: rc.cpp:563
+#, no-c-format
+msgid "Playcount:"
+msgstr "Рахунок програвання:"
+
+#. i18n: file ./tagdialogbase.ui line 515
+#: rc.cpp:566
+#, no-c-format
+msgid "Fill-In Tags &Using MusicBrainz"
+msgstr "Заповнювати мітки за д&опомогою MusicBrainz"
+
+#. i18n: file ./tagdialogbase.ui line 521
+#: rc.cpp:569
+#, no-c-format
+msgid "Detect metadata from fingerprint."
+msgstr "Визначати метадані із відбитка."
+
+#. i18n: file ./tagdialogbase.ui line 529
+#: rc.cpp:572
+#, no-c-format
+msgid "&Comment:"
+msgstr "&Коментар:"
+
+#. i18n: file ./tagdialogbase.ui line 543
+#: rc.cpp:575
+#, no-c-format
+msgid "Location:"
+msgstr "Адреса:"
+
+#. i18n: file ./Options1.ui line 38
+#: rc.cpp:581
+#, no-c-format
+msgid "General Options"
+msgstr "Загальні параметри"
+
+#. i18n: file ./Options1.ui line 49
+#: rc.cpp:584
+#, no-c-format
+msgid "Show splash-screen on start&up"
+msgstr "Показувати екран заставки при зап&уску"
+
+#. i18n: file ./Options1.ui line 52
+#: rc.cpp:587 rc.cpp:590
+#, no-c-format
+msgid "Check to enable the splashscreen during amaroK startup."
+msgstr "Ввімкніть, щоб показувати екран заставки при запуску amaroK."
+
+#. i18n: file ./Options1.ui line 63
+#: rc.cpp:593
+#, no-c-format
+msgid "Show tra&y icon"
+msgstr "Показувати піктограму у &лотку"
+
+#. i18n: file ./Options1.ui line 66
+#: rc.cpp:596 rc.cpp:599
+#, no-c-format
+msgid "Check to enable the amaroK system tray icon."
+msgstr "Ввімкніть, що показувати піктограму amaroK у системному лотку."
+
+#. i18n: file ./Options1.ui line 105
+#: rc.cpp:602
+#, no-c-format
+msgid "&Flash tray icon when playing"
+msgstr "&Блимати піктограмою лотка при програванні"
+
+#. i18n: file ./Options1.ui line 108
+#: rc.cpp:605 rc.cpp:608
+#, no-c-format
+msgid "Check to animate the amaroK system tray icon."
+msgstr ""
+"Ввімкніть, що уможливити анімацію піктограми amaroK у системному лотку."
+
+#. i18n: file ./Options1.ui line 121
+#: rc.cpp:611
+#, no-c-format
+msgid "Show player window (like &XMMS)"
+msgstr "Показувати вікно програвача (як в &XMMS)"
+
+#. i18n: file ./Options1.ui line 124
+#: rc.cpp:614 rc.cpp:617
+#, no-c-format
+msgid "Check to enable an extra player window."
+msgstr "Увімкніть, щоб уможливити додаткове вікно програвача."
+
+#. i18n: file ./Options1.ui line 143
+#: rc.cpp:620
+#, no-c-format
+msgid "Default size for &cover previews:"
+msgstr "Типовий розмір для перегляду о&бкладинок:"
+
+#. i18n: file ./Options1.ui line 149
+#: rc.cpp:623 rc.cpp:626
+#, no-c-format
+msgid "Size of the cover image in the context viewer in pixels."
+msgstr "Розмір зображення обкладинки в контекстному переглядачі (в пікселях)."
+
+#. i18n: file ./Options1.ui line 160
+#: rc.cpp:629
+#, no-c-format
+msgid "px"
+msgstr "пікс"
+
+#. i18n: file ./Options1.ui line 172
+#: rc.cpp:632 rc.cpp:635
+#, no-c-format
+msgid "Size of the cover images in the context viewer in pixels."
+msgstr "Розмір зображення обкладинок в контекстному переглядачі (в пікселях)."
+
+#. i18n: file ./Options1.ui line 204
+#: rc.cpp:638
+#, no-c-format
+msgid "Playlist-Window Options"
+msgstr "Параметри вікна списку композицій"
+
+#. i18n: file ./Options1.ui line 215
+#: rc.cpp:641
+#, no-c-format
+msgid "&Remember current playlist on exit"
+msgstr "&Пам'ятати поточний список композицій при виході"
+
+#. i18n: file ./Options1.ui line 218
+#: rc.cpp:644
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+"<br>"
+msgstr ""
+"Якщо ввімкнено, amaroK зберігає поточний список композицій при виході і "
+"відновлює при запуску."
+"<br>"
+
+#. i18n: file ./Options1.ui line 221
+#: rc.cpp:647
+#, no-c-format
+msgid ""
+"If checked, amaroK saves the current playlist\\non quit and restores it when "
+"restarted."
+msgstr ""
+"Якщо ввімкнено, amaroK зберігає поточний список композицій при виході і "
+"відновлює при запуску."
+
+#. i18n: file ./Options1.ui line 229
+#: rc.cpp:650
+#, no-c-format
+msgid "&Manually saved playlists use relative path"
+msgstr "Збережені в&ручну списки композицій мають відносний шлях"
+
+#. i18n: file ./Options1.ui line 232
+#: rc.cpp:653 rc.cpp:656
+#, no-c-format
+msgid ""
+"If checked, amaroK uses a relative path for the tracks of manually saved "
+"playlists"
+msgstr ""
+"Якщо увімкнено, amaroK використовує відносний шлях для доріжок списків "
+"композицій, які було збережено вручну"
+
+#. i18n: file ./Options1.ui line 243
+#: rc.cpp:659
+#, no-c-format
+msgid "&Keep the active song visible on track change"
+msgstr "При зміні доріжки збері&гати активну пісню видимою"
+
+#. i18n: file ./Options1.ui line 246
+#: rc.cpp:662
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+"<br>"
+msgstr ""
+"Якщо ввімкнено, то список композицій прокручується при зміні пісні, щоб можна "
+"було бачити поточний елемент, який програється."
+"<br>"
+
+#. i18n: file ./Options1.ui line 249
+#: rc.cpp:665
+#, no-c-format
+msgid ""
+"If checked, the playlist scrolls on song change to make the currently playing "
+"item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate."
+msgstr ""
+"Якщо ввімкнено, то список композицій прокручується при зміні пісні, щоб можна "
+"було бачити поточний елемент, який програється."
+
+#. i18n: file ./Options1.ui line 257
+#: rc.cpp:668
+#, no-c-format
+msgid "Switch to Context Browser on track ch&ange"
+msgstr "При зміні доріжки перемкнути до &навігатора контексту"
+
+#. i18n: file ./Options1.ui line 260
+#: rc.cpp:671
+#, no-c-format
+msgid "Switch to the context browser, when playing a track.<br>"
+msgstr "Під час програвання доріжки переходити у навігатор контексту.<br>"
+
+#. i18n: file ./Options1.ui line 263
+#: rc.cpp:674
+#, no-c-format
+msgid "Switch to the context browser, when playing a track."
+msgstr "Під час програвання доріжки переходити у навігатор контексту."
+
+#. i18n: file ./Options1.ui line 271
+#: rc.cpp:677
+#, no-c-format
+msgid "Show s&tatusbar"
+msgstr "Показати &рядок стану"
+
+#. i18n: file ./Options1.ui line 274
+#: rc.cpp:680
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window.<br>"
+msgstr "Ввімкніть для показу смужки стану у вікні списку композицій.<br>"
+
+#. i18n: file ./Options1.ui line 277
+#: rc.cpp:683
+#, no-c-format
+msgid "Check to enable the statusbar on the playlist window."
+msgstr "Ввімкніть для показу смужки стану у вікні списку композицій."
+
+#. i18n: file ./Options1.ui line 285
+#: rc.cpp:686
+#, no-c-format
+msgid "Show statistics by a&lbums"
+msgstr "Показати статистику по а&льбомах"
+
+#. i18n: file ./Options1.ui line 288
+#: rc.cpp:689
+#, no-c-format
+msgid "Show statistics by albums in the context browser.<br>"
+msgstr "Показувати статистику по альбомах в навігаторі контексту.<br>"
+
+#. i18n: file ./Options1.ui line 291
+#: rc.cpp:692
+#, no-c-format
+msgid "Show statistics by albums in the context browser."
+msgstr "Показувати статистику по альбомах в навігаторі контексту."
+
+#. i18n: file ./Options1.ui line 301
+#: rc.cpp:695
+#, no-c-format
+msgid "Encodings"
+msgstr "Кодування"
+
+#. i18n: file ./Options1.ui line 312
+#: rc.cpp:698
+#, no-c-format
+msgid "Do not decode the following as latin1:"
+msgstr "Не декодувати наступне як latin1:"
+
+#. i18n: file ./Options1.ui line 353
+#: rc.cpp:701
+#, no-c-format
+msgid "ID&3v1 tags"
+msgstr "Мітки ID&3v1"
+
+#. i18n: file ./Options1.ui line 356
+#: rc.cpp:704
+#, no-c-format
+msgid "Alt+3"
+msgstr "Alt+3"
+
+#. i18n: file ./Options1.ui line 362
+#: rc.cpp:708
+#, no-c-format
+msgid ""
+"Decode ID3v1 tags (used by some MP3 files) using the character set specified "
+"below."
+msgstr ""
+"Декодувати мітки ID3v1 (які є у деяких файлах MP3) за допомогою набору "
+"символів, вказаних нижче."
+
+#. i18n: file ./Options1.ui line 370
+#: rc.cpp:711
+#, no-c-format
+msgid "&Shoutcast metadata"
+msgstr "Метадані &Shoutcast"
+
+#. i18n: file ./Options1.ui line 373
+#: rc.cpp:714
+#, no-c-format
+msgid ""
+"Decode the title and artist information of Shoutcast music streams using the "
+"character set specified below."
+msgstr ""
+"Декодувати заголовок та інформацію про виконавця музики потоку Shoutcast за "
+"допомогою набору символів, вказаних нижче."
+
+#. i18n: file ./Options1.ui line 393
+#: rc.cpp:717
+#, no-c-format
+msgid "Instead &decode using this character set:"
+msgstr "&Декодувати використовуючи цей набір символів:"
+
+#. i18n: file ./Options1.ui line 421
+#: rc.cpp:721
+#, no-c-format
+msgid ""
+"If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
+"character encoding."
+msgstr ""
+"Якщо ID3v1 або метадані Shoutcast увімкнено, то їх буде декодовано за допомогою "
+"цього кодування символів."
+
+#. i18n: file ./Options2.ui line 49
+#: rc.cpp:727
+#, no-c-format
+msgid "&Use custom fonts"
+msgstr "&Вживати нетипові шрифти"
+
+#. i18n: file ./Options2.ui line 55
+#: rc.cpp:730 rc.cpp:733
+#, no-c-format
+msgid "Check to enable custom fonts."
+msgstr "Ввімкніть, щоб уможливити нетипові шрифти."
+
+#. i18n: file ./Options2.ui line 103
+#: rc.cpp:737
+#, no-c-format
+msgid "Player-window font:"
+msgstr "Шрифт вікна програвача:"
+
+#. i18n: file ./Options2.ui line 109
+#: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
+#, no-c-format
+msgid "The font to use in the player window."
+msgstr "Шрифт для використання у вікні програвача."
+
+#. i18n: file ./Options2.ui line 148
+#: rc.cpp:753
+#, no-c-format
+msgid "Playlist-window font:"
+msgstr "Шрифт вікна списку композицій:"
+
+#. i18n: file ./Options2.ui line 151
+#: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
+#, no-c-format
+msgid "The font to use in the playlist window."
+msgstr "Шрифт для використання у вікні списку композицій."
+
+#. i18n: file ./Options2.ui line 190
+#: rc.cpp:769
+#, no-c-format
+msgid "Context-browser font:"
+msgstr "Шрифт навігатора контексту:"
+
+#. i18n: file ./Options2.ui line 193
+#: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
+#, no-c-format
+msgid "The font to use in the context browser."
+msgstr "Шрифт для використання у вікні списку композицій."
+
+#. i18n: file ./Options2.ui line 230
+#: rc.cpp:785
+#, no-c-format
+msgid "Color Scheme"
+msgstr "Схема кольорів"
+
+#. i18n: file ./Options2.ui line 269
+#: rc.cpp:789
+#, no-c-format
+msgid "&Custom color scheme"
+msgstr "&Інша схема кольорів"
+
+#. i18n: file ./Options2.ui line 275
+#: rc.cpp:792 rc.cpp:795
+#, no-c-format
+msgid "If selected, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK використовує в списку композицій кольори, визначені "
+"користувачем."
+
+#. i18n: file ./Options2.ui line 329
+#: rc.cpp:799
+#, no-c-format
+msgid "Fo&reground:"
+msgstr "&Колір тексту:"
+
+#. i18n: file ./Options2.ui line 338
+#: rc.cpp:802
+#, no-c-format
+msgid "Selects the color to use as foreground color in the playlist."
+msgstr "Вибирає колір для тексту в списку композицій."
+
+#. i18n: file ./Options2.ui line 367
+#: rc.cpp:806
+#, no-c-format
+msgid "Click to select the foreground text color in the playlist window."
+msgstr "Виберіть колір для тексту в списку композицій."
+
+#. i18n: file ./Options2.ui line 370
+#: rc.cpp:809
+#, no-c-format
+msgid "Selects the color to use as foreground (text) color in the playlist."
+msgstr "Вибирає колір для тексту в списку композицій."
+
+#. i18n: file ./Options2.ui line 389
+#: rc.cpp:812
+#, no-c-format
+msgid "&Background:"
+msgstr "&Тло:"
+
+#. i18n: file ./Options2.ui line 398
+#: rc.cpp:815 rc.cpp:822
+#, no-c-format
+msgid "Selects the color to use as background color in the playlist."
+msgstr "Вибирає колір для тла в списку композицій."
+
+#. i18n: file ./Options2.ui line 439
+#: rc.cpp:819
+#, no-c-format
+msgid "Click to select the background color in the playlist window."
+msgstr "Виберіть колір для тла в списку композицій."
+
+#. i18n: file ./Options2.ui line 454
+#: rc.cpp:825
+#, no-c-format
+msgid "The current &KDE color-scheme"
+msgstr "Поточна схема кольорів &KDE"
+
+#. i18n: file ./Options2.ui line 460
+#: rc.cpp:828 rc.cpp:831
+#, no-c-format
+msgid "If selected, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK використовує в списку композицій стандартні кольори KDE."
+
+#. i18n: file ./Options2.ui line 471
+#: rc.cpp:834
+#, no-c-format
+msgid "The classic &amaroK, \"funky-monkey\", theme"
+msgstr "Класична тема &amaroK, \"funky-monkey\""
+
+#. i18n: file ./Options2.ui line 477
+#: rc.cpp:837 rc.cpp:840
+#, no-c-format
+msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK використовує в списку композицій свої стандартні "
+"кольори."
+
+#. i18n: file ./Options2.ui line 492
+#: rc.cpp:843
+#, no-c-format
+msgid "Context Browser Style"
+msgstr "Стиль навігатора контексту"
+
+#. i18n: file ./Options2.ui line 519
+#: rc.cpp:846
+#, no-c-format
+msgid "Select a style:"
+msgstr "Виберіть стиль:"
+
+#. i18n: file ./Options2.ui line 530
+#: rc.cpp:850 rc.cpp:853
+#, no-c-format
+msgid "Select the style of the Context Browser."
+msgstr "Виберіть стиль навігатора контексту."
+
+#. i18n: file ./Options2.ui line 551
+#: rc.cpp:856
+#, no-c-format
+msgid "Install New Style..."
+msgstr "Встановити новий стиль..."
+
+#. i18n: file ./Options2.ui line 554
+#: rc.cpp:859
+#, no-c-format
+msgid ""
+"Click to install a new Context Browser style."
+"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+msgstr ""
+"Клацніть, щоб встановити новий стиль навігатора контексту."
+"<br>Підказка: Більше стилів можна знайти на <a href='http://kde-look.org'>"
+"http://kde-look.org</a>"
+
+#. i18n: file ./Options2.ui line 557
+#: rc.cpp:862
+#, no-c-format
+msgid "Select and install a new Context Browser style."
+msgstr "Виберіть і встановіть новий стиль навігатора контексту."
+
+#. i18n: file ./Options2.ui line 565
+#: rc.cpp:865
+#, no-c-format
+msgid "Download Styles..."
+msgstr "Звантажити стилі..."
+
+#. i18n: file ./Options2.ui line 568
+#: rc.cpp:868
+#, no-c-format
+msgid "Click to download new Context Browser styles."
+msgstr "Клацніть, щоб звантажити нові стилі навігатора контексту."
+
+#. i18n: file ./Options2.ui line 571
+#: rc.cpp:871
+#, no-c-format
+msgid "Select and download new Context Browser styles."
+msgstr "Виберіть і встановіть нові стилі навігатора контексту."
+
+#. i18n: file ./Options4.ui line 44
+#: rc.cpp:874
+#, no-c-format
+msgid "Transition &Behavior"
+msgstr "Перехід &між доріжками"
+
+#. i18n: file ./Options4.ui line 48
+#: rc.cpp:877
+#, no-c-format
+msgid ""
+"<b>Transition Behavior</b>\n"
+"<p>During playback, when amaroK transitions between tracks, it can either "
+"proceed to the next track instantly (with configurable gap), or crossfade (with "
+"configurable fade period).</p>"
+msgstr ""
+"<b>Перехід між доріжками</b>\n"
+"<p>Під час програвання, коли amaroK переходить з доріжки на доріжку, він може "
+"або просто приступати до відтворення наступної доріжки (з указаним між ними "
+"проміжком), або робити плавний перехід (з вказаною тривалістю переходу).</p>"
+
+#. i18n: file ./Options4.ui line 70
+#: rc.cpp:881
+#, no-c-format
+msgid "&No crossfading"
+msgstr "&Без плавних переходів"
+
+#. i18n: file ./Options4.ui line 76
+#: rc.cpp:884
+#, no-c-format
+msgid ""
+"Enable normal track transition. You may insert a gap of silence between tracks."
+msgstr ""
+"Ввімкнути звичайний перехід. Також можна вставити проміжок тиші між доріжками."
+
+#. i18n: file ./Options4.ui line 106
+#: rc.cpp:887
+#, no-c-format
+msgid "Insert &gap:"
+msgstr "Вставити &проміжок:"
+
+#. i18n: file ./Options4.ui line 134
+#: rc.cpp:890 rc.cpp:905 rc.cpp:992
+#, no-c-format
+msgid " ms"
+msgstr " мс"
+
+#. i18n: file ./Options4.ui line 146
+#: rc.cpp:893
+#, no-c-format
+msgid "Silence between tracks, in milliseconds."
+msgstr "Тиша між доріжками, в мілісекундах."
+
+#. i18n: file ./Options4.ui line 169
+#: rc.cpp:896
+#, no-c-format
+msgid "&Crossfading"
+msgstr "&Плавні переходи"
+
+#. i18n: file ./Options4.ui line 175
+#: rc.cpp:899
+#, no-c-format
+msgid ""
+"Enable crossfading between tracks. This setting also enables fading to or from "
+"silence e.g when pressing stop."
+msgstr ""
+"Ввімкнути плавний перехід між доріжками. Цей параметр також вмикає плавний пуск "
+"і зупинку."
+
+#. i18n: file ./Options4.ui line 208
+#: rc.cpp:902
+#, no-c-format
+msgid "Crossover &period:"
+msgstr "&Інтервал накладки:"
+
+#. i18n: file ./Options4.ui line 254
+#: rc.cpp:908
+#, no-c-format
+msgid "The length of the crossfade between tracks, in milliseconds."
+msgstr "Тривалість плавного переходу між доріжками в мілісекундах."
+
+#. i18n: file ./Options4.ui line 276
+#: rc.cpp:911
+#, no-c-format
+msgid "&Resume playback on start"
+msgstr "&При запуску продовжити програвання"
+
+#. i18n: file ./Options4.ui line 279
+#: rc.cpp:914
+#, no-c-format
+msgid ""
+"If checked, amaroK will"
+"<br>resume playback from where you left it the previous session -- just like a "
+"tape-player."
+msgstr ""
+"Якщо ввімкнено, amaroK при"
+"<br>запуску продовжить програвання з місця, де воно зупинилось у попередньому "
+"сеансі -- як в касетному програвачі."
+
+#. i18n: file ./Options5.ui line 27
+#: rc.cpp:917
+#, no-c-format
+msgid "&Use On-Screen-Display"
+msgstr "&Використовувати індикатор (OSD)"
+
+#. i18n: file ./Options5.ui line 33
+#: rc.cpp:920
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. "
+"<br>The OSD briefly displays track data when a new track is played."
+msgstr ""
+"Ввімкніть, щоб показувати індикатор. "
+"<br>В ньому буде на короткий час з'являтися інформація про нову доріжку."
+
+#. i18n: file ./Options5.ui line 36
+#: rc.cpp:923
+#, no-c-format
+msgid ""
+"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
+"a new track is played."
+msgstr ""
+"Ввімкніть, щоб показувати індикатор. В ньому буде на короткий час буде "
+"з'являтися інформація про нову доріжку."
+
+#. i18n: file ./Options5.ui line 95
+#: rc.cpp:927
+#, no-c-format
+msgid "&Font"
+msgstr "&Шрифт"
+
+#. i18n: file ./Options5.ui line 116
+#: rc.cpp:931 rc.cpp:934 rc.cpp:1356
+#, no-c-format
+msgid "The font to use for the On-Screen Display."
+msgstr "Шрифт для індикатора."
+
+#. i18n: file ./Options5.ui line 127
+#: rc.cpp:937
+#, no-c-format
+msgid "Draw &shadow"
+msgstr "Малювати &тінь"
+
+#. i18n: file ./Options5.ui line 137
+#: rc.cpp:940
+#, no-c-format
+msgid "C&olors"
+msgstr "К&ольори"
+
+#. i18n: file ./Options5.ui line 159
+#: rc.cpp:943
+#, no-c-format
+msgid "Use &custom colors"
+msgstr "Використовувати &нетипові кольори"
+
+#. i18n: file ./Options5.ui line 162
+#: rc.cpp:946 rc.cpp:949
+#, no-c-format
+msgid "Check to enable custom colors for the On-Screen-Display."
+msgstr "Ввімкніть, щоб уможливити нетипові кольори в індикаторі."
+
+#. i18n: file ./Options5.ui line 232
+#: rc.cpp:953
+#, no-c-format
+msgid "Background color:"
+msgstr "Колір тла:"
+
+#. i18n: file ./Options5.ui line 235
+#: rc.cpp:956 rc.cpp:970
+#, no-c-format
+msgid "The color of the OSD background."
+msgstr "Колір тла індикатора."
+
+#. i18n: file ./Options5.ui line 261
+#: rc.cpp:960
+#, no-c-format
+msgid "Click to select the color of the OSD text."
+msgstr "Клацніть, щоб вибрати колір тексту індикатора."
+
+#. i18n: file ./Options5.ui line 264
+#: rc.cpp:963 rc.cpp:976
+#, no-c-format
+msgid "The color of the OSD text."
+msgstr "Колір тексту індикатора."
+
+#. i18n: file ./Options5.ui line 290
+#: rc.cpp:967
+#, no-c-format
+msgid "Click to select the background color of the OSD."
+msgstr "Клацніть, щоб вибрати колір тла для індикатора."
+
+#. i18n: file ./Options5.ui line 309
+#: rc.cpp:973
+#, no-c-format
+msgid "Text color:"
+msgstr "Колір тексту:"
+
+#. i18n: file ./Options5.ui line 326
+#: rc.cpp:979
+#, no-c-format
+msgid "Make the &background translucent"
+msgstr "Зробити &тло прозорим"
+
+#. i18n: file ./Options5.ui line 339
+#: rc.cpp:982
+#, no-c-format
+msgid "Display &Text"
+msgstr "Показувати &текст"
+
+#. i18n: file ./Options5.ui line 353
+#: rc.cpp:985
+#, no-c-format
+msgid "Display the same information as the columns in the playlist"
+msgstr "Показувати ту саму інформацію, що й стовпчиках списка композицій"
+
+#. i18n: file ./Options5.ui line 396
+#: rc.cpp:989
+#, no-c-format
+msgid "&Duration:"
+msgstr "&Тривалість:"
+
+#. i18n: file ./Options5.ui line 418
+#: rc.cpp:995
+#, no-c-format
+msgid "Forever"
+msgstr "Завжди"
+
+#. i18n: file ./Options5.ui line 436
+#: rc.cpp:998 rc.cpp:1001
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. The value must be between 500 ms and "
+"10000 ms."
+msgstr ""
+"Тривалість показу індикатора в мілісекундах. Значення мусить бути між 500 і "
+"10000 мс."
+
+#. i18n: file ./Options5.ui line 455
+#: rc.cpp:1004 rc.cpp:1007
+#, no-c-format
+msgid "The screen that should display the OSD."
+msgstr "Екран, на якому показувати індикатор."
+
+#. i18n: file ./Options5.ui line 466
+#: rc.cpp:1010
+#, no-c-format
+msgid "Sc&reen:"
+msgstr "&Екран:"
+
+#. i18n: file ./Options7.ui line 16
+#: rc.cpp:1013
+#, no-c-format
+msgid "MySql"
+msgstr "MySql"
+
+#. i18n: file ./Options7.ui line 30
+#: rc.cpp:1016
+#, no-c-format
+msgid "Collection Folders"
+msgstr "Теки збірки"
+
+#. i18n: file ./Options7.ui line 38
+#: rc.cpp:1019
+#, no-c-format
+msgid "Collection Database"
+msgstr "База даних збірки"
+
+#. i18n: file ./Options8.ui line 80
+#: rc.cpp:1023
+#, no-c-format
+msgid ""
+"amaroK can send the name of every song you play to last.fm. The system "
+"automatically matches you to people with similar musical tastes, and creates "
+"personalized recommendations. To learn more about last.fm, <A "
+"href='http://www.last.fm'>visit the homepage</A>."
+msgstr ""
+"amaroK може надсилати назву кожної пісні, що ви слухаєте до last.fm. Ця система "
+"автоматично знаходить людей з подібними музичними смаками і складає "
+"рекомендації спеціально для вас. Щоб дізнатись більше про last.fm <A "
+"href='http://www.last.fm''>відвідайте їхній веб-сайт</A>."
+
+#. i18n: file ./Options8.ui line 90
+#: rc.cpp:1026
+#, no-c-format
+msgid "last.fm Profile"
+msgstr "Профіль last.fm"
+
+#. i18n: file ./Options8.ui line 109
+#: rc.cpp:1029
+#, no-c-format
+msgid ""
+"<P>To use last.fm with amaroK, you need a <A "
+"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+msgstr ""
+"<p>Щоб використовувати last.fm з amaroK, необхідно мати <a "
+"href='http://www.last.fm:80/signup.php'>профіль last.fm</a>."
+
+#. i18n: file ./Options8.ui line 165
+#: rc.cpp:1035
+#, no-c-format
+msgid "&Username:"
+msgstr "Ім'я &користувача:"
+
+#. i18n: file ./Options8.ui line 196
+#: rc.cpp:1038
+#, no-c-format
+msgid "last.fm Services"
+msgstr "Служби last.fm"
+
+#. i18n: file ./Options8.ui line 207
+#: rc.cpp:1041
+#, no-c-format
+msgid ""
+"Once registered, amaroK can tell the last.fm service about your listening "
+"habits; your profile can then provide statistics and recommendations. A profile "
+"is not required to retrieve similar-artists for display in the Context Browser."
+msgstr ""
+"Після реєстрації amaroK може повідомляти last.fm про ваші музичні уподобання; "
+"тоді ваш профіль буде надавати статистику та рекомендації. Для отримання списку "
+"подібних виконавців в навігаторі контексту - профіль необов'язковий."
+
+#. i18n: file ./Options8.ui line 229
+#: rc.cpp:1044
+#, no-c-format
+msgid "Improve m&y profile by submitting the tracks I play"
+msgstr "Покращити м&ій профіль передаванням назв доріжок, які я слухаю"
+
+#. i18n: file ./Options8.ui line 237
+#: rc.cpp:1047
+#, no-c-format
+msgid "&Retrieve similar artists"
+msgstr "О&тримати подібних виконавців"
+
+#. i18n: file ./Options8.ui line 255
+#: rc.cpp:1050
+#, no-c-format
+msgid ""
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
+"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+msgstr ""
+"Чому б не приєднатись до <A href='http://www.last.fm:80/group/amaroK+users'>"
+"групи amaroK last.fm</A> і поділитись вашими музичними уподобаннями з іншими "
+"користувачами amaroK?"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 13
+#: rc.cpp:1053
+#, no-c-format
+msgid "Amarok Version"
+msgstr "Версія Amarok"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 14
+#: rc.cpp:1056
+#, no-c-format
+msgid "Amarok version string, used to restart aRts in new installations."
+msgstr "Рядок версії Amarok, який використовується для перезапуску aRts."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 18
+#: rc.cpp:1059
+#, no-c-format
+msgid "Position of player window"
+msgstr "Позиція вікна програвача"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 19
+#: rc.cpp:1062
+#, no-c-format
+msgid "The position of the amaroK main window when amaroK is started."
+msgstr "Позиція головного вікна amaroK при запуску."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 22
+#: rc.cpp:1065
+#, no-c-format
+msgid "Position of playlist window"
+msgstr "Позиція вікна списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 23
+#: rc.cpp:1068
+#, no-c-format
+msgid "The position of the playlist window when amaroK is started."
+msgstr "Позиція вікна списку композицій при запуску amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 26
+#: rc.cpp:1071
+#, no-c-format
+msgid "Size of playlist window"
+msgstr "Розмір вікна списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 27
+#: rc.cpp:1074
+#, no-c-format
+msgid "The size of the playlist window when amaroK is started."
+msgstr "Розмір вікна списку композицій при запуску amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 30
+#: rc.cpp:1077
+#, no-c-format
+msgid "Whether to save playlist on quit"
+msgstr "Чи зберігати список композицій при виході"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 31
+#: rc.cpp:1080
+#, no-c-format
+msgid ""
+"If set, amaroK saves the current playlist on quit and restores it when "
+"restarted."
+msgstr ""
+"Якщо ввімкнено, amaroK зберігає поточний список композицій при виході і "
+"відновлює при запуску."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 35
+#: rc.cpp:1083
+#, no-c-format
+msgid "Whether to follow symlinks while adding items to playlist recursively"
+msgstr ""
+"Чи слідувати за символічними посиланнями під час рекурсивного додавання у "
+"список композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 36
+#: rc.cpp:1086
+#, no-c-format
+msgid ""
+"If set, amarok follows symlinks when adding files or directories to the "
+"playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK буде слідувати за символічними посиланнями при додаванні "
+"файлів та каталогів у список композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 40
+#: rc.cpp:1089
+#, no-c-format
+msgid "Whether to display remaining track time"
+msgstr "Чи показувати час до закінчення доріжки"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 41
+#: rc.cpp:1092
+#, no-c-format
+msgid ""
+"Set this to display remaining track time instead of past track time in the "
+"player window."
+msgstr ""
+"Встановіть тут, щоб показувати у вікні програвання час до закінчення доріжки "
+"замість часу, який вже пройшов від її початку."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 45
+#: rc.cpp:1095
+#, no-c-format
+msgid "Whether to play track repeatedly"
+msgstr "Чи повторювати безперестанно програвання доріжки"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 46
+#: rc.cpp:1098
+#, no-c-format
+msgid "If set, amaroK repeats the current track indefinitely."
+msgstr "Якщо ввімкнено, amaroK повторює поточну доріжку безкінечно."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 50
+#: rc.cpp:1101
+#, no-c-format
+msgid "Whether to play whole playlist repeatedly"
+msgstr "Чи повторювати безперестанно програвання цілого списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 51
+#: rc.cpp:1104
+#, no-c-format
+msgid "If set, amaroK repeats the playlist indefinitely."
+msgstr "Якщо ввімкнено, amaroK повторює список композицій безкінечно."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 55
+#: rc.cpp:1107
+#, no-c-format
+msgid "Whether to play tracks in random order"
+msgstr "Чи програвати доріжки у випадковому порядку"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 56
+#: rc.cpp:1110
+#, no-c-format
+msgid "If set, amaroK plays the tracks in the playlist in random order."
+msgstr ""
+"Якщо ввімкнено, amaroK буде програвати доріжки у списку композицій у "
+"випадковому порядку."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 60
+#: rc.cpp:1113
+#, no-c-format
+msgid "Plays a dynamic playlist"
+msgstr "Програє динамічний список композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 61
+#: rc.cpp:1116
+#, no-c-format
+msgid ""
+"Dynamic playlist which removes the played track from the playlist and appends "
+"another song."
+msgstr ""
+"Динамічний список композицій, який вилучає доріжку, що програється зі списку "
+"композицій і додає іншу пісню."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 65
+#: rc.cpp:1119
+#, no-c-format
+msgid "Shows help"
+msgstr "Показує довідку"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 66
+#: rc.cpp:1122
+#, no-c-format
+msgid "Whether to show or hide the dynamic information dialog"
+msgstr "Чи показувати або ховати вікно динамічної інформації"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 70
+#: rc.cpp:1125
+#, no-c-format
+msgid "Adds this type of song"
+msgstr "Додає цей тип пісні"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 71
+#: rc.cpp:1128
+#, no-c-format
+msgid "Dynamic mode will append this type of song to the end of the playlist."
+msgstr "Динамічний режим додасть цей тип пісні у кінець списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 75
+#: rc.cpp:1131 rc.cpp:1134
+#, no-c-format
+msgid "List of smart playlists to be appended for dynamic mode."
+msgstr "Кмітливі списки композицій, які додавати для динамічного режиму."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 80
+#: rc.cpp:1137
+#, no-c-format
+msgid "Number of upcoming songs to show"
+msgstr "Скільки наступних пісень показувати"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 81
+#: rc.cpp:1140
+#, no-c-format
+msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Скільки наступних пісень показувати у списку композицій для динамічного режиму."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 85
+#: rc.cpp:1143
+#, no-c-format
+msgid "History of songs count"
+msgstr "Історія рахунку пісень"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 86
+#: rc.cpp:1146
+#, no-c-format
+msgid ""
+"Number of previously played songs to show in the Playlist for dynamic mode."
+msgstr ""
+"Скільки попередніх пісень показувати в списку композицій для динамічного "
+"режиму."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 90
+#: rc.cpp:1149
+#, no-c-format
+msgid "Number of tracks to append"
+msgstr "Кількість доріжок для додавання"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 91
+#: rc.cpp:1152
+#, no-c-format
+msgid "Number of tracks to append to the Playlist for dynamic mode."
+msgstr "Скільки доріжок додати до списку композицій для динамічного режиму."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 95
+#: rc.cpp:1155
+#, no-c-format
+msgid "Cycle Tracks"
+msgstr "Зациклити доріжки"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 96
+#: rc.cpp:1158
+#, no-c-format
+msgid "Whether to remove first item in playlist."
+msgstr "Чи вилучати перший елемент у списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 100
+#: rc.cpp:1161
+#, no-c-format
+msgid "Mark History"
+msgstr "Позначати історію"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 101
+#: rc.cpp:1164
+#, no-c-format
+msgid "Whether to mark items in the playlist as history once played."
+msgstr ""
+"Чи позначати елементи у списку композицій як історію, що вже один раз "
+"програвались."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 105
+#: rc.cpp:1167
+#, no-c-format
+msgid "Whether to show icon in system tray"
+msgstr "Чи показувати піктограму в системному лотку"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 106
+#: rc.cpp:1170
+#, no-c-format
+msgid "Enable/Disable tray icon for amaroK."
+msgstr "Увімкнути/вимкнути піктограму лотка amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 110
+#: rc.cpp:1173
+#, no-c-format
+msgid "Whether to animate the systray icon"
+msgstr "Чи увімкнути анімацію піктограми в системному лотку"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 111
+#: rc.cpp:1176
+#, no-c-format
+msgid "Enable/Disable tray icon animation."
+msgstr "Увімкнути/вимкнути анімацію піктограми в системному лотку."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 115
+#: rc.cpp:1179
+#, no-c-format
+msgid "Whether to show player window"
+msgstr "Чи показувати вікно програвача"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 116
+#: rc.cpp:1182
+#, no-c-format
+msgid ""
+"Makes amaroK more like XMMS and other Winamp clones with separate player and "
+"playlist windows."
+msgstr ""
+"Робить amaroK більше подібним до XMMS та інших клонів Winamp з відокремленими "
+"вікнами програвача та списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 120
+#: rc.cpp:1185
+#, no-c-format
+msgid "Whether to show the toolbar in the playlist window."
+msgstr "Чи показувати пенал у вікні списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 125
+#: rc.cpp:1188 rc.cpp:1191
+#, no-c-format
+msgid "Size of the cover previews in Contextbrowser and Covermanager"
+msgstr "Розмір обкладинок для навігатора контексту та менеджера обкладинок"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 130
+#: rc.cpp:1194
+#, no-c-format
+msgid "Whether to show the Playlist Statusbar"
+msgstr "Чи показувати рядок стану списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 131
+#: rc.cpp:1197
+#, no-c-format
+msgid "View some status information on the playlist."
+msgstr "Показ інформації про стан для списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 135
+#: rc.cpp:1200
+#, no-c-format
+msgid "Whether to add directories to playlist recursively"
+msgstr "Чи додавати каталоги до списку композицій рекурсивно"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 136
+#: rc.cpp:1203
+#, no-c-format
+msgid "Enable/Disable recursive directory adding to the playlist."
+msgstr "Увімкнути/вимкнути рекурсивне додавання каталогів у список композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 140
+#: rc.cpp:1206
+#, no-c-format
+msgid "Delay between tracks, in milliseconds"
+msgstr "Пропуск між доріжками, в мілісекундах"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 141
+#: rc.cpp:1209
+#, no-c-format
+msgid "Delay between tracks, in milliseconds."
+msgstr "Пропуск між доріжками, в мілісекундах."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 145
+#: rc.cpp:1212
+#, no-c-format
+msgid "Whether the playlist window is visible"
+msgstr "Чи показувати вікно списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 146
+#: rc.cpp:1215
+#, no-c-format
+msgid ""
+"Enable/Disable the playlist window. Equal to clicking the PL button in the "
+"player window."
+msgstr ""
+"Увімкнути/вимкнути вікно списку композицій. Теж саме, що й натискання кнопки PL "
+"у вікні програвача."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 150
+#: rc.cpp:1218
+#, no-c-format
+msgid "Number of undo levels in playlist"
+msgstr "Кількість рівнів відміни дій у списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 151
+#: rc.cpp:1221
+#, no-c-format
+msgid "The number of undo levels in the playlist."
+msgstr "Кількість рівнів відміни дій у списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 155
+#: rc.cpp:1224
+#, no-c-format
+msgid "Index of current visual analyzer"
+msgstr "Індекс поточного наочного аналізатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 156
+#: rc.cpp:1227
+#, no-c-format
+msgid "The ID of the visual analyzer to display."
+msgstr "ІД наочного аналізатора."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 160
+#: rc.cpp:1230
+#, no-c-format
+msgid "Index of analyzer displayed in playlist window"
+msgstr "Індекс аналізатора у вікні списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 161
+#: rc.cpp:1233
+#, no-c-format
+msgid "The ID of the visual analyzer to display in playlist window."
+msgstr "ІД наочного аналізатора для показу у вікні списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 165
+#: rc.cpp:1236
+#, no-c-format
+msgid "Playlist window splitter positions"
+msgstr "Позиції роздільника вікна списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 166
+#: rc.cpp:1239
+#, no-c-format
+msgid "Currently unused"
+msgstr "Зараз не використовується"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 170
+#: rc.cpp:1242
+#, no-c-format
+msgid "Whether the playlist should scroll with the active playlist item"
+msgstr "Чи прокручувати список композицій при зміні пісні, яка програється"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 171
+#: rc.cpp:1245
+#, no-c-format
+msgid ""
+"If set, the playlist scrolls on song change to make the currently playing item "
+"visible. Measures are taken not to scroll if inappropriate."
+msgstr ""
+"Якщо ввімкнено, то список композицій прокручується при зміні пісні, щоб було "
+"видно пісню, яка в той час програється."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 175
+#: rc.cpp:1248
+#, no-c-format
+msgid "Whether a splash-screen should be displayed on startup"
+msgstr "Чи показувати екран заставки при запуску"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 176
+#: rc.cpp:1251
+#, no-c-format
+msgid "Enable/Disable splashscreen during amaroK startup."
+msgstr "Ввімкнути/вимкнути екран заставки при запуску amaroK."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 180
+#: rc.cpp:1254
+#, no-c-format
+msgid "Whether ContextBrowser should be activated when starting playback"
+msgstr "Чи автоматично активувати навігатор контексту при програванні"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 181
+#: rc.cpp:1257
+#, no-c-format
+msgid "Automatically switches to ContextBrowser when playback is started."
+msgstr ""
+"Коли починається програвання, автоматично переходити у навігатор контексту."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 185
+#: rc.cpp:1260
+#, no-c-format
+msgid ""
+"Whether ContextBrowser should show statistics by albums when it is possible."
+msgstr ""
+"Чи показувати, якщо можливо, статистику по альбомах в навігаторі контексту."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 186
+#: rc.cpp:1263
+#, no-c-format
+msgid "Show statistics by albums in ContextBrowser."
+msgstr "Показувати статистику по альбомах в навігаторі контексту."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 190
+#: rc.cpp:1266
+#, no-c-format
+msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
+msgstr "Встановіть стиль CSS для налагодження вигляду навігатора контексту"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 191
+#: rc.cpp:1269
+#, no-c-format
+msgid "Set this to the style dir you want to use."
+msgstr "Вкажіть каталог зі стилями, який ви хочете використовувати."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 195
+#: rc.cpp:1272
+#, no-c-format
+msgid "Whether Menubar is shown"
+msgstr "Чи показувати смужку меню"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 196
+#: rc.cpp:1275
+#, no-c-format
+msgid "If set, amaroK displays a menubar on top of the application."
+msgstr "Якщо увімкнено, amaroK буде показувати смужку меню на верху програми."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 200
+#: rc.cpp:1278
+#, no-c-format
+msgid "Whether playlists store relative path"
+msgstr "Чи списки композицій зберігають відносний шлях"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 201
+#: rc.cpp:1281
+#, no-c-format
+msgid ""
+"If set, amaroK manually saved playlists will contain a relative path to the "
+"tracks, not absolute."
+msgstr ""
+"Якщо увімкнено, то списки композицій amaroK, які були збережені вручну, будуть "
+"містити відносний шлях, а не абсолютний."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 208
+#: rc.cpp:1284
+#, no-c-format
+msgid "Master volume"
+msgstr "Гучність (головна)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 209
+#: rc.cpp:1287
+#, no-c-format
+msgid "The amaroK master volume, a value between 0 (muted) and 100."
+msgstr "Головна гучність amaroK, значення від 0 (вимк.) до 100."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 215
+#: rc.cpp:1290
+#, no-c-format
+msgid "Whether to crossfade between tracks"
+msgstr "Чи робити плавний перехід між доріжками"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 216
+#: rc.cpp:1293
+#, no-c-format
+msgid "Enable/Disable crossfading between track changes."
+msgstr "Увімкнути/вимкнути плавний перехід між доріжками."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 220
+#: rc.cpp:1296
+#, no-c-format
+msgid "Length of crossfade, in milliseconds"
+msgstr "Тривалість плавного переходу між доріжками в мілісекундах"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 221
+#: rc.cpp:1299
+#, no-c-format
+msgid "The length of the crossfade between tracks in milliseconds."
+msgstr "Тривалість плавного переходу між доріжками в мілісекундах."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 226
+#: rc.cpp:1302
+#, no-c-format
+msgid "Sound system to use"
+msgstr "Використовувати звукову систему"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 227
+#: rc.cpp:1305
+#, no-c-format
+msgid ""
+"Select the sound system used to play media. amaroK currently support aRts, "
+"GStreamer, xine, and NMM; however, their availability depends on the "
+"configuration used at compile time."
+msgstr ""
+"Виберіть звукову систему для програвання мультимедії. В даний час amaroK "
+"підтримує aRts, GStreamer, xine і NMM, однак їх доступність залежить від "
+"конфігурації використаної під час компіляції."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 230
+#: rc.cpp:1308
+#, no-c-format
+msgid "Enables the equalizer plugin"
+msgstr "Вмикає втулок еквалайзера"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 231
+#: rc.cpp:1311
+#, no-c-format
+msgid "When enabled, an equalizer plugin filters the audio stream."
+msgstr "Якщо увімкнено, втулок еквалайзера буде фільтрувати звуковий потік."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 235
+#: rc.cpp:1314
+#, no-c-format
+msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
+msgstr "Підсилення звуку на еквалайзері: діапазон -100..100, 0 нормальний."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 241
+#: rc.cpp:1317
+#, no-c-format
+msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
+msgstr ""
+"Приріст по смугах еквалайзера, 10 значень, діапазон -100..100, 0 нормальний."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 245
+#: rc.cpp:1320
+#, no-c-format
+msgid "Equalizer preset name."
+msgstr "Назва конфігурації еквалайзера."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 251
+#: rc.cpp:1323
+#, no-c-format
+msgid "Amazon locale for cover retrieval"
+msgstr "Локаль Amazon для отримання обкладинок"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 252
+#: rc.cpp:1326
+#, no-c-format
+msgid "Determines which Amazon server cover images should be retrieved from."
+msgstr "Визначає з якого сервера Amazon звантажити зображення обкладинок."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 258
+#: rc.cpp:1329
+#, no-c-format
+msgid "Wikipedia locale for information retrieval"
+msgstr "Локаль Wikipedia для отримання інформації"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 259
+#: rc.cpp:1332
+#, no-c-format
+msgid ""
+"Determines in which language the information is retrieved from Wikipedia."
+msgstr "Визначає, на якій мові звантажено інформацію з Wikipedia."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 266
+#: rc.cpp:1335
+#, no-c-format
+msgid "Use On-Screen Display"
+msgstr "Використовувати індикатор (OSD)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 267
+#: rc.cpp:1338
+#, no-c-format
+msgid "Enable/Disable the On-Screen Display."
+msgstr "Увімкнути/вимкнути індикатор."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 271
+#: rc.cpp:1341
+#, no-c-format
+msgid "Display the same information in the OSD as in the playlist columns."
+msgstr ""
+"Показувати в індикаторі ту саму інформацію, як і в стовпчиках списку "
+"композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 272
+#: rc.cpp:1344
+#, no-c-format
+msgid ""
+"If enabled, the OSD will display the same information and in the same order as "
+"the columns in the playlist."
+msgstr ""
+"Якщо увімкнено, в індикаторі буде показано ту саму інформацію і втому "
+"самомупорядку, що і в стовпчиках списку композицій."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 276
+#: rc.cpp:1347
+#, no-c-format
+msgid "The OSD text to show"
+msgstr "Текст індикатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 277
+#: rc.cpp:1350
+#, no-c-format
+msgid "Customize the OSD display text."
+msgstr "Налаштувати текст індикатора."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 281
+#: rc.cpp:1353
+#, no-c-format
+msgid "Font for On-Screen Display"
+msgstr "Шрифт індикатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 286
+#: rc.cpp:1359
+#, no-c-format
+msgid "Draw a shadow around the text."
+msgstr "Малювати тінь навколо тексту."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 287
+#: rc.cpp:1362
+#, no-c-format
+msgid "Draws a shadow around the OSD-text."
+msgstr "Малює тінь навколо тексту в індикаторі."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 291
+#: rc.cpp:1365
+#, no-c-format
+msgid "Fake-translucency Toggle"
+msgstr "Перемикання фальшивої прозорості"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 292
+#: rc.cpp:1368
+#, no-c-format
+msgid "Make the background of the OSD use fake-translucency."
+msgstr "Заставити тло індикатора використовувати фальшиву прозорість."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 296
+#: rc.cpp:1371
+#, no-c-format
+msgid "Whether to use custom colors for the OSD"
+msgstr "Чи використовувати нетипові кольори в індикаторі (OSD)"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 297
+#: rc.cpp:1374
+#, no-c-format
+msgid "You can use custom colors for the OSD if you set this true."
+msgstr ""
+"Якщо це увімкнути, то можна використовувати для індикатора (OSD) свої кольори."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 301
+#: rc.cpp:1377
+#, no-c-format
+msgid "Font Color for On-Screen Display"
+msgstr "Колір шрифту для індикатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 302
+#: rc.cpp:1380
+#, no-c-format
+msgid ""
+"The color of the OSD text. The color is specified in RGB, a comma-separated "
+"list containing three integers between 0 and 255."
+msgstr ""
+"Колір тексту індикатора. Колір вказується в RGB: три цілі числа, розділені "
+"комами із значеннями від 0 до 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 306
+#: rc.cpp:1383
+#, no-c-format
+msgid "Background Color for On-Screen Display"
+msgstr "Колір тла для індикатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 307
+#: rc.cpp:1386
+#, no-c-format
+msgid ""
+"The color of the OSD background. The color is specified in RGB, a "
+"comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Колір тла для індикатора (OSD). Колір вказується в RGB: три цілі числа, "
+"розділені комами, із значеннями від 0 до 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 311
+#: rc.cpp:1389
+#, no-c-format
+msgid "How many milliseconds the text should be displayed"
+msgstr "Скільки мілісекунд показувати текст"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 312
+#: rc.cpp:1392
+#, no-c-format
+msgid ""
+"The time in milliseconds to show the OSD. A value of 0 means never hide. The "
+"default value is 5000 ms."
+msgstr ""
+"Тривалість показу індикатора в мілісекундах. Значення 0 означає - ніколи не "
+"ховати. Типове значення: 5000 мс."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 317
+#: rc.cpp:1395
+#, no-c-format
+msgid "Y position offset"
+msgstr "Вертикальне зміщення"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 318
+#: rc.cpp:1398
+#, no-c-format
+msgid ""
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
+"Top alignment is chosen the Y offset is the space between the upper part of the "
+"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
+"the space between the bottom part of the OSD and the bottom of the screen."
+msgstr ""
+"Вертикальна позиція індикатора (OSD) відносно вибраного екрана та вирівнювання "
+"індикатора. Якщо вибрано вирівнювати зверху, то вертикальне зміщення - це "
+"простір між верхньою частиною індикатора та верхом екрана. Якщо вибрано "
+"вирівнювати знизу, то вертикальне зміщення - це простір між нижньою частиною "
+"індикатора і низом екрана."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 324
+#: rc.cpp:1401
+#, no-c-format
+msgid "OSD screen"
+msgstr "Екран для показу індикатора"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 325
+#: rc.cpp:1404
+#, no-c-format
+msgid ""
+"The screen that should display the OSD. For single-headed environments this "
+"setting should be 0."
+msgstr ""
+"Монітор, на якому слід показувати індикатор (OSD). Для середовищ з одним "
+"монітором це значення має бути 0."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 329
+#: rc.cpp:1407
+#, no-c-format
+msgid "Whether the album cover should be shown"
+msgstr "Чи показувати обкладинку альбому"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 330
+#: rc.cpp:1410
+#, no-c-format
+msgid "If enabled, shows the album cover in the OSD."
+msgstr "Якщо увімкнено, то показує обкладинку альбому в індикаторі."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 334
+#: rc.cpp:1413
+#, no-c-format
+msgid "Align OSD to"
+msgstr "Вирівнювати індикатор відносно"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 335
+#: rc.cpp:1416
+#, no-c-format
+msgid ""
+"The relative position of the OSD. Possible choices are Left, Middle, Right and "
+"Center."
+msgstr ""
+"Відносна позиція індикатора. Можливі значення: ліворуч, посередині, праворуч і "
+"в центрі."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 349
+#: rc.cpp:1419
+#, no-c-format
+msgid "Whether to use user-defined fonts"
+msgstr "Чи використовувати шрифти, визначені користувачем"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 350
+#: rc.cpp:1422
+#, no-c-format
+msgid "Enabled/Disables custom fonts."
+msgstr "Увімкнути/вимкнути нетипові шрифти."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 354
+#: rc.cpp:1425
+#, no-c-format
+msgid "Font in playlist window"
+msgstr "Шрифт у вікні списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 358
+#: rc.cpp:1431
+#, no-c-format
+msgid "Font in player window"
+msgstr "Шрифт у вікні програвача"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 362
+#: rc.cpp:1437
+#, no-c-format
+msgid "Font in context browser"
+msgstr "Шрифт у навігаторі контексту"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 366
+#: rc.cpp:1443
+#, no-c-format
+msgid "Recode ID3v1 tags"
+msgstr "Перекодувати мітки ID3v1"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 367
+#: rc.cpp:1446
+#, no-c-format
+msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
+msgstr "Якщо увімкнено, мітки ID3v1 будуть перекодовані у вибраному кодуванні."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 371
+#: rc.cpp:1449
+#, no-c-format
+msgid "Recode Shoutcast Metadata"
+msgstr "Перекодувати метадані Shoutcast"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 372
+#: rc.cpp:1452
+#, no-c-format
+msgid "If set, Shoutcast metadata will be recoded."
+msgstr "Якщо увімкнено, метадані Shoutcast будуть перекодовані."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 376
+#: rc.cpp:1455
+#, no-c-format
+msgid "Recode encoding"
+msgstr "Перекодувати кодування"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 377
+#: rc.cpp:1458
+#, no-c-format
+msgid "The charset with which to decode the above string data."
+msgstr "Набір символів для перекодування дані рядка вище."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 384
+#: rc.cpp:1461
+#, no-c-format
+msgid "Whether to use amaroK standard colors in the playlist window"
+msgstr "Чи використовувати стандартні кольори amaroK у вікні списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 385
+#: rc.cpp:1464
+#, no-c-format
+msgid "If set, amaroK uses the amaroK standard colors in the playlist."
+msgstr ""
+"Якщо увімкнено, amaroK використовує в списку композицій свої стандартні "
+"кольори."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 389
+#: rc.cpp:1467
+#, no-c-format
+msgid "Whether to use global KDE colors in the playlist window"
+msgstr "Чи використовувати глобальні кольори KDE у вікні списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 390
+#: rc.cpp:1470
+#, no-c-format
+msgid "If set, amaroK uses the KDE standard colors in the playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK використовує в списку композицій стандартні кольори KDE."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 394
+#: rc.cpp:1473
+#, no-c-format
+msgid "Whether to use user-defined colors in the playlist window"
+msgstr "Чи використовувати в списку композицій кольори, визначені користувачем"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 395
+#: rc.cpp:1476
+#, no-c-format
+msgid "If set, amaroK uses the user-defined colors in the playlist."
+msgstr ""
+"Якщо ввімкнено, amaroK використовує в списку композицій кольори, визначені "
+"користувачем."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 399
+#: rc.cpp:1479
+#, no-c-format
+msgid "Playlist window foreground color"
+msgstr "Колір тексту вікна списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 400
+#: rc.cpp:1482
+#, no-c-format
+msgid ""
+"The color to use as foreground color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Колір тексту для списку композицій. Колір вказується в RGB: три цілі числа, "
+"розділені комами, із значеннями від 0 до 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 404
+#: rc.cpp:1485
+#, no-c-format
+msgid "Playlist window background color"
+msgstr "Колір тла вікна списку композицій"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 405
+#: rc.cpp:1488
+#, no-c-format
+msgid ""
+"The color to use as background color in the playlist. The color is specified in "
+"RGB, a comma-separated list containing three integers between 0 and 255."
+msgstr ""
+"Колір тла для списку композицій. Колір вказується в RGB: три цілі числа, "
+"розділені комами, із значеннями від 0 до 255."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 412
+#: rc.cpp:1491
+#, no-c-format
+msgid "Resume playback of last played track on startup"
+msgstr "При запуску продовжити програвання доріжки, яка востаннє програвалась"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 413
+#: rc.cpp:1494
+#, no-c-format
+msgid "If set, amaroK resumes playback of the last played track on startup."
+msgstr ""
+"Якщо ввімкнено, amaroK при запуску буде продовжувати програвання доріжки, яка "
+"востаннє програвалась."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 417
+#: rc.cpp:1497
+#, no-c-format
+msgid "Track URL to resume upon startup"
+msgstr "Слідкувати за URL, щоб можна було відновити при запуску"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 418
+#: rc.cpp:1500
+#, no-c-format
+msgid "Internal: URL of the track to resume on startup."
+msgstr "URL доріжки, де почати програвання."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 421
+#: rc.cpp:1503
+#, no-c-format
+msgid "Time to resume at, in milliseconds"
+msgstr "Продовжувати від часу, в мілісекундах"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 422
+#: rc.cpp:1506
+#, no-c-format
+msgid "Internal: Playback position in the track to resume on startup."
+msgstr "Позиція в доріжці, де почати програвання."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 428
+#: rc.cpp:1509
+#, no-c-format
+msgid "Database Engine"
+msgstr "Рушій бази даних"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 429
+#: rc.cpp:1512
+#, no-c-format
+msgid "The database engine used to store collection"
+msgstr "База даних, яка використовується для збереження збірки"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 433
+#: rc.cpp:1515
+#, no-c-format
+msgid "Whether Collections folders are scanned recursively"
+msgstr "Чи теки збірок переглядаються рекурсивно"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 437
+#: rc.cpp:1518
+#, no-c-format
+msgid "Whether Collection folders are rescanned on change"
+msgstr "Чи заново переглядати теки збірки при змінах"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 441
+#: rc.cpp:1521
+#, no-c-format
+msgid "Whether playlists should be added while scanning"
+msgstr "Чи додавати списки композицій при перегляді тек"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 445
+#: rc.cpp:1524
+#, no-c-format
+msgid "List of folders in the Collection"
+msgstr "Список тек у збірці"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 451
+#: rc.cpp:1527
+#, no-c-format
+msgid "Host"
+msgstr "Вузол"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 452
+#: rc.cpp:1530
+#, no-c-format
+msgid "The host MySql server is running on"
+msgstr "Вузол, на якому запущений сервер MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 456
+#: rc.cpp:1533
+#, no-c-format
+msgid "Port"
+msgstr "Порт"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 457
+#: rc.cpp:1536
+#, no-c-format
+msgid "The port MySql server is listening"
+msgstr "Порт, на якому слухає сервер MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 461
+#: rc.cpp:1539
+#, no-c-format
+msgid "Database name"
+msgstr "Назва бази даних"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 462
+#: rc.cpp:1542
+#, no-c-format
+msgid "The database's name"
+msgstr "Назва бази даних"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 466
+#: rc.cpp:1545
+#, no-c-format
+msgid "User"
+msgstr "Користувач"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 467
+#: rc.cpp:1548
+#, no-c-format
+msgid "The user's name to use for connecting MySql"
+msgstr "Користувач для з'єднання з MySql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 470
+#: rc.cpp:1551 rc.cpp:1575
+#, no-c-format
+msgid "Password"
+msgstr "Пароль"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 471
+#: rc.cpp:1554
+#, no-c-format
+msgid "The user's password"
+msgstr "Пароль користувача"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 477
+#: rc.cpp:1557
+#, no-c-format
+msgid "Conninfo"
+msgstr "Інформація про з'єднання"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 478
+#: rc.cpp:1560
+#, no-c-format
+msgid "The connection info for the Postgresql server"
+msgstr "Інформація про з'єднання для сервера Postgresql"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 485
+#: rc.cpp:1563
+#, no-c-format
+msgid "SubmitPlayedSongs"
+msgstr "SubmitPlayedSongs"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 486
+#: rc.cpp:1566
+#, no-c-format
+msgid "Whether played songs are submitted to Audioscrobbler"
+msgstr "Чи передаються до Audioscrobbler відомості про пісні, які програються"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 490
+#: rc.cpp:1569
+#, no-c-format
+msgid "Username"
+msgstr "Користувач"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 491
+#: rc.cpp:1572
+#, no-c-format
+msgid "The username to use for connecting to Audioscrobbler"
+msgstr "Користувач для з'єднання з Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 496
+#: rc.cpp:1578
+#, no-c-format
+msgid "The password to use for connecting to Audioscrobbler"
+msgstr "Пароль для з'єднання з Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 500
+#: rc.cpp:1581
+#, no-c-format
+msgid "RetrieveSimilarArtists"
+msgstr "RetrieveSimilarArtists"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 501
+#: rc.cpp:1584
+#, no-c-format
+msgid "Whether similar songs are retrieved from Audioscrobbler"
+msgstr "Чи отримувати подібні пісні з Audioscrobbler"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 508
+#: rc.cpp:1587
+#, no-c-format
+msgid "MountCommand"
+msgstr "Команда монтування"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 509
+#: rc.cpp:1590
+#, no-c-format
+msgid "The mount command used for the media device connection."
+msgstr "Команда монтування, яка вживається для з'єднання з медіа-пристроєм."
+
+#. i18n: file ./amarokcore/amarok.kcfg line 512
+#: rc.cpp:1593
+#, no-c-format
+msgid "UmountCommand"
+msgstr "Команда демонтування"
+
+#. i18n: file ./amarokcore/amarok.kcfg line 513
+#: rc.cpp:1596
+#, no-c-format
+msgid "The umount command used for the media device connection."
+msgstr "Команда демонтування, яка вживається для з'єднання з медіа-пристроєм."
+
+#: streamprovider.cpp:250
+msgid "Unable to connect to this stream server."
+msgstr "Не вдається з'єднатись з сервером потоку."
+
+#: smartplaylisteditor.cpp:37
+msgid "Create Smart Playlist"
+msgstr "Створити мудрий список композицій"
+
+#: smartplaylisteditor.cpp:45
+msgid "Edit Smart Playlist"
+msgstr "Редагувати кмітливий список композицій"
+
+#: playlist.cpp:240 smartplaylisteditor.cpp:107 statusbar/timeLabel.h:48
+msgid "Length"
+msgstr "Тривалість"
+
+#: smartplaylisteditor.cpp:107
+msgid "Track #"
+msgstr "Доріжка "
+
+#: playlist.cpp:236 smartplaylisteditor.cpp:108
+msgid "Comment"
+msgstr "Коментар"
+
+#: smartplaylisteditor.cpp:108
+msgid "Play Counter"
+msgstr "Лічильник програвання"
+
+#: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
+#: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
+#: smartplaylisteditor.cpp:108
+msgid "Score"
+msgstr "Рахунок"
+
+#: smartplaylisteditor.cpp:108
+msgid "First Play"
+msgstr "Першою програти"
+
+#: smartplaylisteditor.cpp:108
+msgid "Last Play"
+msgstr "Останньою програти"
+
+#: smartplaylisteditor.cpp:109
+msgid "Modified Date"
+msgstr "Дата зміни"
+
+#: smartplaylisteditor.cpp:109
+msgid "File Path"
+msgstr "Шлях до файла"
+
+#: smartplaylisteditor.cpp:125
+msgid "Playlist name:"
+msgstr "Назва списку композицій:"
+
+#: smartplaylisteditor.cpp:133
+msgid "Match the following condition"
+msgstr "При наступній умові"
+
+#: smartplaylisteditor.cpp:136
+msgid "All"
+msgstr "Всі"
+
+#: smartplaylisteditor.cpp:137
+msgid "Any"
+msgstr "Будь-яка"
+
+#: smartplaylisteditor.cpp:138
+msgid " of the following conditions"
+msgstr " з наступних умов"
+
+#: smartplaylisteditor.cpp:146
+msgid "Order by"
+msgstr "Впорядкувати за"
+
+#: smartplaylisteditor.cpp:152
+msgid "Random"
+msgstr "Випадкова"
+
+#: smartplaylisteditor.cpp:160
+msgid "Limit to"
+msgstr "Обмежити до"
+
+#: smartplaylisteditor.cpp:167
+msgid "tracks"
+msgstr "доріжки"
+
+#: smartplaylisteditor.cpp:172
+msgid "Expand by"
+msgstr "Розкрити"
+
+#: smartplaylisteditor.cpp:231
+msgid "Completely Random"
+msgstr "Цілком випадкова"
+
+#: smartplaylisteditor.cpp:232
+msgid "Score Weighted"
+msgstr "З урахуванням важливості"
+
+#: smartplaylisteditor.cpp:236
+msgid "Ascending"
+msgstr "Зростанням"
+
+#: smartplaylisteditor.cpp:237
+msgid "Descending"
+msgstr "Спаданням"
+
+#: smartplaylisteditor.cpp:404
+msgid "Match"
+msgstr "Порівняти"
+
+#: smartplaylisteditor.cpp:409
+msgid "Match the following conditions"
+msgstr "При наступній умові"
+
+#: smartplaylisteditor.cpp:480 smartplaylisteditor.cpp:500
+#: smartplaylisteditor.cpp:539 smartplaylisteditor.cpp:551
+#: smartplaylisteditor.cpp:589 smartplaylisteditor.cpp:607
+#: smartplaylisteditor.cpp:652 smartplaylisteditor.cpp:714
+#: smartplaylisteditor.cpp:717 smartplaylisteditor.cpp:765
+#: smartplaylisteditor.cpp:797 smartplaylisteditor.cpp:831
+#: smartplaylisteditor.cpp:837
+msgid "is between"
+msgstr "між"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:652
+#: smartplaylisteditor.cpp:715 smartplaylisteditor.cpp:718
+#: smartplaylisteditor.cpp:782 smartplaylisteditor.cpp:837
+msgid "is in the last"
+msgstr "в останньому"
+
+#: smartplaylisteditor.cpp:486 smartplaylisteditor.cpp:544
+#: smartplaylisteditor.cpp:594 smartplaylisteditor.cpp:654
+#: smartplaylisteditor.cpp:716 smartplaylisteditor.cpp:719
+#: smartplaylisteditor.cpp:783 smartplaylisteditor.cpp:837
+msgid "is not in the last"
+msgstr "крім останніх"
+
+#: smartplaylisteditor.cpp:620 smartplaylisteditor.cpp:825
+msgid "contains"
+msgstr "містить"
+
+#: smartplaylisteditor.cpp:622 smartplaylisteditor.cpp:825
+msgid "does not contain"
+msgstr "не містить"
+
+#: smartplaylisteditor.cpp:624 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is"
+msgstr "співпадає з"
+
+#: smartplaylisteditor.cpp:635 smartplaylisteditor.cpp:825
+#: smartplaylisteditor.cpp:830 smartplaylisteditor.cpp:836
+msgid "is not"
+msgstr "не співпадає з"
+
+#: smartplaylisteditor.cpp:644 smartplaylisteditor.cpp:826
+msgid "starts with"
+msgstr "починається на"
+
+#: smartplaylisteditor.cpp:646 smartplaylisteditor.cpp:826
+msgid "ends with"
+msgstr "закінчується на"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:830
+msgid "is greater than"
+msgstr "більше ніж"
+
+#: smartplaylisteditor.cpp:648 smartplaylisteditor.cpp:836
+msgid "is after"
+msgstr "після"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:830
+msgid "is smaller than"
+msgstr "менше ніж"
+
+#: smartplaylisteditor.cpp:650 smartplaylisteditor.cpp:836
+msgid "is before"
+msgstr "перед"
+
+#: smartplaylisteditor.cpp:766 smartplaylisteditor.cpp:798
+msgid "and"
+msgstr "і"
+
+#: smartplaylisteditor.cpp:788
+msgid "Days"
+msgstr "Днів"
+
+#: smartplaylisteditor.cpp:789
+msgid "Months"
+msgstr "Місяців"
+
+#: smartplaylisteditor.cpp:790
+msgid "Years"
+msgstr "Років"
+
+#: Options2.ui.h:79
+msgid "Style Packages (*.tar, *.tar.bz2, *.tar.gz)"
+msgstr "Пакунки стилю (*.tar, *.tar.bz2, *.tar.gz)"
+
+#: Options2.ui.h:81
+msgid "Select Style Package"
+msgstr "Виберіть пакунок стилю"
+
+#: contextbrowser.cpp:117
+msgid "Add Lyrics"
+msgstr "Додати слова пісні"
+
+#: contextbrowser.cpp:118
+msgid "Search For Lyrics"
+msgstr "Пошук за текстами пісень"
+
+#: contextbrowser.cpp:119
+msgid "Refresh"
+msgstr "Оновити"
+
+#: contextbrowser.cpp:121 contextbrowser.cpp:139
+msgid "Open in external browser"
+msgstr "Відкрити у зовнішньому навігаторі"
+
+#: contextbrowser.cpp:133
+msgid "Forward"
+msgstr "Вперед"
+
+#: contextbrowser.cpp:135
+msgid "Artist Page"
+msgstr "Сторінка виконавця"
+
+#: contextbrowser.cpp:136
+msgid "Album Page"
+msgstr "Сторінка альбому"
+
+#: contextbrowser.cpp:137
+msgid "Title Page"
+msgstr "Сторінка заголовка"
+
+#: contextbrowser.cpp:153
+msgid "Home"
+msgstr "Домівка"
+
+#: contextbrowser.cpp:154
+msgid "Current"
+msgstr "Поточна"
+
+#: contextbrowser.cpp:155 contextbrowser.cpp:2573
+msgid "Lyrics"
+msgstr "Тексти пісень"
+
+#: contextbrowser.cpp:348
+msgid ""
+"<p>There is no product information available for this image."
+"<p>Right-click on image for menu."
+msgstr ""
+"<p>Немає наявної інформації про виріб для цього зображення."
+"<p>Для показу меню натисніть на зображення правою кнопкою мишки."
+
+#: contextbrowser.cpp:609
+msgid "Set &Custom Cover"
+msgstr "Встановити &свою обкладинку"
+
+#: contextbrowser.cpp:612
+msgid "&Unset Cover"
+msgstr "&Відмінити обкладинку"
+
+#: contextbrowser.cpp:656 contextbrowser.cpp:676
+msgid "Edit Album &Information..."
+msgstr "Редагувати &інформацію альбому..."
+
+#: contextbrowser.cpp:657 contextbrowser.cpp:677
+msgid "&Queue Album"
+msgstr "&Альбом в чергу"
+
+#: contextbrowser.cpp:675
+msgid "Compilation"
+msgstr "Збірка"
+
+#: contextbrowser.cpp:691
+msgid "Are you sure you want to remove this cover from the Collection?"
+msgstr "Ви впевнені, що хочете вилучити цю обкладинку зі збірки?"
+
+#: contextbrowser.cpp:796
+msgid ""
+"_: monthname year\n"
+"%1 %2"
+msgstr "%1 %2"
+
+#: contextbrowser.cpp:802
+#, c-format
+msgid ""
+"_n: One week ago\n"
+"%n weeks ago"
+msgstr ""
+"%n тиждень тому\n"
+"%n тижні тому\n"
+"%n тижнів тому"
+
+#: contextbrowser.cpp:808
+msgid "Yesterday"
+msgstr "Вчора"
+
+#: contextbrowser.cpp:809
+#, c-format
+msgid ""
+"_n: One day ago\n"
+"%n days ago"
+msgstr ""
+"%n день тому\n"
+"%n дні тому\n"
+"%n днів тому"
+
+#: contextbrowser.cpp:812
+#, c-format
+msgid ""
+"_n: One hour ago\n"
+"%n hours ago"
+msgstr ""
+"%n годину тому\n"
+"%n години тому\n"
+"%n годин тому"
+
+#: contextbrowser.cpp:818
+#, c-format
+msgid ""
+"_n: One minute ago\n"
+"%n minutes ago"
+msgstr ""
+"%n хвилину тому\n"
+"%n хвилини тому\n"
+"%n хвилин тому"
+
+#: contextbrowser.cpp:819
+msgid "Within the last minute"
+msgstr "На протязі останньої хвилини"
+
+#: contextbrowser.cpp:821
+msgid "The future"
+msgstr "Майбутнє"
+
+#: contextbrowser.cpp:879
+msgid "Unknown album"
+msgstr "Невідомий альбом"
+
+#: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
+#: contextbrowser.cpp:2060
+msgid "Click for information from amazon.com, right-click for menu."
+msgstr ""
+"Клацніть,щоб знайти інформацію на amazon.com; для показу меню натисніть правою "
+"кнопкою мишки."
+
+#: contextbrowser.cpp:905
+msgid "Unknown artist"
+msgstr "Невідомий виконавець"
+
+#: contextbrowser.cpp:946 contextbrowser.cpp:1935 contextbrowser.cpp:2062
+#, c-format
+msgid ""
+"_n: Single\n"
+"%n Tracks"
+msgstr ""
+"%n доріжка\n"
+"%n доріжки\n"
+"%n доріжок"
+
+#: contextbrowser.cpp:977 contextbrowser.cpp:1648
+#, c-format
+msgid "Last played: %1"
+msgstr "Востаннє програвалась: %1"
+
+#: contextbrowser.cpp:1116
+msgid "Recently Played Tracks"
+msgstr "Останні доріжки"
+
+#: contextbrowser.cpp:1124
+msgid ""
+"A list of your recently played tracks will appear here, once you have played a "
+"few of your songs."
+msgstr ""
+"Тут буде показано список ваших улюблених доріжок після того, як ви програли "
+"декілька ваших пісень."
+
+#: contextbrowser.cpp:1146 contextbrowser.cpp:1246
+msgid "&#xa0;&#8211 "
+msgstr "&#xa0;&#8211 "
+
+#: contextbrowser.cpp:1169
+msgid "Your Favorite Tracks"
+msgstr "Ваші улюблені доріжки"
+
+#: contextbrowser.cpp:1177
+msgid ""
+"A list of your favorite tracks will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Тут буде показано список ваших улюблених доріжок після того, як ви програли "
+"декілька ваших пісень."
+
+#: contextbrowser.cpp:1198 contextbrowser.cpp:1704 contextbrowser.cpp:1777
+msgid "&#xa0;&#8211; "
+msgstr "&#xa0;&#8211; "
+
+#: contextbrowser.cpp:1228
+msgid "Your Newest Tracks"
+msgstr "Ваші найновіші доріжки"
+
+#: contextbrowser.cpp:1329
+msgid "Favorite Albums"
+msgstr "Улюблені альбоми"
+
+#: contextbrowser.cpp:1338
+msgid ""
+"A list of your favorite albums will appear here, once you have played a few of "
+"your songs."
+msgstr ""
+"Тут буде показано список ваших улюблених альбомів після того, як ви програли "
+"декілька ваших пісень."
+
+#: contextbrowser.cpp:1354
+msgid "Your Newest Albums"
+msgstr "Ваші найновіші альбоми"
+
+#: contextbrowser.cpp:1371
+msgid "Least Played Albums"
+msgstr "Альбоми, які найменше програвались"
+
+#: contextbrowser.cpp:1380
+msgid ""
+"A list of albums, which you have not played for a long time, will appear here."
+msgstr "Тут буде показано список альбомів, які ви вже давно не програвали."
+
+#: contextbrowser.cpp:1503
+msgid "Stream Details"
+msgstr "Подробиці про потік"
+
+#: contextbrowser.cpp:1515
+msgid "Metadata History"
+msgstr "Історія метаданих"
+
+#: contextbrowser.cpp:1552
+msgid "Click to fetch cover from amazon.%1, right-click for menu."
+msgstr ""
+"Клацніть,щоб звантажити обкладинку з amazon.%1, для меню натисніть правою "
+"кнопкою мишки."
+
+#: contextbrowser.cpp:1554
+msgid "Click for information from amazon.%1, right-click for menu."
+msgstr ""
+"Клацніть,щоб знайти інформацію на amazon.%1, для меню натисніть правою кнопкою "
+"мишки."
+
+#: contextbrowser.cpp:1592
+msgid "Look up this track at musicbrainz.org"
+msgstr "Відшукати дані про цю доріжку на musicbrainz.org"
+
+#: contextbrowser.cpp:1646
+#, c-format
+msgid ""
+"_n: Track played once\n"
+"Track played %n times"
+msgstr ""
+"Доріжка програвалась %n раз\n"
+"Доріжка програвалась %n рази\n"
+"Доріжка програвалась %n разів"
+
+#: contextbrowser.cpp:1649
+#, c-format
+msgid "First played: %1"
+msgstr "Першою програвалась: %1"
+
+#: contextbrowser.cpp:1652
+msgid "Never played before"
+msgstr "Ще ніколи не програвалась"
+
+#: contextbrowser.cpp:1667
+msgid "This file is not in your Collection!"
+msgstr "Цей файл не знаходиться у вашій збірці!"
+
+#: contextbrowser.cpp:1672
+msgid ""
+"If you would like to see contextual information about this track, you should "
+"add it to your Collection."
+msgstr ""
+"Якщо ви хочете бачити контекстну інформацію про цю доріжку, додайте її до вашої "
+"збірки."
+
+#: contextbrowser.cpp:1677
+msgid "Change Collection Setup..."
+msgstr "Змінити налаштування збірки..."
+
+#: contextbrowser.cpp:1690
+msgid "Cue File"
+msgstr "Cue-файл"
+
+#: contextbrowser.cpp:1800
+msgid "This Artist"
+msgstr "Цей виконавець"
+
+#: contextbrowser.cpp:1818
+#, c-format
+msgid "Favorite Tracks by %1"
+msgstr "Улюблені доріжки виконавця %1"
+
+#: contextbrowser.cpp:1869
+#, c-format
+msgid "Albums by %1"
+msgstr "Альбоми виконавця %1"
+
+#: contextbrowser.cpp:1997
+#, c-format
+msgid "Compilations with %1"
+msgstr "Компіляції з %1"
+
+#: contextbrowser.cpp:2311 konquisidebar/universalamarok.cpp:269
+msgid "Hello amaroK user!"
+msgstr "Привіт, користувач amaroK!"
+
+#: contextbrowser.cpp:2316 konquisidebar/universalamarok.cpp:274
+msgid ""
+"This is the Context Browser: it shows you contextual information about the "
+"currently playing track. In order to use this feature of amaroK, you need to "
+"build a Collection."
+msgstr ""
+"Це навігатор контексту: він показує контекстну інформацію про доріжку, яка "
+"програється в даний час. Для того, щоб використовувати цю функціональність "
+"програми amaroK, необхідно створити збірку."
+
+#: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
+msgid "Build Collection..."
+msgstr "Створити збірку..."
+
+#: contextbrowser.cpp:2355
+msgid "Building Collection Database..."
+msgstr "Будується база даних збірки..."
+
+#: contextbrowser.cpp:2359
+msgid ""
+"Please be patient while amaroK scans your music collection. You can watch the "
+"progress of this activity in the statusbar."
+msgstr ""
+"Будь ласка, зачекайте поки amaroK сканує вашу колекцію музики. Можна "
+"спостерігати за поступом виконання в рядку стану."
+
+#: contextbrowser.cpp:2402
+msgid "live"
+msgstr "live"
+
+#: contextbrowser.cpp:2402
+msgid "acoustic"
+msgstr "acoustic"
+
+#: contextbrowser.cpp:2402
+msgid "cover"
+msgstr "обкладинка"
+
+#: contextbrowser.cpp:2402
+msgid "mix"
+msgstr "mix"
+
+#: contextbrowser.cpp:2403
+msgid "edit"
+msgstr "edit"
+
+#: contextbrowser.cpp:2403
+msgid "medley"
+msgstr "medley"
+
+#: contextbrowser.cpp:2403
+msgid "unplugged"
+msgstr "unplugged"
+
+#: contextbrowser.cpp:2403
+msgid "bonus"
+msgstr "bonus"
+
+#: contextbrowser.cpp:2452
+msgid "Cached Lyrics"
+msgstr "Слова пісні в кешу"
+
+#: contextbrowser.cpp:2474 contextbrowser.cpp:2478 contextbrowser.cpp:2488
+msgid "Fetching Lyrics"
+msgstr "Отримання слів пісні"
+
+#: contextbrowser.cpp:2517
+msgid "Lyrics could not be retrieved because the server was not reachable."
+msgstr "Не вдалось отримати слова пісень, бо неможливо зв'язатись з сервером."
+
+#: contextbrowser.cpp:2560
+msgid "Lyrics not found."
+msgstr "Не знайдено слова пісні."
+
+#: contextbrowser.cpp:2608
+msgid "Lyrics for track not found, here are some suggestions:"
+msgstr "Слова пісні для доріжки не знайдено. Ось декілька пропозицій:"
+
+#: contextbrowser.cpp:2673
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: contextbrowser.cpp:2677 contextbrowser.cpp:2751
+msgid "Fetching Wikipedia Information"
+msgstr "Отримання інформації з Wikipedia"
+
+#: contextbrowser.cpp:2848
+msgid ""
+"Artist information could not be retrieved because the server was not reachable."
+msgstr ""
+"Не вдалось отримати інформацію про виконавця, бо неможливо зв'язатись з "
+"сервером."
+
+#: contextbrowser.cpp:2939
+msgid "Wikipedia Information"
+msgstr "Інформація з Wikipedia"
+
+#: contextbrowser.cpp:2953
+msgid "Wikipedia Other Languages"
+msgstr "Інші мови Wikipedia"
+
+#: collectiondb.cpp:2327
+msgid "MySQL reported the following error:<br>"
+msgstr "MySQL повідомила про наступну помилку:<br>"
+
+#: collectiondb.cpp:2328
+msgid ""
+"<p>You can configure MySQL in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>MySQL можна налаштувати в розділі збірки у меню Параметри->"
+"Налаштувати amaroK.</p>"
+
+#: collectiondb.cpp:2485
+msgid "Postgresql reported the following error:<br>"
+msgstr "Postgresql повідомила про наступну помилку:<br>"
+
+#: collectiondb.cpp:2486
+msgid ""
+"<p>You can configure Postgresql in the Collection section under Settings->"
+"Configure amaroK</p>"
+msgstr ""
+"<p>Postgresql можна налаштувати в розділі збірки у меню Параметри->"
+"Налаштувати amaroK.</p>"
+
+#: analyzers/blockanalyzer.cpp:430
+msgid "Framerate"
+msgstr "Частота кадрів"
+
+#: analyzers/blockanalyzer.cpp:436
+msgid "%1 fps"
+msgstr "%1 кдр/с"
+
+#: analyzers/analyzerfactory.cpp:75 analyzers/analyzerfactory.cpp:116
+msgid "Click for Analyzers"
+msgstr "Клацніть для зміни аналізатора"
+
+#: Options5.ui.h:52
+msgid ""
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
+"<ul>"
+"<li>Title - %1"
+"<li>Album - %2"
+"<li>Artist - %3"
+"<li>Genre - %4"
+"<li>Bitrate - %5"
+"<li>Year - %6"
+"<li>Track Length - %7"
+"<li>Track Number - %8"
+"<li>Filename - %9"
+"<li>Directory - %10"
+"<li>Type - %11"
+"<li>Comment - %12"
+"<li>Score - %13"
+"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
+"with curly-braces, that section will be hidden if the token is empty, for "
+"example:"
+"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
+"if the track has no score."
+msgstr ""
+"<h3>Мітки в індикаторі</h3>Можете використовувати наступні:"
+"<ul>"
+"<li>Заголовок - %1"
+"<li>Альбом - %2"
+"<li>Виконавець - %3"
+"<li>Жанр - %4"
+"<li>Частота - %5"
+"<li>Рік - %6"
+"<li>Тривалість доріжки - %7"
+"<li>Номер доріжки - %8"
+"<li>Назва файла - %9"
+"<li>Каталог - %10"
+"<li>Тип - %11"
+"<li>Коментар - %12"
+"<li>Рахунок - %13"
+"<li>Рахунок програвання - %14</ul>Якщо текст з шаблоном заміни помістити у "
+"фігурні дужки, то цю секція тексту не буде показано, якщо дані для заміни "
+"шаблону відсутні. Наприклад: "
+"<pre>%13</pre>Не покаже <b>Рахунок: <i>%score</i></b>"
+", якщо доріжка не має рахунку."
+
+#: playlist.cpp:239
+msgid "Directory"
+msgstr "Каталог"
+
+#: playlist.cpp:241
+msgid "Bitrate"
+msgstr "Частота"
+
+#: playlist.cpp:243 playlistbrowseritem.cpp:1834
+msgid "Type"
+msgstr "Тип"
+
+#: playlist.cpp:244
+msgid "Playcount"
+msgstr "Рахунок програвання"
+
+#: playlist.cpp:294
+msgid "S&huffle"
+msgstr "Перемі&шати"
+
+#: playlist.cpp:295
+msgid "&Goto Current Track"
+msgstr "&Перейти до поточної доріжки"
+
+#: playlist.cpp:296
+msgid "&Remove Duplicate && Dead Entries"
+msgstr "&Вилучити дублікати і неправильні"
+
+#: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
+msgid "&Queue Selected Tracks"
+msgstr "Поставити вибрані доріжки в &чергу"
+
+#: playlist.cpp:436
+msgid "Attempted to insert nothing into playlist."
+msgstr "Спроба вставити \"нічого\" в список композицій."
+
+#: playlist.cpp:498
+msgid "No tracks were returned to be inserted."
+msgstr "Не повернено жодної доріжки для вставлення."
+
+#: playlist.cpp:536
+msgid "No valid sources set for this Dynamic Playlist."
+msgstr "Немає чинних джерел для динамічного списку."
+
+#: playlist.cpp:560
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Попередження</b></div>Список композицій з заголовком "
+"<i>%1</i> не містить доріжок."
+"<br>"
+"<br>Будь ласка, відредагуйте ваш список композицій або виберіть інше джерело."
+
+#: playlist.cpp:627
+msgid ""
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
+"contains no tracks."
+"<br>"
+"<br>Please modify your smart-playlist or choose a different source."
+msgstr ""
+"<div align=\"center\"><b>Попередження</b></div>Кмітливий список композицій з "
+"заголовком <i>%1</i> не містить доріжок."
+"<br>"
+"<br>Будь ласка, відредагуйте ваш кмітливий список композицій або виберіть інше "
+"джерело."
+
+#: playlist.cpp:1179
+msgid "Playlist finished"
+msgstr "Список композицій завершився"
+
+#: playlist.cpp:1878
+msgid ""
+"<div align=center>"
+"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
+"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
+"double-click</b> them to start playback.</div>"
+msgstr ""
+"<div align=center>"
+"<h3>Список композицій</h3>Це список композицій. Щоб створити список, <b>"
+"перетягніть</b> доріжки з панелей навігації ліворуч, <b>вкиньте</b> "
+"їх сюди, а потім <b>двічі клацніть</b> на них, щоб почати програвання.</div>"
+
+#: playlist.cpp:1886
+msgid ""
+"<div align=center>"
+"<h3>The Browsers</h3>The browsers are the source of all your music. The "
+"collection-browser holds your collection. The playlist-browser holds your "
+"pre-set playlistings. The file-browser shows a file-selector which you can use "
+"to access any music on your computer. </div>"
+msgstr ""
+"<div align=center>"
+"<h3>Навігатори</h3>Навігатори -- це джерело усієї вашої музики. Навігатор "
+"збірок містить вашу збірку. Навігатор списку композицій містить заздалегідь "
+"налаштовані списки програвання. Навігатор файлів показує селектор файлів, яким "
+"ви можете скористатись для доступу до музики на вашому комп'ютері. </div>"
+
+#: playlist.cpp:2050
+msgid "&Hide This Column"
+msgstr "&Сховати цей стовпчик"
+
+#: playlist.cpp:2064
+msgid "Playlist Columns"
+msgstr "Стовпчики списку композицій"
+
+#: playlist.cpp:2609
+msgid ""
+"<p>You have selected the file <i>'%1'</i> to be <b>irreversibly</b> deleted."
+msgstr "<p>Ви хочете видалити файл <i>\"%1\"</i> <b>назавжди</b>."
+
+#: playlist.cpp:2613
+#, c-format
+msgid ""
+"_n: "
+"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"<p>You have selected %n files to be <b>irreversibly</b> deleted."
+msgstr ""
+"<p>Ви хочете видалити %n файл <b>назавжди</b>.\n"
+"<p>Ви хочете видалити %n файли <b>назавжди</b>.\n"
+"<p>Ви хочете видалити %n файлів <b>назавжди</b>."
+
+#: playlist.cpp:2629
+msgid "Deleting files"
+msgstr "Видалення файлів"
+
+#: playlist.cpp:2692
+#, c-format
+msgid "Copied: %1"
+msgstr "Скопійовано: %1"
+
+#: playlist.cpp:3049
+msgid "Load Dynamic Playlist"
+msgstr "Завантажити динамічний список композицій"
+
+#: playlist.cpp:3087
+msgid "&Restart"
+msgstr "Пе&резапустити"
+
+#: playlist.cpp:3108 statusbar/queueLabel.cpp:172
+msgid "&Dequeue Track"
+msgstr "&Забрати доріжку з черги"
+
+#: playlist.cpp:3111
+#, c-format
+msgid ""
+"_n: Toggle &Queue Status (1 track)\n"
+"Toggle &Queue Status (%n tracks)"
+msgstr ""
+"Перемкнути стан &черги (%n доріжка)\n"
+"Перемкнути стан &черги (%n доріжки)\n"
+"Перемкнути стан &черги (%n доріжок)"
+
+#: playlist.cpp:3118
+msgid "&Dequeue Selected Tracks"
+msgstr "&&Забрати вибрані доріжки з черги"
+
+#: playlist.cpp:3127
+msgid "&Stop Playing After Track"
+msgstr "&Зупинити програвання після доріжки"
+
+#: playlist.cpp:3134
+msgid "&Edit Tag '%1'"
+msgstr "&Редагувати мітку \"%1\""
+
+#: playlist.cpp:3135
+msgid "&Edit '%1' Tag for Selected Tracks"
+msgstr "&Редагувати мітку \"%1\" у вибраних доріжках"
+
+#: playlist.cpp:3139
+msgid "&Iteratively Assign Track Numbers"
+msgstr "&Пронумерувати доріжки за порядком"
+
+#: playlist.cpp:3140
+msgid "Write '%1' for Selected Tracks"
+msgstr "Записати \"%1\" у вибраних доріжках"
+
+#: playlist.cpp:3144
+msgid "&Copy Tags to Clipboard"
+msgstr "С&копіювати мітки до кишені"
+
+#: playlist.cpp:3149
+msgid ""
+"_n: This Track\n"
+"Selected Tracks"
+msgstr ""
+"Вибрана доріжка\n"
+"Вибрані доріжки\n"
+"Вибрані доріжки"
+
+#: playlist.cpp:3151
+#, c-format
+msgid "This Album: %1"
+msgstr "Цей альбом: %1"
+
+#: playlist.cpp:3153
+#, c-format
+msgid "All Tracks by %1"
+msgstr "Всі доріжки виконавця %1"
+
+#: playlist.cpp:3159
+msgid "Set as Playlist (Crop)"
+msgstr "Встановити як список композицій"
+
+#: playlist.cpp:3160
+msgid "Save as Playlist..."
+msgstr "Зберегти як список композицій..."
+
+#: playlist.cpp:3164
+msgid "&Remove From Playlist"
+msgstr "&Вилучити зі списку композицій"
+
+#: playlist.cpp:3166
+msgid "&Delete File"
+msgstr "&Видалити файл"
+
+#: playlist.cpp:3167
+msgid "&Delete Selected Files"
+msgstr "&Видалити вибрані файли"
+
+#: playlist.cpp:3308 playlist.cpp:3894
+msgid "Writing tag..."
+msgstr "Запис мітки..."
+
+#: playlist.cpp:3745
+msgid "This file does not exist:"
+msgstr "Цей файл не існує:"
+
+#: playlist.cpp:3783
+#, c-format
+msgid ""
+"<p>You can create a custom column that runs a shell command against each item "
+"in the playlist. The shell command is run as the user <b>nobody</b>"
+", this is for security reasons.\n"
+"<p>You can only run the command against local files for the time being. The "
+"fullpath is inserted at the position <b>%f</b> in the string. If you do not "
+"specify <b>%f</b> it is appended."
+msgstr ""
+"<p>Можна створити спеціальний стовпчик, який виконує команди оболонки для "
+"кожної пісні у списку композицій. З причин безпеки команда оболонки виконується "
+"під користувачем <b>nobody</b>.\n"
+"<p>В даний час команду можна виконувати тільки на локальних файлах. Повний шлях "
+"вставляється в рядок у позиції <b>%f</b>. Якщо не вказано <b>%f</b>"
+", то буде додано."
+
+#: playlist.cpp:3788
+msgid "Column &name:"
+msgstr "Назва &стовпчика:"
+
+#: playlist.cpp:3789
+msgid "&Command:"
+msgstr "&Команда:"
+
+#: playlist.cpp:3794
+msgid "Examples"
+msgstr "Приклади"
+
+#: playlist.cpp:3796
+#, c-format
+msgid ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+msgstr ""
+"file --brief %f\n"
+"ls -sh %f\n"
+"basename %f\n"
+"dirname %f"
+
+#: playlist.cpp:3822
+msgid "Add Custom Column"
+msgstr "Додати свій стовпчик"
+
+#: app.cpp:284
+msgid "Files/URLs to open"
+msgstr "Відкрити файли/URL"
+
+#: app.cpp:286
+msgid "Skip backwards in playlist"
+msgstr "Перескочити назад в списку композицій"
+
+#: app.cpp:288
+msgid "Start playing current playlist"
+msgstr "Почати програвання поточного списку композицій"
+
+#: app.cpp:290
+msgid "Play if stopped, pause if playing"
+msgstr "Грати, якщо зупинено; пауза, якщо грає"
+
+#: app.cpp:291
+msgid "Pause playback"
+msgstr "Призупинити програвання"
+
+#: app.cpp:293
+msgid "Stop playback"
+msgstr "Зупинити програвання"
+
+#: app.cpp:295
+msgid "Skip forwards in playlist"
+msgstr "Перескочити вперед у списку композицій"
+
+#: app.cpp:296
+msgid "Additional options:"
+msgstr "Додаткові параметри:"
+
+#: app.cpp:298
+msgid "Append files/URLs to playlist"
+msgstr "Додати файли/URL до списку композицій"
+
+#: app.cpp:300
+msgid "See append, available for backwards compatability"
+msgstr "Див. додати, наявний для зворотної сумісності"
+
+#: app.cpp:301
+msgid "Queue URLs after the currently playing track"
+msgstr "Поставити адреси URL в чергу після поточної доріжки"
+
+#: app.cpp:303
+msgid "Toggle the Playlist-window"
+msgstr "Показати/сховати вікно списку композицій"
+
+#: app.cpp:304
+msgid "Run first-run wizard"
+msgstr "Запустити майстер першого запуску"
+
+#: app.cpp:305
+msgid "Use the <name> engine"
+msgstr "Вживати рушій <name>"
+
+#: app.cpp:306
+msgid "Base for relative filenames/URLs"
+msgstr "Основа для відносних назв файлів / адрес URL"
+
+#: app.cpp:334
+msgid "Increase Volume"
+msgstr "Збільшити гучність"
+
+#: app.cpp:336
+msgid "Decrease Volume"
+msgstr "Зменшити гучність"
+
+#: app.cpp:338
+msgid "Seek Forward"
+msgstr "Пошук вперед"
+
+#: app.cpp:340
+msgid "Seek Backward"
+msgstr "Пошук назад"
+
+#: app.cpp:342
+msgid "Add Media..."
+msgstr "Додати пісні..."
+
+#: app.cpp:344
+msgid "Toggle Playlist Window"
+msgstr "Показати/сховати вікно списку композицій"
+
+#: app.cpp:346
+msgid "Show OSD"
+msgstr "Показувати індикатор"
+
+#: app.cpp:348
+msgid "Mute Volume"
+msgstr "Вимкнути звук"
+
+#: app.cpp:434
+msgid ""
+"<p>You are using a processor with the <i>HyperThreading</i> "
+"feature enabled. Please note that amaroK may be unstable with this "
+"configuration.</p>"
+"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p>"
+"<p>More information can be found in the README file. For further assistance "
+"join us at #amarok on irc.freenode.net.</p>"
+msgstr ""
+"<p>Ви використовуєте процесор з увімкненою функціональністю <i>"
+"HyperThreading</i>. Будь ласка, майте на увазі, що з такою конфігурацією amaroK "
+"може працювати нестабільно.</p>"
+"<p>Якщо у вас виникнуть проблеми, то скористайтесь параметром ядра Linux "
+"\"NOHT\" або вимкніть <i>HyperThreading</i> у вашому BIOS.</p>"
+"<p>Більше інформації можна знайти у файлі README. Для подальшої допомоги "
+"приєднайтесь до #amarok на irc.freenode.net.</p>"
+
+#: app.cpp:507 app.cpp:840 app.cpp:858
+msgid "Playlist"
+msgstr "Список композицій"
+
+#: app.cpp:754
+msgid "Append && &Play"
+msgstr "Додати і &грати"
+
+#: app.cpp:817
+msgid ""
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
+"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+msgstr ""
+"<qt>При закритті головного вікна amaroK продовжуватиме працювати у системному "
+"лотку. Щоб вийти з програми, вживайте <B>Вийти</B> з меню або піктограму amaroK "
+"в системному лотку.</qt>"
+
+#: app.cpp:819
+msgid "Docking in System Tray"
+msgstr "Швартування в системному лотку"
+
+#: app.cpp:853
+msgid "Paused"
+msgstr "Пауза"
+
+#: app.cpp:886
+msgid "Volume: %1%"
+msgstr "Гучність: %1%"
+
+#: app.cpp:886
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#: statusbar/timeLabel.h:45
+msgid "Time Display"
+msgstr "Індикатор часу"
+
+#: statusbar/timeLabel.h:46
+msgid "Normal"
+msgstr "Звичайний"
+
+#: statusbar/timeLabel.h:47
+msgid "Remaining"
+msgstr "Залишилося"
+
+#: statusbar/statusBarBase.cpp:117
+msgid "Abort all background-operations"
+msgstr "Перервати всі фонові дії"
+
+#: statusbar/statusBarBase.cpp:118
+msgid "Show progress detail"
+msgstr "Показати подробиці поступу"
+
+#: statusbar/statusBarBase.cpp:250
+msgid "Multiple background-tasks running"
+msgstr "Виконуються декілька фонових завдань"
+
+#: statusbar/statusBarBase.cpp:422
+msgid "Aborting all jobs..."
+msgstr "Переривання всіх робіт..."
+
+#: statusbar/statusbar.cpp:127
+msgid "amaroK is paused"
+msgstr "відтворення призупинене"
+
+#: statusbar/statusbar.cpp:155
+msgid ""
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
+"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
+"<p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser"
+"<br>The many other people who have helped make amaroK what it is</p>"
+msgstr ""
+"<p>Одна з найкращих праць Майка Олдфілда, Amarok, стала натхненням для назви "
+"аудіо-програвача, яким ви зараз користуєтесь. Дякуємо, за те що ви вибрали "
+"amaroK!</p><p align=right>Mark Kretschmann"
+"<br>Max Howell"
+"<br>Chris Muehlhaeuser "
+"<br>Й багато інших розробників, які працювали для успіху amaroK</p>"
+
+#: statusbar/statusbar.cpp:163
+msgid ""
+"_: track by artist on album\n"
+"<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> - <b>%2</b> на <b>%3</b>"
+
+#: statusbar/statusbar.cpp:167
+msgid ""
+"_: track by artist\n"
+"<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> - <b>%2</b>"
+
+#: statusbar/statusbar.cpp:172
+msgid ""
+"_: track on album\n"
+"<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> на <b>%2</b>"
+
+#: statusbar/statusbar.cpp:178
+msgid "Unknown track"
+msgstr "Невідома доріжка"
+
+#: statusbar/statusbar.cpp:187
+#, c-format
+msgid "Playing: %1"
+msgstr "Програється: %1"
+
+#: statusbar/statusbar.cpp:201
+msgid "%1 selected of %2 visible of %3 tracks"
+msgstr "Вибрано доріжок %1 з %2 показаних з %3"
+
+#: statusbar/statusbar.cpp:203
+msgid "0 visible of 1 track"
+msgstr "Показано доріжок 0 з 1"
+
+#: statusbar/statusbar.cpp:204
+msgid "%1 visible of %2 tracks"
+msgstr "Показано доріжок %1 з %2"
+
+#: statusbar/statusbar.cpp:205
+msgid "%1 selected of %2 tracks"
+msgstr "Вибрано доріжок %1 з %2"
+
+#: statusbar/statusbar.cpp:206
+#, c-format
+msgid ""
+"_n: 1 track\n"
+"%n tracks"
+msgstr ""
+"%n доріжка\n"
+"%n доріжки\n"
+"%n доріжок"
+
+#: statusbar/statusbar.cpp:208
+msgid " - [ %1 / %2 / %3 ]"
+msgstr " - [ %1 / %2 / %3 ]"
+
+#: statusbar/statusbar.cpp:212
+msgid " - [ %1 / %2 ]"
+msgstr " - [ %1 / %2 ]"
+
+#: statusbar/statusbar.cpp:216
+msgid " - [ %1 ]"
+msgstr " - [ %1 ]"
+
+#: statusbar/queueLabel.cpp:169
+#, c-format
+msgid ""
+"_n: 1 Queued Track\n"
+"%n Queued Tracks"
+msgstr ""
+"%n доріжка в черзі\n"
+"%n доріжки в черзі\n"
+"%n доріжок в черзі"
+
+#: statusbar/queueLabel.cpp:172
+msgid "Dequeue All Tracks"
+msgstr "Забрати з черги всі доріжки"
+
+#: statusbar/queueLabel.cpp:183
+msgid "%1. %2"
+msgstr "%1. %2"
+
+#: statusbar/queueLabel.cpp:189
+#, c-format
+msgid ""
+"_n: 1 More Track\n"
+"%n More Tracks"
+msgstr ""
+"ще %n доріжка\n"
+"ще %n доріжки\n"
+"ще %n доріжок"
+
+#: statusbar/queueLabel.cpp:244
+msgid ""
+"_n: 1 track queued: %1\n"
+"%n tracks queued, next one is: %1"
+msgstr ""
+"%n доріжка в черзі, наступна: %1\n"
+"%n доріжки в черзі, наступна: %1\n"
+"%n доріжок в черзі, наступна: %1"
+
+#: statusbar/progressBar.cpp:92
+msgid "Done"
+msgstr "Завершено"
+
+#: statusbar/progressBar.cpp:96
+msgid "Aborted"
+msgstr "Перервано"
+
+#: statusbar/progressBar.cpp:106
+msgid "Aborting..."
+msgstr "Переривання..."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: on"
+msgstr "%1: увімк."
+
+#: statusbar/toggleLabel.h:115
+msgid "%1: off"
+msgstr "%1: вимк."
+
+#: statusbar/toggleLabel.h:118
+msgid "&nbsp;<br>&nbsp;<i>Disabled</i>"
+msgstr "&nbsp;<br>&nbsp;<i>Вимкнено</i>"
+
+#: osd.cpp:353
+msgid "OSD Preview - drag to reposition"
+msgstr "Вигляд індикатора - перетягніть мишкою, щоб змінити позицію"
+
+#: osd.cpp:457
+msgid "No track playing"
+msgstr "Жодна доріжка не програється"
+
+#: osd.cpp:556
+msgid "No information available for this track"
+msgstr "Немає інформації для цієї доріжки"
+
+#: coverfetcher.cpp:41
+msgid "disc"
+msgstr "disc"
+
+#: coverfetcher.cpp:41
+msgid "disk"
+msgstr "disk"
+
+#: coverfetcher.cpp:41
+msgid "remaster"
+msgstr "remaster"
+
+#: coverfetcher.cpp:41
+msgid "cd"
+msgstr "cd"
+
+#: coverfetcher.cpp:41
+msgid "single"
+msgstr "single"
+
+#: coverfetcher.cpp:41
+msgid "soundtrack"
+msgstr "soundtrack"
+
+#: coverfetcher.cpp:41
+msgid "part"
+msgstr "part"
+
+#: coverfetcher.cpp:109 coverfetcher.cpp:298
+msgid "No cover found"
+msgstr "Обкладинки не знайдено"
+
+#: coverfetcher.cpp:171
+msgid "The XML obtained from Amazon is invalid."
+msgstr "З Amazon отримано не чинний формат XML."
+
+#: coverfetcher.cpp:233
+msgid "The cover could not be retrieved."
+msgstr "Не вдалось отримати обкладинку."
+
+#: coverfetcher.cpp:244
+msgid "The cover-data produced an invalid image."
+msgstr "Помилка в зображенні обкладинки."
+
+#: coverfetcher.cpp:295
+msgid ""
+"You have seen all the covers Amazon returned using the query below. Perhaps you "
+"can refine it:"
+msgstr ""
+"Ви вже бачили всі обкладинки, знайдені на Amazon по запиту нижче. Можливо, "
+"спробуйте його уточнити:"
+
+#: coverfetcher.cpp:310
+msgid "Amazon Query Editor"
+msgstr "Редактор запитів Amazon"
+
+#: coverfetcher.cpp:316
+msgid "&Search"
+msgstr "&Пошук"
+
+#: coverfetcher.cpp:343
+msgid "Ask Amazon for covers using this query:"
+msgstr "Знайти на Amazon обкладинку цим запитом:"
+
+#: coverfetcher.cpp:358 coverfetcher.cpp:427
+msgid "Aborted."
+msgstr "Перервано."
+
+#: coverfetcher.cpp:379
+msgid "New &Search..."
+msgstr "Новий &пошук..."
+
+#: coverfetcher.cpp:380
+msgid "Next &Cover"
+msgstr "Наступна &обкладинка"
+
+#: coverfetcher.cpp:390
+msgid "Cover Found"
+msgstr "Обкладинку знайдено"
+
+#: amarokcore/main.cpp:27 konquisidebar/universalamarok.cpp:173
+msgid "amaroK"
+msgstr "amaroK"
+
+#: amarokcore/main.cpp:28
+msgid "The audio player for KDE"
+msgstr "Аудіо-програвач для KDE"
+
+#: amarokcore/main.cpp:29
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, The amaroK Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2006, Команда розробників amaroK"
+
+#: amarokcore/main.cpp:30
+msgid ""
+"IRC:\n"
+"server: irc.freenode.net / channels: #amarok #amarok.de\n"
+"\n"
+"Feedback:\n"
+"amarok-devel@lists.sourceforge.net"
+msgstr ""
+"IRC:\n"
+"сервер: irc.freenode.net / канали: #amarok #amarok.de\n"
+"\n"
+"Відгуки:\n"
+"amarok-devel@lists.sourceforge.net"
+
+#: amarokcore/main.cpp:31
+msgid "http://amarok.kde.org"
+msgstr "http://amarok.kde.org"
+
+#: amarokcore/main.cpp:36
+msgid "Babe-Magnet"
+msgstr "Красунчик"
+
+#: amarokcore/main.cpp:37
+msgid "Stud (muesli)"
+msgstr "Вогир (muesli)"
+
+#: amarokcore/main.cpp:39
+msgid "733t code, OSD improvement, patches (Larson)"
+msgstr "Код 733t, вдосконалення індикатора, латки (Larson)"
+
+#: amarokcore/main.cpp:40
+msgid "It's good, but it's not irssi"
+msgstr "Це добре, але це не irssi"
+
+#: amarokcore/main.cpp:41
+msgid "Project founder (markey)"
+msgstr "Засновник проекту (markey)"
+
+#: amarokcore/main.cpp:42
+msgid "Turtle-Power'"
+msgstr "Черепаша сила"
+
+#: amarokcore/main.cpp:43
+msgid "Cowboy mxcl"
+msgstr "Ковбой mxcl"
+
+#: amarokcore/main.cpp:44
+msgid "Purple is not girly!"
+msgstr "Фіолетовий - не дівчачий!"
+
+#: amarokcore/main.cpp:45
+msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
+msgstr "DCOP, вдосконалення, безцінний супровід підручника (madpenguin8)"
+
+#: amarokcore/main.cpp:46
+msgid "Spaghetti Coder"
+msgstr "Кодувальник спагетті"
+
+#: amarokcore/main.cpp:47
+msgid "Playlist-browser, cover-manager (teax)"
+msgstr "Навігатор списку композицій, менеджер обкладинок (teax)"
+
+#: amarokcore/main.cpp:48
+msgid "And God said, let there be Mac"
+msgstr "І Бог сказав, нехай буде Мак"
+
+#: amarokcore/main.cpp:49
+msgid "amaroK logo, splash screen, icons"
+msgstr "логотип amaroK, екран заставки, піктограми"
+
+#: amarokcore/main.cpp:50
+msgid "Surfin' down under"
+msgstr "Подорожній"
+
+#: amarokcore/main.cpp:51
+msgid "Playlist-browser, Dynamic-mode, Queue-manager (sebr)"
+msgstr ""
+"Навігатор списку композицій, динамічний режим, менеджер обкладинок (sebr)"
+
+#: amarokcore/main.cpp:52
+msgid "All you need is DCOP"
+msgstr "Все, що вам потрібно - це DCOP"
+
+#: amarokcore/main.cpp:53
+msgid "DCOP, improvements, cleanups, i18n (berkus)"
+msgstr "DCOP, вдосконалення, чистки, i18n (berkus)"
+
+#: amarokcore/main.cpp:56
+msgid "Analyzers, patches"
+msgstr "Аналізатори, латки"
+
+#: amarokcore/main.cpp:57
+msgid "Patches"
+msgstr "Латки"
+
+#: amarokcore/main.cpp:58
+msgid "Improvements, Bugfixes"
+msgstr "Вдосконалення, виправлення помилок"
+
+#: amarokcore/main.cpp:59
+msgid "MySQL support"
+msgstr "Підтримка MySQL"
+
+#: amarokcore/main.cpp:60
+msgid "Postgresql support"
+msgstr "Підтримка Postgresql"
+
+#: amarokcore/main.cpp:61
+msgid "First-run wizard, usability"
+msgstr "Майстер першого запуску, зручність в користуванні"
+
+#: amarokcore/main.cpp:62
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr "Аналізатори, навігатор контексту і піктограма системного лотка"
+
+#: amarokcore/main.cpp:63
+msgid "amaroK application icon 'Blue Wolf'"
+msgstr "Піктограма програми amaroK - \"Блакитний вовк\""
+
+#: amarokcore/main.cpp:64
+msgid "icons and image work"
+msgstr "піктограми та зображення"
+
+#: amarokcore/main.cpp:65
+msgid "Fabulous help with our pre 1.2 bug-avalanche"
+msgstr "Безцінна допомога у виправлення помилок для 1.2"
+
+#: amarokcore/main.cpp:66
+msgid ""
+"handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
+msgstr ""
+"вдосконалення довідки, переклади, виправлення помилок, знімки екрана "
+"(apachelogger)"
+
+#: amarokcore/main.cpp:67
+msgid "Patches, Ruby script template (eean)"
+msgstr "Латки, шаблон скрипту Ruby (eean)"
+
+#: amarokcore/main.cpp:68
+msgid "Tester, IRC channel operator, whipping"
+msgstr "Випробовування, оператор каналу IRC, поради"
+
+#: amarokcore/main.cpp:69
+msgid "Icons"
+msgstr "Піктограми"
+
+#: amarokcore/main.cpp:70
+msgid "amaroK webmaster"
+msgstr "Вебмайстер amaroK"
+
+#: amarokcore/main.cpp:71
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr "Бічна панель Konqueror, деякі методи DCOP"
+
+#: amarokcore/main.cpp:72
+msgid "FHT routine, bugfixes"
+msgstr "Код FHT, виправлення помилок"
+
+#: amarokcore/main.cpp:73
+msgid "K3B export code"
+msgstr "режим експортування в K3B"
+
+#: amarokcore/main.cpp:74
+msgid "Splash screen"
+msgstr "Екран заставки"
+
+#: amarokcore/main.cpp:75
+msgid "Website hosting"
+msgstr "Хостинг сайту"
+
+#: amarokcore/main.cpp:76
+msgid "HelixPlayer engine"
+msgstr "Двигун HelixPlayer"
+
+#: amarokcore/main.cpp:77
+msgid "Wikipedia support, patches"
+msgstr "Підтримка Wikipedia, латки"
+
+#: amarokcore/main.cpp:78
+msgid "MAS engine"
+msgstr "Рушій MAS"
+
+#: amarokcore/main.cpp:79
+msgid "Audioscrobbler support"
+msgstr "Підтримка Audioscrobbler"
+
+#: amarokcore/main.cpp:80
+msgid "TagLib & ktrm code"
+msgstr "код для TagLib і ktrm"
+
+#: amarokcore/main.cpp:81
+msgid "Loadsa stuff"
+msgstr "Loadsa"
+
+#: amarokcore/main.cpp:82
+msgid "Patches, Bugfixes"
+msgstr "Латки, виправлення помилок"
+
+#: amarokcore/main.cpp:83
+msgid "Tester, patches"
+msgstr "Випробовування, латки"
+
+#: amarokcore/crashhandler.cpp:75
+msgid ""
+"amaroK has crashed! We're terribly sorry about this :(\n"
+"\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK has "
+"attached a backtrace that describes the crash, so just click send, or if you "
+"have time, write a brief description of how the crash happened first.\n"
+"\n"
+"Many thanks.\n"
+"\n"
+msgstr ""
+"amaroK зазнав краху! Просимо вибачення за це :(\n"
+"\n"
+"Але, ще не все втрачено! Ви, потенційно, можете допомогти нам полагодити крах. "
+"amaroK створив зворотне трасування, яке описує крах, отже, просто натисніть "
+"Надіслати або, якщо ви маєте час, напишіть короткий опис обставин, при яких "
+"трапився крах.\n"
+"\n"
+"Дуже дякуємо.\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:80
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"The information below is to help the developers identify the problem, please do "
+"not modify it.\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"Інформація нижче потрібна для розробників, щоб знайти проблему. Будь ласка, не "
+"змінюйте.\n"
+"\n"
+"\n"
+"\n"
+
+#: amarokcore/crashhandler.cpp:249
+msgid "Send Email"
+msgstr "Надіслати ел. пошту"
+
+#: amarokcore/crashhandler.cpp:257
+msgid "Crash Handler"
+msgstr "Аналізатор крахів"
+
+#: playlistbrowseritem.cpp:640
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: playlistbrowseritem.cpp:646
+msgid " - [%2]"
+msgstr " - [%2]"
+
+#: playlistbrowseritem.cpp:882
+msgid "Add Radio Stream"
+msgstr "Додати радіо-потік"
+
+#: playlistbrowseritem.cpp:886 playlistbrowseritem.cpp:907
+msgid "&Name:"
+msgstr "&Назва:"
+
+#: playlistbrowseritem.cpp:890 playlistbrowseritem.cpp:911
+msgid "&Url:"
+msgstr "&Url:"
+
+#: playlistbrowseritem.cpp:903
+msgid "Edit Radio Stream"
+msgstr "Редагувати радіо-потік"
+
+#: playlistbrowseritem.cpp:1049 playlistbrowseritem.cpp:1214
+msgid "Retrieving Podcast..."
+msgstr "Отримання Podcast..."
+
+#: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
+msgid "Moving Podcasts"
+msgstr "Пересування Podcast"
+
+#: playlistbrowseritem.cpp:1223
+msgid "Fetching Podcast"
+msgstr "Отримання Podcast"
+
+#: playlistbrowseritem.cpp:1247
+msgid "Unable to connect to Podcast server."
+msgstr "Не вдається з'єднатися з сервером Podcast."
+
+#: playlistbrowseritem.cpp:1265
+msgid "Podcast returned invalid data."
+msgstr "Podcast повернув не чинні дані."
+
+#: playlistbrowseritem.cpp:1280
+msgid "Sorry, only RSS 2.0 feeds for podcasts!"
+msgstr "Вибачте, для podcast підтримуються тільки подачі RSS 2.0!"
+
+#: playlistbrowseritem.cpp:1405
+msgid "Url"
+msgstr "Url"
+
+#: playlistbrowseritem.cpp:1406
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: playlistbrowseritem.cpp:1407
+msgid "Copyright"
+msgstr "Авторські права"
+
+#: playlistbrowseritem.cpp:1408 playlistbrowseritem.cpp:1835
+msgid "Description"
+msgstr "Опис"
+
+#: playlistbrowseritem.cpp:1412 playlistbrowseritem.cpp:1838
+msgid "Podcast Information"
+msgstr "Інформація про Podcast"
+
+#: playlistbrowseritem.cpp:1537
+msgid "New podcasts have been retrieved!"
+msgstr "Отримано нові Podcast!"
+
+#: playlistbrowseritem.cpp:1723
+msgid "Downloading Media..."
+msgstr "Завантаження медіа..."
+
+#: playlistbrowseritem.cpp:1733
+msgid "Downloading Podcast Media"
+msgstr "Завантаження медіа Podcast"
+
+#: playlistbrowseritem.cpp:1757
+msgid "Media download aborted, unable to connect to server."
+msgstr "Завантаження медіа припинено, не вдається з'єднатись з сервером."
+
+#: playlistbrowseritem.cpp:1831
+msgid "Author"
+msgstr "Автор"
+
+#: playlistbrowseritem.cpp:1832
+msgid "Date"
+msgstr "Дата"
+
+#: filebrowser.cpp:132
+msgid "Enter space-separated terms to filter the directory-listing"
+msgstr "Введіть, розділені пропусками, слова для фільтрування списку каталогів"
+
+#: filebrowser.cpp:186
+msgid "&Select All Files"
+msgstr "&Вибрати всі файли"
+
+#: filebrowser.cpp:433
+msgid ""
+"<div align=center>Enter a search term above; you can use wildcards like * and "
+"?</div>"
+msgstr ""
+"<div align=center>Вище введіть рядок пошуку; можна використовувати шаблони "
+"підстановки, такі як * та ?</div>"
+
+#: filebrowser.cpp:476
+msgid "Search here..."
+msgstr "Шукати тут..."
+
+#: filebrowser.cpp:489
+msgid "&Show Search Panel"
+msgstr "&Показати панель пошуку"
+
+#: filebrowser.cpp:532
+msgid "Searching..."
+msgstr "Пошук..."
+
+#: filebrowser.cpp:565
+msgid "No results found"
+msgstr "Нічого не знайдено"
+
+#: firstrunwizard.ui.h:68
+msgid "&Skip"
+msgstr "Пропу&стити"
+
+#: effectwidget.cpp:44
+msgid "Effects"
+msgstr "Ефекти"
+
+#: effectwidget.cpp:60
+msgid "Available Effects"
+msgstr "Наявні ефекти"
+
+#: effectwidget.cpp:61
+msgid "Active Effects"
+msgstr "Активні ефекти"
+
+#~ msgid "Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
+#~ msgstr "Tunepimp (бібліотека міток для MusicBrainz) повернула наступну помилку: \"%1\"."

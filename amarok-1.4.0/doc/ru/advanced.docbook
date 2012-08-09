@@ -1,0 +1,975 @@
+<chapter id="advanced-features">
+<title
+>Дополнительные свойства amaroK</title>
+
+
+<sect1 id="keybd-shortcuts">
+<title
+>Комбинации клавиш</title>
+
+<para
+>Как и в большинстве других приложений, в &amarok;, для удобства использования доступны комбинации клавиш. Ниже дан список этих комбинаций и соответствующих им действий. Общесистемные комбинации клавиш могут быть настроены отдельно. Для этого нажмите правую кнопку мыши в окне проигрывателя и выберите <guimenuitem
+>Глобальные комбинации клавиш...</guimenuitem
+>. Комбинации клавиш &amarok; могут быть сконфигурированы в меню <guimenuitem
+>Настройка комбинаций клавиш...</guimenuitem
+> (правая кнопка мыши в окне проигрывателя).</para>
+
+<tip
+><para
+>Вы можете настроить клавиши мультимедийной клавиатуры для работы в &amarok;. Комбинации клавиш сделают из вашей клавиатуры центр управления &amarok;.</para
+></tip>
+
+<para
+>Общие комбинации клавиш:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Комбинация</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>X</keycap
+></keycombo
+></entry>
+<entry
+>Воспроизведение</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Пауза</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>V</keycap
+></keycombo
+></entry>
+<entry
+>Остановить</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>B</keycap
+></keycombo
+></entry>
+<entry
+>Следующая дорожка</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Предыдущая дорожка</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Add</keycap
+></keycombo
+></entry>
+<entry
+>Увеличить громкость</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>KP_Subtract</keycap
+></keycombo
+></entry>
+<entry
+>Уменьшить громкость</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Добавить файл по его URL</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>P</keycap
+></keycombo
+></entry>
+<entry
+>Показать/скрыть список воспроизведения</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Win</keycap
+><keycap
+>O</keycap
+></keycombo
+></entry>
+<entry
+>Вывести индикатор</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Комбинации клавиш &amarok;</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Комбинация</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>C</keycap
+></keycombo
+></entry>
+<entry
+>Копировать</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>KP_Enter</keycap
+></keycombo
+></entry>
+<entry
+>Перейти к текущей</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Q</keycap
+></keycombo
+></entry>
+<entry
+>Выход</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Shift</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Повторить отмененное действие</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>S</keycap
+></keycombo
+></entry>
+<entry
+>Сохранить список воспроизведения</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>A</keycap
+></keycombo
+></entry>
+<entry
+>Выбрать всё</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>H</keycap
+></keycombo
+></entry>
+<entry
+>В случайном порядке</entry>
+</row>
+
+<row>
+<entry
+><keycombo
+><keycap
+>Ctrl</keycap
+><keycap
+>Z</keycap
+></keycombo
+></entry>
+<entry
+>Отменить действие</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+<para
+>Комбинации клавиш списка воспроизведения:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Комбинация</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+><keycap
+>Пробел</keycap
+></entry>
+<entry
+>Загрузить список воспроизведения</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>F2</keycap
+></entry>
+<entry
+>Переименовать список воспроизведения</entry>
+</row>
+
+<row>
+<entry
+><keycap
+>Backspace</keycap
+></entry>
+<entry
+>Удалить список воспроизведения</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+<sect1 id="the-dcop-interface">
+<title
+>Интерфейс DCOP</title>
+
+<para
+>Интерфейс DCOP позволяет вам без труда управлять amaroK, используя ваши собственные скрипты.</para>
+
+<para
+>Интерфейс DCOP для amaroK содержит ряд функций, характерных для всех приложений KDE. В этом разделе Вы найдёте описание функций DCOP. Пример dcop-функции <quote
+>pause</quote
+> (пауза) будет выглядеть следующим образом:</para>
+
+<para
+><prompt
+>&percnt;</prompt
+>dcop amarok player pause</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Функции DCOP</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>album</entry>
+<entry
+>Функция <quote
+>album</quote
+> показывает название альбома проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>artist</entry>
+<entry
+>Функция <quote
+>artist</quote
+> показывает информацию об исполнителе проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>bitrate</entry>
+<entry
+>Функция <quote
+>bitrate</quote
+> показывает информацию о битрейте проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>comment</entry>
+<entry
+>Функция <quote
+>comment</quote
+> показывает комментарии к проигрываемой дорожке.</entry>
+</row>
+
+<row>
+<entry
+>coverImage</entry>
+<entry
+>Функция <quote
+>coverImage</quote
+> показывает URL к обложке альбома проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>currentTime</entry>
+<entry
+>Фукция <quote
+>currentTime</quote
+> показывает текущее время (минуты:секунды) проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>encodedURL</entry>
+<entry
+>Функция <quote
+>encodedURL</quote
+> показывает URL текущей дорожки.</entry>
+</row>
+
+<row>
+<entry
+>genre</entry>
+<entry
+>Функция <quote
+>genre</quote
+> показывает информацию о жанре проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>nowPlaying</entry>
+<entry
+>Функция <quote
+>nowPlaying</quote
+> показывает "Исполнитель - Название" проигрываемой дорожки. Если один из двух id3 тегов пуст, то будет показан только "Исполнитель" или "Название" (без знаков "-").</entry>
+</row>
+
+<row>
+<entry
+>title</entry>
+<entry
+>Функция <quote
+>title</quote
+> показывает название проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>totalTime</entry>
+<entry
+>Функция <quote
+>totalTime</quote
+> показывает общее время (мунуты:секунды) проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>track</entry>
+<entry
+>Функция <quote
+>track</quote
+> возвращает номер дорожки текущей композиции.</entry>
+</row>
+
+<row>
+<entry
+>year</entry>
+<entry
+>Функция <quote
+>year</quote
+> показывает информацию о годе проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>isPlaying</entry>
+<entry
+>Функция <quote
+>isPlaying</quote
+> - воспроизводится ли музыка в данный момент.</entry>
+</row>
+
+<row>
+<entry
+>randomModeStatus</entry>
+<entry
+>Функция <quote
+>randomModeStatus</quote
+> возвращает статус режима вразброс (true/false).</entry>
+</row>
+
+<row>
+<entry
+>repeatPlaylistStatus</entry>
+<entry
+>Функция <quote
+>repeatPlaylistStatus</quote
+> возвращает статус режима повтора списка (true/false).</entry>
+</row>
+
+<row>
+<entry
+>repeatTrackStatus</entry>
+<entry
+>Функция <quote
+>repeatTrackStatus</quote
+> возвращает статус режима повтора композиции (true/false).</entry>
+</row>
+
+<row>
+<entry
+>getVolume</entry>
+<entry
+>Функция <quote
+>getVolume</quote
+> показывает уровень звука по шкале от 0 до 100.</entry>
+</row>
+
+<row>
+<entry
+>sampleRate</entry>
+<entry
+>Функция <quote
+>sampleRate</quote
+> возвращает частоту дискретизации проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>score</entry>
+<entry
+>Функция <quote
+>score</quote
+> возвращает счёт проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>status</entry>
+<entry
+>Функция <quote
+>status</quote
+> возвращает статус воспроизведения. 2 - воспроизведение, 1 - пауза, 0 - остановлено.</entry>
+</row>
+
+<row>
+<entry
+>trackCurrentTime</entry>
+<entry
+>Функция <quote
+>trackCurrentTime</quote
+> показывает сколько играет текущая дорожка (в секундах).</entry>
+</row>
+
+<row>
+<entry
+>trackTotalTime</entry>
+<entry
+>Функция <quote
+>trackTotalTime</quote
+> показывает информацию о длительности текущей дорожки в секундах.</entry>
+</row>
+
+<row>
+<entry
+>addMedia</entry>
+<entry
+>Функция <quote
+>addMedia</quote
+> используется для добавления файлов в список воспроизведения по их URL (по ожному за раз).</entry>
+</row>
+
+<row>
+<entry
+>addMediaList</entry>
+<entry
+>Функция <quote
+>addMediaList</quote
+> используется для добавления нескольких файлов в список воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>clearPlaylist</entry>
+<entry
+>Очищает список воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>configEqualizer</entry>
+<entry
+>Вызывает окно конфигурации.</entry>
+</row>
+
+<row>
+<entry
+>enableOSD</entry>
+<entry
+>Функция <quote
+>enableOSD</quote
+> позволяет показать/скрыть индикатор (On-Screen-Display).</entry>
+</row>
+
+<row>
+<entry
+>enableRandomMode</entry>
+<entry
+>Функция <quote
+>enableRandomMode</quote
+> используется для включения/выключения случайного режима. 0 - выключить, 1 - включить.</entry>
+</row>
+
+<row>
+<entry
+>mute</entry>
+<entry
+>Функция <quote
+>mute</quote
+> позволяет включить/отключить звук проигрываемой дорожки.</entry>
+</row>
+
+<row>
+<entry
+>next</entry>
+<entry
+>Функция <quote
+>next</quote
+> - переход к следующей дорожке.</entry>
+</row>
+
+<row>
+<entry
+>pause</entry>
+<entry
+>Функция <quote
+>pause</quote
+> - пауза.</entry>
+</row>
+
+<row>
+<entry
+>play</entry>
+<entry
+>Функция <quote
+>play</quote
+> начинает проигрывание с места последней остановки.</entry>
+</row>
+
+<row>
+<entry
+>playMedia</entry>
+<entry
+>Проигрывает файл, указанный в KURL.</entry>
+</row>
+
+<row>
+<entry
+>playPause</entry>
+<entry
+>Функция <quote
+>playPause</quote
+> запускает проигрыватель если он стоит на паузе или остановлен командой стоп. Если во время ввода команды проигрывается какая-либо дорожка, то воспроизведение будет приостановлено.</entry>
+</row>
+
+<row>
+<entry
+>prev</entry>
+<entry
+>Функция <quote
+>prev</quote
+> - переход к предыдущей дорожке.</entry>
+</row>
+
+<row>
+<entry
+>saveCurrentPlaylist</entry>
+<entry
+>Сохраняет текущий список в ~/.kde/share/apps/amarok/current.xml.</entry>
+</row>
+
+
+<row>
+<entry
+>scanCollection</entry>
+<entry
+>Запускает сканирование коллекции.</entry>
+</row>
+
+<row>
+<entry
+>seek</entry>
+<entry
+>Функция <quote
+>seek</quote
+> позволяет пероейти к определенному месту в дорожке, заданому в секундах.</entry>
+</row>
+
+<row>
+<entry
+>seekRelative</entry>
+<entry
+>Переместить позицию воспроизведения на указанное количество секунд.</entry>
+</row>
+
+<row>
+<entry
+>setEqualizerEnabled</entry>
+<entry
+>Включает эквалайзер (true/false).</entry>
+</row>
+
+<row>
+<entry
+>setVolume</entry>
+<entry
+>Функция <quote
+>setVolume</quote
+> позволяет установить уровень звука по шкале от 0 до 100.</entry>
+</row>
+
+<row>
+<entry
+>showOSD</entry>
+<entry
+>Показывает индикатор с текущей информацией.</entry>
+</row>
+
+<row>
+<entry
+>stop</entry>
+<entry
+>Функция <quote
+>stop</quote
+> останавливет проигрывание дорожки.</entry>
+</row>
+
+<row>
+<entry
+>togglePlaylist</entry>
+<entry
+>Функция <quote
+>togglePlaylist</quote
+> показывает/скрывает список воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>volumeDown</entry>
+<entry
+>Функция <quote
+>volumeDown</quote
+> уменьшает уровень звука на одну единицу.</entry>
+</row>
+
+<row>
+<entry
+>volumeUp</entry>
+<entry
+>Функция <quote
+>volumeUp</quote
+> повышает уровень звука на одну единицу.</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+<sect1 id="cmd-line-options">
+<title
+>Опции командной строки</title>
+
+<para
+>amaroK поддерживает использование стандартных опций Qt и kde.Так же у amaroK существуют свои собственные опции.</para>
+
+<para
+>Опции Qt и kde:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Опция</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>--help</entry>
+<entry
+>Показывает справку по ключам командной строки</entry>
+</row>
+
+<row>
+<entry
+>--help-qt</entry>
+<entry
+>Показывает специфические Qt ключи</entry>
+</row>
+
+<row>
+<entry
+>--help-kde</entry>
+<entry
+>Показывает специфические KDE ключи</entry>
+</row>
+
+<row>
+<entry
+>--help-all</entry>
+<entry
+>Показывает все ключи</entry>
+</row>
+
+<row>
+<entry
+>--author</entry>
+<entry
+>Показывает информацию об авторах.</entry>
+</row>
+
+<row>
+<entry
+>-v, --version</entry>
+<entry
+>Показывает информацию о версии.</entry>
+</row>
+
+<row>
+<entry
+>--license</entry>
+<entry
+>Показывает информацию о лицензии.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Команды amaroK:</para>
+
+<note
+><para
+>Команды &amarok; должны использоваться пока он запущен.</para
+></note>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Опция</entry>
+<entry
+>Действие</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>-r, --previous</entry>
+<entry
+>Перейти к предыдущей дорожке в списке воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>-p, --play</entry>
+<entry
+>Проиграть текущий список воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>-s, --stop</entry>
+<entry
+>Остановить воспроизведение.</entry>
+</row>
+
+<row>
+<entry
+>--pause</entry>
+<entry
+>Приостановить воспроизведение.</entry>
+</row>
+
+<row>
+<entry
+>-f, --next</entry>
+<entry
+>Перейти к следующей дорожке в списке воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>-a, --append</entry>
+<entry
+>Добавить файлы/URL в список воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>-e, --enqueue</entry>
+<entry
+>См. приложение, оставлено для обратной совместимости.</entry>
+</row>
+
+<row>
+<entry
+>--queue</entry>
+<entry
+>Поставить файлы/URL в очередь после текущей.</entry>
+</row
+> 
+
+<row>
+<entry
+>-m, --toggle-playlist-window</entry>
+<entry
+>Показать/скрыть окно списка воспроизведения.</entry>
+</row>
+
+<row>
+<entry
+>--wizard</entry>
+<entry
+>Запустить Мастер первого запуска.</entry>
+</row>
+
+<row>
+<entry
+>--engine "name"</entry>
+<entry
+>Запустить &amarok; с движком "name".</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+</chapter>

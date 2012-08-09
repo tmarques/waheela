@@ -1,0 +1,335 @@
+/****************************************************************************
+** MultiTabBar meta object code from reading C++ file 'multitabbar.h'
+**
+** Created: Tue Feb 19 15:59:38 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "multitabbar.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MultiTabBar::className() const
+{
+    return "MultiTabBar";
+}
+
+QMetaObject *MultiTabBar::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MultiTabBar( "MultiTabBar", &MultiTabBar::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MultiTabBar::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBar", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MultiTabBar::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBar", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MultiTabBar::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"MultiTabBar", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MultiTabBar.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MultiTabBar::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MultiTabBar" ) )
+	return this;
+    return QWidget::qt_cast( clname );
+}
+
+bool MultiTabBar::qt_invoke( int _id, QUObject* _o )
+{
+    return QWidget::qt_invoke(_id,_o);
+}
+
+bool MultiTabBar::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MultiTabBar::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool MultiTabBar::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+#include <qvariant.h>
+const char *MultiTabBarButton::className() const
+{
+    return "MultiTabBarButton";
+}
+
+QMetaObject *MultiTabBarButton::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MultiTabBarButton( "MultiTabBarButton", &MultiTabBarButton::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MultiTabBarButton::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBarButton", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MultiTabBarButton::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBarButton", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MultiTabBarButton::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QPushButton::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "MultiTabBar::MultiTabBarPosition", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"setPosition", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "MultiTabBar::MultiTabBarStyle", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"setStyle", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"setText", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_QVariant, "\x09", QUParameter::Out }
+    };
+    static const QUMethod slot_3 = {"sizeHint", 1, param_slot_3 };
+    static const QUMethod slot_4 = {"slotClicked", 0, 0 };
+    static const QUMethod slot_5 = {"slotAnimTimer", 0, 0 };
+    static const QUMethod slot_6 = {"slotDragSwitchTimer", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "setPosition(MultiTabBar::MultiTabBarPosition)", &slot_0, QMetaData::Public },
+	{ "setStyle(MultiTabBar::MultiTabBarStyle)", &slot_1, QMetaData::Public },
+	{ "setText(const QString&)", &slot_2, QMetaData::Public },
+	{ "sizeHint()", &slot_3, QMetaData::Public },
+	{ "slotClicked()", &slot_4, QMetaData::Protected },
+	{ "slotAnimTimer()", &slot_5, QMetaData::Protected },
+	{ "slotDragSwitchTimer()", &slot_6, QMetaData::Protected }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"clicked", 1, param_signal_0 };
+    static const QUParameter param_signal_1[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"initiateDrag", 1, param_signal_1 };
+    static const QMetaData signal_tbl[] = {
+	{ "clicked(int)", &signal_0, QMetaData::Private },
+	{ "initiateDrag(int)", &signal_1, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MultiTabBarButton", parentObject,
+	slot_tbl, 7,
+	signal_tbl, 2,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MultiTabBarButton.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MultiTabBarButton::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MultiTabBarButton" ) )
+	return this;
+    return QPushButton::qt_cast( clname );
+}
+
+// SIGNAL clicked
+void MultiTabBarButton::clicked( int t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+// SIGNAL initiateDrag
+void MultiTabBarButton::initiateDrag( int t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 1, t0 );
+}
+
+bool MultiTabBarButton::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: setPosition((MultiTabBar::MultiTabBarPosition)(*((MultiTabBar::MultiTabBarPosition*)static_QUType_ptr.get(_o+1)))); break;
+    case 1: setStyle((MultiTabBar::MultiTabBarStyle)(*((MultiTabBar::MultiTabBarStyle*)static_QUType_ptr.get(_o+1)))); break;
+    case 2: setText((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: static_QUType_QVariant.set(_o,QVariant(sizeHint())); break;
+    case 4: slotClicked(); break;
+    case 5: slotAnimTimer(); break;
+    case 6: slotDragSwitchTimer(); break;
+    default:
+	return QPushButton::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MultiTabBarButton::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: clicked((int)static_QUType_int.get(_o+1)); break;
+    case 1: initiateDrag((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return QPushButton::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MultiTabBarButton::qt_property( int id, int f, QVariant* v)
+{
+    return QPushButton::qt_property( id, f, v);
+}
+
+bool MultiTabBarButton::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MultiTabBarTab::className() const
+{
+    return "MultiTabBarTab";
+}
+
+QMetaObject *MultiTabBarTab::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MultiTabBarTab( "MultiTabBarTab", &MultiTabBarTab::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MultiTabBarTab::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBarTab", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MultiTabBarTab::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MultiTabBarTab", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MultiTabBarTab::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = MultiTabBarButton::staticMetaObject();
+    static const QUMethod slot_0 = {"slotClicked", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "MultiTabBar::MultiTabBarPosition", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"setTabsPosition", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"setIcon", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_varptr, "\x06", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"setIcon", 1, param_slot_3 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotClicked()", &slot_0, QMetaData::Protected },
+	{ "setTabsPosition(MultiTabBar::MultiTabBarPosition)", &slot_1, QMetaData::Protected },
+	{ "setIcon(const QString&)", &slot_2, QMetaData::Public },
+	{ "setIcon(const QPixmap&)", &slot_3, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MultiTabBarTab", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MultiTabBarTab.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MultiTabBarTab::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MultiTabBarTab" ) )
+	return this;
+    return MultiTabBarButton::qt_cast( clname );
+}
+
+bool MultiTabBarTab::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotClicked(); break;
+    case 1: setTabsPosition((MultiTabBar::MultiTabBarPosition)(*((MultiTabBar::MultiTabBarPosition*)static_QUType_ptr.get(_o+1)))); break;
+    case 2: setIcon((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 3: setIcon((const QPixmap&)*((const QPixmap*)static_QUType_ptr.get(_o+1))); break;
+    default:
+	return MultiTabBarButton::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MultiTabBarTab::qt_emit( int _id, QUObject* _o )
+{
+    return MultiTabBarButton::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MultiTabBarTab::qt_property( int id, int f, QVariant* v)
+{
+    return MultiTabBarButton::qt_property( id, f, v);
+}
+
+bool MultiTabBarTab::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

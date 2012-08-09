@@ -1,0 +1,192 @@
+/****************************************************************************
+** amaroK::Slider meta object code from reading C++ file 'sliderwidget.h'
+**
+** Created: Tue Feb 19 16:00:59 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "sliderwidget.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *amaroK::Slider::className() const
+{
+    return "amaroK::Slider";
+}
+
+QMetaObject *amaroK::Slider::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__Slider( "amaroK::Slider", &amaroK::Slider::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::Slider::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::Slider", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::Slider::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::Slider", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::Slider::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QSlider::staticMetaObject();
+    static const QUParameter param_signal_0[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"sliderReleased", 1, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "sliderReleased(int)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::Slider", parentObject,
+	0, 0,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__Slider.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::Slider::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::Slider" ) )
+	return this;
+    return QSlider::qt_cast( clname );
+}
+
+// SIGNAL sliderReleased
+void amaroK::Slider::sliderReleased( int t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+bool amaroK::Slider::qt_invoke( int _id, QUObject* _o )
+{
+    return QSlider::qt_invoke(_id,_o);
+}
+
+bool amaroK::Slider::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: sliderReleased((int)static_QUType_int.get(_o+1)); break;
+    default:
+	return QSlider::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::Slider::qt_property( int id, int f, QVariant* v)
+{
+    return QSlider::qt_property( id, f, v);
+}
+
+bool amaroK::Slider::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *amaroK::VolumeSlider::className() const
+{
+    return "amaroK::VolumeSlider";
+}
+
+QMetaObject *amaroK::VolumeSlider::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_amaroK__VolumeSlider( "amaroK::VolumeSlider", &amaroK::VolumeSlider::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString amaroK::VolumeSlider::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::VolumeSlider", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString amaroK::VolumeSlider::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "amaroK::VolumeSlider", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* amaroK::VolumeSlider::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = Slider::staticMetaObject();
+    static const QUMethod slot_0 = {"slotAnimTimer", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotAnimTimer()", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"amaroK::VolumeSlider", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_amaroK__VolumeSlider.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* amaroK::VolumeSlider::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "amaroK::VolumeSlider" ) )
+	return this;
+    return Slider::qt_cast( clname );
+}
+
+bool amaroK::VolumeSlider::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotAnimTimer(); break;
+    default:
+	return Slider::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool amaroK::VolumeSlider::qt_emit( int _id, QUObject* _o )
+{
+    return Slider::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool amaroK::VolumeSlider::qt_property( int id, int f, QVariant* v)
+{
+    return Slider::qt_property( id, f, v);
+}
+
+bool amaroK::VolumeSlider::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

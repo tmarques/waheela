@@ -1,0 +1,633 @@
+<chapter id="configuring-kapp">
+<title
+>Indstilling af &amarok;</title>
+
+
+<para
+>&amarok; er nem at indstille fra indstillingsdialogen Indstillingsdialogen har flere faneblade til at indstille forskellige af &amarok;s funktioner.</para>
+
+<para
+>Indstillingsdialogen findes ved at vælge <guimenuitem
+>Indstil &amarok;</guimenuitem
+> i afspillerens <link linkend="rmb-menu"
+>&RMB;-menu</link
+>.</para>
+
+
+<sect1 id="general-options">
+<title
+>Generelle valgmuligheder</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af generelle tilvalg</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para
+>Fanebladet Generelle valg er opdelt i to afsnit, <guimenuitem
+>Generelle tilvalg</guimenuitem
+> og <guimenuitem
+>Spillelistetilvalg</guimenuitem
+>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Generelle valgmuligheder</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>I afsnittet Generelle tilvalg kan du indstille nogle basale &amarok; tilvalg. </para>
+
+<para
+>Dit første valg, <guilabel
+>Vis opstartskærm ved start</guilabel
+> bruges til at aktivere opstartsskærmen når du starter &amarok;.</para>
+
+<para
+>Efter opstartsskærmen er tilvalget <guilabel
+>Vis statusikon</guilabel
+> der tillader dig at slå statusikon til og fra.</para>
+ 
+<para
+><guilabel
+>Animér statusikon</guilabel
+> bruges til at aktivere eller deaktivere animering af statusikonen.</para>
+
+<para
+>Dernæst kommer tilvalget <guilabel
+>Vis afspillervindue</guilabel
+>. Afkrydsning af dette slår  <link linkend="player-window"
+>afspillevinduet</link
+> sammen med <link linkend="playlist-window"
+>spillelistevinduet</link
+> ligesom XMMS. Fjern markeringen  af dette aktiverer kun spillelisten i en indstilling der er ligesom JUK.</para>
+
+<para
+>Det sidste valg er <guilabel
+>Standardstøørrelse for forhåndsvisning af forsider</guilabel
+>, et spinfelt til at justere størrelse af albummets forsidebillede i den sammenhængsafhængige browser for <guilabel
+>Spilles lige nu:</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Spillelistetilvalg</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>I afsnittet Spillelistetilvalg kan du indstille spillelistens opførsel.</para>
+
+<para
+>Den første valgmulighed <guilabel
+>Husk denne spileliste ved afslutning</guilabel
+> er til at gemme spillelisten når amarok afsluttes. Afkryds dette hvis du ønsker at gemme den nuværende spille liste når du går ud af amarok.</para>
+
+<para
+>Valget <guilabel
+>Skjul spillelisten sammen med hovedvinduet</guilabel
+> skjuler <link linkend="playlist-window"
+>spillelistevinduet</link
+> når du skjuler <link linkend="player-window"
+>afspillervinduet</link
+>. Når dette ikke er valgt kan du skjule  <link linkend="player-window"
+>spillervinduet</link
+> afspilleren alene så du kan kontrollere &amarok; fuldstændigt <link linkend="playlist-window"
+>spillelistevinduet</link
+>.</para>
+
+<para
+><guilabel
+>Spilleliste ruller med aktiv sang</guilabel
+> ruller <link linkend="playlist"
+>spillelisten</link
+> automatisk for at vise den sang der afspilles lige nu.</para>
+
+<para
+>Valgmuligheden <guilabel
+>Tilføj mapper rekursivt</guilabel
+> er praktisk når du gerne vil tilføje medier fra en mappe og alle dens undermapper på én gang.</para>
+
+<para
+><guilabel
+>Vis statuslinje</guilabel
+> bruges til at aktivere eller deaktivere  <link linkend="statusbar"
+>statuslinjen</link
+> i <link linkend="playlist-window"
+>spillelistens vindue</link
+>.</para>
+
+<para
+>Endelig bruges <guilabel
+>Auto-vis sammenhængsafhængig browser</guilabel
+> til at aktivere den sammenhængsafhængige browser automatisk når du starter afspilning.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title
+>Indstille udseende</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil udseende</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fanebladet udseende lader dig indstille hvordan &amarok; ser ud. Fanebladet er opdelt i tre afsnit.</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Skrifttyper</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Afsnittet for skrifttyper bruges til at vælge skrifttypen som skal bruges med &amarok;. At markere afkrydsningsfeltet <guilabel
+>Brug egne skrifttyper</guilabel
+> aktiverer valg af skrifttype for &amarok;. Tilgængelige valg gælder <link linkend="player-window"
+>afspillervinduet</link
+>, <link linkend="playlist-window"
+>browservinduet</link
+> og sammenhængsbladraren. Ved at klikke på knappen <guibutton
+>Vælg</guibutton
+> kan du vælge en skrifttype i dialogen Vælg skrifttype.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Farvesammensætning</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Afsnittet om farvesammensætning bruges til at vælge farvesammensætninger for &amarok;. <guilabel
+>Nuværende KDE-farvesammensætning</guilabel
+> gør at &amarok; følger de nuværende KDE-farver. <guilabel
+>Det klassiske amaroK-tema</guilabel
+> gør at &amarok; følger de oprindelige farver for &amarok;. Tilsidst, ved at vælge <guilabel
+>Egen farvesammensætning</guilabel
+> aktiveres farvevælgere til at vælge en egen farvesammensætning for &amarok;.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Mærker</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Mærkeafsnittet er til for at vælge en kodning for dine ID3v1-mærker. At aktivere afkrydsningsfelterne <guilabel
+>Genkod ID3v1-mærker</guilabel
+> aktiverer et dropned-felt til at vælge det tegnsæt du vil bruge.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title
+>Indstille afspilning</title>
+
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil afspilning</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fanebaldet Indstil afspilning sørger for en grænseflade til at indstille karakteristikkerne for afspilning af lyd.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Overgangsopførsel</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Du kan indstille hvordan amarok går fra en sang til den næste. <guilabel
+>Normal</guilabel
+> sørger for et stille mellemrum angivet i millisekunder. <guilabel
+>Glidende overgang</guilabel
+> giver en god hensvindeeffekt, hvor tidsperioden også angives i millisekunder.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Tilbageværende valg</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Resten af fanebladet Afspilning indeholder adskillige afkrydsningsfelter til at indstille følgende tilvalg:</para>
+
+<para
+><guilabel
+>Genoptag afspilning ved start</guilabel
+> tillader dig at genoptage den sidste sang der blev spille da amarok sidst blev lukket, ved næste opstart. </para>
+
+<para
+><guilabel
+>Brug lydstyrkemikser fra hardware</guilabel
+> indstiller din lydstyrkeskyder i amarok til at justere dit lydkorts mikser til at kontrollere lydstyrken.</para>
+
+<para
+><guilabel
+>Husk effekter</guilabel
+> gemmer din lydservers effekter, som bliver indstiller med  <guibutton
+>FX</guibutton
+>-knappen på  <link linkend="player-window"
+>afspillervinduet</link
+>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title
+>Indstil visning på skærm</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil OSD</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Indstil visning på skærm</guimenu
+></menuchoice
+></term>
+<listitem>
+<para
+>Fanebladet <guilabel
+>Indstil visning på skærm</guilabel
+> tillader dig at slå On-Screen-Display til. Hvis afkrydsningsfeltet On-Screen-Display er markeret vil et område til at indstille udseendet af visningen komme frem. Når On-Screen-Display er aktiveret vil n forhåndsvisningskontrol blive vist der tillader dig at se virkningerne på udseendet af On-Screen-Display</para>
+
+<para
+>Det første valg for OSD er skrifttypen. Klik på <guibutton
+>Vælg</guibutton
+>-knappen åbner en skrifttypevælger-dialog der tillader dig at vælge den skrifttype der bruges i OSD. Der er også et  afkrydsningsfelt <guibutton
+>Tegn skygge</guibutton
+> til at aktivere eller deaktivere skygget tekst i OSD</para>
+
+<para
+>Det næste tilvalg er OSD-farver. Afkrydsning af <guilabel
+>Brug egne farver</guilabel
+> aktiverer knapperne <guibutton
+>Tekstfarve:</guibutton
+> og <guibutton
+>Baggrundsfarve:</guibutton
+>. Klik på knapperne åbner en dialog til at vælge farven for OSD-tekst eller OSD-baggrund. Hvis <guilabel
+>Brug egne farver</guilabel
+> er deaktiveret vil OSD følge &kde;'s neværende farvesammensætninger.</para>
+
+<para
+>Tekstindtastningsfeltet <guilabel
+>Vis tekst</guilabel
+> bruges til at indstille teksten som vises med skærmvisningen. Ved at tildele variabler kan du indstille skærmvisningen til at passe til dine behov. Nedenfor er en liste med variablerne og den tekst de svarer til.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry
+>Tekst</entry>
+<entry
+>Variabel</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>Titel</entry>
+<entry
+>%title</entry>
+</row>
+
+<row>
+<entry
+>Album</entry>
+<entry
+>%album</entry>
+</row>
+
+<row>
+<entry
+>Kunstner</entry>
+<entry
+>%artist</entry>
+</row>
+
+<row>
+<entry
+>Genre</entry>
+<entry
+>%genre</entry>
+</row>
+
+<row>
+<entry
+>Bitrate</entry>
+<entry
+>%bitrate</entry>
+</row>
+
+<row>
+<entry
+>År</entry>
+<entry
+>%year</entry>
+</row>
+
+<row>
+<entry
+>Sporlængde</entry>
+<entry
+>%length</entry>
+</row>
+
+<row>
+<entry
+>Spornummer</entry>
+<entry
+>%track</entry>
+</row>
+
+<row>
+<entry
+>Filnavn</entry>
+<entry
+>%file</entry>
+</row>
+
+<row>
+<entry
+>Kommentar</entry>
+<entry
+>%comment</entry>
+</row>
+
+<row>
+<entry
+>Scoring</entry>
+<entry
+>%score</entry>
+</row>
+
+<row>
+<entry
+>Afspilningsantal</entry>
+<entry
+>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Spinfeltet <guilabel
+>Varighed</guilabel
+> bruges til at justere tiden, i millisekunder, som OSD vises på din desktop.</para>
+
+<para
+>Tilvalget <guilabel
+>Skærm</guilabel
+> er kun til xinerama-brugere. Dette tilvalg bruges til at afgøre på hvilken skærm OSD vil blive vist i en opsætning med flere skærme.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title
+>Indstil motor</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil motor</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fanebladet Indstil motor, tillader dig at vælge et lydsystem  fra en liste i dropned-feltet. Nogle motorer vil måske aktivere flere tilvalg i dette faneblad og er afhængig af den motor du valgte.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title
+>Indstil samling</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil samling</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fanebladet Indstil samling bruges til at indstille alle samlingstilvalg. De omfatter mapperne som bruges i din samling, og typen af database som bruges til samlingen. Dialogen er opdelt i to dele, Samlingsmapper og Samlingsdatabase.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Samlingsmapper</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+><guilabel
+>Samlingsmapper</guilabel
+> gør det muligt at vælge mapper som bruges i din samling ved at vis filsystemet i en trævisning. Afsnittet <guilabel
+>Samlingsmapper</guilabel
+> har også flere afkrydsningsfelter til at indstille hvordan samlingen bruger de valgte mapper.</para>
+
+<para
+>Aktivér afkrydsningsfeltet <guilabel
+>Søg rekursivt i mapper</guilabel
+> hvis du ønsker at samlingen skal søge i de valgte mapper og alle deres undermapper. Hvis du ønsker at samlingen skal overvåge ændringer som gøres i filsystemet, aktiveres afkrydsningsfeltet <guilabel
+>Overvåg mappe for ændringer</guilabel
+>. Til sidst, hvis du vil importere eventuelle spillelister som findes i din samling, aktiveres afkrydsningsfeltet <guilabel
+>Importér spillelister</guilabel
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Samlingsdatabase</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Afsnittet <guilabel
+>Samlingsdatabase</guilabel
+> bruges til at vælge en database at bruge for samlingen. Brug dropned-feltet <guilabel
+>Grænseflade:</guilabel
+> til at vælge enten Sqlite eller MySQL. Hvis MySQL vælges, kræves yderligere indstilling på siden <guilabel
+>Indstil MySQL</guilabel
+>.</para>
+
+<para
+>Afsnittet <guilabel
+>Indstilling af MySql</guilabel
+> er til for at indstille hvilken database &amarok; bruger, og hvor den findes. Først kommer <guilabel
+>Vært:</guilabel
+>, hvilket er stedet hvor MySql-databasen findes. Derefter kommer <guilabel
+>Port:</guilabel
+>, hvilket er netværksporten som bruges ved forbindelse til databasen. Det sidste tilvalg <guilabel
+>Navn:</guilabel
+>, er selve databasen som der skal forbindes til.</para>
+
+<para
+>Brug tekstindtastningsfelterne <guilabel
+>Bruger:</guilabel
+> og <guilabel
+>Kodeord:</guilabel
+> til at angive brugernavn og kodeord som bruges til at forbinde til MySql-databasen.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title
+>Indstil scrobbler</title>
+
+<screenshot>
+	<screeninfo
+>Skærmaftryk af Indstil scrobbler</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Fanebladet Scrobbler indstiller støtte for Audioscrobbler i &amarok;. Audioscrobbler indsender spor du afspiller og matcher din profil med andre som har samme musiksmag og laver anbefalinger baseret på din profil.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Profil for Audioscrobbler</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Her udfylder du <guilabel
+>Brugernavn:</guilabel
+> og <guilabel
+>Kodeord:</guilabel
+> for din Audioscrobbler-profil. Hvis du ikke har en Audioscrobbler-profil kan du <ulink url="http://www.audioscrobbler.com:80/signup.php"
+>registrere dig her</ulink
+>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Indsend spor</guimenu
+></menuchoice
+></term>
+<listitem>
+
+<para
+>Ved at indsende spor du afspiller kan &amarok; foreslå ny musik at lytte til i sammenhængsbrowseren. At markere afkrydsningsfeltet <guilabel
+>Indsend afspillede spor</guilabel
+> aktiverer funktionen og indsender de spor du afspiller til din Audioscrobbler-profil.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

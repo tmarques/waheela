@@ -1,0 +1,169 @@
+/****************************************************************************
+** TagDialog meta object code from reading C++ file 'tagdialog.h'
+**
+** Created: Fri Mar 23 10:56:03 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "tagdialog.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *TagDialog::className() const
+{
+    return "TagDialog";
+}
+
+QMetaObject *TagDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_TagDialog( "TagDialog", &TagDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString TagDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "TagDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString TagDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "TagDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* TagDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = TagDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"accept", 0, 0 };
+    static const QUMethod slot_1 = {"cancelPressed", 0, 0 };
+    static const QUMethod slot_2 = {"openPressed", 0, 0 };
+    static const QUMethod slot_3 = {"previousTrack", 0, 0 };
+    static const QUMethod slot_4 = {"nextTrack", 0, 0 };
+    static const QUMethod slot_5 = {"perTrack", 0, 0 };
+    static const QUMethod slot_6 = {"checkModified", 0, 0 };
+    static const QUParameter param_slot_7[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "album", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"loadCover", 2, param_slot_7 };
+    static const QUMethod slot_8 = {"musicbrainzQuery", 0, 0 };
+    static const QUMethod slot_9 = {"guessFromFilename", 0, 0 };
+    static const QUMethod slot_10 = {"setFileNameSchemes", 0, 0 };
+    static const QUParameter param_slot_11[] = {
+	{ "results", &static_QUType_ptr, "KTRMResultList", QUParameter::In },
+	{ "error", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"queryDone", 2, param_slot_11 };
+    static const QUParameter param_slot_12[] = {
+	{ "selected", &static_QUType_ptr, "KTRMResult", QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"fillSelected", 1, param_slot_12 };
+    static const QUMethod slot_13 = {"resetMusicbrainz", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "accept()", &slot_0, QMetaData::Private },
+	{ "cancelPressed()", &slot_1, QMetaData::Private },
+	{ "openPressed()", &slot_2, QMetaData::Private },
+	{ "previousTrack()", &slot_3, QMetaData::Private },
+	{ "nextTrack()", &slot_4, QMetaData::Private },
+	{ "perTrack()", &slot_5, QMetaData::Private },
+	{ "checkModified()", &slot_6, QMetaData::Private },
+	{ "loadCover(const QString&,const QString&)", &slot_7, QMetaData::Private },
+	{ "musicbrainzQuery()", &slot_8, QMetaData::Private },
+	{ "guessFromFilename()", &slot_9, QMetaData::Private },
+	{ "setFileNameSchemes()", &slot_10, QMetaData::Private },
+	{ "queryDone(KTRMResultList,QString)", &slot_11, QMetaData::Private },
+	{ "fillSelected(KTRMResult)", &slot_12, QMetaData::Private },
+	{ "resetMusicbrainz()", &slot_13, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ 0, &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"lyricsChanged", 1, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "lyricsChanged(const QString&)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"TagDialog", parentObject,
+	slot_tbl, 14,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_TagDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* TagDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "TagDialog" ) )
+	return this;
+    return TagDialogBase::qt_cast( clname );
+}
+
+// SIGNAL lyricsChanged
+void TagDialog::lyricsChanged( const QString& t0 )
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0, t0 );
+}
+
+bool TagDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: accept(); break;
+    case 1: cancelPressed(); break;
+    case 2: openPressed(); break;
+    case 3: previousTrack(); break;
+    case 4: nextTrack(); break;
+    case 5: perTrack(); break;
+    case 6: checkModified(); break;
+    case 7: loadCover((const QString&)static_QUType_QString.get(_o+1),(const QString&)static_QUType_QString.get(_o+2)); break;
+    case 8: musicbrainzQuery(); break;
+    case 9: guessFromFilename(); break;
+    case 10: setFileNameSchemes(); break;
+    case 11: queryDone((KTRMResultList)(*((KTRMResultList*)static_QUType_ptr.get(_o+1))),(QString)static_QUType_QString.get(_o+2)); break;
+    case 12: fillSelected((KTRMResult)(*((KTRMResult*)static_QUType_ptr.get(_o+1)))); break;
+    case 13: resetMusicbrainz(); break;
+    default:
+	return TagDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool TagDialog::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: lyricsChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    default:
+	return TagDialogBase::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool TagDialog::qt_property( int id, int f, QVariant* v)
+{
+    return TagDialogBase::qt_property( id, f, v);
+}
+
+bool TagDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

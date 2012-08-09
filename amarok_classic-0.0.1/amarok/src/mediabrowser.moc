@@ -1,0 +1,424 @@
+/****************************************************************************
+** MediaBrowser meta object code from reading C++ file 'mediabrowser.h'
+**
+** Created: Tue Feb 19 15:59:30 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "mediabrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MediaBrowser::className() const
+{
+    return "MediaBrowser";
+}
+
+QMetaObject *MediaBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaBrowser( "MediaBrowser", &MediaBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"MediaBrowser", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaBrowser" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+bool MediaBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    return QVBox::qt_invoke(_id,_o);
+}
+
+bool MediaBrowser::qt_emit( int _id, QUObject* _o )
+{
+    return QVBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool MediaBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaDeviceList::className() const
+{
+    return "MediaDeviceList";
+}
+
+QMetaObject *MediaDeviceList::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaDeviceList( "MediaDeviceList", &MediaDeviceList::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaDeviceList::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceList", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaDeviceList::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceList", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaDeviceList::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotCollapse", 1, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"rmbPressed", 3, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "parent", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"renderView", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "parent", &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ "url", &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"renderNode", 2, param_slot_3 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotCollapse(QListViewItem*)", &slot_0, QMetaData::Private },
+	{ "rmbPressed(QListViewItem*,const QPoint&,int)", &slot_1, QMetaData::Private },
+	{ "renderView(QListViewItem*)", &slot_2, QMetaData::Private },
+	{ "renderNode(QListViewItem*,const KURL&)", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaDeviceList", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaDeviceList.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaDeviceList::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaDeviceList" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool MediaDeviceList::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotCollapse((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 1: rmbPressed((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 2: renderView((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 3: renderNode((QListViewItem*)static_QUType_ptr.get(_o+1),(const KURL&)*((const KURL*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaDeviceList::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaDeviceList::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool MediaDeviceList::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaDeviceView::className() const
+{
+    return "MediaDeviceView";
+}
+
+QMetaObject *MediaDeviceView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaDeviceView( "MediaDeviceView", &MediaDeviceView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaDeviceView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaDeviceView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDeviceView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaDeviceView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ "point", &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"slotShowContextMenu", 3, param_slot_0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotShowContextMenu(QListViewItem*,const QPoint&,int)", &slot_0, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaDeviceView", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaDeviceView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaDeviceView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaDeviceView" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+bool MediaDeviceView::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotShowContextMenu((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaDeviceView::qt_emit( int _id, QUObject* _o )
+{
+    return QVBox::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaDeviceView::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool MediaDeviceView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *MediaDevice::className() const
+{
+    return "MediaDevice";
+}
+
+QMetaObject *MediaDevice::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MediaDevice( "MediaDevice", &MediaDevice::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MediaDevice::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDevice", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MediaDevice::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MediaDevice", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MediaDevice::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"clearItems", 0, 0 };
+    static const QUMethod slot_1 = {"config", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "urls", &static_QUType_ptr, "KURL::List", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"deleteFiles", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "item", &static_QUType_ptr, "MediaItem", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"deleteFromIPod", 1, param_slot_3 };
+    static const QUMethod slot_4 = {"ipodConnection", 0, 0 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_5 = {"mount", 1, param_slot_5 };
+    static const QUMethod slot_6 = {"removeSelected", 0, 0 };
+    static const QUParameter param_slot_7[] = {
+	{ "mnt", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"setMountCommand", 1, param_slot_7 };
+    static const QUParameter param_slot_8[] = {
+	{ "umnt", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_8 = {"setUmountCommand", 1, param_slot_8 };
+    static const QUParameter param_slot_9[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::Out }
+    };
+    static const QUMethod slot_9 = {"umount", 1, param_slot_9 };
+    static const QUMethod slot_10 = {"transferFiles", 0, 0 };
+    static const QUMethod slot_11 = {"fileTransferred", 0, 0 };
+    static const QUMethod slot_12 = {"fileTransferFinished", 0, 0 };
+    static const QUMethod slot_13 = {"syncIPod", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "clearItems()", &slot_0, QMetaData::Public },
+	{ "config()", &slot_1, QMetaData::Public },
+	{ "deleteFiles(const KURL::List&)", &slot_2, QMetaData::Public },
+	{ "deleteFromIPod(MediaItem*)", &slot_3, QMetaData::Public },
+	{ "ipodConnection()", &slot_4, QMetaData::Public },
+	{ "mount()", &slot_5, QMetaData::Public },
+	{ "removeSelected()", &slot_6, QMetaData::Public },
+	{ "setMountCommand(const QString&)", &slot_7, QMetaData::Public },
+	{ "setUmountCommand(const QString&)", &slot_8, QMetaData::Public },
+	{ "umount()", &slot_9, QMetaData::Public },
+	{ "transferFiles()", &slot_10, QMetaData::Public },
+	{ "fileTransferred()", &slot_11, QMetaData::Private },
+	{ "fileTransferFinished()", &slot_12, QMetaData::Private },
+	{ "syncIPod()", &slot_13, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MediaDevice", parentObject,
+	slot_tbl, 14,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MediaDevice.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MediaDevice::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MediaDevice" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+bool MediaDevice::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: clearItems(); break;
+    case 1: config(); break;
+    case 2: deleteFiles((const KURL::List&)*((const KURL::List*)static_QUType_ptr.get(_o+1))); break;
+    case 3: deleteFromIPod((MediaItem*)static_QUType_ptr.get(_o+1)); break;
+    case 4: ipodConnection(); break;
+    case 5: static_QUType_int.set(_o,mount()); break;
+    case 6: removeSelected(); break;
+    case 7: setMountCommand((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 8: setUmountCommand((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 9: static_QUType_int.set(_o,umount()); break;
+    case 10: transferFiles(); break;
+    case 11: fileTransferred(); break;
+    case 12: fileTransferFinished(); break;
+    case 13: syncIPod(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MediaDevice::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MediaDevice::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool MediaDevice::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

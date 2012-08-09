@@ -1,0 +1,208 @@
+/****************************************************************************
+** QueueList meta object code from reading C++ file 'queuemanager.h'
+**
+** Created: Fri Mar 23 10:55:22 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "queuemanager.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *QueueList::className() const
+{
+    return "QueueList";
+}
+
+QMetaObject *QueueList::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_QueueList( "QueueList", &QueueList::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString QueueList::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "QueueList", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString QueueList::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "QueueList", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* QueueList::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUMethod slot_0 = {"moveSelectedUp", 0, 0 };
+    static const QUMethod slot_1 = {"moveSelectedDown", 0, 0 };
+    static const QUMethod slot_2 = {"removeSelected", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "moveSelectedUp()", &slot_0, QMetaData::Public },
+	{ "moveSelectedDown()", &slot_1, QMetaData::Public },
+	{ "removeSelected()", &slot_2, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"QueueList", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_QueueList.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* QueueList::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "QueueList" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool QueueList::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: moveSelectedUp(); break;
+    case 1: moveSelectedDown(); break;
+    case 2: removeSelected(); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool QueueList::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool QueueList::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool QueueList::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *QueueManager::className() const
+{
+    return "QueueManager";
+}
+
+QMetaObject *QueueManager::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_QueueManager( "QueueManager", &QueueManager::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString QueueManager::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "QueueManager", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString QueueManager::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "QueueManager", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* QueueManager::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"addItems", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "after", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"addItems", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ "in", &static_QUType_ptr, "PLItemList", QUParameter::In },
+	{ "out", &static_QUType_ptr, "PLItemList", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"addQueuedItems", 2, param_slot_2 };
+    static const QUMethod slot_3 = {"updateButtons", 0, 0 };
+    static const QUMethod slot_4 = {"removeSelected", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "addItems()", &slot_0, QMetaData::Public },
+	{ "addItems(QListViewItem*)", &slot_1, QMetaData::Public },
+	{ "addQueuedItems(const PLItemList&,const PLItemList&)", &slot_2, QMetaData::Public },
+	{ "updateButtons()", &slot_3, QMetaData::Public },
+	{ "removeSelected()", &slot_4, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"QueueManager", parentObject,
+	slot_tbl, 5,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_QueueManager.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* QueueManager::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "QueueManager" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool QueueManager::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: addItems(); break;
+    case 1: addItems((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: addQueuedItems((const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+1)),(const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+2))); break;
+    case 3: updateButtons(); break;
+    case 4: removeSelected(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool QueueManager::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool QueueManager::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool QueueManager::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

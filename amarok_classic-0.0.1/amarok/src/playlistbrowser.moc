@@ -1,0 +1,383 @@
+/****************************************************************************
+** PlaylistBrowser meta object code from reading C++ file 'playlistbrowser.h'
+**
+** Created: Tue Feb 19 16:00:05 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playlistbrowser.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *PlaylistBrowser::className() const
+{
+    return "PlaylistBrowser";
+}
+
+QMetaObject *PlaylistBrowser::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlaylistBrowser( "PlaylistBrowser", &PlaylistBrowser::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlaylistBrowser::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistBrowser", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlaylistBrowser::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistBrowser", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlaylistBrowser::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QVBox::staticMetaObject();
+    static const QUMethod slot_0 = {"openPlaylist", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "parent", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"openPlaylist", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"scanPodcasts", 0, 0 };
+    static const QUMethod slot_3 = {"addToDynamic", 0, 0 };
+    static const QUMethod slot_4 = {"collectionScanDone", 0, 0 };
+    static const QUParameter param_slot_5[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_5 = {"currentItemChanged", 1, param_slot_5 };
+    static const QUMethod slot_6 = {"downloadPodcastQueue", 0, 0 };
+    static const QUParameter param_slot_7[] = {
+	{ "item", &static_QUType_ptr, "StreamEntry", QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"editStreamURL", 1, param_slot_7 };
+    static const QUMethod slot_8 = {"removeSelectedItems", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"renamePlaylist", 3, param_slot_9 };
+    static const QUMethod slot_10 = {"renameSelectedItem", 0, 0 };
+    static const QUParameter param_slot_11[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_11 = {"slotDoubleClicked", 1, param_slot_11 };
+    static const QUMethod slot_12 = {"subFromDynamic", 0, 0 };
+    static const QUParameter param_slot_13[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_13 = {"slotAddMenu", 1, param_slot_13 };
+    static const QUParameter param_slot_14[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_14 = {"slotSaveMenu", 1, param_slot_14 };
+    static const QUParameter param_slot_15[] = {
+	{ "id", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_15 = {"slotViewMenu", 1, param_slot_15 };
+    static const QUParameter param_slot_16[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_16 = {"showContextMenu", 3, param_slot_16 };
+    static const QMetaData slot_tbl[] = {
+	{ "openPlaylist()", &slot_0, QMetaData::Public },
+	{ "openPlaylist(QListViewItem*)", &slot_1, QMetaData::Public },
+	{ "scanPodcasts()", &slot_2, QMetaData::Public },
+	{ "addToDynamic()", &slot_3, QMetaData::Private },
+	{ "collectionScanDone()", &slot_4, QMetaData::Private },
+	{ "currentItemChanged(QListViewItem*)", &slot_5, QMetaData::Private },
+	{ "downloadPodcastQueue()", &slot_6, QMetaData::Private },
+	{ "editStreamURL(StreamEntry*)", &slot_7, QMetaData::Private },
+	{ "removeSelectedItems()", &slot_8, QMetaData::Private },
+	{ "renamePlaylist(QListViewItem*,const QString&,int)", &slot_9, QMetaData::Private },
+	{ "renameSelectedItem()", &slot_10, QMetaData::Private },
+	{ "slotDoubleClicked(QListViewItem*)", &slot_11, QMetaData::Private },
+	{ "subFromDynamic()", &slot_12, QMetaData::Private },
+	{ "slotAddMenu(int)", &slot_13, QMetaData::Private },
+	{ "slotSaveMenu(int)", &slot_14, QMetaData::Private },
+	{ "slotViewMenu(int)", &slot_15, QMetaData::Private },
+	{ "showContextMenu(QListViewItem*,const QPoint&,int)", &slot_16, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"selectionChanged", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "selectionChanged()", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlaylistBrowser", parentObject,
+	slot_tbl, 17,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlaylistBrowser.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlaylistBrowser::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlaylistBrowser" ) )
+	return this;
+    return QVBox::qt_cast( clname );
+}
+
+// SIGNAL selectionChanged
+void PlaylistBrowser::selectionChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool PlaylistBrowser::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: openPlaylist(); break;
+    case 1: openPlaylist((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: scanPodcasts(); break;
+    case 3: addToDynamic(); break;
+    case 4: collectionScanDone(); break;
+    case 5: currentItemChanged((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 6: downloadPodcastQueue(); break;
+    case 7: editStreamURL((StreamEntry*)static_QUType_ptr.get(_o+1)); break;
+    case 8: removeSelectedItems(); break;
+    case 9: renamePlaylist((QListViewItem*)static_QUType_ptr.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(int)static_QUType_int.get(_o+3)); break;
+    case 10: renameSelectedItem(); break;
+    case 11: slotDoubleClicked((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 12: subFromDynamic(); break;
+    case 13: slotAddMenu((int)static_QUType_int.get(_o+1)); break;
+    case 14: slotSaveMenu((int)static_QUType_int.get(_o+1)); break;
+    case 15: slotViewMenu((int)static_QUType_int.get(_o+1)); break;
+    case 16: showContextMenu((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    default:
+	return QVBox::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlaylistBrowser::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: selectionChanged(); break;
+    default:
+	return QVBox::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlaylistBrowser::qt_property( int id, int f, QVariant* v)
+{
+    return QVBox::qt_property( id, f, v);
+}
+
+bool PlaylistBrowser::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *PlaylistBrowserView::className() const
+{
+    return "PlaylistBrowserView";
+}
+
+QMetaObject *PlaylistBrowserView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlaylistBrowserView( "PlaylistBrowserView", &PlaylistBrowserView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlaylistBrowserView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistBrowserView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlaylistBrowserView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistBrowserView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlaylistBrowserView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"mousePressed", 4, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ "newParent", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"moveSelectedItems", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"slotAnimation", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "mousePressed(int,QListViewItem*,const QPoint&,int)", &slot_0, QMetaData::Private },
+	{ "moveSelectedItems(QListViewItem*)", &slot_1, QMetaData::Private },
+	{ "slotAnimation()", &slot_2, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlaylistBrowserView", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlaylistBrowserView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlaylistBrowserView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlaylistBrowserView" ) )
+	return this;
+    return KListView::qt_cast( clname );
+}
+
+bool PlaylistBrowserView::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: mousePressed((int)static_QUType_int.get(_o+1),(QListViewItem*)static_QUType_ptr.get(_o+2),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+3)),(int)static_QUType_int.get(_o+4)); break;
+    case 1: moveSelectedItems((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 2: slotAnimation(); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlaylistBrowserView::qt_emit( int _id, QUObject* _o )
+{
+    return KListView::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlaylistBrowserView::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool PlaylistBrowserView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *PlaylistDialog::className() const
+{
+    return "PlaylistDialog";
+}
+
+QMetaObject *PlaylistDialog::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_PlaylistDialog( "PlaylistDialog", &PlaylistDialog::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString PlaylistDialog::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistDialog", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString PlaylistDialog::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "PlaylistDialog", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* PlaylistDialog::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDialogBase::staticMetaObject();
+    static const QUMethod slot_0 = {"slotOk", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ "s", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"slotTextChanged", 1, param_slot_1 };
+    static const QUMethod slot_2 = {"slotCustomPath", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "slotOk()", &slot_0, QMetaData::Private },
+	{ "slotTextChanged(const QString&)", &slot_1, QMetaData::Private },
+	{ "slotCustomPath()", &slot_2, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"PlaylistDialog", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_PlaylistDialog.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* PlaylistDialog::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "PlaylistDialog" ) )
+	return this;
+    return KDialogBase::qt_cast( clname );
+}
+
+bool PlaylistDialog::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: slotOk(); break;
+    case 1: slotTextChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 2: slotCustomPath(); break;
+    default:
+	return KDialogBase::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool PlaylistDialog::qt_emit( int _id, QUObject* _o )
+{
+    return KDialogBase::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool PlaylistDialog::qt_property( int id, int f, QVariant* v)
+{
+    return KDialogBase::qt_property( id, f, v);
+}
+
+bool PlaylistDialog::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

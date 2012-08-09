@@ -1,0 +1,142 @@
+<chapter id="quick-start">
+<title
+>&amarok;'s snelstartgids</title>
+
+<para
+>Het luisteren naar muziek hoort eenvoudig te zijn. Met de snelstartgids krijgt u &amarok; in enkele minuten klaar voor gebruik.</para>
+
+
+<sect1 id="collection-building">
+<title
+>Een collectie aanleggen</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Collectiebrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Het aanleggen van uw collectie is nodig om alle functies van &amarok; te kunnen gebruiken. In de Collectiebrowser klikt u op de knop <guibutton
+>Mappen instellen</guibutton
+> op de werkbalk. Kies vervolgens de mappen die u wilt toevoegen aan uw collectie in de dialoog <guilabel
+>Collectie instellen</guilabel
+>. U ziet hier ook de optie <guilabel
+>Mappen recursief doorzoeken</guilabel
+>, <guilabel
+>Mappen op wijzigingen observeren</guilabel
+> en <guilabel
+>Afspeellijsten importeren</guilabel
+>. Nadat u uw mappen hebt aangeklikt en de relevante keuzevakjes hebt ingeschakeld klikt u op de knop <guibutton
+>OK</guibutton
+>. Na de eerste scan wordt uw collectie aangelegd en kunt u verder gaan naar het maken van een afspeellijst.</para>
+
+</sect1>
+
+
+<sect1 id="making-playlists">
+<title
+>Een afspeellijst aanmaken</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van afspeellijst</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>U kunt afspeellijsten maken door items vanuit de Collectiebrowser te slepen naar de afspeellijst. Om het zoeken naar items eenvoudiger te maken kunt u via het tekstvak bovenin filteren. Typ daar een tekst in die in de tracktitel dient te staan en de structuurweergave zal onmiddellijk veranderen en alleen de tracks tonen die uw ingevoerde tekst bevatten. Als u klaar bent met het maken van de afspeellijst, dan kunt u deze opslaan door te klikken op de knop <guibutton
+>Opslaan als</guibutton
+> in de werkbalk van de afspeellijst.</para>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van de Afspeellijstbrowser</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>U kunt uw eigen afspeellijsten toevoegen aan de Afspeellijstbrowser via de knop <guibutton
+>Afspeellijst toevoegen</guibutton
+> op de werkbalk. Als uw collectiemappen afspeellijsten bevat, en u de optie Afspeellijsten importeren hebt ingeschakeld bij het instelen van uw collectie, dan staan deze afspeellijsten als in de weergave. Klik met de rechter muisknop op een afspeellijst om een menu te openen met verschillende opties voor het laden van die afspeellijst.</para>
+
+</sect1>
+
+
+<sect1 id="streams">
+<title
+>Naar streams luisteren</title>
+
+<para
+>Dit gedeelte van de gids is nog niet af. Streams staat voor 'Streaming sound', oftewel een geluidsstroom van bijvoorbeeld een radiozender die via het internet uitzendt.</para>
+
+</sect1>
+
+
+<sect1 id="audiocd">
+<title
+>Een audio-cd afspelen</title>
+
+<screenshot>
+	<screeninfo
+>Schermafdruk van afspeellijst-menubalk</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Om een audio-cd af te spelen, selecteer <menuchoice
+><guimenu
+>Acties</guimenu
+><guimenuitem
+>Audio-cd afspelen</guimenuitem
+></menuchoice
+> in de menubalk van de afspeellijst. De Bestandsbrowser zal dan verschillende mappen en de cd-tracks als WAV-bestanden tonen. Versleep de WAV-bestanden naar de afspeellijst en klik op de knop <guibutton
+>Afspelen</guibutton
+>.</para>
+
+<note
+><para
+>Voor het afspelen van audio-cd's maakt gebruik van het protocol audiocd:/ (beschikbaar in het softwarepakket kdemultimedia). Dit protocol is niet voor alle beschikbare geluidsengines geschikt.</para
+></note>
+
+</sect1>
+
+<sect1 id="cd-burning">
+<title
+>Een audio-cd branden</title>
+
+<para
+>Dankzij de integratie van <ulink url="http://www.k3b.org"
+>K3b</ulink
+> is het branden van een audio-cd in &amarok; heel eenvoudig. Om een album op cd te branden, open eerst de Collectiebrowser. Vouw vervolgens een artiestingang open in de structuurweergave en klik met de rechter muisknop op het album dat u wilt branden. Klik nu op de menuoptie <guilabel
+>Dit album branden</guilabel
+>. Er wordt een dialoog geopend waarin u het type cd kunt selecteren. Klik op de knop <guibutton
+>audio-cd</guibutton
+> en K3B zal worden gestart met het te branden album.</para>
+
+<note
+><para
+>U kunt ook een cd branden aan de hand van een Afspeellijst. Rechtsklik op een item in de Afspeellijst en selecteer in het submenu <guilabel
+>Branden</guilabel
+> een geschikte brandoptie.</para
+></note>
+
+</sect1>
+
+
+</chapter>

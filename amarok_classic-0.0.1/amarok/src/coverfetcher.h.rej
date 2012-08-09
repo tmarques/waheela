@@ -1,0 +1,24 @@
+***************
+*** 7,16 ****
+  
+  #include <qlabel.h>       //baseclass
+  #include <qimage.h>       //stack allocated
+  #include <qobject.h>      //baseclass
+  #include <qstringlist.h>  //stack allocated
+  
+  namespace Amarok {
+      void coverContextMenu(  QWidget *parent, QPoint point, const QString &artist, const QString &album, bool showCoverManager = true );
+  }
+  
+--- 7,17 ----
+  
+  #include <qlabel.h>       //baseclass
+  #include <qimage.h>       //stack allocated
+  #include <qobject.h>      //baseclass
+  #include <qstringlist.h>  //stack allocated
++ #include <qdom.h>     //stack allocated
+  
+  namespace Amarok {
+      void coverContextMenu(  QWidget *parent, QPoint point, const QString &artist, const QString &album, bool showCoverManager = true );
+  }
+  

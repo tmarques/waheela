@@ -1,0 +1,142 @@
+<chapter id="quick-start">
+<title
+>Guida di avvio veloce di &amarok;</title>
+
+<para
+>Ascoltare la musica può essere semplice. Con la Guida veloce si potrà avere &amarok; impostato e funzionante in pochi minuti.</para>
+
+
+<sect1 id="collection-building">
+<title
+>Creare una collezione</title>
+
+<screenshot>
+	<screeninfo
+>Immagine del Navigatore della collezione</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Costruire la collezione è un passo fondamentale per usare tutte le caratteristiche di &amarok;. Dal Navigatore della collezione, premere il pulsante <guibutton
+>Configura cartelle</guibutton
+> posizionato nella barra degli strumenti. Poi bisognerà scegliere quali cartelle debbano essere presenti nella collezione, dal dialogo <guilabel
+>Configura collezione</guilabel
+>. Qui ci sono anche le opzioni <guilabel
+>Scansiona le cartelle ricorsivamente</guilabel
+>, <guilabel
+>Controlla cambiamenti cartelle</guilabel
+>, e <guilabel
+>Importa playlist</guilabel
+> che si trovano nelle cartelle della collezione. Dopo aver selezionato le cartelle e spuntato ogni casella rilevante, premere il pulsante <guibutton
+>OK</guibutton
+>. Dopo la scansione iniziale, la collezione è costruita e si può procedere con la creazione di una playlist.</para>
+
+</sect1>
+
+
+<sect1 id="making-playlists">
+<title
+>Creare una playlist</title>
+
+<screenshot>
+	<screeninfo
+>Immagine di playlist</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Creare una playlist è semplice perché basta trascinare canzoni dalla vista ad albero del Navigatore della collezione nella Playlsit. Per facilitare la ricerca di file, c'è una casella di testo per filtrare la collezione. Basterà cominciare a scrivere nella casella e la vista ad albero cambierà in modo da mostrare i risultati rilevanti. Non appena soddisfatti della playlsit, si potrà salvarla premendo il pulsante <guibutton
+>Salva la playlist con nome</guibutton
+> che si trova nella barra degli strumenti della playlist.</para>
+
+<screenshot>
+	<screeninfo
+>Immagine del Navigatore della playlist</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Se si ha delle proprie playlist, si può aggiungerle al Navigatore della playlist premendo il pulsante <guibutton
+>Aggiungi playlist</guibutton
+> nella barra degli strumenti. Se le cartelle della collezione contengono le playlist e si ha selezionato Importa playlist nelle impostazioni della collezione, le playlist si troveranno già nella vista ad albero. Premendo con il destro su una playlist nella vista ad albero verranno mostrate numerose opzioni su come caricarla.</para>
+
+</sect1>
+
+
+<sect1 id="streams">
+<title
+>Ascoltare i flussi</title>
+
+<para
+>Questa parte della guida non è ancora completa.</para>
+
+</sect1>
+
+
+<sect1 id="audiocd">
+<title
+>Riprodurre un cd audio</title>
+
+<screenshot>
+	<screeninfo
+>Immagine della barra dei menu della Playlist</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Per riprodurre un cd audio, selezionare <menuchoice
+><guimenu
+>Azioni</guimenu
+><guimenuitem
+>Riproduci cd audio</guimenuitem
+></menuchoice
+> nella barra dei menu della playlist. Il Navigatore dei file si aprirà mostrando numerose cartelle ed anche le tracce cd elencate nel formato WAV. Trascinare i file WAV nella playlist e premere il pulsante <guibutton
+>Play</guibutton
+>.</para>
+
+<note
+><para
+>La caratteristica Riproduci CD audio usa il protocollo audiocd:/ e non è compatibile con tutti i motori disponibili.</para
+></note>
+
+</sect1>
+
+<sect1 id="cd-burning">
+<title
+>Masterizzare un cd audio</title>
+
+<para
+>Masterizzare un cd audio in &amarok; è facile grazie all'integrazione con <ulink url="http://www.k3b.org"
+>K3B</ulink
+>. Per masterizzare un album, prima aprire il Navigatore della collezione. Poi, espandendo la cartella di un artista nella vista ad albero, premere con il destro sull'album prescelto. Si aprirà un menu a comparsa in cui premere <guilabel
+>Masterizza questo album</guilabel
+> ed un dialogo comparirà chiedendo di scegliere una modalità di masterizzazione. Dal dialogo scegliere <guibutton
+>Modalità audio</guibutton
+>, K3B si aprirà pronto per masterizzare l'album.</para>
+
+<note
+><para
+>Funzionalità di masterizzazione si trovano anche nella playlist. Semplicemente premere con il destro su un oggetto nella playlist e seguire il menu <guilabel
+>Masterizza</guilabel
+> per molteplici opzioni di masterizzazioni.</para
+></note>
+
+</sect1>
+
+
+</chapter>

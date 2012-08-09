@@ -1,0 +1,252 @@
+/****************************************************************************
+** Scrobbler meta object code from reading C++ file 'scrobbler.h'
+**
+** Created: Fri Mar 23 10:41:34 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "scrobbler.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Scrobbler::className() const
+{
+    return "Scrobbler";
+}
+
+QMetaObject *Scrobbler::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Scrobbler( "Scrobbler", &Scrobbler::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Scrobbler::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Scrobbler", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Scrobbler::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Scrobbler", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Scrobbler::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ "currentPos", &static_QUType_ptr, "long", QUParameter::In },
+	{ "startPos", &static_QUType_ptr, "long", QUParameter::In },
+	{ "endPos", &static_QUType_ptr, "long", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"subTrack", 3, param_slot_0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"audioScrobblerSimilarArtistsResult", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x1d", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"audioScrobblerSimilarArtistsData", 2, param_slot_2 };
+    static const QMetaData slot_tbl[] = {
+	{ "subTrack(long,long,long)", &slot_0, QMetaData::Public },
+	{ "audioScrobblerSimilarArtistsResult(KIO::Job*)", &slot_1, QMetaData::Private },
+	{ "audioScrobblerSimilarArtistsData(KIO::Job*,const QByteArray&)", &slot_2, QMetaData::Private }
+    };
+    static const QUParameter param_signal_0[] = {
+	{ "artist", &static_QUType_QString, 0, QUParameter::In },
+	{ "suggestions", &static_QUType_varptr, "\x04", QUParameter::In }
+    };
+    static const QUMethod signal_0 = {"similarArtistsFetched", 2, param_signal_0 };
+    static const QMetaData signal_tbl[] = {
+	{ "similarArtistsFetched(const QString&,const QStringList&)", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Scrobbler", parentObject,
+	slot_tbl, 3,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Scrobbler.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Scrobbler::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Scrobbler" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return QObject::qt_cast( clname );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL similarArtistsFetched
+void Scrobbler::similarArtistsFetched( const QString& t0, const QStringList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 0 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_QString.set(o+1,t0);
+    static_QUType_varptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+bool Scrobbler::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: subTrack((long)(*((long*)static_QUType_ptr.get(_o+1))),(long)(*((long*)static_QUType_ptr.get(_o+2))),(long)(*((long*)static_QUType_ptr.get(_o+3)))); break;
+    case 1: audioScrobblerSimilarArtistsResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 2: audioScrobblerSimilarArtistsData((KIO::Job*)static_QUType_ptr.get(_o+1),(const QByteArray&)*((const QByteArray*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Scrobbler::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: similarArtistsFetched((const QString&)static_QUType_QString.get(_o+1),(const QStringList&)*((const QStringList*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return QObject::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Scrobbler::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool Scrobbler::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *ScrobblerSubmitter::className() const
+{
+    return "ScrobblerSubmitter";
+}
+
+QMetaObject *ScrobblerSubmitter::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_ScrobblerSubmitter( "ScrobblerSubmitter", &ScrobblerSubmitter::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString ScrobblerSubmitter::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ScrobblerSubmitter", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString ScrobblerSubmitter::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "ScrobblerSubmitter", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* ScrobblerSubmitter::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"scheduledTimeReached", 0, 0 };
+    static const QUParameter param_slot_1[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_1 = {"audioScrobblerHandshakeResult", 1, param_slot_1 };
+    static const QUParameter param_slot_2[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"audioScrobblerSubmitResult", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ 0, &static_QUType_ptr, "KIO::Job", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x1d", QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"audioScrobblerSubmitData", 2, param_slot_3 };
+    static const QMetaData slot_tbl[] = {
+	{ "scheduledTimeReached()", &slot_0, QMetaData::Private },
+	{ "audioScrobblerHandshakeResult(KIO::Job*)", &slot_1, QMetaData::Private },
+	{ "audioScrobblerSubmitResult(KIO::Job*)", &slot_2, QMetaData::Private },
+	{ "audioScrobblerSubmitData(KIO::Job*,const QByteArray&)", &slot_3, QMetaData::Private }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"ScrobblerSubmitter", parentObject,
+	slot_tbl, 4,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_ScrobblerSubmitter.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* ScrobblerSubmitter::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "ScrobblerSubmitter" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+bool ScrobblerSubmitter::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: scheduledTimeReached(); break;
+    case 1: audioScrobblerHandshakeResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 2: audioScrobblerSubmitResult((KIO::Job*)static_QUType_ptr.get(_o+1)); break;
+    case 3: audioScrobblerSubmitData((KIO::Job*)static_QUType_ptr.get(_o+1),(const QByteArray&)*((const QByteArray*)static_QUType_ptr.get(_o+2))); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool ScrobblerSubmitter::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool ScrobblerSubmitter::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool ScrobblerSubmitter::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

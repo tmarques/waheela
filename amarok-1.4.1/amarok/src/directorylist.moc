@@ -1,0 +1,109 @@
+/****************************************************************************
+** Collection::Item meta object code from reading C++ file 'directorylist.h'
+**
+** Created: Fri Mar 23 10:52:56 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "directorylist.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Collection::Item::className() const
+{
+    return "Collection::Item";
+}
+
+QMetaObject *Collection::Item::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Collection__Item( "Collection::Item", &Collection::Item::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Collection::Item::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Collection::Item", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Collection::Item::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Collection::Item", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Collection::Item::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "KFileItemList", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"newItems", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"completed", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "newItems(const KFileItemList&)", &slot_0, QMetaData::Public },
+	{ "completed()", &slot_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Collection::Item", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Collection__Item.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Collection::Item::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Collection::Item" ) )
+	return this;
+    if ( !qstrcmp( clname, "QCheckListItem" ) )
+	return (QCheckListItem*)this;
+    return QObject::qt_cast( clname );
+}
+
+bool Collection::Item::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: newItems((const KFileItemList&)*((const KFileItemList*)static_QUType_ptr.get(_o+1))); break;
+    case 1: completed(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Collection::Item::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Collection::Item::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool Collection::Item::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

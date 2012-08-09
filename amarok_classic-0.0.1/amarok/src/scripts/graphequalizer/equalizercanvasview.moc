@@ -1,0 +1,189 @@
+/****************************************************************************
+** EqualizerCanvasView meta object code from reading C++ file 'equalizercanvasview.h'
+**
+** Created: Tue Feb 19 15:57:07 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "equalizercanvasview.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *EqualizerCanvasView::className() const
+{
+    return "EqualizerCanvasView";
+}
+
+QMetaObject *EqualizerCanvasView::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_EqualizerCanvasView( "EqualizerCanvasView", &EqualizerCanvasView::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString EqualizerCanvasView::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "EqualizerCanvasView", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString EqualizerCanvasView::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "EqualizerCanvasView", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* EqualizerCanvasView::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QCanvasView::staticMetaObject();
+    static const QUMethod signal_0 = {"eqChanged", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "eqChanged()", &signal_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"EqualizerCanvasView", parentObject,
+	0, 0,
+	signal_tbl, 1,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_EqualizerCanvasView.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* EqualizerCanvasView::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "EqualizerCanvasView" ) )
+	return this;
+    return QCanvasView::qt_cast( clname );
+}
+
+// SIGNAL eqChanged
+void EqualizerCanvasView::eqChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+bool EqualizerCanvasView::qt_invoke( int _id, QUObject* _o )
+{
+    return QCanvasView::qt_invoke(_id,_o);
+}
+
+bool EqualizerCanvasView::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: eqChanged(); break;
+    default:
+	return QCanvasView::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool EqualizerCanvasView::qt_property( int id, int f, QVariant* v)
+{
+    return QCanvasView::qt_property( id, f, v);
+}
+
+bool EqualizerCanvasView::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
+
+
+const char *CallAmarok::className() const
+{
+    return "CallAmarok";
+}
+
+QMetaObject *CallAmarok::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_CallAmarok( "CallAmarok", &CallAmarok::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString CallAmarok::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CallAmarok", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString CallAmarok::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "CallAmarok", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* CallAmarok::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QObject::staticMetaObject();
+    static const QUMethod slot_0 = {"updateEq", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "updateEq()", &slot_0, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"CallAmarok", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_CallAmarok.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* CallAmarok::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "CallAmarok" ) )
+	return this;
+    return QObject::qt_cast( clname );
+}
+
+bool CallAmarok::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: updateEq(); break;
+    default:
+	return QObject::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool CallAmarok::qt_emit( int _id, QUObject* _o )
+{
+    return QObject::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool CallAmarok::qt_property( int id, int f, QVariant* v)
+{
+    return QObject::qt_property( id, f, v);
+}
+
+bool CallAmarok::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

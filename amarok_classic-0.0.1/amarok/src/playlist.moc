@@ -1,0 +1,412 @@
+/****************************************************************************
+** Playlist meta object code from reading C++ file 'playlist.h'
+**
+** Created: Tue Feb 19 15:59:53 2008
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.8   edited Feb 2 14:59 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "playlist.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Playlist::className() const
+{
+    return "Playlist";
+}
+
+QMetaObject *Playlist::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Playlist( "Playlist", &Playlist::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Playlist::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Playlist", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Playlist::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Playlist", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Playlist::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KListView::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"activateByIndex", 1, param_slot_0 };
+    static const QUMethod slot_1 = {"addCustomColumn", 0, 0 };
+    static const QUParameter param_slot_2[] = {
+	{ "url", &static_QUType_ptr, "KURL", QUParameter::In }
+    };
+    static const QUMethod slot_2 = {"appendMedia", 1, param_slot_2 };
+    static const QUParameter param_slot_3[] = {
+	{ "path", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_3 = {"appendMedia", 1, param_slot_3 };
+    static const QUMethod slot_4 = {"clear", 0, 0 };
+    static const QUMethod slot_5 = {"copyToClipboard", 0, 0 };
+    static const QUParameter param_slot_6[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_6 = {"copyToClipboard", 1, param_slot_6 };
+    static const QUParameter param_slot_7[] = {
+	{ "path", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_7 = {"countChanged", 1, param_slot_7 };
+    static const QUMethod slot_8 = {"deleteSelectedFiles", 0, 0 };
+    static const QUParameter param_slot_9[] = {
+	{ "item", &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_9 = {"ensureItemCentered", 1, param_slot_9 };
+    static const QUMethod slot_10 = {"playCurrentTrack", 0, 0 };
+    static const QUMethod slot_11 = {"playNextTrack", 0, 0 };
+    static const QUParameter param_slot_12[] = {
+	{ "forceNext", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_12 = {"playNextTrack", 1, param_slot_12 };
+    static const QUMethod slot_13 = {"playPrevTrack", 0, 0 };
+    static const QUMethod slot_14 = {"queueSelected", 0, 0 };
+    static const QUMethod slot_15 = {"redo", 0, 0 };
+    static const QUMethod slot_16 = {"removeDuplicates", 0, 0 };
+    static const QUMethod slot_17 = {"removeSelectedItems", 0, 0 };
+    static const QUMethod slot_18 = {"repopulate", 0, 0 };
+    static const QUMethod slot_19 = {"safeClear", 0, 0 };
+    static const QUParameter param_slot_20[] = {
+	{ "path", &static_QUType_QString, 0, QUParameter::In },
+	{ "score", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_20 = {"scoreChanged", 2, param_slot_20 };
+    static const QUMethod slot_21 = {"selectAll", 0, 0 };
+    static const QUParameter param_slot_22[] = {
+	{ "filter", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_22 = {"setFilter", 1, param_slot_22 };
+    static const QUParameter param_slot_23[] = {
+	{ "query", &static_QUType_QString, 0, QUParameter::In },
+	{ "item", &static_QUType_ptr, "PlaylistItem", QUParameter::In }
+    };
+    static const QUMethod slot_23 = {"setFilterForItem", 2, param_slot_23 };
+    static const QUParameter param_slot_24[] = {
+	{ "filter", &static_QUType_QString, 0, QUParameter::In }
+    };
+    static const QUMethod slot_24 = {"setFilterSlot", 1, param_slot_24 };
+    static const QUParameter param_slot_25[] = {
+	{ "on", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_25 = {"setStopAfterCurrent", 1, param_slot_25 };
+    static const QUParameter param_slot_26[] = {
+	{ "mode", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_26 = {"setStopAfterMode", 1, param_slot_26 };
+    static const QUMethod slot_27 = {"showCurrentTrack", 0, 0 };
+    static const QUMethod slot_28 = {"showQueueManager", 0, 0 };
+    static const QUMethod slot_29 = {"shuffle", 0, 0 };
+    static const QUMethod slot_30 = {"undo", 0, 0 };
+    static const QUParameter param_slot_31[] = {
+	{ 0, &static_QUType_ptr, "MetaBundle", QUParameter::In }
+    };
+    static const QUMethod slot_31 = {"updateMetaData", 1, param_slot_31 };
+    static const QUMethod slot_32 = {"slotCountChanged", 0, 0 };
+    static const QUParameter param_slot_33[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_33 = {"activate", 1, param_slot_33 };
+    static const QUMethod slot_34 = {"columnOrderChanged", 0, 0 };
+    static const QUParameter param_slot_35[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_35 = {"columnResizeEvent", 3, param_slot_35 };
+    static const QUParameter param_slot_36[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_36 = {"doubleClicked", 1, param_slot_36 };
+    static const QUParameter param_slot_37[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In }
+    };
+    static const QUMethod slot_37 = {"queue", 1, param_slot_37 };
+    static const QUParameter param_slot_38[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ "multi", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_38 = {"queue", 2, param_slot_38 };
+    static const QUMethod slot_39 = {"saveUndoState", 0, 0 };
+    static const QUMethod slot_40 = {"setDelayedFilter", 0, 0 };
+    static const QUParameter param_slot_41[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_41 = {"showContextMenu", 3, param_slot_41 };
+    static const QUMethod slot_42 = {"slotEraseMarker", 0, 0 };
+    static const QUMethod slot_43 = {"slotGlowTimer", 0, 0 };
+    static const QUMethod slot_44 = {"reallyEnsureItemCentered", 0, 0 };
+    static const QUParameter param_slot_45[] = {
+	{ 0, &static_QUType_int, 0, QUParameter::In },
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_varptr, "\x0e", QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_45 = {"slotMouseButtonPressed", 4, param_slot_45 };
+    static const QUParameter param_slot_46[] = {
+	{ "enabled", &static_QUType_bool, 0, QUParameter::In }
+    };
+    static const QUMethod slot_46 = {"slotRepeatTrackToggled", 1, param_slot_46 };
+    static const QUParameter param_slot_47[] = {
+	{ "in", &static_QUType_ptr, "PLItemList", QUParameter::In },
+	{ "out", &static_QUType_ptr, "PLItemList", QUParameter::In }
+    };
+    static const QUMethod slot_47 = {"slotQueueChanged", 2, param_slot_47 };
+    static const QUMethod slot_48 = {"updateNextPrev", 0, 0 };
+    static const QUParameter param_slot_49[] = {
+	{ 0, &static_QUType_ptr, "QListViewItem", QUParameter::In },
+	{ 0, &static_QUType_QString, 0, QUParameter::In },
+	{ 0, &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod slot_49 = {"writeTag", 3, param_slot_49 };
+    static const QMetaData slot_tbl[] = {
+	{ "activateByIndex(int)", &slot_0, QMetaData::Public },
+	{ "addCustomColumn()", &slot_1, QMetaData::Public },
+	{ "appendMedia(const KURL&)", &slot_2, QMetaData::Public },
+	{ "appendMedia(const QString&)", &slot_3, QMetaData::Public },
+	{ "clear()", &slot_4, QMetaData::Public },
+	{ "copyToClipboard()", &slot_5, QMetaData::Public },
+	{ "copyToClipboard(const QListViewItem*)", &slot_6, QMetaData::Public },
+	{ "countChanged(const QString&)", &slot_7, QMetaData::Public },
+	{ "deleteSelectedFiles()", &slot_8, QMetaData::Public },
+	{ "ensureItemCentered(QListViewItem*)", &slot_9, QMetaData::Public },
+	{ "playCurrentTrack()", &slot_10, QMetaData::Public },
+	{ "playNextTrack()", &slot_11, QMetaData::Public },
+	{ "playNextTrack(const bool)", &slot_12, QMetaData::Public },
+	{ "playPrevTrack()", &slot_13, QMetaData::Public },
+	{ "queueSelected()", &slot_14, QMetaData::Public },
+	{ "redo()", &slot_15, QMetaData::Public },
+	{ "removeDuplicates()", &slot_16, QMetaData::Public },
+	{ "removeSelectedItems()", &slot_17, QMetaData::Public },
+	{ "repopulate()", &slot_18, QMetaData::Public },
+	{ "safeClear()", &slot_19, QMetaData::Public },
+	{ "scoreChanged(const QString&,int)", &slot_20, QMetaData::Public },
+	{ "selectAll()", &slot_21, QMetaData::Public },
+	{ "setFilter(const QString&)", &slot_22, QMetaData::Public },
+	{ "setFilterForItem(const QString&,PlaylistItem*)", &slot_23, QMetaData::Public },
+	{ "setFilterSlot(const QString&)", &slot_24, QMetaData::Public },
+	{ "setStopAfterCurrent(bool)", &slot_25, QMetaData::Public },
+	{ "setStopAfterMode(int)", &slot_26, QMetaData::Public },
+	{ "showCurrentTrack()", &slot_27, QMetaData::Public },
+	{ "showQueueManager()", &slot_28, QMetaData::Public },
+	{ "shuffle()", &slot_29, QMetaData::Public },
+	{ "undo()", &slot_30, QMetaData::Public },
+	{ "updateMetaData(const MetaBundle&)", &slot_31, QMetaData::Public },
+	{ "slotCountChanged()", &slot_32, QMetaData::Private },
+	{ "activate(QListViewItem*)", &slot_33, QMetaData::Private },
+	{ "columnOrderChanged()", &slot_34, QMetaData::Private },
+	{ "columnResizeEvent(int,int,int)", &slot_35, QMetaData::Private },
+	{ "doubleClicked(QListViewItem*)", &slot_36, QMetaData::Private },
+	{ "queue(QListViewItem*)", &slot_37, QMetaData::Private },
+	{ "queue(QListViewItem*,bool)", &slot_38, QMetaData::Private },
+	{ "saveUndoState()", &slot_39, QMetaData::Private },
+	{ "setDelayedFilter()", &slot_40, QMetaData::Private },
+	{ "showContextMenu(QListViewItem*,const QPoint&,int)", &slot_41, QMetaData::Private },
+	{ "slotEraseMarker()", &slot_42, QMetaData::Private },
+	{ "slotGlowTimer()", &slot_43, QMetaData::Private },
+	{ "reallyEnsureItemCentered()", &slot_44, QMetaData::Private },
+	{ "slotMouseButtonPressed(int,QListViewItem*,const QPoint&,int)", &slot_45, QMetaData::Private },
+	{ "slotRepeatTrackToggled(bool)", &slot_46, QMetaData::Private },
+	{ "slotQueueChanged(const PLItemList&,const PLItemList&)", &slot_47, QMetaData::Private },
+	{ "updateNextPrev()", &slot_48, QMetaData::Private },
+	{ "writeTag(QListViewItem*,const QString&,int)", &slot_49, QMetaData::Private }
+    };
+    static const QUMethod signal_0 = {"aboutToClear", 0, 0 };
+    static const QUParameter param_signal_1[] = {
+	{ "newCount", &static_QUType_int, 0, QUParameter::In },
+	{ "newLength", &static_QUType_int, 0, QUParameter::In },
+	{ "visCount", &static_QUType_int, 0, QUParameter::In },
+	{ "visLength", &static_QUType_int, 0, QUParameter::In },
+	{ "selCount", &static_QUType_int, 0, QUParameter::In },
+	{ "selLength", &static_QUType_int, 0, QUParameter::In }
+    };
+    static const QUMethod signal_1 = {"itemCountChanged", 6, param_signal_1 };
+    static const QUParameter param_signal_2[] = {
+	{ "queued", &static_QUType_ptr, "PLItemList", QUParameter::In },
+	{ "dequeued", &static_QUType_ptr, "PLItemList", QUParameter::In }
+    };
+    static const QUMethod signal_2 = {"queueChanged", 2, param_signal_2 };
+    static const QUMethod signal_3 = {"columnsChanged", 0, 0 };
+    static const QMetaData signal_tbl[] = {
+	{ "aboutToClear()", &signal_0, QMetaData::Public },
+	{ "itemCountChanged(int,int,int,int,int,int)", &signal_1, QMetaData::Public },
+	{ "queueChanged(const PLItemList&,const PLItemList&)", &signal_2, QMetaData::Public },
+	{ "columnsChanged()", &signal_3, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Playlist", parentObject,
+	slot_tbl, 50,
+	signal_tbl, 4,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Playlist.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Playlist::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Playlist" ) )
+	return this;
+    if ( !qstrcmp( clname, "EngineObserver" ) )
+	return (EngineObserver*)this;
+    return KListView::qt_cast( clname );
+}
+
+// SIGNAL aboutToClear
+void Playlist::aboutToClear()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 0 );
+}
+
+#include <qobjectdefs.h>
+#include <qsignalslotimp.h>
+
+// SIGNAL itemCountChanged
+void Playlist::itemCountChanged( int t0, int t1, int t2, int t3, int t4, int t5 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 1 );
+    if ( !clist )
+	return;
+    QUObject o[7];
+    static_QUType_int.set(o+1,t0);
+    static_QUType_int.set(o+2,t1);
+    static_QUType_int.set(o+3,t2);
+    static_QUType_int.set(o+4,t3);
+    static_QUType_int.set(o+5,t4);
+    static_QUType_int.set(o+6,t5);
+    activate_signal( clist, o );
+}
+
+// SIGNAL queueChanged
+void Playlist::queueChanged( const PLItemList& t0, const PLItemList& t1 )
+{
+    if ( signalsBlocked() )
+	return;
+    QConnectionList *clist = receivers( staticMetaObject()->signalOffset() + 2 );
+    if ( !clist )
+	return;
+    QUObject o[3];
+    static_QUType_ptr.set(o+1,&t0);
+    static_QUType_ptr.set(o+2,&t1);
+    activate_signal( clist, o );
+}
+
+// SIGNAL columnsChanged
+void Playlist::columnsChanged()
+{
+    activate_signal( staticMetaObject()->signalOffset() + 3 );
+}
+
+bool Playlist::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: activateByIndex((int)static_QUType_int.get(_o+1)); break;
+    case 1: addCustomColumn(); break;
+    case 2: appendMedia((const KURL&)*((const KURL*)static_QUType_ptr.get(_o+1))); break;
+    case 3: appendMedia((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 4: clear(); break;
+    case 5: copyToClipboard(); break;
+    case 6: copyToClipboard((const QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 7: countChanged((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 8: deleteSelectedFiles(); break;
+    case 9: ensureItemCentered((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 10: playCurrentTrack(); break;
+    case 11: playNextTrack(); break;
+    case 12: playNextTrack((const bool)static_QUType_bool.get(_o+1)); break;
+    case 13: playPrevTrack(); break;
+    case 14: queueSelected(); break;
+    case 15: redo(); break;
+    case 16: removeDuplicates(); break;
+    case 17: removeSelectedItems(); break;
+    case 18: repopulate(); break;
+    case 19: safeClear(); break;
+    case 20: scoreChanged((const QString&)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2)); break;
+    case 21: selectAll(); break;
+    case 22: setFilter((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 23: setFilterForItem((const QString&)static_QUType_QString.get(_o+1),(PlaylistItem*)static_QUType_ptr.get(_o+2)); break;
+    case 24: setFilterSlot((const QString&)static_QUType_QString.get(_o+1)); break;
+    case 25: setStopAfterCurrent((bool)static_QUType_bool.get(_o+1)); break;
+    case 26: setStopAfterMode((int)static_QUType_int.get(_o+1)); break;
+    case 27: showCurrentTrack(); break;
+    case 28: showQueueManager(); break;
+    case 29: shuffle(); break;
+    case 30: undo(); break;
+    case 31: updateMetaData((const MetaBundle&)*((const MetaBundle*)static_QUType_ptr.get(_o+1))); break;
+    case 32: slotCountChanged(); break;
+    case 33: activate((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 34: columnOrderChanged(); break;
+    case 35: columnResizeEvent((int)static_QUType_int.get(_o+1),(int)static_QUType_int.get(_o+2),(int)static_QUType_int.get(_o+3)); break;
+    case 36: doubleClicked((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 37: queue((QListViewItem*)static_QUType_ptr.get(_o+1)); break;
+    case 38: queue((QListViewItem*)static_QUType_ptr.get(_o+1),(bool)static_QUType_bool.get(_o+2)); break;
+    case 39: saveUndoState(); break;
+    case 40: setDelayedFilter(); break;
+    case 41: showContextMenu((QListViewItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2)),(int)static_QUType_int.get(_o+3)); break;
+    case 42: slotEraseMarker(); break;
+    case 43: slotGlowTimer(); break;
+    case 44: reallyEnsureItemCentered(); break;
+    case 45: slotMouseButtonPressed((int)static_QUType_int.get(_o+1),(QListViewItem*)static_QUType_ptr.get(_o+2),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+3)),(int)static_QUType_int.get(_o+4)); break;
+    case 46: slotRepeatTrackToggled((bool)static_QUType_bool.get(_o+1)); break;
+    case 47: slotQueueChanged((const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+1)),(const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+2))); break;
+    case 48: updateNextPrev(); break;
+    case 49: writeTag((QListViewItem*)static_QUType_ptr.get(_o+1),(const QString&)static_QUType_QString.get(_o+2),(int)static_QUType_int.get(_o+3)); break;
+    default:
+	return KListView::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Playlist::qt_emit( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->signalOffset() ) {
+    case 0: aboutToClear(); break;
+    case 1: itemCountChanged((int)static_QUType_int.get(_o+1),(int)static_QUType_int.get(_o+2),(int)static_QUType_int.get(_o+3),(int)static_QUType_int.get(_o+4),(int)static_QUType_int.get(_o+5),(int)static_QUType_int.get(_o+6)); break;
+    case 2: queueChanged((const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+1)),(const PLItemList&)*((const PLItemList*)static_QUType_ptr.get(_o+2))); break;
+    case 3: columnsChanged(); break;
+    default:
+	return KListView::qt_emit(_id,_o);
+    }
+    return TRUE;
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Playlist::qt_property( int id, int f, QVariant* v)
+{
+    return KListView::qt_property( id, f, v);
+}
+
+bool Playlist::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

@@ -1,0 +1,101 @@
+/****************************************************************************
+** Options7 meta object code from reading C++ file 'Options7.h'
+**
+** Created: Fri Mar 23 10:56:38 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "Options7.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *Options7::className() const
+{
+    return "Options7";
+}
+
+QMetaObject *Options7::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_Options7( "Options7", &Options7::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString Options7::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Options7", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString Options7::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "Options7", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* Options7::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"languageChange", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "languageChange()", &slot_0, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"Options7", parentObject,
+	slot_tbl, 1,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_Options7.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* Options7::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "Options7" ) )
+	return this;
+    return QWidget::qt_cast( clname );
+}
+
+bool Options7::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: languageChange(); break;
+    default:
+	return QWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool Options7::qt_emit( int _id, QUObject* _o )
+{
+    return QWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool Options7::qt_property( int id, int f, QVariant* v)
+{
+    return QWidget::qt_property( id, f, v);
+}
+
+bool Options7::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

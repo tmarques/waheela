@@ -1,0 +1,148 @@
+<chapter id="quick-start">
+<title
+>Guía de inicio rápido de &amarok;</title>
+
+<para
+>Escuchar música debería ser algo sencillo. Con este propósito hemos creado el asistente de la primera ejecución, que se presentará la primera vez que &amarok; se ejecute. Esta guía de inicio rápido es para aquellos que quieren actualizar su colección más adelante o bien prefieren no usar el asistente. Con la guía de inicio rápido podrá dejar &amarok; listo y funcionando en cuestión de minutos.</para>
+
+
+<sect1 id="collection-building">
+<title
+>Construyendo una colección</title>
+
+<screenshot>
+	<screeninfo
+>Captura de pantalla del navegador de la colección</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Construir su colección es un paso esencial para usar todas las características de &amarok;. Desde el navegador de la colección, haga click en el botón <guibutton
+>Configurar carpetas</guibutton
+> situado en la barra de herramientas. A continuación, escoja aquellas carpetas que desee que figuren en su colección en el cuadro de diálogo <guilabel
+>Configurar colección</guilabel
+>. También aquí tiene la opción de <guilabel
+>Explorar las carpetas recursivamente</guilabel
+>, <guilabel
+>Vigilar los cambios en las carpetas</guilabel
+>, e <guilabel
+>Importar listas de reproducción</guilabel
+> que se encuentran en las carpetas de la colección. Después de seleccionar sus carpetas y de marcar cualquier casilla relevante, haga click en el botón <guibutton
+>Aceptar</guibutton
+>. Tras la exploración inicial, su colección queda construida y puede continuar elaborando una lista de reproducción.</para>
+
+</sect1>
+
+
+<sect1 id="making-playlists">
+<title
+>Elaborando una lista de reproducción</title>
+
+<screenshot>
+	<screeninfo
+>Captura de pantalla de la lista de reproducción</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="play_list.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Elaborar una lista de reproducción es tan simple como arrastrar los elementos de la vista en árbol del navegador de la colección a la lista de reproducción. Para facilitar la búsqueda de elementos, dispone de una caja de texto para filtrar su colección. Simplemente comience a escribir en ella y la vista en árbol cambiará para mostrarle solamente aquellos resultados de interés. Después de quedar satisfecho con su lista de reproducción, puede guardarla haciendo click en el botón <guibutton
+>Guardar lista de reproducción como</guibutton
+>, que se encuentra en la barra de herramientas de la lista de reproducción.</para>
+
+<screenshot>
+	<screeninfo
+>Captura de pantalla del navegador de listas de reproducción</screeninfo>
+	<mediaobject>
+	<imageobject
+><imagedata fileref="pl_browser.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Si tiene sus propias listas de reproducción, puede añadirlas al navegador de listasde reproducción haciendo click sobre el botón <guibutton
+>Añadir</guibutton
+> y escogiendo la opción <guibutton
+>Lista de reproducción...</guibutton
+>en la barra de herramientas. Si las carpetas de su colección incluyen listas de reproducción y en la configuración de la colección marcó la opción Importar listas de reproducción, sus listas aparecerán ya en la vista en árbol. Al hacer click con el botón derecho sobre una lista de reproducción en la vista en árbol le aparecerán varias opciones para cargar la lista.</para>
+
+</sect1>
+
+
+<sect1 id="streams">
+<title
+>Escuchando flujos de datos</title>
+
+<para
+>Los flujos de datos de radio pueden reproducirse en &amarok; añadiéndolos desde el navegador de listas de reproducción. &amarok; viene con un selecto grupo de flujos de datos para que nuestros oyentes disfruten, son los llamados flujos de datos interesantes. Haga doble click sobre una entrada, o arrástrela, para cargarla en la lista de reproducción y una vez allí reproducirla. Para añadir sus propios flujos de datos al navegador de listas de reproducción haga click en el botón <guibutton
+>Añadir</guibutton
+> en la barra de herramientas y elija <guibutton
+>Flujo de datos de radio...</guibutton
+> del menú desplegable de opciones. Tras añadir su flujo de datos, podrá reproducirlo una vez que lo haya cargado en la lista de reproducción.</para>
+
+</sect1>
+
+
+<sect1 id="audiocd">
+<title
+>Reproduciendo un CD de audio</title>
+
+<screenshot>
+	<screeninfo
+>Captura de pantalla de la barra de menú de la lista de reproducción</screeninfo>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref="menubar.png" format="PNG"/>
+	</imageobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Para reproducir un CD de audio, seleccione <menuchoice
+><guimenu
+>Acciones</guimenu
+><guimenuitem
+>Reproducir CD de audio</guimenuitem
+></menuchoice
+> en la barra de menú de la lista de reproducción. El navegador de ficheros se abrirá mostrándole varias carpetas y también las pistas del CD en formato WAV. Arrastre los ficheros WAV a la lista de reproducción y haga click sobre el botón <guibutton
+>Reproducir</guibutton
+>.</para>
+
+<note
+><para
+>La capacidad de reproducir CDs de audio utiliza el protocolo audiocd:/ y no es compatible con todos los motores disponibles.</para
+></note>
+
+</sect1>
+
+<sect1 id="cd-burning">
+<title
+>Grabando un CD de audio</title>
+
+<para
+>Grabar un CD de audio en &amarok; es fácil gracias a la integración con <ulink url="http://www.k3b.org"
+>K3B</ulink
+>. Para grabar un álbum, abra el navegador de la colección en primer lugar. A continuación, en la vista en árbol, expanda la entrada de un artista y haga click con el botón derecho sobre el álbum que desee grabar. Un menú emergente se abrirá, haga click en <guilabel
+>Grabar este álbum</guilabel
+> y se abrirá un cuadro de diálogo pidiéndole que escoja un modo de grabación. En el cuadro de diálogo haga click en el botón <guibutton
+>Modo de audio</guibutton
+> y K3B se abrirá listo para grabar el álbum.</para>
+
+<note
+><para
+>La funcionalidad de grabación también está disponible en la lista de reproducción. Tan sólo haga click con el botón derecho sobre un elemento de la lista de reproducción y siga el menú <guilabel
+>Grabar</guilabel
+> para ver las múltiples opciones de grabación.</para
+></note>
+
+</sect1>
+
+
+</chapter>

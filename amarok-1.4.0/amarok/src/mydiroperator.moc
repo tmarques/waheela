@@ -1,0 +1,111 @@
+/****************************************************************************
+** MyDirOperator meta object code from reading C++ file 'mydiroperator.h'
+**
+** Created: Fri Mar 23 10:40:00 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "mydiroperator.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *MyDirOperator::className() const
+{
+    return "MyDirOperator";
+}
+
+QMetaObject *MyDirOperator::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_MyDirOperator( "MyDirOperator", &MyDirOperator::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString MyDirOperator::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyDirOperator", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString MyDirOperator::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "MyDirOperator", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* MyDirOperator::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KDirOperator::staticMetaObject();
+    static const QUParameter param_slot_0[] = {
+	{ 0, &static_QUType_ptr, "KFileItem", QUParameter::In },
+	{ "pos", &static_QUType_varptr, "\x0e", QUParameter::In }
+    };
+    static const QUMethod slot_0 = {"activatedMenu", 2, param_slot_0 };
+    static const QUMethod slot_1 = {"myHome", 0, 0 };
+    static const QUMethod slot_2 = {"myCdUp", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "activatedMenu(const KFileItem*,const QPoint&)", &slot_0, QMetaData::Public },
+	{ "myHome()", &slot_1, QMetaData::Public },
+	{ "myCdUp()", &slot_2, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"MyDirOperator", parentObject,
+	slot_tbl, 3,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_MyDirOperator.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* MyDirOperator::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "MyDirOperator" ) )
+	return this;
+    return KDirOperator::qt_cast( clname );
+}
+
+bool MyDirOperator::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: activatedMenu((const KFileItem*)static_QUType_ptr.get(_o+1),(const QPoint&)*((const QPoint*)static_QUType_ptr.get(_o+2))); break;
+    case 1: myHome(); break;
+    case 2: myCdUp(); break;
+    default:
+	return KDirOperator::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool MyDirOperator::qt_emit( int _id, QUObject* _o )
+{
+    return KDirOperator::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool MyDirOperator::qt_property( int id, int f, QVariant* v)
+{
+    return KDirOperator::qt_property( id, f, v);
+}
+
+bool MyDirOperator::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

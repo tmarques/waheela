@@ -1,0 +1,707 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+ <!ENTITY amarok "amaroK">
+ <!ENTITY amarok-quick SYSTEM "quick.docbook">
+ <!ENTITY amarok-config SYSTEM "config.docbook">
+ <!ENTITY amarok-using SYSTEM "using.docbook">
+ <!ENTITY amarok-advanced SYSTEM "advanced.docbook">
+ <!ENTITY amarok-req SYSTEM "requirements.docbook">
+ <!ENTITY amarok-faq SYSTEM "faq.docbook">
+ <!--<!ENTITY amarok-tech SYSTEM "technology.docbook"
+>-->
+ <!ENTITY kappname "&amarok;">
+ <!ENTITY package "extragear">
+ <!ENTITY RMB "right mouse button">
+ <!ENTITY k3b "K3b">
+ <!ENTITY % addindex "IGNORE">
+ <!ENTITY % Russian "INCLUDE">
+]>
+
+<book lang="&language;">
+<bookinfo>
+
+<title
+>Руководство по &amarok;</title>
+
+<authorgroup>
+ <author
+><firstname
+>Mike</firstname
+> <surname
+>Diehl</surname
+> <affiliation
+> <address
+><email
+>madpenguin8@yahoo.com</email
+></address>
+ </affiliation>
+</author>
+
+<othercredit role="developer">
+ <firstname
+>Взвод разработчиков amaroK</firstname>
+ <contrib
+>Разработчики</contrib>
+</othercredit>
+
+<othercredit role="translator"
+><firstname
+>Николай</firstname
+><surname
+>Шафоростов</surname
+><affiliation
+><address
+><email
+>shafff@ukr.net</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>Alexandre</firstname
+><surname
+>Prokoudine</surname
+><affiliation
+><address
+><email
+>avp@lrn.ru</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> <othercredit role="translator"
+><firstname
+>Alexey</firstname
+><surname
+>Goryainov</surname
+><affiliation
+><address
+><email
+>KoRneR@front.ru</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> <othercredit role="translator"
+><firstname
+>Ivan</firstname
+><surname
+>Petrov</surname
+><affiliation
+><address
+><email
+>pis00593@udmglzs.udmene.ru</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+ <year
+>2005</year>
+ <holder
+>Взвод разработчиков amaroK</holder>
+</copyright>
+
+<copyright>
+ <year
+>2006</year>
+ <holder
+>The doKymotion Krew</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2006-02-20</date
+> <!-- CHANGE ME -->
+<releaseinfo
+>2.1</releaseinfo>
+
+<abstract>
+ <para
+>&amarok; - мультимедиа-проигрыватель для KDE.</para>
+</abstract>
+
+<keywordset>
+ <keyword
+>KDE</keyword>
+ <keyword
+>мультимедиа</keyword>
+ <keyword
+>проигрыватель</keyword>
+ <keyword
+>аудио</keyword>
+ <keyword
+>ogg</keyword>
+ <keyword
+>mp3</keyword>
+ <keyword
+>wav</keyword>
+ <keyword
+>музыка</keyword>
+ <keyword
+>звук</keyword>
+ <keyword
+>сценарий</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction"
+> <!--Merge with technology.docbook-->
+<title
+>Введение</title>
+
+<screenshot>
+ <screeninfo
+>Логотип</screeninfo>
+ <mediaobject>
+ <imageobject
+><imagedata fileref="logo.png" format="PNG"/></imageobject>
+ </mediaobject>
+</screenshot>
+
+<para
+>&amarok; - это полнофункциональный проигрыватель для &kde;, сочетающий в себе мощь и простоту использования. </para>
+
+<para
+>Добавить песни в плейлист &amarok; можно просто перетащив нужные файлы в его окно. Вы хотите найти ту самую песню в вашей огромной коллекции? Воспользуйтесь строкой поиска в верхней панели &amarok;. Достаточно набрать несколько букв из названия песни, чтобы найти её.</para>
+
+<para
+>В &amarok; уже воплощены все возможности обычных проигрывателей, но на этом мы не остановились. Посмотрите на панель статистики слева от плейлиста, и вы поймёте, почему мы на шаг впереди от других. На ней помимо автоматически обновляемой статистики по списку воспроизведения, может отображаться обложка проигрываемого альбома, так что пользоваться программой становится не просто удобно, но и увлекательно.</para>
+
+<para
+>У вас уже есть созданные раньше плейлисты, но вы не может сделать окончательный выбор, на котором из них остановиться? Тогда вам пригодится панель "Списки". Загрузка имеющихся списков делается буквально лёгким движением мизинца. Затрудняетесь с выбором того, что послушать именно сейчас? За вас решит движок динамического режима amaroK, а интеллектуальные списки позволяют "исследовать" лучшие части вашей коллекции.</para>
+
+<para
+>amaroK поддерживает Apple iPod, iRiver iFP и другие плейеры, при условии что они имеют стандартный USB-интерфейс. В добавок ко всему этому, интеграция с множеством интернет-сервисов (last.fm, podcast, коллекции текстов песен, википедия) делает &amarok; лучшим плейером в мире! Мы надеемся, что с ним вы действительно "посмотрите на музыку по-другому!</para>
+
+</chapter>
+
+<!--&amarok-tech;-->
+
+&amarok-quick;
+
+&amarok-config;
+
+&amarok-using;
+
+&amarok-advanced;
+
+&amarok-faq;
+
+<chapter id="credits">
+<title
+>Лицензия и благодарности</title>
+
+<para
+>Программа &copy; 2003-2005 Mark Kretschmann <email
+>markey@web.de</email
+> и Команда AmaroK.</para>
+
+<itemizedlist>
+<title
+>Команда AmaroK</title>
+<listitem
+><para
+>Кристиан Мулхаузер (Christian <quote
+>babe-magnet</quote
+> Muehlhaeuser) <email
+>chris@chris.de</email
+></para
+></listitem>
+<listitem
+><para
+>Фредерик Холлджен (Frederik <quote
+>ich bin kein Deustcher!</quote
+> Holljen) <email
+>fh@ez.no</email
+></para
+></listitem>
+<listitem
+><para
+>Марк Кретшманн (Mark <quote
+>it's good, but it's not irssi</quote
+> Kretschmann) <email
+>markey@web.de</email
+></para
+></listitem>
+<listitem
+><para
+>Макс Ховелл (Max <quote
+>Turtle-Power</quote
+> Howell) <email
+>max.howell@methylblue.com</email
+></para
+></listitem>
+<listitem
+><para
+>Майк Дил (Mike <quote
+>purple is not girly!</quote
+> Diehl) <email
+>madpenguin8@yahoo.com</email
+></para
+></listitem>
+<listitem
+><para
+>Пьерпаоло ди Панфило (Pierpaolo <quote
+>Spaghetti Coder</quote
+> Di Panfilo<email
+>)pippo_dp@libero.it</email
+></para>
+</listitem>
+<listitem
+><para
+>Роман Бекер (Roman <quote
+>and God said, let there be Mac</quote
+> Becker) <email
+>roman@formmorf.de</email
+></para
+></listitem>
+<listitem
+><para
+>Себ Рулз (Seb <quote
+>Surfin' down under</quote
+> Ruiz) <email
+>me@sebruiz.net</email
+></para
+></listitem>
+<listitem
+><para
+>Станислав Карчебный (Stanislav <quote
+>did someone say DCOP?</quote
+> Karchebny) <email
+>Stanislav.Karchebny@kdemail.net</email
+></para
+></listitem>
+</itemizedlist>
+
+<itemizedlist>
+<title
+>Развитию проекта помогли:</title>
+
+<listitem>
+<para
+>Адам Пигг (Adam Pigg) <email
+>adam@piggz.fsnet.co.uk</email
+> - анализаторы, заплатки</para>
+</listitem>
+
+<listitem>
+<para
+>Адеодато Симо (Adeodato Simo) <email
+>asp16@alu.ua.es</email
+> - заплатки</para>
+</listitem>
+
+<listitem>
+<para
+>Александр Оливейра (Alexandre Oliveira) <email
+>aleprj@gmail.com</email
+> - улучшения и исправления ошибок</para>
+</listitem>
+
+<listitem>
+<para
+>Андре Мэйр (Andreas Mair) <email
+>am_ml@linogate.com</email
+> - поддержка MySQL</para>
+</listitem>
+
+<listitem>
+<para
+>Эндрю де Квинси (Andrew de Quincey) <email
+>adq_dvb@lidskialf.net</email
+> - поддержка Postgresql</para>
+</listitem>
+
+<listitem>
+<para
+>Кристи Гаррис (Christie Harris) <email
+>dangle.baby@gmail.com</email
+> - roKymoter</para>
+</listitem>
+
+<listitem>
+<para
+>Дан Лайнир Дженсен (Dan Leinir Turthra Jensen) <email
+>admin@removeleinir.dk</email
+> - мастер первого запуска </para>
+</listitem>
+
+<listitem>
+<para
+>Дан Мельтцер (Dan Meltzer) <email
+>hydrogen@notyetimplemented.com</email
+> - roKymoter</para>
+</listitem>
+
+<listitem>
+<para
+>Энрико Рос (Enrico Ros) <email
+>eros.kde@email.it</email
+> - анализаторы, спец по OpenGL</para>
+</listitem>
+
+<listitem>
+<para
+>Флориан Эгерер (Florian 'da-flow' Egerer) - значок amaroK "Blue Wolf" <email
+>flo_for_never@gmx.at</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Джерард Деррмейер (GÃ©rard DÃ¼rrmeyer) -<email
+>gerard@randomtree.com</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Грер Мейер (Greg Meyer) - тестирование версии 1.2 <email
+>greg@gkmweb.com</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Харальд Ситтер (Harald Sitter) <email
+>harald.sitter@kdemail.net</email
+> - roKymoter, перевод</para>
+</listitem>
+
+<listitem>
+<para
+>Ян Монро (Ian Monroe) - заплатки, шаблон для сценариев Ruby (eean) <email
+>ian@monroe.nu</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Джарко Лети (Jarkko Lehti) <email
+>grue@iki.fi</email
+> - тестирование</para>
+</listitem>
+
+<listitem>
+<para
+>Джок Андерссон (Jocke Andersson) <email
+>ajocke@gmail.com</email
+> - roKymoter</para>
+</listitem>
+
+<listitem>
+<para
+>Кеннет Уисли Уимер 2 (Kenneth Wesley Wimer II) <email
+>kwwii@bootsplash.org</email
+> - значки</para>
+</listitem>
+
+<listitem>
+<para
+>Кенни Лемье (Kenny Lemieux) <email
+>swaft@pwsp.net</email
+> - web-мастер</para>
+</listitem>
+
+<listitem>
+<para
+>Мелчио Франц (Melchior Franz) <email
+>mfranz@kde.org</email
+> - FFT, исправление ошибок</para>
+</listitem>
+
+<listitem>
+<para
+>Michael Pyne (взаимодействие с K3B) <email
+>michael.pyne@kdemail.net</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Nenad Grujicic (заставка при запуске для 1.1) <email
+>mchitman@neobee.net</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Оливьер Бедард (Olivier Bédard) <email
+>paleo@pwsp.net</email
+> - хостинг сайта</para>
+</listitem>
+
+<listitem>
+<para
+>Рейго Рейнметс (Reigo Reinmets) <email
+>xatax@hot.ee</email
+> - поддержка Wikipedia, заплатки</para>
+</listitem>
+
+<listitem>
+<para
+>Роланд Гиглер (Roland Gigler) <email
+>michael.pyne@kdemail.net</email
+> - движок MAS</para>
+</listitem>
+
+<listitem>
+<para
+>Сами Ниминен (Sami Nieminen) <email
+>sami.nieminen@iki.fi</email
+> - поддержка Audioscrobbler</para>
+</listitem>
+
+<listitem>
+<para
+>Скотт Вилер (Scott Wheeler) <email
+>wheeler@kde.org</email
+> - TagLib</para>
+</listitem>
+
+<listitem>
+<para
+>Стефан Вогнер (Stefan Bogner) <email
+>bochi@online.ms</email
+> - Loadsa</para>
+</listitem>
+
+<listitem>
+<para
+>Стефан Зигель (Stefan Siegel) <email
+>kde@sdas.de</email
+> - заплатки, исправление ошибок</para>
+</listitem>
+
+<listitem>
+<para
+>Свен Кролас (Sven Krohlas) <email
+>sven@asbest-online.de</email
+> - roKymoter</para>
+</listitem>
+
+<listitem>
+<para
+>Уайтавк Стормчейзер (Whitehawk Stormchaser) <email
+>zerokode@gmx.net</email
+> - тестирование, заплатки</para>
+</listitem>
+
+</itemizedlist>
+
+<para
+>Документация &copy; 2005 Mike Diehl <email
+>madpenguin8@yahoo.com</email
+></para>
+&underFDL; &underGPL; </chapter>
+
+&amarok-req;
+
+<appendix id="installation">
+<title
+>Установка</title>
+
+<sect1 id="getting-kapp">
+<title
+>Как получить &amarok;</title>
+
+<para
+>&amarok; можно загрузить с его <ulink url="http://amarok.kde.org"
+>домашней страницы</ulink
+></para>
+
+
+<para
+>Текущую версию кода можно получить из SVN-репозитория &kde;, в модуле /trunk/extragear/multimedia/amarok/.</para>
+
+<sect2>
+<title
+>Как скомпилировать &amarok;</title>
+
+<para
+>Кроме amaroK, в системе должны присутствовать мультимедиа-движки. После их установки введите следующие команды в каталоге с исходниками программы</para>
+
+<para
+><command
+>./configure --prefix=`kde-config --prefix`</command
+> <command
+>make</command
+> <command
+>su -c "make install"</command
+> </para>
+
+<note
+><para
+>Ключ --enable-final больше не поддерживается.</para
+></note>
+
+<para
+>Т.к. &amarok; использует <keycap
+>autoconf</keycap
+> и <keycap
+>automake</keycap
+>, с самим процессом сборки не должно возникнуть проблем. Если у вас всё-таки возникнут сложности, обратитесь с ними в списки рассылки &kde;.</para>
+
+</sect2>
+
+<sect2>
+<title
+>Ключи сборки</title>
+
+<para
+>У &amarok;, как и у большинства приложений, есть несколько ключей для сборки, которые могут при необходимости быть включены или отключены. Вот список ключей для &amarok;.</para>
+
+<note
+><para
+>Некоторые ключи сборки предполагают дополнительного программного обеспечения. Подробности вы можете узнать в <link linkend="requirements"
+>разделе с перечнем требований</link
+>.</para
+></note>
+
+<informaltable>
+<tgroup cols="3">
+<thead>
+
+<row>
+<entry
+>Ключ</entry>
+<entry
+>По умолчанию</entry>
+<entry
+>Описание</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry
+>--enable-debug=</entry>
+<entry
+>no</entry>
+<entry
+>Добавить символы для отладки. Вы можете выбрать один из трёх вариантов: <quote
+>yes</quote
+>, <quote
+>no</quote
+>, и <quote
+>full</quote
+>. Вариант <quote
+>full</quote
+> рекомендуется выбирать в том случае, если вы планируете помогать с разработкой &amarok;.</entry>
+</row>
+
+<row>
+<entry
+>--enable-mysql</entry>
+<entry
+>Отключено</entry>
+<entry
+>Включить поддержку базы данных MySQL для &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--disable-amazon</entry>
+<entry
+>Включено</entry>
+<entry
+>Отключить загрузку обложек альбомов в &amarok; с Amazon.com</entry>
+</row>
+
+<row>
+<entry
+>--without-arts</entry>
+<entry
+>Включено</entry>
+<entry
+>Отключить поддержку aRts в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--without-gstreamer</entry>
+<entry
+>Включено</entry>
+<entry
+>Отключить поддержку GStreamer в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--with-helix</entry>
+<entry
+>Включено</entry>
+<entry
+>Включить поддержку Helix в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--without-xine</entry>
+<entry
+>Включено</entry>
+<entry
+>Отключить поддержку xine в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--with-nmm</entry>
+<entry
+>Отключено</entry>
+<entry
+>Включить поддержку NMM в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--with-mas</entry>
+<entry
+>Отключено</entry>
+<entry
+>Включить поддержку MAS в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--without-opengl</entry>
+<entry
+>Включено</entry>
+<entry
+>Отключить поддержку OpenGL (анализатор) в &amarok;</entry>
+</row>
+
+<row>
+<entry
+>--without-included-sqlite</entry>
+<entry
+>Включено</entry>
+<entry
+>Использовать уже установленную библиотеку sqlite вместо идущей в комплекте с &amarok;</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+</sect1>
+
+</appendix>
+
+&documentation.index;
+
+</book>

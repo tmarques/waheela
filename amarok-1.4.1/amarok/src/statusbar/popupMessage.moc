@@ -1,0 +1,104 @@
+/****************************************************************************
+** KDE::PopupMessage meta object code from reading C++ file 'popupMessage.h'
+**
+** Created: Fri Mar 23 10:51:17 2007
+**      by: The Qt MOC ($Id: qt/moc_yacc.cpp   3.3.6   edited Mar 8 17:43 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "popupMessage.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.3.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *KDE::PopupMessage::className() const
+{
+    return "KDE::PopupMessage";
+}
+
+QMetaObject *KDE::PopupMessage::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_KDE__PopupMessage( "KDE::PopupMessage", &KDE::PopupMessage::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString KDE::PopupMessage::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "KDE::PopupMessage", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString KDE::PopupMessage::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "KDE::PopupMessage", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* KDE::PopupMessage::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = OverlayWidget::staticMetaObject();
+    static const QUMethod slot_0 = {"close", 0, 0 };
+    static const QUMethod slot_1 = {"display", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "close()", &slot_0, QMetaData::Public },
+	{ "display()", &slot_1, QMetaData::Public }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"KDE::PopupMessage", parentObject,
+	slot_tbl, 2,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_KDE__PopupMessage.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* KDE::PopupMessage::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "KDE::PopupMessage" ) )
+	return this;
+    return OverlayWidget::qt_cast( clname );
+}
+
+bool KDE::PopupMessage::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: close(); break;
+    case 1: display(); break;
+    default:
+	return OverlayWidget::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool KDE::PopupMessage::qt_emit( int _id, QUObject* _o )
+{
+    return OverlayWidget::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool KDE::PopupMessage::qt_property( int id, int f, QVariant* v)
+{
+    return OverlayWidget::qt_property( id, f, v);
+}
+
+bool KDE::PopupMessage::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

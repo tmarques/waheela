@@ -1,0 +1,347 @@
+<chapter id="configuring-kapp">
+<title>Configuring &amarok;</title>
+
+
+<para>&amarok; is easily configured from the configuration dialog. The configuration dialog has multiple tabs for configuring different functions of &amarok;.</para>
+
+<para>The configuration dialog can be found by selecting <guimenuitem>Configure &amarok;</guimenuitem> in the player <link linkend="rmb-menu">&RMB; menu</link>.</para>
+
+
+<sect1 id="general-options">
+<title>General Options</title>
+
+<screenshot>
+	<screeninfo>General Options Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_general.png" format="PNG"/></imageobject>
+</mediaobject>
+</screenshot>
+
+<para>The General Options tab is divided into two sections, <guimenuitem>General Options</guimenuitem> and <guimenuitem>Playlist Options</guimenuitem>.</para>
+
+
+<variablelist>
+<varlistentry>
+<term><menuchoice><guimenu>General Options</guimenu></menuchoice></term>
+<listitem>
+<para>In the General Options section you can configure some basic &amarok; options.</para>
+
+<para>Your first option, <guilabel>Show splash-screen on startup</guilabel> is used to enable the use of the splash screen when you start &amarok;.</para>
+
+<para>Following the splash screen is the <guilabel>Show tray icon</guilabel> option allowing you to turn the tray icon on or off.</para>
+ 
+<para>The <guilabel>Animate tray icon</guilabel> option is used to enable or disable the status animation of the tray icon.</para>
+
+<para>Next is the <guilabel>Show player window</guilabel> option. Checking this option turns on the <link linkend="player-window">Player Window</link> along with the <link linkend="playlist-window">Playlist Window</link> similar to XMMS. Un-checked this option enables only the playlist in a configuration similar to JUK.</para>
+
+<para>The last option, <guilabel>Default size of cover previews</guilabel> is a spin box for adjusting the size of the album cover image in the Context Browser for <guilabel>Currently Playing:</guilabel>.</para>
+
+</listitem>
+</varlistentry>
+
+
+
+<varlistentry>
+<term><menuchoice><guimenu>Playlist Options</guimenu></menuchoice></term>
+<listitem>
+<para>In the Playlist Options section you can configure the playlist's behavior.</para>
+
+<para>The first option <guilabel>Remember current playlist on exit</guilabel> is for saving your playlist upon exiting &amarok;. Check this if you want to save your current playlist when you exit &amarok;.</para>
+
+<para>The <guilabel>Hide playlist with main window</guilabel> option when checked hides the <link linkend="playlist-window">Playlist Window</link> when you hide the <link linkend="player-window">Player Window</link>. Unchecked this option allows you to hide the <link linkend="player-window">Player Window</link> alone so that you can control &amarok; completely from the <link linkend="playlist-window">Playlist Window</link>.</para>
+
+<para>The <guilabel>Playlist scrolls with active song</guilabel> option automatically scrolls the <link linkend="playlist">Playlist</link> to show the currently playing song.</para>
+
+<para>The <guilabel>Add directories recursively</guilabel> option is handy when you would like to add media from a directory and all of it's sub-directories all at once.</para>
+
+<para>The <guilabel>Show statusbar</guilabel> option is used to enable or disable the <link linkend="statusbar">Statusbar</link> in the <link linkend="playlist-window">Playlist Window</link>.</para>
+
+<para>Finally, the <guilabel>Auto show Context-Browser</guilabel> option is used to activate the context browser automatically when you start playback.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+
+<sect1 id="configure-appearance">
+<title>Configure Appearance</title>
+
+<screenshot>
+	<screeninfo>Configure Appearance Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_appearance.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para>The Appearance tab allows you to configure how &amarok; looks. The tab is divided into three sections.</para>
+
+<variablelist>
+
+<varlistentry>
+<term><menuchoice><guimenu>Fonts</guimenu></menuchoice></term>
+<listitem>
+
+<para>The fonts section is used for selecting the fonts to be used with &amarok;. Selecting the <guilabel>Use custom fonts</guilabel> checkbox enables font selection for &amarok;. The available choices are for the <link linkend="player-window">Player Window</link>, the <link linkend="playlist-window">Playlist Window</link>, and the Context Browser. By clicking the <guibutton>Choose</guibutton> button you can choose a font from the Select Fonts dialog.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term><menuchoice><guimenu>Color Scheme</guimenu></menuchoice></term>
+<listitem>
+
+<para>The color scheme section is used to choose the color scheme for &amarok;. <guilabel>The current KDE color-scheme</guilabel> selection makes &amarok; follow your current KDE colors. <guilabel>The classic amaroK, "funky-monkey", theme</guilabel> selection makes &amarok; follow the colors of the original &amarok;. Finally, choosing the <guilabel>Custom color scheme</guilabel> enables color selectors for choosing a custom color scheme for &amarok;.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term><menuchoice><guimenu>Tags</guimenu></menuchoice></term>
+<listitem>
+
+<para>The tags section is for choosing an encoding for your ID3v1 tags. Enabling the <guilabel>Recode ID3v1 tags</guilabel> checkbox enables a drop box for choosing the encoding that you want to use.</para>
+
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+
+<sect1 id="configure-playback">
+<title>Configure Playback</title>
+
+
+<screenshot>
+	<screeninfo>Configure Playback Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_playback.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para>The Configure Playback tab provides an interface for configuring your audio playback characteristics.</para>
+
+<variablelist>
+<varlistentry>
+<term><menuchoice><guimenu>Transition Behavior</guimenu></menuchoice></term>
+<listitem>
+<para>You can configure how &amarok; transitions from one song to the next. <guilabel>No Crossfading</guilabel> provides a silent gap specified in milliseconds. <guilabel>Crossfade</guilabel> provides a nice fading effect, the crossfade period is also specified in milliseconds.</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term><menuchoice><guimenu>Remaining Options</guimenu></menuchoice></term>
+<listitem>
+<para>The remainder of the Playback tab contains several check boxes to configure the the following options:</para>
+
+<para><guilabel>Resume playback on start</guilabel> allows you to resume upon startup the last song that was playing when &amarok; was last closed.  </para>
+
+<para><guilabel>Use hardware volume mixer</guilabel> configures your &amarok; volume slider to adjust your sound card's mixer to control the volume level.</para>
+
+<para><guilabel>Remember effects</guilabel> saves your sound server effects, which are configured with the <guibutton>FX</guibutton> button on the <link linkend="player-window">Player Window</link>.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+</sect1>
+
+
+
+<sect1 id="configure-osd">
+<title>Configure On-Screen-Display</title>
+
+<screenshot>
+	<screeninfo>Configure OSD Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_osd.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<variablelist>
+<varlistentry>
+<term><menuchoice><guimenu>Configure On-Screen-Display</guimenu></menuchoice></term>
+<listitem>
+<para>The <guilabel>Configure On-Screen-Display</guilabel> tab allows you to activate the On-Screen-Display. If the On-Screen-Display check box is selected an area is activated for configuring the look of the display. When the On-Screen-Display is activated a preview widget will also be displayed allowing you to see the effects of your changes to the look of the On-Screen-Display</para>
+
+<para>The first option for the OSD is the Font. Clicking the <guibutton>Choose</guibutton> button will open a Font Selection dialog allowing you to choose the font used in the OSD. There is also a <guilabel>Draw shadow</guilabel> checkbox to enable or disable the use of Shadowed text in the OSD</para>
+
+<para>The next option is for the OSD colors. Checking the <guilabel>Use custom colors</guilabel> checkbox enables the <guibutton>Text color:</guibutton> and <guibutton>Background color:</guibutton> buttons. Clicking the buttons opens a dialog to choose the color OSD Text or OSD Background. If the <guilabel>Use custom colors</guilabel> checkbox is disabled the OSD will follow your current &kde; color scheme.</para>
+
+<para>The <guilabel>Display Text</guilabel> text input box is used for configuring the text shown in the OSD. By assigning variables you can customize the OSD to suit your needs. Below is a list of the variables and the text they represent.</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Text</entry>
+<entry>Variable</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>Title</entry>
+<entry>%title</entry>
+</row>
+
+<row>
+<entry>Album</entry>
+<entry>%album</entry>
+</row>
+
+<row>
+<entry>Artist</entry>
+<entry>%artist</entry>
+</row>
+
+<row>
+<entry>Genre</entry>
+<entry>%genre</entry>
+</row>
+
+<row>
+<entry>Bitrate</entry>
+<entry>%bitrate</entry>
+</row>
+
+<row>
+<entry>Year</entry>
+<entry>%year</entry>
+</row>
+
+<row>
+<entry>Track Length</entry>
+<entry>%length</entry>
+</row>
+
+<row>
+<entry>Track Number</entry>
+<entry>%track</entry>
+</row>
+
+<row>
+<entry>Filename</entry>
+<entry>%file</entry>
+</row>
+
+<row>
+<entry>Comment</entry>
+<entry>%comment</entry>
+</row>
+
+<row>
+<entry>Score</entry>
+<entry>%score</entry>
+</row>
+
+<row>
+<entry>Playcount</entry>
+<entry>%playcount</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>The <guilabel>Duration</guilabel> spin box is used to adjust the time, in milliseconds, that the OSD is displayed on your desktop.</para>
+
+<para>The <guilabel>Screen</guilabel> option is for xinerama users only. This option is used to determine what screen the OSD will be shown on in a multiple monitor setup.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="configure-engine">
+<title>Configure Engine</title>
+
+<screenshot>
+	<screeninfo>Configure Engine Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_engine.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para>The Configure Engine tab allows you to choose a sound engine from a list in the drop box. Some engines may enable more options in this tab and is dependent on the engine you select.</para>
+
+</sect1>
+
+<sect1 id="configure-collection">
+<title>Configure Collection</title>
+
+<screenshot>
+	<screeninfo>Configure Collection Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_collection.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para>The Configure Collection tab is used for configuring all the collection options. These include the folders used in your collection, and the type of database used for the collection. This dialog is divided into two sections, Collection Folders and Collection Database.</para>
+
+<variablelist>
+<varlistentry>
+<term><menuchoice><guimenu>Collection Folders</guimenu></menuchoice></term>
+<listitem>
+
+<para>The <guilabel>Collection Folders</guilabel> allows selection of folders used in your collection by displaying your filesystem in a tree view. The <guilabel>Collection Folders</guilabel> section also has several check boxes to configure how the collection uses the selected folders.</para>
+
+<para>Enable the <guilabel>Scan folders recursively</guilabel> check box if you would like the collection to scan the selected folders and all of there sub-folders. If you would like the collection to watch for changes made to your filesystem, enable the <guilabel>Watch folders for changes</guilabel> check box. Finally, if you would like to import any playlists found in your collection, enable the <guilabel>Import Playlists</guilabel> check box.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term><menuchoice><guimenu>Collection Database</guimenu></menuchoice></term>
+<listitem>
+
+<para>The <guilabel>Collection Database</guilabel> section is used to select a database to use for the collection. Use the <guilabel>Engine:</guilabel> combo box to select from either Sqlite or MySql. If MySql is selected, additional configuration is required in the <guilabel>MySql Configuration</guilabel> section.</para>
+
+<para>The <guilabel>MySql Configuration</guilabel> section is for configuring what database &amarok; uses, and where it is located. First is the <guilabel>Hostname:</guilabel>, which is where the MySql database is located. Next is the <guilabel>Port:</guilabel>, which is the network port used when connecting to the database. The <guilabel>Name:</guilabel> option, is the actual database to connect to.</para>
+
+<para>Use the <guilabel>Username:</guilabel> and <guilabel>Password:</guilabel> text input boxes to specify the username and password used for connecting to the MySql database.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="configure-scrobbler">
+<title>Configure Scrobbler</title>
+
+<screenshot>
+	<screeninfo>Configure Scrobbler Screenshot</screeninfo>
+	<mediaobject>
+	<imageobject><imagedata fileref="config_scrobbler.png" format="PNG"/></imageobject>
+	</mediaobject>
+</screenshot>
+
+<para>The Scrobbler tab configures the Audioscrobbler support in &amarok;. Audioscrobbler submits the tracks that you play and matches your profile with other people having the same musical tastes and generates recommendations based on your profile.</para>
+
+<variablelist>
+<varlistentry>
+<term><menuchoice><guimenu>Audioscrobbler Profile</guimenu></menuchoice></term>
+<listitem>
+
+<para>Here is where you will fill in your <guilabel>Username:</guilabel> and <guilabel>Password:</guilabel> of your Audioscrobbler profile. If you do not have an Audioscrobbler profile you can <ulink url="http://www.audioscrobbler.com:80/signup.php">register here</ulink>.</para>
+
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term><menuchoice><guimenu>Track Submission</guimenu></menuchoice></term>
+<listitem>
+
+<para>By submitting that tracks you play &amarok; can suggest new music to listen to in the Context Browser. Checking the <guilabel>Submit the tracks I play</guilabel> checkbox will enable this feature and will submit your played tracks to your Audioscrobbler profile.</para>
+
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+</chapter>

@@ -1,0 +1,1000 @@
+<chapter id="advanced-features">
+<title>Advanced amaroK features</title>
+
+
+<sect1 id="keybd-shortcuts">
+<title>Keyboard Shortcuts</title>
+
+<para>&amarok; uses keyboard shortcuts like most other applications, below is a listing of those shortcuts and there respective actions. The global shortcuts can be configured by right clicking the Player window and selecting <guimenuitem>Configure Global Shortcuts...</guimenuitem> The &amarok; shortcuts can be configured by right clicking the Player window and selecting <guimenuitem>Configure Shortcuts...</guimenuitem></para>
+
+<tip><para>You can assign you multimedia keys to work as &amarok; shortcuts making your keyboard an &amarok; control center.</para></tip>
+
+<para>The global shortcuts are:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Key Combination</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>X</keycap></keycombo></entry>
+<entry>Play</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>C</keycap></keycombo></entry>
+<entry>Pause</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>V</keycap></keycombo></entry>
+<entry>Stop</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>B</keycap></keycombo></entry>
+<entry>Next Track</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>Z</keycap></keycombo></entry>
+<entry>Previous Track</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>KP_Add</keycap></keycombo></entry>
+<entry>Increase Volume</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>KP_Subtract</keycap></keycombo></entry>
+<entry>Decrease Volume</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>Shift</keycap><keycap>KP_Add</keycap></keycombo></entry>
+<entry>Seek Forward</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>Shift</keycap><keycap>KP_Subtract</keycap></keycombo></entry>
+<entry>Seek Backward</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>A</keycap></keycombo></entry>
+<entry>Add Media</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>P</keycap></keycombo></entry>
+<entry>Toggle Playlist</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>O</keycap></keycombo></entry>
+<entry>Show OSD</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Win</keycap><keycap>M</keycap></keycombo></entry>
+<entry>Mute Volume</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>The &amarok; shortcuts are:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Key Combination</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo></entry>
+<entry>Copy</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>KP_Enter</keycap></keycombo></entry>
+<entry>Goto Current</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>D</keycap></keycombo></entry>
+<entry>Queue Selected Tracks</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo></entry>
+<entry>Quit</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>Z</keycap></keycombo></entry>
+<entry>Redo</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo></entry>
+<entry>Save Playlist</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo></entry>
+<entry>Select All</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>M</keycap></keycombo></entry>
+<entry>Show Menubar</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>H</keycap></keycombo></entry>
+<entry>Shuffle</entry>
+</row>
+
+<row>
+<entry><keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo></entry>
+<entry>Undo</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+<para>The Playlist Browser shortcuts are:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Key Combination</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry><keycap>Space</keycap></entry>
+<entry>Load Playlist</entry>
+</row>
+
+<row>
+<entry><keycap>F2</keycap></entry>
+<entry>Rename Playlist</entry>
+</row>
+
+<row>
+<entry><keycap>Backspace</keycap></entry>
+<entry>Remove Playlist</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+<sect1 id="the-dcop-interface">
+<title>The DCOP Interface</title>
+
+<para>The amaroK DCOP interface provides you with an easy way to control amaroK with your own custom scripts.</para>
+
+<para>The DCOP interface for amaroK has many generic calls that may be found in other KDE applications. This section is divided into four tables and is intended to describe the DCOP calls of the collection, player, playlist, and scripts. An example of the <quote>pause</quote> dcop call would look like:</para>
+
+<para><prompt>&percnt;</prompt>dcop amarok player pause</para>
+
+<sect2 id="dcop-collection">
+<title>dcop amarok collection</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>DCOP Call</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>query</entry>
+<entry>The <quote>query</quote> call allows you to send direct database queries to &amarok;'s collection.</entry>
+</row>
+
+<row>
+<entry>scanCollection</entry>
+<entry>The <quote>scanCollection</quote> call performs a manual scan of your collection.</entry>
+</row>
+
+<row>
+<entry>scanCollectionChanges</entry>
+<entry>The <quote>scanCollectionChanges</quote> call performs a manual scan for changes to your collection.</entry>
+</row>
+
+<row>
+<entry>similarArtists</entry>
+<entry>The <quote>similarArtists</quote> call returns the similar artists of the current track. Results are limited to an integer value of <quote>artists</quote>.</entry>
+</row>
+
+<row>
+<entry>totalAlbums</entry>
+<entry>The <quote>totalAlbums</quote> call returns the total number of albums in your collection.</entry>
+</row>
+
+<row>
+<entry>totalArtists</entry>
+<entry>The <quote>totalArtists</quote> call returns the total number of artists in your collection.</entry>
+</row>
+
+<row>
+<entry>totalCompilations</entry>
+<entry>The <quote>totalCompilations</quote> call returns the total number of compilations in your collection.</entry>
+</row>
+
+<row>
+<entry>totalGenres</entry>
+<entry>The <quote>totalGenres</quote> call returns the total number of genres in your collection.</entry>
+</row>
+
+<row>
+<entry>totalTracks</entry>
+<entry>The <quote>totalTracks</quote> call returns the total number of tracks in your collection.</entry>
+</row>
+
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-player">
+<title>dcop amarok player</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>DCOP Call</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>album</entry>
+<entry>The <quote>album</quote> call returns the album of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>artist</entry>
+<entry>The <quote>artist</quote> call returns the artist of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>bitrate</entry>
+<entry>The <quote>bitrate</quote> call returns the bitrate of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>comment</entry>
+<entry>The <quote>comment</quote> call returns the comment of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>coverImage</entry>
+<entry>The <quote>coverImage</quote> call returns the URL to the current track's cover image.</entry>
+</row>
+
+<row>
+<entry>currentTime</entry>
+<entry>The <quote>currentTime</quote> call returns the position (mm:ss) of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>encodedURL</entry>
+<entry>The <quote>encodedURL</quote> returns the URL for the current track with spaces encoded.</entry>
+</row>
+
+<row>
+<entry>engine</entry>
+<entry>The <quote>engine</quote> returns the current audio engine.</entry>
+</row>
+
+<row>
+<entry>genre</entry>
+<entry>The <quote>genre</quote> call returns the genre of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>lyrics</entry>
+<entry>The <quote>lyrics</quote> call returns the cached lyrics of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>lyricsByPath</entry>
+<entry>The <quote>lyricsByPath</quote> call returns the cached lyrics of a track specified by it's path.</entry>
+</row>
+
+<row>
+<entry>nowPlaying</entry>
+<entry>The <quote>nowPlaying</quote> call returns <quote>Artist - Title</quote> of the currently playing track. If one of both id3 tags is empty, only <quote>Artist</quote> or <quote>Title</quote> is shown (without the <quote>-</quote>).</entry>
+</row>
+
+<row>
+<entry>path</entry>
+<entry>The <quote>path</quote> call returns the filesystem path to the current track.</entry>
+</row>
+
+<row>
+<entry>setContextStyle</entry>
+<entry>The <quote>setContextStyle</quote> call sets the Context Browser's CSS theme specified by it's name.</entry>
+</row>
+
+<row>
+<entry>title</entry>
+<entry>The <quote>title</quote> call returns the title of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>totalTime</entry>
+<entry>The <quote>totalTime</quote> call returns the total time (mm:ss) of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>track</entry>
+<entry>The <quote>track</quote> call returns the track number of the current track.</entry>
+</row>
+
+<row>
+<entry>year</entry>
+<entry>The <quote>year</quote> call returns the year of the currently playing track.</entry>
+</row>
+
+<row>
+<entry>dynamicModeStatus</entry>
+<entry>The <quote>dynamicModeStatus</quote> call returns a value of true or false to indicate if the dynamic mode is enabled.</entry>
+</row>
+
+<row>
+<entry>equalizerEnabled</entry>
+<entry>The <quote>equalizerEnabled</quote> call returns a value of true or false to indicate if the equalizer is enabled.</entry>
+</row>
+
+<row>
+<entry>isPlaying</entry>
+<entry>The <quote>isPlaying</quote> call returns a value of true or false to indicate if the player is playing or not.</entry>
+</row>
+
+<row>
+<entry>randomModeStatus</entry>
+<entry>The <quote>randomModeStatus</quote> call returns the status of Random Mode with a value of true or false.</entry>
+</row>
+
+<row>
+<entry>repeatPlaylistStatus</entry>
+<entry>The <quote>repeatPlaylistStatus</quote> call returns the status of Repeat Playlist with a value of true or false.</entry>
+</row>
+
+<row>
+<entry>repeatTrackStatus</entry>
+<entry>The <quote>repeatTrackStatus</quote> call returns the status of Repeat Track with a value of true or false.</entry>
+</row>
+
+<row>
+<entry>getVolume</entry>
+<entry>The <quote>getVolume</quote> call returns a value for the volume level specified by a value of 0-100.</entry>
+</row>
+
+<row>
+<entry>sampleRate</entry>
+<entry>The <quote>sampleRate</quote> call returns the sample rate of the current track.</entry>
+</row>
+
+<row>
+<entry>score</entry>
+<entry>The <quote>score</quote> call returns the current track's score.</entry>
+</row>
+
+<row>
+<entry>setLyricsByPath</entry>
+<entry>The <quote>setLyricsByPath</quote> call sets the lyrics of a track specified by it's path. Use the <quote>lyrics</quote> call for viewing examples of proper html formatting.</entry>
+</row>
+
+<row>
+<entry>status</entry>
+<entry>The <quote>status</quote> call returns a value for the engine status, 2 for playing, 1 for paused, and 0 for idle.</entry>
+</row>
+
+<row>
+<entry>trackCurrentTime</entry>
+<entry>The <quote>trackCurrentTime</quote> call returns a value of the current elapsed track time in seconds.</entry>
+</row>
+
+<row>
+<entry>trackPlayCounter</entry>
+<entry>The <quote>trackPlayCounter</quote> call returns the number of times the current track has been played.</entry>
+</row>
+
+<row>
+<entry>trackTotalTime</entry>
+<entry>The <quote>trackTotalTime</quote> call returns a value of the current track's total time in seconds.</entry>
+</row>
+
+<row>
+<entry>configEqualizer</entry>
+<entry>The <quote>configEqualizer</quote> call raises the equalizer configuration window.</entry>
+</row>
+
+<row>
+<entry>enableDynamicMode</entry>
+<entry>The <quote>enableDynamicMode</quote> call is used to toggle the dynamic mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry>enableOSD</entry>
+<entry>The <quote>enableOSD</quote> call allows you to toggle the On-Screen-Display with a true or false value</entry>
+</row>
+
+<row>
+<entry>enableRandomMode</entry>
+<entry>The <quote>enableRandomMode</quote> call is used to toggle the random mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry>enableRepeatPlaylist</entry>
+<entry>The <quote>enableRepeatPlaylist</quote> call is used to toggle the repeat playlist mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry>enableRepeatTrack</entry>
+<entry>The <quote>enableRepeatTrack</quote> call is used to toggle the repeat track mode with a value of 0 for disabled, and 1 for enabled.</entry>
+</row>
+
+<row>
+<entry>mute</entry>
+<entry>The <quote>mute</quote> call allows you to mute and unmute the playing track.</entry>
+</row>
+
+<row>
+<entry>next</entry>
+<entry>The <quote>next</quote> call advances the player one track.</entry>
+</row>
+
+<row>
+<entry>pause</entry>
+<entry>The <quote>pause</quote> call pauses the currently playing track.</entry>
+</row>
+
+<row>
+<entry>play</entry>
+<entry>The <quote>play</quote> call starts the player from where it was last stopped.</entry>
+</row>
+
+<row>
+<entry>playPause</entry>
+<entry>The <quote>playPause</quote> call starts the player if it is currently stopped or paused. This call also pauses the player if it is currently playing a track.</entry>
+</row>
+
+<row>
+<entry>prev</entry>
+<entry>The <quote>prev</quote> call moves the player back one track.</entry>
+</row>
+
+<row>
+<entry>seek</entry>
+<entry>The <quote>seek</quote> call is used to seek to a specific point in a track by a value specified in seconds.</entry>
+</row>
+
+<row>
+<entry>seekRelative</entry>
+<entry>The <quote>seekRelative</quote> call is used to seek to a position relative to the current track position by a value specified in seconds.</entry>
+</row>
+
+<row>
+<entry>setEqualizer</entry>
+<entry>The <quote>setEqualizer</quote> call uses eleven space delimited integers to set the equalizer slider values. The slider values range from -255 as the lowest value, and 255 as the highest. The first integer is used to set the pre-amp value, the remaining integers set the pre-amp response frequency values from 60Hz to 16kHz.</entry>
+</row>
+
+<row>
+<entry>setEqualizerEnabled</entry>
+<entry>The <quote>setEqualizerEnabled</quote> call is used to enable the equalizer using a true or false value.</entry>
+</row>
+
+<row>
+<entry>setScore</entry>
+<entry>The <quote>setScore</quote> call sets the score of the current track specified by a number from 0 to 100.</entry>
+</row>
+
+<row>
+<entry>setScoreByPath</entry>
+<entry>The <quote>setScoreByPath</quote> call sets the score of a track specified by it's path followed by it's score specified by a number from 0 to 100.</entry>
+</row>
+
+<row>
+<entry>setVolume</entry>
+<entry>The <quote>setVolume</quote> call adjusts the volume to a level specified by a value from 0 to 100.</entry>
+</row>
+
+<row>
+<entry>showBrowser</entry>
+<entry>The <quote>showBrowser</quote> calls shows a browser in the playlist window. Valid browser values are context, collection, playlist, media and file.</entry>
+</row>
+
+<row>
+<entry>showOSD</entry>
+<entry>The <quote>showOSD</quote> call raises the OSD to show the current track information.</entry>
+</row>
+
+<row>
+<entry>stop</entry>
+<entry>The <quote>stop</quote> call will stop the player if it is currently playing.</entry>
+</row>
+
+<row>
+<entry>volumeDown</entry>
+<entry>The <quote>volumeDown</quote> call adjusts the volume down one step.</entry>
+</row>
+
+<row>
+<entry>volumeUp</entry>
+<entry>The <quote>volumeUp</quote> call adjusts the volume up one step.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-playlist">
+<title>dcop amarok playlist</title>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>DCOP Call</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>saveCurrentPlaylist</entry>
+<entry>The <quote>saveCurrentPlaylist</quote> call saves the current playlist as ~/.kde/share/apps/amarok/current.xml.</entry>
+</row>
+
+<row>
+<entry>getActiveIndex</entry>
+<entry>The <quote>getActiveIndex</quote> call returns an integer value for the current track's position in the playlist.</entry>
+</row>
+
+<row>
+<entry>getTotalTrackCount</entry>
+<entry>The <quote>getTotalTrackCount</quote> call returns the total number of tracks in the playlist.</entry>
+</row>
+
+<row>
+<entry>addMedia</entry>
+<entry>The <quote>addMedia</quote> call is used to add single files to the playlist.</entry>
+</row>
+
+<row>
+<entry>addMediaList</entry>
+<entry>The <quote>addMediaList</quote> call is used to add multiple files to the playlist.</entry>
+</row>
+
+<row>
+<entry>clearPlaylist</entry>
+<entry>The <quote>clearPlaylist</quote> call is used to clear the entire playlist.</entry>
+</row>
+
+<row>
+<entry>playByIndex</entry>
+<entry>The <quote>playByIndex</quote> call starts playback of a track by it's position in the playlist. </entry>
+</row>
+
+<row>
+<entry>playMedia</entry>
+<entry>The <quote>playMEDIA</quote> call starts playback of a track specified by it's KURL.</entry>
+</row>
+
+<row>
+<entry>popupMessage</entry>
+<entry>The <quote>popupMessage</quote> call starts a popup mesage in the playlist window. The popup message is specified with a QString.</entry>
+</row>
+
+<row>
+<entry>repopulate</entry>
+<entry>The <quote>repopulate</quote> call repopulates the playlist with tracks from dynamic mode.</entry>
+</row>
+
+<row>
+<entry>removeCurrentTrack</entry>
+<entry>The <quote>removeCurrentTrack</quote> call removes the current track from the playlist.</entry>
+</row>
+
+<row>
+<entry>saveM3u</entry>
+<entry>The <quote>saveM3u</quote> call saves the current playlist in the M3U format. You must specify the path to save the file as, and include a value of 0 or 1 to indicate whether or not to write relative paths.</entry>
+</row>
+
+<row>
+<entry>setStopAfterCurrent</entry>
+<entry>The <quote>setStopAfterCurrent</quote> call stops playback of the playlist after the current track has completed.</entry>
+</row>
+
+<row>
+<entry>shortStatusMessage</entry>
+<entry>The <quote>shortStatusMessage</quote> call displays a string of text as a message in the status bar.</entry>
+</row>
+
+<row>
+<entry>shufflePlaylist</entry>
+<entry>The <quote>shufflePlaylist</quote> call randomizes the order of the tracks in the playlist.</entry>
+</row>
+
+<row>
+<entry>togglePlaylist</entry>
+<entry>The <quote>togglePlaylist</quote> call toggles the use of the playlist window either on or off.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect2>
+
+<sect2 id="dcop-script">
+<title>dcop amarok script</title>
+
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>DCOP Call</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>listRunningScripts</entry>
+<entry>The <quote>listRunningScripts</quote> call will list all running &amarok; scripts.</entry>
+</row>
+
+<row>
+<entry>runScript</entry>
+<entry>The <quote>runScript</quote> call will start an &amarok; script specified by it's name.</entry>
+</row>
+
+<row>
+<entry>stopScript</entry>
+<entry>The <quote>stopScript</quote> call will stop an &amarok; script specified by it's name.</entry>
+</row>
+
+<row>
+<entry>addCustomMenuItem</entry>
+<entry>The <quote>addCustomMenuItem</quote> call adds a menu item to the playlist context menu. This call takes two QStrings, the first for the submenu title, the second for the item's title in the submenu. Both QStrings are returned in the script manager notification system.</entry>
+</row>
+
+<row>
+<entry>removeCustomMenuItem</entry>
+<entry>The <quote>removeCustomMenuItem</quote> call removes menu items added to the playlist context menu using the addCustomMenuItem call. This call uses the same QStrings as addCustomMenuItem.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="cmd-line-options">
+<title>Command-line Options</title>
+
+<para>amaroK supports the use of the standard Qt and kde command line options. amaroK also has it's own application specific options.</para>
+
+<para>The Qt and kde options:</para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Option</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>--help</entry>
+<entry>Show help about options.</entry>
+</row>
+
+<row>
+<entry>--help-qt</entry>
+<entry>Show Qt specific options.</entry>
+</row>
+
+<row>
+<entry>--help-kde</entry>
+<entry>Show KDE specific options.</entry>
+</row>
+
+<row>
+<entry>--help-all</entry>
+<entry>Show all options.</entry>
+</row>
+
+<row>
+<entry>--author</entry>
+<entry>Show author information.</entry>
+</row>
+
+<row>
+<entry>-v, --version</entry>
+<entry>Show version information.</entry>
+</row>
+
+<row>
+<entry>--license</entry>
+<entry>Show license information.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>The amaroK options:</para>
+
+<note><para>The &amarok; options are designed to be used while &amarok; is running.</para></note>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+
+<row>
+<entry>Option</entry>
+<entry>Action</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>-r, --previous</entry>
+<entry>Skip to the previous track in the playlist.</entry>
+</row>
+
+<row>
+<entry>-p, --play</entry>
+<entry>Start playing current playlist.</entry>
+</row>
+
+<row>
+<entry>-s, --stop</entry>
+<entry>Stop playback.</entry>
+</row>
+
+<row>
+<entry>--pause</entry>
+<entry>Pause playback.</entry>
+</row>
+
+<row>
+<entry>-f, --next</entry>
+<entry>Skip to the next track in the playlist.</entry>
+</row>
+
+<row>
+<entry>-a, --append</entry>
+<entry>Append Files/URLs into the playlist.</entry>
+</row>
+
+<row>
+<entry>-e, --enqueue</entry>
+<entry>See append, available for backwards compatability.</entry>
+</row>
+
+<row>
+<entry>--queue</entry>
+<entry>Queue Files/URLs after the currently playing track.</entry>
+</row> 
+
+<row>
+<entry>-m, --toggle-playlist-window</entry>
+<entry>Toggle the playlist window.</entry>
+</row>
+
+<row>
+<entry>--wizard</entry>
+<entry>Launch the First-run wizard.</entry>
+</row>
+
+<row>
+<entry>--engine "name"</entry>
+<entry>Start &amarok; with the "name" engine.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect1>
+
+
+<sect1 id="script-writing">
+<title>Script Writing</title>
+
+<para>Scripting allows you to extend &amarok; easily without changing the main codebase. Scripts are similar to plugins, but instead of a dedicated plugin API they use &amarok;'s DCOP interface for communication. This makes it possible to write scripts in almost any programming language, like Ruby, Python or PHP. Not only can you create scripts in classic scripting languages, but also in compiled languages like C++ or plain C. Additionally, &amarok; can notify the scripts on special events and make them react accordingly. This notification system will be explained later in this section.</para>
+
+<sect2 id="script-bindings">
+<title>Bindings</title>
+
+<para>It is possible to write simple scripts that do not need user interaction, and it's also possible to make scripts with comfortable GUIs that act like little applications of their own. For GUI programming one of the many bindings which KDE provides can be used, for instance RubyQt, a Qt library binding for Ruby. However, it is worth noting that not every user has all available bindings installed. If you decide to use a binding, try to use one of the relatively wide spread ones (e.g. RubyQt or PyQt).</para>
+
+<para>In order to provide some feedback when a script fails to run due to a missing dependency, please check in your script if the module you want to include really exists. If the dependency is missing, you should catch the error and show an information dialog using the "kdialog" command line tool, so that the user learns why the script fails to run.</para>
+
+<para>This example shows how to catch a missing dependency in Ruby:</para>
+
+<programlisting>
+begin
+       require 'Korundum'
+rescue LoadError
+       error = 'Korundum (KDE bindings for ruby) from kdebindings v3.4 is required for this script.'
+       `kdialog --sorry '#{error}'`
+       exit
+end
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-templates">
+<title>Getting Started: The Templates</title>
+
+<para>&amarok; provides template scripts for several languages in the <filename class="directory">scripts/templates/</filename> directory. You can use these scripts as a basis for your own scripts, and extend them with the functionality you need. You'll notice that scripting is actually quite straightforward; For instance if you know to program a bit in Python, making your own script won't take you long.</para>
+
+</sect2>
+
+<sect2 id="script-controlling-amarok">
+<title>Controlling &amarok; With DCOP</title>
+
+<para>Scripts can control amaroK by calling some of its DCOP functions. The easiest way to invoke a DCOP function is by using the "dcop" command line utility, which is part of every KDE distribution.</para>
+
+<para>Here is an example for increasing the master volume:</para>
+
+<programlisting>dcop amarok player volumeUp</programlisting>
+
+<para>Most scripting languages allow to execute external programs, with a function like exec(). This way the "dcop" utility can be invoked easily. Here is a simple Python example:</para>
+
+<programlisting>
+ import os
+ os.system("dcop amarok player volumeDown")
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-notifications">
+<title>Notifications</title>
+
+<para>&amarok; sends notifications to all running scripts by writing strings to their stdin channel. The script should therefore constantly monitor stdin, and react accordingly to each of the possible events. Scripts may also choose to ignore any event they don't have a use for.</para>
+
+<para>The following notifications are sent by &amarok;:</para>
+
+<programlisting>
+<cmdsynopsis><command>configure</command></cmdsynopsis>
+Tells the script to show its configuration dialog. The script must handle the 
+storing and loading of configuration options by itself. When a script is 
+started, amaroK sets its working directory to the folder where all data 
+should be stored.
+</programlisting>
+
+<programlisting>
+<cmdsynopsis><command>engineStateChange:</command><arg>empty|idle|paused|playing</arg></cmdsynopsis>
+Signals a change in the engine's state.
+</programlisting>
+
+<programlisting>
+<cmdsynopsis><command>trackChange</command></cmdsynopsis>
+Signals the start of a new track. The script may then use DCOP functions to 
+query further information about the track, e.g. metadata and the length.
+</programlisting>
+
+<programlisting>
+<cmdsynopsis><command>volumeChange</command><arg>newVolume</arg></cmdsynopsis>
+Signals a change of the master volume level. The volume is an integer with a 
+range of 0-100.
+</programlisting>
+
+<programlisting>
+<cmdsynopsis><command>customMenuClicked:</command><arg>submenu itemTitle paths</arg></cmdsynopsis>
+Returns the paths to selected files in the playlist when the custom playlist 
+context menu item is clicked. The submenu and itemTitle are also returned for 
+identification purposes in case a script is listening for multiple notifications. 
+To insert an item into the context menu use the DCOP call 
+'dcop amarok script addCustomMenuItem( submenu itemTitle )'. To remove an
+item from the context menu use the DCOP call 
+'dcop amarok script removeCustomMenuItem( submenu itemTitle )'.
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-termination">
+<title>Script Termination</title>
+
+<para>Before &amarok; exits, or when the user stops a script with the Script Manager, &amarok; sends the SIGTERM signal to the script. This signal can be caught in order to do cleanup work, like saving data or configuration settings.</para>
+
+</sect2>
+
+<sect2 id="script-packaging">
+<title>Packaging</title>
+
+<para>&amarok;'s Script Manager is able to install script packages that the user has downloaded from a web server. Packages are just normal tarballs (.tar), optionally compressed with bzip2 (.bz2). We strongly recommend using a filename like myscript.amarokscript.tar.bz2, so the user can easily identify the package as an amaroK script.</para>
+
+<note><para>&amarok; 1.3 will only accept script packages with the amarokscript extension, so it is better to use it right from the start.</para></note>
+
+<para>The tarball's content must be organized as follows:</para>
+
+<programlisting>
+myscript/
+   README
+   myscript.py (executable)
+   somemodule.py
+   foo.data
+   ...
+</programlisting>
+
+</sect2>
+
+<sect2 id="script-permissions">
+<title>File permissions</title>
+
+<para>The main script must have executable (+x) permissions set, while additional modules which the script loads should not be executable. To preserve the file permissions in the tarball, you should use tar with the -p flag:</para>
+
+<programlisting>tar -cf myscript.amarokscript.tar -p myscript</programlisting>
+
+<note><para>&amarok; will not be able to install the script if the permissions are not correctly set.</para></note>
+
+</sect2>
+
+<sect2 id="script-distributing">
+<title>Distributing</title>
+
+<para>When the package is finished, you can upload it to <ulink url="http://www.kde-apps.org">www.kde-apps.org</ulink>, and add the link to the &amarok; <ulink url="http://amarok.kde.org/amarokwiki/index.php/Scripts">Wiki Scripts Page</ulink>. For the kde-apps entry you should use the <ulink url="http://kde-apps.org/index.php?xcontentmode=56">&amarok; Scripts</ulink> category.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>
+
